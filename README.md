@@ -14,4 +14,5 @@ The IIIFCollection project is a dynamic catalog based on IIIF. It emphasizes sev
 
 ![Screenshot](https://pbs.twimg.com/media/GmPDuFSbwAAR8O0?format=jpg&name=small "III Collecti")
 ## Accessing the catalog  
-You can access the catalog using any standard IIIF Viewer including Standard Mirador 3.0 or free instances of the <a href="https://iiif.biblissima.fr/mirador3/?iiif-content=[https://raw.githubusercontent.com/MehranDHN/AlbumKhaneh/refs/heads/main/IIIF2Collection.json](https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json)" target="_blank">Mirador in Biblissima</a>.
+You can access the catalog using any standard IIIF Viewer including Standard Mirador 3.0 or free instances of the
+<a href="https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json" target="_blank">Mirador in Biblissima</a>.
