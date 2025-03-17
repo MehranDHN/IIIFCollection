@@ -1,0 +1,95 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://raw.githubusercontent.com/MehranDHN/AlbumKhaneh/refs/heads/main/NewsMagazineCollection.json",
+    "@type": "sc:Collection",
+    "label": "News Magazine Collection",
+    "metadata": [
+        {
+            "label": "Publication/creation",
+            "value": "Tehran: MehranDHN"
+        },
+        {
+            "label": "Physical description",
+            "value": "Machine readable catalogue compatible with IIIF 2.0 Presentation API"
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "All items have coresponding IIIF 3.0 manifests with internal references to more details. The field seeAlso should be parsed carefully."
+        },
+        {
+            "label": "Subjects",
+            "value": "News, Illustration, Magazine, Travel, Life Styles, Politic, Culture, Art, Architecture, History, Geography, Archeology."
+        }
+    ],
+    "summary": {
+        "en": [
+            "Intended to catalogue all the Le Monde Illustre magazines related to the IRAN.",
+            "Created by : MehranDHN"
+        ]
+    },
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 4823,
+            "width": 3497,
+            "service": [
+                {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 4823,
+                    "width": 3497,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/AlbumKhaneh/refs/heads/main/IIIF2Collection.json",
+    "collections": [
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/AlbumKhaneh/refs/heads/main/LEMondeIllustreCollection.json",
+            "@type": "sc:Collection",
+            "label": "Le Monde Illustre",
+            "viewingHint": "multi-part",
+            "navDate": "1859-09-15T12:00:00.0000000Z",
+            "within": ""
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/AlbumKhaneh/refs/heads/main/LEPetitCollection.json",
+            "@type": "sc:Collection",
+            "label": "Le Petit journal",
+            "viewingHint": "multi-part",
+            "navDate": "1859-09-15T12:00:00.0000000Z",
+            "within": ""
+        }        
+    ]
+}
