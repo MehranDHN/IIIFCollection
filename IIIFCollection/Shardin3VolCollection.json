@@ -1,303 +1,310 @@
 {
-    "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://raw.githubusercontent.com/MehranDHN/AlbumKhaneh/refs/heads/main/Shardin3VolCollection.json",
-    "@type": "sc:Collection",
-    "label": "Jean Chardin 3 Vol Collection in Gallica",
-    "metadata": [
-        {
-            "label": "Publication/creation",
-            "value": "Tehran: MehranDHN"
-        },
-        {
-            "label": "Physical description",
-            "value": "Machine readable catalogue compatible with IIIF 2.0 Presentation API"
-        },
-        {
-            "label": "Contributors",
-            "value": "MehranDHN"
-        },
-        {
-            "label": "Notes",
-            "value": "All items have coresponding IIIF 3.0 manifests with internal references to more details. The field seeAlso should be parsed carefully."
-        },
-        {
-            "label": "Subjects",
-            "value": "Travel, Life Styles, Politic, Culture, Art, Architecture, History, Geography, Archeology."
-        }
-    ],
-    "summary": {
-        "en": [
-            "Chardin again started for Persia in August of 1671. Traveling with writer and artist Guillaume-Joseph Grelot. He was at Constantinople from March to July 1672. A quarrel between the grand vizier and the French ambassador made the position of French subjects dangerous, and Chardin escaped in a small vessel across the Black Sea, and made a most adventurous journey by Caffa, and through Georgia, and Armenia to Isfahan, which he reached in 1673. At Sapias, he was robbed by thugs in Samegrelo of all he possessed except two small bundles, worth £6,000. He stayed at Isfahan four years, following the court in all its removals, and making particular journeys throughout the land, from the Caspian to the Persian Gulf and the river Indus, and visiting several Indian cities. By these two journeys he realised a considerable fortune, and, deciding to return home, reached Europe in 1677 by a voyage round the Cape of Good Hope."
-        ]
+  "@context": [
+    "http://iiif.io/api/presentation/2/context.json",
+    {
+      "aat": "http://vocab.getty.edu/aat/",
+      "schema": "https://schema.org/",
+      "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/Shardin3VolCollection.json",
+  "@type": "sc:Collection",
+  "label": "Jean Chardin 3 Vol Collection in Gallica",
+  "metadata": [
+    {
+      "label": "Publication/creation",
+      "value": "Tehran: MehranDHN"
     },
-    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
-    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
-    "thumbnail": [
-        {
-            "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
-            "type": "Image",
-            "format": "image/jpeg",
-            "height": 4823,
-            "width": 3497,
-            "service": [
-                {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
-                    "type": "ImageService3",
-                    "profile": "level1",
-                    "height": 4823,
-                    "width": 3497,
-                    "extraFormats": [
-                        "png"
-                    ],
-                    "extraQualities": [
-                        "default",
-                        "color",
-                        "gray"
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "tiles": [
-                        {
-                            "height": 512,
-                            "scaleFactors": [
-                                1,
-                                2,
-                                4,
-                                8
-                            ],
-                            "width": 512
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "viewingHint": "multi-part",
-    "within": "https://raw.githubusercontent.com/MehranDHN/AlbumKhaneh/refs/heads/main/ShardinCollection.json",
-    "manifests": [
-        {
-            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k10503900/manifest.json",
-            "type": "Manifest",
-            "label": {
-                "en": [
-                    "Vol.1"
-                ]
-            },
-            "metadata": [
-                {
-                    "label": {
-                        "en": "Title"
-                    },
-                    "value": {
-                        "en": "Voyages de Monsieur le chevalier Chardin en Perse et autres lieux de l'Orient vol.1"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Author"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "Chardin, Jean"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Hosted By"
-                    },
-                    "value": {
-                        "en": "Gallica"
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Unique ID"
-                    },
-                    "value": {
-                        "en": "bpt6k10503900"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Date"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "circa 1711"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "HasImages",
-                            "hasEngraves",
-                            "hasMaps"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "false",
-                            "true",
-                            "true"
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1050392t/manifest.json",
-            "type": "Manifest",
-            "label": {
-                "en": [
-                    "Vol.2"
-                ]
-            },
-            "metadata": [
-                {
-                    "label": {
-                        "en": "Title"
-                    },
-                    "value": {
-                        "en": "Voyages de Monsieur le chevalier Chardin en Perse et autres lieux de l'Orient vol.2"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Author"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "Chardin, Jean"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Hosted By"
-                    },
-                    "value": {
-                        "en": "Gallica"
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Unique ID"
-                    },
-                    "value": {
-                        "en": "bpt6k1050392t"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Date"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "circa 1711"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "HasImages",
-                            "hasEngraves",
-                            "hasMaps"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "false",
-                            "true",
-                            "true"
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1050394n/manifest.json",
-            "type": "Manifest",
-            "label": {
-                "en": [
-                    "Vol.3"
-                ]
-            },
-            "metadata": [
-                {
-                    "label": {
-                        "en": "Title"
-                    },
-                    "value": {
-                        "en": "Voyages de Monsieur le chevalier Chardin en Perse et autres lieux de l'Orient vol.3"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Author"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "Chardin, Jean"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Hosted By"
-                    },
-                    "value": {
-                        "en": "Gallica"
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Unique ID"
-                    },
-                    "value": {
-                        "en": "bpt6k1050394n"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Date"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "circa 1711"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "HasImages",
-                            "hasEngraves",
-                            "hasMaps"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "false",
-                            "true",
-                            "true"
-                        ]
-                    }
-                }
-            ]
-        }
+    {
+      "label": "Physical description",
+      "value": "Machine readable catalogue compatible with IIIF 2.0 Presentation API"
+    },
+    {
+      "label": "Contributors",
+      "value": "MehranDHN"
+    },
+    {
+      "label": "Notes",
+      "value": "All items have coresponding IIIF 3.0 manifests with internal references to more details. The field seeAlso should be parsed carefully."
+    },
+    {
+      "label": "Subjects",
+      "value": "Travel, Life Styles, Politic, Culture, Art, Architecture, History, Geography, Archeology."
+    }
+  ],
+  "summary": {
+    "en": [
+      "Chardin again started for Persia in August of 1671. Traveling with writer and artist Guillaume-Joseph Grelot. He was at Constantinople from March to July 1672. A quarrel between the grand vizier and the French ambassador made the position of French subjects dangerous, and Chardin escaped in a small vessel across the Black Sea, and made a most adventurous journey by Caffa, and through Georgia, and Armenia to Isfahan, which he reached in 1673. At Sapias, he was robbed by thugs in Samegrelo of all he possessed except two small bundles, worth £6,000. He stayed at Isfahan four years, following the court in all its removals, and making particular journeys throughout the land, from the Caspian to the Persian Gulf and the river Indus, and visiting several Indian cities. By these two journeys he realised a considerable fortune, and, deciding to return home, reached Europe in 1677 by a voyage round the Cape of Good Hope."
     ]
+  },
+  "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+  "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+  "thumbnail": [
+    {
+      "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "height": 4823,
+      "width": 3497,
+      "service": [
+        {
+          "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
+          "type": "ImageService3",
+          "profile": "level1",
+          "height": 4823,
+          "width": 3497,
+          "extraFormats": [
+            "png"
+          ],
+          "extraQualities": [
+            "default",
+            "color",
+            "gray"
+          ],
+          "protocol": "http://iiif.io/api/image",
+          "tiles": [
+            {
+              "height": 512,
+              "scaleFactors": [
+                1,
+                2,
+                4,
+                8
+              ],
+              "width": 512
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "viewingHint": "multi-part",
+  "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/ShardinCollection.json",
+  "manifests": [
+    {
+      "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k10503900/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vol.1"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": "Title"
+          },
+          "value": {
+            "en": "Voyages de Monsieur le chevalier Chardin en Perse et autres lieux de l'Orient vol.1"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Author"
+            ]
+          },
+          "value": {
+            "en": [
+              "Chardin, Jean"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": "Hosted By"
+          },
+          "value": {
+            "en": "Gallica"
+          }
+        },
+        {
+          "label": {
+            "en": "Unique ID"
+          },
+          "value": {
+            "en": "bpt6k10503900"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "circa 1711"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "HasImages",
+              "hasEngraves",
+              "hasMaps"
+            ]
+          },
+          "value": {
+            "en": [
+              "false",
+              "true",
+              "true"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1050392t/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vol.2"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": "Title"
+          },
+          "value": {
+            "en": "Voyages de Monsieur le chevalier Chardin en Perse et autres lieux de l'Orient vol.2"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Author"
+            ]
+          },
+          "value": {
+            "en": [
+              "Chardin, Jean"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": "Hosted By"
+          },
+          "value": {
+            "en": "Gallica"
+          }
+        },
+        {
+          "label": {
+            "en": "Unique ID"
+          },
+          "value": {
+            "en": "bpt6k1050392t"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "circa 1711"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "HasImages",
+              "hasEngraves",
+              "hasMaps"
+            ]
+          },
+          "value": {
+            "en": [
+              "false",
+              "true",
+              "true"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1050394n/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vol.3"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": "Title"
+          },
+          "value": {
+            "en": "Voyages de Monsieur le chevalier Chardin en Perse et autres lieux de l'Orient vol.3"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Author"
+            ]
+          },
+          "value": {
+            "en": [
+              "Chardin, Jean"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": "Hosted By"
+          },
+          "value": {
+            "en": "Gallica"
+          }
+        },
+        {
+          "label": {
+            "en": "Unique ID"
+          },
+          "value": {
+            "en": "bpt6k1050394n"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "circa 1711"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "HasImages",
+              "hasEngraves",
+              "hasMaps"
+            ]
+          },
+          "value": {
+            "en": [
+              "false",
+              "true",
+              "true"
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }

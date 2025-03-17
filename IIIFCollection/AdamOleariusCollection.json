@@ -1,479 +1,487 @@
 {
-    "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://raw.githubusercontent.com/MehranDHN/AlbumKhaneh/refs/heads/main/AdamOleariusCollection.json",
-    "@type": "sc:Collection",
-    "label": "Adam Olearius Collection",
-    "metadata": [
-        {
-            "label": "Publication/creation",
-            "value": "Tehran: MehranDHN"
-        },
-        {
-            "label": "Physical description",
-            "value": "Machine readable catalogue compatible with IIIF 2.0 Presentation API"
-        },
-        {
-            "label": "Contributors",
-            "value": "MehranDHN"
-        },
-        {
-            "label": "Notes",
-            "value": "All items have coresponding IIIF 3.0 manifests with internal references to more details. The field seeAlso should be parsed carefully."
-        },
-        {
-            "label": "Subjects",
-            "value": "Travel, Life Styles, Politic, Culture, Art, Architecture, History, Geography, Archeology."
-        }
-    ],
-    "summary": {
-        "en": [
-            "Intended to catalogue all the Adam Olearius resources related to the IRAN or central asia",
-            "Created by : MehranDHN"
-        ]
+  "@context": [
+    "http://iiif.io/api/presentation/2/context.json",
+    {
+      "aat": "http://vocab.getty.edu/aat/",
+      "schema": "https://schema.org/",
+      "wd": "https://www.wikidata.org/wiki/",
+      "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/AdamOleariusCollection.json",
+  "@type": "sc:Collection",
+  "label": "Adam Olearius Collection",
+  "metadata": [
+    {
+      "label": "Publication/creation",
+      "value": "Tehran: MehranDHN"
     },
-    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
-    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
-    "thumbnail": [
-        {
-            "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
-            "type": "Image",
-            "format": "image/jpeg",
-            "height": 4823,
-            "width": 3497,
-            "service": [
-                {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
-                    "type": "ImageService3",
-                    "profile": "level1",
-                    "height": 4823,
-                    "width": 3497,
-                    "extraFormats": [
-                        "png"
-                    ],
-                    "extraQualities": [
-                        "default",
-                        "color",
-                        "gray"
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "tiles": [
-                        {
-                            "height": 512,
-                            "scaleFactors": [
-                                1,
-                                2,
-                                4,
-                                8
-                            ],
-                            "width": 512
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "viewingHint": "multi-part",
-    "within": "https://raw.githubusercontent.com/MehranDHN/AlbumKhaneh/refs/heads/main/IIIF2Collection.json",
-    "manifests": [
-        {
-            "id": "https://content.staatsbibliothek-berlin.de/dc/894788590/manifest",
-            "type": "Manifest",
-            "label": {
-                "en": [
-                    "Often desired description of the new Oriental journey, which was done on the occasion of a Holstein legation to the King in Persia"
-                ],
-                "de": [
-                    "Offt begehrte Beschreibung Der Newen Orientalischen Reise So durch Gelegenheit einer Holsteinischen Legation an den König in Persien geschehen"
-                ]
-            },
-            "metadata": [
-                {
-                    "label": {
-                        "en": "Title"
-                    },
-                    "value": {
-                        "en": "Often desired description of the new Oriental journey, which was done on the occasion of a Holstein legation to the King in Persia",
-                        "de": "Offt begehrte Beschreibung Der Newen Orientalischen Reise So durch Gelegenheit einer Holsteinischen Legation an den König in Persien geschehen"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Author"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "Adam Olearius",
-                            "Q76363"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Hosted By"
-                    },
-                    "value": {
-                        "en": "Berlin"
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Unique ID"
-                    },
-                    "value": {
-                        "en": "894788590"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Date"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "circa 1647"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "HasImages",
-                            "hasEngraves",
-                            "hasMaps"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "false",
-                            "true",
-                            "true"
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "id": "https://iiif.archive.org/iiif/3/dr_leichenbegangnis-cines-persischen-to-accompany-adam-olearius-ausfuhrlic-13423410/manifest.json",
-            "type": "Manifest",
-            "label": {
-                "en": [
-                    "Funeral of a Persian"
-                ],
-                "de": [
-                    "Leichenbegangnis cines Persischen"
-                ]
-            },
-            "metadata": [
-                {
-                    "label": {
-                        "en": "Title"
-                    },
-                    "value": {
-                        "en": "Funeral of a Persian",
-                        "de": "Leichenbegangnis cines Persischen"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Author"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "Adam Olearius",
-                            "Q76363"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Hosted By"
-                    },
-                    "value": {
-                        "en": "Internet Archive"
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Unique ID"
-                    },
-                    "value": {
-                        "en": "dr_leichenbegangnis-cines-persischen-to-accompany-adam-olearius-ausfuhrlic-13423410"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Date"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "circa 1663"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "HasImages",
-                            "hasEngraves",
-                            "hasMaps"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "false",
-                            "true",
-                            "false"
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "id": "https://iiif.archive.org/iiif/3/dr_isfahan-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423341/manifest.json",
-            "type": "Manifest",
-            "label": {
-                "en": [
-                    "Isfahan"
-                ],
-                "de": [
-                    "Isfahan"
-                ]
-            },
-            "metadata": [
-                {
-                    "label": {
-                        "en": "Title"
-                    },
-                    "value": {
-                        "en": "Isfahan",
-                        "de": "Isfahan"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Author"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "Adam Olearius",
-                            "Q76363"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Hosted By"
-                    },
-                    "value": {
-                        "en": "Internet Archive"
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Unique ID"
-                    },
-                    "value": {
-                        "en": "dr_isfahan-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423341"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Date"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "circa 1663"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "HasImages",
-                            "hasEngraves",
-                            "hasMaps"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "false",
-                            "true",
-                            "false"
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "id": "https://iiif.archive.org/iiif/3/dr_text-page-to-das-vierdte-buch-der-newen-persianischen-reise-beschreibung-13423305/manifest.json",
-            "type": "Manifest",
-            "label": {
-                "en": [
-                    "Page 494-495"
-                ],
-                "de": [
-                    "Page 494-495"
-                ]
-            },
-            "metadata": [
-                {
-                    "label": {
-                        "en": "Title"
-                    },
-                    "value": {
-                        "en": "Page 494-495",
-                        "de": "Page 494-495"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Author"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "Adam Olearius",
-                            "Q76363"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Hosted By"
-                    },
-                    "value": {
-                        "en": "Internet Archive"
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Unique ID"
-                    },
-                    "value": {
-                        "en": "dr_text-page-to-das-vierdte-buch-der-newen-persianischen-reise-beschreibung-13423305"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Date"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "circa 1663"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "HasImages",
-                            "hasEngraves",
-                            "hasMaps"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "false",
-                            "true",
-                            "false"
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "id": "https://iiif.archive.org/iiif/3/dr_ardebil-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423285/manifest.json",
-            "type": "Manifest",
-            "label": {
-                "en": [
-                    "Ardebil"
-                ],
-                "de": [
-                    "Ardebil"
-                ]
-            },
-            "metadata": [
-                {
-                    "label": {
-                        "en": "Title"
-                    },
-                    "value": {
-                        "en": "Ardebil",
-                        "de": "Ardebil"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Author"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "Adam Olearius",
-                            "Q76363"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Hosted By"
-                    },
-                    "value": {
-                        "en": "Internet Archive"
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Unique ID"
-                    },
-                    "value": {
-                        "en": "dr_ardebil-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423285"
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "Date"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "circa 1663"
-                        ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": [
-                            "HasImages",
-                            "hasEngraves",
-                            "hasMaps"
-                        ]
-                    },
-                    "value": {
-                        "en": [
-                            "false",
-                            "true",
-                            "false"
-                        ]
-                    }
-                }
-            ]
-        }
+    {
+      "label": "Physical description",
+      "value": "Machine readable catalogue compatible with IIIF 2.0 Presentation API"
+    },
+    {
+      "label": "Contributors",
+      "value": "MehranDHN"
+    },
+    {
+      "label": "Notes",
+      "value": "All items have coresponding IIIF 3.0 manifests with internal references to more details. The field seeAlso should be parsed carefully."
+    },
+    {
+      "label": "Subjects",
+      "value": "Travel, Life Styles, Politic, Culture, Art, Architecture, History, Geography, Archeology."
+    }
+  ],
+  "summary": {
+    "en": [
+      "Intended to catalogue all the Adam Olearius resources related to the IRAN or central asia",
+      "Created by : MehranDHN"
     ]
+  },
+  "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+  "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+  "thumbnail": [
+    {
+      "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "height": 4823,
+      "width": 3497,
+      "service": [
+        {
+          "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
+          "type": "ImageService3",
+          "profile": "level1",
+          "height": 4823,
+          "width": 3497,
+          "extraFormats": [
+            "png"
+          ],
+          "extraQualities": [
+            "default",
+            "color",
+            "gray"
+          ],
+          "protocol": "http://iiif.io/api/image",
+          "tiles": [
+            {
+              "height": 512,
+              "scaleFactors": [
+                1,
+                2,
+                4,
+                8
+              ],
+              "width": 512
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "viewingHint": "multi-part",
+  "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json",
+  "manifests": [
+    {
+      "id": "https://content.staatsbibliothek-berlin.de/dc/894788590/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Often desired description of the new Oriental journey, which was done on the occasion of a Holstein legation to the King in Persia"
+        ],
+        "de": [
+          "Offt begehrte Beschreibung Der Newen Orientalischen Reise So durch Gelegenheit einer Holsteinischen Legation an den König in Persien geschehen"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": "Title"
+          },
+          "value": {
+            "en": "Often desired description of the new Oriental journey, which was done on the occasion of a Holstein legation to the King in Persia",
+            "de": "Offt begehrte Beschreibung Der Newen Orientalischen Reise So durch Gelegenheit einer Holsteinischen Legation an den König in Persien geschehen"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Author"
+            ]
+          },
+          "value": {
+            "en": [
+              "Adam Olearius",
+              "Q76363"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": "Hosted By"
+          },
+          "value": {
+            "en": "Berlin"
+          }
+        },
+        {
+          "label": {
+            "en": "Unique ID"
+          },
+          "value": {
+            "en": "894788590"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "circa 1647"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "HasImages",
+              "hasEngraves",
+              "hasMaps"
+            ]
+          },
+          "value": {
+            "en": [
+              "false",
+              "true",
+              "true"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/3/dr_leichenbegangnis-cines-persischen-to-accompany-adam-olearius-ausfuhrlic-13423410/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Funeral of a Persian"
+        ],
+        "de": [
+          "Leichenbegangnis cines Persischen"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": "Title"
+          },
+          "value": {
+            "en": "Funeral of a Persian",
+            "de": "Leichenbegangnis cines Persischen"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Author"
+            ]
+          },
+          "value": {
+            "en": [
+              "Adam Olearius",
+              "Q76363"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": "Hosted By"
+          },
+          "value": {
+            "en": "Internet Archive"
+          }
+        },
+        {
+          "label": {
+            "en": "Unique ID"
+          },
+          "value": {
+            "en": "dr_leichenbegangnis-cines-persischen-to-accompany-adam-olearius-ausfuhrlic-13423410"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "circa 1663"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "HasImages",
+              "hasEngraves",
+              "hasMaps"
+            ]
+          },
+          "value": {
+            "en": [
+              "false",
+              "true",
+              "false"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/3/dr_isfahan-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423341/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Isfahan"
+        ],
+        "de": [
+          "Isfahan"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": "Title"
+          },
+          "value": {
+            "en": "Isfahan",
+            "de": "Isfahan"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Author"
+            ]
+          },
+          "value": {
+            "en": [
+              "Adam Olearius",
+              "Q76363"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": "Hosted By"
+          },
+          "value": {
+            "en": "Internet Archive"
+          }
+        },
+        {
+          "label": {
+            "en": "Unique ID"
+          },
+          "value": {
+            "en": "dr_isfahan-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423341"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "circa 1663"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "HasImages",
+              "hasEngraves",
+              "hasMaps"
+            ]
+          },
+          "value": {
+            "en": [
+              "false",
+              "true",
+              "false"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/3/dr_text-page-to-das-vierdte-buch-der-newen-persianischen-reise-beschreibung-13423305/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Page 494-495"
+        ],
+        "de": [
+          "Page 494-495"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": "Title"
+          },
+          "value": {
+            "en": "Page 494-495",
+            "de": "Page 494-495"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Author"
+            ]
+          },
+          "value": {
+            "en": [
+              "Adam Olearius",
+              "Q76363"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": "Hosted By"
+          },
+          "value": {
+            "en": "Internet Archive"
+          }
+        },
+        {
+          "label": {
+            "en": "Unique ID"
+          },
+          "value": {
+            "en": "dr_text-page-to-das-vierdte-buch-der-newen-persianischen-reise-beschreibung-13423305"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "circa 1663"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "HasImages",
+              "hasEngraves",
+              "hasMaps"
+            ]
+          },
+          "value": {
+            "en": [
+              "false",
+              "true",
+              "false"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/3/dr_ardebil-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423285/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ardebil"
+        ],
+        "de": [
+          "Ardebil"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": "Title"
+          },
+          "value": {
+            "en": "Ardebil",
+            "de": "Ardebil"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Author"
+            ]
+          },
+          "value": {
+            "en": [
+              "Adam Olearius",
+              "Q76363"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": "Hosted By"
+          },
+          "value": {
+            "en": "Internet Archive"
+          }
+        },
+        {
+          "label": {
+            "en": "Unique ID"
+          },
+          "value": {
+            "en": "dr_ardebil-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423285"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "circa 1663"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "HasImages",
+              "hasEngraves",
+              "hasMaps"
+            ]
+          },
+          "value": {
+            "en": [
+              "false",
+              "true",
+              "false"
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
