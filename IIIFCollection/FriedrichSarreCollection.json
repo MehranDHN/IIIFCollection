@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "@context": [
     "http://iiif.io/api/presentation/2/context.json",
@@ -282,4 +283,290 @@
       ]
     }
   ]
+=======
+{
+  "@context": [
+    "http://iiif.io/api/presentation/2/context.json",
+    {
+      "aat": "http://vocab.getty.edu/aat/",
+      "schema": "https://schema.org/",
+      "wd": "https://www.wikidata.org/wiki/",
+      "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/FriedrichSarreCollection.json",
+  "@type": "sc:Collection",
+  "label": "Friedrich Sarre Collection",
+  "metadata": [
+    {
+      "label": "Publication/creation",
+      "value": "Tehran: MehranDHN"
+    },
+    {
+      "label": "Physical description",
+      "value": "Machine readable catalogue compatible with IIIF 2.0 Presentation API"
+    },
+    {
+      "label": "Contributors",
+      "value": "MehranDHN"
+    },
+    {
+      "label": "Notes",
+      "value": "All items have coresponding IIIF 3.0 manifests with internal references to more details. The field seeAlso should be parsed carefully."
+    },
+    {
+      "label": "Subjects",
+      "value": "Travel, Life Styles, Politic, Culture, Art, Architecture, History, Geography, Archeology."
+    }
+  ],
+  "summary": {
+    "en": [
+      "Intended to catalogue all the Friedrich Sarre resources related to the IRAN or central asia",
+      "Created by : MehranDHN"
+    ]
+  },
+  "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+  "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+  "thumbnail": [
+    {
+      "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "height": 4823,
+      "width": 3497,
+      "service": [
+        {
+          "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
+          "type": "ImageService3",
+          "profile": "level1",
+          "height": 4823,
+          "width": 3497,
+          "extraFormats": [
+            "png"
+          ],
+          "extraQualities": [
+            "default",
+            "color",
+            "gray"
+          ],
+          "protocol": "http://iiif.io/api/image",
+          "tiles": [
+            {
+              "height": 512,
+              "scaleFactors": [
+                1,
+                2,
+                4,
+                8
+              ],
+              "width": 512
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "viewingHint": "multi-part",
+  "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json",
+  "manifests": [
+    {
+      "id": "https://iiif.archive.org/iiif/3/denkmlerpersis01sarr/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Monuments of Persian architecture"
+        ],
+        "de": [
+          "Denkmäler persischer Baukunst"
+        ],
+        "fa": [
+          "آثار معماری ايرانی"
+        ],
+        "fr": [
+          "Monuments de l'architecture persane"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": "Title"
+          },
+          "value": {
+            "en": "Monuments of Persian architecture",
+            "fr": "monuments de l'architecture persane",
+            "fa": "آثار معماری ايرانی",
+            "de": "Denkmäler persischer Baukunst"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Author"
+            ]
+          },
+          "value": {
+            "en": [
+              "Friedrich Sarre",
+              "wd:Q84873"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": "Content Type"
+          },
+          "value": {
+            "en": [
+              "aat:300028051",
+              "schema:Book"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": "Hosted By"
+          },
+          "value": {
+            "en": "Internet Archive"
+          }
+        },
+        {
+          "label": {
+            "en": "Unique ID"
+          },
+          "value": {
+            "en": "denkmlerpersis01sarr"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "circa 1867"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "HasImages",
+              "hasEngraves",
+              "hasMaps"
+            ]
+          },
+          "value": {
+            "en": [
+              "true",
+              "false",
+              "false"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/3/denkmlerpersis00sarr/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Monuments of Persian architecture II"
+        ],
+        "de": [
+          "Denkmäler persischer Baukunst II"
+        ],
+        "fa": [
+          "آثار معماری ايرانی - رنگی"
+        ],
+        "fr": [
+          "Monuments de l'architecture persane II"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": "Title"
+          },
+          "value": {
+            "en": "Monuments of Persian architecture II",
+            "fr": "monuments de l'architecture persane II",
+            "fa": "آثار معماری ايرانی - رنگی",
+            "de": "Denkmäler persischer Baukunst II"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Author"
+            ]
+          },
+          "value": {
+            "en": [
+              "Friedrich Sarre",
+              "wd:Q84873"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": "Content Type"
+          },
+          "value": {
+            "en": [
+              "aat:300028051",
+              "schema:Book"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": "Hosted By"
+          },
+          "value": {
+            "en": "Internet Archive"
+          }
+        },
+        {
+          "label": {
+            "en": "Unique ID"
+          },
+          "value": {
+            "en": "denkmlerpersis00sarr"
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "circa 1901"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "HasImages",
+              "hasEngraves",
+              "hasMaps"
+            ]
+          },
+          "value": {
+            "en": [
+              "true",
+              "false",
+              "false"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+>>>>>>> origin/master
 }
