@@ -3,7 +3,6 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix aat: <https://vocab.getty.edu/aat/> .
-
 mdhn:AbrahamValentineWilliamsJackson a mdhn:ResourceCollection ;
     rdfs:label "Abraham Valentine Williams Jackson"@en ;
     mdhn:caption "Abraham Valentine Williams Jackson"@en ;
@@ -19,10 +18,10 @@ mdhn:AdamOlearius a mdhn:ResourceCollection ;
     mdhn:caption "Adam Olearius"@en ;
     mdhn:hasResource mdhn:15917483,
         mdhn:894788590,
-        mdhn:dr_ardebil-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423285,
-        mdhn:dr_isfahan-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423341,
-        mdhn:dr_leichenbegangnis-cines-persischen-to-accompany-adam-olearius-ausfuhrlic-13423410,
-        mdhn:dr_text-page-to-das-vierdte-buch-der-newen-persianischen-reise-beschreibung-13423305 ;
+        mdhn:dr_ardebil_to_accompany_adam_olearius_ausfuhrliche_beschreibung_der_kundba_13423285,
+        mdhn:dr_isfahan_to_accompany_adam_olearius_ausfuhrliche_beschreibung_der_kundba_13423341,
+        mdhn:dr_leichenbegangnis_cines_persischen_to_accompany_adam_olearius_ausfuhrlic_13423410,
+        mdhn:dr_text_page_to_das_vierdte_buch_der_newen_persianischen_reise_beschreibung_13423305 ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/AdamOleariusCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
@@ -44,14 +43,15 @@ mdhn:AndreDaulierDeslandes a mdhn:ResourceCollection ;
 mdhn:ArthurUphamPope a mdhn:ResourceCollection ;
     rdfs:label "Arthur Upham Pope Collection"@en ;
     mdhn:caption "Arthur Upham Pope Collection"@en ;
-    mdhn:hasResource mdhn:ingovignca10626 ;
+    mdhn:hasResource mdhn:catalogueofloane00pope,
+        mdhn:ingovignca10626 ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/ArthurUphamPopeCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
 mdhn:AurelStein a mdhn:ResourceCollection ;
     rdfs:label "Aurel Stein"@en ;
     mdhn:caption "Aurel Stein"@en ;
-    mdhn:hasResource mdhn:McGillLibrary-rbsc_old-routes-western-iran_DS261S83-18758,
+    mdhn:hasResource mdhn:McGillLibrary_rbsc_old_routes_western_iran_DS261S83_18758,
         mdhn:ingovignca12150,
         mdhn:ingovignca13282,
         mdhn:ingovignca13285,
@@ -67,11 +67,20 @@ mdhn:CarlaSerena a mdhn:ResourceCollection ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/CarlaSerenaCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
+mdhn:CharlesJamesWills a mdhn:ResourceCollection ;
+    rdfs:label "Charles James Wills"@en ;
+    mdhn:caption "Charles James Wills"@en ;
+    mdhn:hasResource mdhn:inlandoflionsun00williala,
+        mdhn:inlandoflionsun00willrich,
+        mdhn:inlandoflionsuno00willuoft ;
+    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/CharlesJamesWillsCollection.json"@en ;
+    mdhn:partOf mdhn:RootCollection .
+
 mdhn:ClementdeBode a mdhn:ResourceCollection ;
     rdfs:label "Clement de Bode Collection"@en ;
     mdhn:caption "Clement de Bode Collection"@en ;
-    mdhn:hasResource mdhn:Fo_XXI_66-1,
-        mdhn:Fo_XXI_66-2,
+    mdhn:hasResource mdhn:Fo_XXI_66_1,
+        mdhn:Fo_XXI_66_2,
         mdhn:travelsinlurista01debouoft,
         mdhn:travelsinlurista02debo ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/ClementdeBodeCollection.json"@en ;
@@ -80,7 +89,31 @@ mdhn:ClementdeBode a mdhn:ResourceCollection ;
 mdhn:CommentaryVideos a mdhn:ResourceCollection ;
     rdfs:label "Commentary Videos"@en ;
     mdhn:caption "Commentary Videos"@en ;
-    mdhn:hasResource mdhn:upenn-f16-0247_1963_21_Iran ;
+    mdhn:hasResource mdhn:upenn_f16_0227_1963_1_Iran,
+        mdhn:upenn_f16_0228_1963_2_Iran,
+        mdhn:upenn_f16_0229_1963_3_Iran,
+        mdhn:upenn_f16_0230_1963_4_Iran,
+        mdhn:upenn_f16_0231_1963_5_Iran,
+        mdhn:upenn_f16_0232_1963_6_Iran,
+        mdhn:upenn_f16_0233_1963_7_Iran,
+        mdhn:upenn_f16_0234_1963_8_Iran,
+        mdhn:upenn_f16_0235_1963_9_Iran,
+        mdhn:upenn_f16_0236_1963_10_Iran,
+        mdhn:upenn_f16_0237_1963_11_Iran,
+        mdhn:upenn_f16_0238_1963_12_Iran,
+        mdhn:upenn_f16_0239_1963_13_Iran,
+        mdhn:upenn_f16_0240_1963_14_Iran,
+        mdhn:upenn_f16_0241_1963_15_Iran,
+        mdhn:upenn_f16_0242_1963_16_Iran,
+        mdhn:upenn_f16_0243_1963_17_Iran,
+        mdhn:upenn_f16_0244_1963_18_Iran,
+        mdhn:upenn_f16_0245_1963_19_Iran,
+        mdhn:upenn_f16_0246_1963_20_Iran,
+        mdhn:upenn_f16_0247_1963_21_Iran,
+        mdhn:upenn_f16_0248_1963_22_Iran,
+        mdhn:upenn_f16_0249_1963_23_Iran,
+        mdhn:upenn_f16_0250_1963_24_Iran,
+        mdhn:upenn_f16_0251_1963_25_Iran ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/VideoCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
@@ -122,17 +155,27 @@ mdhn:EdwardGranvilleBrowne a mdhn:ResourceCollection ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/EdwardBrowneCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
+mdhn:EdwinLordWeeks a mdhn:ResourceCollection ;
+    rdfs:label "Edwin Lord Weeks"@en ;
+    mdhn:caption "Edwin Lord Weeks"@en ;
+    mdhn:hasResource mdhn:32882019068777_fromtheblacksea,
+        mdhn:fromblackseathro00weekiala ;
+    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/EdwinLordWeeksCollection.json"@en ;
+    mdhn:partOf mdhn:RootCollection .
+
 mdhn:EllaRebeDurand a mdhn:ResourceCollection ;
     rdfs:label "Ella Rebe Durand"@en ;
     mdhn:caption "Ella Rebe Durand"@en ;
-    mdhn:hasResource mdhn:vdc_100023486222 ;
+    mdhn:hasResource mdhn:autumntourinwest00dura,
+        mdhn:vdc_100023486222 ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/EllaRebeDurandCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
 mdhn:EllaSykes a mdhn:ResourceCollection ;
     rdfs:label "Ella Sykes"@en ;
     mdhn:caption "Ella Sykes"@en ;
-    mdhn:hasResource mdhn:persiaitspeople00syke,
+    mdhn:hasResource mdhn:a10001477,
+        mdhn:persiaitspeople00syke,
         mdhn:throughpersiaons00sykerich ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/EllaSykesCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
@@ -182,6 +225,13 @@ mdhn:EugeneFlandinandPascalCoste a mdhn:ResourceCollection ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/FlandinCosteCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
+mdhn:FrancisBradley a mdhn:ResourceCollection ;
+    rdfs:label "Francis Bradley"@en ;
+    mdhn:caption "Francis Bradley"@en ;
+    mdhn:hasResource mdhn:persiathroughper00fbbr ;
+    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/FrancisBradleyCollection.json"@en ;
+    mdhn:partOf mdhn:RootCollection .
+
 mdhn:FriedrichSarre a mdhn:ResourceCollection ;
     rdfs:label "Friedrich Sarre"@en ;
     mdhn:caption "Friedrich Sarre"@en ;
@@ -226,6 +276,14 @@ mdhn:GeorgeNathanielCurzon a mdhn:ResourceCollection ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/CurzonCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
+mdhn:HarfordJones a mdhn:ResourceCollection ;
+    rdfs:label "Harford Jones"@en ;
+    mdhn:caption "Harford Jones"@en ;
+    mdhn:hasResource mdhn:vdc_100023517885,
+        mdhn:vdc_100023553877 ;
+    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/HarfordJonesCollection.json"@en ;
+    mdhn:partOf mdhn:RootCollection .
+
 mdhn:HenrydAllemagne a mdhn:ResourceCollection ;
     rdfs:label "Henry d'Allemagne Collection"@en ;
     mdhn:caption "Henry d'Allemagne Collection"@en ;
@@ -234,6 +292,14 @@ mdhn:HenrydAllemagne a mdhn:ResourceCollection ;
         mdhn:gri_33125014240481,
         mdhn:gri_33125014240549 ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/HenrydAllemagneCollection.json"@en ;
+    mdhn:partOf mdhn:RootCollection .
+
+mdhn:IsaacAdams a mdhn:ResourceCollection ;
+    rdfs:label "Isaac Adams"@en ;
+    mdhn:caption "Isaac Adams"@en ;
+    mdhn:hasResource mdhn:persiabypersianp00adam,
+        mdhn:persiabypersianp00adamuoft ;
+    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IsaacAdamsCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
 mdhn:IsabellaLucyBird a mdhn:ResourceCollection ;
@@ -269,6 +335,16 @@ mdhn:JeanBaptisteFeuvrier a mdhn:ResourceCollection ;
         mdhn:btv1b84537016,
         mdhn:troisanslacour00feuvuoft ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/JeanBaptisteFeuvrierCollection.json"@en ;
+    mdhn:partOf mdhn:RootCollection .
+
+mdhn:JohnMalcolm a mdhn:ResourceCollection ;
+    rdfs:label "John Malcolm"@en ;
+    mdhn:caption "John Malcolm"@en ;
+    mdhn:hasResource mdhn:vdc_100023517883,
+        mdhn:vdc_100023517884,
+        mdhn:vdc_100023545670,
+        mdhn:vdc_100023553883 ;
+    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/JohnMalcolmCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
 mdhn:LUnionrépublicainedelaMarne a mdhn:ResourceCollection ;
@@ -315,8 +391,8 @@ mdhn:Maps a mdhn:ResourceCollection ;
         mdhn:RUMSEY8132926090128246,
         mdhn:RUMSEY8136393790131479,
         mdhn:btv1b5963658h,
-        mdhn:dr_central-asia-comprising-bokhara-cabool-persia-the-river-indus--countr-00264029,
-        mdhn:dr_the-caspian-sea-khivah-and-the-surrounding-country-compiled-from-the-best-00274044 ;
+        mdhn:dr_central_asia_comprising_bokhara_cabool_persia_the_river_indus__countr_00264029,
+        mdhn:dr_the_caspian_sea_khivah_and_the_surrounding_country_compiled_from_the_best_00274044 ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MapCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
@@ -374,38 +450,21 @@ mdhn:RobertKerPorter a mdhn:ResourceCollection ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/RobertKerPorterCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
+mdhn:SamuelGrahamWilson a mdhn:ResourceCollection ;
+    rdfs:label "Samuel Graham Wilson"@en ;
+    mdhn:caption "Samuel Graham Wilson"@en ;
+    mdhn:hasResource mdhn:persianlifecu00wils,
+        mdhn:persianlifecusto0000wils,
+        mdhn:persianlifecusto00wils ;
+    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/SamuelGrahamWilsonCollection.json"@en ;
+    mdhn:partOf mdhn:RootCollection .
+
 mdhn:SamuelGreeneWheelerBenjamin a mdhn:ResourceCollection ;
     rdfs:label "Samuel Greene Wheeler Benjamin Collection"@en ;
     mdhn:caption "Samuel Greene Wheeler Benjamin Collection"@en ;
     mdhn:hasResource mdhn:persiapersians00benjuoft,
         mdhn:storyofpersia00benjuoft ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/SamuelGreeneWheelerCollection.json"@en ;
-    mdhn:partOf mdhn:RootCollection .
-
-mdhn:SirHarfordJones a mdhn:ResourceCollection ;
-    rdfs:label "Sir Harford Jones"@en ;
-    mdhn:caption "Sir Harford Jones"@en ;
-    mdhn:hasResource mdhn:vdc_100023517885,
-        mdhn:vdc_100023553877 ;
-    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/HarfordJonesCollection.json"@en ;
-    mdhn:partOf mdhn:RootCollection .
-
-mdhn:SirJohnMalcolm a mdhn:ResourceCollection ;
-    rdfs:label "Sir John Malcolm"@en ;
-    mdhn:caption "Sir John Malcolm"@en ;
-    mdhn:hasResource mdhn:vdc_100023517883,
-        mdhn:vdc_100023517884,
-        mdhn:vdc_100023545670,
-        mdhn:vdc_100023553883 ;
-    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/JohnMalcolmCollection.json"@en ;
-    mdhn:partOf mdhn:RootCollection .
-
-mdhn:SirThomasHerbert a mdhn:ResourceCollection ;
-    rdfs:label "Sir Thomas Herbert Collection"@en ;
-    mdhn:caption "Sir Thomas Herbert Collection"@en ;
-    mdhn:hasResource mdhn:thomasherberttra0000sirw,
-        mdhn:travelsinpersia10000herb ;
-    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/ThomasHerbertCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
 mdhn:SvenHedin a mdhn:ResourceCollection ;
@@ -415,6 +474,14 @@ mdhn:SvenHedin a mdhn:ResourceCollection ;
         mdhn:b29352332_00027,
         mdhn:lasieinconnuepar01hedi ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/SvenHedinCollection.json"@en ;
+    mdhn:partOf mdhn:RootCollection .
+
+mdhn:ThomasHerbert a mdhn:ResourceCollection ;
+    rdfs:label "Thomas Herbert Collection"@en ;
+    mdhn:caption "Thomas Herbert Collection"@en ;
+    mdhn:hasResource mdhn:thomasherberttra0000sirw,
+        mdhn:travelsinpersia10000herb ;
+    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/ThomasHerbertCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
 mdhn:TravelsintoMuscovyPersiaandpartoftheEastIndies a mdhn:ResourceCollection ;
@@ -548,6 +615,12 @@ mdhn:16544 a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://bibliotheque-numerique.inha.fr/iiif/16544/manifest"@en .
 
+mdhn:32882019068777_fromtheblacksea a mdhn:DigitalResource ;
+    rdfs:label "From the Black Sea through Persia and India"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/32882019068777-fromtheblacksea/manifest.json"@en .
+
 mdhn:42048516 a mdhn:DigitalResource ;
     rdfs:label "My wanderings in Persia"@en ;
     mdhn:PublishedBy mdhn:LOC ;
@@ -639,13 +712,13 @@ mdhn:CornelisdeBruyn a mdhn:ResourceCollection ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/CornelisDeBruynCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
-mdhn:Fo_XXI_66-1 a mdhn:DigitalResource ;
+mdhn:Fo_XXI_66_1 a mdhn:DigitalResource ;
     rdfs:label "Travels in Luristan and Arabistan vol.1"@en ;
     mdhn:PublishedBy mdhn:TubingenUniversity ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://opendigi.ub.uni-tuebingen.de/opendigi/Fo_XXI_66-1/manifest"@en .
 
-mdhn:Fo_XXI_66-2 a mdhn:DigitalResource ;
+mdhn:Fo_XXI_66_2 a mdhn:DigitalResource ;
     rdfs:label "Travels in Luristan and Arabistan vol.2"@en ;
     mdhn:PublishedBy mdhn:TubingenUniversity ;
     mdhn:hasResourceType mdhn:aat300028051 ;
@@ -665,7 +738,7 @@ mdhn:JeanChardin a mdhn:ResourceCollection ;
 mdhn:LCDL a mdhn:Publisher ;
     rdfs:label "LCDL"@en .
 
-mdhn:McGillLibrary-rbsc_old-routes-western-iran_DS261S83-18758 a mdhn:DigitalResource ;
+mdhn:McGillLibrary_rbsc_old_routes_western_iran_DS261S83_18758 a mdhn:DigitalResource ;
     rdfs:label "Old routes of Western Iran"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028051 ;
@@ -743,6 +816,12 @@ mdhn:RUMSEY8136393790131479 a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028094 ;
     mdhn:hasUrl "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~363937~90131479/manifest"@en .
 
+mdhn:a10001477 a mdhn:DigitalResource ;
+    rdfs:label "Persia and its people"@en ;
+    mdhn:PublishedBy mdhn:LOC ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://www.loc.gov/item/a10001477/manifest.json"@en .
+
 mdhn:adventuresofhajj0000jame_q4g6 a mdhn:DigitalResource ;
     rdfs:label "The adventures of Hajji Baba, of Ispahan"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
@@ -766,6 +845,85 @@ mdhn:amoenitatumexoti00kaem a mdhn:DigitalResource ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/amoenitatumexoti00kaem/manifest.json"@en .
+
+mdhn:arsis15161951116detr a mdhn:DigitalResource ;
+    rdfs:label "Ars islamica Vol:15-16"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/arsis15161951116detr/manifest.json"@en .
+
+mdhn:arsislamica101943detr a mdhn:DigitalResource ;
+    rdfs:label "Ars islamica Vol:10"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/arsislamica101943detr/manifest.json"@en .
+
+mdhn:arsislamica11121946detr a mdhn:DigitalResource ;
+    rdfs:label "Ars islamica Vol:11-12"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/arsislamica11121946detr/manifest.json"@en .
+
+mdhn:arsislamica11934detr a mdhn:DigitalResource ;
+    rdfs:label "Ars islamica Vol:1"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/arsislamica11934detr/manifest.json"@en .
+
+mdhn:arsislamica13141948detr a mdhn:DigitalResource ;
+    rdfs:label "Ars islamica Vol:13-14"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/arsislamica13141948detr/manifest.json"@en .
+
+mdhn:arsislamica21935detr a mdhn:DigitalResource ;
+    rdfs:label "Ars islamica Vol:2"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/arsislamica21935detr/manifest.json"@en .
+
+mdhn:arsislamica31936detr a mdhn:DigitalResource ;
+    rdfs:label "Ars islamica Vol:3"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/arsislamica31936detr/manifest.json"@en .
+
+mdhn:arsislamica41937detr a mdhn:DigitalResource ;
+    rdfs:label "Ars islamica Vol:4"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/arsislamica41937detr/manifest.json"@en .
+
+mdhn:arsislamica51938detr a mdhn:DigitalResource ;
+    rdfs:label "Ars islamica Vol:5"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/arsislamica51938detr/manifest.json"@en .
+
+mdhn:arsislamica61939detr a mdhn:DigitalResource ;
+    rdfs:label "Ars islamica Vol:6"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/arsislamica61939detr/manifest.json"@en .
+
+mdhn:arsislamica71940detr a mdhn:DigitalResource ;
+    rdfs:label "Ars islamica Vol:7"@en,
+        "Ars islamica Vol:8"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/arsislamica71940detr/manifest.json"@en .
+
+mdhn:arsislamica91942detr a mdhn:DigitalResource ;
+    rdfs:label "Ars islamica Vol:9"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/arsislamica91942detr/manifest.json"@en .
+
+mdhn:autumntourinwest00dura a mdhn:DigitalResource ;
+    rdfs:label "An autumn tour in western Persia"@en ;
+    mdhn:PublishedBy mdhn:QDL ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/autumntourinwest00dura/manifest.json"@en .
 
 mdhn:b22009243 a mdhn:DigitalResource ;
     rdfs:label "A second journey through Persia, Armenia, and Asia Minor, to Constantinople"@en ;
@@ -797,6 +955,12 @@ mdhn:b32168172 a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/b32168172/manifest.json"@en .
 
+mdhn:b33014814_0003 a mdhn:DigitalResource ;
+    rdfs:label "The travels of Jean Struys in Muscovy, Tartary, and Persiae"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/b33014814_0003/manifest.json"@en .
+
 mdhn:b33284088_0004 a mdhn:DigitalResource ;
     rdfs:label "Voyages du chevalier Chardin en Perse"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
@@ -808,6 +972,18 @@ mdhn:bd6t5379993s a mdhn:DigitalResource ;
     mdhn:PublishedBy mdhn:Gallica ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://gallica.bnf.fr/iiif/ark:/12148/bd6t5379993s/manifest.json"@en .
+
+mdhn:behindveilinpers00amstuoft a mdhn:DigitalResource ;
+    rdfs:label ""@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/behindveilinpers00amstuoft/manifest.json"@en .
+
+mdhn:behindveilinpers00humeuoft a mdhn:DigitalResource ;
+    rdfs:label ""@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/behindveilinpers00humeuoft/manifest.json"@en .
 
 mdhn:bpt6k1040601r a mdhn:DigitalResource ;
     rdfs:label "Journey to the Levant, that is to say to the principal places of Asia Minor, to the islands of Chios, Rhodes, Cyprus"@en ;
@@ -1086,6 +1262,24 @@ mdhn:btv1b85930882 a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://gallica.bnf.fr/iiif/ark:/12148/btv1b85930882/manifest.json"@en .
 
+mdhn:bub_gb_kAbyecoMR_EC a mdhn:DigitalResource ;
+    rdfs:label "Persia, or the State of the Persian Kingdom"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/bub_gb_kAbyecoMR_EC/manifest.json"@en .
+
+mdhn:bycamelcartopeac0000powe a mdhn:DigitalResource ;
+    rdfs:label ""@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/bycamelcartopeac0000powe/manifest.json"@en .
+
+mdhn:catalogueofloane00pope a mdhn:DigitalResource ;
+    rdfs:label "Catalogue of a loan exhibition of early oriental carpets"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/catalogueofloane00pope/manifest.json"@en .
+
 mdhn:denkmlerpersis00sarr a mdhn:DigitalResource ;
     rdfs:label "Monuments of Persian architecture II"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
@@ -1104,6 +1298,12 @@ mdhn:diekunstdesislam0000gluc a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/diekunstdesislam0000gluc/manifest.json"@en .
 
+mdhn:dlibrabibliotekaelblaskaplKD221_300203127113 a mdhn:DigitalResource ;
+    rdfs:label "Persien in Wort und Bild"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/dlibra.bibliotekaelblaska.pl.KD.221_300.203127113/manifest.json"@en .
+
 mdhn:dliministry25515 a mdhn:DigitalResource ;
     rdfs:label "Collections travels through Turkey into Persia and the East-Indies"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
@@ -1116,41 +1316,47 @@ mdhn:dlivenugopal674 a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/dli.venugopal.674/manifest.json"@en .
 
-mdhn:dr_ardebil-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423285 a mdhn:DigitalResource ;
+mdhn:dr_ardebil_to_accompany_adam_olearius_ausfuhrliche_beschreibung_der_kundba_13423285 a mdhn:DigitalResource ;
     rdfs:label "Ardebil"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300041273 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/dr_ardebil-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423285/manifest.json"@en .
 
-mdhn:dr_central-asia-comprising-bokhara-cabool-persia-the-river-indus--countr-00264029 a mdhn:DigitalResource ;
+mdhn:dr_central_asia_comprising_bokhara_cabool_persia_the_river_indus__countr_00264029 a mdhn:DigitalResource ;
     rdfs:label "Central Asia; comprising Bokhara, Cabool, Persia"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028094 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/dr_central-asia-comprising-bokhara-cabool-persia-the-river-indus--countr-00264029/manifest.json"@en .
 
-mdhn:dr_isfahan-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423341 a mdhn:DigitalResource ;
+mdhn:dr_isfahan_to_accompany_adam_olearius_ausfuhrliche_beschreibung_der_kundba_13423341 a mdhn:DigitalResource ;
     rdfs:label "Isfahan"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300041273 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/dr_isfahan-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423341/manifest.json"@en .
 
-mdhn:dr_leichenbegangnis-cines-persischen-to-accompany-adam-olearius-ausfuhrlic-13423410 a mdhn:DigitalResource ;
+mdhn:dr_leichenbegangnis_cines_persischen_to_accompany_adam_olearius_ausfuhrlic_13423410 a mdhn:DigitalResource ;
     rdfs:label "Funeral of a Persian"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300041273 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/dr_leichenbegangnis-cines-persischen-to-accompany-adam-olearius-ausfuhrlic-13423410/manifest.json"@en .
 
-mdhn:dr_text-page-to-das-vierdte-buch-der-newen-persianischen-reise-beschreibung-13423305 a mdhn:DigitalResource ;
+mdhn:dr_text_page_to_das_vierdte_buch_der_newen_persianischen_reise_beschreibung_13423305 a mdhn:DigitalResource ;
     rdfs:label "Page 494-495"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/dr_text-page-to-das-vierdte-buch-der-newen-persianischen-reise-beschreibung-13423305/manifest.json"@en .
 
-mdhn:dr_the-caspian-sea-khivah-and-the-surrounding-country-compiled-from-the-best-00274044 a mdhn:DigitalResource ;
+mdhn:dr_the_caspian_sea_khivah_and_the_surrounding_country_compiled_from_the_best_00274044 a mdhn:DigitalResource ;
     rdfs:label "The Caspian Sea, Khivah, and the Surrounding Country"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028094 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/dr_the-caspian-sea-khivah-and-the-surrounding-country-compiled-from-the-best-00274044/manifest.json"@en .
+
+mdhn:eastsketchesoftr0000spen a mdhn:DigitalResource ;
+    rdfs:label ""@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/eastsketchesoftr0000spen/manifest.json"@en .
 
 mdhn:erzeugnisseisla1sarr a mdhn:DigitalResource ;
     rdfs:label "Products of Islamic art"@en ;
@@ -1170,6 +1376,12 @@ mdhn:esbeautezdelape00daul a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/esbeautezdelape00daul/manifest.json"@en .
 
+mdhn:fromblackseathro00weekiala a mdhn:DigitalResource ;
+    rdfs:label "From the Black Sea through Persia and India"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/fromblackseathro00weekiala/manifest.json"@en .
+
 mdhn:fromconstantinop00jackuoft a mdhn:DigitalResource ;
     rdfs:label "From Constantinople to the Home of Omar Khayyam"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
@@ -1181,6 +1393,12 @@ mdhn:glimpsesoflifema00sheiiala a mdhn:DigitalResource ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/glimpsesoflifema00sheiiala/manifest.json"@en .
+
+mdhn:glimpsesofpersia0000wood a mdhn:DigitalResource ;
+    rdfs:label "Glimpses of Persia"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/glimpsesofpersia0000wood/manifest.json"@en .
 
 mdhn:gri_33125008232130 a mdhn:DigitalResource ;
     rdfs:label "Travels of Corneille Le Brun through Muscovy, Persia, and the East Indies"@en ;
@@ -1351,6 +1569,24 @@ mdhn:ingovignca39012 a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/in.gov.ignca.39012/manifest.json"@en .
 
+mdhn:inlandoflionsun00williala a mdhn:DigitalResource ;
+    rdfs:label "In the land of the lion and sun"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/inlandoflionsun00williala/manifest.json"@en .
+
+mdhn:inlandoflionsun00willrich a mdhn:DigitalResource ;
+    rdfs:label "In the land of the lion and sun"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/inlandoflionsun00willrich/manifest.json"@en .
+
+mdhn:inlandoflionsuno00willuoft a mdhn:DigitalResource ;
+    rdfs:label "In the land of the lion and sun"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/inlandoflionsuno00willuoft/manifest.json"@en .
+
 mdhn:isbn_9781362110088 a mdhn:DigitalResource ;
     rdfs:label "From the Black Sea Through Persia and India"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
@@ -1400,7 +1636,7 @@ mdhn:nadirshah00durauoft a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/nadirshah00durauoft/manifest.json"@en .
 
-mdhn:oapen-2050012657-45626 a mdhn:DigitalResource ;
+mdhn:oapen_2050012657_45626 a mdhn:DigitalResource ;
     rdfs:label "A Journal of Three Months Walk in Persia in 1884 by Captain John Compton Pyne"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028051 ;
@@ -1436,11 +1672,41 @@ mdhn:persiaawakeninge00cresrich a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/persiaawakeninge00cresrich/manifest.json"@en .
 
+mdhn:persiabypersianp00adam a mdhn:DigitalResource ;
+    rdfs:label "Persia by a Persian"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/persiabypersianp00adam/manifest.json"@en .
+
+mdhn:persiabypersianp00adamuoft a mdhn:DigitalResource ;
+    rdfs:label "Persia by a Persian"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/persiabypersianp00adamuoft/manifest.json"@en .
+
 mdhn:persiaitspeople00syke a mdhn:DigitalResource ;
     rdfs:label "Persia and its people"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/persiaitspeople00syke/manifest.json"@en .
+
+mdhn:persianlifecu00wils a mdhn:DigitalResource ;
+    rdfs:label "TPersian life and customs"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/persianlifecu00wils/manifest.json"@en .
+
+mdhn:persianlifecusto0000wils a mdhn:DigitalResource ;
+    rdfs:label "TPersian life and customs"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/persianlifecusto0000wils/manifest.json"@en .
+
+mdhn:persianlifecusto00wils a mdhn:DigitalResource ;
+    rdfs:label "TPersian life and customs"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/persianlifecusto00wils/manifest.json"@en .
 
 mdhn:persianrevolutio00browuoft a mdhn:DigitalResource ;
     rdfs:label "The Persian revolution of 1905-1909"@en ;
@@ -1471,6 +1737,18 @@ mdhn:persiapersians00benjuoft a mdhn:DigitalResource ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/persiapersians00benjuoft/manifest.json"@en .
+
+mdhn:persiathroughper00fbbr a mdhn:DigitalResource ;
+    rdfs:label "Through Persia from the Gulf to the Caspian"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/persiathroughper00fbbr/manifest.json"@en .
+
+mdhn:personalnarrativ00gtvi a mdhn:DigitalResource ;
+    rdfs:label "A personal narrative of a visit to Ghuzni, Kabul, and Afghanistan"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/personalnarrativ00gtvi/manifest.json"@en .
 
 mdhn:presidenceofeight00perk a mdhn:DigitalResource ;
     rdfs:label "A residence of eight years in Persia, among the Nestorian Christians"@en ;
@@ -1622,11 +1900,155 @@ mdhn:troisanslacour00feuvuoft a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/troisanslacour00feuvuoft/manifest.json"@en .
 
-mdhn:upenn-f16-0247_1963_21_Iran a mdhn:DigitalResource ;
+mdhn:upenn_f16_0227_1963_1_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #1 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0227_1963_1_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0228_1963_2_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #2 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0228_1963_2_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0229_1963_3_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #3 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0229_1963_3_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0230_1963_4_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #4 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0230_1963_4_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0231_1963_5_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #5 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0231_1963_5_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0232_1963_6_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #6 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0232_1963_6_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0233_1963_7_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #7 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0233_1963_7_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0234_1963_8_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #8 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0234_1963_8_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0235_1963_9_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #9 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0235_1963_9_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0236_1963_10_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #10 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0236_1963_10_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0237_1963_11_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #11 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0237_1963_11_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0238_1963_12_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #12 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0238_1963_12_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0239_1963_13_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #13 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0239_1963_13_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0240_1963_14_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #14 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0240_1963_14_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0241_1963_15_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #15 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0241_1963_15_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0242_1963_16_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #16 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0242_1963_16_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0243_1963_17_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #17 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0243_1963_17_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0244_1963_18_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #18 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0244_1963_18_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0245_1963_19_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #19 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0245_1963_19_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0246_1963_20_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #20 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0246_1963_20_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0247_1963_21_Iran a mdhn:DigitalResource ;
     rdfs:label "1963 #21 Iran"@en ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300435424 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0247_1963_21_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0248_1963_22_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #22 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0248_1963_22_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0249_1963_23_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #23 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0249_1963_23_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0250_1963_24_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #24 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0250_1963_24_Iran/manifest.json"@en .
+
+mdhn:upenn_f16_0251_1963_25_Iran a mdhn:DigitalResource ;
+    rdfs:label "1963 #25 Iran"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/upenn-f16-0251_1963_25_Iran/manifest.json"@en .
 
 mdhn:vdc_100000000884 a mdhn:DigitalResource ;
     rdfs:label "Skeleton of Curzon's Map of PERSIA showing Routes Examined for the Central Persia Telegraph Line"@en ;
@@ -1781,7 +2203,8 @@ mdhn:yearamongstpersi0000brow a mdhn:DigitalResource ;
 mdhn:Miscellaneous a mdhn:ResourceCollection ;
     rdfs:label "Miscellaneous"@en ;
     mdhn:caption "Miscellaneous"@en ;
-    mdhn:hasResource mdhn:vdc_1000000008840x0001e2,
+    mdhn:hasResource mdhn:personalnarrativ00gtvi,
+        mdhn:vdc_1000000008840x0001e2,
         mdhn:vdc_100023526612 ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MiscellaneousCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
@@ -1829,15 +2252,35 @@ mdhn:RootCollection a mdhn:ResourceCollection ;
         mdhn:12016068,
         mdhn:42048516,
         mdhn:47036964,
+        mdhn:arsis15161951116detr,
+        mdhn:arsislamica101943detr,
+        mdhn:arsislamica11121946detr,
+        mdhn:arsislamica11934detr,
+        mdhn:arsislamica13141948detr,
+        mdhn:arsislamica21935detr,
+        mdhn:arsislamica31936detr,
+        mdhn:arsislamica41937detr,
+        mdhn:arsislamica51938detr,
+        mdhn:arsislamica61939detr,
+        mdhn:arsislamica71940detr,
+        mdhn:arsislamica91942detr,
         mdhn:b32168172,
+        mdhn:b33014814_0003,
+        mdhn:behindveilinpers00amstuoft,
+        mdhn:behindveilinpers00humeuoft,
         mdhn:bpt6k1511616w,
         mdhn:btv1b10522175v,
+        mdhn:bub_gb_kAbyecoMR_EC,
+        mdhn:bycamelcartopeac0000powe,
         mdhn:diekunstdesislam0000gluc,
+        mdhn:dlibrabibliotekaelblaskaplKD221_300203127113,
         mdhn:dliministry25515,
+        mdhn:eastsketchesoftr0000spen,
         mdhn:glimpsesoflifema00sheiiala,
+        mdhn:glimpsesofpersia0000wood,
         mdhn:isbn_9781362110088,
         mdhn:nadirshah00durauoft,
-        mdhn:oapen-2050012657-45626,
+        mdhn:oapen_2050012657_45626,
         mdhn:peepsintopersia00hermrich,
         mdhn:persiaawakeninge00cresrich,
         mdhn:presidenceofeight00perk,
@@ -1851,7 +2294,6 @@ mdhn:Gallica a mdhn:Publisher ;
 
 mdhn:InternetArchive a mdhn:Publisher ;
     rdfs:label "Internet Archive"@en .
-
 
 
     mdhn:aat300028051 a mdhn:ResourceType ;
