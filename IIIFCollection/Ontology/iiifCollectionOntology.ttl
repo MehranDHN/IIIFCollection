@@ -1,0 +1,137 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix so: <https://schema.org/> .
+@prefix stardog: <tag:stardog:api:> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://api.stardog.com/> .
+@prefix aat: <https://vocab.getty.edu/aat/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mdhn: <http://example.com/mdhn/> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix tgm: <http://id.loc.gov/vovabulary/graphicMaterials/> .
+
+
+mdhn:ResourceCollection a owl:Class ;
+    rdfs:comment "A collection of IIIF resources that may contain manifests and nested collections." ;
+    rdfs:label "Resource Collection" .
+
+mdhn:DigitalResource a owl:Class ;
+    rdfs:comment "A IIIF manifest representing a digital resource such as a book, photograph, or video." ;
+    rdfs:label "Digital Resource" .
+
+mdhn:Creator a owl:Class ;
+    rdfs:comment "An entity responsible for creating the digital resource." ;
+    rdfs:label "Creator" .
+
+mdhn:ResourceType a owl:Class ;
+    rdfs:comment "The content type of the digital resource, aligned with controlled vocabularies like AAT or TGM." ;
+    rdfs:label "Resource Type" .
+
+mdhn:Publisher a owl:Class ;
+    rdfs:comment "An entity responsible for publishing or making the resource available." ;
+    rdfs:label "Publisher" .
+
+mdhn:CanvasType a owl:Class ;
+    rdfs:comment "The type of canvas used within a IIIF manifest to represent a resource page or image." ;
+    rdfs:label "Canvas Type" .
+
+mdhn:hasResource a owl:ObjectProperty ;
+    rdfs:comment "Links a ResourceCollection to a DigitalResource." ;
+    rdfs:domain mdhn:ResourceCollection ;
+    rdfs:label "has resource" ;
+    rdfs:range mdhn:DigitalResource .
+
+mdhn:hasCreator a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to its creator." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "has creator" ;
+    rdfs:range mdhn:Creator .
+
+mdhn:hasCanvasType a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to its canvas type." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "has canvas type" ;
+    rdfs:range mdhn:CanvasType .
+
+mdhn:resourcesOfCanvasType a owl:ObjectProperty ;
+    rdfs:comment "Links a canvas to its associated resources." ;
+    rdfs:domain mdhn:CanvasType ;
+    rdfs:label "resources Of Canvas Type"  ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasCanvasType .  
+
+mdhn:hasResourceType a owl:ObjectProperty ;
+    rdfs:comment "Associates a DigitalResource with its resource type." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "has Resource Type" ;
+    rdfs:range mdhn:ResourceType .
+
+mdhn:PublishedBy a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to its publisher." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "Published By" ;
+    rdfs:range mdhn:Publisher .
+
+mdhn:hasUrl a owl:DatatypeProperty ;
+    rdfs:comment "The URL of a ResourceCollection or DigitalResource." ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCollection mdhn:DigitalResource )
+    ] ;
+    rdfs:label "has URL" ;
+    rdfs:range xsd:anyURI .
+
+mdhn:caption a owl:DatatypeProperty ;
+    rdfs:comment "A human-readable label for a resource or collection." ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCollection mdhn:DigitalResource )
+    ] ;
+    rdfs:label "label" ;
+    rdfs:range xsd:string .
+
+
+mdhn:belongsTo a owl:ObjectProperty ;
+    rdfs:comment "Links a ResourceCollection to a DigitalResource." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "belongs To" ;
+    rdfs:range mdhn:ResourceCollection ;
+    owl:inverseOf mdhn:hasResource .
+
+mdhn:hasPublished a owl:ObjectProperty ;
+    rdfs:comment "Links a publisher to DigitalResource." ;
+    rdfs:domain mdhn:Publisher ;
+    rdfs:label "has Published" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:PublishedBy .
+ 
+
+mdhn:createResources a owl:ObjectProperty ;
+    rdfs:comment "Links a Creator to DigitalResource." ;
+    rdfs:domain mdhn:Creator ;
+    rdfs:label "creat eResources" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasCreator .
+
+mdhn:resourceTypeInstance a owl:ObjectProperty ;
+    rdfs:comment "Associates Resource Type to instances." ;
+    rdfs:domain mdhn:ResourceType ;
+    rdfs:label "resource Type Instance" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasResourceType .
+
+mdhn:partOf a owl:ObjectProperty ;
+    rdfs:comment "Links a ResourceCollection to it's parent" ;
+    rdfs:domain mdhn:ResourceCollection ;
+    rdfs:label "part Of" ;
+    rdfs:range mdhn:ResourceCollection .
+
+mdhn:parentOf a owl:ObjectProperty ;
+    rdfs:comment "Links a ResourceCollection to it's childs" ;
+    owl:inverseOf mdhn:partOf ;
+    rdfs:domain mdhn:ResourceCollection ;
+    rdfs:label "parent Of" ;
+    rdfs:range mdhn:ResourceCollection .    

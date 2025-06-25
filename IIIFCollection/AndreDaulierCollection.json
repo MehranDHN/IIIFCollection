@@ -1,16 +1,45 @@
 {
-    "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/CarlaSerenaCollection.json",
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "wd": "https://www.wikidata.org/wiki/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/AndreDaulierCollection.json",
     "@type": "sc:Collection",
-    "label": "Carla Serena Collection",
-    "viewingHint": "multi-part",
-    "navDate": "1859-09-15T12:00:00.0000000Z",
-    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json",
+    "label": "André Daulier Deslandes Collection",
+    "metadata": [
+        {
+            "label": "Publication/creation",
+            "value": "Tehran: MehranDHN"
+        },
+        {
+            "label": "Physical description",
+            "value": "Machine readable catalogue compatible with IIIF 2.0 Presentation API"
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "All items have coresponding IIIF 3.0 manifests with internal references to more details. The field seeAlso should be parsed carefully."
+        },
+        {
+            "label": "Subjects",
+            "value": "Travel, Life Styles, Politic, Culture, Art, Architecture, History, Geography, Archeology."
+        }
+    ],
     "summary": {
         "en": [
-            "Edward Granville Browne was a British Iranologist. He published numerous articles and books, mainly in the areas of history and literature. Browne was born in Stouts Hill, Uley, Gloucestershire, England, the son of civil engineer Sir Benjamin Chapman Browne and his wife, Annie. He was educated at Trinity College, Glenalmond, Burnside's School in Berkshire, Eton College, and the Newcastle College of Physical Science. He then read natural sciences at Pembroke College, Cambridge. He also studied Arabic with Edward Henry Palmer and William Wright, Persian with Edward Byles Cowell, and Turkish with Sir James Redhouse, motivated by an interest in the Turkish people. After graduating in 1882 he travelled to Constantinople."
+            "André Daulier Deslandes Collection"
         ]
     },
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
     "thumbnail": [
         {
             "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
@@ -50,19 +79,21 @@
             ]
         }
     ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json",
     "manifests": [
         {
-            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k62078189/manifest.json",
+            "id": "https://iiif.archive.org/iiif/3/esbeautezdelape00daul/manifest.json",
             "type": "Manifest",
             "label": {
-                "fr": [
-                    "Hommes et choses en Perse"
-                ],
                 "en": [
-                    "Men and Things in Persia"
+                    "The beauties of Persia"
                 ],
                 "fa": [
-                    "مردمان و ساير چيزها در ايران"
+                    "زيباييهای ايران"
+                ],
+                "fr": [
+                    "Les beautez de la Perse"
                 ]
             },
             "metadata": [
@@ -71,9 +102,9 @@
                         "en": "Title"
                     },
                     "value": {
-                        "en": "Men and Things in Persia",
-                        "fr": "Hommes et choses en Perse",
-                        "fa": "مردمان و ساير چيزها در ايران"
+                        "en": "The beauties of Persia",
+                        "fr": "Les beautez de la Perse",
+                        "fa": "زيباييهای ايران"
                     }
                 },
                 {
@@ -84,8 +115,8 @@
                     },
                     "value": {
                         "en": [
-                            "Carla Serena",
-                            "wd:Q23689813"
+                            "André Daulier Deslandes",
+                            "wd:Q16185968"
                         ]
                     }
                 },
@@ -102,6 +133,14 @@
                 },
                 {
                     "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
                         "en": "Language"
                     },
                     "value": {
@@ -110,18 +149,10 @@
                 },
                 {
                     "label": {
-                        "en": "Hosted By"
-                    },
-                    "value": {
-                        "en": "Gallica"
-                    }
-                },
-                {
-                    "label": {
                         "en": "Unique ID"
                     },
                     "value": {
-                        "en": "bpt6k62078189"
+                        "en": "esbeautezdelape00daul"
                     }
                 },
                 {
@@ -132,7 +163,7 @@
                     },
                     "value": {
                         "en": [
-                            "circa 1883"
+                            "circa 1867"
                         ]
                     }
                 },
@@ -146,7 +177,7 @@
                     },
                     "value": {
                         "en": [
-                            "true",
+                            "false",
                             "true",
                             "true"
                         ]
@@ -155,17 +186,17 @@
             ]
         },
         {
-            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3042008m/manifest.json",
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8593030v/manifest.json",
             "type": "Manifest",
             "label": {
-                "fr": [
-                    "Seule dans les steppes"
-                ],
                 "en": [
-                    "Seule dans les steppes"
+                    "Tchelminar or the ruins of ancient Persepolis"
                 ],
                 "fa": [
-                    "تنها در استپ های روسيه"
+                    "خرابه های پرسپوليس"
+                ],
+                "fr": [
+                    "Tchelminar ou les ruines de l'ancienne Persepolis"
                 ]
             },
             "metadata": [
@@ -174,9 +205,9 @@
                         "en": "Title"
                     },
                     "value": {
-                        "en": "Seule dans les steppes",
-                        "fr": "Seule dans les steppes",
-                        "fa": "تنها در استپ های روسيه"
+                        "en": "Tchelminar or the ruins of ancient Persepolis",
+                        "fr": "Tchelminar ou les ruines de l'ancienne Persepolis",
+                        "fa": "خرابه های پرسپوليس"
                     }
                 },
                 {
@@ -187,8 +218,8 @@
                     },
                     "value": {
                         "en": [
-                            "Carla Serena",
-                            "wd:Q23689813"
+                            "André Daulier Deslandes",
+                            "wd:Q16185968"
                         ]
                     }
                 },
@@ -198,17 +229,9 @@
                     },
                     "value": {
                         "en": [
-                            "aat:300028051",
-                            "schema:Book"
+                            "aat:300041273",
+                            "schema:CreativeWorks"
                         ]
-                    }
-                },
-                {
-                    "label": {
-                        "en": "Language"
-                    },
-                    "value": {
-                        "en": "French"
                     }
                 },
                 {
@@ -221,10 +244,18 @@
                 },
                 {
                     "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "French"
+                    }
+                },
+                {
+                    "label": {
                         "en": "Unique ID"
                     },
                     "value": {
-                        "en": "bpt6k3042008m"
+                        "en": "btv1b8593030v"
                     }
                 },
                 {
@@ -235,7 +266,7 @@
                     },
                     "value": {
                         "en": [
-                            "circa 1883"
+                            "circa 1673"
                         ]
                     }
                 },
