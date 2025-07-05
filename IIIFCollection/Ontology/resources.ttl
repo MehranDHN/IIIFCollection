@@ -6,6 +6,8 @@
 @prefix schema: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+@prefix mdhn: <http://example.com/mdhn/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 mdhn:AbrahamValentineWilliamsJackson a mdhn:ResourceCollection ;
     rdfs:label "Abraham Valentine Williams Jackson"@en ;
@@ -94,6 +96,7 @@ mdhn:CommentaryVideos a mdhn:ResourceCollection ;
     rdfs:label "Commentary Videos"@en ;
     mdhn:caption "Commentary Videos"@en ;
     mdhn:hasResource mdhn:111_adc_7727,
+        mdhn:eye_filmmuseums_instagram_video_zo_wordt_een_perzisch_kleed_gemaakt_met_een_nieu,
         mdhn:upenn_f16_0227_1963_1_Iran,
         mdhn:upenn_f16_0228_1963_2_Iran,
         mdhn:upenn_f16_0229_1963_3_Iran,
@@ -385,6 +388,7 @@ mdhn:Kuffic a mdhn:ResourceCollection ;
     rdfs:label "Kuffic Collection"@en ;
     mdhn:caption "Kuffic Collection"@en ;
     mdhn:hasResource mdhn:52ba8371_1991_4c30_8d9c_df5dc6c90ac9,
+        mdhn:bsb00037517,
         mdhn:btv1b10506519f,
         mdhn:btv1b10511054j,
         mdhn:btv1b8550856t ;
@@ -444,18 +448,26 @@ mdhn:Muraqqa a mdhn:ResourceCollection ;
     rdfs:label "Muraqqa Collection"@en ;
     mdhn:caption "Muraqqa Collection"@en ;
     mdhn:hasResource mdhn:2b80c88c_93a4_4592_b98d_bf2b64132b4f,
+        mdhn:352094,
+        mdhn:402874,
         mdhn:Manchester911433494224230,
         mdhn:Manchester911438783245373,
         mdhn:Manchester911442249281790,
         mdhn:ad812eb4_7922_4bb3_a9c5_b751ef21de7f,
         mdhn:be07582e_fcdf_45d9_9c7f_1ed37ed00f6c,
+        mdhn:bsb00036290,
         mdhn:btv1b52511097v,
         mdhn:btv1b84108960,
+        mdhn:btv1b8432217g,
+        mdhn:btv1b8432252x,
         mdhn:c9c5dfcc_6e14_4800_a4a7_19712b5f952f,
         mdhn:d917e0d6_2894_4d1e_939b_93fdc0796c96,
         mdhn:ec31ab9d_b229_460f_b913_b25b24a31318 ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MuraqqaCollection.json"@en ;
     mdhn:partOf mdhn:Manuscript .
+
+<http://example.com/mdhn/München,BayerischeStaatsbibliothek> a mdhn:Publisher ;
+    rdfs:label "München, Bayerische Staatsbibliothek"@en .
 
 mdhn:PercyMolesworthSykes a mdhn:ResourceCollection ;
     rdfs:label "Percy Molesworth Sykes"@en ;
@@ -472,8 +484,11 @@ mdhn:PercyMolesworthSykes a mdhn:ResourceCollection ;
 mdhn:PersianManuscript a mdhn:ResourceCollection ;
     rdfs:label "Persian Manuscript Collection"@en ;
     mdhn:caption "Persian Manuscript Collection"@en ;
-    mdhn:hasResource mdhn:23c9305a_844e_48c8_8e76_8832f5e42b2e,
+    mdhn:hasResource mdhn:215600,
+        mdhn:23c9305a_844e_48c8_8e76_8832f5e42b2e,
+        mdhn:44c54e4b_d102_4329_97cc_9607bdd9bee1,
         mdhn:4d01494c_8aba_4fea_b8f9_e7b70c826d0f,
+        mdhn:916f7aa0_d9aa_40dd_b067_238f0d6e7377,
         mdhn:Man4MedievalVC44990837147876,
         mdhn:Man4MedievalVC44994439245391,
         mdhn:Man4MedievalVC44994812297644,
@@ -491,11 +506,17 @@ mdhn:PersianManuscript a mdhn:ResourceCollection ;
         mdhn:Manchester911442418284777,
         mdhn:Manchester911443257285304,
         mdhn:Manchester911447912298691,
+        mdhn:bsb00036317,
+        mdhn:bsb00045958,
         mdhn:btv1b525108194,
         mdhn:btv1b8427172m,
         mdhn:btv1b8427203q,
+        mdhn:btv1b8432231r,
         mdhn:da45a495_2286_4fa6_99f0_b7c2a4ab6f6f,
-        mdhn:e800b13a_6699_49ae_9bc2_c9b8c35b7a25 ;
+        mdhn:e800b13a_6699_49ae_9bc2_c9b8c35b7a25,
+        mdhn:fmb_cb_0501,
+        mdhn:ubb_M_V_0001,
+        mdhn:ubb_M_V_0005 ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/PersianManuscriptCollection.json"@en ;
     mdhn:partOf mdhn:Manuscript .
 
@@ -565,6 +586,9 @@ mdhn:Shahnama a mdhn:ResourceCollection ;
         mdhn:Manchester911387034127338,
         mdhn:Manchester911445966291267,
         mdhn:Manchester911445971291268,
+        mdhn:bsb00043870,
+        mdhn:bsb00048401,
+        mdhn:bsb00106323,
         mdhn:btv1b531948785,
         mdhn:btv1b8406171b,
         mdhn:btv1b8427192c ;
@@ -729,6 +753,12 @@ mdhn:16544 a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://bibliotheque-numerique.inha.fr/iiif/16544/manifest"@en .
 
+mdhn:215600 a mdhn:DigitalResource ;
+    rdfs:label "Compendium of Knowledge"@en ;
+    mdhn:PublishedBy mdhn:HarvardArtMuseums ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://iiif.harvardartmuseums.org/manifests/object/215600"@en .
+
 mdhn:23c9305a_844e_48c8_8e76_8832f5e42b2e a mdhn:DigitalResource ;
     rdfs:label "Yousof va Zoleikha MS. Hyde 10"@en,
         "يوسف و زليخا"@fa ;
@@ -749,12 +779,32 @@ mdhn:32882019068777_fromtheblacksea a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/32882019068777-fromtheblacksea/manifest.json"@en .
 
+mdhn:352094 a mdhn:DigitalResource ;
+    rdfs:label "An Album of Persian Paintings and Drawings"@en,
+        "مرقع نگارگری"@fa ;
+    mdhn:PublishedBy mdhn:HarvardArtMuseums ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://iiif.harvardartmuseums.org/manifests/object/352094"@en .
+
+mdhn:402874 a mdhn:DigitalResource ;
+    rdfs:label "Siyāh-mašq MS.PERS.156"@en,
+        "مرقع سياه مشق"@fa ;
+    mdhn:PublishedBy mdhn:Bulac ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://bina.bulac.fr/iiif/2/402874/manifest"@en .
+
 mdhn:42048516 a mdhn:DigitalResource ;
     rdfs:label "My wanderings in Persia"@en,
         "سرگردانی های من در ايران"@fa ;
     mdhn:PublishedBy mdhn:LOC ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://www.loc.gov/item/42048516/manifest.json"@en .
+
+mdhn:44c54e4b_d102_4329_97cc_9607bdd9bee1 a mdhn:DigitalResource ;
+    rdfs:label "Rubā‘īyāt MS. Ouseley 140"@en ;
+    mdhn:PublishedBy mdhn:BodleianLibraries ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://iiif.bodleian.ox.ac.uk/iiif/manifest/44c54e4b-d102-4329-97cc-9607bdd9bee1.json"@en .
 
 mdhn:47036964 a mdhn:DigitalResource ;
     rdfs:label "The Persian problem; an examination of the rival positions of Russia and Great Britain in Persia"@en,
@@ -832,7 +882,7 @@ mdhn:62754 a mdhn:DigitalResource ;
 
 mdhn:72507ee3_850b_4ad6_9098_141257cb319f a mdhn:DigitalResource ;
     rdfs:label "Kitāb-i Shāhnāmah Peck Shahnamah"@en ;
-    mdhn:PublishedBy mdhn:Priceton ;
+    mdhn:PublishedBy mdhn:Princeton ;
     mdhn:hasResourceType mdhn:aat300265483 ;
     mdhn:hasUrl "https://figgy.princeton.edu/concern/scanned_resources/72507ee3-850b-4ad6-9098-141257cb319f/manifest"@en .
 
@@ -863,11 +913,17 @@ mdhn:894788590 a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://content.staatsbibliothek-berlin.de/dc/894788590/manifest"@en .
 
-mdhn:BayerischeStaatsbibliothek a mdhn:Publisher ;
-    rdfs:label "Bayerische Staatsbibliothek"@en .
+mdhn:916f7aa0_d9aa_40dd_b067_238f0d6e7377 a mdhn:DigitalResource ;
+    rdfs:label "Yusuf u Zulaykha Book Binding"@en ;
+    mdhn:PublishedBy mdhn:BodleianLibraries ;
+    mdhn:hasResourceType mdhn:aat300417741 ;
+    mdhn:hasUrl "https://iiif.bodleian.ox.ac.uk/iiif/manifest/916f7aa0-d9aa-40dd-b067-238f0d6e7377.json"@en .
 
 mdhn:Berlin a mdhn:Publisher ;
     rdfs:label "Berlin"@en .
+
+mdhn:Bulac a mdhn:Publisher ;
+    rdfs:label "Bulac"@en .
 
 mdhn:CornelisdeBruyn a mdhn:ResourceCollection ;
     rdfs:label "Cornelis de Bruyn"@en ;
@@ -1073,11 +1129,14 @@ mdhn:Manchester911442418284777 a mdhn:DigitalResource ;
     mdhn:hasUrl "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~442418~284777/manifest"@en .
 
 mdhn:Manchester911443257285304 a mdhn:DigitalResource ;
-    rdfs:label "Ragamala Hindustani MS 28"@en,
-        "راگامالا"@fa ;
+    rdfs:label "Kullīyāt Persian MS 908"@en,
+        "Ragamala Hindustani MS 28"@en,
+        "راگامالا"@fa,
+        "کليات عرفی شيرازی"@fa ;
     mdhn:PublishedBy mdhn:ManchesterUniversityLibrary ;
     mdhn:hasResourceType mdhn:aat300265483 ;
-    mdhn:hasUrl "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~443257~285304/manifest"@en .
+    mdhn:hasUrl "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~443257~285304/manifest"@en,
+        "https://www.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00908"@en .
 
 mdhn:Manchester911445966291267 a mdhn:DigitalResource ;
     rdfs:label "Shāhnāmah Persian MS 977"@en,
@@ -1118,15 +1177,13 @@ mdhn:NNL_ALEPH21218928750005171 a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028094 ;
     mdhn:hasUrl "https://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH21218928750005171/manifest"@en .
 
-mdhn:Priceton a mdhn:Publisher ;
-    rdfs:label "Priceton"@en .
-
 mdhn:Quran a mdhn:ResourceCollection ;
     rdfs:label "Quran Collection"@en ;
     mdhn:caption "Quran Collection"@en ;
     mdhn:hasResource mdhn:Manchester911435613231088,
         mdhn:btv1b8419228w,
-        mdhn:btv1b84192299 ;
+        mdhn:btv1b84192299,
+        mdhn:d3d6f0fa_5356_49ca_b2b2_1cf2ec11e672 ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/QuranCollection.json"@en ;
     mdhn:partOf mdhn:Manuscript .
 
@@ -1371,6 +1428,13 @@ mdhn:behindveilinpers00amstuoft a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/behindveilinpers00amstuoft/manifest.json"@en .
 
+mdhn:behindveilinpers00humeiala a mdhn:DigitalResource ;
+    rdfs:label "Behind the Veil in Persia and Turkish Arabia"@en,
+        "ايران و ترکيه از پشت حجاب"@fa ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/behindveilinpers00humeiala/manifest.json"@en .
+
 mdhn:behindveilinpers00humeuoft a mdhn:DigitalResource ;
     rdfs:label "Behind the Veil in Persia and Turkish Arabia"@en,
         "ايران و ترکيه از پشت حجاب"@fa ;
@@ -1387,19 +1451,19 @@ mdhn:bpt6k1040601r a mdhn:DigitalResource ;
 mdhn:bpt6k10503900 a mdhn:DigitalResource ;
     rdfs:label "Vol.1"@en ;
     mdhn:PublishedBy mdhn:Gallica ;
-    mdhn:hasResourceType mdhn: ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k10503900/manifest.json"@en .
 
 mdhn:bpt6k1050392t a mdhn:DigitalResource ;
     rdfs:label "Vol.2"@en ;
     mdhn:PublishedBy mdhn:Gallica ;
-    mdhn:hasResourceType mdhn: ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1050392t/manifest.json"@en .
 
 mdhn:bpt6k1050394n a mdhn:DigitalResource ;
     rdfs:label "Vol.3"@en ;
     mdhn:PublishedBy mdhn:Gallica ;
-    mdhn:hasResourceType mdhn: ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1050394n/manifest.json"@en .
 
 mdhn:bpt6k11834532 a mdhn:DigitalResource ;
@@ -1549,12 +1613,73 @@ mdhn:bpt6k965270p a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300215389 ;
     mdhn:hasUrl "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k965270p/manifest.json"@en .
 
+mdhn:bsb00036290 a mdhn:DigitalResource ;
+    rdfs:label "Ašʿār-i Fārsī - BSB Cod.pers. 132"@en,
+        "مرقع مونيخ"@fa ;
+    mdhn:PublishedBy mdhn:München_BayerischeStaatsbibliothek ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00036290/manifest"@en .
+
+mdhn:bsb00036317 a mdhn:DigitalResource ;
+    rdfs:label "Humāy wa Humāyūn - BSB Cod.pers. 459"@en,
+        "همای و همايون"@fa ;
+    mdhn:PublishedBy mdhn:BayerischeStaatsbibliothek ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00036317/manifest"@en .
+
+mdhn:bsb00037517 a mdhn:DigitalResource ;
+    rdfs:label "Qurʾān - BSB Cod.arab. 2603"@en,
+        "قرآن جزء بيست"@fa ;
+    mdhn:PublishedBy mdhn:München_BayerischeStaatsbibliothek ;
+    mdhn:hasResourceType mdhn:aat300028569 ;
+    mdhn:hasUrl "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00037517/manifest"@en .
+
+mdhn:bsb00043870 a mdhn:DigitalResource ;
+    rdfs:label "Firdausī: Šāhnāma - BSB Cod.pers. 10"@en,
+        "شاهنامه فردوسی"@fa ;
+    mdhn:PublishedBy mdhn:München_BayerischeStaatsbibliothek ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00043870/manifest"@en .
+
+mdhn:bsb00045958 a mdhn:DigitalResource ;
+    rdfs:label "Ibn-al-Muqaffaʿ, ʿAbdallāh: Kalīla wa-Dimna - BSB Cod.arab. 616"@en,
+        "کلیله و دمنه ابن مقفع"@fa ;
+    mdhn:PublishedBy mdhn:München_BayerischeStaatsbibliothek ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045958/manifest"@en .
+
+mdhn:bsb00048401 a mdhn:DigitalResource ;
+    rdfs:label "Firdausī: Šāhnāma - BSB Cod.pers. 8"@en,
+        "شاهنامه فردوسی"@fa ;
+    mdhn:PublishedBy mdhn:München_BayerischeStaatsbibliothek ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00048401/manifest"@en .
+
 mdhn:bsb00048402 a mdhn:DigitalResource ;
     rdfs:label "Ḫamsa-i Niẓāmī - BSB Cod.pers. 21"@en,
         "خمسه نظامی"@fa ;
     mdhn:PublishedBy mdhn:BayerischeStaatsbibliothek ;
     mdhn:hasResourceType mdhn:aat300265483 ;
     mdhn:hasUrl "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00048402/manifest"@en .
+
+mdhn:bsb00106323 a mdhn:DigitalResource ;
+    rdfs:label "Firdausī: Šāhnāma - BSB Cod.pers. 15"@en,
+        "شاهنامه فردوسی"@fa ;
+    mdhn:PublishedBy mdhn:München_BayerischeStaatsbibliothek ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106323/manifest"@en .
+
+mdhn:bsb11175348 a mdhn:DigitalResource ;
+    rdfs:label "Taḏkirat al-ḫaṭṭāṭīn"@en ;
+    mdhn:PublishedBy mdhn:München_BayerischeStaatsbibliothek ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11175348/manifest"@en .
+
+mdhn:bsb11852518 a mdhn:DigitalResource ;
+    rdfs:label "Taḏkirat al-ḫaṭṭāṭīn Ǧild-i 2"@en ;
+    mdhn:PublishedBy mdhn:München_BayerischeStaatsbibliothek ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11852518/manifest"@en .
 
 mdhn:btv1b10506519f a mdhn:DigitalResource ;
     rdfs:label "Coran Arabe 367"@en ;
@@ -1725,6 +1850,25 @@ mdhn:btv1b8427203q a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300265483 ;
     mdhn:hasUrl "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427203q/manifest.json"@en .
 
+mdhn:btv1b8432217g a mdhn:DigitalResource ;
+    rdfs:label "Album contenant des pièces de Rezā 'Abbasi"@en ;
+    mdhn:PublishedBy mdhn:Gallica ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8432217g/manifest.json"@en .
+
+mdhn:btv1b8432231r a mdhn:DigitalResource ;
+    rdfs:label "Salāmān va Absāl"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8432231r/manifest.json"@en .
+
+mdhn:btv1b8432252x a mdhn:DigitalResource ;
+    rdfs:label "Recueil de pièces en nasta'liq Supplément Persan 1948"@en,
+        "مرقغ خوشنويسی"@fa ;
+    mdhn:PublishedBy mdhn:Gallica ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8432252x/manifest.json"@en .
+
 mdhn:btv1b8432911d a mdhn:DigitalResource ;
     rdfs:label "Niżāmī Ganǧavī. Ḫamsah Supplément persan 1029"@en ;
     mdhn:PublishedBy mdhn:Gallica ;
@@ -1814,6 +1958,12 @@ mdhn:catalogueofloane00pope a mdhn:DigitalResource ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/catalogueofloane00pope/manifest.json"@en .
+
+mdhn:d3d6f0fa_5356_49ca_b2b2_1cf2ec11e672 a mdhn:DigitalResource ;
+    rdfs:label "Koran Book Binding"@en ;
+    mdhn:PublishedBy mdhn:BodleianLibraries ;
+    mdhn:hasResourceType mdhn:aat300417741 ;
+    mdhn:hasUrl "https://iiif.bodleian.ox.ac.uk/iiif/manifest/d3d6f0fa-5356-49ca-b2b2-1cf2ec11e672.json"@en .
 
 mdhn:d917e0d6_2894_4d1e_939b_93fdc0796c96 a mdhn:DigitalResource ;
     rdfs:label "Album of miniatures and specimens of calligraphy of Indian origin"@en,
@@ -1939,12 +2089,24 @@ mdhn:erzeugnisseislam00sarr a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/erzeugnisseislam00sarr/manifest.json"@en .
 
+mdhn:eye_filmmuseums_instagram_video_zo_wordt_een_perzisch_kleed_gemaakt_met_een_nieu a mdhn:DigitalResource ;
+    rdfs:label "Persian carpet"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300435424 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/eye-filmmuseums-instagram-video-zo-wordt-een-perzisch-kleed-gemaakt-met-een-nieu/manifest.json"@en .
+
 mdhn:fd04sa38egmn a mdhn:DigitalResource ;
     rdfs:label "Khamseh Ms 2431"@en,
         "منتخب خمسه"@fa ;
     mdhn:PublishedBy mdhn:ARCA ;
     mdhn:hasResourceType mdhn:aat300265483 ;
     mdhn:hasUrl "https://api.irht.cnrs.fr/ark:/63955/fd04sa38egmn/manifest.json"@en .
+
+mdhn:fmb_cb_0501 a mdhn:DigitalResource ;
+    rdfs:label "Sentences of Ali Cod. Bodmer 501"@en ;
+    mdhn:PublishedBy mdhn:e-codices ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://www.e-codices.unifr.ch/metadata/iiif/fmb-cb-0501/manifest.json"@en .
 
 mdhn:fromblackseathro00weekiala a mdhn:DigitalResource ;
     rdfs:label "From the Black Sea through Persia and India"@en ;
@@ -1989,6 +2151,12 @@ mdhn:gri_33125012277303 a mdhn:DigitalResource ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/gri_33125012277303/manifest.json"@en .
+
+mdhn:gri_33125012572620 a mdhn:DigitalResource ;
+    rdfs:label "The Garden of paradise rug and the holy carpet of the mosque at Ardebil"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/gri_33125012572620/manifest.json"@en .
 
 mdhn:gri_33125012922361 a mdhn:DigitalResource ;
     rdfs:label "Persia, Chaldea and Susiana"@en ;
@@ -2049,6 +2217,12 @@ mdhn:historyofpersia0002sirp a mdhn:DigitalResource ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/historyofpersia0002sirp/manifest.json"@en .
+
+mdhn:holycarpetmosqu00steb a mdhn:DigitalResource ;
+    rdfs:label "The holy carpet of the mosque at Ardebil"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/holycarpetmosqu00steb/manifest.json"@en .
 
 mdhn:ingovignca10626 a mdhn:DigitalResource ;
     rdfs:label "Introduction to Persian art since the seventh century A.D."@en ;
@@ -2349,18 +2523,18 @@ mdhn:personalnarrativ00gtvi a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/personalnarrativ00gtvi/manifest.json"@en .
 
-mdhn:presidenceofeight00perk a mdhn:DigitalResource ;
-    rdfs:label "A residence of eight years in Persia, among the Nestorian Christians"@en ;
-    mdhn:PublishedBy mdhn:InternetArchive ;
-    mdhn:hasResourceType mdhn:aat300028051 ;
-    mdhn:hasUrl "https://iiif.archive.org/iiif/3/presidenceofeight00perk/manifest.json"@en .
-
 mdhn:queerthingsabout00lore a mdhn:DigitalResource ;
     rdfs:label "Queer things about Persia"@en,
         "عجايبی درباره ايران"@fa ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/queerthingsabout00lore/manifest.json"@en .
+
+mdhn:residenceofeight00perk a mdhn:DigitalResource ;
+    rdfs:label "A residence of eight years in Persia, among the Nestorian Christians"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300028051 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/residenceofeight00perk/manifest.json"@en .
 
 mdhn:ridetoindiaacros00dewirich a mdhn:DigitalResource ;
     rdfs:label "A ride to India across Persia and Baluchistan"@en,
@@ -2544,6 +2718,18 @@ mdhn:troisanslacour00feuvuoft a mdhn:DigitalResource ;
     mdhn:PublishedBy mdhn:InternetArchive ;
     mdhn:hasResourceType mdhn:aat300028051 ;
     mdhn:hasUrl "https://iiif.archive.org/iiif/3/troisanslacour00feuvuoft/manifest.json"@en .
+
+mdhn:ubb_M_V_0001 a mdhn:DigitalResource ;
+    rdfs:label "al-Kalimāt aṭ-ṭayyibāt al-ʿaliyya M V 1"@en ;
+    mdhn:PublishedBy mdhn:e-codices ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://www.e-codices.ch/metadata/iiif/ubb-M-V-0001/manifest.json"@en .
+
+mdhn:ubb_M_V_0005 a mdhn:DigitalResource ;
+    rdfs:label "Nasabnāma M V 5"@en ;
+    mdhn:PublishedBy mdhn:e-codices ;
+    mdhn:hasResourceType mdhn:aat300265483 ;
+    mdhn:hasUrl "https://www.e-codices.unifr.ch/metadata/iiif/ubb-M-V-0005/manifest.json"@en .
 
 mdhn:upenn_f16_0227_1963_1_Iran a mdhn:DigitalResource ;
     rdfs:label "1963 #1 Iran"@en ;
@@ -2850,6 +3036,12 @@ mdhn:yearamongstpersi0000brow a mdhn:DigitalResource ;
 mdhn:ARCA a mdhn:Publisher ;
     rdfs:label "ARCA"@en .
 
+mdhn:BayerischeStaatsbibliothek a mdhn:Publisher ;
+    rdfs:label "Bayerische Staatsbibliothek"@en .
+
+mdhn:HarvardArtMuseums a mdhn:Publisher ;
+    rdfs:label "Harvard Art Museums"@en .
+
 mdhn:Miscellaneous a mdhn:ResourceCollection ;
     rdfs:label "Miscellaneous"@en ;
     mdhn:caption "Miscellaneous"@en ;
@@ -2889,8 +3081,8 @@ mdhn:NewsMagazines a mdhn:ResourceCollection ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/NewsMagazineCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
-mdhn:Princeton a mdhn:Publisher ;
-    rdfs:label "Princeton"@en .
+mdhn:e-codices a mdhn:Publisher ;
+    rdfs:label "e-codices"@en .
 
 mdhn:LOC a mdhn:Publisher ;
     rdfs:label "LOC"@en .
@@ -2901,14 +3093,17 @@ mdhn:Manuscript a mdhn:ResourceCollection ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/ManuscriptCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
+mdhn:Princeton a mdhn:Publisher ;
+    rdfs:label "Princeton"@en .
+
 mdhn:RARA a mdhn:Publisher ;
     rdfs:label "RARA"@en .
 
-mdhn:BodleianLibraries a mdhn:Publisher ;
-    rdfs:label "Bodleian Libraries"@en .
-
 mdhn:DavidRumsey a mdhn:Publisher ;
     rdfs:label "David Rumsey"@en .
+
+mdhn:BodleianLibraries a mdhn:Publisher ;
+    rdfs:label "Bodleian Libraries"@en .
 
 mdhn:INHA a mdhn:Publisher ;
     rdfs:label "INHA"@en .
@@ -2942,8 +3137,11 @@ mdhn:RootCollection a mdhn:ResourceCollection ;
         mdhn:b32168172,
         mdhn:b33014814_0003,
         mdhn:behindveilinpers00amstuoft,
+        mdhn:behindveilinpers00humeiala,
         mdhn:behindveilinpers00humeuoft,
         mdhn:bpt6k1511616w,
+        mdhn:bsb11175348,
+        mdhn:bsb11852518,
         mdhn:btv1b10522175v,
         mdhn:bub_gb_kAbyecoMR_EC,
         mdhn:bycamelcartopeac0000powe,
@@ -2953,13 +3151,15 @@ mdhn:RootCollection a mdhn:ResourceCollection ;
         mdhn:eastsketchesoftr0000spen,
         mdhn:glimpsesoflifema00sheiiala,
         mdhn:glimpsesofpersia0000wood,
+        mdhn:gri_33125012572620,
+        mdhn:holycarpetmosqu00steb,
         mdhn:isbn_9781362110088,
         mdhn:nadirshah00durauoft,
         mdhn:oapen_2050012657_45626,
         mdhn:peepsintopersia00hermrich,
         mdhn:persiaawakeninge00cresrich,
-        mdhn:presidenceofeight00perk,
         mdhn:queerthingsabout00lore,
+        mdhn:residenceofeight00perk,
         mdhn:ridetoindiaacros00dewirich,
         mdhn:sevruguin_and_the_persian_image,
         mdhn:throughpersiabyc00arno_0,
@@ -2971,6 +3171,8 @@ mdhn:Gallica a mdhn:Publisher ;
 
 mdhn:InternetArchive a mdhn:Publisher ;
     rdfs:label "Internet Archive"@en .
+
+
 mdhn:aat300028051 a mdhn:ResourceType ;
         rdfs:label "Books"@en ;
         rdfs:comment "schema:Book"@en .
