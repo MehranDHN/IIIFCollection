@@ -15,7 +15,7 @@
 
 
 mdhn:ResourceCollection a owl:Class ;
-    rdfs:comment "A collection of IIIF resources that may contain manifests and nested collections." ;
+    rdfs:comment "A collection of IIIF resources that contain manifests and nested collections." ;
     rdfs:label "Resource Collection" .
 
 mdhn:DigitalResource a owl:Class ;
@@ -29,6 +29,10 @@ mdhn:Creator a owl:Class ;
 mdhn:ResourceType a owl:Class ;
     rdfs:comment "The content type of the digital resource, aligned with controlled vocabularies like AAT or TGM." ;
     rdfs:label "Resource Type" .
+
+mdhn:ScriptStyleType a owl:Class ;
+    rdfs:comment "The script style type of a calligraphy resource, such as 'Nasta'liq' or 'Thuluth'." ;
+    rdfs:label "Script Style Type" .    
 
 mdhn:Publisher a owl:Class ;
     rdfs:comment "An entity responsible for publishing or making the resource available." ;
@@ -49,6 +53,19 @@ mdhn:hasCreator a owl:ObjectProperty ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "has creator" ;
     rdfs:range mdhn:Creator .
+
+mdhn:hasScriptStyle a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to its canvas type." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "has Script Style" ;
+    rdfs:range mdhn:ScriptStyleType.   
+
+mdhn:scriptStyleInstance a owl:ObjectProperty ;
+    rdfs:comment "Links a specified script style type to its instance in a DigitalResource." ;
+    rdfs:domain mdhn:ScriptStyleType ;
+    rdfs:label "scriptStyleInstance"  ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasScriptStyle .       
 
 mdhn:hasCanvasType a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its canvas type." ;
@@ -108,7 +125,6 @@ mdhn:hasPublished a owl:ObjectProperty ;
     rdfs:range mdhn:DigitalResource ;
     owl:inverseOf mdhn:PublishedBy .
  
-
 mdhn:createResources a owl:ObjectProperty ;
     rdfs:comment "Links a Creator to DigitalResource." ;
     rdfs:domain mdhn:Creator ;
