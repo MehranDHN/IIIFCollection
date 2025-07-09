@@ -7,7 +7,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-
 mdhn:AbrahamValentineWilliamsJackson a mdhn:ResourceCollection ;
     rdfs:label "Abraham Valentine Williams Jackson"@en ;
     mdhn:caption "Abraham Valentine Williams Jackson"@en ;
@@ -45,6 +44,25 @@ mdhn:AndreDaulierDeslandes a mdhn:ResourceCollection ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/AndreDaulierCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
+mdhn:Arsislamica a mdhn:ResourceCollection ;
+    rdfs:label "Ars islamica Collection"@en ;
+    mdhn:caption "Ars islamica Collection"@en ;
+    mdhn:hasResource mdhn:arsis15161951116detr,
+        mdhn:arsislamica101943detr,
+        mdhn:arsislamica11121946detr,
+        mdhn:arsislamica11934detr,
+        mdhn:arsislamica13141948detr,
+        mdhn:arsislamica21935detr,
+        mdhn:arsislamica31936detr,
+        mdhn:arsislamica41937detr,
+        mdhn:arsislamica51938detr,
+        mdhn:arsislamica61939detr,
+        mdhn:arsislamica71940detr,
+        mdhn:arsislamica81941detr,
+        mdhn:arsislamica91942detr ;
+    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/ArsislamicaCollection.json"@en ;
+    mdhn:partOf mdhn:RootCollection .
+
 mdhn:ArthurUphamPope a mdhn:ResourceCollection ;
     rdfs:label "Arthur Upham Pope Collection"@en ;
     mdhn:caption "Arthur Upham Pope Collection"@en ;
@@ -62,6 +80,15 @@ mdhn:AurelStein a mdhn:ResourceCollection ;
         mdhn:ingovignca13285,
         mdhn:ingovignca13286 ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/AurelSteinCollection.json"@en ;
+    mdhn:partOf mdhn:RootCollection .
+
+mdhn:Calligraphy a mdhn:ResourceCollection ;
+    rdfs:label "Calligraphy Collection"@en ;
+    mdhn:caption "Calligraphy Collection"@en ;
+    mdhn:hasResource mdhn:McGillLibrary_rbsc_isl_arabic_calligraphy_077_19504,
+        mdhn:McGillLibrary_rbsc_isl_arabic_calligraphy_113_19555,
+        mdhn:McGillLibrary_rbsc_isl_arabic_calligraphy_115_19558 ;
+    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/CalligraphyCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
 mdhn:CarlaSerena a mdhn:ResourceCollection ;
@@ -427,6 +454,15 @@ mdhn:LePetitjournal a mdhn:ResourceCollection ;
         mdhn:bpt6k717206g ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LEPetitCollection.json"@en ;
     mdhn:partOf mdhn:NewsMagazines .
+
+mdhn:MEHumeGriffith a mdhn:ResourceCollection ;
+    rdfs:label "M. E. Hume-Griffith Collection"@en ;
+    mdhn:caption "M. E. Hume-Griffith Collection"@en ;
+    mdhn:hasResource mdhn:behindveilinpers00amstuoft,
+        mdhn:behindveilinpers00humeiala,
+        mdhn:behindveilinpers00humeuoft ;
+    mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/GriffithCollection.json"@en ;
+    mdhn:partOf mdhn:RootCollection .
 
 mdhn:Maps a mdhn:ResourceCollection ;
     rdfs:label "Maps"@en ;
@@ -1176,6 +1212,28 @@ mdhn:Manchester911447912298691 a mdhn:DigitalResource ;
     mdhn:hasResourceType mdhn:aat300265483 ;
     mdhn:hasUrl "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~447912~298691/manifest"@en .
 
+mdhn:McGillLibrary_rbsc_isl_arabic_calligraphy_077_19504 a mdhn:DigitalResource ;
+    rdfs:label "Extracts from the poem al-Burdah"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300266660 ;
+    mdhn:hasScriptStyle mdhn:aat300195195,
+        mdhn:aat300195198 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/McGillLibrary-rbsc_isl_arabic-calligraphy_077-19504/manifest.json"@en .
+
+mdhn:McGillLibrary_rbsc_isl_arabic_calligraphy_113_19555 a mdhn:DigitalResource ;
+    rdfs:label "Extracts from the poem al-Burdah"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300266660 ;
+    mdhn:hasScriptStyle mdhn:aat300195198 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/McGillLibrary-rbsc_isl_arabic-calligraphy_113-19555/manifest.json"@en .
+
+mdhn:McGillLibrary_rbsc_isl_arabic_calligraphy_115_19558 a mdhn:DigitalResource ;
+    rdfs:label "Extracts from the poem al-Burdah"@en ;
+    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:hasResourceType mdhn:aat300266660 ;
+    mdhn:hasScriptStyle mdhn:aat300195198 ;
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/McGillLibrary-rbsc_isl_arabic-calligraphy_115-19558/manifest.json"@en .
+
 mdhn:McGillLibrary_rbsc_isl_durar_al_tijan_FOLIODS276M841890_18593 a mdhn:DigitalResource ;
     rdfs:label "Durar al-tījān fi tārīkh banī al-Ashkān"@en,
         "در التجان فی تاريخ بنی الاشکان"@fa ;
@@ -1508,9 +1566,11 @@ mdhn:be07582e_fcdf_45d9_9c7f_1ed37ed00f6c a mdhn:DigitalResource ;
 mdhn:behindveilinpers00amstuoft a mdhn:DigitalResource ;
     rdfs:label "Behind the Veil in Persia and Turkish Arabia"@en,
         "ايران و ترکيه از پشت حجاب"@fa ;
-    mdhn:PublishedBy mdhn:InternetArchive ;
+    mdhn:PublishedBy mdhn:InternetArchive,
+        mdhn:LOC ;
     mdhn:hasResourceType mdhn:aat300028051 ;
-    mdhn:hasUrl "https://iiif.archive.org/iiif/3/behindveilinpers00amstuoft/manifest.json"@en .
+    mdhn:hasUrl "https://iiif.archive.org/iiif/3/behindveilinpers00amstuoft/manifest.json"@en,
+        "https://www.loc.gov/item/49043449/manifest.json"@en .
 
 mdhn:behindveilinpers00humeiala a mdhn:DigitalResource ;
     rdfs:label "Behind the Veil in Persia and Turkish Arabia"@en,
@@ -3202,9 +3262,6 @@ mdhn:NewsMagazines a mdhn:ResourceCollection ;
     mdhn:hasUrl "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/NewsMagazineCollection.json"@en ;
     mdhn:partOf mdhn:RootCollection .
 
-mdhn:LOC a mdhn:Publisher ;
-    rdfs:label "LOC"@en .
-
 mdhn:Manuscript a mdhn:ResourceCollection ;
     rdfs:label "Manuscript"@en ;
     mdhn:caption "Manuscript"@en ;
@@ -3213,6 +3270,9 @@ mdhn:Manuscript a mdhn:ResourceCollection ;
 
 mdhn:Princeton a mdhn:Publisher ;
     rdfs:label "Princeton"@en .
+
+mdhn:LOC a mdhn:Publisher ;
+    rdfs:label "LOC"@en .
 
 mdhn:RARA a mdhn:Publisher ;
     rdfs:label "RARA"@en .
@@ -3241,24 +3301,8 @@ mdhn:RootCollection a mdhn:ResourceCollection ;
         mdhn:47036964,
         mdhn:876361,
         mdhn:McGillLibrary_rbsc_isl_kitab_al_aqalim_DS46I821839_2063,
-        mdhn:arsis15161951116detr,
-        mdhn:arsislamica101943detr,
-        mdhn:arsislamica11121946detr,
-        mdhn:arsislamica11934detr,
-        mdhn:arsislamica13141948detr,
-        mdhn:arsislamica21935detr,
-        mdhn:arsislamica31936detr,
-        mdhn:arsislamica41937detr,
-        mdhn:arsislamica51938detr,
-        mdhn:arsislamica61939detr,
-        mdhn:arsislamica71940detr,
-        mdhn:arsislamica81941detr,
-        mdhn:arsislamica91942detr,
         mdhn:b32168172,
         mdhn:b33014814_0003,
-        mdhn:behindveilinpers00amstuoft,
-        mdhn:behindveilinpers00humeiala,
-        mdhn:behindveilinpers00humeuoft,
         mdhn:bpt6k1511616w,
         mdhn:bsb11175348,
         mdhn:bsb11852518,
@@ -3291,6 +3335,8 @@ mdhn:Gallica a mdhn:Publisher ;
 
 mdhn:InternetArchive a mdhn:Publisher ;
     rdfs:label "Internet Archive"@en .
+
+
 
 
 mdhn:aat300028051 a mdhn:ResourceType ;
