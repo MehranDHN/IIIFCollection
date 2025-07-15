@@ -32,7 +32,11 @@ mdhn:ResourceType a owl:Class ;
 
 mdhn:ScriptStyleType a owl:Class ;
     rdfs:comment "The script style type of a calligraphy resource, such as 'Nasta'liq' or 'Thuluth'." ;
-    rdfs:label "Script Style Type" .    
+    rdfs:label "Script Style Type" .  
+
+mdhn:DepartedCollection a owl:Class ;
+    rdfs:comment "The class for integrating departed folios into a single virtual collection" ;
+    rdfs:label "Departed Collection" .          
 
 mdhn:Publisher a owl:Class ;
     rdfs:comment "An entity responsible for publishing or making the resource available." ;
@@ -47,6 +51,19 @@ mdhn:hasResource a owl:ObjectProperty ;
     rdfs:domain mdhn:ResourceCollection ;
     rdfs:label "has resource" ;
     rdfs:range mdhn:DigitalResource .
+
+mdhn:belongsTo a owl:ObjectProperty ;
+    rdfs:comment "Links a departed DigitalResource to its virtual collection" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "Belongs To" ;
+    rdfs:range mdhn:DepartedCollection .
+
+mdhn:hasFolio a owl:ObjectProperty ;
+    rdfs:comment "Links a virtual collection to its departed folios" ;
+    rdfs:domain mdhn:DepartedCollection ;
+    rdfs:label "hasFolio"  ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:belongsTo .          
 
 mdhn:hasCreator a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its creator." ;
