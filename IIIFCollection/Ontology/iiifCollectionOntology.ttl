@@ -30,6 +30,7 @@ mdhn:ResourceType a owl:Class ;
     rdfs:comment "The content type of the digital resource, aligned with controlled vocabularies like AAT or TGM." ;
     rdfs:label "Resource Type" .
 
+
 mdhn:ScriptStyleType a owl:Class ;
     rdfs:comment "The script style type of a calligraphy resource, such as 'Nasta'liq' or 'Thuluth'." ;
     rdfs:label "Script Style Type" .  
@@ -63,13 +64,21 @@ mdhn:hasFolio a owl:ObjectProperty ;
     rdfs:domain mdhn:DepartedCollection ;
     rdfs:label "hasFolio"  ;
     rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:belongsTo .          
+    owl:inverseOf mdhn:belongsTo .   
 
+         
 mdhn:hasCreator a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its creator." ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "has creator" ;
     rdfs:range mdhn:Creator .
+
+mdhn:hasFolio a owl:ObjectProperty ;
+    rdfs:comment "Links a virtual collection to its departed folios" ;
+    rdfs:domain mdhn:DepartedCollection ;
+    rdfs:label "hasFolio"  ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:belongsTo .      
 
 mdhn:hasScriptStyle a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its canvas type." ;
