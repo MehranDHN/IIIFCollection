@@ -275,10 +275,10 @@ Each object property is represented as a binary predicate, with axioms for domai
   - Range: CanvasType (∀x ∀y (hasCanvasType(x, y) → CanvasType(y)))  
   - No inverse defined.
 
-- **hasResourceType(x, y)**  
-  - Domain: DigitalResource (∀x ∀y (hasResourceType(x, y) → DigitalResource(x)))  
+- **ofType(x, y)**  
+  - Domain: DigitalResource (∀x ∀y (ofType(x, y) → DigitalResource(x)))  
   - Range: ResourceType (∀x ∀y (hasResourceType(x, y) → ResourceType(y)))  
-  - Inverse: resourceTypeInstance(y, x) (∀x ∀y (hasResourceType(x, y) ↔ resourceTypeInstance(y, x)))
+  - Inverse: hasTypeInstance(y, x) (∀x ∀y (hasTypeInstance(x, y) ↔ resourceTypeInstance(y, x)))
 
 - **hasPublisher(x, y)**  
   - Domain: DigitalResource (∀x ∀y (hasPublisher(x, y) → DigitalResource(x)))  
@@ -305,10 +305,15 @@ Each object property is represented as a binary predicate, with axioms for domai
   - Range: DigitalResource (∀x ∀y (resourceTypeInstance(x, y) → DigitalResource(y)))  
   - Inverse of hasResourceType.
 
+- **subCollectionOf(x, y)**  
+  - Domain: ResourceCollection (∀x ∀y (subCollectionOf(x, y) → ResourceCollection(x)))  
+  - Range: ResourceCollection (∀x ∀y (subCollectionOf(x, y) → ResourceCollection(y)))  
+  - Inverse: parentCollectionOf(y, x) (∀x ∀y (parentCollectionOf(x, y) ↔ subCollectionOf(y, x)))
+
 - **partOf(x, y)**  
-  - Domain: ResourceCollection (∀x ∀y (partOf(x, y) → ResourceCollection(x)))  
-  - Range: ResourceCollection (∀x ∀y (partOf(x, y) → ResourceCollection(y)))  
-  - No inverse defined.
+  - Domain: DigitalResource (∀x ∀y (partOf(x, y) → DigitalResource(x)))  
+  - Range: DepartedCollection (∀x ∀y (partOf(x, y) → DepartedCollection(y)))  
+  - Inverse: contains(y, x) (∀x ∀y (contains(x, y) ↔ partOf(y, x)))  
 
 ### Datatype Properties with Domain and Range
 Datatype properties link entities to literal values (e.g., strings or URIs).
@@ -387,8 +392,8 @@ PREFIX mdhn: <http://example.com/mdhn/>
 SELECT ?parent ?child ?childLabel
 WHERE {
   ?child a mdhn:ResourceCollection ;
-         mdhn:partOf ?parent ;
-         mdhn:caption ?childLabel .
+    mdhn:subCollectionOf ?parent ;
+    mdhn:caption ?childLabel .
 }
 ```
 
@@ -401,8 +406,8 @@ PREFIX aat: <https://vocab.getty.edu/aat/>
 SELECT ?resource ?label
 WHERE {
   ?resource a mdhn:DigitalResource ;
-            mdhn:hasResourceType aat:300028051 ;  # AAT term for "photographs"
-            mdhn:caption ?label .
+            mdhn:ofType mdhn:aat300027200 ;  # AAT term for "Photograph Album"
+            rdfs:label ?label .
 }
 ```
 
