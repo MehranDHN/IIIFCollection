@@ -365,22 +365,22 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?resource ?label
 WHERE {
   ?collection a mdhn:ResourceCollection ;
-              mdhn:hasResource ?resource ;
-              mdhn:caption "Persian Miniature Paintings" .
+              mdhn:hasResource ?resource .
   ?resource a mdhn:DigitalResource ;
-            mdhn:caption ?label .
+            rdfs:label ?label .
 }
 ```
 
 ### Query 2: Find Creators of Digital Resources
-This query lists creators associated with `DigitalResource` instances.
+This query lists creators and their labels associated with `DigitalResource` instances.
 
 ```sparql
 PREFIX mdhn: <http://example.com/mdhn/>
-SELECT ?resource ?creator
+SELECT ?resource ?creator ?label
 WHERE {
   ?resource a mdhn:DigitalResource ;
             mdhn:hasCreator ?creator .
+    ?creator rdfs:label ?label.
 }
 ```
 
