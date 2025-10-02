@@ -243,6 +243,88 @@ The ontology defines relationships such as `hasResource`, `hasCreator`, `hasPubl
 - `mdhn:ResourceCollection` represents both Departed and Resource Collections, with `mdhn:partOf` indicating hierarchical relationships.
 - `mdhn:DigitalResource` represents individual IIIF Manifests, linked to collections via `mdhn:belongsTo`.
 
+## Transforming RDF Ontology to First-Order Logic
+
+RDF ontologies can be translated into First-Order Logic (FOL) to enable formal reasoning, theorem proving, or integration with logical systems. In FOL, classes are represented as unary predicates (e.g., `ResourceCollection(x)`), while properties are binary predicates (e.g., `hasResource(x, y)`). Domain and range constraints are axiomatized using universal quantifiers to enforce type restrictions. Inverse properties are captured with equivalence axioms.
+
+Below, we transform the key elements of the RDF ontology into FOL axioms, with a strong emphasis on the domain and range of each object and datatype property. Note that namespaces (e.g., `mdhn:`) are omitted for brevity in the predicates, but they align with the Turtle definitions.
+
+### Classes as Unary Predicates
+- `ResourceCollection(x)`: True if x is a resource collection.
+- `DigitalResource(x)`: True if x is a digital resource (IIIF Manifest).
+- `Creator(x)`: True if x is a creator entity.
+- `Publisher(x)`: True if x is a publisher entity.
+- `ResourceType(x)`: True if x is a resource type (aligned with vocabularies like AAT).
+- `CanvasType(x)`: True if x is a canvas type within a manifest.
+
+### Object Properties with Domain and Range
+Each object property is represented as a binary predicate, with axioms for domain (subject type) and range (object type). Inverse relationships are also axiomatized.
+
+- **hasResource(x, y)**  
+  - Domain: ResourceCollection (∀x ∀y (hasResource(x, y) → ResourceCollection(x)))  
+  - Range: DigitalResource (∀x ∀y (hasResource(x, y) → DigitalResource(y)))  
+  - Inverse: belongsTo(y, x) (∀x ∀y (hasResource(x, y) ↔ belongsTo(y, x)))
+
+- **hasCreator(x, y)**  
+  - Domain: DigitalResource (∀x ∀y (hasCreator(x, y) → DigitalResource(x)))  
+  - Range: Creator (∀x ∀y (hasCreator(x, y) → Creator(y)))  
+  - Inverse: createResources(y, x) (∀x ∀y (hasCreator(x, y) ↔ createResources(y, x)))
+
+- **hasCanvasType(x, y)**  
+  - Domain: DigitalResource (∀x ∀y (hasCanvasType(x, y) → DigitalResource(x)))  
+  - Range: CanvasType (∀x ∀y (hasCanvasType(x, y) → CanvasType(y)))  
+  - No inverse defined.
+
+- **hasResourceType(x, y)**  
+  - Domain: DigitalResource (∀x ∀y (hasResourceType(x, y) → DigitalResource(x)))  
+  - Range: ResourceType (∀x ∀y (hasResourceType(x, y) → ResourceType(y)))  
+  - Inverse: resourceTypeInstance(y, x) (∀x ∀y (hasResourceType(x, y) ↔ resourceTypeInstance(y, x)))
+
+- **hasPublisher(x, y)**  
+  - Domain: DigitalResource (∀x ∀y (hasPublisher(x, y) → DigitalResource(x)))  
+  - Range: Publisher (∀x ∀y (hasPublisher(x, y) → Publisher(y)))  
+  - Inverse: publishedResource(y, x) (∀x ∀y (hasPublisher(x, y) ↔ publishedResource(y, x)))
+
+- **belongsTo(x, y)**  
+  - Domain: DigitalResource (∀x ∀y (belongsTo(x, y) → DigitalResource(x)))  
+  - Range: ResourceCollection (∀x ∀y (belongsTo(x, y) → ResourceCollection(y)))  
+  - Inverse of hasResource.
+
+- **publishedResource(x, y)**  
+  - Domain: Publisher (∀x ∀y (publishedResource(x, y) → Publisher(x)))  
+  - Range: DigitalResource (∀x ∀y (publishedResource(x, y) → DigitalResource(y)))  
+  - Inverse of hasPublisher.
+
+- **createResources(x, y)**  
+  - Domain: Creator (∀x ∀y (createResources(x, y) → Creator(x)))  
+  - Range: DigitalResource (∀x ∀y (createResources(x, y) → DigitalResource(y)))  
+  - Inverse of hasCreator.
+
+- **resourceTypeInstance(x, y)**  
+  - Domain: ResourceType (∀x ∀y (resourceTypeInstance(x, y) → ResourceType(x)))  
+  - Range: DigitalResource (∀x ∀y (resourceTypeInstance(x, y) → DigitalResource(y)))  
+  - Inverse of hasResourceType.
+
+- **partOf(x, y)**  
+  - Domain: ResourceCollection (∀x ∀y (partOf(x, y) → ResourceCollection(x)))  
+  - Range: ResourceCollection (∀x ∀y (partOf(x, y) → ResourceCollection(y)))  
+  - No inverse defined.
+
+### Datatype Properties with Domain and Range
+Datatype properties link entities to literal values (e.g., strings or URIs).
+
+- **hasUrl(x, y)**  
+  - Domain: ResourceCollection or DigitalResource (∀x ∀y (hasUrl(x, y) → (ResourceCollection(x) ∨ DigitalResource(x))))  
+  - Range: xsd:anyURI (∀x ∀y (hasUrl(x, y) → URI(y)))  
+  - (Where URI(y) represents y being a URI value.)
+
+- **caption(x, y)**  
+  - Domain: ResourceCollection or DigitalResource (∀x ∀y (caption(x, y) → (ResourceCollection(x) ∨ DigitalResource(x))))  
+  - Range: xsd:string (∀x ∀y (caption(x, y) → String(y)))  
+  - (Where String(y) represents y being a string literal.)
+
+These FOL axioms provide a formal foundation for reasoning about the ontology, such as checking consistency or inferring relationships. Tools like theorem provers (e.g., Vampire or E Prover) can utilize these axioms for advanced queries beyond SPARQL.
+
 ## Workflow for Using RDF Ontology and IIIF Collections
 
 1. **Accessing the Collection**:
@@ -263,6 +345,7 @@ The ontology defines relationships such as `hasResource`, `hasCreator`, `hasPubl
 5. **Analyzing and Visualizing**:
    - Generate statistics or visualizations based on query results, leveraging the machine-readable structure.
    - Use IIIF viewers for human-readable exploration.
+
 
 ## Sample SPARQL Queries
 
