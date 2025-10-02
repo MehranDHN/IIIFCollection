@@ -36,9 +36,10 @@ mdhn:ScriptStyleType a owl:Class ;
     rdfs:label "Script Style Type" .  
 
 mdhn:DepartedCollection a owl:Class ;
-    rdfs:comment "The class for integrating departed folios into a single virtual collection" ;
-    rdfs:label "Departed Collection" .          
+    rdfs:comment "The class for integrating departed folios as logical collection into a single virtual collection" ;
+    rdfs:label "Departed Collection" .  
 
+            
 mdhn:Publisher a owl:Class ;
     rdfs:comment "An entity responsible for publishing or making the resource available." ;
     rdfs:label "Publisher" .
@@ -47,24 +48,6 @@ mdhn:CanvasType a owl:Class ;
     rdfs:comment "The type of canvas used within a IIIF manifest to represent a resource page or image." ;
     rdfs:label "Canvas Type" .
 
-mdhn:hasResource a owl:ObjectProperty ;
-    rdfs:comment "Links a ResourceCollection to a DigitalResource." ;
-    rdfs:domain mdhn:ResourceCollection ;
-    rdfs:label "has resource" ;
-    rdfs:range mdhn:DigitalResource .
-
-mdhn:belongsTo a owl:ObjectProperty ;
-    rdfs:comment "Links a departed DigitalResource to its virtual collection" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "Belongs To" ;
-    rdfs:range mdhn:DepartedCollection .
-
-mdhn:hasFolio a owl:ObjectProperty ;
-    rdfs:comment "Links a virtual collection to its departed folios" ;
-    rdfs:domain mdhn:DepartedCollection ;
-    rdfs:label "hasFolio"  ;
-    rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:belongsTo .   
 
          
 mdhn:hasCreator a owl:ObjectProperty ;
@@ -72,13 +55,7 @@ mdhn:hasCreator a owl:ObjectProperty ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "has creator" ;
     rdfs:range mdhn:Creator .
-
-mdhn:hasFolio a owl:ObjectProperty ;
-    rdfs:comment "Links a virtual collection to its departed folios" ;
-    rdfs:domain mdhn:DepartedCollection ;
-    rdfs:label "hasFolio"  ;
-    rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:belongsTo .      
+     
 
 mdhn:hasScriptStyle a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its canvas type." ;
@@ -106,11 +83,18 @@ mdhn:resourcesOfCanvasType a owl:ObjectProperty ;
     rdfs:range mdhn:DigitalResource ;
     owl:inverseOf mdhn:hasCanvasType .  
 
-mdhn:hasResourceType a owl:ObjectProperty ;
+mdhn:ofType a owl:ObjectProperty ;
     rdfs:comment "Associates a DigitalResource with its resource type." ;
     rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "has Resource Type" ;
+    rdfs:label "Of Type" ;
     rdfs:range mdhn:ResourceType .
+
+mdhn:hasTypeInstance a owl:ObjectProperty ;
+    rdfs:comment "Associates Resource Type to instances." ;
+    rdfs:domain mdhn:ResourceType ;
+    rdfs:label "has Type Instance" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:ofType .    
 
 mdhn:PublishedBy a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its publisher." ;
@@ -136,6 +120,11 @@ mdhn:caption a owl:DatatypeProperty ;
     rdfs:label "label" ;
     rdfs:range xsd:string .
 
+mdhn:hasResource a owl:ObjectProperty ;
+    rdfs:comment "Links a ResourceCollection to a DigitalResource." ;
+    rdfs:domain mdhn:ResourceCollection ;
+    rdfs:label "has resource" ;
+    rdfs:range mdhn:DigitalResource .
 
 mdhn:belongsTo a owl:ObjectProperty ;
     rdfs:comment "Links a ResourceCollection to a DigitalResource." ;
@@ -158,22 +147,28 @@ mdhn:createResources a owl:ObjectProperty ;
     rdfs:range mdhn:DigitalResource ;
     owl:inverseOf mdhn:hasCreator .
 
-mdhn:resourceTypeInstance a owl:ObjectProperty ;
-    rdfs:comment "Associates Resource Type to instances." ;
-    rdfs:domain mdhn:ResourceType ;
-    rdfs:label "resource Type Instance" ;
-    rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:hasResourceType .
+mdhn:subCollectionOf a owl:ObjectProperty ;
+    rdfs:comment "Links a subCollection to its parrent Collection." ;
+    rdfs:domain mdhn:ResourceCollection ;
+    rdfs:label "sub Collection Of" ;
+    rdfs:range mdhn:ResourceCollection .
+
+mdhn:parentCollectionOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a parent Collection to its subCollections." ;
+    rdfs:domain mdhn:ResourceCollection ;
+    rdfs:label "parent Collection Of" ;
+    rdfs:range mdhn:ResourceCollection ;
+    owl:inverseOf mdhn:subCollectionOf .    
 
 mdhn:partOf a owl:ObjectProperty ;
     rdfs:comment "Links a ResourceCollection to it's parent" ;
-    rdfs:domain mdhn:ResourceCollection ;
+    rdfs:domain mdhn:DigitalResource ;
     rdfs:label "part Of" ;
-    rdfs:range mdhn:ResourceCollection .
+    rdfs:range mdhn:DepartedCollection .
 
-mdhn:parentOf a owl:ObjectProperty ;
+mdhn:contains a owl:ObjectProperty ;
     rdfs:comment "Links a ResourceCollection to it's childs" ;
     owl:inverseOf mdhn:partOf ;
-    rdfs:domain mdhn:ResourceCollection ;
-    rdfs:label "parent Of" ;
-    rdfs:range mdhn:ResourceCollection .    
+    rdfs:domain mdhn:DepartedCollection ;
+    rdfs:label "contains" ;
+    rdfs:range mdhn:DigitalResource.
