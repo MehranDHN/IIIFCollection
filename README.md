@@ -212,7 +212,7 @@ mdhn:contains a owl:ObjectProperty ;
 ```
 
 Graphical representation of this Ontology:
-![alt text](images/image.png)
+![alt text](/IIIFCollection/images/image.png)
 
 
 # IIIFCollection Workflow and RDF Ontology
@@ -220,7 +220,7 @@ Graphical representation of this Ontology:
 This repository, [IIIFCollection](https://github.com/MehranDHN/IIIFCollection), provides a dynamic, machine-readable catalog based on the International Image Interoperability Framework (IIIF) standards, focusing on cultural, artistic, architectural, photographic, and literary resources related to Persia (Iran). This README outlines the workflow for utilizing the RDF ontology and IIIF Multipart Collections, highlights the distinction between **Departed Collections** and **Resource Collections**, and provides sample SPARQL queries to interact with the Knowledge Graph.
 
 Class Hierarchy in Ontotext GraphDB:
-![alt text](images/classhierarchy.jpg)
+![alt text](/IIIFCollection/images/classhierarchy.JPG)
 
 ## Overview of IIIF Multipart Collections
 
