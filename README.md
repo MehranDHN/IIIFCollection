@@ -39,6 +39,7 @@ Creating a Knowledge Graph from the IIIF Collection is straightforward. IIIF Col
 @prefix mdhn: <http://example.com/mdhn/> .
 
 
+
 mdhn:ResourceCollection a owl:Class ;
     rdfs:comment "A collection of IIIF resources that contain manifests and nested collections." ;
     rdfs:label "Resource Collection" .
@@ -142,8 +143,18 @@ mdhn:caption a owl:DatatypeProperty ;
         a owl:Class ;
         owl:unionOf ( mdhn:ResourceCollection mdhn:DigitalResource )
     ] ;
-    rdfs:label "label" ;
+    rdfs:label "caption" ;
     rdfs:range xsd:string .
+mdhn:canvasCount a owl:DatatypeProperty ;
+    rdfs:comment "Number of canvases in each resource manifest." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "Canvas Count" ;
+    rdfs:range xsd:integer .    
+mdhn:creationYear a owl:DatatypeProperty ;
+    rdfs:comment "Creation/Publishing Year of the digital resource." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "creationYear" ;
+    rdfs:range xsd:string .    
 
 mdhn:hasResource a owl:ObjectProperty ;
     rdfs:comment "Links a ResourceCollection to a DigitalResource." ;
