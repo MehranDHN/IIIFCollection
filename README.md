@@ -441,6 +441,8 @@ WHERE {
     #FILTER(?languages IN ("fr", "en", "fa"))
 }
 ```
+Screenshot of running SPARQL query and its coresponding result:
+![alt text](/IIIFCollection/images/langfilter.JPG)
 
 ## Getting Started
 
