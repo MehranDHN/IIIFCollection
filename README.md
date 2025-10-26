@@ -425,6 +425,23 @@ WHERE {
 }
 ```
 
+To use specific Language Filters:
+
+```sparql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX aat: <https://vocab.getty.edu/aat/>
+SELECT ?resource ?label
+WHERE {
+  ?resource a mdhn:DigitalResource ;
+            mdhn:ofType mdhn:aat300027200 ;  # AAT term for "Photograph Album"
+            rdfs:label ?label .
+    FILTER(LANG(?label)="en")
+    #BIND(LANG(?label) as ?languages)
+    #FILTER(?languages IN ("fr", "en", "fa"))
+}
+```
+
 ## Getting Started
 
 1. **Clone the Repository**:
