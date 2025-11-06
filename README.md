@@ -442,7 +442,40 @@ WHERE {
 }
 ```
 Screenshot of running SPARQL query and its coresponding result:
-![alt text](/IIIFCollection/images/langfilter.JPG)
+![Query 4](/IIIFCollection/images/langfilter.JPG)
+
+### Query 5: Accessing to the specified folio type (Drawing) in specified 
+This query finds all maches that has the `mdhn:folioHasDrawing` flag which is a flag to identify the drawing resources.
+In the future improvements we should associate this feature to the particular Contolled Vocabulary designed to identify folio types.
+
+```sparql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX aat: <https://vocab.getty.edu/aat/>
+SELECT *
+WHERE {
+  ?resource a mdhn:DigitalResource ; 
+            mdhn:folioHasDrawing ?drawing;
+            mdhn:partOf ?part;
+            rdfs:label ?label .
+}
+```
+![Query 5](/IIIFCollection/images/FolioType.JPG)
+It is obvious that we can use filters to limit the results only for specified physical or logical collection:
+
+```sparql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX aat: <https://vocab.getty.edu/aat/>
+SELECT *
+WHERE {
+  ?resource a mdhn:DigitalResource ; 
+            mdhn:folioHasDrawing ?drawing;
+            mdhn:partOf ?part;
+            rdfs:label ?label .
+  Filter(?part=mdhn:vcol1000111)
+}
+```
 
 ## Getting Started
 
