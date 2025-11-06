@@ -476,7 +476,26 @@ WHERE {
   Filter(?part=mdhn:vcol1000111)
 }
 ```
+### Query 6: Accessing the resources that somehow related to specified geo spatial TGN location
+This query finds all resources that related to specified TGN location based on  `mdhn:hasTGNPlace` predicate. We also `mdhn:ofType` predicate as another dimension to find the resource types.
+This query can be easily extended to grouped the results by resource types to count the resources associated to each type. 
+The `mdhn:tgn1001228` is the part of the Isfahan URI which we reconciliate with the Getty's TGN .
+See [TGN](http://vocab.getty.edu/tgn/1001228)
 
+```sparql
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sc: <https://schema.org/>
+select ?s  ?place ?restype ?typelbl {
+    ?s a mdhn:DigitalResource;
+      mdhn:ofType ?restype;
+      mdhn:hasTGNPlace ?place.
+    ?restype rdfs:label ?typelbl.
+    Filter(?place=mdhn:tgn1001228)
+    Filter(Lang(?typelbl)="en")
+}
+```
 ## Getting Started
 
 1. **Clone the Repository**:
