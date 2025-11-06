@@ -12,60 +12,71 @@
 
 
 mdhn:aat300028051 a mdhn:ResourceType ;
-        rdfs:label "Books"@en ;
+        rdfs:label "Books"@en, "کتاب"@fa ;
         rdfs:comment "schema:Book"@en .
 
 mdhn:aat300215389 a mdhn:ResourceType ;
-        rdfs:label "Magazines"@en ;
+        rdfs:label "Magazines"@en, "نشريات دوره‌ای"@fa ;
         rdfs:comment "schema:Periodical"@en .
 
 mdhn:aat300028094 a mdhn:ResourceType ;
-        rdfs:label "Map"@en ;
+        rdfs:label "Map"@en, "نقشه"@fa ;
         rdfs:comment "schema:Map"@en .     
 
 mdhn:aat300046300 a mdhn:ResourceType ;
-        rdfs:label "Single Photograph"@en ;
+        rdfs:label "Single Photograph"@en, "قطعه عکس"@fa ;
         rdfs:comment "schema:Photograph"@en . 
 
 mdhn:aat300027200 a mdhn:ResourceType ;
-        rdfs:label "Photograph Album"@en ;
+        rdfs:label "Photograph Album"@en, "آلبوم عکس"@fa ;
         rdfs:comment "schema:Collection"@en .
 
 mdhn:aat300435424 a mdhn:ResourceType ;
-        rdfs:label "MP4 Video"@en ;
+        rdfs:label "MP4 Video"@en, "ويديو"@fa ;
         rdfs:comment "schema:VideoObject"@en .    
 
 
 mdhn:aat300041273 a mdhn:ResourceType ;
-        rdfs:label "Engrave Print"@en ;
+        rdfs:label "Engrave Print"@en, "حکاکی چاپ شده"@fa ;
         rdfs:comment "schema:CreativeWork"@en .           
 
 mdhn:aat300266747 a mdhn:ResourceType ;
-        rdfs:label "Audio Book"@en ;
+        rdfs:label "Audio Book"@en, "کتاب صوتی(گويا)"@fa ;
         rdfs:comment "schema:AudioBook"@en .                                                             
 
 mdhn:aat300265483 a mdhn:ResourceType ;
-        rdfs:label "Illuminated Manuscript"@en ;
+        rdfs:label "Illuminated Manuscript"@en, "نسخ دستنويس مصور"@fa ;
         rdfs:comment "schema:IlluminatedManuscript"@en .   
 
 mdhn:aat300028569 a mdhn:ResourceType ;
-        rdfs:label "Manuscript"@en ;
+        rdfs:label "Manuscript"@en, "نسخ دستنويس"@fa ;
         rdfs:comment "schema:Manuscript"@en .  
 
 mdhn:aat300189604 a mdhn:ResourceType ;
-        rdfs:label "Manuscript Folio"@en ;
+        rdfs:label "Manuscript Folio"@en, "برگی از يک نسخه دستنويس"@fa ;
         rdfs:comment "schema:ManuscriptFolio"@en .            
 
 mdhn:aat300417741 a mdhn:ResourceType;
-        rdfs:label "Painted leather bindings"@en ;
+        rdfs:label "Painted leather bindings"@en, "جلد کتاب يا مرقع"@fa ;
         rdfs:comment "schema:CoverArt"@en . 
 
 mdhn:aat300079783 a mdhn:ResourceType;
-        rdfs:label "Conceptual drawings"@en ;
-        rdfs:comment "schema:Drawing"@en .          
+        rdfs:label "Conceptual drawings"@en, "نگارگری يا طراحی"@fa ;
+        rdfs:comment "schema:Drawing"@en .  
+mdhn:aat300034104 a mdhn:ResourceType;
+        rdfs:label "Plans"@en, "پلان معماری"@fa ;
+        rdfs:comment "schema:ArchitecturalPlans"@en .
+
+mdhn:aat300128366 a mdhn:ResourceType;
+        rdfs:label "Color Slide"@en, "اسلايد رنگی"@fa ;
+        rdfs:comment "schema:ColorSlide"@en .            
+
+mdhn:aat300015045 a mdhn:ResourceType;
+        rdfs:label "Watercolor (paint)"@en, "آبرنگ"@fa ;
+        rdfs:comment "schema:Watercolor Paint"@en .                          
 
 mdhn:aat300266660 a mdhn:ResourceType;
-        rdfs:label "Calligraphy"@en ;
+        rdfs:label "Calligraphy"@en, "قطعه خوشنويسی"@fa ;
         rdfs:comment "schema:Calligraphy"@en .    
 
 mdhn:aat300265537 a mdhn:ScriptStyleType;
@@ -85,8 +96,8 @@ mdhn:aat300265534 a mdhn:ScriptStyleType;
         rdfs:comment "Muhaqqaq Style"@en . 
 
 mdhn:aat300265532 a mdhn:ScriptStyleType;
-        rdfs:label "Nastakiq"@en , "نستعليق"@fa;
-        rdfs:comment "Nastakiq Style"@en . 
+        rdfs:label "Nastaliq"@en , "نستعليق"@fa;
+        rdfs:comment "Nastaliq Style"@en . 
 
 mdhn:aat300265536 a mdhn:ScriptStyleType;
         rdfs:label "Rihan"@en , "ريحان"@fa;
@@ -171,6 +182,26 @@ mdhn:vcol1000114  a mdhn:DepartedCollection ;
         rdfs:label "Stephen Arpee Photographs"@en ;
         rdfs:comment "Stephen Arpee Photographs from Antoin Sevruguin"@en . 
 
-mdhn:vcol1000114  a mdhn:DepartedCollection ;
+mdhn:vcol1000115  a mdhn:DepartedCollection ;
         rdfs:label "Myron Bement Smith"@en ;
-        rdfs:comment "Myron Bement Smith Photographs from Antoin Sevruguin"@en .                                                                                                                                                                                                         
+        rdfs:comment "Myron Bement Smith Photographs from Antoin Sevruguin"@en . 
+
+mdhn:vcol1000116  a mdhn:DepartedCollection ;
+        rdfs:label "Paul Nadar Photographs"@en ;
+        rdfs:comment "Paul Nadar Studio Photographs"@en .   
+
+mdhn:vcol1000117  a mdhn:DepartedCollection ;
+        rdfs:label "Gallica 19 Phototographs Of The Persia"@en ;
+        rdfs:comment "19 Phototographs Of The Persia. Nadar Studio Paris"@en .  
+
+mdhn:vcol1000118  a mdhn:DepartedCollection ;
+        rdfs:label "Shahnama (Ismail II) Per 256"@en ;
+        rdfs:comment "Shahnama (Ismail II) Chester Beatty Per 256"@en .    
+
+mdhn:vcol1000119  a mdhn:DepartedCollection ;
+        rdfs:label "Bustān Saadi Per 297"@en ;
+        rdfs:comment "Bustān Saadi Chester Beatty Per 297"@en . 
+
+mdhn:vcol1000120  a mdhn:DepartedCollection ;
+        rdfs:label "Garden of Purity (Rawḍat al-ṣafā) by Mīr Khwānd Per 254"@en ;
+        rdfs:comment "Garden of Purity (Rawḍat al-ṣafā) by Mīr Khwānd Chester Beatty Per 254"@en .                                                                                                                                                                                                                                               
