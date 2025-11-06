@@ -444,9 +444,9 @@ WHERE {
 Screenshot of running SPARQL query and its coresponding result:
 ![Query 4](/IIIFCollection/images/langfilter.JPG)
 
-### Query 5: Accessing to the specified folio type (Drawing) in specified 
-This query finds all maches that has the `mdhn:folioHasDrawing` flag which is a flag to identify the drawing resources.
-In the future improvements we should associate this feature to the particular Contolled Vocabulary designed to identify folio types.
+### Query 5: Accessing the specified folio type (Drawings) 
+This query finds all matches that have the `mdhn:folioHasDrawing` flag, which is a flag to identify the drawing resources.
+In future improvements, we should associate this feature with the particular Controlled Vocabulary designed to identify folio types.
 
 ```sparql
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
