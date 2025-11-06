@@ -478,7 +478,7 @@ WHERE {
 ```
 ### Query 6: Accessing the resources that somehow related to specified geo spatial TGN location
 This query finds all resources that related to specified TGN location based on  `mdhn:hasTGNPlace` predicate. We also `mdhn:ofType` predicate as another dimension to find the resource types.
-This query can be easily extended to grouped the results by resource types to count the resources associated to each type. 
+This query can be easily extended to group the results by resource types to count the resources associated to each type. 
 The `mdhn:tgn1001228` is the part of the Isfahan URI which we reconciliate with the Getty's TGN .
 See [TGN](http://vocab.getty.edu/tgn/1001228)
 
@@ -508,7 +508,10 @@ select ?s  ?place ?restype ?typelbl {
    - Inspect JSON-LD files for manifests and collections.
 
 3. **Work with the Ontology**:
-   - Load the Turtle ontology (`ontology.ttl`) into a triplestore (e.g., Apache Jena).
+   - Load the Turtle ontology (`iiifCollectionOntology.ttl`) into a triplestore (e.g., Apache Jena).
+   - Load the Turtle (`ctl_vocabs.ttl`) which is a subset of Controlled Vocabularies.
+   - Load the Turtle (`LCTGM_RDF.ttl`), (`tgn_subset_updated.ttl`) and (`PersonsRDFData.ttl`).
+   - Load the (`resources.ttl`) which is actual RDF data of the collection.      
    - Use SPARQL queries to analyze the Knowledge Graph.
 
 4. **Contribute**:
@@ -525,4 +528,4 @@ This project is a dynamic IIIF collection featuring a hierarchical catalog relat
 
 
 ---
-*Updated on Sep 2, 2025, by **MehranDHN**, powered by: Grok 3 (xAI).*
+*Updated on Nov 7, 2025, by **MehranDHN**, powered by: Grok 3 (xAI).*
