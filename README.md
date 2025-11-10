@@ -516,6 +516,26 @@ select ?s  ?place ?restype ?typelbl {
     Filter(Lang(?typelbl)="en")
 }
 ```
+
+### Query 7: Using agential info of the resources
+This query finds all resources that marked with Agential information which is instances of  `fhkb:Person`. Those resources associate with `mdhn:hasAgential` predicate to the Agential info which is Adapted from FHKB.
+
+See [Family History Knowledge Base (FHKB)](https://oboacademy.github.io/obook/tutorial/fhkb/)
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sc: <https://schema.org/>
+
+select ?person ?lblPerson{
+    ?s a mdhn:DigitalResource;
+       mdhn:hasAgential ?person.
+    ?person rdfs:label ?lblPerson.
+    Filter(Lang(?lblPerson)="fa")
+}
+```
+![Query 7](/IIIFCollection/images/fhkbResult.JPG)
+
 ## Getting Started
 
 1. **Clone the Repository**:
