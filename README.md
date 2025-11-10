@@ -370,19 +370,24 @@ These FOL axioms provide a formal foundation for reasoning about the ontology, s
 
 Below are sample SPARQL queries to demonstrate how to interact with the Knowledge Graph built from the IIIFCollection ontology.
 
-### Query 1: List All Digital Resources in a Specific Resource Collection
-This query retrieves all `DigitalResource` instances within a given `ResourceCollection`.
+### Query 1: List All Digital Collections with the number of resources
+This query retrieves all `mdhn:ResourceCollection` instances and counts number of `mdhn:DigitalResource` instances in each of them.
 
 ```sparql
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT ?resource ?label
-WHERE {
-  ?collection a mdhn:ResourceCollection ;
-              mdhn:hasResource ?resource .
-  ?resource a mdhn:DigitalResource ;
-            rdfs:label ?label .
+PREFIX sc: <https://schema.org/>
+
+select  ?collection (Count(?s) as ?resourceCount){
+    ?s a mdhn:DigitalResource;
+    (mdhn:isInCollection)* ?collection.
+    ?collection a mdhn:ResourceCollection.
+
+
 }
+Group by ?collection
+Order by Desc(?resourceCount)
 ```
 
 ### Query 2: Find Creators of Digital Resources
@@ -424,8 +429,23 @@ WHERE {
             rdfs:label ?label .
 }
 ```
+There is a difference between logical Collections and actual resource type. To get a full list of all members of `mdhn:PhotographAlbum` which is an instance of  `mdhn:ResourceCollection` the following Query can be use:
 
-To use specific Language Filters:
+```sparql
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sc: <https://schema.org/>
+
+select ?s  ?reslabel{
+    ?s a mdhn:DigitalResource;
+       rdfs:label ?reslabel;
+      mdhn:isInCollection mdhn:PhotographAlbum.
+
+}
+```
+
+To limit the labels to specific Language:
 
 ```sparql
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
