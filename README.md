@@ -536,6 +536,21 @@ select ?person ?lblPerson{
 ```
 ![Query 7](/IIIFCollection/images/fhkbResult.JPG)
 
+Accessing all resources that relate to specified person:
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sc: <https://schema.org/>
+
+select ?person ?lblPerson{
+    ?s a mdhn:DigitalResource;
+       mdhn:hasAgential ?person.
+    ?person rdfs:label ?lblPerson.
+    Filter(?person=mdhn:Naser_al_Din_Shah_Qajar)
+    Filter(Lang(?lblPerson)="fa")
+}
+```
+
 ## Getting Started
 
 1. **Clone the Repository**:
