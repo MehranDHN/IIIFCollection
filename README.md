@@ -30,14 +30,18 @@ Creating a Knowledge Graph from the IIIF Collection is straightforward. IIIF Col
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix so: <https://schema.org/> .
+@prefix stardog: <tag:stardog:api:> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix : <http://example.com/mdhn/> .
+@prefix : <http://api.stardog.com/> .
 @prefix aat: <https://vocab.getty.edu/aat/> .
-@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix mdhn: <http://example.com/mdhn/> .
-
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix tgm: <http://id.loc.gov/vovabulary/graphicMaterials/> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix fhkb: <http://www.example.com/genealogy.owl#> .
 
 
 mdhn:ResourceCollection a owl:Class ;
@@ -74,7 +78,18 @@ mdhn:CanvasType a owl:Class ;
     rdfs:comment "The type of canvas used within a IIIF manifest to represent a resource page or image." ;
     rdfs:label "Canvas Type" .
 
+mdhn:LCTGMSubject a owl:Class ;
+    rdfs:comment "Classes to associate Theasures Of Graphical Material subjects to the photographs" ;
+    rdfs:label "LCTGMSubject" .
 
+mdhn:GettyTGN a owl:Class ;
+    rdfs:comment "Getty TGN Class for Geographic Places" ;
+    rdfs:label "GettyTGN" . 
+
+mdhn:AgentialInfo a owl:Class ;
+    rdfs:comment "Agential info based on FHKB and references to wikidata when possible" ;
+    rdfs:label "AgentialInfo" ;
+    rdfs:subClassOf fhkb:Person .       
          
 mdhn:hasCreator a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its creator." ;
@@ -154,20 +169,62 @@ mdhn:creationYear a owl:DatatypeProperty ;
     rdfs:comment "Creation/Publishing Year of the digital resource." ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "creationYear" ;
-    rdfs:range xsd:string .    
+    rdfs:range xsd:string .  
+
+mdhn:folioHasDrawing a owl:DatatypeProperty ;
+    rdfs:comment "Folio has Drawing?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "folioHasDrawing" ;
+    rdfs:range xsd:boolean . 
+
+mdhn:folioHasTable a owl:DatatypeProperty ;
+    rdfs:comment "Folio has Table?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "folioHasTable" ;
+    rdfs:range xsd:boolean . 
+
+mdhn:folioIsCover a owl:DatatypeProperty ;
+    rdfs:comment "Folio is cover?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "folioIsCover" ;
+    rdfs:range xsd:boolean . 
+
+mdhn:folioIsColophon a owl:DatatypeProperty ;
+    rdfs:comment "Folio is colophon?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "folioIsColophon" ;
+    rdfs:range xsd:boolean .   
+
+mdhn:foliohasDiagram a owl:DatatypeProperty ;
+    rdfs:comment "Folio has diagram?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "foliohasDiagram" ;
+    rdfs:range xsd:boolean . 
+
+mdhn:folioIsOpening a owl:DatatypeProperty ;
+    rdfs:comment "Folio is opening page?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "folioIsOpening" ;
+    rdfs:range xsd:boolean .  
+
+mdhn:folioIsFlyLeaf a owl:DatatypeProperty ;
+    rdfs:comment "Folio is flyleaf?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "folioIsFlyLeaf" ;
+    rdfs:range xsd:boolean .                              
+
+mdhn:isInCollection a owl:ObjectProperty ;
+    rdfs:comment "Specify the immediate collection of the resource" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "is In Collection" ;
+    rdfs:range mdhn:ResourceCollection . 
 
 mdhn:hasResource a owl:ObjectProperty ;
-    rdfs:comment "Links a ResourceCollection to a DigitalResource." ;
+    rdfs:comment "Links a ResourceCollection to its DigitalResource." ;
     rdfs:domain mdhn:ResourceCollection ;
     rdfs:label "has resource" ;
-    rdfs:range mdhn:DigitalResource .
-
-mdhn:belongsTo a owl:ObjectProperty ;
-    rdfs:comment "Links a ResourceCollection to a DigitalResource." ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "belongs To" ;
-    rdfs:range mdhn:ResourceCollection ;
-    owl:inverseOf mdhn:hasResource .
+    rdfs:range mdhn:DigitalResource;
+    owl:inverseOf mdhn:isInCollection .    
 
 mdhn:hasPublished a owl:ObjectProperty ;
     rdfs:comment "Links a publisher to DigitalResource." ;
@@ -208,6 +265,209 @@ mdhn:contains a owl:ObjectProperty ;
     rdfs:domain mdhn:DepartedCollection ;
     rdfs:label "contains" ;
     rdfs:range mdhn:DigitalResource.
+
+mdhn:hasTGMSubject a owl:ObjectProperty ;
+    rdfs:comment "Subjects associate the Resource to LCTGM" ;
+    rdfs:label "hasTGMSubject" ;
+    so:domainIncludes mdhn:DigitalResource ;
+    so:rangeIncludes mdhn:LCTGMSubject .
+
+mdhn:usedTGM a owl:ObjectProperty ;
+    rdfs:comment "Indicates Resources that used this specified LCTGM" ;
+    rdfs:label "usedTGM" ;
+    owl:inverseOf mdhn:hasTGMSubject ;
+    so:domainIncludes mdhn:LCTGMSubject ;
+    so:rangeIncludes mdhn:DigitalResource .    
+
+mdhn:hasTGMBroader a owl:ObjectProperty ;
+    rdfs:comment "Associate a LCTGM concept to its broader concept" ;
+    rdfs:label "hasTGMBroader" ;
+    so:domainIncludes mdhn:LCTGMSubject ;
+    so:rangeIncludes mdhn:LCTGMSubject .
+
+mdhn:hasTGMNarrower a owl:ObjectProperty ;
+    rdfs:comment "Associate a LCTGM concept to its narrower concept" ;
+    rdfs:label "hasTGMNarrower" ;
+    owl:inverseOf mdhn:hasTGMBroader ;
+    so:domainIncludes mdhn:LCTGMSubject ;
+    so:rangeIncludes mdhn:LCTGMSubject .   
+
+mdhn:lcTGMURI a owl:DatatypeProperty ;
+    rdfs:comment "The LCTGM URI is used in LC TGM" ;
+    rdfs:domain mdhn:LCTGMSubject ;
+    rdfs:label "lcTGMURI" ;
+    rdfs:range xsd:string . 
+
+mdhn:hasTGNPlace a owl:ObjectProperty ;
+    rdfs:comment "TGN entry associate the resource to Getty TGN" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasTGNPlace" ;
+    rdfs:range mdhn:GettyTGN . 
+mdhn:usedTGN a owl:ObjectProperty ;
+    rdfs:comment "Indicates Resources that used this specified TGN" ;
+    rdfs:domain mdhn:GettyTGN ;
+    rdfs:label "usedTGN" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasTGNPlace .    
+
+mdhn:gettyTGNURI a owl:DatatypeProperty ;
+    rdfs:comment "The TGN URI is used in Getty AAT" ;
+    rdfs:domain mdhn:GettyTGN ;
+    rdfs:label "gettyTGNURI" ;
+    rdfs:range xsd:string .
+
+mdhn:hasTGNNarrower a owl:ObjectProperty ;
+    rdfs:comment "Indicates broader concept of specified TGN" ;
+    rdfs:label "hasTGNNarrower" ;
+    owl:inverseOf mdhn:hasTGNBroader ;
+    so:domainIncludes mdhn:GettyTGN ;
+    so:rangeIncludes mdhn:GettyTGN .
+
+mdhn:hasTGNBroader a owl:ObjectProperty ;
+    rdfs:comment "Associate a TGN concept to its broader concept" ;
+    rdfs:label "hasTGNBroader" ;
+    so:domainIncludes mdhn:GettyTGN ;
+    so:rangeIncludes mdhn:GettyTGN . 
+
+mdhn:hasAgential a owl:ObjectProperty ;
+    rdfs:comment "Indicates that resource has Agential info associated to a person" ;
+    rdfs:label "hasAgential" ;
+    so:domainIncludes mdhn:DigitalResource ;
+    so:rangeIncludes mdhn:AgentialInfo .
+
+mdhn:hasRoleInResource a owl:ObjectProperty ;
+    rdfs:comment "Indicates a person has atleast one role in resource" ;
+    rdfs:label "hasRoleInResource" ;
+    so:domainIncludes mdhn:AgentialInfo ;
+    so:rangeIncludes mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasAgential .        
+
+fhkb:Person a owl:Class ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty fhkb:hasFather ;
+        owl:someValuesFrom fhkb:Man
+    ] , [
+        a owl:Restriction ;
+        owl:onProperty fhkb:hasSex ;
+        owl:someValuesFrom fhkb:Sex
+    ] , [
+        a owl:Restriction ;
+        owl:onProperty fhkb:hasMother ;
+        owl:someValuesFrom fhkb:Woman
+    ] , [
+        a owl:Restriction ;
+        owl:maxQualifiedCardinality 2 ;
+        owl:onClass fhkb:Person ;
+        owl:onProperty fhkb:hasParent
+    ] , fhkb:DomainEntity ;
+    owl:disjointWith fhkb:Sex ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:unionOf ( fhkb:Man fhkb:Woman )
+    ] .      
+
+fhkb:Man a owl:Class ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf ( fhkb:Person [
+            a owl:Restriction ;
+            owl:onProperty fhkb:hasSex ;
+            owl:someValuesFrom fhkb:Male
+        ] )
+    ] .
+
+fhkb:Male a owl:Class ;
+    rdfs:subClassOf fhkb:Sex .
+
+fhkb:Woman a owl:Class ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf ( fhkb:Person [
+            a owl:Restriction ;
+            owl:onProperty fhkb:hasSex ;
+            owl:someValuesFrom fhkb:Female
+        ] )
+    ] .
+
+fhkb:Female a owl:Class ;
+    rdfs:subClassOf fhkb:Sex ;
+    owl:disjointWith fhkb:Male .
+
+fhkb:Sex a owl:Class ;
+    rdfs:subClassOf fhkb:DomainEntity ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:unionOf ( fhkb:Female fhkb:Male )
+    ] .
+
+fhkb:Marriage a owl:Class ;
+    rdfs:subClassOf fhkb:DomainEntity .
+
+fhkb:Ancestor a owl:Class ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf ( fhkb:Person [
+            a owl:Restriction ;
+            owl:onProperty fhkb:isAncestorOf ;
+            owl:someValuesFrom fhkb:Person
+        ] )
+    ] .
+
+fhkb:hasFemalePartner a owl:ObjectProperty ;
+    rdfs:domain fhkb:Marriage ;
+    rdfs:range fhkb:Woman ;
+    rdfs:subPropertyOf fhkb:hasPartner ;
+    owl:inverseOf fhkb:isFemalePartnerIn .
+
+fhkb:hasPartner a owl:ObjectProperty ;
+    rdfs:domain fhkb:Marriage ;
+    rdfs:range fhkb:Person ;
+    owl:inverseOf fhkb:isPartnerIn .
+
+fhkb:hasMalePartner a owl:ObjectProperty ;
+    rdfs:domain fhkb:Marriage ;
+    rdfs:range fhkb:Man ;
+    rdfs:subPropertyOf fhkb:hasPartner ;
+    owl:inverseOf fhkb:isMalePartnerIn .
+
+fhkb:isFatherOf a owl:ObjectProperty .
+
+fhkb:isMotherOf a owl:ObjectProperty .
+
+fhkb:isBrotherOf a owl:ObjectProperty ;
+    rdfs:domain fhkb:Man ;
+    rdfs:range fhkb:Person ;
+    rdfs:subPropertyOf fhkb:isSiblingOf .
+
+fhkb:isSisterOf a owl:ObjectProperty ;
+    rdfs:domain fhkb:Woman ;
+    rdfs:range fhkb:Person ;
+    rdfs:subPropertyOf fhkb:isSiblingOf .
+
+fhkb:hasHusband a owl:ObjectProperty ;
+    rdfs:range fhkb:Man ;
+    rdfs:subPropertyOf fhkb:hasSpouse ;
+    owl:propertyChainAxiom ( fhkb:isFemalePartnerIn fhkb:hasMalePartner ) .
+
+fhkb:hasSpouse a owl:ObjectProperty ;
+    owl:inverseOf fhkb:isSpouseOf .
+
+fhkb:hasWife a owl:ObjectProperty ;
+    rdfs:range fhkb:Woman ;
+    rdfs:subPropertyOf fhkb:hasSpouse ;
+    owl:propertyChainAxiom ( fhkb:isMalePartnerIn fhkb:hasFemalePartner ) .
+
+fhkb:isHusbandOf a owl:ObjectProperty ;
+    owl:inverseOf fhkb:hasHusband .
+
+fhkb:isWifeOf a owl:ObjectProperty ;
+    owl:inverseOf fhkb:hasWife .
+
+fhkb:isPartnerIn a owl:ObjectProperty .
+
+fhkb:isSpouseOf a owl:ObjectProperty .                      
+
 
 ```
 
