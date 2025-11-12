@@ -506,7 +506,15 @@ Accessing specified region of an image using Content State API:
 
 
 ```json
-{"id":"https://manifest.storiiies-editor.cogapp.com/v3/3e7uh/Sadi-and-the-Youth-of-Kashgar/canvases/1#xywh=3357,1820,1745,1042","type":"Canvas","partOf":[{"id":"https://manifest.storiiies-editor.cogapp.com/v3/3e7uh/Sadi-and-the-Youth-of-Kashgar","type":"Manifest"}]}
+{
+    "id": "https://manifest.storiiies-editor.cogapp.com/v3/3e7uh/Sadi-and-the-Youth-of-Kashgar/canvases/1#xywh=3357,1820,1745,1042",
+    "type": "Canvas",
+    "partOf": [
+        {
+            "id": "https://manifest.storiiies-editor.cogapp.com/v3/3e7uh/Sadi-and-the-Youth-of-Kashgar",
+            "type": "Manifest"
+        }
+  
 ```
 
 base64url encoded of previoud data:
