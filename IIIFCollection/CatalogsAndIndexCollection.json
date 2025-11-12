@@ -1,0 +1,200 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/CatalogsAndIndexCollection.json",
+    "@type": "sc:Collection",
+    "label": "Catalogs And Index",
+    "metadata": [
+        {
+            "label": "Publication/creation",
+            "value": "Tehran: MehranDHN"
+        },
+        {
+            "label": "Physical description",
+            "value": "Machine readable catalogue compatible with IIIF 2.0 Presentation API"
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "All items have coresponding IIIF 3.0 manifests with internal references to more details. The field seeAlso should be parsed carefully."
+        },
+        {
+            "label": "Subjects",
+            "value": "Travel, Life Styles, Politic, Culture, Art, Architecture, History, Geography, Archeology."
+        }
+    ],
+    "summary": {
+        "en": [
+            "Traditional Cataloge and Indeces of Oriental manuscripts."
+        ]
+    },
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bd6t53830837/f15/full/full/0/native.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 5330,
+            "width": 4037,
+            "service": [
+                {
+                    "id": "https://gallica.bnf.fr/iiif/ark:/12148/bd6t53830837/f15",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 5330,
+                    "width": 4037,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MiscellaneousCollection.json",
+    "manifests": [
+        {
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bd6t53830837/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Les enluminures des manuscrits orientaux, turcs, arabes, persans de la Bibliothèque nationale"
+                ],
+                "fa": [
+                    "مینیاتورهای دست‌نوشته‌های شرقی، ترکی، عربی و فارسی کتابخانه ملی"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Les enluminures des manuscrits orientaux, turcs, arabes, persans de la Bibliothèque nationale",
+                        "fa": "مینیاتورهای دست‌نوشته‌های شرقی، ترکی، عربی و فارسی کتابخانه ملی"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Edgar Blochet",
+                            "wd:Q3719079"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "schema:Book"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "438"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "French"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Gallica"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "bd6t53830837"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Date"
+                    },
+                    "value": {
+                        "en": "1926 AD"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Genre"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300266481"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasImages",
+                            "hasEngraves",
+                            "hasMaps"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "false",
+                            "false"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
