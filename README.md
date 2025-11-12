@@ -497,9 +497,17 @@ All the entries in this projectd designed as an IIIF Collection. Collection and 
 Thanks to IIIF Content State API we can use this method to access a canvas inside the manifest with a little differences.
 
 Accessing the root collection using Theseus: 
+```
+https://theseusviewer.org/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json
+  
+```
 [Root Collection using Theseus](https://theseusviewer.org/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json)
 
 Accessing the Edward Brown Collection:
+```
+https://theseusviewer.org/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/EdwardBrowneCollection.json
+  
+```
 [Edward Brown Collection using Theseus](https://theseusviewer.org/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/EdwardBrowneCollection.json)
 
 Accessing specified region of an image using Content State API:
@@ -514,7 +522,7 @@ Accessing specified region of an image using Content State API:
             "id": "https://manifest.storiiies-editor.cogapp.com/v3/3e7uh/Sadi-and-the-Youth-of-Kashgar",
             "type": "Manifest"
         }
-  
+}  
 ```
 
 base64url encoded of previoud data:
