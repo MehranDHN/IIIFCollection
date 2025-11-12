@@ -527,6 +527,10 @@ eyJpZCI6Imh0dHBzOi8vbWFuaWZlc3Quc3RvcmlpaWVzLWVkaXRvci5jb2dhcHAuY29tL3YzLzNlN3Vo
 Online base64url encoder: 
 [Online Encoder](https://simplycalc.com/base64url-encode.php)
 
+Screenshot of a demo representing using  Content State API to access a specified region in a canvas inside an annotated manifest:
+![Query 4](/IIIFCollection/images/content_state.JPG)
+
+
 ## RDF Ontology: Departed Collections vs. Resource Collections
 
 The RDF ontology, implemented in Turtle format, models two primary entities: **ResourceCollection** and **DigitalResource**, alongside other classes like `Creator`, `Publisher`, `ResourceType`, and `CanvasType`. Below, we differentiate between **Departed Collections** and **Resource Collections**:
