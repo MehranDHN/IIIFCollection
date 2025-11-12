@@ -522,6 +522,7 @@ Accessing specified region of an image using Content State API:
             "id": "https://manifest.storiiies-editor.cogapp.com/v3/3e7uh/Sadi-and-the-Youth-of-Kashgar",
             "type": "Manifest"
         }
+    ]
 }  
 ```
 
