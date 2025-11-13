@@ -56,15 +56,35 @@ mdhn:LCTGMSubject a owl:Class ;
 
 mdhn:GettyTGN a owl:Class ;
     rdfs:comment "Getty TGN Class for Geographic Places" ;
-    rdfs:label "GettyTGN" .    
+    rdfs:label "GettyTGN" . 
 
+mdhn:AgentialInfo a owl:Class ;
+    rdfs:comment "Agential info based on FHKB and references to wikidata when possible" ;
+    rdfs:label "AgentialInfo" ;
+    rdfs:subClassOf fhkb:Person .   
 
+mdhn:TemporalInfo a owl:Class ;
+    rdfs:comment "First try to support temporal entity type" ;
+    rdfs:label "TemporalInfo" .         
          
 mdhn:hasCreator a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its creator." ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "has creator" ;
     rdfs:range mdhn:Creator .
+
+mdhn:hasTemporal a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to Date that is just a year in YYYY formt" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasTemporal" ;
+    rdfs:range mdhn:TemporalInfo .
+
+mdhn:yearOfResourse a owl:ObjectProperty ;
+    rdfs:comment "Associates a year to all resources that relates to it." ;
+    rdfs:domain mdhn:TemporalInfo ;
+    rdfs:label "yearOfResourse"  ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasTemporal .          
      
 
 mdhn:hasScriptStyle a owl:ObjectProperty ;
@@ -134,12 +154,6 @@ mdhn:canvasCount a owl:DatatypeProperty ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "Canvas Count" ;
     rdfs:range xsd:integer .    
-mdhn:creationYear a owl:DatatypeProperty ;
-    rdfs:comment "Creation/Publishing Year of the digital resource." ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "creationYear" ;
-    rdfs:range xsd:string .  
-
 mdhn:folioHasDrawing a owl:DatatypeProperty ;
     rdfs:comment "Folio has Drawing?" ;
     rdfs:domain mdhn:DigitalResource ;
@@ -182,18 +196,18 @@ mdhn:folioIsFlyLeaf a owl:DatatypeProperty ;
     rdfs:label "folioIsFlyLeaf" ;
     rdfs:range xsd:boolean .                              
 
+mdhn:isInCollection a owl:ObjectProperty ;
+    rdfs:comment "Specify the immediate collection of the resource" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "is In Collection" ;
+    rdfs:range mdhn:ResourceCollection . 
+
 mdhn:hasResource a owl:ObjectProperty ;
-    rdfs:comment "Links a ResourceCollection to a DigitalResource." ;
+    rdfs:comment "Links a ResourceCollection to its DigitalResource." ;
     rdfs:domain mdhn:ResourceCollection ;
     rdfs:label "has resource" ;
-    rdfs:range mdhn:DigitalResource .
-
-mdhn:belongsTo a owl:ObjectProperty ;
-    rdfs:comment "Links a ResourceCollection to a DigitalResource." ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "belongs To" ;
-    rdfs:range mdhn:ResourceCollection ;
-    owl:inverseOf mdhn:hasResource .
+    rdfs:range mdhn:DigitalResource;
+    owl:inverseOf mdhn:isInCollection .    
 
 mdhn:hasPublished a owl:ObjectProperty ;
     rdfs:comment "Links a publisher to DigitalResource." ;
@@ -297,6 +311,44 @@ mdhn:hasTGNBroader a owl:ObjectProperty ;
     rdfs:label "hasTGNBroader" ;
     so:domainIncludes mdhn:GettyTGN ;
     so:rangeIncludes mdhn:GettyTGN . 
+
+mdhn:hasAgential a owl:ObjectProperty ;
+    rdfs:comment "Indicates that resource has Agential info associated to a person" ;
+    rdfs:label "hasAgential" ;
+    so:domainIncludes mdhn:DigitalResource ;
+    so:rangeIncludes mdhn:AgentialInfo .
+
+mdhn:hasRoleInResource a owl:ObjectProperty ;
+    rdfs:comment "Indicates a person has atleast one role in resource" ;
+    rdfs:label "hasRoleInResource" ;
+    so:domainIncludes mdhn:AgentialInfo ;
+    so:rangeIncludes mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasAgential .        
+
+fhkb:Person a owl:Class ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty fhkb:hasFather ;
+        owl:someValuesFrom fhkb:Man
+    ] , [
+        a owl:Restriction ;
+        owl:onProperty fhkb:hasSex ;
+        owl:someValuesFrom fhkb:Sex
+    ] , [
+        a owl:Restriction ;
+        owl:onProperty fhkb:hasMother ;
+        owl:someValuesFrom fhkb:Woman
+    ] , [
+        a owl:Restriction ;
+        owl:maxQualifiedCardinality 2 ;
+        owl:onClass fhkb:Person ;
+        owl:onProperty fhkb:hasParent
+    ] , fhkb:DomainEntity ;
+    owl:disjointWith fhkb:Sex ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:unionOf ( fhkb:Man fhkb:Woman )
+    ] .      
 
 fhkb:Man a owl:Class ;
     owl:equivalentClass [
