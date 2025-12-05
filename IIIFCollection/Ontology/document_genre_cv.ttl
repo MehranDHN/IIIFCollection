@@ -1,0 +1,76 @@
+@prefix mdhn: <http://example.com/mdhn/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix aat: <https://vocab.getty.edu/aat/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tgm: <http://id.loc.gov/vocabulary/graphicMaterials/> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix fhkb: <http://www.example.com/genealogy.owl#> .
+
+mdhn:alphabet_Books a mdhn:DocumentGenre ;
+    rdfs:label "alphabet books"@en, "کتب الفبايی"@fa ;
+    owl:sameAs aat:300202510 ;
+    rdfs:comment "Books designed to display the letters of the alphabet, often with accompanying illustrations; may be used to teach the alphabet or as vehicles for an illustrator's art."@en .
+
+mdhn:catalogs a mdhn:DocumentGenre ;
+    rdfs:label "catalogs"@en, "کاتالوگها"@fa ;
+    owl:sameAs aat:300026059 ;
+    rdfs:comment "Enumerations of items, such as a file of bibliographic records or a list of art objects, usually arranged systematically and with descriptive details; may be in book or pamphlet form, on cards, or online. Catalogs are created according to specific and uniform principles of construction and usually under the control of an authority file"@en .    
+mdhn:book_catalogs a mdhn:DocumentGenre ;
+    rdfs:label "book catalogs"@en, "کاتالوگ کتاب"@fa ;
+    mdhn:hasBroaderDocGenre mdhn:catalogs;
+    owl:sameAs aat:300026606 ;
+    rdfs:comment "Entries for books or other bibliographic material in the collection of a library, etc. that are printed and bound in book form."@en .
+
+mdhn:sales_or_auction_catalogs a mdhn:DocumentGenre ;
+    rdfs:label "sales or auction catalogs"@en, "کاتالوگ حراج يا فروش"@fa ;
+    mdhn:hasBroaderDocGenre mdhn:catalogs;
+    owl:sameAs aat:300026074 ;
+    rdfs:comment "Catalogs that enumerate items that are for sale or auction."@en .    
+
+mdhn:museum_catalogs a mdhn:DocumentGenre ;
+    rdfs:label "museum catalogs"@en, "کاتالوگ موزه"@fa ;
+    mdhn:hasBroaderDocGenre mdhn:catalogs;
+    owl:sameAs aat:300417819 ;
+    rdfs:comment "Catalogs listing items in a collection or highlights of a collection in a museum"@en .   
+
+mdhn:library_catalogs a mdhn:DocumentGenre ;
+    rdfs:label "library catalogs"@en, "کاتالوگ کتابخانه"@fa ;
+    mdhn:hasBroaderDocGenre mdhn:catalogs;
+    owl:sameAs aat:300417777 ;
+    rdfs:comment "Catalogs in the form of comprehensive or selected lists issued by a library or group of libraries of the books, periodicals, maps, and other materials in their collections, arranged in systematic order."@en .            
+
+mdhn:coloring_books a mdhn:DocumentGenre ;
+    rdfs:label "coloring books"@en, "کتب رنگ آميزی"@fa ;
+    owl:sameAs aat:300026449 ;
+    rdfs:comment "Books containing outline drawings, for coloring in with crayons, watercolor, colored pencils, or other media, usually intended for use by children."@en .
+
+
+mdhn:comics a mdhn:DocumentGenre ;
+    rdfs:label "comics"@en, "کاميک"@fa ;
+    owl:sameAs aat:300015635 ;
+    rdfs:comment "Use broadly for sequential graphic narratives, often serialized, and typically having dialogue written in balloons."@en .
+
+mdhn:interviews  a mdhn:DocumentGenre ;
+    rdfs:label "interviews"@en, "مصاحبه ها"@fa ;
+    owl:sameAs aat:300026392 ;
+    rdfs:comment "Statements, transcripts, or recordings of conversations in which one person obtains information from another such as for research purposes, publication, or broadcast"@en .
+
+mdhn:storyboards a mdhn:DocumentGenre ;
+    rdfs:label "storyboards"@en, "استوری برد"@fa ;
+    owl:sameAs aat:300213156 ;
+    rdfs:comment "Series of sketches or pictures and any accompanying text which visualize each topic or item in a work to be produced in an audio-visual format."@en .
+
+mdhn:reports a mdhn:DocumentGenre ;
+    rdfs:label "reports"@en, "گزارش"@fa ;
+    owl:sameAs aat:300027267 ;
+    rdfs:comment "Official or formal records of a special investigation, in the form of documents containing presentations of facts, proceedings, investigations, or events"@en .  
+
+mdhn:administrative_reports a mdhn:DocumentGenre ;
+    rdfs:label "administrative reports"@en, "گزارشهای اداری"@fa ;
+    mdhn:hasBroaderDocGenre mdhn:reports;
+    owl:sameAs aat:300027268 ;
+    rdfs:comment "Official or formal records outlining administrative details, or events sucha as functions, proceedings, or investigations."@en .       
+

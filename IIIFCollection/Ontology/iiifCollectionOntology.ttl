@@ -14,6 +14,7 @@
 @prefix tgm: <http://id.loc.gov/vovabulary/graphicMaterials/> .
 @prefix tgn: <http://vocab.getty.edu/tgn/> .
 @prefix fhkb: <http://www.example.com/genealogy.owl#> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
 
 
 mdhn:ResourceCollection a owl:Class ;
@@ -36,6 +37,10 @@ mdhn:ResourceType a owl:Class ;
 mdhn:ScriptStyleType a owl:Class ;
     rdfs:comment "The script style type of a calligraphy resource, such as 'Nasta'liq' or 'Thuluth'." ;
     rdfs:label "Script Style Type" .  
+
+mdhn:DocumentGenre a owl:Class ;
+    rdfs:comment "The document type based on subset of the AAT related to document genres (aat:300026031)." ;
+    rdfs:label "Document Genre" .     
 
 mdhn:DepartedCollection a owl:Class ;
     rdfs:comment "The class for integrating departed folios as logical collection into a single virtual collection" ;
@@ -72,6 +77,19 @@ mdhn:hasCreator a owl:ObjectProperty ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "has creator" ;
     rdfs:range mdhn:Creator .
+
+mdhn:hasDocumentGenre a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to its document gennre" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "has Document Genre" ;
+    rdfs:range mdhn:DocumentGenre .
+
+mdhn:genreUsedIn a owl:ObjectProperty ;
+    rdfs:comment "Associates a genre to its associated resources" ;
+    rdfs:domain mdhn:DocumentGenre ;
+    rdfs:label "genre Used In"  ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasDocumentGenre .         
 
 mdhn:hasTemporal a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to Date that is just a year in YYYY formt" ;
@@ -273,7 +291,20 @@ mdhn:hasTGMNarrower a owl:ObjectProperty ;
     rdfs:label "hasTGMNarrower" ;
     owl:inverseOf mdhn:hasTGMBroader ;
     so:domainIncludes mdhn:LCTGMSubject ;
-    so:rangeIncludes mdhn:LCTGMSubject .   
+    so:rangeIncludes mdhn:LCTGMSubject .  
+
+mdhn:hasBroaderDocGenre a owl:ObjectProperty ;
+    rdfs:comment "Associate a Document Genre  to its broader genre" ;
+    rdfs:label "hasBroaderDocGenre" ;
+    so:domainIncludes mdhn:DocumentGenre ;
+    so:rangeIncludes mdhn:DocumentGenre .    
+
+mdhn:hasNarrowerGenre a owl:ObjectProperty ;
+    rdfs:comment "Associate a Document Genre to its narrower genre" ;
+    rdfs:label "hasNarrowerGenre" ;
+    owl:inverseOf mdhn:hasBroaderDocGenre ;
+    so:domainIncludes mdhn:DocumentGenre ;
+    so:rangeIncludes mdhn:DocumentGenre .        
 
 mdhn:lcTGMURI a owl:DatatypeProperty ;
     rdfs:comment "The LCTGM URI is used in LC TGM" ;
@@ -449,4 +480,4 @@ fhkb:isWifeOf a owl:ObjectProperty ;
 
 fhkb:isPartnerIn a owl:ObjectProperty .
 
-fhkb:isSpouseOf a owl:ObjectProperty .                      
+fhkb:isSpouseOf a owl:ObjectProperty .  
