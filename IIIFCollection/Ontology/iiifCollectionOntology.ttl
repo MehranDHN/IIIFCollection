@@ -58,6 +58,13 @@ mdhn:CanvasType a owl:Class ;
 mdhn:LCTGMSubject a owl:Class ;
     rdfs:comment "Classes to associate Theasures Of Graphical Material subjects to the photographs" ;
     rdfs:label "LCTGMSubject" .
+mdhn:LCSHSubject a owl:Class ;
+    rdfs:comment "Classes to associate LC Subject Headings to the photographs" ;
+    rdfs:label "LCSHSubject" .    
+
+mdhn:AATSubject a owl:Class ;
+    rdfs:comment "Classes to associate AAT as Topical headings to the photographs" ;
+    rdfs:label "AATSubject" .     
 
 mdhn:GettyTGN a owl:Class ;
     rdfs:comment "Getty TGN Class for Geographic Places" ;
@@ -266,19 +273,21 @@ mdhn:contains a owl:ObjectProperty ;
     rdfs:domain mdhn:DepartedCollection ;
     rdfs:label "contains" ;
     rdfs:range mdhn:DigitalResource.
+     
 
-mdhn:hasTGMSubject a owl:ObjectProperty ;
-    rdfs:comment "Subjects associate the Resource to LCTGM" ;
-    rdfs:label "hasTGMSubject" ;
+mdhn:hasSubject a owl:ObjectProperty ;
+    rdfs:comment "Resource associate to TGM, LCSH and AAT as headings" ;
+    rdfs:label "hasSubject" ;
     so:domainIncludes mdhn:DigitalResource ;
-    so:rangeIncludes mdhn:LCTGMSubject .
+    so:rangeIncludes mdhn:LCTGMSubject, mdhn:LCSHSubject, mdhn:AATSubject . 
 
-mdhn:usedTGM a owl:ObjectProperty ;
+mdhn:usedSubject a owl:ObjectProperty ;
     rdfs:comment "Indicates Resources that used this specified LCTGM" ;
     rdfs:label "usedTGM" ;
-    owl:inverseOf mdhn:hasTGMSubject ;
-    so:domainIncludes mdhn:LCTGMSubject ;
-    so:rangeIncludes mdhn:DigitalResource .    
+    owl:inverseOf mdhn:hasSubject ;
+    so:domainIncludes mdhn:LCTGMSubject, mdhn:LCSHSubject, mdhn:AATSubject ;
+    so:rangeIncludes mdhn:DigitalResource .         
+  
 
 mdhn:hasTGMBroader a owl:ObjectProperty ;
     rdfs:comment "Associate a LCTGM concept to its broader concept" ;
