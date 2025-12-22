@@ -1,0 +1,361 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix mdhn: <http://example.com/mdhn/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix so: <http://schema.org/> .
+
+
+
+mdhn:aat300027267 a mdhn:ResourceType ;
+        rdfs:label "Reports, Journals and Documents"@en, "'اسناد، گزارشها و ژورنالها'"@fa ;
+        rdfs:comment "schema:ReportsAndJournals"@en .        
+
+mdhn:aat300026606 a mdhn:ResourceType ;
+        rdfs:label "Book Catalogs"@en, "فهرست نسخه ها و کتابها"@fa ;
+        rdfs:comment "schema:BookCatalogs"@en .        
+
+
+
+mdhn:aat300028094 a mdhn:ResourceType ;
+        rdfs:label "Map"@en, "نقشه"@fa ;
+        rdfs:comment "schema:Map"@en .     
+
+mdhn:aat300046300 a mdhn:ResourceType ;
+        rdfs:label "Single Photograph"@en, "قطعه عکس"@fa ;
+        rdfs:comment "schema:Photograph"@en . 
+
+mdhn:aat300027200 a mdhn:ResourceType ;
+        rdfs:label "Photograph Album"@en, "آلبوم عکس"@fa ;
+        rdfs:comment "schema:Collection"@en .
+
+mdhn:aat300435424 a mdhn:ResourceType ;
+        rdfs:label "MP4 Video"@en, "ويديو"@fa ;
+        rdfs:comment "schema:VideoObject"@en .    
+mdhn:aat300010094 a mdhn:ResourceType ;
+        rdfs:label "Scrolls"@en, "طومار"@fa ;
+        rdfs:comment "schema:Scroll"@en . 
+
+mdhn:aat300041273 a mdhn:ResourceType ;
+        rdfs:label "Engrave Print"@en, "حکاکی چاپ شده"@fa ;
+        rdfs:comment "schema:CreativeWork"@en .           
+
+mdhn:aat300266747 a mdhn:ResourceType ;
+        rdfs:label "Audio Book"@en, "کتاب صوتی(گويا)"@fa ;
+        rdfs:comment "schema:AudioBook"@en .                                                             
+
+mdhn:aat300265483 a mdhn:ResourceType ;
+        rdfs:label "Illuminated Manuscript"@en, "نسخ دستنويس مصور"@fa ;
+        rdfs:comment "schema:IlluminatedManuscript"@en .   
+
+mdhn:aat300028569 a mdhn:ResourceType ;
+        rdfs:label "Manuscript"@en, "نسخ دستنويس"@fa ;
+        rdfs:comment "schema:Manuscript"@en .  
+         
+
+mdhn:aat300417741 a mdhn:ResourceType;
+        rdfs:label "Painted leather bindings"@en, "جلد کتاب يا مرقع"@fa ;
+        rdfs:comment "schema:CoverArt"@en . 
+
+
+mdhn:aat300191086 a mdhn:ResourceType;
+        rdfs:label "Visual Works"@en, "آثار تجسمی"@fa ;
+        rdfs:comment "schema:VisualWorks"@en .
+
+mdhn:aat300079783 a mdhn:ResourceType;
+        rdfs:label "Conceptual Drawings"@en, "نگارگری يا طراحی"@fa ;
+        rdfs:comment "schema:Drawing"@en .
+
+mdhn:aat001100001 a mdhn:ResourceType;
+        rdfs:label "Qajar Style Drawings"@en, "نگارگری سبک قاجار"@fa ;
+        rdfs:comment "schema:QajarStyleDrawings"@en .            
+mdhn:aat300034104 a mdhn:ResourceType;
+        rdfs:label "Architectural Plans"@en, "پلان معماری"@fa ;
+        rdfs:comment "schema:ArchitecturalPlans"@en .
+
+mdhn:aat300128366 a mdhn:ResourceType;
+        rdfs:label "Color Slide"@en, "اسلايد رنگی"@fa ;
+        rdfs:comment "schema:ColorSlide"@en .            
+
+mdhn:aat300015045 a mdhn:ResourceType;
+        rdfs:label "Watercolor (paint)"@en, "آبرنگ"@fa ;
+        rdfs:comment "schema:Watercolor Paint"@en .                          
+
+mdhn:aat300266660 a mdhn:ResourceType;
+        rdfs:label "Calligraphy"@en, "قطعه خوشنويسی"@fa ;
+        rdfs:comment "schema:Calligraphy"@en .    
+mdhn:aat300200824 a mdhn:AATSubject ;
+    rdfs:label "scripts (writing)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean .
+mdhn:aat300201815 a mdhn:AATSubject ;
+    rdfs:label "<scripts by form>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300200824 .
+mdhn:aat300208615 a mdhn:AATSubject ;
+    rdfs:label "Arabic scripts"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300201815 .
+
+mdhn:aat300194434 a mdhn:AATSubject ;
+    rdfs:label "Kufic"@en , "کوفی"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208615 .
+
+mdhn:aat300195195 a mdhn:AATSubject ;
+    rdfs:label "naskhī"@en , "نسخ"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208615 .
+
+mdhn:aat300195198 a mdhn:AATSubject ;
+    rdfs:label "thuluth"@en , "ثلث"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208615 .
+
+
+mdhn:aat300265530 a mdhn:AATSubject ;
+    rdfs:label "taʻlīq"@en , "تعليق"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208615 .
+
+mdhn:aat300265532 a mdhn:AATSubject ;
+    rdfs:label "nastaʻliq"@en , "نستعليق"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208615 .
+
+mdhn:aat300265534 a mdhn:AATSubject ;
+    rdfs:label "muḥaqqaq"@en , "محقق"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208615 .
+
+mdhn:aat300265535 a mdhn:AATSubject ;
+    rdfs:label "tawqī'"@en , "توقيع"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208615 .
+
+mdhn:aat300265536 a mdhn:AATSubject ;
+    rdfs:label "rīḥān"@en , "ريحان"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208615 .
+
+mdhn:aat300265537 a mdhn:AATSubject ;
+    rdfs:label "dīwānī"@en , "ديوانی"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208615 .
+
+mdhn:aat300265538 a mdhn:AATSubject ;
+    rdfs:label "maghribī (script form)"@en , "مغربی"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208615 .
+
+mdhn:aat300265539 a mdhn:AATSubject ;
+    rdfs:label "shikasteh"@en , "شکسته نستعليق"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208615 .
+
+mdhn:aat300265540 a mdhn:AATSubject ;
+    rdfs:label "riqāʻ"@en , "رقاع"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208615 .
+
+mdhn:aat300137960 a mdhn:AATSubject ;
+    rdfs:label "<information artifacts by physical form>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean.
+mdhn:aat300028051 a mdhn:AATSubject ;
+    rdfs:label "books"@en ;
+    owl:sameAs "schema:Book"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300137960 .  
+
+# Engravings ---------------------
+mdhn:aat300178544 a mdhn:AATSubject ;
+    rdfs:label "<prints by process: transfer method>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean .
+mdhn:aat300041338 a mdhn:AATSubject ;
+    rdfs:label "intaglio prints"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300178544 .
+mdhn:aat300041340 a mdhn:AATSubject ;
+    rdfs:label "engravings (prints)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300041338 .
+mdhn:aat300041352 a mdhn:AATSubject ;
+    rdfs:label "line engravings (prints)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300041340 .
+
+mdhn:aat300041356 a mdhn:AATSubject ;
+    rdfs:label "mezzotints (prints)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300041340 .
+
+mdhn:aat300041362 a mdhn:AATSubject ;
+    rdfs:label "niello prints"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300041340 .
+
+mdhn:aat300041363 a mdhn:AATSubject ;
+    rdfs:label "steel engravings (visual works)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300041340 .
+
+mdhn:aat300041364 a mdhn:AATSubject ;
+    rdfs:label "stipple engravings (prints)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300041340 .
+
+mdhn:aat300389774 a mdhn:AATSubject ;
+    rdfs:label "siderographs (engravings)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300041340 .
+
+mdhn:aat300411442 a mdhn:AATSubject ;
+    rdfs:label "punched engravings"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300041340 .
+
+mdhn:aat300264654 a mdhn:AATSubject ;
+    rdfs:label "sand-grain mezzotints (prints)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300041356 .
+
+mdhn:aat300264657 a mdhn:AATSubject ;
+    rdfs:label "carborundum mezzotints (prints)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300041356 .  
+
+# Panoramas ---------------------
+mdhn:aat300015537 a mdhn:AATSubject ;
+    rdfs:label "panoramas"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300191088 . 
+
+mdhn:aat300191088 a mdhn:AATSubject ;
+    rdfs:label "<visual works by form of image>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300191087 .  
+
+mdhn:aat300191087 a mdhn:AATSubject ;
+    rdfs:label "<visual works by form>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300191086 . 
+mdhn:aat300191086 a mdhn:AATSubject ;
+    rdfs:label "visual works (works)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean .  
+
+# Panorama Photography as a Technique ---------------------                        
+ 
+mdhn:aat300387602 a mdhn:AATSubject ;
+    rdfs:label "panoramic photography"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300138790 . 
+
+mdhn:aat300138790 a mdhn:AATSubject ;
+    rdfs:label "picture-taking techniques"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300134334 .  
+
+mdhn:aat300134334 a mdhn:AATSubject ;
+    rdfs:label "photographic techniques"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300149146 . 
+
+mdhn:aat300149146 a mdhn:AATSubject ;
+    rdfs:label "<photography and photographic processes and techniques>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean . 
+
+mdhn:aat300015637 a mdhn:AATSubject ;
+    rdfs:label "portraits"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300391003 .
+
+mdhn:aat300391003 a mdhn:AATSubject ;
+    rdfs:label "figure works"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300191098 .    
+
+mdhn:aat300191098 a mdhn:AATSubject ;
+    rdfs:label "<visual works by subject type>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300191086 .   
+
+mdhn:aat300189604 a mdhn:ResourceType ;
+        rdfs:label "Manuscript Folio"@en, "برگی از يک نسخه دستنويس"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "schema:ManuscriptFolio"@en;
+        mdhn:hasAATBroader mdhn:aat300115833 .
+mdhn:aat300115833 a mdhn:ResourceType ;
+        rdfs:label "leaves (gathered matter)"@en, "يک صفحه از کتاب"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "A leaf is a single sheet of paper or parchment, recto and verso, making two pages of a book; the basic bibliographical unit of a book."@en;
+        mdhn:hasAATBroader mdhn:aat300168471 . 
+
+mdhn:aat300195125 a mdhn:ResourceType ;
+        rdfs:label "blank leaves"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Unprinted leaves in books, often placed at each end of a book by the printer or the binder."@en;
+        mdhn:hasAATBroader mdhn:aat300115833 .          
+
+mdhn:aat300168471 a mdhn:ResourceType ;
+        rdfs:label "gathered matter components"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Components that result when sheets, as of paper, parchment, or other material, are folded to form leaves and pages, which then are usually gathered or bound together."@en;
+        mdhn:hasAATBroader mdhn:aat300201262 . 
+
+mdhn:aat300201262 a mdhn:ResourceType ;
+        rdfs:label "information form components"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Parts or components of information forms"@en;
+        mdhn:hasAATBroader mdhn:aat300241584 .
+
+mdhn:aat300241584 a mdhn:ResourceType ;
+        rdfs:label "<components by specific context>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean .  
+
+mdhn:aat300215389 a mdhn:ResourceType ;
+        rdfs:label "Nwespapers and Magazines"@en, "نشريات دوره‌ای"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300026657 ;
+        rdfs:comment "schema:Periodical"@en .   
+
+mdhn:aat300026657 a mdhn:ResourceType ;
+        rdfs:label "periodicals"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Publications issued at regular intervals, but not daily, containing articles on various subjects by different authors for the general reader."@en;
+        mdhn:hasAATBroader mdhn:aat300026642 . 
+
+mdhn:aat300026642 a mdhn:ResourceType ;
+        rdfs:label "serials (publications)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Publications in any medium issued in successive parts bearing numerical or chronological designations and intended to be continued indefinitely, such as periodicals, newspapers, annuals (reports, yearbooks, etc.), journals, memoires, proceedings, transactions, etc., of societies and numbered monographic series."@en;
+        mdhn:hasAATBroader mdhn:aat300111999 .
+
+mdhn:aat300111999 a mdhn:ResourceType ;
+        rdfs:label "publications (documents)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Documents distributed to the public by sale or other transfer of ownership, or by rental, lease, or lending."@en;
+        mdhn:hasAATBroader mdhn:aat300220520 . 
+
+mdhn:aat300220520 a mdhn:ResourceType ;
+        rdfs:label "<documents by conditions of production>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        rdfs:comment "Collocates descriptors that emphasize the way in which a document was formulated, prepared, or produced."@en;
+        mdhn:hasAATBroader mdhn:aat300026031 . 
+
+mdhn:aat300026031 a mdhn:ResourceType ;
+        rdfs:label "document genres"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Refers to the various types or classifications of documents, which are typically physical or digital representations of a body of information that is designed with the capacity to communicate"@en.                                                                                                     
+
+
+
+
+   
+
+
+
+    
+
+
+             
+
+   

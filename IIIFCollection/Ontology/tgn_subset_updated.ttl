@@ -1,6 +1,8 @@
 @prefix mdhn: <http://example.com/mdhn/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
 
 mdhn:tgn1000070 a mdhn:GettyTGN ;
     rdfs:label "France"@en ;
@@ -737,7 +739,12 @@ mdhn:tgn9190519 a mdhn:GettyTGN ;
 mdhn:tgn9190207 a mdhn:GettyTGN ;
     rdfs:label "Chehel Sotun"@en, "چهل ستون"@fa ;
     mdhn:hasTGNBroader mdhn:tgn1001228 ;
-    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/9190207" .            
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/9190207" . 
+mdhn:tgn9190208 a mdhn:GettyTGN ;
+    rdfs:label "Khajoo Bridge"@en, "پل خواجو"@fa ;
+    mdhn:hasTGNBroader mdhn:tgn1001228 ;
+    owl:sameAs wd:Q1740490;
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/9190208" .                 
 
 mdhn:tgn8981854 a mdhn:GettyTGN ;
     rdfs:label "Abadan"@en ;

@@ -16,7 +16,6 @@
 @prefix fhkb: <http://www.example.com/genealogy.owl#> .
 @prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
 
-
 mdhn:ResourceCollection a owl:Class ;
     rdfs:comment "A collection of IIIF resources that contain manifests and nested collections." ;
     rdfs:label "Resource Collection" .
@@ -29,24 +28,34 @@ mdhn:Creator a owl:Class ;
     rdfs:comment "An entity responsible for creating the digital resource." ;
     rdfs:label "Creator" .
 
-mdhn:ResourceType a owl:Class ;
-    rdfs:comment "The content type of the digital resource, aligned with controlled vocabularies like AAT or TGM." ;
-    rdfs:label "Resource Type" .
+mdhn:AATTerm a owl:Class ;
+    rdfs:comment "Root Class for all AAT inherited concepts" ;
+    rdfs:label "AATTerm" .
 
+mdhn:AATSubject a owl:Class ;
+    rdfs:comment "Classes choosed as AAT subset for Subjects and it is used to associate AATs as Topical headings to the photographs" ;
+    rdfs:label "AATSubject" ;
+    rdfs:subClassOf mdhn:AATTerm, mdhn:SubjectSource  .
 
 mdhn:ScriptStyleType a owl:Class ;
-    rdfs:comment "The script style type of a calligraphy resource, such as 'Nasta'liq' or 'Thuluth'." ;
-    rdfs:label "Script Style Type" .  
+    rdfs:comment "Classes choosed as a small AAT subset and it is used to determine the script style of all kinds of calligraphy resources." ;
+    rdfs:label "Script Style Type" ;
+    rdfs:subClassOf mdhn:AATTerm .
+
+mdhn:ResourceType a owl:Class ;
+    rdfs:comment "Classes choosed as a AAT subset and it is used as First Level Classification of all resources." ;
+    rdfs:label "Resource Type" ;
+    rdfs:subClassOf mdhn:AATTerm .
 
 mdhn:DocumentGenre a owl:Class ;
-    rdfs:comment "The document type based on subset of the AAT related to document genres (aat:300026031)." ;
-    rdfs:label "Document Genre" .     
+    rdfs:comment "Classes choosed as a subset and it is used as Second Level classification of document resources." ;
+    rdfs:label "Document Genre" ;
+    rdfs:subClassOf mdhn:AATTerm .
 
 mdhn:DepartedCollection a owl:Class ;
     rdfs:comment "The class for integrating departed folios as logical collection into a single virtual collection" ;
-    rdfs:label "Departed Collection" .  
+    rdfs:label "Departed Collection" .
 
-            
 mdhn:Publisher a owl:Class ;
     rdfs:comment "An entity responsible for publishing or making the resource available." ;
     rdfs:label "Publisher" .
@@ -57,313 +66,22 @@ mdhn:CanvasType a owl:Class ;
 
 mdhn:LCTGMSubject a owl:Class ;
     rdfs:comment "Classes to associate Theasures Of Graphical Material subjects to the photographs" ;
-    rdfs:label "LCTGMSubject" .
+    rdfs:label "LCTGMSubject" ;
+    rdfs:subClassOf mdhn:SubjectSource .
+
 mdhn:LCSHSubject a owl:Class ;
     rdfs:comment "Classes to associate LC Subject Headings to the photographs" ;
-    rdfs:label "LCSHSubject" .    
-
-mdhn:AATSubject a owl:Class ;
-    rdfs:comment "Classes to associate AAT as Topical headings to the photographs" ;
-    rdfs:label "AATSubject" .     
+    rdfs:label "LCSHSubject" ;
+    rdfs:subClassOf mdhn:SubjectSource .
 
 mdhn:GettyTGN a owl:Class ;
     rdfs:comment "Getty TGN Class for Geographic Places" ;
-    rdfs:label "GettyTGN" . 
+    rdfs:label "GettyTGN" .
 
 mdhn:AgentialInfo a owl:Class ;
     rdfs:comment "Agential info based on FHKB and references to wikidata when possible" ;
     rdfs:label "AgentialInfo" ;
-    rdfs:subClassOf fhkb:Person .   
-
-mdhn:TemporalInfo a owl:Class ;
-    rdfs:comment "First try to support temporal entity type" ;
-    rdfs:label "TemporalInfo" .         
-         
-mdhn:hasCreator a owl:ObjectProperty ;
-    rdfs:comment "Links a DigitalResource to its creator." ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "has creator" ;
-    rdfs:range mdhn:Creator .
-
-mdhn:hasDocumentGenre a owl:ObjectProperty ;
-    rdfs:comment "Links a DigitalResource to its document gennre" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "has Document Genre" ;
-    rdfs:range mdhn:DocumentGenre .
-
-mdhn:genreUsedIn a owl:ObjectProperty ;
-    rdfs:comment "Associates a genre to its associated resources" ;
-    rdfs:domain mdhn:DocumentGenre ;
-    rdfs:label "genre Used In"  ;
-    rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:hasDocumentGenre .         
-
-mdhn:hasTemporal a owl:ObjectProperty ;
-    rdfs:comment "Links a DigitalResource to Date that is just a year in YYYY formt" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "hasTemporal" ;
-    rdfs:range mdhn:TemporalInfo .
-
-mdhn:yearOfResourse a owl:ObjectProperty ;
-    rdfs:comment "Associates a year to all resources that relates to it." ;
-    rdfs:domain mdhn:TemporalInfo ;
-    rdfs:label "yearOfResourse"  ;
-    rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:hasTemporal .          
-     
-
-mdhn:hasScriptStyle a owl:ObjectProperty ;
-    rdfs:comment "Links a DigitalResource to its canvas type." ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "has Script Style" ;
-    rdfs:range mdhn:ScriptStyleType.   
-
-mdhn:scriptStyleInstance a owl:ObjectProperty ;
-    rdfs:comment "Links a specified script style type to its instance in a DigitalResource." ;
-    rdfs:domain mdhn:ScriptStyleType ;
-    rdfs:label "scriptStyleInstance"  ;
-    rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:hasScriptStyle .       
-
-mdhn:hasCanvasType a owl:ObjectProperty ;
-    rdfs:comment "Links a DigitalResource to its canvas type." ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "has canvas type" ;
-    rdfs:range mdhn:CanvasType .
-
-mdhn:resourcesOfCanvasType a owl:ObjectProperty ;
-    rdfs:comment "Links a canvas to its associated resources." ;
-    rdfs:domain mdhn:CanvasType ;
-    rdfs:label "resources Of Canvas Type"  ;
-    rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:hasCanvasType .  
-
-mdhn:ofType a owl:ObjectProperty ;
-    rdfs:comment "Associates a DigitalResource with its resource type." ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "Of Type" ;
-    rdfs:range mdhn:ResourceType .
-
-mdhn:hasTypeInstance a owl:ObjectProperty ;
-    rdfs:comment "Associates Resource Type to instances." ;
-    rdfs:domain mdhn:ResourceType ;
-    rdfs:label "has Type Instance" ;
-    rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:ofType .    
-
-mdhn:PublishedBy a owl:ObjectProperty ;
-    rdfs:comment "Links a DigitalResource to its publisher." ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "Published By" ;
-    rdfs:range mdhn:Publisher .
-
-mdhn:hasUrl a owl:DatatypeProperty ;
-    rdfs:comment "The URL of a ResourceCollection or DigitalResource." ;
-    rdfs:domain [
-        a owl:Class ;
-        owl:unionOf ( mdhn:ResourceCollection mdhn:DigitalResource )
-    ] ;
-    rdfs:label "has URL" ;
-    rdfs:range xsd:anyURI .
-
-mdhn:caption a owl:DatatypeProperty ;
-    rdfs:comment "A human-readable label for a resource or collection." ;
-    rdfs:domain [
-        a owl:Class ;
-        owl:unionOf ( mdhn:ResourceCollection mdhn:DigitalResource )
-    ] ;
-    rdfs:label "caption" ;
-    rdfs:range xsd:string .
-mdhn:canvasCount a owl:DatatypeProperty ;
-    rdfs:comment "Number of canvases in each resource manifest." ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "Canvas Count" ;
-    rdfs:range xsd:integer .    
-mdhn:folioHasDrawing a owl:DatatypeProperty ;
-    rdfs:comment "Folio has Drawing?" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "folioHasDrawing" ;
-    rdfs:range xsd:boolean . 
-
-mdhn:folioHasTable a owl:DatatypeProperty ;
-    rdfs:comment "Folio has Table?" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "folioHasTable" ;
-    rdfs:range xsd:boolean . 
-
-mdhn:folioIsCover a owl:DatatypeProperty ;
-    rdfs:comment "Folio is cover?" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "folioIsCover" ;
-    rdfs:range xsd:boolean . 
-
-mdhn:folioIsColophon a owl:DatatypeProperty ;
-    rdfs:comment "Folio is colophon?" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "folioIsColophon" ;
-    rdfs:range xsd:boolean .   
-
-mdhn:foliohasDiagram a owl:DatatypeProperty ;
-    rdfs:comment "Folio has diagram?" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "foliohasDiagram" ;
-    rdfs:range xsd:boolean . 
-
-mdhn:folioIsOpening a owl:DatatypeProperty ;
-    rdfs:comment "Folio is opening page?" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "folioIsOpening" ;
-    rdfs:range xsd:boolean .  
-
-mdhn:folioIsFlyLeaf a owl:DatatypeProperty ;
-    rdfs:comment "Folio is flyleaf?" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "folioIsFlyLeaf" ;
-    rdfs:range xsd:boolean .                              
-
-mdhn:isInCollection a owl:ObjectProperty ;
-    rdfs:comment "Specify the immediate collection of the resource" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "is In Collection" ;
-    rdfs:range mdhn:ResourceCollection . 
-
-mdhn:hasResource a owl:ObjectProperty ;
-    rdfs:comment "Links a ResourceCollection to its DigitalResource." ;
-    rdfs:domain mdhn:ResourceCollection ;
-    rdfs:label "has resource" ;
-    rdfs:range mdhn:DigitalResource;
-    owl:inverseOf mdhn:isInCollection .    
-
-mdhn:hasPublished a owl:ObjectProperty ;
-    rdfs:comment "Links a publisher to DigitalResource." ;
-    rdfs:domain mdhn:Publisher ;
-    rdfs:label "has Published" ;
-    rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:PublishedBy .
- 
-mdhn:createResources a owl:ObjectProperty ;
-    rdfs:comment "Links a Creator to DigitalResource." ;
-    rdfs:domain mdhn:Creator ;
-    rdfs:label "creat eResources" ;
-    rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:hasCreator .
-
-mdhn:subCollectionOf a owl:ObjectProperty ;
-    rdfs:comment "Links a subCollection to its parrent Collection." ;
-    rdfs:domain mdhn:ResourceCollection ;
-    rdfs:label "sub Collection Of" ;
-    rdfs:range mdhn:ResourceCollection .
-
-mdhn:parentCollectionOf a owl:ObjectProperty ;
-    rdfs:comment "Associates a parent Collection to its subCollections." ;
-    rdfs:domain mdhn:ResourceCollection ;
-    rdfs:label "parent Collection Of" ;
-    rdfs:range mdhn:ResourceCollection ;
-    owl:inverseOf mdhn:subCollectionOf .    
-
-mdhn:partOf a owl:ObjectProperty ;
-    rdfs:comment "Links a ResourceCollection to it's parent" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "part Of" ;
-    rdfs:range mdhn:DepartedCollection .
-
-mdhn:contains a owl:ObjectProperty ;
-    rdfs:comment "Links a ResourceCollection to it's childs" ;
-    owl:inverseOf mdhn:partOf ;
-    rdfs:domain mdhn:DepartedCollection ;
-    rdfs:label "contains" ;
-    rdfs:range mdhn:DigitalResource.
-     
-
-mdhn:hasSubject a owl:ObjectProperty ;
-    rdfs:comment "Resource associate to TGM, LCSH and AAT as headings" ;
-    rdfs:label "hasSubject" ;
-    so:domainIncludes mdhn:DigitalResource ;
-    so:rangeIncludes mdhn:LCTGMSubject, mdhn:LCSHSubject, mdhn:AATSubject . 
-
-mdhn:usedSubject a owl:ObjectProperty ;
-    rdfs:comment "Indicates Resources that used this specified LCTGM" ;
-    rdfs:label "usedTGM" ;
-    owl:inverseOf mdhn:hasSubject ;
-    so:domainIncludes mdhn:LCTGMSubject, mdhn:LCSHSubject, mdhn:AATSubject ;
-    so:rangeIncludes mdhn:DigitalResource .         
-  
-
-mdhn:hasTGMBroader a owl:ObjectProperty ;
-    rdfs:comment "Associate a LCTGM concept to its broader concept" ;
-    rdfs:label "hasTGMBroader" ;
-    so:domainIncludes mdhn:LCTGMSubject ;
-    so:rangeIncludes mdhn:LCTGMSubject .
-
-mdhn:hasTGMNarrower a owl:ObjectProperty ;
-    rdfs:comment "Associate a LCTGM concept to its narrower concept" ;
-    rdfs:label "hasTGMNarrower" ;
-    owl:inverseOf mdhn:hasTGMBroader ;
-    so:domainIncludes mdhn:LCTGMSubject ;
-    so:rangeIncludes mdhn:LCTGMSubject .  
-
-mdhn:hasBroaderDocGenre a owl:ObjectProperty ;
-    rdfs:comment "Associate a Document Genre  to its broader genre" ;
-    rdfs:label "hasBroaderDocGenre" ;
-    so:domainIncludes mdhn:DocumentGenre ;
-    so:rangeIncludes mdhn:DocumentGenre .    
-
-mdhn:hasNarrowerGenre a owl:ObjectProperty ;
-    rdfs:comment "Associate a Document Genre to its narrower genre" ;
-    rdfs:label "hasNarrowerGenre" ;
-    owl:inverseOf mdhn:hasBroaderDocGenre ;
-    so:domainIncludes mdhn:DocumentGenre ;
-    so:rangeIncludes mdhn:DocumentGenre .        
-
-mdhn:lcTGMURI a owl:DatatypeProperty ;
-    rdfs:comment "The LCTGM URI is used in LC TGM" ;
-    rdfs:domain mdhn:LCTGMSubject ;
-    rdfs:label "lcTGMURI" ;
-    rdfs:range xsd:string . 
-
-mdhn:hasTGNPlace a owl:ObjectProperty ;
-    rdfs:comment "TGN entry associate the resource to Getty TGN" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "hasTGNPlace" ;
-    rdfs:range mdhn:GettyTGN . 
-mdhn:usedTGN a owl:ObjectProperty ;
-    rdfs:comment "Indicates Resources that used this specified TGN" ;
-    rdfs:domain mdhn:GettyTGN ;
-    rdfs:label "usedTGN" ;
-    rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:hasTGNPlace .    
-
-mdhn:gettyTGNURI a owl:DatatypeProperty ;
-    rdfs:comment "The TGN URI is used in Getty AAT" ;
-    rdfs:domain mdhn:GettyTGN ;
-    rdfs:label "gettyTGNURI" ;
-    rdfs:range xsd:string .
-
-mdhn:hasTGNNarrower a owl:ObjectProperty ;
-    rdfs:comment "Indicates broader concept of specified TGN" ;
-    rdfs:label "hasTGNNarrower" ;
-    owl:inverseOf mdhn:hasTGNBroader ;
-    so:domainIncludes mdhn:GettyTGN ;
-    so:rangeIncludes mdhn:GettyTGN .
-
-mdhn:hasTGNBroader a owl:ObjectProperty ;
-    rdfs:comment "Associate a TGN concept to its broader concept" ;
-    rdfs:label "hasTGNBroader" ;
-    so:domainIncludes mdhn:GettyTGN ;
-    so:rangeIncludes mdhn:GettyTGN . 
-
-mdhn:hasAgential a owl:ObjectProperty ;
-    rdfs:comment "Indicates that resource has Agential info associated to a person" ;
-    rdfs:label "hasAgential" ;
-    so:domainIncludes mdhn:DigitalResource ;
-    so:rangeIncludes mdhn:AgentialInfo .
-
-mdhn:hasRoleInResource a owl:ObjectProperty ;
-    rdfs:comment "Indicates a person has atleast one role in resource" ;
-    rdfs:label "hasRoleInResource" ;
-    so:domainIncludes mdhn:AgentialInfo ;
-    so:rangeIncludes mdhn:DigitalResource ;
-    owl:inverseOf mdhn:hasAgential .        
+    rdfs:subClassOf fhkb:Person .
 
 fhkb:Person a owl:Class ;
     rdfs:subClassOf [
@@ -388,7 +106,319 @@ fhkb:Person a owl:Class ;
     owl:equivalentClass [
         a owl:Class ;
         owl:unionOf ( fhkb:Man fhkb:Woman )
-    ] .      
+    ] .
+
+mdhn:TemporalInfo a owl:Class ;
+    rdfs:comment "First try to support temporal entity type" ;
+    rdfs:label "TemporalInfo" .
+
+mdhn:hasCreator a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to its creator." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "has creator" ;
+    rdfs:range mdhn:Creator .
+mdhn:hasScriptStyleBroader a owl:ObjectProperty ;
+    rdfs:comment "Associate an Script Style concept to its broader concept" ;
+    rdfs:label "hasScriptStyleBroader" ;
+    rdfs:domain mdhn:ScriptStyleType ;
+    rdfs:range mdhn:ScriptStyleType .
+
+mdhn:hasAATSubjectBroader a owl:ObjectProperty ;
+    rdfs:comment "Associate an AAT Subject concept to its broader concept" ;
+    rdfs:label "hasAATSubjectBroader" ;
+    rdfs:domain mdhn:AATSubject ;
+    rdfs:range mdhn:AATSubject .    
+mdhn:hasDocumentGenre a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to its document gennre" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "has Document Genre" ;
+    rdfs:range mdhn:DocumentGenre .
+
+mdhn:genreUsedIn a owl:ObjectProperty ;
+    rdfs:comment "Associates a genre to its associated resources" ;
+    rdfs:domain mdhn:DocumentGenre ;
+    rdfs:label "genre Used In" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasDocumentGenre .
+
+mdhn:hasTemporal a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to Date that is just a year in YYYY formt" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasTemporal" ;
+    rdfs:range mdhn:TemporalInfo .
+
+mdhn:yearOfResourse a owl:ObjectProperty ;
+    rdfs:comment "Associates a year to all resources that relates to it." ;
+    rdfs:domain mdhn:TemporalInfo ;
+    rdfs:label "yearOfResourse" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasTemporal .
+
+mdhn:hasScriptStyle a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to its canvas type." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "has Script Style" ;
+    rdfs:range mdhn:ScriptStyleType .
+
+mdhn:scriptStyleInstance a owl:ObjectProperty ;
+    rdfs:comment "Links a specified script style type to its instance in a DigitalResource." ;
+    rdfs:domain mdhn:ScriptStyleType ;
+    rdfs:label "scriptStyleInstance" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasScriptStyle .
+
+mdhn:hasCanvasType a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to its canvas type." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "has canvas type" ;
+    rdfs:range mdhn:CanvasType .
+
+mdhn:resourcesOfCanvasType a owl:ObjectProperty ;
+    rdfs:comment "Links a canvas to its associated resources." ;
+    rdfs:domain mdhn:CanvasType ;
+    rdfs:label "resources Of Canvas Type" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasCanvasType .
+
+mdhn:ofType a owl:ObjectProperty ;
+    rdfs:comment "Associates a DigitalResource with its resource type." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "Of Type" ;
+    rdfs:range mdhn:ResourceType .
+
+mdhn:hasTypeInstance a owl:ObjectProperty ;
+    rdfs:comment "Associates Resource Type to instances." ;
+    rdfs:domain mdhn:ResourceType ;
+    rdfs:label "has Type Instance" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:ofType .
+
+mdhn:PublishedBy a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to its publisher." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "Published By" ;
+    rdfs:range mdhn:Publisher .
+
+mdhn:hasUrl a owl:DatatypeProperty ;
+    rdfs:comment "The URL of a ResourceCollection or DigitalResource." ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCollection mdhn:DigitalResource )
+    ] ;
+    rdfs:label "has URL" ;
+    rdfs:range xsd:anyURI .
+
+mdhn:caption a owl:DatatypeProperty ;
+    rdfs:comment "A human-readable label for a resource or collection." ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCollection mdhn:DigitalResource )
+    ] ;
+    rdfs:label "caption" ;
+    rdfs:range xsd:string .
+
+mdhn:canvasCount a owl:DatatypeProperty ;
+    rdfs:comment "Number of canvases in each resource manifest." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "Canvas Count" ;
+    rdfs:range xsd:integer .
+
+mdhn:folioHasDrawing a owl:DatatypeProperty ;
+    rdfs:comment "Folio has Drawing?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "folioHasDrawing" ;
+    rdfs:range xsd:boolean .
+
+mdhn:folioHasTable a owl:DatatypeProperty ;
+    rdfs:comment "Folio has Table?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "folioHasTable" ;
+    rdfs:range xsd:boolean .
+
+mdhn:folioIsCover a owl:DatatypeProperty ;
+    rdfs:comment "Folio is cover?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "folioIsCover" ;
+    rdfs:range xsd:boolean .
+
+mdhn:folioIsColophon a owl:DatatypeProperty ;
+    rdfs:comment "Folio is colophon?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "folioIsColophon" ;
+    rdfs:range xsd:boolean .
+
+mdhn:foliohasDiagram a owl:DatatypeProperty ;
+    rdfs:comment "Folio has diagram?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "foliohasDiagram" ;
+    rdfs:range xsd:boolean .
+
+mdhn:folioIsOpening a owl:DatatypeProperty ;
+    rdfs:comment "Folio is opening page?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "folioIsOpening" ;
+    rdfs:range xsd:boolean .
+
+mdhn:folioIsFlyLeaf a owl:DatatypeProperty ;
+    rdfs:comment "Folio is flyleaf?" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "folioIsFlyLeaf" ;
+    rdfs:range xsd:boolean .
+
+mdhn:isInCollection a owl:ObjectProperty ;
+    rdfs:comment "Specify the immediate collection of the resource" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "is In Collection" ;
+    rdfs:range mdhn:ResourceCollection .
+
+mdhn:hasResource a owl:ObjectProperty ;
+    rdfs:comment "Links a ResourceCollection to its DigitalResource." ;
+    rdfs:domain mdhn:ResourceCollection ;
+    rdfs:label "has resource" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:isInCollection .
+
+mdhn:hasPublished a owl:ObjectProperty ;
+    rdfs:comment "Links a publisher to DigitalResource." ;
+    rdfs:domain mdhn:Publisher ;
+    rdfs:label "has Published" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:PublishedBy .
+
+mdhn:createResources a owl:ObjectProperty ;
+    rdfs:comment "Links a Creator to DigitalResource." ;
+    rdfs:domain mdhn:Creator ;
+    rdfs:label "creat eResources" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasCreator .
+
+mdhn:subCollectionOf a owl:ObjectProperty ;
+    rdfs:comment "Links a subCollection to its parrent Collection." ;
+    rdfs:domain mdhn:ResourceCollection ;
+    rdfs:label "sub Collection Of" ;
+    rdfs:range mdhn:ResourceCollection .
+
+mdhn:parentCollectionOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a parent Collection to its subCollections." ;
+    rdfs:domain mdhn:ResourceCollection ;
+    rdfs:label "parent Collection Of" ;
+    rdfs:range mdhn:ResourceCollection ;
+    owl:inverseOf mdhn:subCollectionOf .
+
+mdhn:partOf a owl:ObjectProperty ;
+    rdfs:comment "Links a ResourceCollection to it's parent" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "part Of" ;
+    rdfs:range mdhn:DepartedCollection .
+
+mdhn:contains a owl:ObjectProperty ;
+    rdfs:comment "Links a ResourceCollection to it's childs" ;
+    rdfs:domain mdhn:DepartedCollection ;
+    rdfs:label "contains" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:partOf .
+
+mdhn:hasSubject a owl:ObjectProperty ;
+    rdfs:comment "Resource associate to SubjectSource(AAT,LCSH,TGM) as headings" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasSubject" ;
+    rdfs:range mdhn:SubjectSource .
+
+mdhn:usedSubject a owl:ObjectProperty ;
+    rdfs:comment "Indicates Resources that used this specified SubjectSource(AAT,LCSH,TGM)" ;
+    rdfs:domain mdhn:SubjectSource ;
+    rdfs:label "usedTGM" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasSubject .
+
+mdhn:hasTGMBroader a owl:ObjectProperty ;
+    rdfs:comment "Associate a LCTGM concept to its broader concept" ;
+    rdfs:label "hasTGMBroader" ;
+    rdfs:domain mdhn:LCTGMSubject ;
+    rdfs:range mdhn:LCTGMSubject .
+
+mdhn:hasTGMNarrower a owl:ObjectProperty ;
+    rdfs:comment "Associate a LCTGM concept to its narrower concept" ;
+    rdfs:label "hasTGMNarrower" ;
+    owl:inverseOf mdhn:hasTGMBroader ;
+    rdfs:domain mdhn:LCTGMSubject ;
+    rdfs:range mdhn:LCTGMSubject .
+
+mdhn:hasBroaderDocGenre a owl:ObjectProperty ;
+    rdfs:comment "Associate a Document Genre  to its broader genre" ;
+    rdfs:label "hasBroaderDocGenre" ;
+    rdfs:domain mdhn:DocumentGenre ;
+    rdfs:range mdhn:DocumentGenre .
+
+mdhn:hasNarrowerGenre a owl:ObjectProperty ;
+    rdfs:comment "Associate a Document Genre to its narrower genre" ;
+    rdfs:label "hasNarrowerGenre" ;
+    owl:inverseOf mdhn:hasBroaderDocGenre ;
+    rdfs:domain mdhn:DocumentGenre ;
+    rdfs:range mdhn:DocumentGenre .
+
+mdhn:lcTGMURI a owl:DatatypeProperty ;
+    rdfs:comment "The LCTGM URI is used in LC TGM" ;
+    rdfs:domain mdhn:LCTGMSubject ;
+    rdfs:label "lcTGMURI" ;
+    rdfs:range xsd:string .
+
+mdhn:hasTGNPlace a owl:ObjectProperty ;
+    rdfs:comment "TGN entry associate the resource to Getty TGN" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasTGNPlace" ;
+    rdfs:range mdhn:GettyTGN .
+
+mdhn:usedTGN a owl:ObjectProperty ;
+    rdfs:comment "Indicates Resources that used this specified TGN" ;
+    rdfs:domain mdhn:GettyTGN ;
+    rdfs:label "usedTGN" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:hasTGNPlace .
+
+mdhn:gettyTGNURI a owl:DatatypeProperty ;
+    rdfs:comment "The TGN URI is used in Getty AAT" ;
+    rdfs:domain mdhn:GettyTGN ;
+    rdfs:label "gettyTGNURI" ;
+    rdfs:range xsd:string .
+
+mdhn:hasTGNNarrower a owl:ObjectProperty ;
+    rdfs:comment "Indicates broader concept of specified TGN" ;
+    rdfs:label "hasTGNNarrower" ;
+    owl:inverseOf mdhn:hasTGNBroader ;
+    so:domainIncludes mdhn:GettyTGN ;
+    so:rangeIncludes mdhn:GettyTGN .
+
+mdhn:hasTGNBroader a owl:ObjectProperty ;
+    rdfs:comment "Associate a TGN concept to its broader concept" ;
+    rdfs:label "hasTGNBroader" ;
+    rdfs:domain mdhn:GettyTGN ;
+    rdfs:range mdhn:GettyTGN .
+
+mdhn:hasAATBroader a owl:ObjectProperty ;
+    rdfs:comment "Associate an AAT concept to its broader concept" ;
+    rdfs:label "hasAATBroader" ;
+    rdfs:domain mdhn:AATTerm ;
+    rdfs:range mdhn:AATTerm .
+
+mdhn:isGuideTerm a owl:DatatypeProperty ;
+    rdfs:comment "Flag to indicate if the AAT term is a guide term" ;
+    rdfs:domain mdhn:AATTerm ;
+    rdfs:label "isGuideTerm" ;
+    rdfs:range xsd:boolean .
+
+mdhn:hasAgential a owl:ObjectProperty ;
+    rdfs:comment "Indicates that resource has Agential info associated to a person" ;
+    rdfs:label "hasAgential" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:range mdhn:AgentialInfo .
+
+mdhn:hasRoleInResource a owl:ObjectProperty ;
+    rdfs:comment "Indicates a person has atleast one role in resource" ;
+    rdfs:label "hasRoleInResource" ;
+    owl:inverseOf mdhn:hasAgential ;
+    rdfs:domain mdhn:AgentialInfo ;
+    rdfs:range mdhn:DigitalResource .
 
 fhkb:Man a owl:Class ;
     owl:equivalentClass [
@@ -400,8 +430,12 @@ fhkb:Man a owl:Class ;
         ] )
     ] .
 
-fhkb:Male a owl:Class ;
-    rdfs:subClassOf fhkb:Sex .
+fhkb:Sex a owl:Class ;
+    rdfs:subClassOf fhkb:DomainEntity ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:unionOf ( fhkb:Female fhkb:Male )
+    ] .
 
 fhkb:Woman a owl:Class ;
     owl:equivalentClass [
@@ -413,16 +447,12 @@ fhkb:Woman a owl:Class ;
         ] )
     ] .
 
+fhkb:Male a owl:Class ;
+    rdfs:subClassOf fhkb:Sex .
+
 fhkb:Female a owl:Class ;
     rdfs:subClassOf fhkb:Sex ;
     owl:disjointWith fhkb:Male .
-
-fhkb:Sex a owl:Class ;
-    rdfs:subClassOf fhkb:DomainEntity ;
-    owl:equivalentClass [
-        a owl:Class ;
-        owl:unionOf ( fhkb:Female fhkb:Male )
-    ] .
 
 fhkb:Marriage a owl:Class ;
     rdfs:subClassOf fhkb:DomainEntity .
@@ -447,6 +477,8 @@ fhkb:hasPartner a owl:ObjectProperty ;
     rdfs:domain fhkb:Marriage ;
     rdfs:range fhkb:Person ;
     owl:inverseOf fhkb:isPartnerIn .
+
+fhkb:isPartnerIn a owl:ObjectProperty .
 
 fhkb:hasMalePartner a owl:ObjectProperty ;
     rdfs:domain fhkb:Marriage ;
@@ -476,6 +508,8 @@ fhkb:hasHusband a owl:ObjectProperty ;
 fhkb:hasSpouse a owl:ObjectProperty ;
     owl:inverseOf fhkb:isSpouseOf .
 
+fhkb:isSpouseOf a owl:ObjectProperty .
+
 fhkb:hasWife a owl:ObjectProperty ;
     rdfs:range fhkb:Woman ;
     rdfs:subPropertyOf fhkb:hasSpouse ;
@@ -487,6 +521,6 @@ fhkb:isHusbandOf a owl:ObjectProperty ;
 fhkb:isWifeOf a owl:ObjectProperty ;
     owl:inverseOf fhkb:hasWife .
 
-fhkb:isPartnerIn a owl:ObjectProperty .
-
-fhkb:isSpouseOf a owl:ObjectProperty .  
+mdhn:SubjectSource a owl:Class ;
+    rdfs:comment "Root class of all Subject Sources" ;
+    rdfs:label "SubjectSource" .
