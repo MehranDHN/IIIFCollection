@@ -472,7 +472,7 @@ fhkb:isSpouseOf a owl:ObjectProperty .
 ```
 
 Graphical representation of this Ontology:
-![alt text](/IIIFCollection/images/image.png)
+![alt text](/IIIFCollection/images/ontology.JPG)
 
 
 # IIIFCollection Workflow and RDF Ontology
@@ -856,6 +856,23 @@ select ?person ?lblPerson{
     ?person rdfs:label ?lblPerson.
     Filter(?person=mdhn:Naser_al_Din_Shah_Qajar)
     Filter(Lang(?lblPerson)="fa")
+}
+```
+### Query 8: Accessing the resources that have Kufic script style excepts those in specified collection
+This query finds all resources that has specified  `mdhn:aat300194434` script style which is Kufic script in AAT Thesaurus. We limit the results to all but those that are in specified Collection `mdhn:AsarolBaghieOrMs161`.
+
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sc: <https://schema.org/>
+# ليست آثاری که به خط کوفی مرتبط هستند به استثنای مجموعه آثار الباقيه
+select * {
+    ?s a mdhn:DigitalResource;
+       mdhn:hasScriptStyle mdhn:aat300194434;
+       mdhn:isInCollection ?collection.
+    Filter(?collection!=mdhn:AsarolBaghieOrMs161)
+  
 }
 ```
 
