@@ -12,26 +12,46 @@
   "@type": "sc:Collection",
   "label": "Adam Olearius Collection",
   "metadata": [
-    {
-      "label": "Publication/creation",
-      "value": "MehranDHN"
-    },
-    {
-      "label": "Physical description",
-      "value": "Machine readable catalogue compatible with IIIF 2.0 Presentation API"
-    },
-    {
-      "label": "Contributors",
-      "value": "MehranDHN"
-    },
-    {
-      "label": "Notes",
-      "value": "All items have coresponding IIIF 3.0 manifests with internal references to more details. The field seeAlso should be parsed carefully."
-    },
-    {
-      "label": "Subjects",
-      "value": "Travel, Life Styles, Politic, Culture, Art, Architecture, History, Geography, Archeology."
-    }
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 62 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Interoperability",
+            "value": "Supports seeAlso for external data sources; designed for knowledge graph extraction, SPARQL queries, and automated processing"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
   ],
   "summary": {
     "en": [
@@ -43,18 +63,18 @@
   "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
   "thumbnail": [
     {
-      "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
+      "id": "https://iiif.archive.org/image/iiif/3/dr_isfahan-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423341%2F13423341.jp2/full/687,/0/default.jpg",
       "type": "Image",
       "format": "image/jpeg",
-      "height": 4823,
-      "width": 3497,
+      "height": 427,
+      "width": 687,
       "service": [
         {
-          "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
+          "id": "https://iiif.archive.org/image/iiif/3/dr_isfahan-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423341%2F13423341.jp2",
           "type": "ImageService3",
           "profile": "level1",
-          "height": 4823,
-          "width": 3497,
+          "height": 427,
+          "width": 687,
           "extraFormats": [
             "png"
           ],
