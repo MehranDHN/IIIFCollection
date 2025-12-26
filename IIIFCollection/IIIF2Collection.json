@@ -26,7 +26,15 @@
         },
         {
             "label": "Notes",
-            "value": "All items have corresponding IIIF 2.0/3.0 manifests, which include internal references (such as sequences, canvases, and annotations) to provide more detailed structural and content information.  The seeAlso field should be parsed carefully, as it links to external, machine-readable descriptive metadata (e.g., in formats like XML, JSON, or RDF) or related IIIF resources for richer, domain-specific details suitable for indexing and aggregation.  Note that while IIIF 2.0 and 3.0 manifests share core concepts, version 3.0 introduces enhancements like mandatory arrays for multi-value properties (e.g., metadata, thumbnails) and renamed properties for better JavaScript compatibility (e.g., @id to id).  The primary priority of this indexing effort is the Machines collection; however, this catalog can also be used directly by humans for browsing and exploration."
+            "value": [
+                "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 62 international GLAM institutions.",
+                "\n<b>Key technical aspects:</b>\n",
+                "Structure: Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers.",
+                "Semantic Enrichment: Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN.",
+                "Interoperability: Supports seeAlso for external data sources; designed for knowledge graph extraction, SPARQL queries, and automated processing.",
+                "Focus: Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets.",
+                "Source: Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+            ]
         },
         {
             "label": "Subjects",
@@ -39,11 +47,10 @@
     ],
     "summary": {
         "en": [
-            "An experimental catalogue for digital resources in various GLAMs related to the culture, art, architecture, voyages and sometimes historical events about the Persia(IRAN). ",
-            "This catalogue is fully machine readable/consumable and intended to adhere IIIF 2.0 Presentation.",
-            "Accessing the full data required to multiple Request. The full data access model will be publishe soon.",
-            "Use it with care, The information in this list is changing periodically and in daily-based basis and may be subject to significant modification even in Data Models.",
-            "Created and Maintain by : MehranDHN"
+            "Welcome to IIIFDexir, a dynamic and semantically enriched hierarchical index of digital cultural heritage resources related to Persia (Iran). This project aggregates and organizes thousands of IIIF Manifests and Collections from nearly 62 Galleries, Libraries, Archives, and Museums (GLAMs) across the world, focusing on art, architecture, manuscripts, photographs, books, and other materials of Persian significance.",
+            "Through nested IIIF Collections, IIIFDexir reunites dispersed \"departed collections\" — culturally unified items scattered across global institutions — into thematic and subject-based structures for seamless discovery and exploration. Fully compatible with IIIF viewers like Mirador, Universal Viewer, or Theseus, it supports deep zooming, annotation, and machine-readable access via JSON-LD and RDF ontologies.",
+            "Explore this evolving catalog to uncover rich Persian heritage in high-resolution detail, enriched with controlled vocabularies (e.g., AAT, TGN, Wikidata) for advanced querying and interoperability."
+
         ]
     },
     "attribution": "Experimental. By:MehranDHN\n Twitter: https://x.com/Mehrandhn",
