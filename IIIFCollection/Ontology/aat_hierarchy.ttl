@@ -6,24 +6,236 @@
 @prefix so: <http://schema.org/> .
 
 
+mdhn:aat300027268 a mdhn:ResourceType ;
+        rdfs:label "administrative reports"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Official or formal records outlining administrative details, or events sucha as functions, proceedings, or investigations."@en;
+        mdhn:hasAATBroader mdhn:aat300027267 .
+
+mdhn:aat300027294 a mdhn:ResourceType ;
+        rdfs:label "official reports"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Official documents that collect facts about a particular subject or event, and often draw conclusions based on these facts."@en;
+        mdhn:hasAATBroader mdhn:aat300027267 . 
+
+mdhn:aat300027294 a mdhn:ResourceType ;
+        rdfs:label "communiques"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Official announcements."@en;
+        mdhn:hasAATBroader mdhn:aat300027294 . 
+
+mdhn:aat300027297 a mdhn:ResourceType ;
+        rdfs:label "plans (reports)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Organized and often detailed proposals that lay out strategies and schemes of action for something to be done."@en;
+        mdhn:hasAATBroader mdhn:aat300027267 . 
+
+mdhn:aat300027316 a mdhn:ResourceType ;
+        rdfs:label "proceedings (reports)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Records of meetings, conferences, learned societies, or other organizations, usually published, and frequently accompanied by abstracts or reports of papers presented."@en;
+        mdhn:hasAATBroader mdhn:aat300027267 .   
+
+mdhn:aat300027323 a mdhn:ResourceType ;
+        rdfs:label "technical reports"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Reports giving details and results of a specific investigation of a scientific or technical problem."@en;
+        mdhn:hasAATBroader mdhn:aat300027267 .                                        
 
 mdhn:aat300027267 a mdhn:ResourceType ;
         rdfs:label "Reports, Journals and Documents"@en, "'اسناد، گزارشها و ژورنالها'"@fa ;
-        rdfs:comment "schema:ReportsAndJournals"@en .        
+        rdfs:comment "schema:ReportsAndJournals"@en;
+        mdhn:hasAATBroader mdhn:aat300137955 .        
 
 mdhn:aat300026606 a mdhn:ResourceType ;
         rdfs:label "Book Catalogs"@en, "فهرست نسخه ها و کتابها"@fa ;
-        rdfs:comment "schema:BookCatalogs"@en .        
+        rdfs:comment "schema:BookCatalogs"@en .  
+mdhn:aat300189604 a mdhn:ResourceType ;
+        rdfs:label "Manuscript Folio"@en, "برگی از يک نسخه دستنويس"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "schema:ManuscriptFolio"@en;
+        mdhn:hasAATBroader mdhn:aat300115833 .
+mdhn:aat300115833 a mdhn:ResourceType ;
+        rdfs:label "leaves (gathered matter)"@en, "يک صفحه از کتاب"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "A leaf is a single sheet of paper or parchment, recto and verso, making two pages of a book; the basic bibliographical unit of a book."@en;
+        mdhn:hasAATBroader mdhn:aat300168471 . 
+
+mdhn:aat300195125 a mdhn:ResourceType ;
+        rdfs:label "blank leaves"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Unprinted leaves in books, often placed at each end of a book by the printer or the binder."@en;
+        mdhn:hasAATBroader mdhn:aat300115833 .          
+
+mdhn:aat300168471 a mdhn:ResourceType ;
+        rdfs:label "gathered matter components"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Components that result when sheets, as of paper, parchment, or other material, are folded to form leaves and pages, which then are usually gathered or bound together."@en;
+        mdhn:hasAATBroader mdhn:aat300201262 . 
+
+mdhn:aat300201262 a mdhn:ResourceType ;
+        rdfs:label "information form components"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Parts or components of information forms"@en;
+        mdhn:hasAATBroader mdhn:aat300241584 .
+
+mdhn:aat300241584 a mdhn:ResourceType ;
+        rdfs:label "<components by specific context>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean .  
+
+mdhn:aat300215389 a mdhn:ResourceType ;
+        rdfs:label "Nwespapers and Magazines"@en, "نشريات دوره‌ای"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300026657 ;
+        rdfs:comment "schema:Periodical"@en .   
+
+mdhn:aat300026657 a mdhn:ResourceType ;
+        rdfs:label "periodicals"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Publications issued at regular intervals, but not daily, containing articles on various subjects by different authors for the general reader."@en;
+        mdhn:hasAATBroader mdhn:aat300026642 . 
+
+mdhn:aat300026642 a mdhn:ResourceType ;
+        rdfs:label "serials (publications)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Publications in any medium issued in successive parts bearing numerical or chronological designations and intended to be continued indefinitely, such as periodicals, newspapers, annuals (reports, yearbooks, etc.), journals, memoires, proceedings, transactions, etc., of societies and numbered monographic series."@en;
+        mdhn:hasAATBroader mdhn:aat300111999 .
+
+mdhn:aat300111999 a mdhn:ResourceType ;
+        rdfs:label "publications (documents)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Documents distributed to the public by sale or other transfer of ownership, or by rental, lease, or lending."@en;
+        mdhn:hasAATBroader mdhn:aat300220520 . 
 
 
 
+mdhn:aat300026031 a mdhn:ResourceType ;
+        rdfs:label "document genres"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Refers to the various types or classifications of documents, which are typically physical or digital representations of a body of information that is designed with the capacity to communicate"@en.                                                                                                     
+
+mdhn:aat300220520 a mdhn:ResourceType ;
+        rdfs:label "<documents by conditions of production>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        rdfs:comment "Collocates descriptors that emphasize the way in which a document was formulated, prepared, or produced."@en;
+        mdhn:hasAATBroader mdhn:aat300026031 . 
+
+mdhn:aat300137954 a mdhn:ResourceType ;
+        rdfs:label "<documents by form>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        rdfs:comment "Collocates descriptors for documents that emphasize some particular manner in which the textual or visual content of the document has been arranged."@en;
+        mdhn:hasAATBroader mdhn:aat300026031 .  
+
+mdhn:aat300137955 a mdhn:ResourceType ;
+        rdfs:label "<documents by function>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        rdfs:comment "Collocates descriptors for documents that emphasize a specific purpose for which the document was created."@en;
+        mdhn:hasAATBroader mdhn:aat300026031 . 
+
+mdhn:aat300435711 a mdhn:ResourceType ;
+        rdfs:label "<temporary alphabetical list: document genres>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        rdfs:comment "document genres, information forms (objects), ... Visual and Verbal Communication (hierarchy name)"@en;
+        mdhn:hasAATBroader mdhn:aat300026031 . 
+
+
+mdhn:aat300421680 a mdhn:ResourceType ;
+        rdfs:label "achievement symbols"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Objects that convey social recognition of achievements by individuals or groups of people"@en;
+        mdhn:hasAATBroader mdhn:aat300435711 . 
+
+mdhn:aat300420457 a mdhn:ResourceType ;
+        rdfs:label "attendance certificates"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Documents that verify that an individual's presence at an event, training session, or course. These do not verify the recipient's mastery of a subject or specific skills, but only their presence and participation in an activity."@en;
+        mdhn:hasAATBroader mdhn:aat300435711 . 
+mdhn:aat300420497 a mdhn:ResourceType ;
+        rdfs:label "autograph cards"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Cards, often intended for trading that feature the authentic, hand-signed signature of a notable figure, which is often added to the card during its production by the manufacturer. These may also be signed after the production of the card by the figure noted on the card."@en;
+        mdhn:hasAATBroader mdhn:aat300435711 . 
+mdhn:aat300421302 a mdhn:ResourceType ;
+        rdfs:label "business permits"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300435711 .  
+
+mdhn:aat300423556 a mdhn:ResourceType ;
+        rdfs:label "document covers"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300435711 .     
+
+mdhn:aat300423557 a mdhn:ResourceType ;
+        rdfs:label "document files"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300435711 .   
+
+mdhn:aat300028052 a mdhn:ResourceType ;
+        rdfs:label "cartographic materials"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Any materials representing, in whole or part, the earth or any celestial body at any scale."@en;
+        mdhn:hasAATBroader mdhn:aat300163674 . 
+
+mdhn:aat300163674 a mdhn:ResourceType ;
+        rdfs:label "graphic document genres"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Documents that contain graphics."@en;
+        mdhn:hasAATBroader mdhn:aat300137954 .
+
+mdhn:aat300026848 a mdhn:ResourceType ;
+        rdfs:label "charts (graphic documents)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "A tabular or graphic representation of a fluctuating or dependent variable, such as magnitude, temperature, cost, etc."@en;
+        mdhn:hasAATBroader mdhn:aat300163674 . 
+
+mdhn:aat300417769 a mdhn:ResourceType ;
+        rdfs:label "illustrated works (documents)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300137954 .
+
+mdhn:aat300312062 a mdhn:ResourceType ;
+        rdfs:label "polyglots"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Books containing versions of the same text in several languages."@en;
+        mdhn:hasAATBroader mdhn:aat300137954 .
+
+mdhn:aat300009700 a mdhn:ResourceType ;
+        rdfs:label "motifs"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Distinct or separable design elements, usually decorative, whether occurring singly as individual shapes. Distinguished from \"patterns (design elements),\" which are ornamental designs composed of repeated or combined motifs."@en;
+        mdhn:hasAATBroader mdhn:aat300009699 .
+
+mdhn:aat300009699 a mdhn:ResourceType ;
+        rdfs:label "design elements (attributes)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Fundamental ideas and components or parts that are observable in a visual design or work of art, such as lines, points, movement, forms, spaces, colors, textures, and patterns, among others."@en;
+        mdhn:hasAATBroader mdhn:aat300123558 .
+
+mdhn:aat300123558 a mdhn:ResourceType ;
+        rdfs:label "Design Elements (hierarchy name)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "The Design Elements hierarchy contains terms for conventionalized and recurring shapes and arrangements of forms used in the design of many types of object and their ornament, that may be expressed regardless of their materials (e.g., \"rosettes,\" \"Celtic crosses\"). Relation to other hierarchies: Terms for certain attributes related to shape or position are in the Attributes and Properties hierarchy (e.g., \"convex,\" \"concentric\"). Terms for three-dimensional ornamental components or elements that exist only in a given material are found in the Components hierarchy"@en.                                                       
+
+                                                                                                               
+mdhn:aat300191091 a mdhn:ResourceType ;
+        rdfs:label "<visual works by material or technique>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300191086 .  
+
+mdhn:aat300266679 a mdhn:ResourceType ;
+        rdfs:label "electronic documents"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        rdfs:comment "Information electronically recorded that requires a computer or other electronic device for display, interpretion, and processing."@en;
+        mdhn:hasAATBroader mdhn:aat300137954 .        
 mdhn:aat300028094 a mdhn:ResourceType ;
         rdfs:label "Map"@en, "نقشه"@fa ;
-        rdfs:comment "schema:Map"@en .     
+        rdfs:comment "schema:Map"@en ;
+        mdhn:hasAATBroader mdhn:aat300028052, mdhn:aat300026848 .     
 
 mdhn:aat300046300 a mdhn:ResourceType ;
         rdfs:label "Single Photograph"@en, "قطعه عکس"@fa ;
-        rdfs:comment "schema:Photograph"@en . 
+        rdfs:comment "schema:Photograph"@en ;
+        mdhn:hasAATBroader mdhn:aat300191091 . 
 
 mdhn:aat300027200 a mdhn:ResourceType ;
         rdfs:label "Photograph Album"@en, "آلبوم عکس"@fa ;
@@ -34,23 +246,28 @@ mdhn:aat300435424 a mdhn:ResourceType ;
         rdfs:comment "schema:VideoObject"@en .    
 mdhn:aat300010094 a mdhn:ResourceType ;
         rdfs:label "Scrolls"@en, "طومار"@fa ;
-        rdfs:comment "schema:Scroll"@en . 
+        rdfs:comment "schema:Scroll"@en ;
+        mdhn:hasAATBroader mdhn:aat300009700 .  
 
+# see 300041341 copper engravings (visual works)
 mdhn:aat300041273 a mdhn:ResourceType ;
         rdfs:label "Engrave Print"@en, "حکاکی چاپ شده"@fa ;
         rdfs:comment "schema:CreativeWork"@en .           
 
 mdhn:aat300266747 a mdhn:ResourceType ;
         rdfs:label "Audio Book"@en, "کتاب صوتی(گويا)"@fa ;
-        rdfs:comment "schema:AudioBook"@en .                                                             
+        rdfs:comment "schema:AudioBook"@en ;
+        mdhn:hasAATBroader mdhn:aat300266679 .                                                             
 
 mdhn:aat300265483 a mdhn:ResourceType ;
         rdfs:label "Illuminated Manuscript"@en, "نسخ دستنويس مصور"@fa ;
-        rdfs:comment "schema:IlluminatedManuscript"@en .   
+        rdfs:comment "schema:IlluminatedManuscript"@en ;
+        mdhn:hasAATBroader mdhn:aat300028569 .  
 
 mdhn:aat300028569 a mdhn:ResourceType ;
         rdfs:label "Manuscript"@en, "نسخ دستنويس"@fa ;
-        rdfs:comment "schema:Manuscript"@en .  
+        rdfs:comment "schema:Manuscript"@en;
+        mdhn:hasAATBroader mdhn:aat300220520 .   
          
 
 mdhn:aat300417741 a mdhn:ResourceType;
@@ -84,75 +301,75 @@ mdhn:aat300015045 a mdhn:ResourceType;
 mdhn:aat300266660 a mdhn:ResourceType;
         rdfs:label "Calligraphy"@en, "قطعه خوشنويسی"@fa ;
         rdfs:comment "schema:Calligraphy"@en .    
-mdhn:aat300200824 a mdhn:AATSubject ;
+mdhn:aat300200824 a mdhn:ScriptStyleType ;
     rdfs:label "scripts (writing)"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean .
-mdhn:aat300201815 a mdhn:AATSubject ;
+mdhn:aat300201815 a mdhn:ScriptStyleType ;
     rdfs:label "<scripts by form>"@en ;
     mdhn:isGuideTerm "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300200824 .
-mdhn:aat300208615 a mdhn:AATSubject ;
+mdhn:aat300208615 a mdhn:ScriptStyleType ;
     rdfs:label "Arabic scripts"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300201815 .
 
-mdhn:aat300194434 a mdhn:AATSubject ;
+mdhn:aat300194434 a mdhn:ScriptStyleType ;
     rdfs:label "Kufic"@en , "کوفی"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
 
-mdhn:aat300195195 a mdhn:AATSubject ;
+mdhn:aat300195195 a mdhn:ScriptStyleType ;
     rdfs:label "naskhī"@en , "نسخ"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
 
-mdhn:aat300195198 a mdhn:AATSubject ;
+mdhn:aat300195198 a mdhn:ScriptStyleType ;
     rdfs:label "thuluth"@en , "ثلث"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
 
 
-mdhn:aat300265530 a mdhn:AATSubject ;
+mdhn:aat300265530 a mdhn:ScriptStyleType ;
     rdfs:label "taʻlīq"@en , "تعليق"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
 
-mdhn:aat300265532 a mdhn:AATSubject ;
+mdhn:aat300265532 a mdhn:ScriptStyleType ;
     rdfs:label "nastaʻliq"@en , "نستعليق"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
 
-mdhn:aat300265534 a mdhn:AATSubject ;
+mdhn:aat300265534 a mdhn:ScriptStyleType ;
     rdfs:label "muḥaqqaq"@en , "محقق"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
 
-mdhn:aat300265535 a mdhn:AATSubject ;
+mdhn:aat300265535 a mdhn:ScriptStyleType ;
     rdfs:label "tawqī'"@en , "توقيع"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
 
-mdhn:aat300265536 a mdhn:AATSubject ;
+mdhn:aat300265536 a mdhn:ScriptStyleType ;
     rdfs:label "rīḥān"@en , "ريحان"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
 
-mdhn:aat300265537 a mdhn:AATSubject ;
+mdhn:aat300265537 a mdhn:ScriptStyleType ;
     rdfs:label "dīwānī"@en , "ديوانی"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
 
-mdhn:aat300265538 a mdhn:AATSubject ;
+mdhn:aat300265538 a mdhn:ScriptStyleType ;
     rdfs:label "maghribī (script form)"@en , "مغربی"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
 
-mdhn:aat300265539 a mdhn:AATSubject ;
+mdhn:aat300265539 a mdhn:ScriptStyleType ;
     rdfs:label "shikasteh"@en , "شکسته نستعليق"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
 
-mdhn:aat300265540 a mdhn:AATSubject ;
+mdhn:aat300265540 a mdhn:ScriptStyleType ;
     rdfs:label "riqāʻ"@en , "رقاع"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
@@ -278,76 +495,41 @@ mdhn:aat300191098 a mdhn:AATSubject ;
     mdhn:isGuideTerm "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300191086 .   
 
-mdhn:aat300189604 a mdhn:ResourceType ;
-        rdfs:label "Manuscript Folio"@en, "برگی از يک نسخه دستنويس"@fa ;
-        mdhn:isGuideTerm "false"^^xsd:boolean ;
-        rdfs:comment "schema:ManuscriptFolio"@en;
-        mdhn:hasAATBroader mdhn:aat300115833 .
-mdhn:aat300115833 a mdhn:ResourceType ;
-        rdfs:label "leaves (gathered matter)"@en, "يک صفحه از کتاب"@fa ;
-        mdhn:isGuideTerm "false"^^xsd:boolean ;
-        rdfs:comment "A leaf is a single sheet of paper or parchment, recto and verso, making two pages of a book; the basic bibliographical unit of a book."@en;
-        mdhn:hasAATBroader mdhn:aat300168471 . 
+     
 
-mdhn:aat300195125 a mdhn:ResourceType ;
-        rdfs:label "blank leaves"@en;
-        mdhn:isGuideTerm "false"^^xsd:boolean ;
-        rdfs:comment "Unprinted leaves in books, often placed at each end of a book by the printer or the binder."@en;
-        mdhn:hasAATBroader mdhn:aat300115833 .          
+mdhn:aat300053159 a mdhn:AATSubject ;
+    rdfs:label "<image-making processes and techniques>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean .
+mdhn:aat300149146 a mdhn:AATSubject ;
+    rdfs:label "<photography and photographic processes and techniques>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300053159 .
+mdhn:aat300134334 a mdhn:AATSubject ;
+    rdfs:label "photographic techniques"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300149146 .
+mdhn:aat300138790 a mdhn:AATSubject ;
+    rdfs:label "picture-taking techniques"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300134334 .
+mdhn:aat300138798 a mdhn:AATSubject ;
+    rdfs:label "<picture-taking techniques by location or context>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300138790 .
+mdhn:aat300053443 a mdhn:AATSubject ;
+    rdfs:label "aerial photography"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300138798 .
 
-mdhn:aat300168471 a mdhn:ResourceType ;
-        rdfs:label "gathered matter components"@en;
-        mdhn:isGuideTerm "false"^^xsd:boolean ;
-        rdfs:comment "Components that result when sheets, as of paper, parchment, or other material, are folded to form leaves and pages, which then are usually gathered or bound together."@en;
-        mdhn:hasAATBroader mdhn:aat300201262 . 
+mdhn:aat300380544 a mdhn:AATSubject ;
+    rdfs:label "orthophotography"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300053443 .
 
-mdhn:aat300201262 a mdhn:ResourceType ;
-        rdfs:label "information form components"@en;
-        mdhn:isGuideTerm "false"^^xsd:boolean ;
-        rdfs:comment "Parts or components of information forms"@en;
-        mdhn:hasAATBroader mdhn:aat300241584 .
-
-mdhn:aat300241584 a mdhn:ResourceType ;
-        rdfs:label "<components by specific context>"@en;
-        mdhn:isGuideTerm "true"^^xsd:boolean .  
-
-mdhn:aat300215389 a mdhn:ResourceType ;
-        rdfs:label "Nwespapers and Magazines"@en, "نشريات دوره‌ای"@fa ;
-        mdhn:isGuideTerm "false"^^xsd:boolean ;
-        mdhn:hasAATBroader mdhn:aat300026657 ;
-        rdfs:comment "schema:Periodical"@en .   
-
-mdhn:aat300026657 a mdhn:ResourceType ;
-        rdfs:label "periodicals"@en;
-        mdhn:isGuideTerm "false"^^xsd:boolean ;
-        rdfs:comment "Publications issued at regular intervals, but not daily, containing articles on various subjects by different authors for the general reader."@en;
-        mdhn:hasAATBroader mdhn:aat300026642 . 
-
-mdhn:aat300026642 a mdhn:ResourceType ;
-        rdfs:label "serials (publications)"@en;
-        mdhn:isGuideTerm "false"^^xsd:boolean ;
-        rdfs:comment "Publications in any medium issued in successive parts bearing numerical or chronological designations and intended to be continued indefinitely, such as periodicals, newspapers, annuals (reports, yearbooks, etc.), journals, memoires, proceedings, transactions, etc., of societies and numbered monographic series."@en;
-        mdhn:hasAATBroader mdhn:aat300111999 .
-
-mdhn:aat300111999 a mdhn:ResourceType ;
-        rdfs:label "publications (documents)"@en;
-        mdhn:isGuideTerm "false"^^xsd:boolean ;
-        rdfs:comment "Documents distributed to the public by sale or other transfer of ownership, or by rental, lease, or lending."@en;
-        mdhn:hasAATBroader mdhn:aat300220520 . 
-
-mdhn:aat300220520 a mdhn:ResourceType ;
-        rdfs:label "<documents by conditions of production>"@en;
-        mdhn:isGuideTerm "true"^^xsd:boolean ;
-        rdfs:comment "Collocates descriptors that emphasize the way in which a document was formulated, prepared, or produced."@en;
-        mdhn:hasAATBroader mdhn:aat300026031 . 
-
-mdhn:aat300026031 a mdhn:ResourceType ;
-        rdfs:label "document genres"@en;
-        mdhn:isGuideTerm "false"^^xsd:boolean ;
-        rdfs:comment "Refers to the various types or classifications of documents, which are typically physical or digital representations of a body of information that is designed with the capacity to communicate"@en.                                                                                                     
-
-
-
+mdhn:aat300386033 a mdhn:AATSubject ;
+    rdfs:label "balloon photography"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300053443 .
 
    
 

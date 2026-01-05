@@ -30,12 +30,13 @@ mdhn:Creator a owl:Class ;
 
 mdhn:AATTerm a owl:Class ;
     rdfs:comment "Root Class for all AAT inherited concepts" ;
-    rdfs:label "AATTerm" .
+    rdfs:label "AATTerm";
+     rdfs:subClassOf  mdhn:SubjectSource  .
 
 mdhn:AATSubject a owl:Class ;
     rdfs:comment "Classes choosed as AAT subset for Subjects and it is used to associate AATs as Topical headings to the photographs" ;
     rdfs:label "AATSubject" ;
-    rdfs:subClassOf mdhn:AATTerm, mdhn:SubjectSource  .
+    rdfs:subClassOf mdhn:AATTerm .
 
 mdhn:ScriptStyleType a owl:Class ;
     rdfs:comment "Classes choosed as a small AAT subset and it is used to determine the script style of all kinds of calligraphy resources." ;
@@ -126,8 +127,8 @@ mdhn:hasScriptStyleBroader a owl:ObjectProperty ;
 mdhn:hasAATSubjectBroader a owl:ObjectProperty ;
     rdfs:comment "Associate an AAT Subject concept to its broader concept" ;
     rdfs:label "hasAATSubjectBroader" ;
-    rdfs:domain mdhn:AATSubject ;
-    rdfs:range mdhn:AATSubject .    
+    rdfs:domain mdhn:AATTerm ;
+    rdfs:range mdhn:AATTerm .    
 mdhn:hasDocumentGenre a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its document gennre" ;
     rdfs:domain mdhn:DigitalResource ;
