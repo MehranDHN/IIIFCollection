@@ -1,0 +1,179 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "wd": "https://www.wikidata.org/wiki/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/SharafCollection.json",
+    "@type": "sc:Collection",
+    "label": "Sharaf Magazine Collection",
+    "metadata": [
+        {
+            "label": "Publication/creation",
+            "value": "Tehran: MehranDHN"
+        },
+        {
+            "label": "Physical description",
+            "value": "Machine readable catalogue compatible with IIIF 2.0 Presentation API"
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "All items have coresponding IIIF 3.0 manifests with internal references to more details. The field seeAlso should be parsed carefully."
+        },
+        {
+            "label": "Subjects",
+            "value": "Travel, Life Styles, Politic, Culture, Art, Architecture, History, Geography, Archeology, News, Illustration."
+        }
+    ],
+    "summary": {
+        "en": [
+            "The monthly magazine Šaraf (Persian: شرف; DMG: Šaraf; English: “dignity“) was published in Tehran between 1882 and 1891. Under the management of Mohammad Hasan Khan E'temad os-Saltaneh (1840–1895), a total of 87 issues in one volume was published.[1] This magazine became famous for its numerous and elaborate illustrations and photographs."
+        ]
+    },
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0005.jp2/323,1514,2136,3591/700,/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 1177,
+            "width": 700,
+            "service": [
+                {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 1177,
+                    "width": 700,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/NewsMagazineCollection.json",
+    "manifests": [
+        {
+            "id": "https://iiif.archive.org/iiif/3/sharaf_1_to_87/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Sharaf from 1300AH to 1309AH"
+                ],
+                "fa": [
+                    "روزنامه شرف 1882 تا 1891"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Sharaf from 1300AH to 1309AH",
+                        "fa": "روزنامه شرف 1882 تا 1891"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Illustrator": ["mdhn:Abu_Torab_Ghaffari"],
+                        "Writer": ["mdhn:Mohammad_Hassan_Khan_Etemad_Ol_Saltaneh"],
+                        "Calligrapher": ["mdhn:Mirza_Mohammad_Reza_Kalhor"]
+                    }
+                },                 
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Mohammad Hasan Khan E'temad os-Saltaneh",
+                            "WD:Q6402232"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "189"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "kayhanVolume1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1882 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300215389",
+                            "schema:Periodical"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
