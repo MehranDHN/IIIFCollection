@@ -26,7 +26,7 @@ mdhn:DigitalResource a owl:Class ;
 
 mdhn:Creator a owl:Class ;
     rdfs:comment "An entity responsible for creating the digital resource." ;
-    rdfs:label "Creator" .
+    rdfs:label "Creator" .       
 
 mdhn:AATTerm a owl:Class ;
     rdfs:comment "Root Class for all AAT inherited concepts" ;
@@ -93,6 +93,72 @@ mdhn:AgentialInfo a owl:Class ;
 mdhn:TemporalInfo a owl:Class ;
     rdfs:comment "First try to support temporal entity type" ;
     rdfs:label "TemporalInfo" .
+
+mdhn:ParticipantRole a owl:Class ;
+    rdfs:comment "Roles Participated by Involver in Digital Resource" ;
+    rdfs:label "Participant Role" .    
+
+
+mdhn:depicts a owl:ObjectProperty ;
+    rdfs:comment "Links a DigitalResource to the entities it depicts." ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "depicts" ;
+    rdfs:range mdhn:ICSubjectSource .
+
+mdhn:icSubjectUsedIn a owl:ObjectProperty ;
+    rdfs:comment "Indicates Resources that used this specified Iconography Subject" ;
+    rdfs:domain mdhn:ICSubjectSource ;
+    rdfs:label "icSubject Used In" ;
+    rdfs:range mdhn:DigitalResource ;
+    owl:inverseOf mdhn:depicts .
+
+mdhn:hasParticipantInRolePhotographer a owl:ObjectProperty ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRolePhotographer" ;
+    rdfs:range mdhn:AgentialInfo .  
+
+mdhn:hasParticipantInRoleWriter a owl:ObjectProperty ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleWriter" ;
+    rdfs:range mdhn:AgentialInfo .   
+
+mdhn:hasParticipantInRolePublisher a owl:ObjectProperty ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRolePublisher" ;
+    rdfs:range mdhn:AgentialInfo .          
+           
+mdhn:hasParticipantInRoleIllustrator a owl:ObjectProperty ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleIllustrator" ;
+    rdfs:range mdhn:AgentialInfo . 
+
+mdhn:hasParticipantInRoleIlluminator a owl:ObjectProperty ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleIlluminator" ;
+    rdfs:range mdhn:AgentialInfo .   
+
+mdhn:hasParticipantInRoleScriber a owl:ObjectProperty ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleScriber" ;
+    rdfs:range mdhn:AgentialInfo .  
+
+mdhn:hasParticipantInRoleCalligrapher a owl:ObjectProperty ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleCalligrapher" ;
+    rdfs:range mdhn:AgentialInfo .
+
+mdhn:hasParticipantInRoleCartograph a owl:ObjectProperty ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleCartograph" ;
+    rdfs:range mdhn:AgentialInfo .                    
 
 mdhn:hasCreator a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its creator." ;

@@ -226,7 +226,8 @@ mdhn:aat300266679 a mdhn:ResourceType ;
         rdfs:label "electronic documents"@en;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         rdfs:comment "Information electronically recorded that requires a computer or other electronic device for display, interpretion, and processing."@en;
-        mdhn:hasAATBroader mdhn:aat300137954 .        
+        mdhn:hasAATBroader mdhn:aat300137954 .   
+
 mdhn:aat300028094 a mdhn:ResourceType ;
         rdfs:label "Map"@en, "نقشه"@fa ;
         rdfs:comment "schema:Map"@en ;
@@ -300,14 +301,17 @@ mdhn:aat300015045 a mdhn:ResourceType;
 
 mdhn:aat300266660 a mdhn:ResourceType;
         rdfs:label "Calligraphy"@en, "قطعه خوشنويسی"@fa ;
-        rdfs:comment "schema:Calligraphy"@en .    
+        rdfs:comment "schema:Calligraphy"@en . 
+
 mdhn:aat300200824 a mdhn:ScriptStyleType ;
     rdfs:label "scripts (writing)"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean .
+
 mdhn:aat300201815 a mdhn:ScriptStyleType ;
     rdfs:label "<scripts by form>"@en ;
     mdhn:isGuideTerm "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300200824 .
+
 mdhn:aat300208615 a mdhn:ScriptStyleType ;
     rdfs:label "Arabic scripts"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
@@ -377,6 +381,7 @@ mdhn:aat300265540 a mdhn:ScriptStyleType ;
 mdhn:aat300137960 a mdhn:AATSubject ;
     rdfs:label "<information artifacts by physical form>"@en ;
     mdhn:isGuideTerm "true"^^xsd:boolean.
+    
 mdhn:aat300028051 a mdhn:AATSubject ;
     rdfs:label "books"@en ;
     owl:sameAs "schema:Book"@en ;
@@ -530,6 +535,17 @@ mdhn:aat300386033 a mdhn:AATSubject ;
     rdfs:label "balloon photography"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300053443 .
+
+
+mdhn:aat300027087 a mdhn:AATSubject ;
+    rdfs:label "journals"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300137954 .  
+
+mdhn:aat300027112 a mdhn:AATSubject ;
+    rdfs:label "diaries"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300027087 .    
 
    
 
