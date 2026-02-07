@@ -91,6 +91,8 @@
 
 ## Henry James Whigham
 
+## History of the Iran
+
 ## Isaac Adams
 
 ## Isaac Malek Yonan
@@ -146,7 +148,8 @@
      - K.A.C. Creswell Photographs of Islamic Architecture
      - NADAR Studio Photographs
      - Single Photo Collectio 
-     - Stephan Arpee Photographs                                                      
+     - Stephan Arpee Photographs   
+     - Wisconsin Photo                                                    
    - Report And Letter Collection
 
 ## Muhammad Hasan Khan, Iʻtimad al-Saltanah Collection
@@ -163,7 +166,8 @@
    - Illustrated London News
    - La Cité  
    - L'Indépendant de Boulogne-sur-Mer
-   - Keyhan Collection               
+   - Keyhan Collection 
+   - Sharaf Collection              
 
 ## Percy Molesworth Sykes
 
