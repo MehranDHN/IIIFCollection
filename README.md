@@ -1155,6 +1155,23 @@ select * {
   
 }
 ```
+####  Query 9: Determinig which resources have the Subject headers that reconciliated against AAT and LCSH (Not The LCTGM)
+This query finds all resources that have specified subject header types. Those that are `mdhn:AATTerm` and `mdhn:LCSHSubject` because all resources reconciliate against three primary sources inclusing `LCTGM`, `LCSH` and `AAT`.
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT *
+WHERE {
+    ?s a mdhn:DigitalResource ;
+       mdhn:hasSubject ?subject ;
+       mdhn:isInCollection ?collection .
+    ?subject a ?type .
+    FILTER(?type IN (mdhn:AATTerm, mdhn:LCSHSubject))
+}
+```
 
 ## Getting Started
 
