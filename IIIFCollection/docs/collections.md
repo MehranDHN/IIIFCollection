@@ -3,6 +3,8 @@
 
 ## Adam Olearius
 
+## Albert Gabriel
+
 ## Albert Gayet
 
 ## Albert Hotz
@@ -174,6 +176,8 @@
 ## Robert Byron Collection
    - Byrons's Photographs
    - Sultanieh Zanjan
+   - Masjid-i-Shah
+   - Madrassa of Shah Sultan Hussain
 
 ## Robert Elliott
 
