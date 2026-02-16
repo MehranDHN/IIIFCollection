@@ -109,6 +109,8 @@
 
 ## Jean Chardin
 
+## Jean de Thevenot
+
 ## John Baptista Tavernier
 
 ## John Malcolm
@@ -147,6 +149,7 @@
      - Denis Bally Slide Collection
      - Garth Fowden Photograph Collection
      - Henry Viollet Collection
+       - Viollet Original Photographs     
      - K.A.C. Creswell Photographs of Islamic Architecture
      - NADAR Studio Photographs
      - Single Photo Collectio 
