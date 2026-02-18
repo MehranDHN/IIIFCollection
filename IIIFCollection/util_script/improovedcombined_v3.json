@@ -9,7 +9,11 @@
   },
   "items": [
     {
-      "label": "r",
+      "label": {
+        "none": [
+          "1 from Per_104_1"
+        ]
+      },
       "thumbnail": {
         "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/full/!400,400/0/default.jpg",
         "@type": "dcTypes:Image"
@@ -61,7 +65,11 @@
       ]
     },
     {
-      "label": "r",
+      "label": {
+        "none": [
+          "1 from Per_104_3"
+        ]
+      },
       "thumbnail": {
         "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/files/images/Per104_3_09034.jpg/full/!400,400/0/default.jpg",
         "@type": "dcTypes:Image"
@@ -111,6 +119,62 @@
           ]
         }
       ]
+    },
+    {
+      "label": {
+        "none": [
+          "1 from Per_104_4"
+        ]
+      },
+      "thumbnail": {
+        "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_4/files/images/Per104_4_09037.jpg/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image"
+      },
+      "within": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_4/pages/sequence/base/",
+      "width": 4639,
+      "height": 5642,
+      "rendering": [
+        {
+          "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_4/files/images/Per104_4_09037.jpg/full.pdf",
+          "@type": "dcTypes:Image",
+          "label": "PDF",
+          "format": "application/pdf"
+        },
+        {
+          "@id": "https://viewer.cbl.ie/viewer/image/Per_104_4/1/",
+          "@type": "dcTypes:InteractiveResource",
+          "label": "Goobi viewer",
+          "format": "text/html"
+        }
+      ],
+      "id": "http://localhost:8000/iiif/combined/Per_104_4/canvas-0",
+      "type": "sc:Canvas",
+      "items": [
+        {
+          "id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_4/pages/1/canvas//1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_4/files/images/Per104_4_09037.jpg/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 4639,
+                "height": 5642,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_4/files/images/Per104_4_09037.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_4/pages/1/canvas/image/1/",
+              "type": "oa:Annotation",
+              "target": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_4/pages/1/canvas/"
+            }
+          ]
+        }
+      ]
     }
   ],
   "structures": [
@@ -128,7 +192,7 @@
           "type": "Range",
           "label": {
             "none": [
-              "r"
+              "1 from Per_104_1"
             ]
           },
           "items": [
@@ -143,12 +207,27 @@
           "type": "Range",
           "label": {
             "none": [
-              "r"
+              "1 from Per_104_3"
             ]
           },
           "items": [
             {
               "id": "http://localhost:8000/iiif/combined/Per_104_3/canvas-0",
+              "type": "Canvas"
+            }
+          ]
+        },
+        {
+          "id": "http://localhost:8000/iiif/combined/range/2",
+          "type": "Range",
+          "label": {
+            "none": [
+              "1 from Per_104_4"
+            ]
+          },
+          "items": [
+            {
+              "id": "http://localhost:8000/iiif/combined/Per_104_4/canvas-0",
               "type": "Canvas"
             }
           ]
