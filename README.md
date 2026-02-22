@@ -1199,6 +1199,7 @@ This tool is particularly useful for creating curated selections from heterogene
    - Inspect JSON-LD files for manifests and collections.
 
 3. **Work with the Ontology**:
+   Creating a full GraphDB from the data that have provided required using a Local or Cloud GraphDB System. Ontotext Graph and Stardog Cloud Service are excellent choices.
    - Load the Turtle ontology (`iiifCollectionOntology.ttl`) into a triplestore (e.g., Apache Jena).
    - Load the Turtle (`aat_hierarchy.ttl`) which is a subset of the Standard AAT for the scope of this project.
    - Load the Turtle (`iconography_RDF.ttl`) which is a limited-scope for iconography based on WikiData.   
