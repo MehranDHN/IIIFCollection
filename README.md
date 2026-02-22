@@ -1172,6 +1172,20 @@ WHERE {
     FILTER(?type IN (mdhn:AATTerm, mdhn:LCSHSubject))
 }
 ```
+## On-the-Fly IIIF Manifest Generator
+A flexible Python script that dynamically combines selected IIIF manifests into a single, local-compatible manifest (Presentation API 2.0 or 3.0).
+Supports:
+
+- Multiple sources with different base URLs and API versions
+- Selecting specific canvases (by zero-based index) from each manifest
+- Custom canvas labels using a user-defined template
+- Optional table of contents (structures/ranges)
+- Custom metadata (completely independent of source manifests)
+- Mixed v2 and v3 source manifests (with annotation normalization)
+- Detailed logging & validation to debug problems
+
+This tool is particularly useful for creating curated selections from heterogeneous IIIF collections (e.g. mixing archive.org HV.* items with Chester Beatty Library Persian manuscripts or any other IIIF endpoints).
+
 
 ## Getting Started
 
