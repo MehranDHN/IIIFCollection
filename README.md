@@ -1172,6 +1172,21 @@ WHERE {
     FILTER(?type IN (mdhn:AATTerm, mdhn:LCSHSubject))
 }
 ```
+####  Query 10: Determinig the participants in resources with their roles 
+This query finds all participants who involve somehow in resources. Roles such as `mdhn:hasParticipantInRolePhotographer` and `mdhn:hasParticipantInRoleIllustrator` are Object Properties which are `rdfs:subPropertyOf` the `mdhn:hasParticipantInRole` that enables us to integrate all participants of Digital Resources in an effective way.
+```sparql
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sc: <https://schema.org/>
+
+SELECT *
+WHERE {
+    ?s a mdhn:DigitalResource ;
+       mdhn:hasParticipantInRole ?Agential ;
+       mdhn:isInCollection ?collection .
+}
+```
 ## On-the-Fly IIIF Manifest Generator
 A flexible Python script that dynamically combines selected IIIF manifests into a single, local-compatible manifest (Presentation API 2.0 or 3.0).
 Supports:
