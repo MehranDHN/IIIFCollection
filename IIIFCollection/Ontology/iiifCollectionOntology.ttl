@@ -112,7 +112,9 @@ mdhn:icSubjectUsedIn a owl:ObjectProperty ;
     rdfs:range mdhn:DigitalResource ;
     owl:inverseOf mdhn:depicts .
 
-mdhn:hasParticipantInRole a owl:ObjectProperty ;
+mdhn:hasParticipantInRole a 
+    owl:ObjectProperty, 
+    owl:FunctionalProperty ;
     rdfs:domain mdhn:DigitalResource ;         
     rdfs:range  mdhn:AgentialInfo ;
     rdfs:label "has participant in some role"@en ;
@@ -125,19 +127,42 @@ mdhn:hasParticipantInRolePhotographer a owl:ObjectProperty ;
     rdfs:label "hasParticipantInRolePhotographer" ;
     rdfs:range mdhn:AgentialInfo .  
 
+mdhn:photographerOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a photographer to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "photographer of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRolePhotographer .     
+
 mdhn:hasParticipantInRoleWriter a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
     rdfs:comment "Links a Resource to participants";
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "hasParticipantInRoleWriter" ;
-    rdfs:range mdhn:AgentialInfo .   
+    rdfs:range mdhn:AgentialInfo . 
+
+
+mdhn:authorOf a owl:ObjectProperty ;
+    rdfs:comment "Associates an author to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "author of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleWriter .     
+     
 
 mdhn:hasParticipantInRolePublisher a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
     rdfs:comment "Links a Resource to participants";
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "hasParticipantInRolePublisher" ;
-    rdfs:range mdhn:AgentialInfo .          
+    rdfs:range mdhn:AgentialInfo .
+
+mdhn:publisherOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a publisher to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "publisher of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRolePublisher .              
            
 mdhn:hasParticipantInRoleIllustrator a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
@@ -146,19 +171,40 @@ mdhn:hasParticipantInRoleIllustrator a owl:ObjectProperty ;
     rdfs:label "hasParticipantInRoleIllustrator" ;
     rdfs:range mdhn:AgentialInfo . 
 
+mdhn:illustratorOf a owl:ObjectProperty ;
+    rdfs:comment "Associates an illustrator to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "illustrator of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleIllustrator .     
+
 mdhn:hasParticipantInRoleIlluminator a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
     rdfs:comment "Links a Resource to participants";
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "hasParticipantInRoleIlluminator" ;
-    rdfs:range mdhn:AgentialInfo .   
+    rdfs:range mdhn:AgentialInfo . 
+
+mdhn:illuminatorOf a owl:ObjectProperty ;
+    rdfs:comment "Associates an illuminator to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "illuminator of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleIlluminator .       
 
 mdhn:hasParticipantInRoleScriber a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
     rdfs:comment "Links a Resource to participants";
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "hasParticipantInRoleScriber" ;
-    rdfs:range mdhn:AgentialInfo .  
+    rdfs:range mdhn:AgentialInfo . 
+
+mdhn:scriberOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a scriber to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "scriber of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleScriber .      
 
 mdhn:hasParticipantInRoleCalligrapher a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
@@ -167,12 +213,26 @@ mdhn:hasParticipantInRoleCalligrapher a owl:ObjectProperty ;
     rdfs:label "hasParticipantInRoleCalligrapher" ;
     rdfs:range mdhn:AgentialInfo .
 
+mdhn:calligrapherOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a calligrapher to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "calligrapher of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleCalligrapher .     
+
 mdhn:hasParticipantInRoleCartograph a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
     rdfs:comment "Links a Resource to participants";
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "hasParticipantInRoleCartograph" ;
-    rdfs:range mdhn:AgentialInfo .  
+    rdfs:range mdhn:AgentialInfo .
+
+mdhn:cartographerOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a cartographer to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "cartographer of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleCartograph .       
 
 mdhn:hasParticipantInRoleTranslator a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
@@ -181,12 +241,26 @@ mdhn:hasParticipantInRoleTranslator a owl:ObjectProperty ;
     rdfs:label "hasParticipantInRoleTranslator" ;
     rdfs:range mdhn:AgentialInfo .
 
-mdhn:hasParticipantInRoleParticipate a owl:ObjectProperty ;
-    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
-    rdfs:comment "Links a Resource to participants";
+mdhn:translatorOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a translator to its associated resources" ;
     rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "hasParticipantInRoleParticipate" ;
-    rdfs:range mdhn:AgentialInfo .  
+    rdfs:label "translator of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleTranslator . 
+
+mdhn:hasParticipantInRoleInvolver a owl:ObjectProperty ;
+    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
+    rdfs:comment "Links a Resource to involvers";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleInvolver" ;
+    rdfs:range mdhn:AgentialInfo . 
+
+mdhn:involvesIn a owl:ObjectProperty ;
+    rdfs:comment "Associates an involver to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "involves in" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleInvolver .      
 
 mdhn:hasParticipantInRoleSignatory a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
@@ -195,6 +269,13 @@ mdhn:hasParticipantInRoleSignatory a owl:ObjectProperty ;
     rdfs:label "hasParticipantInRoleSignatory" ;
     rdfs:range mdhn:AgentialInfo . 
 
+mdhn:signatoryOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a signatory to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "signatory of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleSignatory .     
+
 mdhn:hasParticipantInRoleRefferedTo a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
     rdfs:comment "Links a Resource to participants";
@@ -202,19 +283,54 @@ mdhn:hasParticipantInRoleRefferedTo a owl:ObjectProperty ;
     rdfs:label "hasParticipantInRoleRefferedTo" ;
     rdfs:range mdhn:AgentialInfo .
 
+mdhn:referredIn a owl:ObjectProperty ;
+    rdfs:comment "Associates a referredTo to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "referred in" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleRefferedTo . 
+
+mdhn:hasParticipantInRoleDrawer a owl:ObjectProperty ;
+    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleDrawer" ;
+    rdfs:range mdhn:AgentialInfo .  
+
+mdhn:drawsPlan a owl:ObjectProperty ;
+    rdfs:comment "Associates a drawer to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "draws plan" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleDrawer .           
+
 mdhn:hasParticipantInRolePainter a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
     rdfs:comment "Links a Resource to participants";
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "hasParticipantInRolePainter" ;
-    rdfs:range mdhn:AgentialInfo . 
+    rdfs:range mdhn:AgentialInfo .
+
+mdhn:painterOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a painter to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "painter of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRolePainter .      
 
 mdhn:hasParticipantInRoleFormerOwner a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
     rdfs:comment "Links a Resource to participants";
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "hasParticipantInRoleFormerOwner" ;
-    rdfs:range mdhn:AgentialInfo .  
+    rdfs:range mdhn:AgentialInfo .
+
+mdhn:formerOwnerOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a former owner to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "former owner of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleFormerOwner .       
 
 mdhn:hasParticipantInRoleِDirector a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
@@ -223,12 +339,54 @@ mdhn:hasParticipantInRoleِDirector a owl:ObjectProperty ;
     rdfs:label "hasParticipantInRoleDirector" ;
     rdfs:range mdhn:AgentialInfo .  
 
+mdhn:directorOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a director to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "director of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleDirector .     
+
 mdhn:hasParticipantInRoleِCameraMan a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
     rdfs:comment "Links a Resource to participants";
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "hasParticipantInRoleCameraMan" ;
-    rdfs:range mdhn:AgentialInfo .                         
+    rdfs:range mdhn:AgentialInfo . 
+
+mdhn:cameraManOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a camera man to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "camera man of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleCameraMan .     
+
+mdhn:hasParticipantInRoleِPoet a owl:ObjectProperty ;
+    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRolePoet" ;
+    rdfs:range mdhn:AgentialInfo .
+
+mdhn:poetOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a poet to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "poet of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRolePoet .    
+
+mdhn:hasParticipantInRoleِSignatueryOfPermission a owl:ObjectProperty ;
+    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleSignatueryOfPermission" ;
+    rdfs:range mdhn:AgentialInfo . 
+
+mdhn:signsPermission a owl:ObjectProperty ;
+    rdfs:comment "Associates a signatory of permission to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "signs permission" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleSignatueryOfPermission .                                         
 
                               
 
@@ -237,6 +395,7 @@ mdhn:hasCreator a owl:ObjectProperty ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "has creator" ;
     rdfs:range mdhn:Creator .
+
 mdhn:hasScriptStyleBroader a owl:ObjectProperty ;
     rdfs:comment "Associate an Script Style concept to its broader concept" ;
     rdfs:label "hasScriptStyleBroader" ;
@@ -553,6 +712,12 @@ mdhn:isGuideTerm a owl:DatatypeProperty ;
     rdfs:domain mdhn:AATTerm ;
     rdfs:label "isGuideTerm" ;
     rdfs:range xsd:boolean .
+
+mdhn:isInExtendedScope a owl:DatatypeProperty ;
+    rdfs:comment "Flag to indicate if the AAT term is in extended scope" ;
+    rdfs:domain mdhn:AATTerm ;
+    rdfs:label "isInExtendedScope" ;
+    rdfs:range xsd:boolean .    
 
 mdhn:hasAgential a owl:ObjectProperty ;
     rdfs:comment "Indicates that resource has Agential info associated to a person" ;

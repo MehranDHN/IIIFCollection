@@ -1273,7 +1273,13 @@ mdhn:aat300015045 a mdhn:ResourceType;
 
 mdhn:aat300266660 a mdhn:ResourceType;
         rdfs:label "Calligraphy"@en, "قطعه خوشنويسی"@fa ;
-        rdfs:comment "schema:Calligraphy"@en . 
+        rdfs:comment "schema:Calligraphy"@en .
+
+mdhn:aat30010001 a mdhn:ScriptStyleType ;
+    rdfs:label "Permission (Calligraphy Style)"@en, "اجازت نامه"@fa ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300266660 .         
 
 mdhn:aat300200824 a mdhn:ScriptStyleType ;
     rdfs:label "scripts (writing)"@en ;
@@ -1293,6 +1299,7 @@ mdhn:aat300194434 a mdhn:ScriptStyleType ;
     rdfs:label "Kufic"@en , "کوفی"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
+    
 
 mdhn:aat300195195 a mdhn:ScriptStyleType ;
     rdfs:label "naskhī"@en , "نسخ"@fa;
