@@ -1,0 +1,222 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:8000/iiif/combined/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Combined Manifest (3 sources)"
+    ]
+  },
+  "items": [
+    {
+      "label": "r",
+      "thumbnail": {
+        "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image"
+      },
+      "within": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/pages/sequence/base/",
+      "width": 5104,
+      "height": 5964,
+      "rendering": [
+        {
+          "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/full.pdf",
+          "@type": "dcTypes:Image",
+          "label": "PDF",
+          "format": "application/pdf"
+        },
+        {
+          "@id": "https://viewer.cbl.ie/viewer/image/Per_104_1/1/",
+          "@type": "dcTypes:InteractiveResource",
+          "label": "Goobi viewer",
+          "format": "text/html"
+        }
+      ],
+      "id": "http://localhost:8000/iiif/combined/Per_104_1/canvas-0",
+      "type": "sc:Canvas",
+      "items": [
+        {
+          "id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/pages/1/canvas//1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 5104,
+                "height": 5964,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/pages/1/canvas/image/1/",
+              "type": "oa:Annotation",
+              "target": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/pages/1/canvas/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r",
+      "thumbnail": {
+        "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/files/images/Per104_3_09034.jpg/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image"
+      },
+      "within": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/pages/sequence/base/",
+      "width": 5091,
+      "height": 5869,
+      "rendering": [
+        {
+          "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/files/images/Per104_3_09034.jpg/full.pdf",
+          "@type": "dcTypes:Image",
+          "label": "PDF",
+          "format": "application/pdf"
+        },
+        {
+          "@id": "https://viewer.cbl.ie/viewer/image/Per_104_3/1/",
+          "@type": "dcTypes:InteractiveResource",
+          "label": "Goobi viewer",
+          "format": "text/html"
+        }
+      ],
+      "id": "http://localhost:8000/iiif/combined/Per_104_3/canvas-0",
+      "type": "sc:Canvas",
+      "items": [
+        {
+          "id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/pages/1/canvas//1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/files/images/Per104_3_09034.jpg/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 5091,
+                "height": 5869,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/files/images/Per104_3_09034.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/pages/1/canvas/image/1/",
+              "type": "oa:Annotation",
+              "target": "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/pages/1/canvas/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "http://localhost:8000/iiif/combined/range/root",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Table of Contents"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:8000/iiif/combined/range/0",
+          "type": "Range",
+          "label": {
+            "none": [
+              "r"
+            ]
+          },
+          "items": [
+            {
+              "id": "http://localhost:8000/iiif/combined/Per_104_1/canvas-0",
+              "type": "Canvas"
+            }
+          ]
+        },
+        {
+          "id": "http://localhost:8000/iiif/combined/range/1",
+          "type": "Range",
+          "label": {
+            "none": [
+              "r"
+            ]
+          },
+          "items": [
+            {
+              "id": "http://localhost:8000/iiif/combined/Per_104_3/canvas-0",
+              "type": "Canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Collection"
+        ]
+      },
+      "value": {
+        "en": [
+          "Henry Viollet Digital Selection"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Curator"
+        ]
+      },
+      "value": {
+        "en": [
+          "Mehran DHN"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Access Rights"
+        ]
+      },
+      "value": {
+        "en": [
+          "Educational & research use only"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Project Year"
+        ]
+      },
+      "value": {
+        "en": [
+          "2025–2026"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Contact"
+        ]
+      },
+      "value": {
+        "en": [
+          "mehran@example.ae"
+        ]
+      }
+    }
+  ],
+  "thumbnail": null
+}
