@@ -1348,7 +1348,9 @@ mdhn:aat300079783 a mdhn:ResourceType;
 
 mdhn:aat001100001 a mdhn:ResourceType;
         rdfs:label "Qajar Style Drawings"@en, "نگارگری سبک قاجار"@fa ;
-        rdfs:comment "schema:QajarStyleDrawings"@en .            
+        rdfs:comment "schema:QajarStyleDrawings"@en ;
+        mdhn:hasAATBroader mdhn:aat300079783 .   
+
 mdhn:aat300034104 a mdhn:ResourceType;
         rdfs:label "Architectural Plans"@en, "پلان معماری"@fa ;
         rdfs:comment "schema:ArchitecturalPlans"@en .
@@ -1359,11 +1361,32 @@ mdhn:aat300128366 a mdhn:ResourceType;
 
 mdhn:aat300015045 a mdhn:ResourceType;
         rdfs:label "Watercolor (paint)"@en, "آبرنگ"@fa ;
-        rdfs:comment "schema:Watercolor Paint"@en .                          
+        rdfs:comment "schema:Watercolor Paint"@en ;
+        mdhn:hasAATBroader mdhn:aat300183946 .
+
+mdhn:aat300183946 a mdhn:ResourceType;
+        rdfs:label "water-base paint"@en, "رنگ آميزی مبتنی بر آب"@fa ;
+        mdhn:hasAATBroader mdhn:aat300015030 .  
+
+mdhn:aat300015030 a mdhn:ResourceType;
+        rdfs:label "<paint by composition or origin>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300015029 .   
+
+mdhn:aat300015029 a mdhn:ResourceType;
+        rdfs:label "paint (coating)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean .                     
+
 
 mdhn:aat300266660 a mdhn:ResourceType;
         rdfs:label "Calligraphy"@en, "قطعه خوشنويسی"@fa ;
-        rdfs:comment "schema:Calligraphy"@en .
+        rdfs:comment "schema:Calligraphy"@en ;
+        mdhn:hasAATBroader mdhn:aat300191091 .
+
+mdhn:aat300220539 a mdhn:ResourceType;
+        rdfs:label "illumination (image-making process)"@en, "قطعه مذهب"@fa ;
+        rdfs:comment "schema:Illumination"@en ;
+        mdhn:hasAATBroader mdhn:aat300053159 .               
 
 mdhn:aat30010001 a mdhn:ScriptStyleType ;
     rdfs:label "Permission (Calligraphy Style)"@en, "اجازت نامه"@fa ;
@@ -2607,7 +2630,7 @@ mdhn:aat300052758 a mdhn:ResourceType ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300242031 .
 
-mdhn:aat300241584 a mdhn:ResourceType ;h
+mdhn:aat300241584 a mdhn:ResourceType ;
     rdfs:label "<components by specific context>"@en ;
     mdhn:isGuideTerm "true"^^xsd:boolean .
 

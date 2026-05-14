@@ -232,7 +232,21 @@ mdhn:cartographerOf a owl:ObjectProperty ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "cartographer of" ;
     rdfs:range mdhn:AgentialInfo ;
-    owl:inverseOf mdhn:hasParticipantInRoleCartograph .       
+    owl:inverseOf mdhn:hasParticipantInRoleCartograph . 
+
+mdhn:hasParticipantInRoleEngraver a owl:ObjectProperty ;
+    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleEngraver" ;
+    rdfs:range mdhn:AgentialInfo .
+
+mdhn:engraverOf a owl:ObjectProperty ;
+    rdfs:comment "Associates an engraver to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "engraver of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleEngraver .            
 
 mdhn:hasParticipantInRoleTranslator a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
