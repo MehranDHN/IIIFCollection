@@ -1201,6 +1201,39 @@ WHERE {
        mdhn:isInCollection ?collection .
 }
 ```
+Then execuating a query to get a result of aggregated agential info:
+```sparql
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sc: <https://schema.org/>
+
+SELECT Distinct ?agential (Count(?s) as ?cs)
+WHERE {
+    ?s a mdhn:DigitalResource ;
+       mdhn:hasParticipantInRole ?agential ;
+       mdhn:isInCollection ?collection .
+   
+}
+GROUP BY ?agential
+```
+
+####  Query 11: Filter the resources in specified physical collections based on particular Iconography Tag
+This query finds all digital resources that has a particular Tag in specified Collection. This can be achieved with a combinations of  `mdhn:isInCollection` and `mdhn:depicts` and then using a `Filter` to narrow the result.
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sc: <https://schema.org/>
+
+select * {
+    ?s a mdhn:DigitalResource;
+       mdhn:isInCollection mdhn:DepartedDrawing;
+       mdhn:depicts ?icgtag.
+    ?icgtag rdfs:label ?lbltag.
+    Filter(Lang(?lbltag)="en")
+    Filter(?icgtag=mdhn:Boat)
+}
+```
 ## On-the-Fly IIIF Manifest Generator
 A flexible Python script that dynamically combines selected IIIF manifests into a single, local-compatible manifest (Presentation API 2.0 or 3.0).
 Supports:
