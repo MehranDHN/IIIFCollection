@@ -1,7 +1,9 @@
 import re
 from pathlib import Path
 
-path = Path('Ontology/aat_hierarchy.ttl')
+script_dir = Path(__file__).resolve().parent
+path = script_dir / '..' / '..' / 'Ontology' / 'aat_hierarchy.ttl'
+path = path.resolve()
 text = path.read_text(encoding='utf-8')
 lines = text.splitlines()
 
@@ -36,11 +38,9 @@ for line in lines:
         entries[current]['isInExtendedScope'] = '"true"' in stripped
         continue
     if stripped.startswith('mdhn:hasAATBroader'):
-        parts = stripped.split()
-        if len(parts) >= 2:
-            broader = parts[1].rstrip(' .')
-            if broader:
-                entries[current]['broader'].append(broader)
+        broader_items = re.findall(r'mdhn:aat[0-9]+', stripped)
+        for broader in broader_items:
+            entries[current]['broader'].append(broader)
         continue
 
 # Add missing broader nodes to ensure all edges resolve
@@ -97,7 +97,7 @@ for uri, entry in entries.items():
         parent_id = node_id(broader)
         lines.append(f'  {parent_id} --> {child_id}')
 
-output = Path('aat_hierarchy_tree.mmd')
+output = script_dir / 'aat2_hierarchy_tree.mmd'
 output.write_text('\n'.join(lines) + '\n', encoding='utf-8')
 print('WROTE', output)
 print('nodes', len(entries), 'edges', sum(len(entry['broader']) for entry in entries.values()))
