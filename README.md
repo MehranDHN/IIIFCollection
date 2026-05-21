@@ -20,7 +20,7 @@ The IIIFDexir project is a dynamic catalog based on IIIF. It emphasizes several 
 AAT has a hierarchical structure with 7 Facets as root many sub Branches related to Art and Architecture which has very critical role in IIIFDexir.
 Below is a subset of AAT collection with limited scope suitable for use in IIIFDexir:
 
-![AAT Subset](/images/mermaid-diagram-2026-05-21-123435.svg)
+![AAT Subset](/IIIFCollection/images/mermaid-diagram-2026-05-21-123435.svg)
 
 ## Accessing the catalog  
 You can access the catalog using any standard IIIF Viewer including Mirador 3.0 and yet better free instances of it hosted in the
