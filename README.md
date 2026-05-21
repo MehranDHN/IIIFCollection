@@ -13,11 +13,12 @@ The IIIFDexir project is a dynamic catalog based on IIIF. It emphasizes several 
 - FHKB (Family History Knowledge Base). A Full version of FHKB is embeded into the project for the Agential data.  
 - On The Fly Manifests. There are many use cases that we want to use a customize curated manifests from selected cavases that physically belong to other manifests. There is a python code to achive this goal which provided with some samples. These manifests are hosted locally.
 - Human Usability: While the primary focus is on machine consumption, the catalog is also usable by humans via standard IIIF viewers like Mirador and OpenSeaDragon.  
-- Public Accessibility: The catalog remains publicly accessible.  
+- Public Accessibility: The catalog remains publicly accessible. 
+
 ![IIIFDexir](/IIIFCollection/images/IIIFDexir.JPG)
 
 ## Subset of AAT concepts used in IIIFDexir
-AAT has a hierarchical structure with 7 Facets as root many sub Branches related to Art and Architecture which has very critical role in IIIFDexir.
+AAT has a hierarchical structure with 7 Facets in root and  many sub Branches beneth them related to Art and Architecture which has very critical role in IIIFDexir.
 Below is a subset of AAT collection with limited scope suitable for use in IIIFDexir:
 
 ![AAT Subset](/IIIFCollection/images/mermaid-diagram-2026-05-21-123435.svg)
@@ -25,6 +26,7 @@ Below is a subset of AAT collection with limited scope suitable for use in IIIFD
 ## Accessing the catalog  
 You can access the catalog using any standard IIIF Viewer including Mirador 3.0 and yet better free instances of it hosted in the
 <a href="https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json" target="_blank">Mirador in Biblissima</a>.
+
 ![Screenshot](https://pbs.twimg.com/media/GmPDuFSbwAAR8O0?format=jpg&name=small "IIIFDexir")
 
 ## Important Notes
