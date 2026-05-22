@@ -61,9 +61,20 @@ mdhn:Publisher a owl:Class ;
     rdfs:comment "An entity responsible for publishing or making the resource available." ;
     rdfs:label "Publisher" .
 
+mdhn:Iconography a owl:Class ;
+    rdfs:comment "Root class of Iconography" ;
+    rdfs:label "Iconography" .    
+
 mdhn:ICSubjectSource a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
     rdfs:comment "Iconography subjects source based on WikiData" ;
-    rdfs:label "ICSubjectSource" .    
+    rdfs:label "ICSubjectSource" . 
+
+mdhn:NarrativeEpisode a owl:Class ;
+    rdfs:comment "A narrative episode depicted in a resource, such as a scene from a story or historical event." ;
+    rdfs:label "Narrative Episode" ;
+    rdfs:subClassOf mdhn:Iconography .      
+        
 
 mdhn:CanvasType a owl:Class ;
     rdfs:comment "The type of canvas used within a IIIF manifest to represent a resource page or image." ;
@@ -88,6 +99,11 @@ mdhn:AgentialInfo a owl:Class ;
     rdfs:label "AgentialInfo" ;
     rdfs:subClassOf fhkb:Person .
 
+mdhn:GLAMSource a owl:Class;
+    rdfs:comment "GLAM sources sre the publishers or holders of the digital resources and they are associated to the resources through the publisher property." ;
+    rdfs:label "GLAMSource" ;
+    rdfs:subClassOf mdhn:SubjectSource .    
+
 
 
 mdhn:TemporalInfo a owl:Class ;
@@ -98,22 +114,37 @@ mdhn:ParticipantRole a owl:Class ;
     rdfs:comment "Roles Participated by Involver in Digital Resource" ;
     rdfs:label "Participant Role" .    
 
+mdhn:isPartOf a owl:DatatypeProperty ;
+    rdfs:comment "Associated narrative episode to which the iconographic entity belongs."@en ;
+    rdfs:domain mdhn:NarrativeEpisode ;
+    rdfs:label "is part of"@en , "بخشی از"@fa ;
+    rdfs:range mdhn:NarrativeEpisode . 
 
 mdhn:depicts a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to the entities it depicts." ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "depicts" ;
-    rdfs:range mdhn:ICSubjectSource .
+    rdfs:range mdhn:Iconography .
 
-mdhn:icSubjectUsedIn a owl:ObjectProperty ;
+mdhn:iconographyUsedIn a owl:ObjectProperty ;
     rdfs:comment "Indicates Resources that used this specified Iconography Subject" ;
-    rdfs:domain mdhn:ICSubjectSource ;
-    rdfs:label "icSubject Used In" ;
+    rdfs:domain mdhn:Iconography ;
+    rdfs:label "iconography Used In" ;
     rdfs:range mdhn:DigitalResource ;
     owl:inverseOf mdhn:depicts .
 
-mdhn:hasParticipantInRole a 
-    owl:ObjectProperty, 
+mdhn:charactersInvolved a owl:ObjectProperty ;
+    rdfs:domain mdhn:NarrativeEpisode ;
+    rdfs:label "characters Involve"@en ;
+    rdfs:range mdhn:AgentialInfo . 
+
+mdhn:hasPartIn a owl:ObjectProperty ; 
+    rdfs:domain mdhn:AgentialInfo ;
+    rdfs:range  mdhn:NarrativeEpisode ;
+    rdfs:label  "persona appears in"@en ;
+    owl:inverseOf mdhn:charactersInvolved .     
+
+mdhn:hasParticipantInRole a owl:ObjectProperty, 
     owl:FunctionalProperty ;
     rdfs:domain mdhn:DigitalResource ;         
     rdfs:range  mdhn:AgentialInfo ;
@@ -147,7 +178,22 @@ mdhn:authorOf a owl:ObjectProperty ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "author of" ;
     rdfs:range mdhn:AgentialInfo ;
-    owl:inverseOf mdhn:hasParticipantInRoleWriter .     
+    owl:inverseOf mdhn:hasParticipantInRoleWriter .   
+
+mdhn:hasParticipantInRoleDirectorOfWorkShop a owl:ObjectProperty ;
+    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleDirectorOfWorkShop" ;
+    rdfs:range mdhn:AgentialInfo . 
+
+
+mdhn:directorOfWorkShopOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a director of a workshop to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "director of work shop of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleDirectorOfWorkShop .        
      
 
 mdhn:hasParticipantInRolePublisher a owl:ObjectProperty ;
@@ -262,6 +308,20 @@ mdhn:translatorOf a owl:ObjectProperty ;
     rdfs:range mdhn:AgentialInfo ;
     owl:inverseOf mdhn:hasParticipantInRoleTranslator . 
 
+mdhn:hasParticipantInRoleCameraMan a owl:ObjectProperty ;
+    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleCameraMan" ;
+    rdfs:range mdhn:AgentialInfo . 
+    
+mdhn:cameraManOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a camera man to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "camera man of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleCameraMan .        
+
 mdhn:hasParticipantInRoleInvolver a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
     rdfs:comment "Links a Resource to involvers";
@@ -290,19 +350,19 @@ mdhn:signatoryOf a owl:ObjectProperty ;
     rdfs:range mdhn:AgentialInfo ;
     owl:inverseOf mdhn:hasParticipantInRoleSignatory .     
 
-mdhn:hasParticipantInRoleRefferedTo a owl:ObjectProperty ;
+mdhn:hasParticipantInRoleReferredTo a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
     rdfs:comment "Links a Resource to participants";
     rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "hasParticipantInRoleRefferedTo" ;
+    rdfs:label "hasParticipantInRoleReferredTo" ;
     rdfs:range mdhn:AgentialInfo .
 
-mdhn:referredIn a owl:ObjectProperty ;
-    rdfs:comment "Associates a referredTo to its associated resources" ;
+mdhn:refersTo a owl:ObjectProperty ;
+    rdfs:comment "Associates a digital resource to its associated subjects" ;
     rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "referred in" ;
+    rdfs:label "refers to" ;
     rdfs:range mdhn:AgentialInfo ;
-    owl:inverseOf mdhn:hasParticipantInRoleRefferedTo . 
+    owl:inverseOf mdhn:hasParticipantInRoleReferredTo . 
 
 mdhn:hasParticipantInRoleDrawer a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
@@ -379,14 +439,14 @@ mdhn:hasParticipantInRoleِPoet a owl:ObjectProperty ;
     rdfs:comment "Links a Resource to participants";
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "hasParticipantInRolePoet" ;
-    rdfs:range mdhn:AgentialInfo .
+    rdfs:range mdhn:AgentialInfo . 
 
 mdhn:poetOf a owl:ObjectProperty ;
     rdfs:comment "Associates a poet to its associated resources" ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "poet of" ;
     rdfs:range mdhn:AgentialInfo ;
-    owl:inverseOf mdhn:hasParticipantInRolePoet .    
+    owl:inverseOf mdhn:hasParticipantInRoleِPoet .   
 
 mdhn:hasParticipantInRoleِSignatueryOfPermission a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
@@ -474,18 +534,7 @@ mdhn:resourcesOfCanvasType a owl:ObjectProperty ;
     rdfs:range mdhn:DigitalResource ;
     owl:inverseOf mdhn:hasCanvasType .
 
-mdhn:hasICSubject a owl:ObjectProperty ;
-    rdfs:comment "Links a Graphic subjects in DigitalResources to Iconography Subjects Resource" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "has Iconography" ;
-    rdfs:range mdhn:ICSubjectSource . 
-
-mdhn:iconographyUsedIn a owl:ObjectProperty ;
-    rdfs:comment "Links a canvas to its iconography resources." ;
-    rdfs:domain mdhn:ICSubjectSource ;
-    rdfs:label "iconography Used In" ;
-    rdfs:range mdhn:DigitalResource ;
-    owl:inverseOf mdhn:hasICSubject .       
+      
 
 mdhn:ofType a owl:ObjectProperty ;
     rdfs:comment "Associates a DigitalResource with its resource type." ;
@@ -727,6 +776,12 @@ mdhn:isGuideTerm a owl:DatatypeProperty ;
     rdfs:label "isGuideTerm" ;
     rdfs:range xsd:boolean .
 
+mdhn:isFacet a owl:DatatypeProperty ;
+    rdfs:comment "Flag to indicate if the AAT term is a facet" ;
+    rdfs:domain mdhn:AATTerm ;
+    rdfs:label "isFacet" ;
+    rdfs:range xsd:boolean .    
+
 mdhn:isInExtendedScope a owl:DatatypeProperty ;
     rdfs:comment "Flag to indicate if the AAT term is in extended scope" ;
     rdfs:domain mdhn:AATTerm ;
@@ -755,16 +810,26 @@ mdhn:SubjectSource a owl:Class ;
 fhkb:DomainEntity a owl:Class .
 
 fhkb:Man a owl:Class ;
+    rdfs:label "Man";
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( fhkb:Person [ a owl:Restriction ;
                         owl:onProperty fhkb:hasSex ;
                         owl:someValuesFrom fhkb:Male ] ) ] .
 
+fhkb:FictionalMan a owl:Class;
+    rdfs:subClassOf fhkb:Man;
+    rdfs:label "Fictional Man" .                        
+
 fhkb:Woman a owl:Class ;
+    rdfs:label "Woman";
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( fhkb:Person [ a owl:Restriction ;
                         owl:onProperty fhkb:hasSex ;
                         owl:someValuesFrom fhkb:Female ] ) ] .
+
+fhkb:FictionalWoman a owl:Class;
+    rdfs:subClassOf fhkb:Woman;
+    rdfs:label "Fictional Woman" .                         
 
 fhkb:Person a owl:Class ;
     rdfs:subClassOf 
@@ -785,6 +850,8 @@ fhkb:Person a owl:Class ;
     owl:disjointWith fhkb:Sex ;
     owl:equivalentClass [ a owl:Class ;
             owl:unionOf ( fhkb:Man fhkb:Woman ) ] .
+
+            
 
 fhkb:Marriage a owl:Class ;
     rdfs:subClassOf fhkb:DomainEntity .

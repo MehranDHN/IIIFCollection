@@ -6,7 +6,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2008/05/skos#> .
 @prefix so: <https://schema.org/> .
-@prefix stardog: <tag:stardog:api:> .
 @prefix tgm: <http://id.loc.gov/vocabulary/graphicMaterials/> .
 @prefix tgn: <http://vocab.getty.edu/tgn/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -167,6 +166,18 @@ mdhn:Iskandar_Dhul_Qarnayn  a fhkb:Man ;
    rdfs:label "Iskandar (Alexander)"@en, "اسکندر"@fa;    
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1207846" . 
 
+mdhn:Dara  a fhkb:Man ;
+   rdfs:label "Dara"@en, "دارا"@fa;    
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q102865" .
+
+mdhn:Ardashir_I  a fhkb:Man ;
+   rdfs:label "Ardashir I"@en, "اردشیر اول"@fa;    
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q371319" . 
+
+mdhn:Zu_Tahmasb  a fhkb:FictionalMan ;
+   rdfs:label "Zu Tahmasb"@en, "زو طهمسرب"@fa;    
+   mdhn:agentialWikiData "" .         
+
 mdhn:Khidr  a fhkb:Man ;
    rdfs:label "Khidr"@en, "خضر"@fa;    
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q311577" . 
@@ -205,12 +216,12 @@ mdhn:Maasoomeh_Khanoom a fhkb:Woman ;
    fhkb:isSpouseOf mdhn:Mehdi_Gholi_Khan_Majd_Ol_Dawleh;        
    mdhn:agentialWikiData "" . 
 
-mdhn:Shirin a fhkb:Woman ;
+mdhn:Shirin a fhkb:FictionalWoman ;
    rdfs:label "Shirin"@en, "شيرين"@fa ;     
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q445432" .  
   
 
-mdhn:Farhad a fhkb:Man ;
+mdhn:Farhad a fhkb:FictionalMan ;
    rdfs:label "Farhad"@en, "فرهاد"@fa ;     
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5936771" . 
 
@@ -218,10 +229,14 @@ mdhn:Joseph a fhkb:Man ;
    rdfs:label "Joseph"@en, "يوسف"@fa ;     
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q563644" . 
 
-mdhn:Zuleika a fhkb:Man ;
+mdhn:Zuleika a fhkb:FictionalWoman ;
    rdfs:label "Zuleika"@en, "زليخا"@fa ;     
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q10506469" . 
      
+mdhn:Qays_Ibn_al_Mulawwah a fhkb:Man ;
+   rdfs:label "Qays Ibn al-Mulawwah"@en, "قيس ابن الملوان"@fa ;     
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q14354376" . 
+    
          
 mdhn:Masoud_Mirza_Zel_Ol_Soltan a fhkb:Man ;
    rdfs:label "Masoud Mirza Zel Ol Soltan"@en, "مسعود ميرزا ظل السلطان"@fa ;  
@@ -1346,6 +1361,24 @@ mdhn:Abul_Qasim_Firdawsi a fhkb:Man ;
    rdfs:label "Abul-Qasim Firdawsi"@en, "ابولقاسم فردوسی"@fa ;
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q43459" .
 
+mdhn:AbuMansurDaqiqi a  fhkb:Man;
+    rdfs:label "Abu Mansur Daqiqi"@en , "ابو منصور دقيقی"@fa ;
+    mdhn:agentialWikiData wd:Q538902 . 
+
+mdhn:Unsuri a fhkb:Man;
+    rdfs:label "Unsuri"@en , "عنصری"@fa ;
+    mdhn:agentialWikiData wd:Q32842 . 
+
+mdhn:Asjadi a fhkb:Man;
+    rdfs:label "Asjadi"@en , "عسجدی"@fa ;
+    mdhn:agentialWikiData  wd:Q4807055 . 
+
+mdhn:Sultan_Muhammad a fhkb:Man;
+    rdfs:label "Sultan Muhammad"@en , "سلطان محمد"@fa ;
+    fhkb:hasSon mdhn:Mirza_Ali ;
+    mdhn:agentialWikiData wd:Q6712884 . 
+
+
 mdhn:Elizabeth_II_Alexandra_Mary_Windsor a fhkb:Woman ;
    rdfs:label "Elizabeth II Alexandra Mary Windsor"@en, "ملکه اليزابت دوم آلکساندرا ماری ويندزر"@fa ;
    fhkb:isSpouseOf mdhn:Prince_Philip_Duke_of_Edinburgh;  
@@ -1473,9 +1506,7 @@ mdhn:Usmaan_bin_Derwis_Muhammad_Aga_al_Arz_Rumi  a fhkb:Man ;
    rdfs:label "Usmaan bin Derwiş Muhammad Aga al-Arz Rumi"@en, "عثمان بن درویش آقا الارض رومی"@fa ;
    mdhn:agentialWikiData "" .           
 
-      
-       
-
+             
 mdhn:Sayyed_Muhammad_al_Rashid_Shalchi_Zada  a fhkb:Man ;
    rdfs:label "Sayyed Muhammad al Rashid Shalchi Zada"@en, "سید محمد الرشید شالچی زاده"@fa ;
    mdhn:agentialWikiData "" .
@@ -1485,8 +1516,6 @@ mdhn:Hassan_Al_Hosni  a fhkb:Man ;
    mdhn:agentialWikiData "" .
 
          
-  
-
 mdhn:Aqa_Mirak  a fhkb:Man ;
    rdfs:label "Aqa Mirak"@en, "آقا میرک"@fa ;
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q4056503" .
@@ -1541,9 +1570,7 @@ mdhn:Sheikh_Hamdullah  a fhkb:Man ;
    rdfs:label "Sheikh Hamdullah"@en, "شیخ حمدالله"@fa ;
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q3561135" .
    
-   
-
-    
+     
 mdhn:Kirkor_Minassian  a fhkb:Man ;
    rdfs:label "Kirkor Minassian"@en, "کرکور میناسیان"@fa ;
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q78060100" .
@@ -1567,7 +1594,7 @@ mdhn:Muzaffar_Ali  a fhkb:Man ;
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q4305948" .                
     
 
-  mdhn:Qāsim_Ghanī a fhkb:Man;
+mdhn:Qāsim_Ghanī a fhkb:Man;
     rdfs:label "Qasim Ghani"@en, "دکتر قاسم غنی"@fa;
     mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5953296".
 
@@ -1576,7 +1603,9 @@ mdhn:AbdolHossein_Mirza_Farmanfarma  a fhkb:Man ;
    fhkb:hasSon mdhn:Firouz_Nosrat_ed_Dowleh_III;  
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q308243" .
 
-     
+mdhn:Abdollah_ibn_Bukhtishu  a fhkb:Man ;
+   rdfs:label "Abdollah ibn Bukhtishu"@en, "عبدالله ابن بختيشوع"@fa;  
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q4665079" .     
 
 mdhn:Firouz_Nosrat_ed_Dowleh_III  a fhkb:Man ;
    rdfs:label "Firouz Nosrat-ed-Dowleh III"@en, "نصرت الدوله فیروزمیرزا"@fa; 
@@ -1635,6 +1664,14 @@ mdhn:Sultan_Ali_Mashhadi a fhkb:Man ;
    rdfs:label "Sultan Ali Mashhadi"@en, "سلطان‌علی مشهدی"@fa; 
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5922231" . 
 
+mdhn:Konstantin_von_Kaufman a fhkb:Man ;
+   rdfs:label "Konstantin von Kaufman"@en, "کونستانسین فون کاوفمن"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1377579" . 
+
+mdhn:Mahmud_Mudhahibb   a fhkb:Man ;
+   rdfs:label "Mahmud Mudhahibb"@en, "محمد مذهب"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q21501858" . 
+
 mdhn:Muhammad a fhkb:Man ;
    rdfs:label "Muhammad"@en, "محمد پيامبر اسلام"@fa; 
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q9458" . 
@@ -1669,6 +1706,399 @@ mdhn:Jafar_ibn_Abī_Tālib a fhkb:Man ;
    rdfs:label "Jafar ibn Abī Tālib"@en, "جعفر ابن ابوطالب"@fa; 
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1147498". 
  
-
  
+mdhn:Heinrich_Glück a fhkb:Man ;
+   rdfs:label "Heinrich Glück"@en, "هاینریش گلیک"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q55842803".
+
+mdhn:Ernst_Kühnel a fhkb:Man ;
+   rdfs:label "Ernst Kühnel"@en, "ارنست کهنل"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q12236635". 
+
+mdhn:Walter_Mittelholzer a fhkb:Man ;
+   rdfs:label "Walter Mittelholzer"@en, "والتر میتلهلزر"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q562310". 
+
+mdhn:Tahmuras a fhkb:FictionalMan ;
+   rdfs:label "Tahmuras"@en, "طهمورث"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q519239". 
+
+mdhn:Fereydun a fhkb:FictionalMan ;
+   rdfs:label "Fereydun"@en, "فریدون"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1150281".   
+
+mdhn:Bashdan_Qara a fhkb:Man ;
+   rdfs:label "Bashdan Qara"@en, "بشندان قارا"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q60439554".   
+
+mdhn:Sultan_Muhammad  a fhkb:Man ;
+   rdfs:label "Sultan Muhammad"@en, "سلطان محمد"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q6712884".
+
+mdhn:Abd_al_Vahhab  a fhkb:Man ;
+   rdfs:label "Abd al-Vahhab"@en, "عبدالوهاب"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q59482128".
+
+mdhn:Mir_Mossavvir  a fhkb:Man ;
+   rdfs:label "Mir Mossavvir"@en, "ميرمصور"@fa; 
+   fhkb:hasSon mdhn:Mir_Sayyid_Ali ;
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q4295446".  
+
+mdhn:Dust_Muhammad  a fhkb:Man ;
+   rdfs:label "Dust Muhammad"@en, "دوست محمد"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q4171195". 
+
+mdhn:Qadimi  a fhkb:Man ;
+   rdfs:label "Qadimi"@en, "قديمی"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q113680330". 
+
+mdhn:Qasim_ibn_Ali  a fhkb:Man ;
+   rdfs:label "Qasim ibn Ali"@en, "قاسم بن علی"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q60311831".   
+
+mdhn:Muzaffar_Ali  a fhkb:Man ;
+   rdfs:label "Muzaffar Ali"@en, "مظفر علی"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q4305948". 
+
+mdhn:Mir_Sayyid_Ali  a fhkb:Man ;
+   rdfs:label "Mir Sayyid Ali"@en, "ميرسيد علی"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1937873". 
+
+mdhn:Abd_al_Aziz  a fhkb:Man ;
+   rdfs:label "Abd al-Aziz"@en, "عبدالعزيز"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q21663724". 
+
+mdhn:Mirza_Ali  a fhkb:Man ;
+   rdfs:label "Mirza Ali"@en, "ميرزا علی"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q2783517".  
+
+mdhn:Aqa_Mirak  a fhkb:Man ;
+   rdfs:label "Aqa Mirak"@en, "آقا ميرک"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q4056503".           
+
+mdhn:Mirza_Muhammad_Qabahat  a fhkb:Man ;
+   rdfs:label "Mirza Muhammad Qabahat"@en, "ميرزا محمد قباهت"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q131323632".    
+
+mdhn:Shaykh_Mohammad_Sabzevari  a fhkb:Man ;
+   rdfs:label "Shaykh Mohammad Sabzevari"@en, "شیخ محمد سبزواری"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q4522484".    
+
+mdhn:Abd_al_Samad  a fhkb:Man ;
+   rdfs:label "Abd al-Samad"@en, "عبدالسمعد"@fa; 
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q307497".    
+
+
+mdhn:Faranak a mdhn:FictionalWoman;
+    rdfs:label "Faranak"@en , "فرانک"@fa ;
+    fhkb:isMotherOf mdhn:Faridun;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q137687".
+
+mdhn:Salm a mdhn:FictionalMan;
+    rdfs:label "Salm"@en , "سلم"@fa ;
+    fhkb:isBrotherOf mdhn:Tur, mdhn:Iraj;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q3543323".
+
+   mdhn:Tur a mdhn:FictionalMan;
+    rdfs:label "Tur"@en , "تور"@fa ;
+    fhkb:isBrotherOf mdhn:Salm, mdhn:Iraj;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q3543320".
+
+mdhn:Iraj a mdhn:FictionalMan;
+    rdfs:label "Iraj"@en , "ايرج"@fa ;
+    fhkb:isBrotherOf mdhn:Salm, mdhn:Tur;
+    fhkb:hasSon mdhn:Manuchehr;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1300562".
+
+mdhn:Jamshid a mdhn:FictionalMan;
+    rdfs:label "Jamshid"@en , "جمشيد"@fa ;
+    fhkb:hasDaughter mdhn:Arnavaz, mdhn:Shahrnaz;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q155755".
+
+mdhn:Arnavaz a mdhn:FictionalWoman;
+    rdfs:label "Arnavazr"@en , "ارنواز"@fa ;
+    fhkb:isSpouseOf mdhn:Zahhak;
+    fhkb:isSisterOf mdhn:Shahrnaz;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5744657".
+
+mdhn:Shahrnaz a mdhn:FictionalWoman;
+    rdfs:label "Shahrnaz"@en , "شهرناز"@fa ;
+    fhkb:isSisterOf mdhn:Arnavaz;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5662082".   
+
+mdhn:Gordafarid a mdhn:FictionalWWoman;
+    rdfs:label "Gordafarid"@en , "گردافرید"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1537907".
+
+mdhn:Gazhdaham a mdhn:FictionalMan;
+    rdfs:label "Gazhdaham"@en , "گژدهم"@fa ; 
+    fhkb:hasDaughter mdhn:Gordafarid;    
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5667217".                       
+
+mdhn:Tahmuras a mdhn:FictionalMan;
+    rdfs:label "Tahmuras"@en , "طهمورث"@fa ; 
+    fhkb:hasSon mdhn:Jamshid;    
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q519239".
+
+mdhn:Keyumars
+    a mdhn:FictionalMan;
+    rdfs:label "Keyumars"@en , "کيومرث"@fa ;
+    fhkb:hasSon mdhn:Siamak;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1077286".
+
+mdhn:Siamak a mdhn:FictionalMan;
+    rdfs:label "Siamak"@en , "سيامک"@fa ;
+    fhkb:hasSon mdhn:Hushang;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1551577".
+
+mdhn:Hushang a mdhn:FictionalMan;
+    rdfs:label "Hushang"@en , "هوشنگ"@fa ;
+    fhkb:hasSon mdhn:Tahmuras;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1638892". 
+
+mdhn:Mardas a mdhn:FictionalMan;
+    rdfs:label "Mardas"@en , "مرداس"@fa ;
+    fhkb:hasSon mdhn:Zahhak;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5665501". 
+
+mdhn:Zahhak a mdhn:FictionalMan;
+    rdfs:label "Zahhak"@en , "ضحاک"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1200843".
+
+mdhn:Manuchehr a mdhn:FictionalMan;
+    rdfs:label "Manuchehr"@en , "منوچهر"@fa ;
+    fhkb:hasSon mdhn:Nowzar;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1376677".
+    
+mdhn:Mahafarid a mdhn:FictionalWoman;
+    rdfs:label "Mahafarid"@en , "مهافرید"@fa ;
+    fhkb:isSpouseOf mdhn:Iraj;
+    fhkb:ismotherOf mdhn:Manuchehr;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q138829412".      
+
+mdhn:Nowzar a mdhn:FictionalMan;
+    rdfs:label "Nowzar"@en , "نوذر"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1338935".
+
+mdhn:Goruye_Zereh a mdhn:FictionalMan;
+    rdfs:label "Goruye Zereh"@en , "گوروی زره"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q138949845".
+
+mdhn:Garazeh a mdhn:FictionalMan;
+    rdfs:label "Garazeh"@en , "گرازه"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5674730".
+
+mdhn:Siamak_Turani a mdhn:FictionalMan;
+    rdfs:label "Siamak Turani"@en , "سيامک توراني"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q138963545". 
+
+mdhn:Ferehoul a mdhn:FictionalMan;
+    rdfs:label "Ferehoul"@en , "فرهول"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q85973492".
+
+mdhn:Zangaleh a mdhn:FictionalMan;
+    rdfs:label "Zangaleh"@en , "زنگله"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q138964058".
+      
+
+mdhn:Sam a mdhn:FictionalMan;
+    rdfs:label "Sam"@en , "سام"@fa ;
+    fhkb:hasSon mdhn:Zal;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q2003157".
+
+mdhn:Zal a mdhn:FictionalMan;
+    rdfs:label "Zal"@en , "زال"@fa ;
+    fhkb:hasSon mdhn:Rostam, mdhn:Shaghad ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q144903".
+
+mdhn:Rudaba a mdhn:FictionalWoman;
+    rdfs:label "Rudaba"@en , "رودابه"@fa ;
+    fhkb:isSpouseOf mdhn:Zal;
+    fhkb:isMotherOf mdhn:Rostam;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q144903".
+
+mdhn:Mihrab a mdhn:FictionalMan;
+    rdfs:label "Mihrab"@en , "مهراب"@fa ;
+    fhkb:hasDaughter mdhn:Rudaba;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1383989".
+
+mdhn:Sindukht a mdhn:FictionalWoman;
+    rdfs:label "Sindukht"@en , "سيندخت"@fa ;
+    fhkb:isSpouseOf mdhn:Mihrab;
+    fhkb:isMotherOf mdhn:Rudaba;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5665309".   
+
+mdhn:Rostam a mdhn:FictionalMan;
+    rdfs:label "Rostam"@en , "رستم"@fa ;
+    fhkb:hasSon mdhn:Sohrab;
+    fhkb:isBrotherOf mdhn:Shaghad ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q60062".
+
+mdhn:Shaghad a mdhn:FictionalMan;   
+    rdfs:label "Shaghad"@en , "شغاد"@fa ;
+    fhkb:isBrotherOf mdhn:Rostam ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q3543285".
+
+mdhn:Tahmina a mdhn:FictionalWoman;
+    rdfs:label "Tahmina"@en , "تهمينه"@fa ;
+    fhkb:isSpouseOf mdhn:Rostam;
+    fhkb:isMotherOf mdhn:Sohrab;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q144903".
+
+mdhn:Sohrab a mdhn:FictionalMan;
+    rdfs:label "Sohrab"@en , "سهراب"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q2065184". 
+
+mdhn:Kaveh_the_Blacksmith a mdhn:FictionalMan;
+    rdfs:label "Kaveh the Blacksmith"@en , "کاوه آهنگر"@fa ;
+    fhkb:hasSon mdhn:Qubad, mdhn:Qaran;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1128478".
+
+mdhn:Qubad a mdhn:FictionalMan;
+    rdfs:label "Qubad"@en , "قباد"@fa ;
+    fhkb:isBrotherOf mdhn:Qaran;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q138830690".
+
+mdhn:Qaran a mdhn:FictionalMan;
+    rdfs:label "Qaran"@en , "قارن"@fa ;
+    fhkb:isBrotherOf mdhn:Qubad;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q138831115".
+
+mdhn:Barman a mdhn:FictionalMan;
+    rdfs:label "Barman"@en , "بارمان"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q138832420".
+
+mdhn:BarmanTuranied a mdhn:FictionalMan;
+    rdfs:label "Barman Turanied"@en , "بارمان"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q138964479". 
+
+mdhn:PiranViseh a mdhn:FictionalMan;
+    rdfs:label "Piran Viseh"@en , "پیران ویسه"@fa ;
+    fhkb:hasBrother mdhn:BarmanTuranied;
+    mdhn:hasSon mdhn:Colbad_Viseh;    
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5678604".         
+
+mdhn:Afrasiab a mdhn:FictionalMan;
+    rdfs:label "Afrasiab"@en , "افراسیاب"@fa ;
+    fhkb:hasDaughter mdhn:Manizhe, mdhn:Farangis;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q383717".
+
+
+mdhn:KayKavus a mdhn:FictionalMan;
+    rdfs:label "KayKavus"@en , "کایکاووس"@fa ;
+    fhkb:hasSon mdhn:Siyavash , mdhn:Fariburz;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1338913".
+
+mdhn:Fariburz a mdhn:FictionalMan;
+    rdfs:label "Fariburz"@en , "فريبرز"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5684621".
+
+mdhn:Colbad_Viseh a mdhn:FictionalMan;
+    rdfs:label "Colbad Viseh"@en , "کلبد ویسه"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q138949791".      
+
+
+mdhn:Farangis a mdhn:FictionalWoman;
+    rdfs:label "Farangis"@en , "فرنگيس"@fa ;
+    fhkb:isSpouseOf mdhn:Siyavash;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q3066786".      
+
+mdhn:Siyavash  a mdhn:FictionalMan;
+    rdfs:label "Siyavash"@en , "سياوش"@fa ;
+    fhkb:hasSon mdhn:KayKhosrow;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1338926".
+
+mdhn:KayKhosrow  a mdhn:FictionalMan;
+    rdfs:label "Kay Khosrow"@en , "کيخسرو"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q163183".    
+
+mdhn:Giv a mdhn:FictionalMan;
+    rdfs:label "Giv"@en , "گیو"@fa ;
+    fhkb:hasSon mdhn:Bizhan;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1528771". 
+
+mdhn:Roham a mdhn:FictionalMan;
+    rdfs:label "Roham"@en , "روهام"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q7359658". 
+
+mdhn:Hojir a mdhn:FictionalMan;
+    rdfs:label "Hojir"@en , "هوجير"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5669637".           
+
+mdhn:Sepahram a mdhn:FictionalMan;
+    rdfs:label "Sepahram"@en , "سپهرام"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q139072819".  
+ 
+mdhn:Goudarz a mdhn:FictionalMan;
+    rdfs:label "Goudarz"@en , "گودرز"@fa ;
+    fhkb:hasSon mdhn:Giv, mdhn:Roham, mdhn:Hojir;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5767416".  
+
+mdhn:Keshvad a mdhn:FictionalMan;
+    rdfs:label "Keshvad"@en , "کشواد"@fa ;
+    fhkb:hasSon mdhn:Giv;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q6395074".        
+
+mdhn:Bizhan a mdhn:FictionalMan;
+    rdfs:label "Bizhan"@en , "بیژن"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q6415987". 
+
+mdhn:Manizheh a mdhn:FictionalWoman;
+    rdfs:label "Manizheh"@en , "منیزه"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q1890442".     
+
+mdhn:Georges_Demotte a mdhn:Man;
+    rdfs:label "Georges Demotte"@en , "ژورژ دموت"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q5541172".  
+
+mdhn:Henri_Vever a mdhn:Man;
+    rdfs:label "Henri Vever"@en , "هنوی ويور"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q3132147". 
+
+mdhn:Abdallah_Sayrafi a mdhn:Man;
+    rdfs:label "Abdallah Sayrafi"@en , "عبدالله صيرفی"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q58975571".     
+
+mdhn:Khosrow_I a mdhn:Man;
+    rdfs:label "Khosrow I"@en , "خسرو اول"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q207381". 
+
+mdhn:Bozorgmehr a mdhn:Man;
+    rdfs:label "Bozorgmehr"@en , "بزرگمهر"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q3780281".
+
+mdhn:Bahram_V a mdhn:Man;
+    rdfs:label "Bahram V"@en , "بهرام گور"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q299271".
+
+ mdhn:Hagop_Kevorkian a mdhn:Man;
+    rdfs:label "Hagop Kevorkian"@en , "هاگوپ کևورکیان"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q970441".   
+
+ mdhn:Haydar_Ali a mdhn:Man;
+    rdfs:label "Haydar Ali"@en , "حیدر علی"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q98640155".  
+
+ mdhn:Jane_Dieulafoy a mdhn:Woman;
+    rdfs:label "Jane Dieulafoy"@en , "جین دیولفو"@fa ;
+    fhkb:isSpouseOf mdhn:Marcel_Dieulafoy;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q460196".
+
+ mdhn:Marcel_Dieulafoy  a mdhn:Man;
+    rdfs:label "Marcel Dieulafoy"@en , "مارسل دیولفو"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q2624559".  
+
+ mdhn:Engelbert_Kaempfer  a mdhn:Man;
+    rdfs:label "Engelbert Kaempfer"@en , "انگلبرت کامفر"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q58042". 
+
+ mdhn:Erich_F_Schmidt   a mdhn:Man;
+    rdfs:label "Erich F Schmidt"@en , "اریچ F اسکمیت"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q71601". 
+    
+           
+
+                        
+            
+
 
