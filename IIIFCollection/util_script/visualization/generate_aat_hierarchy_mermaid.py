@@ -80,6 +80,8 @@ for uri, entry in entries.items():
     nid = node_id(uri)
     label = entry['label'] or uri
     label = quote_text(f'{label}\\n({uri.replace("mdhn:", "")})')
+    if len(label) > 30:
+        label = label[:30] + '...'
     if entry['isGuideTerm'] and entry['isInExtendedScope']:
         css = 'both'
     elif entry['isGuideTerm']:
@@ -97,7 +99,7 @@ for uri, entry in entries.items():
         parent_id = node_id(broader)
         lines.append(f'  {parent_id} --> {child_id}')
 
-output = script_dir / 'aat2_hierarchy_tree.mmd'
+output = script_dir / 'aat_hierarchy_tree.mmd'
 output.write_text('\n'.join(lines) + '\n', encoding='utf-8')
 print('WROTE', output)
 print('nodes', len(entries), 'edges', sum(len(entry['broader']) for entry in entries.values()))
