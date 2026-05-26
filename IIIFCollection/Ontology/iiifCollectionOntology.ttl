@@ -63,12 +63,73 @@ mdhn:Publisher a owl:Class ;
 
 mdhn:Iconography a owl:Class ;
     rdfs:comment "Root class of Iconography" ;
-    rdfs:label "Iconography" .    
+    rdfs:label "Iconography" .  
 
-mdhn:ICSubjectSource a owl:Class ;
+mdhn:BattleSignAndEquipment a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
-    rdfs:comment "Iconography subjects source based on WikiData" ;
-    rdfs:label "ICSubjectSource" . 
+    rdfs:comment "SubClass of Iconography related to War and Battle." ;
+    rdfs:label "BattleSignAndEquipment" . 
+
+mdhn:ArchitecturalConceptOrElement a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to Architecture including concepts, material and elements" ;
+    rdfs:label "ArchitecturalConceptOrElement" . 
+
+mdhn:GameAndHobby a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to Games and Hobbies" ;
+    rdfs:label "GameAndHobby" . 
+
+mdhn:MusicalInstrument a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to Music" ;
+    rdfs:label "MusicalInstrument" . 
+
+mdhn:ClothingAndDress a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to CLothing and dress" ;
+    rdfs:label "ClothingAndDress" . 
+
+mdhn:NaturalElement a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to Natural Phenumena and Elements" ;
+    rdfs:label "NaturalElement" . 
+        
+mdhn:Animals a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to Animals" ;
+    rdfs:label "Animals" . 
+
+mdhn:Tableware a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography for Tableware and eating/drinking" ;
+    rdfs:label "Tableware" .     
+
+mdhn:TravelsAndTransportation a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to Travels/Ridding and Transportation" ;
+    rdfs:label "TravelsAndTransportation" . 
+
+mdhn:JobsAndCreativity a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to Jobs and Creativity" ;
+    rdfs:label "JobsAndCreativity" . 
+
+mdhn:MythicalConceptsOrCreatures a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related Mythical Concepts or Creatures" ;
+    rdfs:label "MythicalConceptsOrCreatures" .  
+
+mdhn:MonarchOrHistoricalCeremony a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to Monarch Ceremony" ;
+    rdfs:label "MonarchOrHistoricalCeremony" . 
+
+mdhn:ObjectsAndTools a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related Objects and Tools" ;
+    rdfs:label "ObjectAndTools" .                        
+
 
 mdhn:NarrativeEpisode a owl:Class ;
     rdfs:comment "A narrative episode depicted in a resource, such as a scene from a story or historical event." ;
@@ -93,6 +154,11 @@ mdhn:LCSHSubject a owl:Class ;
 mdhn:GettyTGN a owl:Class ;
     rdfs:comment "Getty TGN Class for Geographic Places" ;
     rdfs:label "GettyTGN" .
+
+mdhn:FeaturedSSitesOrBuilding a owl:Class ;
+    rdfs:comment "Featured buildings are special type of spatial object whithin Cities/Provinance/Villages" ;
+    rdfs:label "FeaturedSSitesOrBuilding" ;
+    rdfs:subClassOf mdhn:GettyTGN .    
 
 mdhn:AgentialInfo a owl:Class ;
     rdfs:comment "Agential info based on FHKB and references to wikidata when possible" ;
@@ -566,7 +632,7 @@ mdhn:hasUrl a owl:DatatypeProperty ;
 
 mdhn:icWikiDataURL a owl:DatatypeProperty ;
     rdfs:comment "URL Of Iconograpgy source in WikiData" ;
-    rdfs:domain mdhn:ICSubjectSource ;
+    rdfs:domain mdhn:Iconography ;
     rdfs:label "icWikiDataURL" ;
     rdfs:range xsd:anyURI  .
 
@@ -818,7 +884,11 @@ fhkb:Man a owl:Class ;
 
 fhkb:FictionalMan a owl:Class;
     rdfs:subClassOf fhkb:Man;
-    rdfs:label "Fictional Man" .                        
+    rdfs:label "Fictional Man" . 
+
+fhkb:MaleCreature a owl:Class;
+    rdfs:subClassOf fhkb:Man;
+    rdfs:label "Mythical Male cratures" .                           
 
 fhkb:Woman a owl:Class ;
     rdfs:label "Woman";
@@ -829,7 +899,11 @@ fhkb:Woman a owl:Class ;
 
 fhkb:FictionalWoman a owl:Class;
     rdfs:subClassOf fhkb:Woman;
-    rdfs:label "Fictional Woman" .                         
+    rdfs:label "Fictional Woman" .  
+
+fhkb:FemaleCreature a owl:Class;
+    rdfs:subClassOf fhkb:Woman;
+    rdfs:label "Mythical Female cratures" .                             
 
 fhkb:Person a owl:Class ;
     rdfs:subClassOf 
