@@ -115,6 +115,8 @@ Additionally, each individual folio could be assigned its own specific, persiste
 [Folio 4v from Supplément persan 489](https://theseusviewer.org/?iiif-content=ewogICAgImlkIjogImh0dHBzOi8vZ2FsbGljYS5ibmYuZnIvaWlpZi9hcms6LzEyMTQ4L2J0djFiODQyMjk5NXQvY2FudmFzL2YxNiIsCiAgICAidHlwZSI6ICJDYW52YXMiLAogICAgInBhcnRPZiI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJpZCI6ICJodHRwczovL2dhbGxpY2EuYm5mLmZyL2lpaWYvYXJrOi8xMjE0OC9idHYxYjg0MjI5OTV0L21hbmlmZXN0Lmpzb24iLAogICAgICAgICAgICAidHlwZSI6ICJNYW5pZmVzdCIKICAgICAgICB9CiAgICBdCn0g)
 
 
+
+[See the Query 13]()
 ### RDF Ontology: Departed Collections vs. Resource Collections
 
 The RDF ontology, implemented in Turtle format, models two primary entities: **ResourceCollection** and **DigitalResource**, alongside other classes like `Creator`, `Publisher`, `ResourceType`, and `CanvasType`. Below, we differentiate between **Departed Collections** and **Resource Collections**:
@@ -546,6 +548,28 @@ select *{
     Filter(Lang(?lblresource)="en")
     Filter(?poet=mdhn:Abul_Qasim_Firdawsi)
 }
+```
+
+####  Query 13: All folios that belongs to manuscripts
+This query finds all digital canvases that belongs to manuscripts. This can be achieved with a `mdhn:canvasOf` which assocates canvases to manuscripts. The data contain standalone URL based on IIIF Content State API.
+
+```sparql
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+
+SELECT *
+WHERE {
+    ?s a mdhn:ResourceCanvas;
+       rdfs:label ?canvasLabel;
+       mdhn:canvasIndex ?idx;
+       mdhn:folioNo ?foliono;
+       mdhn:folioStandaloneURL ?url;
+       mdhn:canvasOf ?res.
+    ?res rdfs:label ?resLabel;   
+}
+ORDER BY ?idx
 ```
 ## On-the-Fly IIIF Manifest Generator
 A flexible Python script that dynamically combines selected IIIF manifests into a single, local-compatible manifest (Presentation API 2.0 or 3.0).
