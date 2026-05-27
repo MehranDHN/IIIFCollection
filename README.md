@@ -116,7 +116,8 @@ Additionally, each individual folio could be assigned its own specific, persiste
 
 
 
-[See the Query 13]()
+[See the Query 13](https://github.com/MehranDHN/IIIFCollection#query-13-all-folios-that-belongs-to-manuscripts)
+
 ### RDF Ontology: Departed Collections vs. Resource Collections
 
 The RDF ontology, implemented in Turtle format, models two primary entities: **ResourceCollection** and **DigitalResource**, alongside other classes like `Creator`, `Publisher`, `ResourceType`, and `CanvasType`. Below, we differentiate between **Departed Collections** and **Resource Collections**:
