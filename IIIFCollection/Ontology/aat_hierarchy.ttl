@@ -1345,28 +1345,28 @@ mdhn:aat300046300 a mdhn:ResourceType ;
 
 mdhn:aat300054141 a mdhn:ResourceType ;
         rdfs:label "Video/Film"@en, "ويديو"@fa ;
-        mdhn:hasAATBroader mdhn:aat300054140 .
+        mdhn:hasAATBroader mdhn:aat300054140 ;
         mdhn:isGuideTerm "false"^^xsd:boolean ; 
         rdfs:comment "schema:VideoObject"@en .
 
 mdhn:aat300054140 a mdhn:AATSubject ;
         rdfs:label "performing arts (discipline)"@en ;
-        mdhn:hasAATBroader mdhn:aat300175240 . 
+        mdhn:hasAATBroader mdhn:aat300175240 ; 
          mdhn:isGuideTerm "false"^^xsd:boolean.    
 
 mdhn:aat300175240 a mdhn:AATSubject ;
         rdfs:label "arts (broad discipline)"@en ;
-        mdhn:hasAATBroader mdhn:aat300054137 . 
+        mdhn:hasAATBroader mdhn:aat300054137 ; 
          mdhn:isGuideTerm "false"^^xsd:boolean. 
 
 mdhn:aat300054137 a mdhn:AATSubject ;
         rdfs:label "<arts and related disciplines>"@en ;
-        mdhn:hasAATBroader mdhn:aat300054136 . 
+        mdhn:hasAATBroader mdhn:aat300054136 ; 
         mdhn:isGuideTerm "true"^^xsd:boolean.  
 
 mdhn:aat300054136 a mdhn:AATSubject ;
         rdfs:label "humanities"@en ;
-        mdhn:hasAATBroader mdhn:aat300054135 . 
+        mdhn:hasAATBroader mdhn:aat300054135 ; 
          mdhn:isGuideTerm "false"^^xsd:boolean.    
        
 mdhn:aat300010094 a mdhn:ResourceType ;
@@ -1681,6 +1681,15 @@ mdhn:aat300230425 a mdhn:AATSubject ;
     rdfs:label "information artifacts"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300220751 .  
+
+mdhn:aat300310390 a mdhn:AATSubject ;
+    rdfs:label "Leopard"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean . 
+
+mdhn:aat300132360  a mdhn:AATSubject ;
+    rdfs:label "Plant"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean .
+      
 
     
 mdhn:aat300028051 a mdhn:AATSubject ;
@@ -2499,7 +2508,14 @@ mdhn:aat800190000 a mdhn:ResourceType ;
     rdfs:label "photo album"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
-    mdhn:hasAATBroader mdhn:aat300197578 .    
+    mdhn:hasAATBroader mdhn:aat300197578 . 
+
+mdhn:aat800190001 a mdhn:ResourceType ;
+    rdfs:label "Muraqqa"@en ;
+    rdfs:comment "A Container for various types of artistic documents such as Calligraphy, Painting, Ghitaei, Drawing."@en;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300197578 .          
 
 mdhn:aat300197602 a mdhn:ResourceType ;
     rdfs:label "folders (containers)"@en ;
@@ -2827,3 +2843,55 @@ mdhn:aat300387456 a mdhn:ResourceType ;
     mdhn:hasAATBroader mdhn:aat300014923 .
 
 
+mdhn:aat300164599 a mdhn:AATSubject ;
+    rdfs:label "plant-derived motifs"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300009700 .
+
+mdhn:aat300009972 a mdhn:AATSubject ;
+    rdfs:label "rosette (motif)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300164599 .
+
+
+mdhn:aat300149157 a mdhn:AATSubject ;
+    rdfs:label "<painting and painting techniques>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300053159 .
+
+mdhn:aat300053343 a mdhn:AATSubject ;
+    rdfs:label "painting techniques"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300149157 .
+    
+mdhn:aat300053380 a mdhn:AATSubject ;
+    rdfs:label "<painting techniques for special effects>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300053343 .
+
+mdhn:aat300138843 a mdhn:AATSubject ;
+    rdfs:label "faux finishing"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300053380 .
+
+mdhn:aat300053812 a mdhn:AATSubject ;
+    rdfs:label "marbling"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300138843 .  
+
+mdhn:aat300379749 a mdhn:AATSubject ;
+    rdfs:label "phoenixes"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean .
+
+mdhn:aat300250068 a mdhn:AATSubject ;
+    rdfs:label "Upupa epops (species)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean .          
+
+mdhn:aat300250160 a mdhn:AATSubject ;
+    rdfs:label "Elephantidae (family)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean .
+    
+mdhn:aat300250112 a mdhn:AATSubject ;
+    rdfs:label "Sus scrofa (species)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean .
+    
