@@ -191,19 +191,11 @@ All vocabularies and extensions prioritize **machine readability** and semantic 
 
 ---
 
-
-
-
-
-
 ## Accessing the catalog  
 You can access the catalog using any standard IIIF Viewer including Mirador 3.0 and yet better free instances of it hosted in the
 <a href="https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json" target="_blank">Mirador in Biblissima</a>.
 
 ![Screenshot](https://pbs.twimg.com/media/GmPDuFSbwAAR8O0?format=jpg&name=small "IIIFDexir")
-
-## Important Notes
-**Here's the improved, polished, and well-structured version** for your **Important Notes** section:
 
 ---
 
