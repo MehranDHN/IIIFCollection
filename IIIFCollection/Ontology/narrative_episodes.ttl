@@ -1,0 +1,289 @@
+
+@prefix mdhn: <http://example.com/mdhn/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tgm: <http://id.loc.gov/vocabulary/graphicMaterials/> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix fhkb: <http://www.example.com/genealogy.owl#> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+
+
+mdhn:Shahnameh a mdhn:NarrativeEpisode ;
+    mdhn:aatConcept mdhn:aat300404209 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q8279" ;
+    dcterms:created "c. 1010" ;
+    rdfs:comment """The Shahnameh, or Book of Kings, is an epic poem written by the Persian poet Ferdowsi around 1010 CE. It is one of the most important works of Persian literature and tells the mythical and historical past of Persia from the creation of the world until the Islamic conquest in the 7th century."""@en ;
+    rdfs:label "Shahnameh"@en , "شاهنامه"@fa .
+
+mdhn:Khosrow_and_Shirin a mdhn:NarrativeEpisode ;
+   rdfs:label "Khosrow and Shirin"@en, "خسرو و شيرين"@fa;
+   rdfs:comment "Persian tragic romance by Nizami Ganjavi" ;
+   mdhn:charactersInvolved mdhn:Khosrow_II, mdhn:Shirin;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q61076" .
+
+mdhn:Layla_and_Majnun a mdhn:NarrativeEpisode ;
+   rdfs:label "Layla and Majnun"@en, "ليلی و مجنون"@fa;
+   rdfs:comment "Persian tragic romance by Nizami Ganjavi" ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q15555061" . 
+
+mdhn:Yusuf_and_Zulaikha a mdhn:NarrativeEpisode ;
+   rdfs:label "Yusuf and Zulaikha"@en, "يوسف و زليخا"@fa;
+   rdfs:comment "romantic story" ;
+   mdhn:charactersInvolved mdhn:Yusuf, mdhn:Zulaikha;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3350827" .       
+
+    
+mdhn:Kingdom_of_Keyumars a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom of Keyumars"@en, "پادشاهی کيومرث"@fa;
+   rdfs:comment "a mythical kingdom ruled by Keyumars in Persian mythology" ;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:startVerse 1;
+   mdhn:endVerse 71;   
+   mdhn:charactersInvolved mdhn:Keyumars, mdhn:Siamak, mdhn:Hushang;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138719971" .
+
+mdhn:KeyumarsEnthroned a mdhn:NarrativeEpisode ;
+    rdfs:label "Keyumars Enthroned"@en , "بر تخت نشستن کيومرث"@fa ;
+    skos:exactMatch mdhn:aat300185692 ;
+    mdhn:charactersInvolved mdhn:Keyumars, mdhn:Siamak;
+    mdhn:isPartOf mdhn:Kingdom_of_Keyumars ;
+    mdhn:startVerse 6;
+    mdhn:endVerse 13;      
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923350" .
+
+mdhn:Siamak_Was_Slayin_By_Div a mdhn:NarrativeEpisode ;
+    rdfs:label "Siamak Was Slayin By Div"@en , "کشته شدن سيامک به دست ديو"@fa ;
+    skos:exactMatch mdhn:aat300185692 ;
+    mdhn:isPartOf mdhn:Kingdom_of_Keyumars ;
+    mdhn:charactersInvolved mdhn:Siamak , mdhn:Black_Div_Slayer_Of_Siamak;
+    mdhn:startVerse 29;
+    mdhn:endVerse 36;     
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923384" .   
+
+mdhn:Hushang_Fight_Black_Div a mdhn:NarrativeEpisode ;
+    rdfs:label "Hushang and Keyumars went to Fight the Black Div"@en , "انتقام خون سيامک به دست هوشنگ"@fa ;
+    skos:exactMatch mdhn:aat300185692 ;
+    mdhn:isPartOf mdhn:Kingdom_of_Keyumars ;
+    mdhn:charactersInvolved mdhn:Hushang, mdhn:Keyumars, mdhn:Siamak, mdhn:Black_Div_Slayer_Of_Siamak;;
+    mdhn:startVerse 51;
+    mdhn:endVerse 68;      
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138757163" .       
+
+mdhn:Kingdom_of_Hushang a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom of Hushang"@en, "پادشاهی هوشنگ"@fa;
+   rdfs:comment "a mythical kingdom ruled by Hushang in Persian mythology" ;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:charactersInvolved  mdhn:Hushang;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138720021" .   
+
+mdhn:Hushang_Enthroned a mdhn:NarrativeEpisode;
+   rdfs:label "Hushang enthroned"@en, "بر تخت نشستن هوشنگ"@fa;
+   mdhn:isPartOf mdhn:Kingdom_of_Hushang ;
+   mdhn:characterInvolved mdhn:Hushang;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923413" . 
+
+mdhn:Esfandiyar_Slays_Nowzar a mdhn:NarrativeEpisode;
+   rdfs:label "Esfandiyar Slays Nowzar"@en, "کشته شدن نوذر به دست اسفنديار"@fa;
+   mdhn:isPartOf  mdhn:Shahnameh ;
+   mdhn:characterInvolved mdhn:Esfandiyar, mdhn:Nowzar;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140030291" . 
+
+ 
+mdhn:Hushang_In_Feast_Of_Sada a mdhn:NarrativeEpisode;
+   rdfs:label "The Feast of Sada"@en, "جشن سده"@fa;
+   mdhn:isPartOf mdhn:Kingdom_of_Hushang ;
+   mdhn:characterInvolved mdhn:Hushang;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138757360" . 
+        
+
+mdhn:Kingdom_of_Zu_Tahmasb a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom of Zu Tahmasb"@en, "پادشاهی زو طهماسب"@fa;
+   rdfs:comment "a mythical kingdom ruled by Zu Tahmasb in Persian mythology" ;
+   mdhn:charactersInvolved  mdhn:Zu_Tahmasb;
+   mdhn:icWikiDataURL "" .   
+
+mdhn:KingdomOfTahmuras a mdhn:NarrativeEpisode;
+   rdfs:label "The Kingdom of Tahmuras"@en, "پادشاهی طهمورث"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138676359" .
+
+mdhn:Tahmuras_Enthroned a mdhn:NarrativeEpisode ;
+   rdfs:label "Tahmuras Enthroned"@en, "بر تخت نشستن طهمورث"@fa;
+   mdhn:isPartOf mdhn:KingdomOfTahmuras ;
+   mdhn:charactersInvolved mdhn:Tahmuras;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138676359" .    
+
+mdhn:Tahmuras_Defeating_the_Divs a mdhn:NarrativeEpisode ;
+   rdfs:label "Tahmuras Defeating the Divs"@en, "طهمورث شکستن دیو ها"@fa;
+   rdfs:comment "a scene depicting Tahmuras defeating the divs" ;
+   mdhn:isPartOf mdhn:KingdomOfTahmuras ;
+   mdhn:charactersInvolved mdhn:Tahmuras;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138676508" .          
+
+
+mdhn:ZahhakKillsHisOwnFather a mdhn:NarrativeEpisode;
+   rdfs:label "Zahhak Kills His Own Father Mardas"@en, "کشته شدن مرداس با حيله ضحاک"@fa;
+   mdhn:isPartOf mdhn:ZahhakStory ;
+   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Mirdas, mdhn:Iblis;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138841520" . 
+
+mdhn:Ahriman_kiss_Zahhak_on_his_shoulders a mdhn:NarrativeEpisode;
+   rdfs:label "Ahriman asks to kiss Zahhak on his two shoulders"@en, "بوسه اهريمن بر شانه‌های ضحاک"@fa;
+   mdhn:isPartOf mdhn:ZahhakStory ;
+   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Iblis;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925586" .    
+
+mdhn:Zahhak_Enthroned a mdhn:NarrativeEpisode;
+   rdfs:label "Zahhak Enthroned"@en, "بر تخت نشستن ضحاک"@fa;
+   mdhn:isPartOf mdhn:ZahhakStory ;
+   mdhn:charactersInvolved mdhn:Zahhak;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925814" .     
+ 
+
+mdhn:Zahhak_and_Daughters_of_Jamshid a mdhn:NarrativeEpisode;
+   rdfs:label "Zahhak Receives the Daughters of Jamshid"@en, "دختران جمشيد در بارگاه ضحاک"@fa;
+   mdhn:isPartOf mdhn:KingdomOfZahhak ;
+   mdhn:charactersInvolved mdhn:Jamshid, mdhn:Zahhak, mdhn:Shahrnaz, mdhn:Arnavaz;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138841381" . 
+
+mdhn:The_Nightmare_of_Zahhak a mdhn:NarrativeEpisode;
+   rdfs:label "The Nightmare of Zahhak"@en, "کابوس شبانه ضحاک"@fa;
+   mdhn:isPartOf mdhn:KingdomOfZahhak ;
+   mdhn:charactersInvolved mdhn:Zahhak;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925865" .
+
+mdhn:Fereydun_Strikes_Down_Zahhak a mdhn:NarrativeEpisode;
+   rdfs:label "Fereydun Strikes Down Zahhak"@en, "براندازی ضحاک توسط فريدون"@fa;
+   mdhn:isPartOf mdhn:KingdomOfZahhak ;
+   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Fereydun;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138713256" .  
+
+mdhn:Zahhak_slays_the_sacred_cow_Barmayah a mdhn:NarrativeEpisode;
+   rdfs:label "Zahhak slays the sacred cow Barmayah"@en, "کشته شدن برمايه به دست ضحاک"@fa;
+   mdhn:isPartOf mdhn:KingdomOfZahhak ;
+   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Fereydun, mdhn:Barmayeh;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925920" . 
+
+mdhn:The_Mobad_interprets_Zahhak_Nightmare a mdhn:NarrativeEpisode;
+   rdfs:label "The Mobad interprets Zahhak's Nightmare"@en, "مباد کابوس ضحاک را تعبير می کند"@fa;
+   mdhn:isPartOf mdhn:KingdomOfZahhak ;
+   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Fereydun, mdhn:Barmayeh;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139926288" .  
+
+mdhn:Chaining_Zahhak_on_Mount_Damavand a mdhn:NarrativeEpisode;
+   rdfs:label "Chaining Zahhak on Mount Damavand"@en, "به بند کشطدن ضحاک در دماوند"@fa;
+   mdhn:isPartOf mdhn:KingdomOfZahhak ;
+   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Fereydun;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138715711" .       
+
+  
+ 
+mdhn:ZahhakStory a mdhn:NarrativeEpisode;
+   rdfs:label "The Story of Zahhak"@en, "داستان ضحاک"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923562" .
+
+mdhn:KingdomOfZahhak a mdhn:NarrativeEpisode;
+   rdfs:label "The Kingdom of Zahhak"@en, "پادشاهی ضحاک"@fa;
+   mdhn:isPartOf mdhn:ZahhakStory ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466998" .   
+
+
+mdhn:Kingdom_of_Fereydun a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom of Fereydun"@en, "پادشاهی فریدون"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   rdfs:comment "a mythical kingdom ruled by Fereydun in Persian mythology" ;
+   mdhn:charactersInvolved  mdhn:Fereydun, mdhn:Salm, mdhn:Tur, mdhn:Zahhak, mdhn:Iraj, mdhn:Manuchehr, mdhn:Farangis, mdhn:Arnavaz, mdhn:Shahrnaz;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .
+
+mdhn:Fereydun_Crosses_the_River_Dijla a mdhn:NarrativeEpisode ;
+   rdfs:label "Fereydun Crosses the River Dijla"@en, "فریدون از رود دجله عبور می‌کند"@fa;
+   rdfs:comment "a scene depicting Fereydun crossing the River Dijla" ;
+   mdhn:isPartOf mdhn:Kingdom_of_Fereydun ;
+   mdhn:charactersInvolved mdhn:Fereydun;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138713073" .  
+
+mdhn:The_Court_of_Faridun a mdhn:NarrativeEpisode;
+   rdfs:label "The Court of Faridun"@en, "بارگاه فريدون"@fa;
+   mdhn:isPartOf mdhn:KingdomOfFaridun ;
+   mdhn:charactersInvolved mdhn:Fereydun, mdhn:Faranak;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138821815".     
+    
+mdhn:DavazdahRokh a mdhn:NarrativeEpisode;
+   rdfs:label "Davazdah Rokh"@en, "دوازده رخ"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:charactersInvolved mdhn:KayKhosrow, mdhn:Goudarz, mdhn:Afrasiab, mdhn:Fariburz, mdhn:Colbad_Viseh, mdhn:Giv, mdhn:Goruye_Zereh, mdhn:Garazeh, mdhn:Siamak_Turani, mdhn:Ferehoul, mdhn:Zangaleh, mdhn:Roham, mdhn:BarmanTuranied;   
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5935469".
+
+mdhn:Bizhan_Slaughters_the_Wild_Boars_of_Irman a mdhn:NarrativeEpisode;
+   rdfs:label "Bizhan Slaughters the Wild Boars of Irman"@en, "کشته شدن گرازهای وحشی ایرمن به دست بیژان"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:charactersInvolved mdhn:Bizhan, mdhn:Giv, mdhn:Wild_Boars;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138863131" .    
+
+mdhn:FirsthRokh a mdhn:NarrativeEpisode;
+   rdfs:label "First Rokh"@en, "رخ اول. رويارويی فريبرز و کلباد ويسه"@fa;
+   mdhn:isPartOf mdhn:DavazdahRokh;
+   mdhn:charactersInvolved mdhn:Fariburz, mdhn:Colbad_Viseh;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138949719".
+
+mdhn:KingdomOfNauzar a mdhn:NarrativeEpisode;
+   rdfs:label "The Kingdom of Nauzar"@en, "پادشاهی نوذر"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:charactersInvolved mdhn:Nauzar, mdhn:Qaran, mdhn:Qubad, mdhn:Barman;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466986" .
+
+mdhn:Qaran_Slays_Barman a mdhn:NarrativeEpisode;
+   rdfs:label "Qaran Slays Barman"@en, "کشته شدن بارمان به دست قاران"@fa;
+   mdhn:isPartOf mdhn:KingdomOfNauzar ;
+   mdhn:charactersInvolved mdhn:Qaran, mdhn:Barman, mdhn:Qubad;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138847591" .  
+
+mdhn:ZalAndRudaba a mdhn:NarrativeEpisode;
+   rdfs:label "Zal and Rudaba"@en, "زال و رودابه"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:charactersInvolved mdhn:Zal, mdhn:Rudaba, mdhn:Sam, mdhn:Sindukht, mdhn:Mihrab, mdhn:Manuchihr;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5960418" .
+
+mdhn:RudabaConfesses a mdhn:NarrativeEpisode;
+   rdfs:label "Rudaba Coشnfesses to Sindukht"@en, "رودابه در مورد زال در نزد مادر خود اعتراف می کند"@fa;
+   mdhn:isPartOf mdhn:ZalAndRudaba ;
+   mdhn:charactersInvolved mdhn:Rudaba, mdhn:Sindukht;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138800292" .     
+
+mdhn:SecondRokh a mdhn:NarrativeEpisode;
+   rdfs:label "Second Rokh"@en, "رخ دوم. رويارويی گيو و گروی زره"@fa;
+   mdhn:isPartOf mdhn:DavazdahRokh;
+   mdhn:charactersInvolved mdhn:Giv, mdhn:Goruye_Zereh;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138949919".    
+
+mdhn:ThirdRokh a mdhn:NarrativeEpisode;
+   rdfs:label "Third Rokh"@en, "رخ سوم. رويارويی گرازه و سيامک تورانی"@fa;
+   mdhn:isPartOf mdhn:DavazdahRokh;
+   mdhn:charactersInvolved mdhn:Garazeh, mdhn:Siamak_Turani;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138963595".   
+
+mdhn:FourthRokh a mdhn:NarrativeEpisode;
+   rdfs:label "Fourth Rokh"@en, "رخ چهارم. رويارويی فرهول و زنگله"@fa;
+   mdhn:isPartOf mdhn:DavazdahRokh;
+   mdhn:charactersInvolved mdhn:Ferehoul, mdhn:Zangaleh;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138964109".  
+
+mdhn:FifthRokh a mdhn:NarrativeEpisode;
+   rdfs:label "Fifth Rokh"@en, "رخ پنجم. رويارويی رهام و بارمان"@fa;
+   mdhn:isPartOf mdhn:DavazdahRokh;
+   mdhn:charactersInvolved mdhn:Roham, mdhn:BarmanTuranied;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138964110".  
+
+mdhn:SeventhRokh a mdhn:NarrativeEpisode;
+   rdfs:label "Seventh Rokh"@en, "رخ هفتم. رويارويی هجير و سپهرام"@fa;
+   mdhn:isPartOf mdhn:DavazdahRokh;
+   mdhn:charactersInvolved mdhn:Hojir, mdhn:Sepahram;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139072642".       
+                
+
+    

@@ -24,6 +24,10 @@ mdhn:DigitalResource a owl:Class ;
     rdfs:comment "A IIIF manifest representing a digital resource such as a book, photograph, or video." ;
     rdfs:label "Digital Resource" .
 
+mdhn:ResourceCanvas a owl:Class ;
+    rdfs:comment "Canvas of a IIIF manifest representing a page or image within a digital resource." ;
+    rdfs:label "Resource Canvas" .
+
 mdhn:Creator a owl:Class ;
     rdfs:comment "An entity responsible for creating the digital resource." ;
     rdfs:label "Creator" .       
@@ -128,7 +132,12 @@ mdhn:MonarchOrHistoricalCeremony a owl:Class ;
 mdhn:ObjectsAndTools a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
     rdfs:comment "SubClass of Iconography related Objects and Tools" ;
-    rdfs:label "ObjectAndTools" .                        
+    rdfs:label "ObjectAndTools" .  
+
+mdhn:SubjectiveConcepts a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related Concepts" ;
+    rdfs:label "SubjectiveConcepts" .                           
 
 
 mdhn:NarrativeEpisode a owl:Class ;
@@ -155,9 +164,9 @@ mdhn:GettyTGN a owl:Class ;
     rdfs:comment "Getty TGN Class for Geographic Places" ;
     rdfs:label "GettyTGN" .
 
-mdhn:FeaturedSSitesOrBuilding a owl:Class ;
+mdhn:FeaturedSitesOrBuilding a owl:Class ;
     rdfs:comment "Featured buildings are special type of spatial object whithin Cities/Provinance/Villages" ;
-    rdfs:label "FeaturedSSitesOrBuilding" ;
+    rdfs:label "FeaturedSitesOrBuilding" ;
     rdfs:subClassOf mdhn:GettyTGN .    
 
 mdhn:AgentialInfo a owl:Class ;
@@ -178,9 +187,21 @@ mdhn:TemporalInfo a owl:Class ;
 
 mdhn:ParticipantRole a owl:Class ;
     rdfs:comment "Roles Participated by Involver in Digital Resource" ;
-    rdfs:label "Participant Role" .    
+    rdfs:label "Participant Role" .  
 
-mdhn:isPartOf a owl:DatatypeProperty ;
+mdhn:canvasOf a owl:ObjectProperty ;
+    rdfs:comment "Associated narrative episode to which the iconographic entity belongs."@en ;
+    rdfs:domain mdhn:ResourceCanvas ;
+    rdfs:label "canvas Of"@en , "مربوط به"@fa ;
+    rdfs:range mdhn:DigitalResource .  
+
+mdhn:hasCanvas a owl:ObjectProperty ; 
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:range  mdhn:ResourceCanvas ;
+    rdfs:label  "Digital resource has canvas"@en ;
+    owl:inverseOf mdhn:canvasOf .            
+
+mdhn:isPartOf a owl:ObjectProperty ;
     rdfs:comment "Associated narrative episode to which the iconographic entity belongs."@en ;
     rdfs:domain mdhn:NarrativeEpisode ;
     rdfs:label "is part of"@en , "بخشی از"@fa ;
@@ -188,7 +209,10 @@ mdhn:isPartOf a owl:DatatypeProperty ;
 
 mdhn:depicts a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to the entities it depicts." ;
-    rdfs:domain mdhn:DigitalResource ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;    
     rdfs:label "depicts" ;
     rdfs:range mdhn:Iconography .
 
@@ -196,7 +220,10 @@ mdhn:iconographyUsedIn a owl:ObjectProperty ;
     rdfs:comment "Indicates Resources that used this specified Iconography Subject" ;
     rdfs:domain mdhn:Iconography ;
     rdfs:label "iconography Used In" ;
-    rdfs:range mdhn:DigitalResource ;
+    rdfs:range [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;      
     owl:inverseOf mdhn:depicts .
 
 mdhn:charactersInvolved a owl:ObjectProperty ;
@@ -528,7 +555,19 @@ mdhn:signsPermission a owl:ObjectProperty ;
     rdfs:range mdhn:AgentialInfo ;
     owl:inverseOf mdhn:hasParticipantInRoleSignatueryOfPermission .                                         
 
-                              
+mdhn:hasParticipantInRoleِCommissioner a owl:ObjectProperty ;
+    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
+    rdfs:comment "Links a Resource to Commissioner";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleِCommissioner" ;
+    rdfs:range mdhn:AgentialInfo . 
+
+mdhn:commissionerOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a commissioner to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "commissioner Of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleِCommissioner .                                
 
 mdhn:hasCreator a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its creator." ;
@@ -547,6 +586,7 @@ mdhn:hasAATSubjectBroader a owl:ObjectProperty ;
     rdfs:label "hasAATSubjectBroader" ;
     rdfs:domain mdhn:AATTerm ;
     rdfs:range mdhn:AATTerm .    
+
 mdhn:hasDocumentGenre a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its document gennre" ;
     rdfs:domain mdhn:DigitalResource ;
@@ -575,7 +615,10 @@ mdhn:yearOfResourse a owl:ObjectProperty ;
 
 mdhn:hasScriptStyle a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its canvas type." ;
-    rdfs:domain mdhn:DigitalResource ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;  
     rdfs:label "has Script Style" ;
     rdfs:range mdhn:ScriptStyleType .
 
@@ -583,28 +626,34 @@ mdhn:scriptStyleInstance a owl:ObjectProperty ;
     rdfs:comment "Links a specified script style type to its instance in a DigitalResource." ;
     rdfs:domain mdhn:ScriptStyleType ;
     rdfs:label "scriptStyleInstance" ;
-    rdfs:range mdhn:DigitalResource ;
+    rdfs:range [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;  
     owl:inverseOf mdhn:hasScriptStyle .
 
 mdhn:hasCanvasType a owl:ObjectProperty ;
-    rdfs:comment "Links a DigitalResource to its canvas type." ;
-    rdfs:domain mdhn:DigitalResource ;
+    rdfs:comment "Links a Resource Canvas to its canvas type." ;
+    rdfs:domain mdhn:ResourceCanvas ;
     rdfs:label "has canvas type" ;
     rdfs:range mdhn:CanvasType .
 
     
 mdhn:resourcesOfCanvasType a owl:ObjectProperty ;
-    rdfs:comment "Links a canvas to its associated resources." ;
+    rdfs:comment "Links a canvas type to its associated canvas" ;
     rdfs:domain mdhn:CanvasType ;
     rdfs:label "resources Of Canvas Type" ;
-    rdfs:range mdhn:DigitalResource ;
+    rdfs:range mdhn:ResourceCanvas ;
     owl:inverseOf mdhn:hasCanvasType .
 
       
 
 mdhn:ofType a owl:ObjectProperty ;
     rdfs:comment "Associates a DigitalResource with its resource type." ;
-    rdfs:domain mdhn:DigitalResource ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;    
     rdfs:label "Of Type" ;
     rdfs:range mdhn:ResourceType .
 
@@ -612,7 +661,10 @@ mdhn:hasTypeInstance a owl:ObjectProperty ;
     rdfs:comment "Associates Resource Type to instances." ;
     rdfs:domain mdhn:ResourceType ;
     rdfs:label "has Type Instance" ;
-    rdfs:range mdhn:DigitalResource ;
+    rdfs:range [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;     
     owl:inverseOf mdhn:ofType .
 
 mdhn:PublishedBy a owl:ObjectProperty ;
@@ -658,51 +710,168 @@ mdhn:canvasCount a owl:DatatypeProperty ;
     rdfs:label "Canvas Count" ;
     rdfs:range xsd:integer .
 
-mdhn:folioHasDrawing a owl:DatatypeProperty ;
+mdhn:folioHasPainting a owl:DatatypeProperty ;
     rdfs:comment "Folio has Drawing?" ;
-    rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "folioHasDrawing" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;  
+    rdfs:label "folioHasPainting" ;
     rdfs:range xsd:boolean .
 
 mdhn:folioHasTable a owl:DatatypeProperty ;
     rdfs:comment "Folio has Table?" ;
-    rdfs:domain mdhn:DigitalResource ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
     rdfs:label "folioHasTable" ;
     rdfs:range xsd:boolean .
 
 mdhn:folioIsCover a owl:DatatypeProperty ;
     rdfs:comment "Folio is cover?" ;
-    rdfs:domain mdhn:DigitalResource ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
     rdfs:label "folioIsCover" ;
     rdfs:range xsd:boolean .
 
 mdhn:folioIsColophon a owl:DatatypeProperty ;
     rdfs:comment "Folio is colophon?" ;
-    rdfs:domain mdhn:DigitalResource ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
     rdfs:label "folioIsColophon" ;
     rdfs:range xsd:boolean .
 
-mdhn:foliohasDiagram a owl:DatatypeProperty ;
+mdhn:folioIsCarpetIlluminated a owl:DatatypeProperty ;
+    rdfs:comment "Folio is carpet illuminated?" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
+    rdfs:label "folioIsCarpetIlluminated" ;
+    rdfs:range xsd:boolean .
+
+mdhn:folioHasDiagram a owl:DatatypeProperty ;
     rdfs:comment "Folio has diagram?" ;
-    rdfs:domain mdhn:DigitalResource ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
     rdfs:label "foliohasDiagram" ;
     rdfs:range xsd:boolean .
 
+mdhn:folioHasShamse a owl:DatatypeProperty ;
+    rdfs:comment "Folio has shamse?" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
+    rdfs:label "folioHasShamsea" ;
+    rdfs:range xsd:boolean .
+
+mdhn:folioHasNote a owl:DatatypeProperty ;
+    rdfs:comment "Folio has note?" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
+    rdfs:label "folioHasNote" ;
+    rdfs:range xsd:boolean . 
+
+mdhn:folioHasSeal a owl:DatatypeProperty ;
+    rdfs:comment "Folio has seal?" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
+    rdfs:label "folioHasSeal" ;
+    rdfs:range xsd:boolean .
+
+mdhn:folioHasText a owl:DatatypeProperty ;
+    rdfs:comment "Folio has text?" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
+    rdfs:label "folioHasText" ;
+    rdfs:range xsd:boolean . 
+
+mdhn:folioHasHalkari a owl:DatatypeProperty ;
+    rdfs:comment "Folio has halkari?" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
+    rdfs:label "folioHasHalkari" ;
+    rdfs:range xsd:boolean .     
+
+mdhn:folioHasOnvan a owl:DatatypeProperty ;
+    rdfs:comment "Folio has onvan?" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
+    rdfs:label "folioHasOnvan" ;
+    rdfs:range xsd:boolean .     
+
+mdhn:folioHasIllumination a owl:DatatypeProperty ;
+    rdfs:comment "Folio has illumination?" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
+    rdfs:label "folioHasIllumination" ;
+    rdfs:range xsd:boolean .                           
+
 mdhn:folioIsOpening a owl:DatatypeProperty ;
     rdfs:comment "Folio is opening page?" ;
-    rdfs:domain mdhn:DigitalResource ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
     rdfs:label "folioIsOpening" ;
     rdfs:range xsd:boolean .
 
+mdhn:folioIsMarblePage a owl:DatatypeProperty ;
+    rdfs:comment "Folio is marble page?" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
+    rdfs:label "folioIsMarblePage" ;
+    rdfs:range xsd:boolean .    
+
 mdhn:folioIsFlyLeaf a owl:DatatypeProperty ;
     rdfs:comment "Folio is flyleaf?" ;
-    rdfs:domain mdhn:DigitalResource ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
     rdfs:label "folioIsFlyLeaf" ;
     rdfs:range xsd:boolean .
 
+mdhn:folioStandaloneURL a owl:DatatypeProperty ;
+    rdfs:comment "Folio URL using Content State API" ;
+    rdfs:domain mdhn:ResourceCanvas;
+    rdfs:label "folioStandaloneURL" ;
+    rdfs:range xsd:anyURI . 
+
+mdhn:folioNo a owl:DatatypeProperty ;
+    rdfs:comment "Folio Number and side of each folio" ;
+    rdfs:domain mdhn:ResourceCanvas ;
+    rdfs:label "folioNo" ;
+    rdfs:range xsd:string .        
+
 mdhn:isInCollection a owl:ObjectProperty ;
     rdfs:comment "Specify the immediate collection of the resource" ;
-    rdfs:domain mdhn:DigitalResource ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
     rdfs:label "is In Collection" ;
     rdfs:range mdhn:ResourceCollection .
 

@@ -4,6 +4,7 @@
 ## Adam Olearius
 
 ## Albert Gabriel
+  - Gabriel Original Photographs
 
 ## Albert Gayet
 
@@ -29,6 +30,7 @@
 
 ## Calligraphy Collection
   - Qitati Khushkhatt Or.MS.373 Collection
+  - McGill Arabic Collection
 
 ## Carla Serena
 
@@ -44,11 +46,15 @@
 
 ## Documentary Videos
 
+## Edward Alexander Powell
+
 ## Edward Granville Browne
 
 ## Edwin Lord Weeks
 
 ## Edward M. Stack
+
+## Edward Scott Waring
 
 ## Ella Rebe Durand
 
@@ -59,10 +65,12 @@
 ## Erich F. Schmidt
 
 ## Ernst Herzfeld Collection
-   - AHerzfeld Collection
+   - Herzfeld Collection
    - Herzfeld Papers, Photographs and Diaries
 
 ## Ernst Hoeltzer
+
+## Ernst Kühnel
 
 ## Eugene Flandin and Pascal Coste Collection
 
@@ -86,8 +94,13 @@
 
 ## Harford Jones
 
+
+## Harry de Windt
+
 ## Henry d'Allemagne Collection
    - Photographs by Henry d'Allemagne
+
+## Heinrich Glück
 
 ## Henry Field Collection
 
@@ -111,6 +124,8 @@
 
 ## Jean de Thevenot
 
+## J.M Hone
+
 ## John Baptista Tavernier
 
 ## John Malcolm
@@ -120,15 +135,19 @@
 ## Manuscript
    - Arabic Manuscript Collection
    - Christian Manuscript Collection
-   - Departed Drawing Collection
+   - Departed Folios Collection
      - Louis Haghe Collection
      - Falnama The Book of Omens
-   - Muraqqa Collection
-   - Nizami Ganjavi Collection
+   - Muraqqa Collection   
    - Persian Manuscript Collection
+     - Abd ar-Rahman Jami
+     - Amir Shahi Sabzevari 
+     - Asarol Baghie Or.Ms.161 Collection 
+     - Nizami Ganjavi Collection 
+     - Saadi Collection 
+     - Shahnama Collection  
    - Quran Collection
-     - Kuffic Quran Collection
-   - Shahnama Collection
+     - Kuffic Quran Collection   
    - Turkish Manuscript Collection
 
 ## Maps
@@ -138,9 +157,13 @@
 ## Maxime Siroux Collection
 
 ## Miscellaneous
-   - Catalogs And Index   
+   - Catalogs And Index
+   - Dr Ghasem Ghani Collection 
    - Golestan Palace Albumkhane Collection
      - GPAK-0100 Album
+     - GPAK-0133 Album
+     - GPAK-0142 Album
+     - GPAK-0240 Album
    - Photograph Album Collection
      - 19 Phototographs Of The Persia
      - Abdollah Mirza Qajar Photo Collection
@@ -151,6 +174,7 @@
      - Henry Viollet Collection
        - Viollet Original Photographs     
      - K.A.C. Creswell Photographs of Islamic Architecture
+     - Konstantin von Kaufman Photographs
      - NADAR Studio Photographs
      - Single Photo Collectio 
      - Stephan Arpee Photographs   
@@ -175,6 +199,8 @@
    - Sharaf Collection              
 
 ## Percy Molesworth Sykes
+
+## Robert Blair Munro Binning
 
 ## Robert Byron Collection
    - Byrons's Photographs

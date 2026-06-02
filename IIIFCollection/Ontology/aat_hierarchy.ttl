@@ -1422,7 +1422,14 @@ mdhn:aat300168471 a mdhn:ResourceType;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         mdhn:hasAATBroader mdhn:aat300201262 . 
 
-          
+mdhn:aat300250218 a mdhn:ResourceType;
+        rdfs:label "Rabbit"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean .   
+        
+mdhn:aat300041759 a mdhn:ResourceType;
+        rdfs:label "Tambourine"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean .   
+               
 
 mdhn:aat300191086 a mdhn:ResourceType;
         rdfs:label "Visual Works"@en, "آثار تجسمی"@fa ;
@@ -1576,7 +1583,100 @@ mdhn:aat300220539 a mdhn:ResourceType;
         rdfs:label "illumination (image-making process)"@en, "قطعه مذهب"@fa ;
         rdfs:comment "schema:Illumination"@en ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
-        mdhn:hasAATBroader mdhn:aat300053159 .               
+        mdhn:hasAATBroader mdhn:aat300053159 . 
+
+
+mdhn:aat300195160 a mdhn:ResourceType;
+        rdfs:label "layout features"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300201262 . 
+
+mdhn:aat300203061 a mdhn:ResourceType;
+        rdfs:label "<images and ornament for layout features>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300195160 . 
+
+mdhn:aat300264522 a mdhn:ResourceType;
+        rdfs:label "illuminations (paintings)"@en, "تذهيب"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300203061, mdhn:aat300033619 .  
+
+mdhn:aat300033619 a mdhn:ResourceType;
+        rdfs:label "<paintings by location or context>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300033618 . 
+
+mdhn:aat500011000 a mdhn:ResourceType;
+        rdfs:label "Halkari"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300033619 .   
+
+mdhn:aat300015578 a mdhn:ResourceType ;
+    rdfs:label "illustrations (layout features)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300203061 .
+
+mdhn:aat300015584 a mdhn:ResourceType ;
+    rdfs:label "<illustrations by subject type>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300015578 .
+
+mdhn:aat300015589 a mdhn:ResourceType ;
+    rdfs:label "courtroom illustrations"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300015584 .
+
+mdhn:aat300015593 a mdhn:ResourceType ;
+    rdfs:label "fashion illustrations (layout features)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300015584 .
+
+mdhn:aat300015595 a mdhn:ResourceType ;
+    rdfs:label "scientific illustrations (images)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300015584 .
+
+mdhn:aat300083021 a mdhn:ResourceType ;
+    rdfs:label "frontispieces (illustrations)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300220525 .
+
+mdhn:aat300124063 a mdhn:ResourceType ;
+    rdfs:label "technical illustrations (images)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300015584 .
+
+mdhn:aat300188975 a mdhn:ResourceType ;
+    rdfs:label "figures (illustrations)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300220525 .
+
+mdhn:aat300189216 a mdhn:ResourceType ;
+    rdfs:label "plates (illustrations)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300220525 .
+
+mdhn:aat300200658 a mdhn:ResourceType ;
+    rdfs:label "marginal illustrations"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300220525 .
+
+mdhn:aat300220525 a mdhn:ResourceType ;
+    rdfs:label "<illustrations by form>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300015578 .
+
+mdhn:aat300386711 a mdhn:ResourceType ;
+    rdfs:label "botanical illustrations"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300015584 .              
+
+                  
+
+
+
+
 
 mdhn:aat30010001 a mdhn:ScriptStyleType ;
     rdfs:label "Permission (Calligraphy Style)"@en, "اجازت نامه"@fa ;
