@@ -238,8 +238,68 @@ IIIFDexir grows almost daily. Thanks to GitHub’s version control, every change
 ---
 
 
-## Preparing KG 
-Creating a Knowledge Graph from the IIIFDexir is straightforward. IIIF Collections and Manifests are in JSON-LD format, but we used the Turtle format to implement a simple ontology for Data visualizatio representation. The primary entities are ResourceCollection (IIIF Collection) and DigitalResource (IIIF Manifest), both represented by owl:Class.
+## Using Data and preparing to create Knowledge Graph 
+
+
+### Accessing IIIFDexir Data
+
+There are four primary ways to access and interact with IIIFDexir data, ranging from advanced semantic querying to simple browsing:
+
+1. **Query Languages** (Recommended for researchers and analysts)
+2. **Exploring the Knowledge Graph**
+3. **Standard IIIF Viewers** (Best for general users)
+4. **Direct Programming Access**
+
+#### 1. Query Languages
+This is the most powerful method for retrieving precise information. It requires loading the dataset into a **Triple Store**  a specialized database designed for RDF data.
+
+![SPARQL](/IIIFCollection/images/IIIFDexir_SPARQL.jpg "GraphDB SPARQL")
+
+**Recommended Tools:**
+- **Ontotext GraphDB Desktop** (Free local version): Ideal for individual researchers. You can run a local Triple Store on your computer, import IIIFDexir data, and execute queries via **SPARQL**.
+- **Stardog** (Cloud-based): Offers both free (limited) and paid plans. Supports **SPARQL** and **GraphQL**.
+
+After importing the data, you can run complex queries to answer sophisticated questions about persons, dates, places, narratives, materials, and more.
+
+> **Note**: Stardog’s free tier automatically deletes inactive repositories. It is best suited for testing. For long-term use, a paid plan or a local solution like GraphDB Desktop is recommended.
+
+#### 2. Exploring the Knowledge Graph
+This method also requires a Triple Store (see above). Instead of writing formal SPARQL queries, you can visually explore the interconnected data by following relationships between entities (persons, works, places, events, etc.). Many Triple Store platforms provide graph visualization tools that make navigation intuitive and insightful.
+
+![Knowledge Graph](/IIIFCollection/images/IIIFDexir_KG.jpg "GraphDB KG")
+
+#### 3. Using Standard IIIF Viewers
+This is the most user-friendly method and requires no technical expertise. It is ideal for those who prefer visual browsing.
+
+Using viewers such as **Mirador** or **Theseus**, you can:
+- Browse hierarchical **Resource Collections** (think of them as themed folders)
+- Navigate sub-collections
+- Open **IIIF Manifests** (digital representations of books, manuscripts, albums, or single items)
+- View high-resolution images, zoom into details, and read metadata
+
+![Mirador](/IIIFCollection/images/IIIFDexir_Mirador.jpg "Mirador")
+
+**Recommended Viewers:**
+- [Mirador](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json)
+- [Theseus](https://theseusviewer.org/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json)
+
+
+
+A single manifest can represent anything from a lone photograph to a 1,400-page illustrated *Shahnameh*. Mastering these viewers takes a little practice but offers an excellent experience.
+
+#### 4. Programming Access
+Developers can work directly with the raw data files. All collections and manifests are available as:
+- **JSON** files (IIIF standard)
+- **Turtle** files (RDF/OWL ontology)
+
+Using languages such as **Python**, **JavaScript/Node.js**, or any RDF-compatible library, programmers can parse, analyze, transform, or integrate the data into custom applications, scripts, or research tools.
+
+---
+
+This version is clearer, more professional, better organized, and easier to read while preserving all your original meaning. It uses consistent formatting, bullet points, and bold text for better scannability.
+
+Would you like me to adjust the tone, add more details, or integrate this section into the full README?
+
 
 ## Ontology
 
