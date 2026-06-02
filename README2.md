@@ -371,7 +371,7 @@ This structure allows the project to move beyond simple metadata catalogs toward
 
 ### Graphical representation of this Ontology:
 
-![alt text](/IIIFCollection/images/Ontology.jpg)
+![Ontology Model](/IIIFCollection/images/ontology_model.jpg)
 
 
 ## IIIFDexir Workflow and RDF Ontology
