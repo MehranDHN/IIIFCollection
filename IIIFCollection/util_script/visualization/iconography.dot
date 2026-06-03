@@ -1,0 +1,70 @@
+digraph IconographyHierarchy {
+    rankdir=TB;
+    node [shape=box, fontname="Arial"];
+    edge [arrowhead=empty];
+
+    Iconography [label="mdhn:Iconography\n(Root)", fillcolor="#E6F3FF", style=filled];
+
+    // Top-level subclasses
+    Battle [label="BattleSignAndEquipment"];
+    Arch [label="ArchitecturalConceptOrElement"];
+    Game [label="GameAndHobby"];
+    Music [label="MusicalInstrument"];
+    Clothing [label="ClothingAndDress"];
+    Natural [label="NaturalElement"];
+    Animals [label="Animals"];
+    Tableware [label="Tableware"];
+    Travel [label="TravelsAndTransportation"];
+    Jobs [label="JobsAndCreativity"];
+    Mythical [label="MythicalConceptsOrCreatures"];
+    Monarch [label="MonarchOrHistoricalCeremony"];
+    Objects [label="ObjectsAndTools"];
+    Narrative [label="NarrativeEpisode"];
+
+    Iconography -> {Battle Arch Game Music Clothing Natural Animals Tableware Travel Jobs Mythical Monarch Objects Narrative};
+
+    // Sample instances (as leaves)
+    subgraph cluster_battle {
+        label="BattleSignAndEquipment Instances";
+        Mace [label="Mace\n(گرز)"];
+        Sword [label="Sword\n(شمشیر)"];
+        Bow [label="Bow and Arrow"];
+        Shield [label="Shield"];
+        Soldier [label="Soldier"];
+    }
+    Battle -> {Mace Sword Bow Shield Soldier};
+
+    subgraph cluster_arch {
+        label="Architectural...";
+        Minaret [label="Minaret"];
+        PersianArch [label="Persian Architecture"];
+        Balcony [label="Balcony"];
+    }
+    Arch -> {Minaret PersianArch Balcony};
+
+    subgraph cluster_myth {
+        label="Mythical...";
+        Jamshid [label="Jamshid"];
+        Divs [label="Divs"];
+        Khosrow [label="Khosrow II & Shirin"];
+    }
+    Mythical -> {Jamshid Divs Khosrow};
+
+    subgraph cluster_jobs {
+        label="Jobs & Creativity";
+        Smithy [label="Smithy (آهنگری)"];
+        Carpentry [label="Carpentry"];
+        Knitting [label="Knitting"];
+    }
+    Jobs -> {Smithy Carpentry Knitting};
+
+    subgraph cluster_natural {
+        label="Natural Elements";
+        Cypress [label="Cypress (سرو)"];
+        Cloud [label="Cloud"];
+        Fire [label="Fire"];
+    }
+    Natural -> {Cypress Cloud Fire};
+
+    // Add more as needed...
+}
