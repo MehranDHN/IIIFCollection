@@ -136,8 +136,12 @@
    - Arabic Manuscript Collection
    - Christian Manuscript Collection
    - Departed Folios Collection
-     - Louis Haghe Collection
      - Falnama The Book of Omens
+     - Great Ilkhanid Shahnameh
+     - Haft Owrang Ibrahim Sultan    
+     - Louis Haghe Collection     
+     - Shahnameh Shah Tahmasb
+     - Small Ilkhanid Shahnameh
    - Muraqqa Collection   
    - Persian Manuscript Collection
      - Abd ar-Rahman Jami
