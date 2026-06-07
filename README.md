@@ -58,11 +58,7 @@ It is important to note that while the detailed metadata embedded in the `IIIF C
 
 ## Content Organization
 
-### Departed vs Resource Collections
 
-**Here's a significantly improved, clearer, and more professional version** of your text:
-
----
 
 ### Departed vs. Resource Collections
 
@@ -185,6 +181,35 @@ The **Getty Thesaurus of Geographic Names (TGN)** serves as the primary referenc
 - Chehel Sotun
 
 Hierarchical relationships are fully supported. For instance, while **Naqsh-e Jahan Square** is a child of Isfahan is simultaneously serving as a parent concept for the `Shah Mosque`, `Sheikh Lotfollah Mosque`, and the `Qeysariyeh Bazaar entrance`.
+
+
+## Spatial Navigation with navPlace Extension
+
+III FDexir leverages the official **[navPlace Extension](https://iiif.io/api/extension/navplace/)** of the IIIF Presentation API 3.0 to enrich manifests with professional **geospatial metadata**.
+
+This powerful feature allows any IIIF Manifest (or individual Canvas) to be linked to real-world geographic locations using:
+- Simple coordinates (Point)
+- Bounding boxes
+- Complex geometries via **GeoJSON** (Polygon, LineString, MultiPolygon, etc.)
+
+### Use Cases in Persian Cultural Heritage
+- Pinpointing the exact location of mosques, palaces, archaeological sites, or historical buildings depicted in artworks or photographs
+- Geotagging manuscripts, albums, or travelogues with their places of origin or depicted locations
+- Enabling map-based discovery and spatial queries across the entire collection
+
+### Demonstration
+A simple working demonstration of the **navPlace** extension in IIIFDexir has been implemented and is available here:
+
+→ **[navPlace Demonstration](https://theseusviewer.org/?iiif-content=https://raw.githubusercontent.com/MehranDHN/CRMPersianArchitecture/refs/heads/main/Jamemanifest.json)** 
+
+This initial prototype shows how spatial features can be added to manifests. Future expansions will include more sophisticated GeoJSON representations, integration with external map viewers (such as Leaflet), and broader application across ResourceCollections.
+
+### Technical Note
+The `navPlace` property is fully compatible with the IIIFDexir ontology and Knowledge Graph. It opens new possibilities for spatial analysis, visualization, and discovery of Persian cultural heritage resources.
+
+---
+
+
 
 #### Machine-First Design Principle
 All vocabularies and extensions prioritize **machine readability** and semantic precision. The structures are intentionally designed to support RDF/OWL reasoning, SPARQL querying, and Knowledge Graph construction. While this results in more complex data models than those needed for human browsing, it ensures long-term interoperability, scalability, and analytical capability.
