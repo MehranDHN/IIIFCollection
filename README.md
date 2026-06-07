@@ -202,7 +202,7 @@ A simple working demonstration of the **navPlace** extension in IIIFDexir has be
 
 → **[navPlace Demonstration](https://theseusviewer.org/?iiif-content=https://raw.githubusercontent.com/MehranDHN/CRMPersianArchitecture/refs/heads/main/Jamemanifest.json)** 
 
-![navPlace Demo](/IIIFCollection/images/fnavplacedemo.jpgG)
+![navPlace Demo](/IIIFCollection/images/navplacedemo.jpg)
 
 This initial prototype shows how spatial features can be added to manifests. Future expansions will include more sophisticated GeoJSON representations, integration with external map viewers (such as Leaflet), and broader application across ResourceCollections.
 
