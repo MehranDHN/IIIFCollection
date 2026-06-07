@@ -138,10 +138,15 @@
    - Departed Folios Collection
      - Falnama The Book of Omens
      - Great Ilkhanid Shahnameh
-     - Haft Owrang Ibrahim Sultan    
-     - Louis Haghe Collection     
+     - Haft Owrang Ibrahim Sultan
+     - Kulliat Saadi 
+     - Louis Haghe Collection 
+     - Mantiq al-Tayr 63.210 Metropolitan    
      - Shahnameh Shah Tahmasb
      - Small Ilkhanid Shahnameh
+     - Tarikhnama By Balami
+     - Tuhfat al-ahrar FS-7182
+     - Yaqub Beg Album
    - Muraqqa Collection   
    - Persian Manuscript Collection
      - Abd ar-Rahman Jami
@@ -201,6 +206,8 @@
    - L'Indépendant de Boulogne-sur-Mer
    - Keyhan Collection 
    - Sharaf Collection              
+
+## Oleg Grabar
 
 ## Percy Molesworth Sykes
 
