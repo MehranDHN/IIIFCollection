@@ -403,15 +403,15 @@ This structure allows the project to move beyond simple metadata catalogs toward
 ![Ontology Model](/IIIFCollection/images/ontology_model.jpg)
 
 
-**## Folio and Content Decomposition using IIIF Canvas**
+## Folio and Content Decomposition using IIIF Canvas
 
 A core innovation in **IIIFDexir** is the granular decomposition of manuscript folios leveraging the **IIIF Canvas** concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple **content elements**—discrete, semantically rich units that enable precise annotation, querying, and interoperability.
 
 ### Key Aspects of the Feature
-- **Folio-Level Canvas**: Represents the entire page/image as a high-resolution, zoomable unit.
-- **Content Elements**: Sub-divisions within the Canvas, each with a specific **type** such as:
-  - `CroppedFigure` (for illustrations, miniatures, or iconographic details).
-  - `LinguisticObject` (for text blocks, verses/bayts, inscriptions, or calligraphy).
+- **Folio-Level Canvas**: Represents the entire page/image as a high-resolution, zoomable unit. There is a coresponding relation between each DigitalResource and it's ResourceCanvases. 
+- **Content Elements**: Sub-divisions within the Canvas(ResourceCanvas), each with a specific **elementType** such as:
+  - `CroppedFigure` (Identified by `mdhn:CroppedFigure` for illustrations, miniatures, or iconographic details).
+  - `LinguisticObject` (Identified by `mdhn:Calligraphy_Inscription` for text blocks, verses/bayts, inscriptions, or calligraphy).
 - **Enrichment**: Every content element includes:
   - **Iconography tags** (drawing from Iconclass, AAT, or custom extensions).
   - **Subject headings** (Wikidata QIDs, AAT identifiers, LCSH, etc.).
@@ -426,7 +426,7 @@ This decomposition transforms static manuscript images into a **machine-actionab
 - **Scholarly & Public Impact**: Supports researchers in tracing motifs, characters (e.g., Rostam), narrative episodes, and artistic styles while making heritage accessible to non-specialists via IIIF viewers.
 
 ### Examples from Shahname Shah Tahmasp Collection
-See the blueprint in [`ShahnameShahTahmasbCollection.json`](https://github.com/MehranDHN/IIIFCollection/blob/master/IIIFCollection/ShahnameShahTahmasbCollection.json) and linked manifests (e.g., [Folio 151v](https://iiif.archive.org/iiif/3/shahnama-shah-tahmasp-151v/manifest.json)).
+See the blueprint in [`ShahnameShahTahmasbCollection.json`](https://github.com/MehranDHN/IIIFCollection/blob/master/IIIFCollection/ShahnameShahTahmasbCollection.json) and linked manifests (e.g., [Folio 77v](https://iiif.archive.org/iiif/3/shahnama-shah-tahmasp-77v/manifest.json)).
 
 **Sample Structure (simplified excerpt style)**:
 ```json
