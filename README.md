@@ -356,6 +356,8 @@ The ontology is organized around several key conceptual pillars under the namesp
 - **`mdhn:ResourceCollection`** — Represents hierarchical collections of IIIF resources, supporting nested manifests and sub-collections.
 - **`mdhn:DigitalResource`** — The central class representing individual IIIF manifests (books, photographs, videos, documents, etc.).
 - **`mdhn:DepartedCollection`** — Special class for logically reuniting dispersed or "departed" folios into virtual collections.
+- **`mdhn:ResourceCanvas`** — Special class for dealing with the details of the folios of a manuscript specially when we have a composite folio with multiple element types.
+- **`mdhn:ContentElement`** — Smallest possible unit of content in a folio such as Paintings, Text, Notes and cropped Figures. Each instance of a ContentElement class should be associated with a ResourceCanvas which means it logically belongs to that ResourceCamnvas.
 
 #### 2. Iconography and Content Description
 - **`mdhn:Iconography`** — Root class for all visual and thematic content depicted in resources.
@@ -399,6 +401,169 @@ This structure allows the project to move beyond simple metadata catalogs toward
 ### Graphical representation of this Ontology:
 
 ![Ontology Model](/IIIFCollection/images/ontology_model.jpg)
+
+
+**## Folio and Content Decomposition using IIIF Canvas**
+
+A core innovation in **IIIFDexir** is the granular decomposition of manuscript folios leveraging the **IIIF Canvas** concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple **content elements**—discrete, semantically rich units that enable precise annotation, querying, and interoperability.
+
+### Key Aspects of the Feature
+- **Folio-Level Canvas**: Represents the entire page/image as a high-resolution, zoomable unit.
+- **Content Elements**: Sub-divisions within the Canvas, each with a specific **type** such as:
+  - `CroppedFigure` (for illustrations, miniatures, or iconographic details).
+  - `LinguisticObject` (for text blocks, verses/bayts, inscriptions, or calligraphy).
+- **Enrichment**: Every content element includes:
+  - **Iconography tags** (drawing from Iconclass, AAT, or custom extensions).
+  - **Subject headings** (Wikidata QIDs, AAT identifiers, LCSH, etc.).
+  - Links to the broader ontology (`mdhn:` namespace), agents, episodes, and provenance.
+
+This decomposition transforms static manuscript images into a **machine-actionable knowledge graph layer**, supporting advanced use cases like stemmatology, variant analysis in the Shahnameh, iconographic studies, and AI-driven discovery.
+
+### Why This Feature is Critical
+- **Precision & Granularity**: Moves beyond whole-manuscript or whole-folio metadata to atomic-level access (e.g., individual figures or poetic lines), essential for philological work on dispersed works like the *Shahnameh of Shah Tahmasp*.
+- **Interoperability**: Aligns with **CIDOC-CRM**, **FRBRoo**, and Linked Open Data principles, facilitating reconciliation with Wikidata, Getty vocabularies, and other GLAM resources.
+- **Reusability**: Enables on-the-fly curated manifests, Web Annotations, Content State API deep-linking, and RDF/OWL population for the Knowledge Graph.
+- **Scholarly & Public Impact**: Supports researchers in tracing motifs, characters (e.g., Rostam), narrative episodes, and artistic styles while making heritage accessible to non-specialists via IIIF viewers.
+
+### Examples from Shahname Shah Tahmasp Collection
+See the blueprint in [`ShahnameShahTahmasbCollection.json`](https://github.com/MehranDHN/IIIFCollection/blob/master/IIIFCollection/ShahnameShahTahmasbCollection.json) and linked manifests (e.g., [Folio 151v](https://iiif.archive.org/iiif/3/shahnama-shah-tahmasp-151v/manifest.json)).
+
+**Sample Structure (simplified excerpt style)**:
+```json
+{
+                {
+                    "label": {
+                        "en": "AsCanvas"
+                    },
+                    "value": {
+                        "en": [
+                            {
+                                "index": 0,
+                                "mid": "shahnama-shah-tahmasp-77v",
+                                "cid": "0001",
+                                "label": "Mihrab Hears of Rudaba Folly",
+                                "folio": "77v",
+                                "canvas": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-77v/canvas",
+                                "basse64": "ewogICAgImlkIjogImh0dHBzOi8vaWlpZi5hcmNoaXZlLm9yZy9paWlmL3NoYWhuYW1hLXNoYWgtdGFobWFzcC0yMHYvY2FudmFzIiwKICAgICJ0eXBlIjogIkNhbnZhcyIsCiAgICAicGFydE9mIjogWwogICAgICAgIHsKICAgICAgICAgICAgImlkIjogImh0dHBzOi8vaWlpZi5hcmNoaXZlLm9yZy9paWlmLzMvc2hhaG5hbWEtc2hhaC10YWhtYXNwLTIwdi9tYW5pZmVzdC5qc29uIiwKICAgICAgICAgICAgInR5cGUiOiAiTWFuaWZlc3QiCiAgICAgICAgfQogICAgXQp9",
+                                "refers": [
+                                    "mdhn:Mihrab",
+                                    "mdhn:Rudaba",
+                                    "mdhn:Sindukht"
+                                ],
+                                "croppedFigures": [
+                                    {
+                                        "elementType": "mdhn:Fragment_Cropped_Image",
+                                        "elementLabel": "Mihrab cropped figure from f77v",
+                                        "elementStyle": "aat:500011001",
+                                        "croppedImage": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/843,2340,286,706/full/0/default.jpg",
+                                        "elementLOUD": [
+                                            "mdhn:Mihrab"
+                                        ]
+                                    },
+                                    {
+                                        "elementType": "mdhn:Fragment_Cropped_Image",
+                                        "elementLabel": "Sindukht cropped figure from f77v",
+                                        "elementStyle": "aat:500011001",
+                                        "croppedImage": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/1082,2416,572,499/full/0/default.jpg",
+                                        "elementLOUD": [
+                                            "mdhn:Sindukht"
+                                        ]
+                                    }
+                                ],
+                                "linguisticElements": [
+                                    {
+                                        "elementType": "mdhn:Calligraphy_Inscription",
+                                        "elementLabel": "Inscription1 in Fig77v Q:2:127",
+                                        "croppedImage": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/711,314,1077,129/max/0/default.jpg",
+                                        "elementStyle": "aat:300265532",
+                                        "elementFAText": "وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ رَبَّنَا تَقَبَّلْ مِنَّا ۖ إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
+                                        "elementENText": "And when Abraham and Ishmael were raising the foundations of the House, they prayed, Our Lord, accept [this] from us. Indeed You are the All-Hearing, the All-Knowing.",
+                                        "elementLOUD": [
+                                            "mdhn:Quran"
+                                        ]
+                                    },
+                                    {
+                                        "elementType": "mdhn:Calligraphy_Inscription",
+                                        "elementLabel": "Inscription3 in Fig77v",
+                                        "croppedImage": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/732,722,1049,155/max/0/default.jpg",
+                                        "elementStyle": "aat:300265532",
+                                        "elementFAText": "این صفحه که هست رشک خوبان طراز آراسته پیکری‌ست بیننده نواز گویا در رحمت است کز عالم فیض بر ناظر این کتاب می‌گردد باز",
+                                        "elementENText": "This page which is the envy of the good, the graceful form of a body, the beholder seems to be in mercy, as if the world of grace is turning to the observer of this book.",
+                                        "elementLOUD": [
+                                            "mdhn:Tahmasp_Safavid_I"
+                                        ]
+                                    },
+                                    {
+                                        "elementType": "mdhn:Calligraphy_Inscription",
+                                        "elementLabel": "Inscription5 in Fig77v",
+                                        "croppedImage": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/433,1932,222,306/max/0/default.jpg",
+                                        "elementStyle": "aat:300265532",
+                                        "elementFAText": "يا مفتح الابواب",
+                                        "elementENText": "O Opener of Doors",
+                                        "elementLOUD": [
+                                            "mdhn:Tahmasp_Safavid_I"
+                                        ]
+                                    },
+                                    {
+                                        "elementType": "mdhn:Calligraphy_Inscription",
+                                        "elementLabel": "Inscription6 in Fig77v",
+                                        "croppedImage": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/737,707,1044,177/full/0/default.jpg",
+                                        "elementStyle": "aat:300265532",
+                                        "elementFAText": "این صفحه که شد رشک پریخانه‌ی چین مانی نکشیده صورتی بهتر از این  خطش به خط پری رخان می‌ماند کاراسته باشد به هزاران آیین",
+                                        "elementENText": "This page, which has become the envy of the Chinese fairy house, has not drawn a single line better than this, its lines resemble the lines of a flowing fairy, may it be useful for thousands of rituals.",
+                                        "elementLOUD": [
+                                            "mdhn:Tahmasp_Safavid_I"
+                                        ]
+                                    }
+                                ],
+                                "depicts": [
+                                    "mdhn:ZalAndRudaba",
+                                    "mdhn:Architectural_Structure",
+                                    "mdhn:Turban",
+                                    "mdhn:Robe",
+                                    "mdhn:WineBowl",
+                                    "mdhn:Flower",
+                                    "mdhn:Tree",
+                                    "mdhn:Blossom",
+                                    "mdhn:Plant",
+                                    "mdhn:Headgear",
+                                    "mdhn:Persian_Architecture",
+                                    "mdhn:Balcony",
+                                    "mdhn:Iwan",
+                                    "mdhn:Calligraphy_Inscription",
+                                    "mdhn:Sea_River_Pool",
+                                    "mdhn:Duck",
+                                    "mdhn:Pool",
+                                    "mdhn:Fountain",
+                                    "mdhn:Fence",
+                                    "mdhn:Cypress",
+                                    "mdhn:AgriculturalAndFarming",
+                                    "mdhn:Persian_Garden",
+                                    "mdhn:headscarf"
+                                ],
+                                "canvasType": [
+                                    "aat:300189604",
+                                    "aat:500181051",
+                                    "aat:300079783",
+                                    "aat:500011012",
+                                    "aat:500011002"
+                                ],
+                                "folioContains": [
+                                    "HasText",
+                                    "HasPainting"
+                                ],
+                                "scriptStyle": [
+                                    "aat:300265532"
+                                ]
+                            }
+                        ]
+                    }
+                },
+```
+This format appears in each record of IIIF Collections assiciated with a standard IIIF Manifest. This is a very effective way to create a data model that can be easily rendered as our Final RDF format. 
+This feature exemplifies IIIFDexir’s commitment to **semantic depth** and positions the project as a scalable model for Persian/Iranian cultural heritage digitization. It directly supports your ontology-driven pipelines and community contributions.
+
+
 
 
 ## IIIFDexir Workflow and RDF Ontology
