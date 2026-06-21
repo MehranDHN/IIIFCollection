@@ -153,8 +153,10 @@
      - Amir Shahi Sabzevari 
      - Asarol Baghie Or.Ms.161 Collection 
      - Nizami Ganjavi Collection 
+     - Qisas al Anbiya Collection
      - Saadi Collection 
      - Shahnama Collection  
+     - Zakariya al-Qazwini
    - Quran Collection
      - Kuffic Quran Collection   
    - Turkish Manuscript Collection
