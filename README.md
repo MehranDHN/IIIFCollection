@@ -560,6 +560,9 @@ See the blueprint in [`ShahnameShahTahmasbCollection.json`](https://github.com/M
                     }
                 },
 ```
+
+![Sample from 77v](/IIIFCollection/images/77v.JPG)
+
 This format appears in each record of IIIF Collections assiciated with a standard IIIF Manifest. This is a very effective way to create a data model that can be easily rendered as our Final RDF format. 
 This feature exemplifies IIIFDexir’s commitment to **semantic depth** and positions the project as a scalable model for Persian/Iranian cultural heritage digitization. It directly supports your ontology-driven pipelines and community contributions.
 
