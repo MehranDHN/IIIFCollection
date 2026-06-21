@@ -120,7 +120,7 @@ def save_turtle_file(turtle_code, filename="aat_hierarchy.ttl"):
 
 # Example usage
 if __name__ == "__main__":
-    concept_id = "300015578"  # visual works (works) - replace with your desired AAT ID
+    concept_id = "300200882"  # visual works (works) - replace with your desired AAT ID
     direction = "down"        # "up", "down", or "both"
     max_depth = 3             # Adjust to limit hierarchy size; None for unlimited (careful with broad terms!)
     node_count = 0

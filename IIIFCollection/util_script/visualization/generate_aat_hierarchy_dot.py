@@ -100,14 +100,14 @@ for uri, entry in entries.items():
     tooltip = quote(tooltip)
     # Type-based coloring (default), but preserve guide/extended highlights as higher priority
     if entry['isGuideTerm'] and entry['isInExtendedScope']:
-        fill = '#f4cccc'
+        fill = "#124f75"
         fontcolor = '#000000'
     elif entry['isGuideTerm']:
         fill = '#fff2ac'
         fontcolor = '#000000'
     elif entry['isInExtendedScope']:
-        fill = '#cfe2f3'
-        fontcolor = '#000000'
+        fill = '#C1503F'
+        fontcolor = "#000000"
     else:
         type_color_map = {
             'mdhn:ResourceType': '#f2f2f2',
