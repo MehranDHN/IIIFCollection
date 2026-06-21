@@ -28,6 +28,20 @@ mdhn:ResourceCanvas a owl:Class ;
     rdfs:comment "Canvas of a IIIF manifest representing a page or image within a digital resource." ;
     rdfs:label "Resource Canvas" .
 
+mdhn:CanvasContentElemet a owl:Class ;
+    rdfs:comment "Linguistic Object in each canvas" ;
+    rdfs:label "CanvasLinguisticObject" . 
+
+mdhn:LinguisticElement a owl:Class ;
+    rdfs:comment "Linguistic Object in each canvas" ;
+    rdfs:label "LinguisticElement";
+    rdfs:subClassOf  mdhn:CanvasContentElemet.      
+
+mdhn:CroppedFigure a owl:Class ;
+    rdfs:comment "Linguistic Object in each canvas" ;
+    rdfs:label "CroppedFigure";
+    rdfs:subClassOf  mdhn:CanvasContentElemet.        
+
 mdhn:Creator a owl:Class ;
     rdfs:comment "An entity responsible for creating the digital resource." ;
     rdfs:label "Creator" .       
@@ -35,7 +49,7 @@ mdhn:Creator a owl:Class ;
 mdhn:AATTerm a owl:Class ;
     rdfs:comment "Root Class for all AAT inherited concepts" ;
     rdfs:label "AATTerm";
-     rdfs:subClassOf  mdhn:SubjectSource  .
+    rdfs:subClassOf  mdhn:SubjectSource  .
 
 mdhn:AATSubject a owl:Class ;
     rdfs:comment "Classes choosed as AAT subset for Subjects and it is used to associate AATs as Topical headings to the photographs" ;
@@ -61,9 +75,7 @@ mdhn:DepartedCollection a owl:Class ;
     rdfs:comment "The class for integrating departed folios as logical collection into a single virtual collection" ;
     rdfs:label "Departed Collection" .
 
-mdhn:Publisher a owl:Class ;
-    rdfs:comment "An entity responsible for publishing or making the resource available." ;
-    rdfs:label "Publisher" .
+
 
 mdhn:Iconography a owl:Class ;
     rdfs:comment "Root class of Iconography" ;
@@ -78,6 +90,22 @@ mdhn:ArchitecturalConceptOrElement a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
     rdfs:comment "SubClass of Iconography related to Architecture including concepts, material and elements" ;
     rdfs:label "ArchitecturalConceptOrElement" . 
+
+mdhn:Art a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to Art" ;
+    rdfs:label "Art" .     
+
+mdhn:Manuscript_Processing a owl:Class ;
+    rdfs:subClassOf mdhn:Art ;
+    rdfs:comment "SubClass of Iconography related to Manuscript processing" ;
+    rdfs:label "Manuscript Processing" .
+
+   
+mdhn:Entertainment_Events a owl:Class ;
+    rdfs:subClassOf mdhn:Art ;
+    rdfs:comment "SubClass of Iconography related to Entertainment" ;
+    rdfs:label "Entertainment_Events" .        
 
 mdhn:GameAndHobby a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
@@ -104,6 +132,11 @@ mdhn:Animals a owl:Class ;
     rdfs:comment "SubClass of Iconography related to Animals" ;
     rdfs:label "Animals" . 
 
+mdhn:MythicalAnimalsOrMonsters a owl:Class ;
+    rdfs:subClassOf mdhn:Animals ;
+    rdfs:comment "SubClass of Animals" ;
+    rdfs:label "MythicalAnimalsOrMonsters" .     
+
 mdhn:Tableware a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
     rdfs:comment "SubClass of Iconography for Tableware and eating/drinking" ;
@@ -119,10 +152,10 @@ mdhn:JobsAndCreativity a owl:Class ;
     rdfs:comment "SubClass of Iconography related to Jobs and Creativity" ;
     rdfs:label "JobsAndCreativity" . 
 
-mdhn:MythicalConceptsOrCreatures a owl:Class ;
+mdhn:MythicalHumanPersona a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
-    rdfs:comment "SubClass of Iconography related Mythical Concepts or Creatures" ;
-    rdfs:label "MythicalConceptsOrCreatures" .  
+    rdfs:comment "SubClass of Iconography related Mythical Humans" ;
+    rdfs:label "MythicalHumanPersona" .  
 
 mdhn:MonarchOrHistoricalCeremony a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
@@ -176,8 +209,7 @@ mdhn:AgentialInfo a owl:Class ;
 
 mdhn:GLAMSource a owl:Class;
     rdfs:comment "GLAM sources sre the publishers or holders of the digital resources and they are associated to the resources through the publisher property." ;
-    rdfs:label "GLAMSource" ;
-    rdfs:subClassOf mdhn:SubjectSource .    
+    rdfs:label "GLAMSource" .    
 
 
 
@@ -199,7 +231,44 @@ mdhn:hasCanvas a owl:ObjectProperty ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:range  mdhn:ResourceCanvas ;
     rdfs:label  "Digital resource has canvas"@en ;
-    owl:inverseOf mdhn:canvasOf .            
+    owl:inverseOf mdhn:canvasOf .  
+
+mdhn:hasLinguisticElement a owl:ObjectProperty ; 
+    rdfs:domain mdhn:ResourceCanvas;
+    rdfs:range  mdhn:LinguisticElement ;
+    rdfs:label  "hasLinguisticElement"@en ;
+    rdfs:comment "Canvas has Linguistic Element" . 
+
+mdhn:loBelongsToCanvas a owl:ObjectProperty ; 
+    rdfs:domain mdhn:LinguisticElement ;
+    rdfs:range  mdhn:ResourceCanvas ;
+    rdfs:label  "loBelongsToCanvas"@en ;
+    owl:inverseOf mdhn:hasLinguisticElement .  
+
+mdhn:hasCroppedFigure a owl:ObjectProperty ; 
+    rdfs:domain mdhn:ResourceCanvas;
+    rdfs:range  mdhn:CroppedFigure ;
+    rdfs:label  "hasCroppedFigure"@en ;
+    rdfs:comment "Canvas has Cropped image Element" . 
+
+mdhn:cfBelongsToCanvas a owl:ObjectProperty ; 
+    rdfs:domain mdhn:CroppedFigure ;
+    rdfs:range  mdhn:ResourceCanvas ;
+    rdfs:label  "cfBelongsToCanvas"@en ;
+    owl:inverseOf mdhn:hasCroppedFigure . 
+
+
+
+
+mdhn:elementHasSubject a owl:ObjectProperty ;
+    rdfs:domain mdhn:CanvasContentElemet ;
+    rdfs:label "elementHasSubject"@en ;
+    rdfs:range mdhn:SubjectSource .    
+
+mdhn:elementDepicts a owl:ObjectProperty ; 
+    rdfs:domain mdhn:CanvasContentElemet;
+    rdfs:range  mdhn:Iconography ;
+    rdfs:label  "element Depicts"@en .                      
 
 mdhn:isPartOf a owl:ObjectProperty ;
     rdfs:comment "Associated narrative episode to which the iconographic entity belongs."@en ;
@@ -671,7 +740,7 @@ mdhn:PublishedBy a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its publisher." ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "Published By" ;
-    rdfs:range mdhn:Publisher .
+    rdfs:range mdhn:GlamSource .
 
 mdhn:hasUrl a owl:DatatypeProperty ;
     rdfs:comment "The URL of a ResourceCollection or DigitalResource." ;
@@ -782,6 +851,15 @@ mdhn:folioHasNote a owl:DatatypeProperty ;
     rdfs:label "folioHasNote" ;
     rdfs:range xsd:boolean . 
 
+mdhn:folioHasMarginalNote a owl:DatatypeProperty ;
+    rdfs:comment "Folio has marginal note?" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
+    rdfs:label "folioHasNote" ;
+    rdfs:range xsd:boolean .     
+
 mdhn:folioHasSeal a owl:DatatypeProperty ;
     rdfs:comment "Folio has seal?" ;
     rdfs:domain [
@@ -884,7 +962,7 @@ mdhn:hasResource a owl:ObjectProperty ;
 
 mdhn:hasPublished a owl:ObjectProperty ;
     rdfs:comment "Links a publisher to DigitalResource." ;
-    rdfs:domain mdhn:Publisher ;
+    rdfs:domain mdhn:GlamSource ;
     rdfs:label "has Published" ;
     rdfs:range mdhn:DigitalResource ;
     owl:inverseOf mdhn:PublishedBy .
@@ -1235,6 +1313,11 @@ fhkb:hasRelation a owl:ObjectProperty,
         owl:SymmetricProperty ;
     rdfs:domain fhkb:Person ;
     rdfs:range fhkb:Person .
+
+fhkb:isStudentOf a owl:ObjectProperty;
+    rdfs:subPropertyOf fhkb:hasRelation ;
+    rdfs:domain fhkb:Person ;
+    rdfs:range fhkb:Person .    
 
 fhkb:isBloodrelationOf a owl:ObjectProperty ;
     rdfs:subPropertyOf fhkb:hasRelation .

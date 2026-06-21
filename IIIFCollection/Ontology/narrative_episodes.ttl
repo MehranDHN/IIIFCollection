@@ -19,24 +19,122 @@ mdhn:Shahnameh a mdhn:NarrativeEpisode ;
     rdfs:comment """The Shahnameh, or Book of Kings, is an epic poem written by the Persian poet Ferdowsi around 1010 CE. It is one of the most important works of Persian literature and tells the mythical and historical past of Persia from the creation of the world until the Islamic conquest in the 7th century."""@en ;
     rdfs:label "Shahnameh"@en , "شاهنامه"@fa .
 
+
+
+mdhn:Qisas_al_Anbiya a mdhn:NarrativeEpisode ;
+    mdhn:aatConcept mdhn:aat300404209 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1087563" ;
+    rdfs:comment """The Qiṣaṣ al-anbiyā (Arabic: قِصَص الْأَنـۢبِيَاء, lit. 'Stories of the Prophets') is any of various collections of stories about figures recognised as prophets and messengers in Islam, closely related to tafsīr (exegesis of the Qur'an)."""@en ;
+    rdfs:label "Qisas al-Anbiya"@en , "قِصَص الْأَنـۢبِيَاء"@fa .    
+
+mdhn:Khamsa_of_Nizami a mdhn:NarrativeEpisode ;
+    mdhn:aatConcept mdhn:aat300404746 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3196058" ;
+    dcterms:created "c. 1010" ;
+    rdfs:comment """The Khamsa (Persian: خمسه, 'Quintet' or 'Quinary', from Arabic) or Panj Ganj (Persian: پنج گنج, 'Five Treasures') is the main and best known work of Nizami Ganjavi. """@en ;
+    rdfs:label "Khamsa_of_Nizami"@en , "خمسه نظامی"@fa .   
+
+mdhn:Makhzan_al_Asrar a mdhn:NarrativeEpisode ;
+   rdfs:label "Makhzan al-Asrar"@en, "مخزن الاسرار"@fa;
+   mdhn:isPartOf mdhn:Khamsa_of_Nizami ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q70427756" .
+
+mdhn:The_Seven_Beauties a mdhn:NarrativeEpisode ;
+   rdfs:label "The Seven Beauties"@en, "هفت پيکر"@fa;
+   mdhn:isPartOf mdhn:Khamsa_of_Nizami ;
+   mdhn:charactersInvolved mdhn:Bahram_V;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4679100" . 
+
+mdhn:Iskandarnama  a mdhn:NarrativeEpisode ;
+   rdfs:label "Iskandarnama "@en, "اسکندرنامه"@fa;
+   mdhn:isPartOf mdhn:Khamsa_of_Nizami ;
+   mdhn:charactersInvolved mdhn:Iskandar_Dhul_Qarnayn;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4679088" .    
+
 mdhn:Khosrow_and_Shirin a mdhn:NarrativeEpisode ;
    rdfs:label "Khosrow and Shirin"@en, "خسرو و شيرين"@fa;
-   rdfs:comment "Persian tragic romance by Nizami Ganjavi" ;
-   mdhn:charactersInvolved mdhn:Khosrow_II, mdhn:Shirin;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q61076" .
+   mdhn:isPartOf mdhn:Khamsa_of_Nizami ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q61076" . 
 
 mdhn:Layla_and_Majnun a mdhn:NarrativeEpisode ;
    rdfs:label "Layla and Majnun"@en, "ليلی و مجنون"@fa;
    rdfs:comment "Persian tragic romance by Nizami Ganjavi" ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q15555061" . 
+   mdhn:isPartOf mdhn:Khamsa_of_Nizami ;   
+   mdhn:charactersInvolved mdhn:Majnun, mdhn:Layli;     
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q673156" .                 
+
+mdhn:Haft_Awrang a mdhn:NarrativeEpisode ;
+    mdhn:aatConcept mdhn:aat300404746 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5638440" ;
+    dcterms:created "c. 1010" ;
+    rdfs:comment """The Haft Awrang, or Seven Thrones, is a collection of seven masnavi (long narrative poems) written by the Persian poet Nizami Ganjavi around 1010 CE. It is one of the most important works of Persian literature and tells various romantic and heroic stories."""@en ;
+    rdfs:label "Haft Awrang"@en , "هفت اونگ"@fa . 
+     
 
 mdhn:Yusuf_and_Zulaikha a mdhn:NarrativeEpisode ;
    rdfs:label "Yusuf and Zulaikha"@en, "يوسف و زليخا"@fa;
    rdfs:comment "romantic story" ;
    mdhn:charactersInvolved mdhn:Yusuf, mdhn:Zulaikha;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3350827" .       
+   mdhn:isPartOf mdhn:Haft_Awrang ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3350827" . 
 
-    
+mdhn:Leyli_and_Majnun_Jami a mdhn:NarrativeEpisode ;
+   rdfs:label "Leyli and Majnun"@en, "ليلی و مجنون جامی"@fa;
+   rdfs:comment "romantic story" ;
+   mdhn:charactersInvolved mdhn:Majnun, mdhn:Layli;   
+   mdhn:isPartOf mdhn:Haft_Awrang ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140301003" .  
+
+mdhn:Silsilat_al_Dhahab a mdhn:NarrativeEpisode ;
+   rdfs:label "Silsilat_al_Dhahab"@en, "سلسلة الذهب"@fa;
+   mdhn:isPartOf mdhn:Haft_Awrang ;
+   mdhn:icWikiDataURL "" .    
+
+mdhn:Tuhfat_al_Ahrar a mdhn:NarrativeEpisode ;
+   rdfs:label "Tuhfat_al_Ahrar"@en, "تحفة الاحرار"@fa;
+   mdhn:isPartOf mdhn:Haft_Awrang ;
+   mdhn:icWikiDataURL "" .  
+
+mdhn:Subhat_al_Abrar a mdhn:NarrativeEpisode ;
+   rdfs:label "Subhat_al_Abrar"@en, "سبحة الابرار"@fa;
+   mdhn:isPartOf mdhn:Haft_Awrang ;
+   mdhn:icWikiDataURL "" .         
+
+mdhn:Salaman_and_Absal a mdhn:NarrativeEpisode ;
+   rdfs:label "Salaman and Absal"@en, "سلامان و آبسال"@fa;
+   rdfs:comment "romantic story" ;
+   mdhn:isPartOf mdhn:Haft_Awrang ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q31068219" .    
+
+mdhn:Solomon_and_Queen_of_Sheba a mdhn:NarrativeEpisode ;
+   rdfs:label "Solomon and Queen of Sheba"@en, "بارگاه سليمان و ملکه سبا"@fa;
+   rdfs:comment "Mythical story" ;
+   mdhn:charactersInvolved mdhn:Solomon, mdhn:Queen_of_Sheba;
+   mdhn:icWikiDataURL "" .    
+
+mdhn:Safavid_Iran a mdhn:NarrativeEpisode ;
+   rdfs:label "Safavid Iran"@en, "سلسله صفوی"@fa;
+   mdhn:charactersInvolved mdhn:Safiad_din_Ardabili, mdhn:Ismail_Safavid_I, mdhn:Tahmasp_Safavid_I, mdhn:Ismail_Safavid_II , mdhn:Abbas_the_Great;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q18234383" .           
+
+mdhn:Tahmasb_I_Safavid_Enthroned a mdhn:NarrativeEpisode ;
+    rdfs:label "Tahmasp I Enthroned"@en , "بر تخت نشستن شاه طهماسپ اول"@fa ;
+    mdhn:charactersInvolved mdhn:Tahmasp_Safavid_I;
+    mdhn:isPartOf mdhn:Safavid_Iran ;  
+    mdhn:icWikiDataURL "" .
+
+mdhn:Ismail_Safavid_II_Enthroned a mdhn:NarrativeEpisode ;
+    rdfs:label "Ismail Safavid II Enthroned"@en , "بر تخت نشستن شاه اسماعيل دوم"@fa ;
+    mdhn:charactersInvolved mdhn:Ismail_Safavid_II;
+    mdhn:isPartOf mdhn:Safavid_Iran ;  
+    mdhn:icWikiDataURL "" .    
+
+mdhn:Abbas_the_Great_Safavid_Enthroned a mdhn:NarrativeEpisode ;
+    rdfs:label "Abbas the Great Enthroned"@en , "بر تخت نشستن شاه عباس کبير"@fa ;
+    mdhn:charactersInvolved mdhn:Abbas_the_Great;
+    mdhn:isPartOf mdhn:Safavid_Iran ;  
+    mdhn:icWikiDataURL "" .      
+
 mdhn:Kingdom_of_Keyumars a mdhn:NarrativeEpisode ;
    rdfs:label "Kingdom of Keyumars"@en, "پادشاهی کيومرث"@fa;
    rdfs:comment "a mythical kingdom ruled by Keyumars in Persian mythology" ;
@@ -222,7 +320,7 @@ mdhn:DavazdahRokh a mdhn:NarrativeEpisode;
 mdhn:Bizhan_Slaughters_the_Wild_Boars_of_Irman a mdhn:NarrativeEpisode;
    rdfs:label "Bizhan Slaughters the Wild Boars of Irman"@en, "کشته شدن گرازهای وحشی ایرمن به دست بیژان"@fa;
    mdhn:isPartOf mdhn:Shahnameh ;
-   mdhn:charactersInvolved mdhn:Bizhan, mdhn:Giv, mdhn:Wild_Boars;
+   mdhn:charactersInvolved mdhn:Bizhan, mdhn:Giv, mdhn:Boar;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138863131" .    
 
 mdhn:FirsthRokh a mdhn:NarrativeEpisode;
