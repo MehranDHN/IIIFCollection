@@ -264,6 +264,16 @@ if __name__ == "__main__":
         #{"url": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/manifests/combined_viollet_photograph_v3.json",
          #"canvas_indices": [0, 10, 50]},                    # full URL + specific canvases
         #{"id": "HV.307", "canvas_indices": [0]},            # ID with explicit index
+        {"id": "Per_104_1", "base_url": "https://viewer.cbl.ie/viewer/api/v1/records/", "canvas_indices": [0, 1]},
+        {"id": "Per_104_3", "base_url": "https://viewer.cbl.ie/viewer/api/v1/records/", "canvas_indices": [0, 1]},
+        {"id": "Per_104_4", "base_url": "https://viewer.cbl.ie/viewer/api/v1/records/", "canvas_indices": [0, 1]},
+        {"id": "Per_104_5", "base_url": "https://viewer.cbl.ie/viewer/api/v1/records/", "canvas_indices": [0]},
+        {"id": "Per_104_6", "base_url": "https://viewer.cbl.ie/viewer/api/v1/records/", "canvas_indices": [0, 1]},
+        {"id": "Per_104_7", "base_url": "https://viewer.cbl.ie/viewer/api/v1/records/", "canvas_indices": [0, 1]},
+        {"id": "Per_104_8", "base_url": "https://viewer.cbl.ie/viewer/api/v1/records/", "canvas_indices": [0, 1]},
+        {"id": "Per_104_9", "base_url": "https://viewer.cbl.ie/viewer/api/v1/records/", "canvas_indices": [0]},
+        {"id": "Per_104_10", "base_url": "https://viewer.cbl.ie/viewer/api/v1/records/", "canvas_indices": [0]},
+
         {"id": "Per_104_35", "base_url": "https://viewer.cbl.ie/viewer/api/v1/records/", "canvas_indices": [0, 1]},
         {"id": "Per_104_18", "base_url": "https://viewer.cbl.ie/viewer/api/v1/records/", "canvas_indices": [0]},
         {"id": "Per_104_60", "base_url": "https://viewer.cbl.ie/viewer/api/v1/records/", "canvas_indices": [0, 1]}
