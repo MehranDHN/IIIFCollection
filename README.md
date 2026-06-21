@@ -454,7 +454,7 @@ See the blueprint in [`ShahnameShahTahmasbCollection.json`](https://github.com/M
                                     {
                                         "elementType": "mdhn:Fragment_Cropped_Image",
                                         "elementLabel": "Mihrab cropped figure from f77v",
-                                        "elementStyle": "aat:500011001",
+                                        "elementStyle": ["aat:500011001"],
                                         "croppedImage": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/843,2340,286,706/full/0/default.jpg",
                                         "elementLOUD": [
                                             "mdhn:Mihrab"
@@ -463,7 +463,7 @@ See the blueprint in [`ShahnameShahTahmasbCollection.json`](https://github.com/M
                                     {
                                         "elementType": "mdhn:Fragment_Cropped_Image",
                                         "elementLabel": "Sindukht cropped figure from f77v",
-                                        "elementStyle": "aat:500011001",
+                                        "elementStyle": ["aat:500011001"],
                                         "croppedImage": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/1082,2416,572,499/full/0/default.jpg",
                                         "elementLOUD": [
                                             "mdhn:Sindukht"
@@ -475,7 +475,7 @@ See the blueprint in [`ShahnameShahTahmasbCollection.json`](https://github.com/M
                                         "elementType": "mdhn:Calligraphy_Inscription",
                                         "elementLabel": "Inscription1 in Fig77v Q:2:127",
                                         "croppedImage": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/711,314,1077,129/max/0/default.jpg",
-                                        "elementStyle": "aat:300265532",
+                                        "elementStyle": ["aat:300265532"],
                                         "elementFAText": "وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ رَبَّنَا تَقَبَّلْ مِنَّا ۖ إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
                                         "elementENText": "And when Abraham and Ishmael were raising the foundations of the House, they prayed, Our Lord, accept [this] from us. Indeed You are the All-Hearing, the All-Knowing.",
                                         "elementLOUD": [
@@ -486,7 +486,7 @@ See the blueprint in [`ShahnameShahTahmasbCollection.json`](https://github.com/M
                                         "elementType": "mdhn:Calligraphy_Inscription",
                                         "elementLabel": "Inscription3 in Fig77v",
                                         "croppedImage": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/732,722,1049,155/max/0/default.jpg",
-                                        "elementStyle": "aat:300265532",
+                                        "elementStyle": ["aat:300265532"],
                                         "elementFAText": "این صفحه که هست رشک خوبان طراز آراسته پیکری‌ست بیننده نواز گویا در رحمت است کز عالم فیض بر ناظر این کتاب می‌گردد باز",
                                         "elementENText": "This page which is the envy of the good, the graceful form of a body, the beholder seems to be in mercy, as if the world of grace is turning to the observer of this book.",
                                         "elementLOUD": [
@@ -497,7 +497,7 @@ See the blueprint in [`ShahnameShahTahmasbCollection.json`](https://github.com/M
                                         "elementType": "mdhn:Calligraphy_Inscription",
                                         "elementLabel": "Inscription5 in Fig77v",
                                         "croppedImage": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/433,1932,222,306/max/0/default.jpg",
-                                        "elementStyle": "aat:300265532",
+                                        "elementStyle": ["aat:300265532"],
                                         "elementFAText": "يا مفتح الابواب",
                                         "elementENText": "O Opener of Doors",
                                         "elementLOUD": [
@@ -508,7 +508,7 @@ See the blueprint in [`ShahnameShahTahmasbCollection.json`](https://github.com/M
                                         "elementType": "mdhn:Calligraphy_Inscription",
                                         "elementLabel": "Inscription6 in Fig77v",
                                         "croppedImage": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/737,707,1044,177/full/0/default.jpg",
-                                        "elementStyle": "aat:300265532",
+                                        "elementStyle": ["aat:300265532"],
                                         "elementFAText": "این صفحه که شد رشک پریخانه‌ی چین مانی نکشیده صورتی بهتر از این  خطش به خط پری رخان می‌ماند کاراسته باشد به هزاران آیین",
                                         "elementENText": "This page, which has become the envy of the Chinese fairy house, has not drawn a single line better than this, its lines resemble the lines of a flowing fairy, may it be useful for thousands of rituals.",
                                         "elementLOUD": [
