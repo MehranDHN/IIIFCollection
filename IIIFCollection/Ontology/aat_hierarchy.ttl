@@ -375,7 +375,7 @@ mdhn:aat500011065 a mdhn:ResourceType ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300189604.
 
-mdhn:aat500011066 a mdhn:ResourceType ;
+mdhn:aat500011067 a mdhn:ResourceType ;
     rdfs:label "Illuminated Opening Page Folio"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
@@ -404,6 +404,47 @@ mdhn:aat300055027 a mdhn:ResourceType ;
     rdfs:label "partial documents"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300137954.
+
+mdhn:aat300014681 a mdhn:ResourceType ;
+    rdfs:label "sticks (object genre)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300117144.    
+
+mdhn:aat300117144 a mdhn:ResourceType ;
+    rdfs:label "<object genres by form>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300185712. 
+
+mdhn:aat300375194 a mdhn:ResourceType ;
+    rdfs:label "Platanus orientalis (species)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300117144.       
+mdhn:aat300375188 a mdhn:ResourceType ;
+    rdfs:label "Platanus (genus)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300375190. 
+mdhn:aat300375190 a mdhn:ResourceType ;
+    rdfs:label "Platanaceae (family)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300375189.     
+mdhn:aat300375189 a mdhn:ResourceType ;
+    rdfs:label "Proteales (order)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300375593.   
+
+mdhn:aat300375593 a mdhn:ResourceType ;
+    rdfs:label "Magnoliopsida (class)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300265706.  
+
+mdhn:aat300265706 a mdhn:ResourceType ;
+    rdfs:label "Angiospermae (division)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300132360. 
+
+
+
+
 
 mdhn:aat500011050 a mdhn:ResourceType ;
     rdfs:label "Diagram Content"@en ;
@@ -471,11 +512,11 @@ mdhn:aat500011059 a mdhn:ResourceType ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300055027.
 
-mdhn:aat500011059 a mdhn:ResourceType ;
+mdhn:aat500011066 a mdhn:ResourceType ;
     rdfs:label "Floral Illuminated decoration Content"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
-    mdhn:hasAATBroader mdhn:aat300055027.        
+    mdhn:hasAATBroader mdhn:aat300055027, mdhn:aat300010135.        
 
 mdhn:aat500011061 a mdhn:ResourceType ;
     rdfs:label "Calligraphic Note Content"@en ;
@@ -3066,13 +3107,102 @@ mdhn:aat300033619 a mdhn:ResourceType;
         mdhn:hasAATBroader mdhn:aat300033618 . 
 
 mdhn:aat500011000 a mdhn:ResourceType;
-        rdfs:label "Halkari"@en ;
+        rdfs:label "Halkari"@en , "تشعير/حلکاری"@fa ;
         mdhn:isGuideTerm "true"^^xsd:boolean ;
         mdhn:isInExtendedScope "true"^^xsd:boolean ;
         mdhn:hasAATBroader mdhn:aat300033619 .  
 
-           
+        
+mdhn:aat300236072 a mdhn:ResourceType ;
+    rdfs:label "bolsters (soft furnishings)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300236071 .
 
+mdhn:aat300236071 a mdhn:ResourceType ;
+    rdfs:label "soft furnishings"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300037342 . 
+
+mdhn:aat300006819 a mdhn:ResourceType ;
+    rdfs:label "garden pavilions"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300006822 .
+
+mdhn:aat300006822 a mdhn:ResourceType ;
+    rdfs:label "garden structures"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300007999 .  
+
+mdhn:aat300427534 a mdhn:ResourceType ;
+    rdfs:label "military rifles"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300007999 . 
+
+mdhn:aat300438390 a mdhn:ResourceType ;
+    rdfs:label "<temporary alphabetical list: firearms>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300037148 .
+
+mdhn:aat300037148 a mdhn:ResourceType ;
+    rdfs:label "firearms"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208782 .         
+
+
+mdhn:aat300208782 a mdhn:ResourceType ;
+    rdfs:label "<projectile weapons with explosive propellant>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300203727 . 
+
+
+mdhn:aat300203727 a mdhn:ResourceType ;
+    rdfs:label "projectile weapons"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300420324 . 
+
+mdhn:aat300420324 a mdhn:ResourceType ;
+    rdfs:label "armaments"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300036926 . 
+
+mdhn:aat300036926 a mdhn:ResourceType ;
+    rdfs:label "weapons"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300036743 . 
+
+mdhn:aat300036743 a mdhn:ResourceType ;
+    rdfs:label "Weapons and Ammunition (hierarchy name)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300264551 .     
+
+mdhn:aat300264551 a mdhn:ResourceType ;
+    rdfs:label "Furnishings and Equipment (hierarchy name)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300208782 .  
+
+
+
+
+mdhn:aat300007999 a mdhn:ResourceType ;
+    rdfs:label "<single built works by location or context>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300004795 .  
+
+mdhn:aat300037342 a mdhn:ResourceType ;
+    rdfs:label "<furnishings by form or function>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300037336 .   
+
+mdhn:aat300037336 a mdhn:ResourceType ;
+    rdfs:label "furnishings (works)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300037335 .    
+
+mdhn:aat300037335 a mdhn:ResourceType ;
+    rdfs:label "Furnishings (hierarchy name)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300264551 . 
+                         
 mdhn:aat300015578 a mdhn:ResourceType ;
     rdfs:label "illustrations (layout features)"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
@@ -3131,8 +3261,48 @@ mdhn:aat300220525 a mdhn:ResourceType ;
 mdhn:aat300386711 a mdhn:ResourceType ;
     rdfs:label "botanical illustrations"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
-    mdhn:hasAATBroader mdhn:aat300015584 .              
+    mdhn:hasAATBroader mdhn:aat300015584 . 
 
+mdhn:aat300024823 a mdhn:ScriptStyleType ;
+    rdfs:label "hammers (tools)"@en , "چکش"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300024822 .   
+
+mdhn:aat300024822 a mdhn:ResourceType ;
+    rdfs:label "striking tools"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300024659 . 
+
+mdhn:aat300024659 a mdhn:ResourceType ;
+    rdfs:label "<equipment by process>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300122241 . 
+
+mdhn:aat300122241 a mdhn:ResourceType ;
+    rdfs:label "equipment"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300022238 . 
+
+mdhn:aat300033565 a mdhn:ResourceType ;
+    rdfs:label "nails (fasteners)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300036363 . 
+
+
+mdhn:aat300036363 a mdhn:ResourceType ;
+    rdfs:label "fasteners"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300241581 . 
+
+mdhn:aat300241581 a mdhn:ResourceType ;
+    rdfs:label "<components by general context>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300241583 .     
+
+mdhn:aat300022238 a mdhn:ResourceType ;
+    rdfs:label "Tools and Equipment (hierarchy name) "@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300264551 . 
 
 mdhn:aat30010001 a mdhn:ScriptStyleType ;
     rdfs:label "Permission (Calligraphy Style)"@en, "اجازت نامه"@fa ;

@@ -29,18 +29,28 @@ mdhn:ResourceCanvas a owl:Class ;
     rdfs:label "Resource Canvas" .
 
 mdhn:CanvasContentElemet a owl:Class ;
-    rdfs:comment "Linguistic Object in each canvas" ;
+    rdfs:comment "various content element that can appear in a canvas" ;
     rdfs:label "CanvasLinguisticObject" . 
 
 mdhn:LinguisticElement a owl:Class ;
     rdfs:comment "Linguistic Object in each canvas" ;
     rdfs:label "LinguisticElement";
-    rdfs:subClassOf  mdhn:CanvasContentElemet.      
+    rdfs:subClassOf  mdhn:CanvasContentElemet.   
+
+mdhn:Cropped_Details a owl:Class ;
+    rdfs:comment "Cropped Details from an image" ;
+    rdfs:label "Cropped_Details";
+    rdfs:subClassOf  mdhn:CanvasContentElemet.         
 
 mdhn:CroppedFigure a owl:Class ;
-    rdfs:comment "Linguistic Object in each canvas" ;
+    rdfs:comment "Cropped Figurefrom an image" ;
     rdfs:label "CroppedFigure";
-    rdfs:subClassOf  mdhn:CanvasContentElemet.        
+    rdfs:subClassOf  mdhn:Cropped_Details.  
+
+mdhn:CroppedPattern a owl:Class ;
+    rdfs:comment "Cropped Pattern from an image" ;
+    rdfs:label "CroppedPattern";
+    rdfs:subClassOf  mdhn:Cropped_Details.           
 
 mdhn:Creator a owl:Class ;
     rdfs:comment "An entity responsible for creating the digital resource." ;
@@ -245,16 +255,16 @@ mdhn:loBelongsToCanvas a owl:ObjectProperty ;
     rdfs:label  "loBelongsToCanvas"@en ;
     owl:inverseOf mdhn:hasLinguisticElement .  
 
-mdhn:hasCroppedFigure a owl:ObjectProperty ; 
+mdhn:hasCroppedDetails a owl:ObjectProperty ; 
     rdfs:domain mdhn:ResourceCanvas;
-    rdfs:range  mdhn:CroppedFigure ;
-    rdfs:label  "hasCroppedFigure"@en ;
+    rdfs:range  mdhn:Cropped_Details ;
+    rdfs:label  "hasCroppedDetails"@en ;
     rdfs:comment "Canvas has Cropped image Element" . 
 
-mdhn:cfBelongsToCanvas a owl:ObjectProperty ; 
-    rdfs:domain mdhn:CroppedFigure ;
+mdhn:detailBelongsToCanvas a owl:ObjectProperty ; 
+    rdfs:domain mdhn:Cropped_Details ;
     rdfs:range  mdhn:ResourceCanvas ;
-    rdfs:label  "cfBelongsToCanvas"@en ;
+    rdfs:label  "detailBelongsToCanvas"@en ;
     owl:inverseOf mdhn:hasCroppedFigure . 
 
 
@@ -608,7 +618,21 @@ mdhn:poetOf a owl:ObjectProperty ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "poet of" ;
     rdfs:range mdhn:AgentialInfo ;
-    owl:inverseOf mdhn:hasParticipantInRoleِPoet .   
+    owl:inverseOf mdhn:hasParticipantInRoleِPoet . 
+
+mdhn:hasParticipantInRoleِIssuedBy a owl:ObjectProperty ;
+    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleِIssuedBy" ;
+    rdfs:range mdhn:AgentialInfo . 
+
+mdhn:issuerOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a person to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "issuer Of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleِIssuedBy .           
 
 mdhn:hasParticipantInRoleِSignatueryOfPermission a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;

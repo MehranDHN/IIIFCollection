@@ -10,6 +10,8 @@
 @prefix tgn: <http://vocab.getty.edu/tgn/> .
 @prefix fhkb: <http://www.example.com/genealogy.owl#> .
 @prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dcterms:  <http://qudt.org/vocab/prefix/> . # QUDT Prefixes Version 2.1 Vocabulary
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 
 mdhn:Shahnameh a mdhn:NarrativeEpisode ;
@@ -290,7 +292,12 @@ mdhn:KingdomOfZahhak a mdhn:NarrativeEpisode;
    mdhn:isPartOf mdhn:ZahhakStory ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466998" .   
 
-
+mdhn:Kingdom_of_Manuchehr a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom of Fereydun"@en, "پادشاهی منوچهر"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   rdfs:comment "a mythical kingdom ruled by Manuchehr in Persian mythology" ;
+   mdhn:charactersInvolved  mdhn:Manuchehr;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .
 mdhn:Kingdom_of_Fereydun a mdhn:NarrativeEpisode ;
    rdfs:label "Kingdom of Fereydun"@en, "پادشاهی فریدون"@fa;
    mdhn:isPartOf mdhn:Shahnameh ;
