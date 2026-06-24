@@ -156,7 +156,8 @@
      - Nizami Ganjavi Collection 
      - Qisas al Anbiya Collection
      - Saadi Collection 
-     - Shahnama Collection  
+     - Shahnama Collection
+       - [Peck Shahnama(Princeton)](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/PeckShahnamaCollection.json)
      - Zakariya al-Qazwini
    - Quran Collection
      - Kuffic Quran Collection   
@@ -170,6 +171,7 @@
 
 ## Miscellaneous
    - Catalogs And Index
+     - [Chester Beatty Catalogue 1962](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/ChesterBeattyCatalogueCollection.json)
    - Dr Ghasem Ghani Collection 
    - Golestan Palace Albumkhane Collection
      - GPAK-0100 Album
