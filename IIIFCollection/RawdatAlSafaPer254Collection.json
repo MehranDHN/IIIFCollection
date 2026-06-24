@@ -1,0 +1,499 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/RawdatAlSafaPer254Collection.json",
+    "@type": "sc:Collection",
+    "label": "Rawdat al Safa Per254",
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 70 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "summary": {
+        "en": [
+            "The Garden of purity on the lives of prophets, kings and caliphs (Rawḍat al-ṣafā fī sīrat al-anbiyā’ wa al-mulūk wa al-khulafā’), by Muḥammad Khawāndshāh ibn Maḥmūd, or Mīr Khwānd (d. 1498), volume 2 of his universal history, describes the biographies of the Prophet Muḥammad and the four Rashidun Caliphs, copied by Maḥmūd ibn Hājjī al-Jahramī, probably Shiraz, Iran, dated 24 Rajab 1003H, 4 April 1595. "
+        ]
+    },
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_254_65/files/images/D0002754.jpg/79,3151,4071,2849/700,/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 490,
+            "width": 700,
+            "service": [
+                {
+                    "id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_254_65/files/images/D0002754.jpg",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 490,
+                    "width": 700,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/DepartedDrawingCollection.json",
+    "manifests": [
+        {
+            "id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_254_65/manifest/https://iiif.archive.org/iiif/3/Mantiq_al_Tayr_63_210_11/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Alī ibn Abī Ṭālib in single combat with `Amr ibn `Abd al-Wadd"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Alī ibn Abī Ṭālib in single combat with `Amr ibn `Abd al-Wadd"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Mīr Khvānd",
+                            "wd:Q1377629"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Mir_Khvand"
+                        ],
+                        "ReferredTo": [
+                            "mdhn:Ali_ibn_Abi_Ṭalib"
+                        ],
+                        "Calligrapher": [
+                            "mdhn:Mahmud_ibn_Hajji_al_Jahrami"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "schema:IlluminatedManuscript"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Chester Beatty"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "Per_254_65"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000141"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1595 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasPainting",
+                            "HasIllumination",
+                            "HasText"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_254_77/manifest/https://iiif.archive.org/iiif/3/Mantiq_al_Tayr_63_210_11/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Alī ibn Abī Ṭālib wrenches the door from the fortress of Qamūṣ"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Alī ibn Abī Ṭālib wrenches the door from the fortress of Qamūṣ"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Mīr Khvānd",
+                            "wd:Q1377629"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Mir_Khvand"
+                        ],
+                        "ReferredTo": [
+                            "mdhn:Ali_ibn_Abi_Ṭalib",
+                            "mdhn:Muhammad"
+                        ],
+                        "Calligrapher": [
+                            "mdhn:Mahmud_ibn_Hajji_al_Jahrami"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "schema:IlluminatedManuscript"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Chester Beatty"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "Per_254_77"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000141"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1595 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasPainting",
+                            "HasIllumination",
+                            "HasText"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://viewer.cbl.ie/viewer/api/v1/records/Per_254_128/manifest/https://iiif.archive.org/iiif/3/Mantiq_al_Tayr_63_210_11/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Sasanian king Yazdagird III flees to the mill in Merv"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Sasanian king Yazdagird III flees to the mill in Merv"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Mīr Khvānd",
+                            "wd:Q1377629"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Mir_Khvand"
+                        ],
+                        "ReferredTo": [
+                            "mdhn:Yazdagird_III"
+                        ],
+                        "Calligrapher": [
+                            "mdhn:Mahmud_ibn_Hajji_al_Jahrami"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "schema:IlluminatedManuscript"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Chester Beatty"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "Per_254_128"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000141"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1595 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasPainting",
+                            "HasIllumination",
+                            "HasText"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
