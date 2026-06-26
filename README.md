@@ -1142,16 +1142,17 @@ WHERE {
 LIMIT 100
 ```
 
-####  Query 16: Selective Cropped Figures from a Specific Manuscript (e.g., Shah Tahmasp)
+####  Query 16: Selective Cropped Figures related to specific character (e.g `mdhn:Zahhak`) from a Specific Manuscripts (e.g `mdhn:ShahnameShahTahmasb` and `mdhn:SmallIlkhanidShahname`)
 
 ```sparql
 PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?canvas ?canvasLabel ?resLabel ?figureLabel ?imgurl  ?depictedIconography ?agential
+SELECT ?collection ?resource ?canvas ?canvasLabel ?resLabel ?figureLabel ?imgurl  ?depictedIconography ?agential
 WHERE {
   ?resource a mdhn:DigitalResource ;
             rdfs:label ?resLabel ;
+            mdhn:isInCollection ?collection;
             mdhn:hasCanvas ?canvas .
   ?canvas a mdhn:ResourceCanvas ;
           rdfs:label ?canvasLabel .
@@ -1161,6 +1162,7 @@ WHERE {
           mdhn:croppedImageURL ?imgurl;
   OPTIONAL { ?figure mdhn:elementDepicts ?depictedIconography . }
   OPTIONAL {?figure mdhn:hasAgential ?agential}
+  FILTER(?collection IN (mdhn:ShahnameShahTahmasb , mdhn:SmallIlkhanidShahname))
   FILTER(CONTAINS(?resLabel, "Zahhak"))
   #FILTER(?agential=mdhn:Zahhak)
 }
