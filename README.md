@@ -636,7 +636,7 @@ eyJpZCI6Imh0dHBzOi8vbWFuaWZlc3Quc3RvcmlpaWVzLWVkaXRvci5jb2dhcHAuY29tL3YzLzNlN3Vo
 Extending this sample to another level could prove truly transformative. Imagine each illustrated manuscript having its own dedicated, standalone data structure for every magnificent folio including the cover, opening pages, flyleaf, rosette, colophon, and beyond.
 Additionally, each individual folio could be assigned its own specific, persistent URL, allowing it to be referenced, shared, and viewed independently without needing to navigate the entire manuscript. With the help of the `IIIF Content State API`, this vision becomes not only possible but highly practical. It opens up rich opportunities to enrich, annotate, and present each folio independently whether for scholarly analysis, educational use, high-resolution exhibition, or creative reinterpretation while maintaining the integrity and context of the complete manuscript.
 
-[Folio 4v from Supplément persan 489](https://theseusviewer.org/?iiif-content=ewogICAgImlkIjogImh0dHBzOi8vZ2FsbGljYS5ibmYuZnIvaWlpZi9hcms6LzEyMTQ4L2J0djFiODQyMjk5NXQvY2FudmFzL2YxNiIsCiAgICAidHlwZSI6ICJDYW52YXMiLAogICAgInBhcnRPZiI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJpZCI6ICJodHRwczovL2dhbGxpY2EuYm5mLmZyL2lpaWYvYXJrOi8xMjE0OC9idHYxYjg0MjI5OTV0L21hbmlmZXN0Lmpzb24iLAogICAgICAgICAgICAidHlwZSI6ICJNYW5pZmVzdCIKICAgICAgICB9CiAgICBdCn0g)
+[Folio 16v from Supplément persan 489](https://theseusviewer.org/?iiif-content=ewogICAgImlkIjogImh0dHBzOi8vZ2FsbGljYS5ibmYuZnIvaWlpZi9hcms6LzEyMTQ4L2J0djFiODQyMjk5NXQvY2FudmFzL2Y0NCIsCiAgICAidHlwZSI6ICJDYW52YXMiLAogICAgInBhcnRPZiI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJpZCI6ICJodHRwczovL2dhbGxpY2EuYm5mLmZyL2lpaWYvYXJrOi8xMjE0OC9idHYxYjg0MjI5OTV0L21hbmlmZXN0Lmpzb24iLAogICAgICAgICAgICAidHlwZSI6ICJNYW5pZmVzdCIKICAgICAgICB9CiAgICBdCn0=)
 
 
 
@@ -1095,6 +1095,181 @@ WHERE {
     ?res rdfs:label ?resLabel;   
 }
 ORDER BY ?idx
+```
+
+####  Query 14: List All Resource Canvases in a Specific Manuscript (e.g., Peck Shahnameh)
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?collection ?resource ?resLabel ?canvas ?label ?folio ?canvasUrl  ?idx
+WHERE {
+  ?resource a mdhn:DigitalResource ;
+            rdfs:label ?resLabel ;
+            mdhn:isInCollection ?collection;
+            mdhn:hasCanvas ?canvas .
+  ?canvas a mdhn:ResourceCanvas ;
+          rdfs:label ?label ;
+          mdhn:canvasIndex ?idx;
+          mdhn:folioNo ?folio ;  
+          mdhn:canvasUrl ?canvasUrl .  
+  #FILTER(CONTAINS(?resLabel, "Peck Shahnamah"))
+  FILTER(?resource=mdhn:72507ee3_850b_4ad6_9098_141257cb319f)
+}
+ORDER BY ?idx
+LIMIT 50
+```
+
+####  Query 15: Resource Canvases with Their Content Elements (Broad Overview)
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?canvas ?canvasLabel  ?elementLabel ?depicts ?imgurl
+WHERE {
+  ?resource a mdhn:DigitalResource ;
+            mdhn:hasCanvas ?canvas .
+  ?canvas a mdhn:ResourceCanvas ;
+          rdfs:label ?canvasLabel .
+  ?canvas mdhn:hasCroppedDetails|mdhn:hasLinguisticElement ?element .
+  ?element a ?elementType ;
+           mdhn:croppedImageUR ?imgurl;
+           rdfs:label ?elementLabel .
+  OPTIONAL { ?element mdhn:elementDepicts ?depicts . }
+}
+LIMIT 100
+```
+
+####  Query 16: Selective Cropped Figures from a Specific Manuscript (e.g., Shah Tahmasp)
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?canvas ?canvasLabel ?resLabel ?figureLabel ?imgurl  ?depictedIconography ?agential
+WHERE {
+  ?resource a mdhn:DigitalResource ;
+            rdfs:label ?resLabel ;
+            mdhn:hasCanvas ?canvas .
+  ?canvas a mdhn:ResourceCanvas ;
+          rdfs:label ?canvasLabel .
+  ?canvas mdhn:hasCroppedDetails ?figure .
+  ?figure a mdhn:CroppedFigure ;
+          rdfs:label ?figureLabel;
+          mdhn:croppedImageURL ?imgurl;
+  OPTIONAL { ?figure mdhn:elementDepicts ?depictedIconography . }
+  OPTIONAL {?figure mdhn:hasAgential ?agential}
+  FILTER(CONTAINS(?resLabel, "Zahhak"))
+  #FILTER(?agential=mdhn:Zahhak)
+}
+ORDER BY ?canvasLabel
+```
+
+####  Query 17: Canvases with Cropped Patterns (Decorative/Ornamental Elements)
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX aat: <https://vocab.getty.edu/aat/>
+
+SELECT ?canvas ?canvasLabel ?patternLabel ?croppedImage ?patternStyle
+WHERE {
+  ?canvas a mdhn:ResourceCanvas ;
+          rdfs:label ?canvasLabel ;
+          mdhn:hasCroppedDetails ?pattern .
+  ?pattern a mdhn:CroppedPattern ;
+           rdfs:label ?patternLabel ;
+           mdhn:croppedImageURL ?croppedImage .
+  OPTIONAL { ?pattern mdhn:elementHasSubject ?patternStyle . }
+  # Example filter for specific manuscript or motif
+  # FILTER(?patternLabel CONTAINS "cypress")
+}
+LIMIT 15
+```
+
+####  Query 18: Linguistic Elements on Canvases (Text/Verse Extraction)
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?canvas ?canvasLabel ?lingElement ?textContent ?elementdepicts ?croppedimgurl
+WHERE {
+  ?canvas a mdhn:ResourceCanvas ;
+          rdfs:label ?canvasLabel ;
+          mdhn:hasLinguisticElement ?lingElement .
+  ?lingElement a mdhn:LinguisticElement ;
+               mdhn:croppedImageUR ?croppedimgurl;
+               rdfs:label ?textContent . 
+  OPTIONAL { ?lingElement mdhn:elementDepicts ?elementdepicts . }  # adapt to your exact props
+}
+ORDER BY ?canvasLabel
+```
+
+####  Query 19: Combined: Canvases + Figures + Patterns for a Departed Collection (e.g., Haft Ow rang)
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?canvas ?label (COUNT(?figure) AS ?numFigures) (COUNT(?pattern) AS ?numPatterns)
+WHERE {
+  ?resource a mdhn:DigitalResource ;
+            mdhn:partOf|mdhn:isInCollection ?collection .  # or departed collection link
+  ?resource mdhn:hasCanvas ?canvas .
+  ?canvas a mdhn:ResourceCanvas ;
+          rdfs:label ?label .
+  OPTIONAL { ?canvas mdhn:hasCroppedDetails ?figure . ?figure a mdhn:CroppedFigure . }
+  OPTIONAL { ?canvas mdhn:hasCroppedDetails ?pattern . ?pattern a mdhn:CroppedPattern . }
+  #FILTER(?resource=mdhn:72507ee3_850b_4ad6_9098_141257cb319f)
+}
+GROUP BY ?canvas ?label
+HAVING (COUNT(?figure) > 0 || COUNT(?pattern) > 0)
+ORDER BY DESC(?numFigures)
+```
+
+####  Query 20: Resource Canvases Depicting Specific Iconography (e.g., `Flaming Nimbus` or `Solomon and Queen of Sheba` as a Narrative Episode)
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?canvas ?figure ?imgurl ?canvasdepicts ?canvasLabel ?figureLabel ?episode ?depicted
+WHERE {
+  ?canvas a mdhn:ResourceCanvas ;
+          rdfs:label ?canvasLabel ;
+          mdhn:depicts ?canvasdepicts;
+          mdhn:hasCroppedDetails ?figure .
+  ?figure a mdhn:CroppedFigure ;
+          rdfs:label ?figureLabel ;
+          mdhn:croppedImageURL ?imgurl;
+          mdhn:elementDepicts ?depicted .
+  ?depicted rdfs:label ?episode .  # or link to NarrativeEpisode
+  FILTER(?canvasdepicts IN (mdhn:Flaming_Nimbus, mdhn:Solomon_and_Queen_of_Sheba))
+}
+```
+
+####  Query 21: Comprehensive View: Manuscript → Canvases → All Content Elements (with Types)
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?manuscriptLabel ?canvasLabel ?elementClass (COUNT(?element) AS ?count)
+WHERE {
+  ?manuscript a mdhn:DigitalResource ;
+              rdfs:label ?manuscriptLabel ;
+              mdhn:hasCanvas ?canvas .
+  ?canvas a mdhn:ResourceCanvas ;
+          rdfs:label ?canvasLabel .
+  ?canvas ?hasProp ?element .  # hasCroppedDetails or hasLinguisticElement
+  ?element a ?elementClass .
+  FILTER(?hasProp = mdhn:hasCroppedDetails || ?hasProp = mdhn:hasLinguisticElement)
+}
+GROUP BY ?manuscriptLabel ?canvasLabel ?elementClass
+ORDER BY ?manuscriptLabel ?canvasLabel
 ```
 ## On-the-Fly IIIF Manifest Generator
 A flexible Python script that dynamically combines selected IIIF manifests into a single, local-compatible manifest (Presentation API 2.0 or 3.0).
