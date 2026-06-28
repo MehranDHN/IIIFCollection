@@ -1135,7 +1135,7 @@ WHERE {
           rdfs:label ?canvasLabel .
   ?canvas mdhn:hasCroppedDetails|mdhn:hasLinguisticElement ?element .
   ?element a ?elementType ;
-           mdhn:croppedImageUR ?imgurl;
+           mdhn:croppedImageURL ?imgurl;
            rdfs:label ?elementLabel .
   OPTIONAL { ?element mdhn:elementDepicts ?depicts . }
 }
@@ -1181,7 +1181,7 @@ WHERE {
   ?canvas a mdhn:ResourceCanvas ;
           rdfs:label ?canvasLabel ;
           mdhn:hasCroppedDetails ?pattern .
-  ?pattern a mdhn:CroppedPattern ;
+  ?pattern a mdhn:CroppedPattern ; # Or mdhn:PhotographElement and any othe CanvasElementTypes
            rdfs:label ?patternLabel ;
            mdhn:croppedImageURL ?croppedImage .
   OPTIONAL { ?pattern mdhn:elementHasSubject ?patternStyle . }
@@ -1203,7 +1203,7 @@ WHERE {
           rdfs:label ?canvasLabel ;
           mdhn:hasLinguisticElement ?lingElement .
   ?lingElement a mdhn:LinguisticElement ;
-               mdhn:croppedImageUR ?croppedimgurl;
+               mdhn:croppedImageURL ?croppedimgurl;
                rdfs:label ?textContent . 
   OPTIONAL { ?lingElement mdhn:elementDepicts ?elementdepicts . }  # adapt to your exact props
 }
@@ -1216,7 +1216,7 @@ ORDER BY ?canvasLabel
 PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?canvas ?label (COUNT(?figure) AS ?numFigures) (COUNT(?pattern) AS ?numPatterns)
+SELECT DISTINCT ?canvas ?label (COUNT(?figure) AS ?numFigures) (COUNT(?pattern) AS ?numPatterns) (COUNT(?photo) AS ?numPhoto) (COUNT(?lingo) AS ?numLingo)
 WHERE {
   ?resource a mdhn:DigitalResource ;
             mdhn:partOf|mdhn:isInCollection ?collection .  # or departed collection link
@@ -1225,6 +1225,8 @@ WHERE {
           rdfs:label ?label .
   OPTIONAL { ?canvas mdhn:hasCroppedDetails ?figure . ?figure a mdhn:CroppedFigure . }
   OPTIONAL { ?canvas mdhn:hasCroppedDetails ?pattern . ?pattern a mdhn:CroppedPattern . }
+  OPTIONAL { ?canvas mdhn:hasCroppedDetails ?photo . ?pattern a mdhn:PhotographElement . }
+  OPTIONAL { ?canvas mdhn:hasLinguisticElement ?lingo . ?pattern a mdhn:LinguisticElement . }
   #FILTER(?resource=mdhn:72507ee3_850b_4ad6_9098_141257cb319f)
 }
 GROUP BY ?canvas ?label
