@@ -1275,6 +1275,28 @@ WHERE {
 GROUP BY ?manuscriptLabel ?canvasLabel ?elementClass
 ORDER BY ?manuscriptLabel ?canvasLabel
 ```
+
+####  Query 22: Resources that categorized in `Persian flowers and bird` (mdhn:aat500011082) or `battle scene` (mdhn:aat500011084) which both are localy defined and attached to AAT concepts.
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT *
+WHERE {
+    ?s a mdhn:DigitalResource;
+       rdfs:label ?resLabel;
+       mdhn:ofType ?aatcat;
+       mdhn:hasUrl ?ressurl;
+       mdhn:hasParticipantInRoleFormerOwner ?participants;
+       mdhn:isInCollection ?collection.
+    ?aatcat rdfs:label ?catlbl;
+            mdhn:hasAATBroader ?brodercat.
+    ?collection rdfs:label ?collbl.
+    FILTER(?aatcat IN (mdhn:aat500011082 , mdhn:aat500011084))    
+}
+
+```
 ## On-the-Fly IIIF Manifest Generator
 A flexible Python script that dynamically combines selected IIIF manifests into a single, local-compatible manifest (Presentation API 2.0 or 3.0).
 Supports:
@@ -1288,6 +1310,51 @@ Supports:
 - Detailed logging & validation to debug problems
 
 This tool is particularly useful for creating curated selections from heterogeneous IIIF collections (e.g. mixing archive.org HV.* items with Chester Beatty Library Persian manuscripts or any other IIIF endpoints).
+
+## Natural Language Interaction with IIIFDexir Knowledge Graph: Talk to Your Graph (TTYG) & GraphRAG Integration**
+
+IIIFDexir leverages **Ontotext GraphDB** (and optionally Stardog Voicebox) for seamless natural language querying of its RDF/OWL knowledge graph via **Talk to Your Graph (TTYG)** — a powerful **Graph Retrieval-Augmented Generation (GraphRAG)** capability. This feature transforms complex SPARQL-based exploration into intuitive conversations, making the rich semantic data accessible to scholars, researchers, curators, and AI agents without requiring query language expertise.
+
+### Core Capabilities
+- **Conversational Interface**: Ask questions in plain English (or Persian) about manuscripts, folios, iconography, agents, episodes, or variants. TTYG retrieves relevant triples from the graph, grounds LLM responses in verifiable data, and minimizes hallucinations.
+- **Multi-Method Retrieval**: Combines vector similarity search (embeddings), full-text search, and precise SPARQL execution for hybrid reasoning.
+- **Agent Customization**: Configure specialized agents with domain prompts, few-shot examples, and tools tailored to Persian cultural heritage (e.g., Shahnameh ontology, `mdhn:` namespace, CIDOC-CRM alignments).
+- **Traceability**: Responses cite sources (triples, entities, annotations), ensuring scholarly reliability.
+- **Integration Points**: Works with your IIIF manifests, Web Annotations, content element decompositions, and external vocabularies (AAT, Wikidata, etc.).
+
+This bridges the gap between human intuition and machine-readable structured data, accelerating discovery in dispersed collections like the *Shahnameh of Shah Tahmasp*.
+
+### Recent Enhancements: Canvas-to-Content Element Decomposition
+The latest iterations of IIIFDexir significantly enrich the graph through **fine-grained decomposition** of IIIF Canvases. Each folio Canvas now breaks into typed **content elements** (e.g., `CroppedFigure`, `LinguisticObject`), enabling precise, context-aware queries. This directly powers more accurate GraphRAG responses.
+
+**Example Questions & Interactions** (powered by the enhanced ontology):
+
+1. **Iconographic & Motif Exploration**  
+   *User*: "Show me all CroppedFigure elements depicting Rostam in battle scenes from Shah Tahmasp manuscripts, with related AAT/Wikidata tags."  
+   *Response*: TTYG identifies relevant content elements across folios, lists figures with regions/annotations, iconography (e.g., heroic motifs), and links to narrative episodes/verses. It can generate summaries or suggest related IIIF viewers.
+
+2. **Linguistic & Textual Analysis**  
+   *User*: "Extract LinguisticObject instances containing variants of a specific bayt from Khaleghi-Motlagh edition in Persian manuscripts."  
+   *Response*: Returns decomposed text blocks with provenance, comparisons to critical editions, and semantic links to characters or motifs.
+
+3. **Cross-Resource Reasoning**  
+   *User*: "What iconography tags are shared between CroppedFigures in Departed Collections like Shahnameh Tahmasp and Herzfeld documents?"  
+   *Response*: Graph traversal across collections, highlighting common AAT subjects, agents (e.g., painters), and temporal contexts.
+
+4. **Complex Scholarly Query**  
+   *User*: "Summarize content elements related to Fereydun in Safavid miniatures, including linguistic descriptions and subject headings."  
+   *Response*: Aggregates figures, texts, and metadata with citations, supporting stemmatology or iconographic studies.
+
+### Setup & Usage in IIIFDexir
+- Load your RDF exports (from IIIF JSON-LD blueprints + ontology) into GraphDB.
+- Configure TTYG agents in the Workbench (or via API) with IIIFDexir-specific prompts and embeddings for content elements.
+- Access via GraphDB UI, custom clients, or integrate with tools like LangChain for IIIF viewers/Mirador extensions.
+- For Stardog users: Voicebox offers similar hallucination-free conversational access with strong enterprise federation.
+
+This integration makes IIIFDexir not only a static catalog but a **living, conversational knowledge base** — ideal for AI agents, community contributions, and advancing digital philology. Explore sample setups in the repository's documentation or wiki, and contribute refined agents for Persian heritage domains!
+
+---
+
 
 
 ## Getting Started
