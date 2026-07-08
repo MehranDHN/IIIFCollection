@@ -1311,9 +1311,11 @@ Supports:
 
 This tool is particularly useful for creating curated selections from heterogeneous IIIF collections (e.g. mixing archive.org HV.* items with Chester Beatty Library Persian manuscripts or any other IIIF endpoints).
 
-## Natural Language Interaction with IIIFDexir Knowledge Graph: Talk to Your Graph (TTYG) & GraphRAG Integration**
+## Natural Language Interaction with IIIFDexir Knowledge Graph: Talk to Your Graph (TTYG) & GraphRAG Integration
 
 IIIFDexir leverages **Ontotext GraphDB** (and optionally Stardog Voicebox) for seamless natural language querying of its RDF/OWL knowledge graph via **Talk to Your Graph (TTYG)** — a powerful **Graph Retrieval-Augmented Generation (GraphRAG)** capability. This feature transforms complex SPARQL-based exploration into intuitive conversations, making the rich semantic data accessible to scholars, researchers, curators, and AI agents without requiring query language expertise.
+
+![Natural Language InteractionQuery 7](/IIIFCollection/images/TTYG_Slide02.jpg)
 
 ### Core Capabilities
 - **Conversational Interface**: Ask questions in plain English (or Persian) about manuscripts, folios, iconography, agents, episodes, or variants. TTYG retrieves relevant triples from the graph, grounds LLM responses in verifiable data, and minimizes hallucinations.
@@ -1324,8 +1326,7 @@ IIIFDexir leverages **Ontotext GraphDB** (and optionally Stardog Voicebox) for s
 
 This bridges the gap between human intuition and machine-readable structured data, accelerating discovery in dispersed collections like the *Shahnameh of Shah Tahmasp*.
 
-### Recent Enhancements: Canvas-to-Content Element Decomposition
-The latest iterations of IIIFDexir significantly enrich the graph through **fine-grained decomposition** of IIIF Canvases. Each folio Canvas now breaks into typed **content elements** (e.g., `CroppedFigure`, `LinguisticObject`), enabling precise, context-aware queries. This directly powers more accurate GraphRAG responses.
+The latest iterations of IIIFDexir significantly enrich the graph through **fine-grained decomposition** of IIIF Canvases. Each folio Canvas now breaks into typed **content elements** (e.g., `CroppedFigure`, `LinguisticObject`), enabling precise, context-aware queries. This directly powers more accurate `GraphRAG` responses.
 
 **Example Questions & Interactions** (powered by the enhanced ontology):
 
