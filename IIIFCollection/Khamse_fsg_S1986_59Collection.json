@@ -1,0 +1,3665 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/Khamse_fsg_S1986_59Collection.json",
+    "@type": "sc:Collection",
+    "label": "Khamsa (Quintet) by Nizami FS-7421",
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 70 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "summary": {
+        "en": [
+            "Detached folio from the Manuscript; Khamsa (Quintet) by Nizami; text: Persian in black nasta'liq script; illuminated headings in white; 239 folios with 4 sarlawhs (fols. 1 verso, 74 verso, 124 verso, 172 verso), 17 paintings (fols. 12 recto, 20 verso, 36 verso, 39 verso, 61 verso, 100recto, 102 verso, 105 verso, 107 verso, 113recto, 117 verso, 133 verso, 149 verso, 152recto, 166 verso, 212recto), and 60 imprints of three seals; standard page: 4 columns, 21 lines of text. Binding: The manuscript is in a nineteenth-century lacquer-painted binding and doublures of gold floral motifs on red ground. "
+        ]
+    },
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://ids.si.edu/ids/iiif/FS-7364_15/53,3,3538,5491/700,/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 1086,
+            "width": 701,
+            "service": [
+                {
+                    "id": "https://ids.si.edu/ids/iiif/FS-7364_15",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 1086,
+                    "width": 701,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/DepartedDrawingCollection.json",
+    "manifests": [
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_15",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "15"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Khamsa_of_Nizami"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "schema:IlluminatedManuscript",
+                            "aat:300189604",
+                            "aat:300417769",
+                            "aat:300100007",
+                            "aat:500011082"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_15"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1571 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasPainting",
+                            "IsCover"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_16",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "16"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Khosrow_and_Shirin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011053",
+                            "aat:500011067"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_16"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasIllumination",
+                            "HasText",
+                            "HasOnvan"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_18",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "18"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Khosrow_and_Shirin",
+                            "mdhn:Khosrow_II",
+                            "mdhn:Shirin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087",
+                            "aat:300033936"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_18"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasPainting",
+                            "HasText",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_19",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "19"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Khosrow_and_Shirin",
+                            "mdhn:Khosrow_II",
+                            "mdhn:Shirin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087",
+                            "aat:300033936"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_19"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasPainting",
+                            "HasText",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_20",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "20"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Khosrow_and_Shirin",
+                            "mdhn:Farhad",
+                            "mdhn:Shirin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087",
+                            "aat:300033936"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_20"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasPainting",
+                            "HasText",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_21",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "21"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Khosrow_and_Shirin",
+                            "mdhn:Farhad",
+                            "mdhn:Shirin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087",
+                            "aat:300033936"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_21"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasPainting",
+                            "HasText",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_22",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "22"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:The_Seven_Beauties",
+                            "mdhn:Bahram_V"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011053",
+                            "aat:500011067"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_22"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasOnvan",
+                            "HasText",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_23",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "23"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:The_Seven_Beauties",
+                            "mdhn:Bahram_V"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011053"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_23"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasOnvan",
+                            "HasText"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_24",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "24"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Sunday_Yellow_The_King_who_did_not_want_to_marry",
+                            "mdhn:Bahram_V"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087",
+                            "aat:300033936",
+                            "aat:500011053"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_24"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasOnvan",
+                            "HasText",
+                            "HasPainting",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_25",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "25"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Monday_Green_The_Lovesick_Bishr",
+                            "mdhn:Bahram_V"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087",
+                            "aat:300033936"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_25"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasText",
+                            "HasPainting",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_26",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "26"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Saturday_Black_The_Unfulfilled_Love",
+                            "mdhn:Bahram_V"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087",
+                            "aat:300033936"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_26"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasText",
+                            "HasPainting",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_27",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "27"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Wednesday_Turquoise_Mahan_and_the_Madman",
+                            "mdhn:Bahram_V"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087",
+                            "aat:300033936",
+                            "aat:500011053"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_27"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasOnvan",
+                            "HasText",
+                            "HasPainting",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_28",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "28"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Thursday_Sandal_Good_and_Evil",
+                            "mdhn:Bahram_V"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087",
+                            "aat:300033936",
+                            "aat:500011053"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_28"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasOnvan",
+                            "HasText",
+                            "HasPainting",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_29",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "29"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Friday_White_Tribulations_of_the_Lovers",
+                            "mdhn:Bahram_V"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087",
+                            "aat:300033936",
+                            "aat:500011053"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_29"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasOnvan",
+                            "HasText",
+                            "HasPainting",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_30",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "30"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Layla_and_Majnun"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011053",
+                            "aat:500011067"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_30"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasIllumination",
+                            "HasText",
+                            "HasOnvan",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_31",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "31"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Love_in_School",
+                            "mdhn:Majnun",
+                            "mdhn:Layli"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087",
+                            "aat:300033936",
+                            "aat:500011053"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_31"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasOnvan",
+                            "HasText",
+                            "HasPainting",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_32",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "32"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Death_of_the_Majnuns_father",
+                            "mdhn:Majnun"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_32"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasText",
+                            "HasPainting",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_33",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "33"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Lovers_Encounter",
+                            "mdhn:Majnun",
+                            "mdhn:Layli"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_33"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasText",
+                            "HasPainting",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_34",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "34"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Marriage_of_Layli",
+                            "mdhn:Majnun",
+                            "mdhn:Layli"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_34"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasText",
+                            "HasPainting",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_35",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "35"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Sharaf_Nama",
+                            "mdhn:Iskandar_Dhul_Qarnayn"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011053",
+                            "aat:500011067"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_35"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasIllumination",
+                            "HasText",
+                            "HasOnvan",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_37",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "37"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Iskandar_visit_to_the_Kaba",
+                            "mdhn:Iskandar_Dhul_Qarnayn"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604",
+                            "aat:500011089",
+                            "aat:500011087"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_37"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasText",
+                            "HasPainting",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-7364_36",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Khamsa by Nizami Cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Khamsa by Nizami Cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "36"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Henri_Vever",
+                            "mdhn:François_Mautin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Sharaf_Nama",
+                            "mdhn:Iskandar_Dhul_Qarnayn"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:500011012",
+                            "aat:300189604"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-7364_36"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000144"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1570 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasIllumination",
+                            "HasText",
+                            "HasSeal"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
