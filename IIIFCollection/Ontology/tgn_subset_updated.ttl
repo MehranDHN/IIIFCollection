@@ -1,6 +1,7 @@
 @prefix mdhn: <http://example.com/mdhn/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix tgn: <http://vocab.getty.edu/tgn/> .
 @prefix wd: <https://www.wikidata.org/wiki/> .
 
@@ -66,33 +67,33 @@ mdhn:tgn1000140 a mdhn:GettyTGN ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1000140".
 
 mdhn:tgn7016612 a mdhn:GettyTGN ;
-    rdfs:label "Afghanistan"@en ;
+    rdfs:label "Afghanistan"@en , "افغانستان"@fa;
     mdhn:hasTGNBroader mdhn:tgn1000004 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/7016612". 
 
 mdhn:tgn7002243 a mdhn:GettyTGN ;
-    rdfs:label "Herat"@en ;
+    rdfs:label "Herat"@en , "هرات"@fa;
     mdhn:hasTGNBroader mdhn:tgn7016612 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/7002243". 
 
 mdhn:tgn1001138 a mdhn:GettyTGN ;
-    rdfs:label "Balkh"@en ;
+    rdfs:label "Balkh"@en , "بلخ"@fa;
     mdhn:hasTGNBroader mdhn:tgn7016612 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1001138". 
 
 mdhn:tgn1065477 a mdhn:GettyTGN ;
-    rdfs:label "Mazar-e Sharif"@en ;
+    rdfs:label "Mazar-e Sharif"@en , "مزار شريف"@fa;
     mdhn:hasTGNBroader mdhn:tgn1001138 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1065477".  
    
 
 mdhn:tgn1001264 a mdhn:GettyTGN ;
-    rdfs:label "Ghazni"@en ;
+    rdfs:label "Ghazni"@en , "غزنی"@fa;
     mdhn:hasTGNBroader mdhn:tgn7016612 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1001264". 
 
 mdhn:tgn1001331 a mdhn:GettyTGN ;
-    rdfs:label "Kabul"@en ;
+    rdfs:label "Kabul"@en , "کابل"@fa;
     mdhn:hasTGNBroader mdhn:tgn7016612 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1001331".
 
@@ -108,7 +109,7 @@ mdhn:tgn1001515 a mdhn:GettyTGN ;
  
 
 mdhn:tgn1002052 a mdhn:GettyTGN ;
-    rdfs:label "Halab"@en  ;
+    rdfs:label "Halab"@en , "حلب"@fa;
     mdhn:hasTGNBroader mdhn:tgn1000140 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1002052".    
 
@@ -118,7 +119,7 @@ mdhn:tgn1002052 a mdhn:GettyTGN ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/8723213".
 
 mdhn:tgn1001048 a mdhn:GettyTGN ;
-    rdfs:label "West Azerbaijan"@en ;
+    rdfs:label "West Azerbaijan"@en , "آذربايجان غربی"@fa;
     mdhn:hasTGNBroader mdhn:tgn7000231 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1001048" .
 
@@ -128,18 +129,18 @@ mdhn:tgn1079187 a mdhn:GettyTGN ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1079187" .    
 
 mdhn:tgn1001052 a mdhn:GettyTGN ;
-    rdfs:label "Istanbul"@en ;
+    rdfs:label "Istanbul"@en, "استانبول"@fa;
     mdhn:hasTGNBroader mdhn:tgn1000144 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1001052" .
 
 
 mdhn:tgn1001124 a mdhn:GettyTGN ;
-    rdfs:label "Bushehr"@en ;
+    rdfs:label "Bushehr"@en, "بوشهر"@fa;
     mdhn:hasTGNBroader mdhn:tgn7000231 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1001124" .
 
 mdhn:tgn1001158 a mdhn:GettyTGN ;
-    rdfs:label "KohgIluyeh va Bowyer Ahmad"@en ;
+    rdfs:label "KohgIluyeh va Bowyer Ahmad"@en, "کهگيلويه و بوير احمد"@fa ;
     mdhn:hasTGNBroader mdhn:tgn7000231 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1001158" .
 
@@ -149,7 +150,7 @@ mdhn:tgn1001283 a mdhn:GettyTGN ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1001283" .
 
 mdhn:tgn1001364 a mdhn:GettyTGN ;
-    rdfs:label "Iranian Kurdistan"@en ;
+    rdfs:label "Iranian Kurdistan"@en , "کردستان ايران"@fa ;
     mdhn:hasTGNBroader mdhn:tgn7000231 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1001364" .
 
@@ -158,19 +159,25 @@ mdhn:tgn1079298 a mdhn:GettyTGN ;
     mdhn:hasTGNBroader mdhn:tgn1001364 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1079298" .
 
-mdhn:tgn7029812 a mdhn:GettyTGN ;
-    rdfs:label "Qazvin"@en, "قزوين"@fa ;
-    mdhn:hasTGNBroader mdhn:tgn1001364 ;
-    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/7029812" .   
-
 mdhn:tgn1079247 a mdhn:GettyTGN ;
-    rdfs:label "Qazvin"@en, "قزوين"@fa ;
+    rdfs:label "Qazvin"@en, "شهر قزوين"@fa ;
     mdhn:hasTGNBroader mdhn:tgn7029812 ;
-    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1079247" .      
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1079247" . 
+
+mdhn:tgn7029812 a mdhn:GettyTGN ;
+    rdfs:label "Qazvin"@en, "استان قزوين"@fa ;
+    mdhn:hasTGNBroader mdhn:tgn7000231 ;
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/7029812" .      
+    
 mdhn:tgn1079300 a mdhn:GettyTGN ;
     rdfs:label "Saqqez"@en, "سقز"@fa ;
     mdhn:hasTGNBroader mdhn:tgn1001364 ;
-    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1079300" .         
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1079300" .  
+    
+mdhn:tgn9203565 a mdhn:GettyTGN ;
+    rdfs:label "Shahrestan-e Varamin"@en, "شهرستان ورامين"@fa ;
+    mdhn:hasTGNBroader mdhn:tgn7002004 ;
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/9203565" .            
 
 mdhn:tgn1001416 a mdhn:GettyTGN ;
     rdfs:label "MarkazI"@en, "مرکزی"@fa ;
@@ -198,7 +205,7 @@ mdhn:tgn1001576 a mdhn:GettyTGN ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1001576" .
 
 mdhn:tgn1001604 a mdhn:GettyTGN ;
-    rdfs:label "Yazd"@en, "يرد"@fa ;
+    rdfs:label "Yazd"@en, "يزد"@fa ;
     mdhn:hasTGNBroader mdhn:tgn7000231 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1001604" .
 
@@ -530,10 +537,7 @@ mdhn:tgn7029806 a mdhn:GettyTGN ;
     mdhn:hasTGNBroader mdhn:tgn7000231 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/7029806" .
 
-mdhn:tgn7029812 a mdhn:GettyTGN ;
-    rdfs:label "Qazvin"@en ;
-    mdhn:hasTGNBroader mdhn:tgn7000231 ;
-    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/7029812" .
+
 
 mdhn:tgn7594628 a mdhn:GettyTGN ;
     rdfs:label "Khorasan-e Jonubi"@en ;
@@ -983,6 +987,17 @@ mdhn:tgn1079239 a mdhn:GettyTGN ;
 mdhn:tgn0000500 a mdhn:FeaturedSitesOrBuilding ;
     rdfs:label "Alborz High School"@en, "مدرسه عالی البرز"@fa ;
     mdhn:hasTGNBroader mdhn:tgn7002004 ;
-    owl:sameAs wd:Q3100918 ;
-    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000500" .         
+    skos:exactMatch wd:Q3100918 ;
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000500" .   
 
+mdhn:tgn0000510 a mdhn:FeaturedSitesOrBuilding ;
+    rdfs:label "Islamic Consultative Assembly Building"@en, "ساختمان مجلس شورا بهارستان"@fa ;
+    mdhn:hasTGNBroader mdhn:tgn7002004 ;
+    skos:exactMatch wd:Q56357070 ;
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000510" .               
+
+mdhn:tgn0000511 a mdhn:FeaturedSitesOrBuilding ;
+    rdfs:label "Tower of Silence"@en, "برج خاموشان"@fa ;
+    mdhn:hasTGNBroader mdhn:tgn1001604 ;
+    skos:exactMatch wd:Q1157739 ;
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000510" .     

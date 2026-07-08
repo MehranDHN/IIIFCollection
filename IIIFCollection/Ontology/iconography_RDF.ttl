@@ -1,16 +1,15 @@
-@prefix mdhn: <http://example.com/mdhn/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix wd: <https://www.wikidata.org/wiki/> .
-@prefix schema: <http://schema.org/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix tgm: <http://id.loc.gov/vocabulary/graphicMaterials/> .
-@prefix tgn: <http://vocab.getty.edu/tgn/> .
 @prefix fhkb: <http://www.example.com/genealogy.owl#> .
 @prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix mdhn: <http://example.com/mdhn/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
+@prefix tgm: <http://id.loc.gov/vocabulary/graphicMaterials/> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 mdhn:smithy a mdhn:JobsAndCreativity ;
    rdfs:label "smithy"@en, "آهنگری، کارگاه آهنگری"@fa;
@@ -143,11 +142,17 @@ mdhn:Minaret a mdhn:ArchitecturalConceptOrElement ;
 mdhn:Mosques a mdhn:ArchitecturalConceptOrElement ;
    rdfs:label "Mosques"@en, "مسجد"@fa;
    skos:exactMatch mdhn:aat300007544, mdhn:tgm006778_Mosques;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q32815" .   
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q32815" .
+
+mdhn:Fortress a mdhn:ArchitecturalConceptOrElement ;
+   rdfs:label "Fortress"@en, "قلعه"@fa;
+   skos:exactMatch mdhn:aat300006894, mdhn:tgm004239_Forts__fortifications;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q57831" .   
+    
 
 mdhn:Building_Ornament a mdhn:ArchitecturalConceptOrElement ;
    rdfs:label "Minaret"@en, "تزئينات معماری"@fa;
-   skos:exactMatch mdhn:aat300378995, mdhn:tgm000453_Architectural_decorations__ornaments;
+   skos:exactMatch mdhn:aat300378995, mdhn:tgm000453_Architectural_decorations__ornaments , mdhn:sh85036229_Decoration_and_ornament;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q12043387" .               
 
 mdhn:howdah a mdhn:TravelsAndTransportation ;
@@ -250,6 +255,7 @@ mdhn:Cave a mdhn:NaturalElement ;
 
 mdhn:Feasting a mdhn:MonarchOrHistoricalCeremony ;
     rdfs:label "Feasting"@en , "بزم"@fa ;
+    skos:relatedMatch mdhn:300073261;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q200538" .  
 
 mdhn:Soldier a mdhn:BattleSignAndEquipment;
@@ -317,21 +323,26 @@ mdhn:Glazed_Tile a mdhn:ArchitecturalConceptOrElement ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q76827920" .         
 
 mdhn:Cypress a mdhn:NaturalElement ;
-    rdfs:label "Cypress"@en , "سرو"@fa ;
+    rdfs:label "Cupressus"@en , "سرو"@fa ;
+    skos:relatedMatch mdhn:aat300132410;
+    skos:exactMatch mdhn:aat300343641;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q14169641" .
 
 mdhn:Plantanus_Orientalis a mdhn:NaturalElement ;
     rdfs:label "Plantanus orientalis"@en , "چنار"@fa ;
     skos:exactMatch mdhn:aat300375194;
+    skos:relatedMatch mdhn:aat300132410;    
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q161105" .    
 
 mdhn:Pine_Tree a mdhn:NaturalElement ;
     rdfs:label "Pine Tree"@en , "کاج"@fa ;
+    skos:relatedMatch mdhn:aat300132410;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q59668787" .    
 
 mdhn:Pinus a mdhn:NaturalElement ;
     rdfs:label "Pinus"@en , "صنوبر"@fa ;
     skos:exactMatch mdhn:aat300343658;
+    skos:relatedMatch mdhn:aat300132410;    
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q26782" .      
 
 mdhn:Persian_Garden a mdhn:NaturalElement ;
@@ -529,6 +540,7 @@ mdhn:Headgear a mdhn:ClothingAndDress ;
 mdhn:Clothing a mdhn:ClothingAndDress ;
      rdfs:label "Clothing"@en , "لباس و پوشش"@fa ;
      skos:exactMatch mdhn:aat300266639 , mdhn:tgm002198_Clothing__dress ;
+     skos:relatedMatch mdhn:aat300212133 ;     
      mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q26690120" .      
 
 mdhn:headscarf a mdhn:ClothingAndDress ;
@@ -556,11 +568,13 @@ mdhn:GemEncrustedBracelet a mdhn:ClothingAndDress ;
 mdhn:Turban a mdhn:ClothingAndDress ;
     rdfs:label "Turban"@en , "عمامه"@fa ;
     skos:exactMatch mdhn:aat300046127;
+    skos:relatedMatch mdhn:aat300212133 ;    
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q2460567" .     
    
 mdhn:Robe a mdhn:ClothingAndDress ;
     rdfs:label "Robe"@en , "ردا/بالا پوش"@fa ;
     skos:exactMatch mdhn:aat300209852;
+    skos:relatedMatch mdhn:aat300212133 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q345127" .    
   
 
@@ -705,7 +719,14 @@ mdhn:Dog a mdhn:Animals ;
 
 mdhn:Horse a mdhn:Animals, mdhn:TravelsAndTransportation ;
     rdfs:label "Horse"@en , "اسب"@fa ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q726" .                                     
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q726" .
+
+mdhn:Bridge a mdhn:ArchitecturalConceptOrElement, mdhn:TravelsAndTransportation ;
+    rdfs:label "bridge"@en , "پل"@fa ;
+    skos:exactMatch mdhn:aat300007836 , mdhn:tgm001333_Bridges;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q12280" .           
+
+                                     
 
 mdhn:Goat a mdhn:Animals ;
     rdfs:label "Goat"@en , "بز"@fa ;
@@ -846,14 +867,52 @@ mdhn:Cauldron a mdhn:Tableware ;
     skos:exactMatch mdhn:tgm001798_Cauldrons , mdhn:aat300196395;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1317634" .     
 
+mdhn:Gates_of_Qamus a mdhn:HistoricalEvent ;
+    rdfs:label "gates of Qamus"@en , "کندن در قلعه خيبر"@fa ;
+    mdhn:icWikiDataURL "" . 
+
+mdhn:Battle_of_the_Camel a mdhn:HistoricalEvent ;
+    rdfs:label "Battle of the Camel"@en , "جنگ جمل"@fa ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1133574" .  
+
+mdhn:Battle_of_Uhud a mdhn:HistoricalEvent ;
+    rdfs:label "Battle of Uhud"@en , "جنگ احد"@fa ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q488278" .     
+
+mdhn:Sixth_Shia_Imam_Period a mdhn:HistoricalEvent ;
+    rdfs:label "Sixth Shia Imam Period"@en , "امامت جعفر صادق"@fa ;
+    mdhn:icWikiDataURL "" .   
+
+mdhn:The_Farewell_Pilgrimage a mdhn:HistoricalEvent ;
+    rdfs:label "The Farewell Pilgrimage"@en , "حجة الوداع"@fa ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3352027" . 
+
+mdhn:Muhammad_First_Marriage a mdhn:HistoricalEvent ;
+    rdfs:label "Muhammad First Marriage"@en , "ازدواج پيامبر با خديجه"@fa ;
+    mdhn:icWikiDataURL "" .             
+
+mdhn:Exodus a mdhn:HistoricalEvent ;
+    rdfs:label "Exodus"@en , "روايت موسی و فرعون"@fa ;
+    mdhn:icWikiDataURL "" .     
+
+mdhn:Cain_and_Abel a mdhn:MythicalEvent ;
+    rdfs:label "Cain and Abel"@en , "روايت هابيل و قابيل"@fa ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q717996" .           
+
 mdhn:Carpet a mdhn:ObjectsAndTools ;
     rdfs:label "Carpet"@en , "فرش"@fa ;
+    skos:exactMatch mdhn:aat300185756 , mdhn:tgm009055_Rugs, mdhn:sh85020445_Carpets ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q163446" . 
 
 mdhn:Hammer a mdhn:ObjectsAndTools ;
     rdfs:label "Hammer"@en , "چکش"@fa ;
     skos:exactMatch mdhn:aat300024823 , mdhn:tgm004844_Hammers ;  
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q25294" .  
+
+mdhn:Nail a mdhn:ObjectsAndTools ;
+    rdfs:label "Nail"@en , "ميخ"@fa ;
+    skos:exactMatch mdhn:aat300033565 ;  
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q37077" .     
 
 mdhn:CandleHolder a mdhn:ObjectsAndTools ;
     rdfs:label "Candle Holder"@en , "شمعدان"@fa ;
@@ -863,7 +922,12 @@ mdhn:CandleHolder a mdhn:ObjectsAndTools ;
 mdhn:Stick a mdhn:ObjectsAndTools ;
     rdfs:label "Stick"@en , "عصا"@fa ;
     skos:exactMatch mdhn:aat300014681 ; 
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q10971443" .     
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q10971443" .
+
+mdhn:Hookah a mdhn:ObjectsAndTools ;
+    rdfs:label "Hookah"@en , "قليان"@fa ;
+    skos:exactMatch mdhn:aat300259151 ; 
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q105397" .          
 
 mdhn:Torches a mdhn:ObjectsAndTools ;
     rdfs:label "Torches"@en , "مشعل"@fa ;
@@ -903,15 +967,33 @@ mdhn:SunShade a mdhn:ObjectsAndTools ;
 mdhn:Book a mdhn:ObjectsAndTools ;
     rdfs:label "Book"@en , "کتاب"@fa ;
     skos:exactMatch mdhn:aat300028051 ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q571" .    
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q571" .   
+
+mdhn:Curtain  a mdhn:ObjectsAndTools ;
+    rdfs:label "curtain "@en , "پرده"@fa ;
+    skos:exactMatch mdhn:aat300037564 , mdhn:tgm002819_Curtain_walls ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q49005" .      
 
 mdhn:Fence a mdhn:ArchitecturalConceptOrElement ;
     rdfs:label "Fence"@en , "نرده"@fa ;
+    skos:exactMatch mdhn:aat300005044, mdhn:tgm003920_Fences;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q148571" .  
+
+mdhn:Column a mdhn:ArchitecturalConceptOrElement ;
+    rdfs:label "Column"@en , "Column"@fa ;
+    skos:exactMatch mdhn:aat300001650 , mdhn:tgm002319_Columns;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4817" .     
 
 mdhn:Chain a mdhn:ObjectsAndTools ;
     rdfs:label "chain"@en , "زنجير"@fa ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q2397485" . 
+
+mdhn:Coffin a mdhn:ObjectsAndTools ;
+    rdfs:label "coffin"@en , "تابوت"@fa ;
+    skos:exactMatch mdhn:aat300197585 , mdhn:tgm002250_Coffins;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q184418" .     
+
+     
      
 
 mdhn:Puppet_Show a mdhn:Entertainment_Events ;
@@ -936,8 +1018,23 @@ mdhn:DoorKnocker a mdhn:ArchitecturalConceptOrElement ;
 
 mdhn:Rosette a mdhn:SubjectiveConcepts ;
     rdfs:label "rosette"@en , "شمسه"@fa ;
-    skos:exactMatch mdhn:aat300009972 ;
+    skos:exactMatch mdhn:aat300009972  ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1277215" .
+
+mdhn:Veil a mdhn:SubjectiveConcepts ;
+    rdfs:label "Veil"@en , "حجاب"@fa ;
+    skos:exactMatch mdhn:aat300266885  ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q6497446" .    
+
+mdhn:Mourning a mdhn:Emotion ;
+    rdfs:label "mourning"@en , "سوگ و عزا"@fa ;
+    skos:exactMatch mdhn:aat300238450 , mdhn:tgm004732_Grief;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q750652" .
+    
+mdhn:Braid_Hair a mdhn:SubjectiveConcepts ;
+    rdfs:label "Braid Hair"@en , "موی بافته"@fa ;
+    skos:exactMatch mdhn:tgm001287_Braids_Hairdressing ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q31930755" .   
 
 mdhn:Paper_Marbling a mdhn:SubjectiveConcepts ;
     rdfs:label "paper marbling"@en , "کاغذ ابری"@fa ;
@@ -962,6 +1059,21 @@ mdhn:Fragment_Cropped_Pattern a mdhn:SubjectiveConcepts ;
     rdfs:label "fragment cropped pattern"@en , "جزئيات طرح بريده شده"@fa ;
     skos:exactMatch mdhn:aat500011001 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q785116" . 
+
+mdhn:Lithography a mdhn:SubjectiveConcepts ;
+    rdfs:label "Lithography"@en , "ليتوگرافی"@fa ;
+    skos:exactMatch mdhn:aat300053271 , mdhn:tgm006029_Lithography ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q133036" .  
+
+mdhn:Headed_Paper a mdhn:SubjectiveConcepts ;
+    rdfs:label "headed paper"@en , "سربرگ"@fa ;
+    skos:exactMatch mdhn:aat500011071, mdhn:tgm005920_Letterheads ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3180817" .  
+
+mdhn:Logo a mdhn:SubjectiveConcepts ;
+    rdfs:label "Logo"@en , "لوگو"@fa ;
+    skos:exactMatch mdhn:aat300028715, mdhn:tgm006077_Logos ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1886349" .           
 
 mdhn:Marginal_Side_Note a mdhn:SubjectiveConcepts ;
     rdfs:label "Side handwriting note"@en , "حاشيه نويسی دستنويس"@fa ;

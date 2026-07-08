@@ -4,6 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix so: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 
 mdhn:aat300027268 a mdhn:ResourceType ;
@@ -69,11 +70,54 @@ mdhn:aat300025825 a mdhn:ResourceType ;
         mdhn:isGuideTerm "true"^^xsd:boolean ;
         mdhn:hasAATBroader mdhn:aat300024979.  
 
+mdhn:aat300008372 a mdhn:ResourceType ;
+        rdfs:label "villages"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300008350.
+
+mdhn:aat300008350 a mdhn:ResourceType ;
+        rdfs:label "<settlements by form>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300008347.        
+
+mdhn:aat300008347 a mdhn:ResourceType ;
+        rdfs:label "inhabited places"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300008346.
+
+     
+
+
+
+
+
 
 mdhn:aat300024979 a mdhn:ResourceType ;
         rdfs:label "people (agents)"@en ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         mdhn:hasAATBroader mdhn:aat300024978.
+mdhn:aat300004975 a mdhn:ResourceType ;
+        rdfs:label "dovecotes "@en , "کبوتر خانه"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300004971.
+
+
+mdhn:aat300004971 a mdhn:ResourceType ;
+        rdfs:label "birdhouses"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300004963.
+
+mdhn:aat300004963 a mdhn:ResourceType ;
+        rdfs:label "animal housing (agricultural structures)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300004895.   
+
+mdhn:aat300004895 a mdhn:ResourceType ;
+        rdfs:label "agricultural structures"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300004894.              
+
+
 
 mdhn:aat300024978 a mdhn:ResourceType ;
         rdfs:label "People (hierarchy name)"@en ;
@@ -94,6 +138,103 @@ mdhn:aat300266639 a mdhn:ResourceType ;
         rdfs:label "clothing"@en ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         mdhn:hasAATBroader mdhn:aat300178802.
+
+mdhn:aat300015636 a mdhn:ResourceType ;
+        rdfs:label "landscapes (visual works)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300191098 , mdhn:aat300015424.
+
+mdhn:aat300015424 a mdhn:ResourceType ;
+        rdfs:label "views (visual works)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300191088. 
+
+
+
+
+
+
+
+
+
+
+
+mdhn:aat300238962 a mdhn:ResourceType ;
+        rdfs:label "dress (culture-related concept)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300212133. 
+
+mdhn:aat300212133 a mdhn:ResourceType ;
+        rdfs:label "<costume by function>"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300178802. 
+
+       
+
+
+
+mdhn:aat300185756 a mdhn:ResourceType ;
+        rdfs:label "carpets"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300186876.
+
+mdhn:aat300186876 a mdhn:ResourceType ;
+        rdfs:label "<rugs by form>"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300185749.   
+
+mdhn:aat300185749 a mdhn:ResourceType ;
+        rdfs:label "rugs (textiles)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300185748. 
+
+mdhn:aat300185748 a mdhn:ResourceType ;
+        rdfs:label "<coverings and hangings by form>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300185832.  
+
+mdhn:aat300312296 a mdhn:ResourceType ;
+        rdfs:label "photography studios (organizations)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300312293. 
+
+mdhn:aat300312293 a mdhn:ResourceType ;
+        rdfs:label "<studios by function>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300157460. 
+
+
+mdhn:aat300157460 a mdhn:ResourceType ;
+        rdfs:label "studios (organizations)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300025948.
+
+mdhn:aat300025948 a mdhn:ResourceType ;
+        rdfs:label "organizations (groups)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300234770.    
+
+mdhn:aat300234770 a mdhn:ResourceType ;
+        rdfs:label "Organizations (hierarchy name)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300264089.             
+
+
+mdhn:aat300386730 a mdhn:ResourceType ;
+        rdfs:label "spices"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300389917.  
+
+
+mdhn:aat300389917 a mdhn:ResourceType ;
+        rdfs:label "<spices and seasonings>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300254496. 
+
+mdhn:aat300254496 a mdhn:ResourceType ;
+        rdfs:label "food"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300014692. 
 
 mdhn:aat300178802 a mdhn:ResourceType ;
         rdfs:label "costume (mode of fashion)"@en ;
@@ -135,10 +276,26 @@ mdhn:aat300046127 a mdhn:ResourceType ;
         mdhn:hasAATBroader mdhn:aat300209285. 
 
 
+mdhn:aat300028715 a mdhn:ResourceType ;
+        rdfs:label "logos"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300028714. 
 
+mdhn:aat300028714 a mdhn:ResourceType ;
+        rdfs:label "devices (symbols)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300157238.         
 
+mdhn:aat300157238 a mdhn:ResourceType ;
+        rdfs:label "<identifying markings and symbols>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300137955.
 
-
+mdhn:aat500011071 a mdhn:ResourceType ;
+        rdfs:label "headed paper"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300157238.         
 
 
 
@@ -154,9 +311,32 @@ mdhn:aat300234117 a mdhn:ResourceType ;
         mdhn:hasAATBroader mdhn:aat300117143.  
 
 mdhn:aat300234093 a mdhn:ResourceType ;
-        rdfs:label "religious visual works "@en ;
+        rdfs:label "religious visual works"@en ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
-        mdhn:hasAATBroader mdhn:aat300191089 , mdhn:aat300234098.                
+        mdhn:hasAATBroader mdhn:aat300191089 , mdhn:aat300234098.  
+
+mdhn:aat300053271 a mdhn:ResourceType ;
+        rdfs:label "lithography"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300199637. 
+
+mdhn:aat300199637 a mdhn:ResourceType ;
+        rdfs:label "planographic printing processes"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300199635.            
+
+
+mdhn:aat300199635 a mdhn:ResourceType ;
+        rdfs:label "printing processes"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300185289.
+
+mdhn:aat300185289 a mdhn:ResourceType ;
+        rdfs:label "<printing and printing processes and techniques>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300053159.             
+
+
 
    
 mdhn:aat300191089 a mdhn:ResourceType ;
@@ -350,7 +530,14 @@ mdhn:aat300194347 a mdhn:ResourceType ;
     rdfs:label "visual poetry"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300055931 .
+
+mdhn:aat300081762 a mdhn:ResourceType ;
+    rdfs:label "muqarnas"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300001987 .    
   
+
+
 
 mdhn:aat300028710 a mdhn:ResourceType ;
     rdfs:label "colophons (parts of books)"@en , "انجامه"@fa ;
@@ -381,7 +568,7 @@ mdhn:aat500011067 a mdhn:ResourceType ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300189604.  
 
-mdhn:aat500011067 a mdhn:ResourceType ;
+mdhn:aat500011070 a mdhn:ResourceType ;
     rdfs:label "Marble Page(Abri) Folio"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
@@ -488,17 +675,40 @@ mdhn:aat500011054 a mdhn:ResourceType ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300055027. 
 
+mdhn:aat300223941 a mdhn:ResourceType ;
+    rdfs:label "hand mirrors"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300165317.     
+
+mdhn:aat300165317 a mdhn:ResourceType ;
+    rdfs:label "<mirrors by form>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300037682. 
+
+mdhn:aat300037682 a mdhn:ResourceType ;
+    rdfs:label "mirrors"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300037342. 
+
+mdhn:aat300045659 a mdhn:ResourceType ;
+    rdfs:label "cases (containers)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300194507.   
+
+mdhn:aat300194507 a mdhn:ResourceType ;
+    rdfs:label "<containers by form>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300197197.           
+ 
+
 mdhn:aat500011055 a mdhn:ResourceType ;
     rdfs:label "Full Page Painting Content"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat500011054.
 
-mdhn:aat500011056 a mdhn:ResourceType ;
-    rdfs:label "Illuminated Shamsa Content"@en ;
-    mdhn:isGuideTerm "false"^^xsd:boolean ;
-    mdhn:isInExtendedScope "true"^^xsd:boolean ;
-    mdhn:hasAATBroader mdhn:aat300055027. 
+
+
 
 mdhn:aat500011057 a mdhn:ResourceType ;
     rdfs:label "Marginal Note Content"@en ;
@@ -558,12 +768,102 @@ mdhn:aat300180362 a mdhn:ResourceType ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300137954.
 
+mdhn:aat300132410 a mdhn:ResourceType ;
+    rdfs:label "trees (woody plants)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300137954.
+
+mdhn:aat300132372 a mdhn:ResourceType ;
+    rdfs:label "woody plants"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300132360. 
+
+    
+
+mdhn:aat300343641 a mdhn:ResourceType ;
+    rdfs:label "Cupressus (genus)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300343668. 
+
+
+mdhn:aat300343668 a mdhn:ResourceType ;
+    rdfs:label "Cupressaceae (family)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300343666. 
+
+mdhn:aat300343666 a mdhn:ResourceType ;
+    rdfs:label "Pinales (order)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300343663.     
+
+mdhn:aat300343663 a mdhn:ResourceType ;
+    rdfs:label "Pinopsida (class)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300265702.
+
+mdhn:aat300265702 a mdhn:ResourceType ;
+    rdfs:label "Coniferophyta (division)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300132360.
+                  
+
+
+
 
 mdhn:aat300055907 a mdhn:ResourceType ;
     rdfs:label "<genres in literature and performing arts>"@en ;
     mdhn:isGuideTerm "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300056107. 
  
+mdhn:aat300008795 a mdhn:ResourceType ;
+    rdfs:label "Amountains (landforms)"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300266060 . 
+
+mdhn:aat300266060 a mdhn:ResourceType ;
+    rdfs:label "landforms (terrestrial)"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300387653 .
+
+mdhn:aat300387653 a mdhn:ResourceType ;
+    rdfs:label "terrestrial features (natural)"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300387698 .   
+
+mdhn:aat300387698 a mdhn:ResourceType ;
+    rdfs:label "hypsographic features"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300387105 . 
+
+mdhn:aat300387105 a mdhn:ResourceType ;
+    rdfs:label "physical features"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300343839 .
+
+mdhn:aat300343839 a mdhn:ResourceType ;
+    rdfs:label "earth features"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300068654 . 
+
+mdhn:aat300068654 a mdhn:ResourceType ;
+    rdfs:label "earth sciences concepts"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300065446 .    
+
+mdhn:aat300065446 a mdhn:ResourceType ;
+    rdfs:label "physical sciences concepts"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300056006 .
+
+mdhn:aat300056006 a mdhn:ResourceType ;
+    rdfs:label "physical sciences concepts"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300055126 .
+
+
+
+
+
 
 mdhn:aat3300055126 a mdhn:ResourceType ;
     rdfs:label "Associated Concepts (hierarchy name)"@en ;
@@ -576,8 +876,36 @@ mdhn:aat300264086 a mdhn:ResourceType ;
     mdhn:isFacet "true"^^xsd:boolean .    
 
 
+mdhn:aat300238450 a mdhn:ResourceType ;
+    rdfs:label "mourning"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300055162 .
 
+mdhn:aat300055162 a mdhn:ResourceType ;
+    rdfs:label "grief"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300379953 .  
 
+mdhn:aat300379953 a mdhn:ResourceType ;
+    rdfs:label "negative emotions"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300055150 .    
+
+mdhn:aat300055150 a mdhn:ResourceType ;
+    rdfs:label "emotion"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300055148 .   
+
+mdhn:aat300055148 a mdhn:ResourceType ;
+    rdfs:label "psychological concepts"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300239103 .      
+
+mdhn:aat300239103 a mdhn:ResourceType ;
+    rdfs:label "social science concepts"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300055126 .
+         
 
 
 mdhn:aat300201014 a mdhn:ResourceType ;
@@ -2157,7 +2485,19 @@ mdhn:aat500011068 a mdhn:ResourceType ;
 mdhn:aat300001280 a mdhn:ResourceType ;
     rdfs:label "domes (architectural elements)"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
-    mdhn:hasAATBroader mdhn:aat300052243 .  
+    mdhn:hasAATBroader mdhn:aat300052243 . 
+
+mdhn:aat300001285 a mdhn:ResourceType ;
+    rdfs:label "onion domes"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300001280 .  
+
+
+
+
+
+
+
 
 mdhn:aat300052243 a mdhn:ResourceType ;
     rdfs:label "<domes and dome components>"@en ;
@@ -2266,6 +2606,29 @@ mdhn:aat300027447 a mdhn:ResourceType ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300027441 .
 
+mdhn:aat300264247 a mdhn:ResourceType ;
+    rdfs:label "flower (plant material)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300124117 .
+
+mdhn:aat300124117 a mdhn:ResourceType ;
+    rdfs:label "plant material"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300265629 .   
+
+mdhn:aat300265629 a mdhn:ResourceType ;
+    rdfs:label "biological material"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300206573 .     
+
+mdhn:aat300206573 a mdhn:ResourceType ;
+    rdfs:label "<materials by origin>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300010358 .     
+
+
+
+
 mdhn:aat300027451 a mdhn:ResourceType ;
     rdfs:label "résumés (personnel records)"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
@@ -2280,6 +2643,45 @@ mdhn:aat300027462 a mdhn:ResourceType ;
     rdfs:label "work-flow documents"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300027425 .
+
+mdhn:aat300006941 a mdhn:ResourceType ;
+    rdfs:label "guardhouses"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300006937 . 
+
+mdhn:aat300006937 a mdhn:ResourceType ;
+    rdfs:label "military security buildings"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300006887 . 
+
+mdhn:aat300006887 a mdhn:ResourceType ;
+    rdfs:label "military buildings"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300004894 .   
+
+mdhn:aat300003228 a mdhn:ResourceType ;
+    rdfs:label "stairs (series of steps)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300073803 . 
+
+mdhn:aat300073803 a mdhn:ResourceType ;
+    rdfs:label "<stairs and stair components>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300003217 . 
+
+mdhn:aat300003217 a mdhn:ResourceType ;
+    rdfs:label "circulation elements"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300000885 . 
+
+                  
+
+
+
+
+
+
+
 
 mdhn:aat300027463 a mdhn:ResourceType ;
     rdfs:label "progress reports"@en ;
@@ -2424,7 +2826,61 @@ mdhn:aat300123558 a mdhn:ResourceType ;
 mdhn:aat300131647 a mdhn:ResourceType ;
         rdfs:label "Color (hierarchy name)"@en;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
-        mdhn:hasAATBroader mdhn:aat300264087 .        
+        mdhn:hasAATBroader mdhn:aat300264087 .  
+
+mdhn:aat300001650 a mdhn:ResourceType ;
+        rdfs:label "column components"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300264087 . 
+
+mdhn:aat300259151 a mdhn:ResourceType ;
+        rdfs:label "hookahs (smoking equipment)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300263308 . 
+
+mdhn:aat300263308 a mdhn:ResourceType ;
+        rdfs:label "water pipes"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300236658 . 
+
+mdhn:aat300236658 a mdhn:ResourceType ;
+        rdfs:label "<equipment for smoking and tobacco use>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300238982 . 
+
+mdhn:aat300238982 a mdhn:ResourceType ;
+        rdfs:label "personal equipment"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300239170 .   
+
+mdhn:aat300239170 a mdhn:ResourceType ;
+        rdfs:label "<equipment by context>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300122241 . 
+
+mdhn:aat300266885 a mdhn:ResourceType ;
+        rdfs:label "hijabs "@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300122241 . 
+
+mdhn:aat300266885 a mdhn:ResourceType ;
+        rdfs:label "hijabs "@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300046128 .   
+
+mdhn:aat300046128 a mdhn:ResourceType ;
+        rdfs:label "veils (headcloths) "@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300213003 . 
+
+                      
+
+
+
+
+
+                    
+
 
 mdhn:aat300264087 a mdhn:ResourceType ;
         rdfs:label "Physical Attributes Facet"@en;
@@ -2574,9 +3030,10 @@ mdhn:aat300264550 a mdhn:ResourceType;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         mdhn:hasAATBroader mdhn:aat300264092 .
 
-mdhn:aat30010007 a mdhn:ScriptStyleType ;
+mdhn:aat300100007 a mdhn:ScriptStyleType ;
     rdfs:label "Lacquer Binding"@en, "جلد لاکی"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
+    skos:relatedMatch mdhn:aat300014916;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300417741 .                
 
@@ -2690,7 +3147,7 @@ mdhn:aat300209274 a mdhn:ResourceType;
 mdhn:aat300209273 a mdhn:ResourceType;
         rdfs:label "costume accessories"@en;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
-        mdhn:hasAATBroader mdhn:aat300404589 , mdhn:aat300404589 . 
+        mdhn:hasAATBroader mdhn:aat300404589 , mdhn:aat300178802 . 
 
 mdhn:aat300404589 a mdhn:ResourceType;
         rdfs:label "cpersonal accessories"@en;
@@ -2788,7 +3245,29 @@ mdhn:aat300390503 a mdhn:ResourceType;
 mdhn:aat300265673 a mdhn:ResourceType;
         rdfs:label "Living Organisms (hierarchy name)"@en;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
-        mdhn:hasAATBroader mdhn:aat300264089 .                  
+        mdhn:hasAATBroader mdhn:aat300264089 .  
+  
+
+mdhn:aat300007836 a mdhn:ResourceType;
+        rdfs:label "bridges (built works)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300007835 .  
+
+mdhn:aat300007835 a mdhn:ResourceType;
+        rdfs:label "<transportation structures by form>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300120693 .  
+
+mdhn:aat300120693 a mdhn:ResourceType;
+        rdfs:label "transportation structures"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300004894 .          
+
+
+
+
+
+
         
 mdhn:aat300041759 a mdhn:ResourceType;
         rdfs:label "Tambourine"@en;
@@ -2974,7 +3453,18 @@ mdhn:aat300010357 a mdhn:ResourceType;
 mdhn:aat300264091 a mdhn:ResourceType;
         rdfs:label "Materials Facet (hierarchy name)"@en ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
-        mdhn:isFacet "true"^^xsd:boolean .                                                                   
+        mdhn:isFacet "true"^^xsd:boolean . 
+
+mdhn:aat300014916 a mdhn:ResourceType;
+        rdfs:label "lacquer (material)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300014908 . 
+
+mdhn:aat300014908 a mdhn:ResourceType;
+        rdfs:label "<coating by composition or origin>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300014907 . 
+
 
 mdhn:aat300264089 a mdhn:ResourceType;
         rdfs:label "Agents Facet"@en ;
@@ -3089,6 +3579,11 @@ mdhn:aat300028702 a mdhn:ResourceType;
         rdfs:label "inscriptions"@en ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         mdhn:hasAATBroader mdhn:aat300137954 .  
+
+mdhn:aat300404746 a mdhn:ResourceType;
+        rdfs:label "couplets"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300251498 .          
                                  
 
 mdhn:aat300203061 a mdhn:ResourceType;
@@ -3106,6 +3601,62 @@ mdhn:aat300033619 a mdhn:ResourceType;
         mdhn:isGuideTerm "true"^^xsd:boolean ;
         mdhn:hasAATBroader mdhn:aat300033618 . 
 
+mdhn:aat500011056 a mdhn:ResourceType;
+        rdfs:label "Qajar Style Portrait(Royals)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300033619 . 
+
+mdhn:aat500011082 a mdhn:ResourceType;
+        rdfs:label "Persian flowers and bird"@en , "گل و مرغ"@fa ;
+        rdfs:comment "Sometime with Butterfly too"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300033619 .  
+
+mdhn:aat500011083 a mdhn:ResourceType;
+        rdfs:label "Persian flower"@en , "گل ايرانی(زنبق، سوسن، نيلوفر...)"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300033619 .  
+
+mdhn:aat500011084 a mdhn:ResourceType;
+        rdfs:label "battle scene"@en , "صحنه نبرد"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300033619 .
+
+mdhn:aat500011085 a mdhn:ResourceType;
+        rdfs:label "sufism motif"@en , "موتيف صوفيگری"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300033619 .  
+
+mdhn:aat500011086 a mdhn:ResourceType;
+        rdfs:label "landscape"@en , "چشم انداز"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300033619 . 
+
+mdhn:aat500011087 a mdhn:ResourceType;
+        rdfs:label "Narrative"@en , "روايی/قصه گو"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300033619 .  
+
+mdhn:aat500011088 a mdhn:ResourceType;
+        rdfs:label "Figural"@en , "نگارگری چهره"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300033619 .  
+
+mdhn:aat500011089 a mdhn:ResourceType;
+        rdfs:label "Hunting as Hobby"@en , "شکار"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300033619 .                                                                         
+        
+
 mdhn:aat500011000 a mdhn:ResourceType;
         rdfs:label "Halkari"@en , "تشعير/حلکاری"@fa ;
         mdhn:isGuideTerm "true"^^xsd:boolean ;
@@ -3117,6 +3668,34 @@ mdhn:aat300236072 a mdhn:ResourceType ;
     rdfs:label "bolsters (soft furnishings)"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300236071 .
+
+mdhn:aat300037564 a mdhn:ResourceType ;
+    rdfs:label "curtains (opening hangings)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300203683 .  
+
+mdhn:aat300203683 a mdhn:ResourceType ;
+    rdfs:label "<coverings and hangings for openings>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat3300197364 . 
+
+mdhn:aat3300197364 a mdhn:ResourceType ;
+    rdfs:label "<coverings and hangings by location or context>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300185832 .  
+
+mdhn:aat300185832 a mdhn:ResourceType ;
+    rdfs:label "<coverings and hangings by specific type>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300205012 .   
+
+mdhn:aat300205012 a mdhn:ResourceType ;
+    rdfs:label "coverings and hangings"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300037342 . 
+
+                  
+    
 
 mdhn:aat300236071 a mdhn:ResourceType ;
     rdfs:label "soft furnishings"@en ;
@@ -3289,6 +3868,16 @@ mdhn:aat300033565 a mdhn:ResourceType ;
     mdhn:hasAATBroader mdhn:aat300036363 . 
 
 
+mdhn:aat300006894 a mdhn:ResourceType ;
+    rdfs:label "fortresses"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300006888 . 
+
+mdhn:aat300006888 a mdhn:ResourceType ;
+    rdfs:label "fortifications (built environment)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300004894 . 
+
 mdhn:aat300036363 a mdhn:ResourceType ;
     rdfs:label "fasteners"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
@@ -3381,6 +3970,8 @@ mdhn:aat300195198 a mdhn:ScriptStyleType ;
     rdfs:label "thuluth"@en , "ثلث"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
+
+
 
 
 mdhn:aat300265530 a mdhn:ScriptStyleType ;
@@ -3809,9 +4400,76 @@ mdhn:aat300191098 a mdhn:AATSubject ;
     mdhn:isGuideTerm "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300191086 .   
      
+mdhn:aat300185335 a mdhn:AATSubject ;
+    rdfs:label "carriages (vehicles)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300227816 , mdhn:aat300227856 . 
+
+mdhn:aat300227816 a mdhn:AATSubject ;
+    rdfs:label "passenger vehicles"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300227810 .
+
+mdhn:aat300227810 a mdhn:AATSubject ;
+    rdfs:label "<freewheeled vehicles by form or function>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300227809 .  
+
+mdhn:aat300227809 a mdhn:AATSubject ;
+    rdfs:label "freewheeled vehicles"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300215717 .    
+
+mdhn:aat300215717 a mdhn:AATSubject ;
+    rdfs:label "<land vehicles by form>"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300212968 .   
+
+mdhn:aat300073261 a mdhn:AATSubject ;
+    rdfs:label "cultural ceremonies"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300054754 . 
+
+mdhn:aat300054754 a mdhn:AATSubject ;
+    rdfs:label "ceremonies "@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300417518 . 
+
+
+
+
+mdhn:aat300227856 a mdhn:AATSubject ;
+    rdfs:label "horse-drawn vehicles"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300228246 .
+
+mdhn:aat300228246 a mdhn:AATSubject ;
+    rdfs:label "<land vehicles by method of propulsion>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300212968 .    
+
+
+mdhn:aat300212968 a mdhn:AATSubject ;
+    rdfs:label "land vehicles"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300219258 .
+
+
+mdhn:aat300219258 a mdhn:AATSubject ;
+    rdfs:label "vehicles (transportation)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300042929 .
+
+mdhn:aat300042929 a mdhn:AATSubject ;
+    rdfs:label "Transportation Vehicles (hierarchy name)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300264551 .
+
+
+
 
 mdhn:aat300055126 a mdhn:AATSubject ;
-    rdfs:label "Associated Concepts"@en ;
+    rdfs:label "Associated Concepts (hierarchy name)"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300264086 . 
 
@@ -4132,6 +4790,18 @@ mdhn:aat300248183 a mdhn:AATSubject ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300451356 .
 
+mdhn:aat300033936 a mdhn:AATSubject ;
+    rdfs:label "miniatures (paintings)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300033638 .  
+
+mdhn:aat300033638 a mdhn:AATSubject ;
+    rdfs:label "<paintings by form>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300033618 .  
+
+          
+
 
 mdhn:aat300033618 a mdhn:AATSubject ;
     rdfs:label "paintings (visual works)"@en ;
@@ -4139,7 +4809,7 @@ mdhn:aat300033618 a mdhn:AATSubject ;
     mdhn:hasAATBroader mdhn:aat300191091 .       
 
 mdhn:aat300033701 a mdhn:AATSubject ;
-    rdfs:label "<paintings by material or technique>canvas paintings>"@en ;
+    rdfs:label "<paintings by material or technique>"@en ;
     mdhn:isGuideTerm "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300033618 . 
 
@@ -4336,6 +5006,12 @@ mdhn:aat300197200 a mdhn:ResourceType ;
     rdfs:label "<containers by function or context>"@en ;
     mdhn:isGuideTerm "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300197197 .
+
+mdhn:aat500011072 a mdhn:ResourceType ;
+    rdfs:label "Pen Box"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300197200 .    
 
 mdhn:aat300038879 a mdhn:ResourceType ;
     rdfs:label "Bible boxes"@en ;

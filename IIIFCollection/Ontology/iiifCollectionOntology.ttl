@@ -16,6 +16,11 @@
 @prefix fhkb: <http://www.example.com/genealogy.owl#> .
 @prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
 
+
+mdhn:IIIFDexirOntology a owl:Ontology ;
+    rdfs:label "IIIFDexir Project Ontology"@en ;
+    rdfs:comment "An ontology for IIIFDexir project and its resources based on a provided JSON model."@en .
+
 mdhn:ResourceCollection a owl:Class ;
     rdfs:comment "A collection of IIIF resources that contain manifests and nested collections." ;
     rdfs:label "Resource Collection" .
@@ -35,7 +40,12 @@ mdhn:CanvasContentElemet a owl:Class ;
 mdhn:LinguisticElement a owl:Class ;
     rdfs:comment "Linguistic Object in each canvas" ;
     rdfs:label "LinguisticElement";
-    rdfs:subClassOf  mdhn:CanvasContentElemet.   
+    rdfs:subClassOf  mdhn:CanvasContentElemet. 
+
+mdhn:PhotographElement a owl:Class ;
+    rdfs:comment "Photograph or portrailt drawing Object in each canvas" ;
+    rdfs:label "PhotographElement";
+    rdfs:subClassOf  mdhn:CanvasContentElemet.         
 
 mdhn:Cropped_Details a owl:Class ;
     rdfs:comment "Cropped Details from an image" ;
@@ -136,7 +146,20 @@ mdhn:NaturalElement a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
     rdfs:comment "SubClass of Iconography related to Natural Phenumena and Elements" ;
     rdfs:label "NaturalElement" . 
-        
+
+mdhn:Events a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to cover Events" ;
+    rdfs:label "NaturalElement" .     
+mdhn:HistoricalEvent a owl:Class ;
+    rdfs:subClassOf mdhn:Events ;
+    rdfs:comment "SubClass of Iconography related to Historical Events" ;
+    rdfs:label "HistoricalEvent" .     
+
+mdhn:MythicalEvent a owl:Class ;
+    rdfs:subClassOf mdhn:Events ;
+    rdfs:comment "SubClass of Iconography related to Mythical Events" ;
+    rdfs:label "MythicalEvent" .          
 mdhn:Animals a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
     rdfs:comment "SubClass of Iconography related to Animals" ;
@@ -180,7 +203,12 @@ mdhn:ObjectsAndTools a owl:Class ;
 mdhn:SubjectiveConcepts a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
     rdfs:comment "SubClass of Iconography related Concepts" ;
-    rdfs:label "SubjectiveConcepts" .                           
+    rdfs:label "SubjectiveConcepts" . 
+
+mdhn:Emotion a owl:Class ;
+    rdfs:subClassOf mdhn:SubjectiveConcepts ;
+    rdfs:comment "SubClass of SubjectiveConcepts" ;
+    rdfs:label "Emotion" .                                
 
 
 mdhn:NarrativeEpisode a owl:Class ;
@@ -350,7 +378,20 @@ mdhn:authorOf a owl:ObjectProperty ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "author of" ;
     rdfs:range mdhn:AgentialInfo ;
-    owl:inverseOf mdhn:hasParticipantInRoleWriter .   
+    owl:inverseOf mdhn:hasParticipantInRoleWriter . 
+
+mdhn:hasParticipantInRoleBinding a owl:ObjectProperty ;
+    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleBinding" ;
+    rdfs:range mdhn:AgentialInfo .  
+mdhn:binderOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a binder to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "binder of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleBinding .          
 
 mdhn:hasParticipantInRoleDirectorOfWorkShop a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
@@ -874,6 +915,23 @@ mdhn:folioHasNote a owl:DatatypeProperty ;
     ] ;
     rdfs:label "folioHasNote" ;
     rdfs:range xsd:boolean . 
+
+mdhn:folioHasHeadedPaper a owl:DatatypeProperty ;
+    rdfs:comment "Folio has Headed Paper?" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
+    rdfs:label "folioHasHeadedPaper" ;
+    rdfs:range xsd:boolean .   
+mdhn:folioHasLogo a owl:DatatypeProperty ;
+    rdfs:comment "Folio has logo?" ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
+    ] ;
+    rdfs:label "folioHasLogo" ;
+    rdfs:range xsd:boolean .     
 
 mdhn:folioHasMarginalNote a owl:DatatypeProperty ;
     rdfs:comment "Folio has marginal note?" ;
