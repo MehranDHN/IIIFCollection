@@ -5,8 +5,8 @@
 ## Manifest: Kitāb-i Shāhnāmah Peck Shahnamah
 
 ## ResourceCanvas: f.f.1a — Peck Shahnamah, Binding, Front Cover
-- **Canvas Types:** aat:300189604, aat:300417741
-- **Contains:** IsCover
+- **Canvas Types:** aat:300189604, aat:500011063
+- **Contains:** IsFlyLeaf
 
 ---
 
