@@ -8,11 +8,19 @@
 - **Canvas Types:** aat:300189604, aat:500011063
 - **Contains:** IsFlyLeaf
 
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f1a
+- ![ Pattern cropped from f1a ](https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/130,/617,/0/default.jpg)
+- **Styles:** aat:500011063
+
 ---
 
 ## ResourceCanvas: f.Cover — Peck Shahnamah, Binding, Back Cover
 - **Canvas Types:** aat:300189604, aat:300417741
 - **Contains:** IsCover
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from Cover
+- ![ Pattern cropped from Cover ](https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/130,/1049,/0/default.jpg)
+- **Styles:** aat:300417741
 
 ---
 
@@ -94,14 +102,22 @@
 ---
 
 ## ResourceCanvas: f.2b — Peck, Right part of Double sided carpet illuminated page
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:500011064, aat:500011059, aat:500011053
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:500011064, aat:500011053
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination, HasText, HasOnvan
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f2b
+- ![ Pattern cropped from f2b ](https://iiif-cloud.princeton.edu/iiif/2/22%2F68%2F41%2F226841bf05db4c62a5ca644098eebb9a%2Fintermediate_file/1788,140,8015,12791/130,/0/default.jpg)
+- **Styles:** aat:500011064
 
 ---
 
 ## ResourceCanvas: f.3a — Peck, Left part of Double sided carpet illuminated page
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:500011064, aat:500011059, aat:500011053
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination, HasText, HasOnvan
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f3a
+- ![ Pattern cropped from f3a ](https://iiif-cloud.princeton.edu/iiif/2/60%2Ff3%2Fbb%2F60f3bbd69c374dc884538aa5febb2107%2Fintermediate_file/201,136,7913,12839/130,/0/default.jpg)
+- **Styles:** aat:500011064
 
 ---
 
