@@ -9,7 +9,7 @@
 - **Contains:** IsFlyLeaf
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f1a
-- ![ Pattern cropped from f1a ](https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/130,/617,/0/default.jpg)
+- ![ Pattern cropped from f1a ](https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/full/130,/0/default.jpg)
 - **Styles:** aat:500011063
 
 ---
@@ -19,7 +19,7 @@
 - **Contains:** IsCover
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from Cover
-- ![ Pattern cropped from Cover ](https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/130,/1049,/0/default.jpg)
+- ![ Pattern cropped from Cover ](https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/full/130,/0/default.jpg)
 - **Styles:** aat:300417741
 
 ---
