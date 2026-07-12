@@ -673,7 +673,7 @@
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Angel cropped figure from 2v
-- ![ Angel cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1156,2051,433,791/130,/0/default.jpg)
+- ![ Angel cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/982,1711,284,924/130,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
 - **Styles:** aat:500011001
 
@@ -703,7 +703,7 @@
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Snake cropped figure from 2v
-- ![ Snake cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1509,2332,267,687/130,/0/default.jpg)
+- ![ Snake cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1356,3403,183,285/130,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Snake
 - **Styles:** aat:500011001
 
@@ -712,8 +712,23 @@
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Lizard cropped figure from 2v
-- ![ Lizard cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1509,2332,267,687/130,/0/default.jpg)
+- ![ Lizard cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1299,4079,170,214/130,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Lizard
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Cow cropped figure from 2v
+- ![ Cow cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/952,4328,603,361/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Cow
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Boar cropped figure from 2v
+- ![ Boar cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1500,4412,415,272/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Boar
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Scorpion cropped figure from 2v
+- ![ Scorpion cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1803,3567,192,165/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Scorpion
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Lion cropped figure from 2v
@@ -766,7 +781,7 @@
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Angel5 cropped figure from 3r
-- ![ Angel5 cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1433,1878,726,725/130,/0/default.jpg)
+- ![ Angel5 cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/2229,2183,457,529/130,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
 - **Styles:** aat:500011001
 
@@ -823,19 +838,19 @@
 - **Styles:** aat:500011064
 
 ### mdhn:Illuminated_Headpiece: Headpiece1 in 9v
-- ![ Headpiece1 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/1027,1401,1689,1141/130,/0/default.jpg)
+- ![ Headpiece1 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/1027,1401,1689,1141/280,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** کتاب شاهنامه حکيم فردوسی
 - **English Text:** The Book Of Shahnama from Great Firdowsi
 
 ### mdhn:Illuminated_Headpiece: Headpiece2 in 9v
-- ![ Headpiece2 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/1407,3796,917,319/130,/0/default.jpg)
+- ![ Headpiece2 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/1407,3796,917,319/160,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** گفتار در ستايش خرد گويد
 - **English Text:** Speech in praise of wisdom
 
 ### mdhn:Text_or_Verses: Textblock1 in 9v
-- ![ Textblock1 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/889,2601,1974,2267/130,/0/default.jpg)
+- ![ Textblock1 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/889,2601,1974,2267/160,/0/default.jpg)
 - **Styles:** aat:300195198, aat:500011066
 - **Persian Text:** به نام خداوندِ جان و خرد
 
@@ -854,25 +869,25 @@
 - **Styles:** aat:500011064
 
 ### mdhn:Illuminated_Headpiece: Headpiece1 in 10r
-- ![ Headpiece1 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2123,1530,947,316/130,/0/default.jpg)
+- ![ Headpiece1 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2123,1530,947,316/180,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** 'گفتار در آفرينش گويد'
 - **English Text:** Saying in Creation
 
 ### mdhn:Illuminated_Headpiece: Headpiece2 in 10r
-- ![ Headpiece2 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2135,3081,947,316/130,/0/default.jpg)
+- ![ Headpiece2 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2135,3081,947,316/180,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** گفتار در آفريدن عالم
 - **English Text:** Speech in Creating the World
 
 ### mdhn:Illuminated_Headpiece: Headpiece3 in 10r
-- ![ Headpiece3 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2157,4482,947,316/130,/0/default.jpg)
+- ![ Headpiece3 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2157,4482,947,316/180,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** گفتار در آفريدن آدم
 - **English Text:** Speech in Crating of Human
 
 ### mdhn:Text_or_Verses: Textblock1 in 10r
-- ![ Textblock1 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/1608,1249,1989,316/130,/0/default.jpg)
+- ![ Textblock1 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/1608,1249,1989,316/180,/0/default.jpg)
 - **Styles:** aat:300195198, aat:500011066
 - **Persian Text:** خرد را و جان را همی‌سَنجد، اوی
 
