@@ -9,7 +9,7 @@
 - **Contains:** IsFlyLeaf
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f1a
-- ![ Pattern cropped from f1a ](https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/full/130,/0/default.jpg)
+- ![ Pattern cropped from f1a ](https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/230,226,8400,12683/130,/0/default.jpg)
 - **Styles:** aat:500011063
 
 ---
@@ -19,7 +19,7 @@
 - **Contains:** IsCover
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from Cover
-- ![ Pattern cropped from Cover ](https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/full/130,/0/default.jpg)
+- ![ Pattern cropped from Cover ](https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/327,194,7668,11845/130,/0/default.jpg)
 - **Styles:** aat:300417741
 
 ---
@@ -380,17 +380,29 @@
 - **Canvas Types:** aat:300189604, aat:300417741
 - **Contains:** IsCover
 
+### mdhn:Fragment_Cropped_Image: Pattern cropped from Cover
+- ![ Pattern cropped from Cover ](https://content.staatsbibliothek-berlin.de/dc/731525744-0001/201,360,3373,5102/130,/0/default.jpg)
+- **Styles:** aat:300417741
+
 ---
 
 ## ResourceCanvas: f.Cover — Front Cover
 - **Canvas Types:** aat:300189604, aat:300417741
 - **Contains:** IsCover
 
+### mdhn:Fragment_Cropped_Image: Pattern cropped from Cover
+- ![ Pattern cropped from Cover ](https://content.staatsbibliothek-berlin.de/dc/731525744-0002/201,360,3373,5102/130,/0/default.jpg)
+- **Styles:** aat:300417741
+
 ---
 
 ## ResourceCanvas: f.FlyLeaf — Folio With Note
-- **Canvas Types:** aat:300189604, aat:500181050
-- **Contains:** HasNote, HasSeal
+- **Canvas Types:** aat:300189604, aat:500181050, aat:500011063
+- **Contains:** IsFlyLeaf, HasNote, HasSeal
+
+### mdhn:Fragment_Cropped_Image: Pattern cropped from Cover
+- ![ Pattern cropped from Cover ](https://content.staatsbibliothek-berlin.de/dc/731525744-0007/201,360,3373,5102/130,/0/default.jpg)
+- **Styles:** aat:300417741, aat:500011063
 
 ---
 
@@ -398,11 +410,25 @@
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination
 
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 1v
+- ![ Pattern cropped from 1v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0008/201,360,3373,5102/130,/0/default.jpg)
+- **Styles:** aat:300417741
+
 ---
 
 ## ResourceCanvas: f.2r — Left part of Double sided carpet illuminated page
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 2r
+- ![ Pattern cropped from 2r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0009/201,360,3373,5102/130,/0/default.jpg)
+- **Styles:** aat:300417741
+
+### mdhn:Text_or_Verses: Headpiece1 in 2r
+- ![ Headpiece1 in 2r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0010/388,2010,2078,2301/130,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** سپاس و ستايش خداوندی را که  اين جهان و آن جهان آفريد و ما بندگانرا
+- **English Text:** Thanks to the God
 
 ---
 
@@ -410,11 +436,19 @@
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsOpeningPage, HasIllumination
 
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 2v
+- ![ Pattern cropped from 2v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0010/291,77,2243,1981/130,/0/default.jpg)
+- **Styles:** aat:300417741
+
 ---
 
 ## ResourceCanvas: f.7v — Right part of Double sided Opening illuminated page
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 7v
+- ![ Pattern cropped from 7v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0020/155,155,3204,4991/130,/0/default.jpg)
+- **Styles:** aat:500011064
 
 ---
 
@@ -422,17 +456,57 @@
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination
 
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 7v
+- ![ Pattern cropped from 7v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0021/135,135,3224,4991/130,/0/default.jpg)
+- **Styles:** aat:500011064
+
 ---
 
 ## ResourceCanvas: f.13r — Kayumarṯ amidst his entourage
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
 
+### mdhn:Fragment_Cropped_Image: Keyumars cropped figure from 13r
+- ![ Keyumars cropped figure from 13r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0031/2121,2040,702,1337/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Keyumars
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 13r
+- ![ Siamak cropped figure from 13r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0031/1637,2719,528,842/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Siamak
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Attendants1 cropped figure from 13r
+- ![ Attendants1 cropped figure from 13r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0031/2714,2378,495,985/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Attendants2 cropped figure from 13r
+- ![ Attendants2 cropped figure from 13r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0031/1730,3416,675,813/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Attendants3 cropped figure from 13r
+- ![ Attendants3 cropped figure from 13r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0031/2433,3267,778,949/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Attendants4 cropped figure from 13r
+- ![ Attendants4 cropped figure from 13r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0031/1201,2208,656,645/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
 ---
 
 ## ResourceCanvas: f.13v — Dīv Tears Siyamak Apart
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 13v
+- ![ Siamak cropped figure from 13v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0032/1071,2944,576,1035/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Siamak
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Black Div cropped figure from 13v
+- ![ Black Div cropped figure from 13v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0032/1071,2944,576,1035/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Black_Div_Slayer_Of_Siamak
+- **Styles:** aat:500011001
 
 ---
 
