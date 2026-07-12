@@ -504,8 +504,21 @@
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Black Div cropped figure from 13v
-- ![ Black Div cropped figure from 13v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0032/1071,2944,576,1035/130,/0/default.jpg)
+- ![ Black Div cropped figure from 13v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0032/448,2817,759,1223/130,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Black_Div_Slayer_Of_Siamak
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from 13v
+- ![ Div cropped figure from 13v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0032/259,2265,585,715/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People1 cropped figure from 13v
+- ![ People1 cropped figure from 13v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0032/1915,2782,677,460/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People2 cropped figure from 13v
+- ![ People2 cropped figure from 13v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0032/1084,2283,677,460/130,/0/default.jpg)
 - **Styles:** aat:500011001
 
 ---
