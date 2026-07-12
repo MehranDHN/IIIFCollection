@@ -626,3 +626,399 @@
 
 
 
+
+# Shahnama Ms. or. fol. 359
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Firdausī: Šāhnāma Ms. or. fol. 359
+
+## ResourceCanvas: f.FCover — Front Cover
+- **Canvas Types:** aat:300189604, aat:300417741
+- **Contains:** IsCover
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from Top Cover
+- ![ Pattern cropped from Top Cover ](https://content.staatsbibliothek-berlin.de/dc/731527356-0001/441,51,3753,5802/130,/0/default.jpg)
+- **Styles:** aat:300417741
+
+---
+
+## ResourceCanvas: f.IFCover — Inside Front Cover
+- **Canvas Types:** aat:300189604, aat:300417741
+- **Contains:** IsCover
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from Inside Top Cover
+- ![ Pattern cropped from Inside Top Cover ](https://content.staatsbibliothek-berlin.de/dc/731527356-0002/441,51,3753,5802/130,/0/default.jpg)
+- **Styles:** aat:300417741
+
+---
+
+## ResourceCanvas: f.2v — Sulaiman is enthroned amidst angels, demons, humans, and animals.
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300220539
+- **Contains:** HasPainting, HasIllumination
+
+### mdhn:Fragment_Cropped_Image: Solomon cropped figure from 2v
+- ![ Solomon cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1593,1951,872,1158/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Solomon
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Asfi Barkhiya cropped figure from 2v
+- ![ Asfi Barkhiya cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1270,2685,402,751/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Asfi_bin_Barkhiya
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Jibril cropped figure from 2v
+- ![ Jibril cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1156,2051,433,791/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Jibril
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angel cropped figure from 2v
+- ![ Angel cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1156,2051,433,791/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Ange2 cropped figure from 2v
+- ![ Ange2 cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/2258,2932,585,835/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 2v
+- ![ Div1 cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/958,2868,506,946/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Divs cropped figure from 2v
+- ![ Divs cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/2295,1885,664,1168/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Simurgh cropped figure from 2v
+- ![ Simurgh cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1651,1357,1016,585/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Simurgh
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Peacock cropped figure from 2v
+- ![ Peacock cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1509,2332,267,687/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Peacock
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Snake cropped figure from 2v
+- ![ Snake cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1509,2332,267,687/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Snake
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Creature cropped figure from 2v
+- ![ Creature cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1732,4043,535,435/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Lizard cropped figure from 2v
+- ![ Lizard cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1509,2332,267,687/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Lizard
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Lion cropped figure from 2v
+- ![ Lion cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1594,3579,617,407/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Lion
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Elephant cropped figure from 2v
+- ![ Elephant cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/965,3998,366,584/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Elephant
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 2v
+- ![ Pattern1 cropped from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/948,118,3073,1263/130,/0/default.jpg)
+- **Styles:** aat:500011064
+
+### mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 2v
+- ![ Pattern1 cropped from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/2964,118,1105,5757/130,/0/default.jpg)
+- **Styles:** aat:500011064
+
+---
+
+## ResourceCanvas: f.3r — Bilqīs, Queen of Saba, is enthroned amidst Peris and handmaidens.
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300220539
+- **Contains:** HasPainting, HasIllumination
+
+### mdhn:Fragment_Cropped_Image: Solomon cropped figure from 3r
+- ![ Solomon cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1895,2395,607,818/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Queen_of_Sheba
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angel1 cropped figure from 3r
+- ![ Angel1 cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1936,1382,876,677/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angel2 cropped figure from 3r
+- ![ Angel2 cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/2791,1386,631,846/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angel3 cropped figure from 3r
+- ![ Angel3 cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/2511,2184,921,1142/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angel4 cropped figure from 3r
+- ![ Angel4 cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1433,1878,726,725/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angel5 cropped figure from 3r
+- ![ Angel5 cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1433,1878,726,725/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Musicians cropped figure from 3r
+- ![ Musicians cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1422,3879,649,842/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Dancers cropped figure from 3r
+- ![ Dancers cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1970,3496,698,863/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 3r
+- ![ Pattern1 cropped from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/651,4740,2822,996/130,/0/default.jpg)
+- **Styles:** aat:500011064
+
+### mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 3r
+- ![ Pattern1 cropped from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/385,1105,1003,4535/130,/0/default.jpg)
+- **Styles:** aat:500011064
+
+---
+
+## ResourceCanvas: f.3v — Right part of Double sided carpet illuminated page
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522
+- **Contains:** IsCarpetIlluminatedPage, HasIllumination
+
+### mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 3v
+- ![ Pattern1 cropped from 3v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0008/386,106,3621,5703/130,/0/default.jpg)
+- **Styles:** aat:500011064
+
+---
+
+## ResourceCanvas: f.4r — Left part of Double sided carpet illuminated page
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:300220539, aat:300264522
+- **Contains:** IsCarpetIlluminatedPage, HasIllumination
+
+### mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 3v
+- ![ Pattern1 cropped from 3v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0009/430,95,3106,5714/130,/0/default.jpg)
+- **Styles:** aat:500011064
+
+---
+
+## ResourceCanvas: f.9v — Right part of Double sided illuminated open page
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522
+- **Contains:** IsOpeningPage, HasIllumination, HasHalkari
+
+### mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 9v
+- ![ Pattern1 cropped from 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/2840,1999,1218,2081/130,/0/default.jpg)
+- **Styles:** aat:500011064
+
+### mdhn:Fragment_Cropped_Pattern: Pattern2 cropped from 9v
+- ![ Pattern2 cropped from 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/916,574,2643,693/130,/0/default.jpg)
+- **Styles:** aat:500011064
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in 9v
+- ![ Headpiece1 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/1027,1401,1689,1141/130,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** کتاب شاهنامه حکيم فردوسی
+- **English Text:** The Book Of Shahnama from Great Firdowsi
+
+### mdhn:Illuminated_Headpiece: Headpiece2 in 9v
+- ![ Headpiece2 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/1407,3796,917,319/130,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** گفتار در ستايش خرد گويد
+- **English Text:** Speech in praise of wisdom
+
+### mdhn:Text_or_Verses: Textblock1 in 9v
+- ![ Textblock1 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/889,2601,1974,2267/130,/0/default.jpg)
+- **Styles:** aat:300195198, aat:500011066
+- **Persian Text:** به نام خداوندِ جان و خرد
+
+---
+
+## ResourceCanvas: f.10r — Left part of Double sided illuminated open page
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:300220539, aat:300264522
+- **Contains:** IsOpeningPage, HasIllumination
+
+### mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 9v
+- ![ Pattern1 cropped from 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/380,2027,1266,2058/130,/0/default.jpg)
+- **Styles:** aat:500011064
+
+### mdhn:Fragment_Cropped_Pattern: Pattern2 cropped from 9v
+- ![ Pattern2 cropped from 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/928,581,2702,699/130,/0/default.jpg)
+- **Styles:** aat:500011064
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in 10r
+- ![ Headpiece1 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2123,1530,947,316/130,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** 'گفتار در آفرينش گويد'
+- **English Text:** Saying in Creation
+
+### mdhn:Illuminated_Headpiece: Headpiece2 in 10r
+- ![ Headpiece2 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2135,3081,947,316/130,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** گفتار در آفريدن عالم
+- **English Text:** Speech in Creating the World
+
+### mdhn:Illuminated_Headpiece: Headpiece3 in 10r
+- ![ Headpiece3 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2157,4482,947,316/130,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** گفتار در آفريدن آدم
+- **English Text:** Speech in Crating of Human
+
+### mdhn:Text_or_Verses: Textblock1 in 10r
+- ![ Textblock1 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/1608,1249,1989,316/130,/0/default.jpg)
+- **Styles:** aat:300195198, aat:500011066
+- **Persian Text:** خرد را و جان را همی‌سَنجد، اوی
+
+---
+
+## ResourceCanvas: f.12v — Dīv Tears Siyamak Apart
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 12v
+- ![ Siamak cropped figure from 12v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0026/1786,2982,758,948/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Siamak
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Black Div cropped figure from 12v
+- ![ Black Div cropped figure from 12v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0026/1802,2829,1001,1133/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Black_Div_Slayer_Of_Siamak
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Divs cropped figure from 12v
+- ![ Divs cropped figure from 12v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0026/3300,1450,498,731/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from 12v
+- ![ People cropped figure from 12v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0026/2358,2196,1444,1155/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People2 cropped figure from 12v
+- ![ People2 cropped figure from 12v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0026/834,2218,1134,1028/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People2 cropped figure from 12v
+- ![ People2 cropped figure from 12v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0026/848,3296,1162,979/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+---
+
+
+
+
+# Juki Shahnama
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Shāhnāmah MS MS-RAS-00239 (Juki)
+
+## ResourceCanvas: f.7r — Firdawsī encounters the court poets og Ghaznī
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Ferdowsi cropped figure from f7r
+- ![ Ferdowsi cropped figure from f7r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00013.jp2/3171,5833,582,782/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Ferdowsi
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Abu Mansur Daqiqi cropped figure from f7r
+- ![ Abu Mansur Daqiqi cropped figure from f7r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00013.jp2/2499,5365,468,843/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:AbuMansurDaqiqi
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unsuri cropped figure from f7r
+- ![ Unsuri cropped figure from f7r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00013.jp2/2199,5554,468,843/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Unsuri
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Asjadi cropped figure from f7r
+- ![ Asjadi cropped figure from f7r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00013.jp2/2967,5397,468,843/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Asjadi
+- **Styles:** aat:500011001
+
+---
+
+## ResourceCanvas: f.44r — Juki Shahnamah, Rostam kills white Div
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 44r
+- ![ Rostam cropped figure from 44r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/2600,5794,933,1205/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: White Div cropped figure from 44r
+- ![ White Div cropped figure from 44r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/2066,6171,1878,992/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:White_Div_7th_Course
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Olad Div cropped figure from 44r
+- ![ Olad Div cropped figure from 44r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/2066,6171,1878,992/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Olad_Div
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 44r
+- ![ Rakhsh cropped figure from 44r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/3987,4886,511,612/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rakhsh
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 44r
+- ![ Textblock1 in 44r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/1944,2349,3102,2099/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam, mdhn:White_Div_7th_Course
+- **Styles:** aat:300265532
+- **Persian Text:** چو مژگان بمالید و دیده بشست
+
+---
+
+
+
+
+# Ibrahim Sultan Shahnama Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Shāhnāmah-ʼi Firdawsī MS. Ouseley Add. 176 (Ibrahim Sultan)
+
+## ResourceCanvas: f.71a — Ibrahim Sultan Shahnamah, Rostam kills white Div
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 71a
+- ![ Rostam cropped figure from 71a ](https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/2263,2371,2254,1695/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: White Div cropped figure from 71a
+- ![ White Div cropped figure from 71a ](https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/2256,3130,3050,1905/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:White_Div_7th_Course
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Olad Div cropped figure from 71a
+- ![ Olad Div cropped figure from 71a ](https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/1266,1615,1100,2535/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Olad_Div
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 71a
+- ![ Textblock1 in 71a ](https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/1996,1162,3685,1168/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam, mdhn:White_Div_7th_Course
+- **Styles:** aat:300265532
+- **Persian Text:** بریده برآویخت با او به هم
+
+### mdhn:Text_or_Verses: Textblock2 in 71a
+- ![ Textblock2 in 71a ](https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/1891,4716,3771,2064/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam, mdhn:White_Div_7th_Course
+- **Styles:** aat:300265532
+- **Persian Text:** همه غار یکسر پر از کشته بود
+
+---
+
+
+
