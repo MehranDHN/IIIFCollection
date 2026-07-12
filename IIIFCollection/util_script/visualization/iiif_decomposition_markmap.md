@@ -920,7 +920,7 @@
 
 ## Manifest: Shāhnāmah MS MS-RAS-00239 (Juki)
 
-## ResourceCanvas: f.7r — Firdawsī encounters the court poets og Ghaznī
+## ResourceCanvas: f.7r — Firdawsī encounters the court poets of Ghaznī
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
 
@@ -961,7 +961,7 @@
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Olad Div cropped figure from 44r
-- ![ Olad Div cropped figure from 44r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/2066,6171,1878,992/130,/0/default.jpg)
+- ![ Olad Div cropped figure from 44r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/4467,4589,534,1307/130,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Olad_Div
 - **Styles:** aat:500011001
 
