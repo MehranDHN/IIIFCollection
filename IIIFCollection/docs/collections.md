@@ -32,6 +32,7 @@
   - [Qitati Khushkhatt Or.MS.373](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/EdinburghOrMS373Collection.json)
   - [McGill Arabic Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/McGillArabicCollection.json)
   - [Persian Calligraphy](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/PersianCalligraphyCollection.json)
+    - [Mir Emad Hassani](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MirEmadHassaniCollection.json)    
     - [Mirza Gholam Reza Esfahani](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MirzaGholamRezaEsfahaniCollection.json)
     - [Mirza Mohammad Kazem Tehrani](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MirzaGholamRezaEsfahaniCollection.json)    
 
@@ -194,7 +195,9 @@
      - [GPAK-0142 Album](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/GPAK0142Collection.json)
      - [GPAK-0240 Album](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/GPAK0240Collection.json)
      - [Lacquer and Metalwork Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LacquerandMetalworkCollection.json)
-       - [Mirror Case](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MirrorCaseCollection.json)     
+       - [Lacquer Binding](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/SingleLacquerCoverCollection.json)      
+       - [Mirror Case](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MirrorCaseCollection.json)   
+       - [Pen Box](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/PenBoxCollection.json)           
    - Photograph Album Collection
      - [19 Phototographs Of The Persia](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/PhototographsOfThePersiaCollection.json)
      - [Abdollah Mirza Qajar Photo Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/AbdollahMirzaQajarCollection.json)
