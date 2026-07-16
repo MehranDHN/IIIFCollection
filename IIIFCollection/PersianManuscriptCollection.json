@@ -19,6 +19,48 @@
             "Persian manuscripts from various collections"
         ]
     },
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 70 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
     "thumbnail": [
         {
             "id": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae0b916d-e012-44d6-9e89-21c381348a5c/full/662,/0/default.jpg",
@@ -4473,7 +4515,7 @@
                             "mdhn:Ahmad_Ghaffari_Qazvini"
                         ]
                     }
-                },                
+                },
                 {
                     "label": {
                         "en": "Language"
@@ -4591,6 +4633,16 @@
                         "en": [
                             "Hafez",
                             "WD:Q6240"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Shams_al_Din_Moḥammad_Hafiz_e_Shirazi"
                         ]
                     }
                 },
@@ -5313,6 +5365,16 @@
                         "en": [
                             "Hafez",
                             "WD:Q6240"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Shams_al_Din_Moḥammad_Hafiz_e_Shirazi"
                         ]
                     }
                 },
@@ -8108,6 +8170,135 @@
                     "value": {
                         "en": [
                             "~1700 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://content.staatsbibliothek-berlin.de/dc/774091630/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Diwan Hafiz Ms. or. fol. 108"
+                ],
+                "fa": [
+                    "ديوان حافظ"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Diwan Hafiz Ms. or. fol. 108",
+                        "fa": "ديوان حافظ"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Hafez",
+                            "WD:Q6240"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Shams_al_Din_Moḥammad_Hafiz_e_Shirazi"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "511"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "biblissima"
+                    },
+                    "value": {
+                        "en": [
+                            "https://data.biblissima.fr/entity/Q00000"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Shelfmark"
+                    },
+                    "value": {
+                        "en": "Cod. Heid. Orient. 123"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "schema:IlluminatedManuscript"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Berlin"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "774091630"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "~1600 AD"
                         ]
                     }
                 }

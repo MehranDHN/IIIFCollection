@@ -6,6 +6,48 @@
     "viewingHint": "multi-part",
     "navDate": "1859-09-15T12:00:00.0000000Z",
     "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/CalligraphyCollection.json",
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 70 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },        
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],    
     "summary": {
         "en": [
             "َPersian Calligraphy artifacts except the Nastaliq"
@@ -58,7 +100,7 @@
             "viewingHint": "multi-part",
             "navDate": "1850-09-15T12:00:00.0000000Z",
             "within": ""
-        },          
+        },
         {
             "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/FathAliHijabShiraziCollection.json",
             "@type": "sc:Collection",
@@ -66,7 +108,7 @@
             "viewingHint": "multi-part",
             "navDate": "1890-09-15T12:00:00.0000000Z",
             "within": ""
-        },          
+        },
         {
             "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MirEmadHassaniCollection.json",
             "@type": "sc:Collection",
@@ -74,7 +116,7 @@
             "viewingHint": "multi-part",
             "navDate": "1550-09-15T12:00:00.0000000Z",
             "within": ""
-        },        
+        },
         {
             "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MirzaGholamRezaEsfahaniCollection.json",
             "@type": "sc:Collection",
@@ -82,7 +124,7 @@
             "viewingHint": "multi-part",
             "navDate": "1870-09-15T12:00:00.0000000Z",
             "within": ""
-        },        
+        },
         {
             "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MirzaMohammadKazemTehraniCollection.json",
             "@type": "sc:Collection",
