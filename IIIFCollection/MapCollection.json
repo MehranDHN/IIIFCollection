@@ -13,6 +13,48 @@
     "viewingHint": "multi-part",
     "navDate": "1859-09-15T12:00:00.0000000Z",
     "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json",
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 70 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
     "summary": {
         "en": [
             "Selective collection of the Maps mostly about Iran."
@@ -2423,7 +2465,7 @@
                         "en": "Agents"
                     },
                     "value": {
-                        "Cartograph": [
+                        "Cartographer": [
                             "mdhn:James_Rennell",
                             "mdhn:John_Melish"
                         ]
@@ -2629,7 +2671,7 @@
                             "mdhn:Emanuel_Bowen"
                         ]
                     }
-                },                
+                },
                 {
                     "label": {
                         "en": "CanvasCount"
@@ -2725,11 +2767,11 @@
                         "en": "Agents"
                     },
                     "value": {
-                        "Cartograph": [
+                        "Cartographer": [
                             "mdhn:William_John_Turner"
                         ]
                     }
-                },                
+                },
                 {
                     "label": {
                         "en": "CanvasCount"
@@ -2785,6 +2827,333 @@
                     "value": {
                         "en": [
                             "1892 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~295445~90066589/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L Impero della Persia 1784"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L Impero della Persia 1784"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Antonio Zatta",
+                            "WD:Q3313574"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Cartographer": [
+                            "mdhn:Antonio_Zatta"
+                        ],
+                        "Engraver": [
+                            "mdhn:Giovanni_Marco_Pitteri"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Zatta's atlas in 4 volumes, dated MDCCLXXIX - MDCCLXXXIV (1779-1784). The most comprehensive world atlas issued in Italy in the 18th. century, based on observations and discoveries made by the most famous and most recent geographers. Volumes 2-4 have full engraved title pages, including borders with geographical instruments and maps, seaside scenes at bottom with a large globe and several putti engaged in mapmaking and observation and a scene in the center. Vol. I, has decorated engraved title page/frontispiece, dedication text \" a Sua Eccellenza il Signor Carlo Spinola ...\" and index. Bound in half leather marbled covered boards with \"Atlante novissi. Venez, 1788 P.A. Zat.\" stamped in gold on spine. 217 detailed maps, engraved hand colored, double-page, with title cartouches showing vignettes of topographical and historic scenes, dated 1774-1788. Some maps engraved by Giovanni Marco Pitteri, Giuliano Zuliani, and Pietro Antonio Novelli. Shows political and administrative divisions, cities, villages, landmarks, rivers, lakes, and mountains. Relief shown by hachures. Map of Guinea Orientale repeated twice, Guinea Occidentale is inserted, it was missing from volume IV. Maps of the New World and the Pacific reflect the most recent explorations and discoveries in those areas. Zatta includes 12 maps in reference to the United States \"Colonie Uniti\", dated 1778, which he also published in \"Storia Dell\" America Settentrionale Del Signor Abate Raynal"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028094",
+                            "schema:Map"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "David Rumsey"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028094",
+                            "schema:Map"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "RUMSEY~8~1~295445~90066589"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1784 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328818~90097314/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Ottoman Empire and Persian Empire"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Ottoman Empire and Persian Empire"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Mehmed Esref",
+                            "WD:Q6081569"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Cartographer": [
+                            "mdhn:Mehmed_Esref"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Revised and enlarged 1913 edition of historical atlas of the world and the Ottoman Empire, in Ottoman script and Arabic. It was issued by Mehmed Esref since the beginning of the 20th. century (1906?), This edition published a year after Esref’s death in 1912 with newly engraved maps, all different from the previous publication. Covers mostly the Ottoman Empire regions, Balkans, adjacent regions of the Middle East, Europe and Africa. Consists of 11 pages of timeline table, 4 pages of index and 138 maps in 32 double page plates of color lithographed maps. Showing political and administrative boundaries, major cities, capitals, rivers and lakes. Last maps represent the routes of the famous explorers, the historical colonies, the British colonies in the World, Asia, United States, Africa and South America. Includes old scribbles and annotations on the front endpapers, old stamp on the title page, some sporadic old annotations on the pages. Bound in embossed light blue cloth covered boards, with title on front cover."
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028094",
+                            "schema:Map"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "David Rumsey"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028094",
+                            "schema:Map"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "RUMSEY~8~1~328818~90097314"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1913 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~328816~90097312/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Persian Empireو Ottoman Empire"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Persian Empireو Ottoman Empire"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Mehmed Esref",
+                            "WD:Q6081569"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Cartographer": [
+                            "mdhn:Mehmed_Esref"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Revised and enlarged 1913 edition of historical atlas of the world and the Ottoman Empire, in Ottoman script and Arabic. It was issued by Mehmed Esref since the beginning of the 20th. century (1906?), This edition published a year after Esref’s death in 1912 with newly engraved maps, all different from the previous publication. Covers mostly the Ottoman Empire regions, Balkans, adjacent regions of the Middle East, Europe and Africa. Consists of 11 pages of timeline table, 4 pages of index and 138 maps in 32 double page plates of color lithographed maps. Showing political and administrative boundaries, major cities, capitals, rivers and lakes. Last maps represent the routes of the famous explorers, the historical colonies, the British colonies in the World, Asia, United States, Africa and South America. Includes old scribbles and annotations on the front endpapers, old stamp on the title page, some sporadic old annotations on the pages. Bound in embossed light blue cloth covered boards, with title on front cover."
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028094",
+                            "schema:Map"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "David Rumsey"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028094",
+                            "schema:Map"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "RUMSEY~8~1~328816~90097312"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1913 AD"
                         ]
                     }
                 }
