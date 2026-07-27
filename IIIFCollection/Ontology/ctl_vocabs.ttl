@@ -10,6 +10,20 @@
 @prefix tgn: <http://vocab.getty.edu/tgn/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+
+
+mdhn:Calligrapher a mdhn:Occupation;
+        rdfs:label "Calligrapher"@en ;
+        rdfs:comment "Calligrapher As Profession"@en .   
+
+mdhn:Cartographer a mdhn:Occupation;
+        rdfs:label "Cartographer"@en ;
+        rdfs:comment "Cartographer As Profession"@en .        
+
+mdhn:Engraver a mdhn:Occupation;
+        rdfs:label "Engraver"@en ;
+        rdfs:comment "Engraver As Profession"@en .            
+
 mdhn:vcol1000100  a mdhn:DepartedCollection ;
         rdfs:label "Haft Owrang"@en ;
         rdfs:comment "Haft Owrang Smithsonian"@en .   
@@ -155,9 +169,13 @@ mdhn:vcol1000157  a mdhn:DepartedCollection ;
         rdfs:comment "Mantiq al-Tayr Farid al-Din Attar 63.210"@en .  
 
 mdhn:vcol1000158  a mdhn:DepartedCollection ;
-        rdfs:label "Tarikhnama by Balami"@en ;
+        rdfs:label "Tarikhnama by Balami Vol:1"@en ;
         mdhn:wikidataItem "https://www.wikidata.org/wiki/Q5957623";
         rdfs:comment "Tarikhnama by Balami in Smithsonian First Volume"@en . 
+mdhn:vcol1000159  a mdhn:DepartedCollection ;
+        rdfs:label "Tarikhnama by Balami Vol:2"@en ;
+        mdhn:wikidataItem "https://www.wikidata.org/wiki/Q5957623";
+        rdfs:comment "Tarikhnama by Balami in Smithsonian Second Volume"@en .         
 
 mdhn:vcol1000300  a mdhn:DepartedCollection ;
         rdfs:label "Ernst Herzfeld Papers"@en ;
@@ -241,7 +259,15 @@ mdhn:vcol1000240  a mdhn:DepartedCollection ;
         rdfs:label "Golestan Palace Albumkhane GPAK-0240"@en ;
         rdfs:comment "Golestan Palace Albumkhane GPAK-0240"@en .  
 
+mdhn:vcol1000241  a mdhn:DepartedCollection ;
+        rdfs:label "Masjid-i-Shah Photo Album From Hollis Harvard"@en ;
+        rdfs:seeAlso "https://hollis.harvard.edu/discovery/fulldisplay?docid=alma99160585917803941&context=L&vid=01HVD_INST:HVD_IMAGES&lang=en&search_scope=HVD_IMAGES&adaptor=Local%20Search%20Engine&tab=HVD_IMAGES&query=any,contains,Shah&offset=30" ;
+        rdfs:comment "Masjid-i-Shah Photo Album, Abbas I, Shah of Iran 1571-1629/978-1038 AH, Iranian"@en .          
 
+mdhn:vcol1000242  a mdhn:DepartedCollection ;
+        rdfs:label "Khamsa (Quintet) of Nizami of Ganja Metropoilitan"@en ;
+        rdfs:seeAlso "https://www.metmuseum.org/art/collection/search/446594";
+        rdfs:comment "Khamsa (Quintet) of Nizami of Ganja Metropoilitan"@en .  
 
 mdhn:Internet_Archive a mdhn:GLAMSource;
     rdfs:comment "Internet Archive is a non-profit digital library with the mission of providing 'Universal Access to All Knowledge'. It offers free access to a vast collection of digitized materials, including books, movies, music, and websites."@en ;
@@ -249,7 +275,7 @@ mdhn:Internet_Archive a mdhn:GLAMSource;
     rdfs:label "Internet Archive"@en .
 
 
-mdhn:Berlin a mdhn:GlamSource;
+mdhn:Berlin a mdhn:GLAMSource;
         rdfs:comment "Berlin State Library (Staatsbibliothek zu Berlin) is one of the largest libraries in Germany, known for its extensive collection of manuscripts, books, and digital resources."@en ;
         mdhn:wikiDataURL "https://www.wikidata.org/wiki/Q193812" ;
         rdfs:label "Berlin State Library"@en .

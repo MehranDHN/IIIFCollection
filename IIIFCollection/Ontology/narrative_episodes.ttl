@@ -1,17 +1,16 @@
-
-@prefix mdhn: <http://example.com/mdhn/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix wd: <https://www.wikidata.org/wiki/> .
-@prefix schema: <http://schema.org/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix tgm: <http://id.loc.gov/vocabulary/graphicMaterials/> .
-@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix dcterms: <http://qudt.org/vocab/prefix/> .
 @prefix fhkb: <http://www.example.com/genealogy.owl#> .
 @prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
-@prefix dcterms:  <http://qudt.org/vocab/prefix/> . # QUDT Prefixes Version 2.1 Vocabulary
+@prefix mdhn: <http://example.com/mdhn/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tgm: <http://id.loc.gov/vocabulary/graphicMaterials/> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
 mdhn:Shahnameh a mdhn:NarrativeEpisode ;
@@ -119,6 +118,20 @@ mdhn:Khosrow_and_Shirin a mdhn:NarrativeEpisode ;
    mdhn:charactersInvolved mdhn:Khosrow_II, mdhn:Shirin , mdhn:Farhad;     
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q61076" . 
 
+mdhn:Sight_of_Shirin_Bathing a mdhn:NarrativeEpisode ;
+   rdfs:label "Sight of Shirin Bathing"@en, "شيرين در چشمه سار"@fa;
+   mdhn:isPartOf mdhn:Khosrow_and_Shirin ;
+   mdhn:charactersInvolved mdhn:Khosrow_II, mdhn:Shirin; 
+   mdhn:icWikiDataURL "" .    
+
+mdhn:Marriage_of_Khusrau_and_Shirin  a mdhn:NarrativeEpisode ;
+   rdfs:label "Marriage of Khusrau and Shirin "@en, "ازدواج خسرو و شيرين"@fa;
+   mdhn:isPartOf mdhn:Khosrow_and_Shirin ;
+   mdhn:charactersInvolved mdhn:Khosrow_II, mdhn:Shirin; 
+   mdhn:icWikiDataURL "" .     
+
+  
+
 mdhn:Layla_and_Majnun a mdhn:NarrativeEpisode ;
    rdfs:label "Layla and Majnun"@en, "ليلی و مجنون"@fa;
    rdfs:comment "Persian tragic romance by Nizami Ganjavi" ;
@@ -130,25 +143,25 @@ mdhn:Love_in_School a mdhn:NarrativeEpisode ;
    rdfs:label "Love in school"@en, "عاشق شدن مجنون/ مدرسه"@fa;
    mdhn:isPartOf mdhn:Layla_and_Majnun ;
    mdhn:charactersInvolved mdhn:Majnun, mdhn:Layli; 
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/" . 
+   mdhn:icWikiDataURL "" . 
 
 mdhn:Death_of_the_Majnuns_father a mdhn:NarrativeEpisode ;
    rdfs:label "Death of the Majnun's father"@en, "مرگ پدر مجنون"@fa;
    mdhn:isPartOf mdhn:Layla_and_Majnun ;
    mdhn:charactersInvolved mdhn:Majnun; 
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/" .  
+   mdhn:icWikiDataURL "" .  
 
 mdhn:Lovers_Encounter a mdhn:NarrativeEpisode ;
    rdfs:label "Lovers Encounter"@en, "ديدار دو دلداده"@fa;
    mdhn:isPartOf mdhn:Layla_and_Majnun ;
    mdhn:charactersInvolved mdhn:Majnun, mdhn:Layli; 
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/" .
+   mdhn:icWikiDataURL "" .
 
 mdhn:Marriage_of_Layli a mdhn:NarrativeEpisode ;
    rdfs:label "Marriage of Layli"@en, "رسيدن خبر ازدواج ليلی"@fa;
    mdhn:isPartOf mdhn:Layla_and_Majnun ;
    mdhn:charactersInvolved mdhn:Majnun, mdhn:Layli; 
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/" .                              
+   mdhn:icWikiDataURL "" .                              
 
 mdhn:Haft_Awrang a mdhn:NarrativeEpisode ;
     mdhn:aatConcept mdhn:aat300404746 ;
@@ -164,6 +177,13 @@ mdhn:Yusuf_and_Zulaikha a mdhn:NarrativeEpisode ;
    mdhn:charactersInvolved mdhn:Yusuf, mdhn:Zulaikha;
    mdhn:isPartOf mdhn:Haft_Awrang ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3350827" . 
+
+mdhn:Zulaikha_invites_the_egyptian_women a mdhn:NarrativeEpisode ;
+   rdfs:label "Zulaikha invites the egyptian women to see the Yusuf"@en, "دعوت زليخا از زنان مصری"@fa;
+   rdfs:comment "romantic story" ;
+   mdhn:charactersInvolved mdhn:Yusuf, mdhn:Zulaikha;
+   mdhn:isPartOf mdhn:Yusuf_and_Zulaikha ;
+   mdhn:icWikiDataURL "" .    
 
 mdhn:Leyli_and_Majnun_Jami a mdhn:NarrativeEpisode ;
    rdfs:label "Leyli and Majnun"@en, "ليلی و مجنون جامی"@fa;
@@ -282,13 +302,92 @@ mdhn:Funeral_of_Isfandiyar a mdhn:NarrativeEpisode;
    mdhn:characterInvolved mdhn:Esfandiyar;
    mdhn:icWikiDataURL "" .    
 
+mdhn:Kingdom_of_Kay_Qubad a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom Kay Qubad"@en, "پادشاهی کيقباد"@fa;
+   rdfs:comment "a mythical kingdom ruled by Kay Qubad in Persian mythology" ;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:charactersInvolved  mdhn:Key_Qubad, mdhn:Rostam, mdhn:Afrasiab ;
+   mdhn:icWikiDataURL "" . 
 
+mdhn:First_Battle_Of_Rostam_and_Afrasiab a mdhn:NarrativeEpisode;
+   rdfs:label "Funeral of Isfandiyar"@en, "نبرد اول رستم و افراسياب"@fa;
+   mdhn:isPartOf  mdhn:RostamStory , mdhn:Kingdom_of_Kay_Qubad ;
+   mdhn:characterInvolved mdhn:Esfandiyar;
+   mdhn:icWikiDataURL "" . 
+
+mdhn:Battle_Of_Rostam_and_Afrasiab a mdhn:NarrativeEpisode;
+   rdfs:label "Funeral of Isfandiyar"@en, "نبرد رستم و افراسياب"@fa;
+   mdhn:isPartOf  mdhn:RostamStory , mdhn:Kingdom_of_Kay_Qubad ;
+   mdhn:characterInvolved mdhn:Esfandiyar;
+   mdhn:icWikiDataURL "" .       
 mdhn:Kingdom_of_Kay_Kavus a mdhn:NarrativeEpisode ;
    rdfs:label "Kingdom Kay Kāvus"@en, "پادشاهی کيکاوس"@fa;
    rdfs:comment "a mythical kingdom ruled by Kay Kāvus in Persian mythology" ;
    mdhn:isPartOf mdhn:Shahnameh ;
-   mdhn:charactersInvolved  mdhn:Kay_Kavus, mdhn:Siyavash ;
+   mdhn:charactersInvolved  mdhn:Kay_Kavus, mdhn:Rostam, mdhn:Siyavash, mdhn:Arzhang_Div ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466974" . 
+mdhn:KayKavus_Encounters_Arzhang_Div_In_Mazandaran a mdhn:NarrativeEpisode ;
+   rdfs:label "KayKavus Encounters Arzhang Div In Mazandaran"@en, "رويارويی کيکاوس و ارژنگ ديو در مازندران"@fa;
+   mdhn:isPartOf mdhn:Kingdom_of_Kay_Kavus ;
+   mdhn:charactersInvolved  mdhn:Kay_Kavus, mdhn:Arzhang_Div ;
+   mdhn:icWikiDataURL "" .    
+
+
+
+mdhn:Rustam_Slays_White_Elephant a mdhn:NarrativeEpisode ;
+   rdfs:label "Rustam Slays White Elephant"@en, "کشتن فيل سپيد"@fa;
+   mdhn:isPartOf mdhn:RostamStory ;
+   mdhn:charactersInvolved   mdhn:Rostam ;
+   mdhn:icWikiDataURL "" . 
+
+mdhn:Rostams_Seven_Labours a mdhn:NarrativeEpisode ;
+   rdfs:label "Rostam's Seven Labours"@en, "هفت خوان رستم"@fa;
+   rdfs:comment "a series of acts carried out by the greatest of the Iranian heroes, Rostam" ;
+   mdhn:isPartOf mdhn:RostamStory , mdhn:Kingdom_of_Kay_Kavus ;
+   mdhn:charactersInvolved  mdhn:Kay_Kavus, mdhn:Rostam ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4119480" .   
+
+mdhn:Rostams_First_Labour a mdhn:NarrativeEpisode ;
+   rdfs:label "Rostam's 1st Labour"@en, "خوان اول رستم نبرد رخش با شیر"@fa;
+   mdhn:isPartOf mdhn:Rostams_Seven_Labours ;
+   mdhn:charactersInvolved  mdhn:Rakhsh, mdhn:Rostam ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .   
+
+mdhn:Rostams_Second_Labour a mdhn:NarrativeEpisode ;
+   rdfs:label "Rostam's Second Labour"@en, ""@fa;
+   mdhn:isPartOf mdhn:Rostams_Seven_Labours ;
+   mdhn:charactersInvolved  mdhn:Rakhsh, mdhn:Rostam ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .
+
+mdhn:Rostams_Third_Labour a mdhn:NarrativeEpisode ;
+   rdfs:label "Rostam's Third Labour"@en, ""@fa;
+   mdhn:isPartOf mdhn:Rostams_Seven_Labours ;
+   mdhn:charactersInvolved  mdhn:Rakhsh, mdhn:Rostam , mdhn:Dragon;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .  
+
+mdhn:Rostams_Fourth_Labour a mdhn:NarrativeEpisode ;
+   rdfs:label "Rostam's Fourth Labour"@en, ""@fa;
+   mdhn:isPartOf mdhn:Rostams_Seven_Labours ;
+   mdhn:charactersInvolved  mdhn:Rakhsh, mdhn:Rostam ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .  
+
+mdhn:Rostams_Fiveth_Labour a mdhn:NarrativeEpisode ;
+   rdfs:label "Rostam's Fiveth Labour"@en, ""@fa;
+   mdhn:isPartOf mdhn:Rostams_Seven_Labours ;
+   mdhn:charactersInvolved  mdhn:Rakhsh, mdhn:Rostam ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .  
+
+   mdhn:Rostams_Sixth_Labour a mdhn:NarrativeEpisode ;
+   rdfs:label "Rostam's Sixth Labour"@en, ""@fa;
+   mdhn:isPartOf mdhn:Rostams_Seven_Labours ;
+   mdhn:charactersInvolved  mdhn:Rakhsh, mdhn:Rostam ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .  
+
+mdhn:Rostams_Seventh_Labour a mdhn:NarrativeEpisode ;
+   rdfs:label "Rostam's Seventh Labour"@en, ""@fa;
+   mdhn:isPartOf mdhn:Rostams_Seven_Labours ;
+   mdhn:charactersInvolved  mdhn:Rakhsh, mdhn:Rostam ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .                      
 
 mdhn:Accusation_Against_Siyavush a mdhn:NarrativeEpisode;
    rdfs:label "Accusation Against Siyavush"@en, "تهمت خيانت به سياوش"@fa;
@@ -421,12 +520,54 @@ mdhn:KingdomOfZahhak a mdhn:NarrativeEpisode;
    mdhn:isPartOf mdhn:ZahhakStory ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466998" .   
 
+
+mdhn:Kingdom_Of_Garshasp a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom Of Garshasp"@en, "پادشاهی گرشاسپ"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   rdfs:comment "a mythical kingdom ruled by Garshasp in Persian mythology" ;
+   mdhn:charactersInvolved  mdhn:Garshasp ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140479595" .
+
+
+mdhn:RostamStory a mdhn:NarrativeEpisode;
+   rdfs:label "The Story of Rostam"@en, "داستان رستم"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:charactersInvolved  mdhn:Rostam ;
+   mdhn:icWikiDataURL "" .
+mdhn:Rostam_Capture_The_Rakhsh_With_Lasso a mdhn:NarrativeEpisode;
+   rdfs:label "Rostam Capture The Rakhsh With Lasso"@en, "انتخاب رخش توسط رستم و کمد اندازی رستم"@fa;
+   mdhn:isPartOf mdhn:Kingdom_Of_Garshasp , mdhn:RostamStory ;
+   mdhn:icWikiDataURL "" .      
+
+mdhn:Battle_Between_Rostam_and_AkvanDiv a mdhn:NarrativeEpisode;
+   rdfs:label "Battle between Rostam and AkvanDiv"@en, "نبرد رستم و اکوان ديو"@fa;
+   mdhn:isPartOf mdhn:Story_of_Akvan_Div , mdhn:RostamStory ;
+   mdhn:icWikiDataURL "" .  
+   
 mdhn:Kingdom_of_Manuchehr a mdhn:NarrativeEpisode ;
    rdfs:label "Kingdom of Fereydun"@en, "پادشاهی منوچهر"@fa;
    mdhn:isPartOf mdhn:Shahnameh ;
    rdfs:comment "a mythical kingdom ruled by Manuchehr in Persian mythology" ;
    mdhn:charactersInvolved  mdhn:Manuchehr;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .
+
+mdhn:Kingdom_of_KayKhosrow a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom of Fereydun"@en, "پادشاهی کيخسرو"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   rdfs:comment "a mythical kingdom ruled by KayKhosrow in Persian mythology" ;
+   mdhn:charactersInvolved  mdhn:KayKhosrow;
+   mdhn:icWikiDataURL "" .   
+
+mdhn:Story_of_Akvan_Div a mdhn:NarrativeEpisode;
+   rdfs:label "Story of Akvan Div"@en, "داستان اکوان ديو"@fa;
+   mdhn:isPartOf mdhn:Kingdom_of_KayKhosrow ;
+   mdhn:charactersInvolved mdhn:Akvan_Div;
+   mdhn:icWikiDataURL "" .     
+
+mdhn:Rostam_Capture_The_Rakhsh_With_Lasso a mdhn:NarrativeEpisode;
+   rdfs:label "Rostam Capture The Rakhsh With Lasso"@en, "انتخاب رخش توسط رستم و کمد اندازی رستم"@fa;
+   mdhn:isPartOf mdhn:Kingdom_Of_Garshasp , mdhn:RostamStory ;
+   mdhn:icWikiDataURL "" .     
 mdhn:Kingdom_of_Fereydun a mdhn:NarrativeEpisode ;
    rdfs:label "Kingdom of Fereydun"@en, "پادشاهی فریدون"@fa;
    mdhn:isPartOf mdhn:Shahnameh ;
@@ -440,6 +581,12 @@ mdhn:Fereydun_Crosses_the_River_Dijla a mdhn:NarrativeEpisode ;
    mdhn:isPartOf mdhn:Kingdom_of_Fereydun ;
    mdhn:charactersInvolved mdhn:Fereydun;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138713073" .  
+
+mdhn:Beheading_Iraj_By_His_Brothers a mdhn:NarrativeEpisode ;
+   rdfs:label "Beheading Iraj by his Brothers Salm and Tur"@en, "کشته شدن ايرج به دست برادرانش سلم و تور"@fa;
+   mdhn:isPartOf mdhn:Kingdom_of_Fereydun ;
+   mdhn:charactersInvolved mdhn:Salm, mdhn:Tur, mdhn:Iraj;
+   mdhn:icWikiDataURL "" .     
 
 mdhn:The_Court_of_Faridun a mdhn:NarrativeEpisode;
    rdfs:label "The Court of Faridun"@en, "بارگاه فريدون"@fa;

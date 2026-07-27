@@ -667,7 +667,7 @@ mdhn:aat500011053 a mdhn:ResourceType ;
     rdfs:label "Illuminated Headpiece Content"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
-    mdhn:hasAATBroader mdhn:aat300055027.  
+    mdhn:hasAATBroader mdhn:aat300055027.        
 
 mdhn:aat500011054 a mdhn:ResourceType ;
     rdfs:label "Painting Content"@en ;
@@ -723,10 +723,16 @@ mdhn:aat500011059 a mdhn:ResourceType ;
     mdhn:hasAATBroader mdhn:aat300055027.
 
 mdhn:aat500011066 a mdhn:ResourceType ;
-    rdfs:label "Floral Illuminated decoration Content"@en ;
+    rdfs:label "Floral Illuminated decoration Content"@en, "نقوش گياهی"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
-    mdhn:hasAATBroader mdhn:aat300055027, mdhn:aat300010135.        
+    mdhn:hasAATBroader mdhn:aat300055027, mdhn:aat300010135.   
+
+mdhn:aat500011091 a mdhn:ResourceType ;
+    rdfs:label "Animal Illuminated decoration Content"@en , "نقوش جانوری/گير و گرفت"@fa;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300055027, mdhn:aat300010135.             
 
 mdhn:aat500011061 a mdhn:ResourceType ;
     rdfs:label "Calligraphic Note Content"@en ;
@@ -2886,6 +2892,11 @@ mdhn:aat300264087 a mdhn:ResourceType ;
         rdfs:label "Physical Attributes Facet"@en;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         mdhn:isFacet "true"^^xsd:boolean .
+
+mdhn:aat300417584 a mdhn:ResourceType ;
+        rdfs:label "music (discipline)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300054140 .        
                                                                                                                
 mdhn:aat300191091 a mdhn:ResourceType ;
         rdfs:label "<visual works by material or technique>"@en;
@@ -2944,7 +2955,7 @@ mdhn:aat300010094 a mdhn:ResourceType ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         mdhn:hasAATBroader mdhn:aat300009700 .  
 
-mdhn:aat300041273 a mdhn:ResourceType ;
+mdhn:aat300041340 a mdhn:ResourceType ;
         rdfs:label "Engrave Print"@en, "حکاکی چاپ شده"@fa ;
         rdfs:comment "schema:CreativeWork"@en ;
         mdhn:hasAATBroader mdhn:aat300191091, mdhn:aat300163674 .           
@@ -3320,7 +3331,6 @@ mdhn:aat300264552 a mdhn:ResourceType;
 mdhn:aat300079783 a mdhn:ResourceType;
         rdfs:label "Conceptual Drawings"@en, "نگارگری يا طراحی"@fa ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
-        rdfs:comment "schema:Drawing"@en ;
         mdhn:hasAATBroader mdhn:aat300069413 .
 
 mdhn:aat300069413 a mdhn:ResourceType;
@@ -3455,6 +3465,17 @@ mdhn:aat300264091 a mdhn:ResourceType;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         mdhn:isFacet "true"^^xsd:boolean . 
 
+mdhn:aat300011914 a mdhn:ResourceType;
+        rdfs:label "wood (plant material)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300011913 . 
+
+mdhn:aat300011913 a mdhn:ResourceType;
+        rdfs:label "<wood and wood by product>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300124117 .         
+        
+
 mdhn:aat300014916 a mdhn:ResourceType;
         rdfs:label "lacquer (material)"@en ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
@@ -3472,7 +3493,7 @@ mdhn:aat300264089 a mdhn:ResourceType;
         mdhn:isFacet "true"^^xsd:boolean .     
 
 mdhn:aat300266660 a mdhn:ResourceType;
-        rdfs:label "Calligraphy"@en, "قطعه خوشنويسی"@fa ;
+        rdfs:label "Calligraphy"@en, "خوشنويسی"@fa ;
         rdfs:comment "schema:Calligraphy"@en ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         mdhn:hasAATBroader mdhn:aat300191091 .
@@ -3654,7 +3675,25 @@ mdhn:aat500011089 a mdhn:ResourceType;
         rdfs:label "Hunting as Hobby"@en , "شکار"@fa ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         mdhn:isInExtendedScope "true"^^xsd:boolean ;
-        mdhn:hasAATBroader mdhn:aat300033619 .                                                                         
+        mdhn:hasAATBroader mdhn:aat300033619 . 
+
+mdhn:aat500011093 a mdhn:ResourceType;
+        rdfs:label "Persian Style Feasting"@en , "بزم سبک ايرانی"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300033619 .         
+
+mdhn:aat500011090 a mdhn:ResourceType;
+        rdfs:label "Outdoor Feasting"@en , "بزم در طبيعت"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat500011093 .  
+
+mdhn:aat500011092 a mdhn:ResourceType;
+        rdfs:label "Indoor Feasting"@en , "بزم در فضای بسته"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat500011093 .                                                                                         
         
 
 mdhn:aat500011000 a mdhn:ResourceType;
@@ -3663,7 +3702,92 @@ mdhn:aat500011000 a mdhn:ResourceType;
         mdhn:isInExtendedScope "true"^^xsd:boolean ;
         mdhn:hasAATBroader mdhn:aat300033619 .  
 
-        
+
+
+mdhn:aat500011095 a mdhn:ResourceType;
+        rdfs:label "alam va alamat"@en , "علم و علمات"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300429891 . 
+
+mdhn:aat500011096 a mdhn:ResourceType;
+        rdfs:label "alam"@en , "علم"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat500011095 .
+
+mdhn:aat500011097 a mdhn:ResourceType;
+        rdfs:label "Kotal"@en , "کتل"@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat500011095 .                   
+
+mdhn:aat300429891 a mdhn:ResourceType;
+        rdfs:label "standards (identifying artifacts)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300200896 .  
+
+mdhn:aat300200896 a mdhn:ResourceType;
+        rdfs:label "identifying artifacts"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300137961 .       
+
+mdhn:aat300137961 a mdhn:ResourceType;
+        rdfs:label "<information artifacts by function>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300230425 .                   
+
+
+
+mdhn:aat300435747 a mdhn:ResourceType;
+        rdfs:label "jingles (costume components)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300212998 .  
+
+mdhn:aat300212998 a mdhn:ResourceType;
+        rdfs:label "costume components"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300241584 . 
+
+mdhn:aat300379730 a mdhn:ResourceType;
+        rdfs:label "demons"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300379007 . 
+
+mdhn:aat300379007 a mdhn:ResourceType;
+        rdfs:label "spirits (beings)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300168457 .  
+
+mdhn:aat300168457 a mdhn:ResourceType;
+        rdfs:label "people in religion"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300025746 .
+
+mdhn:aat300025746 a mdhn:ResourceType;
+        rdfs:label "<people in religion and related occupations>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300025485 .
+
+mdhn:aat300025485 a mdhn:ResourceType;
+        rdfs:label "<people in the humanities>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300024980 .      
+
+mdhn:aat300024980 a mdhn:ResourceType;
+        rdfs:label "<people by occupation>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300024979 .                                                       
+
+mdhn:aat500011098 a mdhn:ResourceType;
+        rdfs:label "div"@en, "ديو"@fa;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300379730 . 
+
+
+
+
 mdhn:aat300236072 a mdhn:ResourceType ;
     rdfs:label "bolsters (soft furnishings)"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
@@ -3899,25 +4023,25 @@ mdhn:aat30010001 a mdhn:ScriptStyleType ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300266660 . 
 
-mdhn:aat30010002 a mdhn:ScriptStyleType ;
+mdhn:aat300010002 a mdhn:ScriptStyleType ;
     rdfs:label "Siyah Mashq"@en, "سياه مشق"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300266660 .  
 
-mdhn:aat30010003 a mdhn:ScriptStyleType ;
+mdhn:aat300010003 a mdhn:ScriptStyleType ;
     rdfs:label "Chalipa"@en, "چليپا"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300266660 . 
 
-mdhn:aat30010004 a mdhn:ScriptStyleType ;
+mdhn:aat300010004 a mdhn:ScriptStyleType ;
     rdfs:label "Satr Nevisi"@en, "سطر نويسی"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300266660 . 
 
-mdhn:aat30010005 a mdhn:ScriptStyleType ;
+mdhn:aat300010005 a mdhn:ScriptStyleType ;
     rdfs:label "Qatee"@en, "قطعه"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
@@ -3927,7 +4051,7 @@ mdhn:aat30010006 a mdhn:ScriptStyleType ;
     rdfs:label "Spare Siyah Mashq"@en, "سياه مشق خلوت"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
-    mdhn:hasAATBroader mdhn:aat30010002 .                              
+    mdhn:hasAATBroader mdhn:aat300010002 .                              
 
 mdhn:aat300200824 a mdhn:ScriptStyleType ;
     rdfs:label "scripts (writing)"@en ;
@@ -3961,9 +4085,21 @@ mdhn:aat300194434 a mdhn:ScriptStyleType ;
     
 
 mdhn:aat300195195 a mdhn:ScriptStyleType ;
-    rdfs:label "naskhī"@en , "نسخ"@fa;
+    rdfs:label "naskhi"@en , "نسخ"@fa;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300208615 .
+
+mdhn:aat300010150 a mdhn:ScriptStyleType ;
+    rdfs:label "Persian Naskh"@en, "نسخ ايرانی"@fa ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300195195 .  
+
+mdhn:aat300010151 a mdhn:ScriptStyleType ;
+    rdfs:label "Ottoman Naskh"@en, "نسخ عثمانی"@fa ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300195195 .          
 
 
 mdhn:aat300195198 a mdhn:ScriptStyleType ;
@@ -4139,7 +4275,7 @@ mdhn:aat300028051 a mdhn:AATSubject ;
 mdhn:aat300041337 a mdhn:AATSubject ;
     rdfs:label "<prints by process or technique>"@en ;
     mdhn:isGuideTerm "true"^^xsd:boolean ;
-    mdhn:hasAATBroader mdhn:aat300041273 .
+    mdhn:hasAATBroader mdhn:aat300041340 .
 
 mdhn:aat300178544 a mdhn:AATSubject ;
     rdfs:label "<prints by process: transfer method>"@en ;

@@ -163,18 +163,16 @@ mdhn:howdah a mdhn:TravelsAndTransportation ;
 
 mdhn:Divs a mdhn:MythicalAnimalsOrMonsters ;
    rdfs:label "Divs"@en, "دیوها"@fa;
-   rdfs:comment "a type of supernatural creature in Persian mythology" ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1157107" . 
+   skos:exactMatch mdhn:aat500011098;
+   rdfs:comment "Mythical creatures" ;
+   mdhn:icWikiDataURL "" . 
 
 mdhn:IblisOrDeamons a mdhn:MythicalAnimalsOrMonsters ;
    rdfs:label "Divs"@en, "ابليس يا اهريمن"@fa;
    rdfs:comment "a type of supernatural creature in Persian mythology" ;
    mdhn:icWikiDataURL "" .     
 
-mdhn:Mace a mdhn:BattleSignAndEquipment ;
-   rdfs:label "Mace"@en, "گرز"@fa;
-   rdfs:comment "a type of blunt weapon that is typically made of metal and has a heavy head on a solid shaft" ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q272990" .
+
 
 mdhn:OxHeadMace a mdhn:BattleSignAndEquipment ;
    rdfs:label "Ox-head Mace"@en, "گرز گاو سر"@fa;
@@ -268,10 +266,7 @@ mdhn:Rifle a mdhn:BattleSignAndEquipment;
     skos:exactMatch mdhn:aat300427534, mdhn:tgm008914_Rifles ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q124072" .       
 
-mdhn:Battle a mdhn:BattleSignAndEquipment ;
-    rdfs:label "Battle"@en , "زرم و نبرد"@fa ;
-    skos:exactMatch mdhn:aat300185692 ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q198" .
+
 
 mdhn:Derafsh_Kaviani a mdhn:BattleSignAndEquipment ;
     rdfs:label "Derafsh Kaviani"@en , "درفش کاويانی"@fa ;
@@ -282,6 +277,10 @@ mdhn:Body_Armour a mdhn:BattleSignAndEquipment, mdhn:ClothingAndDress  ;
     rdfs:label "Body Armour"@en , "زره و لباس رزم"@fa ;
     skos:exactMatch mdhn:aat300036746 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q485027" .
+
+mdhn:Babr_e_Bayan a mdhn:BattleSignAndEquipment, mdhn:ClothingAndDress  ;
+    rdfs:label "Babr-e Bayan"@en , "ببر بيان رستم"@fa ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q23068742" .    
 
 mdhn:Combat_Helmet a mdhn:BattleSignAndEquipment, mdhn:ClothingAndDress  ;
     rdfs:label "Combat Helmet"@en , "کلاهخود"@fa ;
@@ -299,12 +298,12 @@ mdhn:Architectural_Structure a mdhn:ArchitecturalConceptOrElement ;
 
 mdhn:Balcony a mdhn:ArchitecturalConceptOrElement  ;
     rdfs:label "Balcony"@en , "بالکن"@fa ;
-    skos:exactMatch mdhn:aat300002588 ;
+    skos:exactMatch mdhn:aat300002588 , mdhn:tgm000725_Balconies ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q170552" .  
 
 mdhn:Iwan a mdhn:ArchitecturalConceptOrElement  ;
     rdfs:label "Iwan"@en , "ايوان"@fa ;
-    skos:exactMatch mdhn:aat300075830 ;
+    skos:exactMatch mdhn:aat300075830 , mdhn:tgm110002_Iwan ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q636232" .  
 
 mdhn:Pavilion  a mdhn:ArchitecturalConceptOrElement  ;
@@ -360,6 +359,8 @@ mdhn:Battle a mdhn:BattleSignAndEquipment  ;
     skos:exactMatch mdhn:aat300185692 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q198" .  
 
+  
+
 mdhn:Duel a mdhn:BattleSignAndEquipment  ;
     rdfs:label "Duel"@en , "دوئل"@fa ;
     skos:exactMatch mdhn:aat300230815 ;
@@ -373,6 +374,10 @@ mdhn:Battle_Field a mdhn:BattleSignAndEquipment ;
 mdhn:Decapitation a mdhn:BattleSignAndEquipment  ;
     rdfs:label "Decapitation"@en , "بريدن سر"@fa ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q204933" .   
+
+mdhn:TearingApart a mdhn:BattleSignAndEquipment  ;
+    rdfs:label "TearingApart"@en , "دريدن"@fa ;
+    mdhn:icWikiDataURL "" .       
      
 
 mdhn:Enthronement a mdhn:MonarchOrHistoricalCeremony ;
@@ -408,9 +413,10 @@ mdhn:Chess a mdhn:GameAndHobby  ;
                
 
 mdhn:Mace a mdhn:BattleSignAndEquipment ;
-    rdfs:label "Mace"@en , "گرز"@fa ;
-    skos:exactMatch mdhn:aat300037214 ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q272990" .
+   rdfs:label "Mace"@en, "گرز"@fa;
+   skos:exactMatch mdhn:aat300037214 ;
+   rdfs:comment "a type of blunt weapon that is typically made of metal and has a heavy head on a solid shaft" ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q272990" .    
 
 mdhn:Spear a mdhn:BattleSignAndEquipment ;
       rdfs:label "Spear"@en , "نيزه"@fa ;
@@ -909,6 +915,11 @@ mdhn:Hammer a mdhn:ObjectsAndTools ;
     skos:exactMatch mdhn:aat300024823 , mdhn:tgm004844_Hammers ;  
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q25294" .  
 
+mdhn:Jingle a mdhn:ObjectsAndTools ;
+    rdfs:label "jingle "@en , "زنگوله"@fa ;
+    skos:exactMatch mdhn:aat300024823 , mdhn:sh90002359_Jingles ;  
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q264922" .      
+
 mdhn:Nail a mdhn:ObjectsAndTools ;
     rdfs:label "Nail"@en , "ميخ"@fa ;
     skos:exactMatch mdhn:aat300033565 ;  
@@ -955,9 +966,10 @@ mdhn:Fountain a mdhn:ObjectsAndTools ;
     skos:exactMatch mdhn:aat300006179;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q483453" .   #513v  
 
-mdhn:Alam a mdhn:ObjectsAndTools ;
-    rdfs:label "Alam"@en , "علم"@fa ;
-    mdhn:icWikiDataURL "" .   #226v 206v 343r 272v          
+mdhn:AlamandKotalandKotal a mdhn:ObjectsAndTools ;
+    rdfs:label "Alam and Kotal"@en , "علم و کتل"@fa ;
+    skos:exactMatch mdhn:aat500011096;
+    mdhn:icWikiDataURL "https://www.wikidata.org/Q140502385" .   #226v 206v 343r 272v          
 
 mdhn:SunShade a mdhn:ObjectsAndTools ;
     rdfs:label "Sun Shade"@en , "چتر آفتاب"@fa ;
