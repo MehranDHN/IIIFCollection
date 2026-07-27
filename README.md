@@ -385,7 +385,7 @@ This creates rich agent-resource networks with inverse properties (e.g., `photog
 #### 5. Supporting Classes
 - `mdhn:CanvasType`
 - `mdhn:TemporalInfo`
-- `mdhn:Creator`, `mdhn:Publisher`, `mdhn:GLAMSource`
+- `mdhn:Creator`, `mdhn:GLAMSource`, `mdhn:GLAMSource`
 
 ### Design Principles
 
@@ -644,7 +644,7 @@ Additionally, each individual folio could be assigned its own specific, persiste
 
 ### RDF Ontology: Departed Collections vs. Resource Collections
 
-The RDF ontology, implemented in Turtle format, models two primary entities: **ResourceCollection** and **DigitalResource**, alongside other classes like `Creator`, `Publisher`, `ResourceType`, and `CanvasType`. Below, we differentiate between **Departed Collections** and **Resource Collections**:
+The RDF ontology, implemented in Turtle format, models two primary entities: **ResourceCollection** and **DigitalResource**, alongside other classes like `Creator`, `GLAMSource`, `ResourceType`, and `CanvasType`. Below, we differentiate between **Departed Collections** and **Resource Collections**:
 
 ### Departed Collections
 - **Purpose**: Designed to integrate digital resources scattered across various institutions, such as museums or archives worldwide.
@@ -677,7 +677,7 @@ Below, we transform the key elements of the RDF ontology into FOL axioms, with a
 - `ResourceCollection(x)`: True if x is a resource collection.
 - `DigitalResource(x)`: True if x is a digital resource (IIIF Manifest).
 - `Creator(x)`: True if x is a creator entity.
-- `Publisher(x)`: True if x is a publisher entity.
+- `GLAMSource(x)`: True if x is a GLAM entity.
 - `ResourceType(x)`: True if x is a resource type (aligned with vocabularies like AAT).
 - `CanvasType(x)`: True if x is a canvas type within a manifest.
 
@@ -699,14 +699,14 @@ Each object property is represented as a binary predicate, with axioms for domai
   - Range: CanvasType (∀x ∀y (hasCanvasType(x, y) → CanvasType(y)))  
   - No inverse defined.
 
-- **ofType(x, y)**  
-  - Domain: DigitalResource (∀x ∀y (ofType(x, y) → DigitalResource(x)))  
+- **classifiedAs(x, y)**  
+  - Domain: DigitalResource (∀x ∀y (classifiedAs(x, y) → DigitalResource(x)))  
   - Range: ResourceType (∀x ∀y (hasResourceType(x, y) → ResourceType(y)))  
   - Inverse: hasTypeInstance(y, x) (∀x ∀y (hasTypeInstance(x, y) ↔ resourceTypeInstance(y, x)))
 
 - **hasPublisher(x, y)**  
   - Domain: DigitalResource (∀x ∀y (hasPublisher(x, y) → DigitalResource(x)))  
-  - Range: Publisher (∀x ∀y (hasPublisher(x, y) → Publisher(y)))  
+  - Range: GLAMSource (∀x ∀y (hasPublisher(x, y) → GLAMSource(y)))  
   - Inverse: publishedResource(y, x) (∀x ∀y (hasPublisher(x, y) ↔ publishedResource(y, x)))
 
 - **belongsTo(x, y)**  
@@ -715,7 +715,7 @@ Each object property is represented as a binary predicate, with axioms for domai
   - Inverse of hasResource.
 
 - **publishedResource(x, y)**  
-  - Domain: Publisher (∀x ∀y (publishedResource(x, y) → Publisher(x)))  
+  - Domain: GLAMSource (∀x ∀y (publishedResource(x, y) → GLAMSource(x)))  
   - Range: DigitalResource (∀x ∀y (publishedResource(x, y) → DigitalResource(y)))  
   - Inverse of hasPublisher.
 
@@ -835,10 +835,43 @@ PREFIX aat: <https://vocab.getty.edu/aat/>
 SELECT ?resource ?label
 WHERE {
   ?resource a mdhn:DigitalResource ;
-            mdhn:ofType mdhn:aat300027200 ;  # AAT term for "Photograph Album"
+            mdhn:classifiedAs mdhn:aat300027200 ;  # AAT term for "Photograph Album"
             rdfs:label ?label .
 }
+
 ```
+
+Statistical information by grouping the resources by their publishers and then by type:
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT 
+  ?publisher 
+  (SAMPLE(?publisherLabel) AS ?publisherLabel)
+  ?type 
+  (SAMPLE(?typeLabel) AS ?typeLabel)
+  (COUNT(DISTINCT ?resource) AS ?count)
+WHERE {
+  ?resource a mdhn:DigitalResource ;
+            mdhn:PublishedBy ?publisher ;
+            mdhn:classifiedAs ?type .
+
+  OPTIONAL {
+    ?publisher rdfs:label ?publisherLabel .
+    FILTER(lang(?publisherLabel) = "en" || lang(?publisherLabel) = "")
+  }
+
+  OPTIONAL {
+    ?type rdfs:label ?typeLabel .
+    FILTER(lang(?typeLabel) = "en" || lang(?typeLabel) = "")
+  }
+}
+GROUP BY ?publisher ?type
+ORDER BY ?publisherLabel ?typeLabel
+```
+
 There is a difference between logical Collections and actual resource type. To get a full list of all members of `mdhn:PhotographAlbum` which is an instance of  `mdhn:ResourceCollection` the following Query can be use:
 
 ```sparql
@@ -864,7 +897,7 @@ PREFIX aat: <https://vocab.getty.edu/aat/>
 SELECT ?resource ?label
 WHERE {
   ?resource a mdhn:DigitalResource ;
-            mdhn:ofType mdhn:aat300027200 ;  # AAT term for "Photograph Album"
+            mdhn:classifiedAs mdhn:aat300027200 ;  # AAT term for "Photograph Album"
             rdfs:label ?label .
     FILTER(LANG(?label)="en")
     #BIND(LANG(?label) as ?languages)
@@ -907,7 +940,7 @@ WHERE {
 }
 ```
 ####  Query 6: Accessing the resources that somehow related to specified geo spatial TGN location
-This query finds all resources that related to specified TGN location based on  `mdhn:hasTGNPlace` predicate. We also `mdhn:ofType` predicate as another dimension to find the resource types.
+This query finds all resources that related to specified TGN location based on  `mdhn:hasTGNPlace` predicate. We also `mdhn:classifiedAs` predicate as another dimension to find the resource types.
 This query can be easily extended to group the results by resource types to count the resources associated to each type. 
 The `mdhn:tgn1001228` is the part of the Isfahan URI which we reconciliate with the Getty's TGN .
 See [TGN](http://vocab.getty.edu/tgn/1001228)
@@ -919,7 +952,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sc: <https://schema.org/>
 select ?s  ?place ?restype ?typelbl {
     ?s a mdhn:DigitalResource;
-      mdhn:ofType ?restype;
+      mdhn:classifiedAs ?restype;
       mdhn:hasTGNPlace ?place.
     ?restype rdfs:label ?typelbl.
     Filter(?place=mdhn:tgn1001228)
@@ -1286,7 +1319,7 @@ SELECT *
 WHERE {
     ?s a mdhn:DigitalResource;
        rdfs:label ?resLabel;
-       mdhn:ofType ?aatcat;
+       mdhn:classifiedAs ?aatcat;
        mdhn:hasUrl ?ressurl;
        mdhn:hasParticipantInRoleFormerOwner ?participants;
        mdhn:isInCollection ?collection.
@@ -1294,6 +1327,34 @@ WHERE {
             mdhn:hasAATBroader ?brodercat.
     ?collection rdfs:label ?collbl.
     FILTER(?aatcat IN (mdhn:aat500011082 , mdhn:aat500011084))    
+}
+
+```
+
+####  Query 23: Retrieval based on Narrative Episode but with rich information about the DigitalResources that are parent of the desired canvas. The canvas itself has one or more Content Element which we specified only those that are `mdhn:Fragment_Cropped_Image`.
+Obviously we can use SPARQL filter to narrow down our query in a way that returns all Cropped Image of specified persona(s).
+
+Please note that we have a four levels data structure. The Collection as root and its resources that have our desired ResourceCanvas, which is those that have sepcifie ContentElement type.
+`Collection` -> `Resource` -> `Canvas` -> `Element`
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+
+SELECT *
+WHERE {
+    ?s a mdhn:ResourceCanvas;
+         mdhn:depicts mdhn:RostamStory ;
+         mdhn:canvasOf ?resource;
+         rdfs:label ?canvasLabel;
+         mdhn:hasCroppedDetails ?details. 
+    ?details mdhn:croppedImageURL ?imgurl;
+             mdhn:elementDepicts mdhn:Fragment_Cropped_Image;
+             mdhn:hasAgential ?persona.
+    ?resource mdhn:hasUrl ?resurl;
+             mdhn:isInCollection ?collection.
+      
 }
 
 ```
