@@ -1,0 +1,2382 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/VaraminPhotographs195Collection.json",
+    "@type": "sc:Collection",
+    "label": "Varamin Photographs, 195 G",
+    "viewingHint": "multi-part",
+    "navDate": "1930-09-15T12:00:00.0000000Z",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MayronBementSmithCollection.json",
+    "summary": {
+        "en": [
+            "The Myron Bement Smith Collection, FSA A.04. National Museum of Asian Art Archives. Smithsonian Institution, Washington, D.C. Gift of Katherine Dennis Smith"
+        ]
+    },
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 70 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://ids.si.edu/ids/iiif/FS-FSA-2024-010242/126,105,2749,2242/700,/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 570,
+            "width": 700,
+            "service": [
+                {
+                    "id": "https://ids.si.edu/ids/iiif/FS-FSA-2024-010242",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 570,
+                    "width": 700,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "manifests": [
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010214",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010214"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010214"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010214"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010216",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010216"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010216"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010216"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010218",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010218"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010218"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010218"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010220",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010220"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010220"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010220"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010222",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010222"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010222"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010222"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010224",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010224"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010224"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010224"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010226",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010226"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010226"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010226"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010228",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010228"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010228"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010228"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010230",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010230"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010230"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010230"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010232",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010232"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010232"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010232"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010234",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010234"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010234"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010234"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010236",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010236"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010236"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010236"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010238",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010238"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010238"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010238"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010240",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010240"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010240"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010240"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010242",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010242"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010242"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010242"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010244",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010244"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010244"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010244"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2024-010246",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2024-010246"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2024-010246"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines",
+                            "aat:500011068"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000514"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2024-010246"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2023-000001",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "2023-000001"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "2023-000001"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "tgm:tgm008779_Religious_facilities",
+                            "tgm:tgm009579_Shrines"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn9203565",
+                            "tgn:tgn0000512"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300026821"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Sova"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2023-000001"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930 AD"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
