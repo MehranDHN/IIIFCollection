@@ -838,19 +838,19 @@
 - **Styles:** aat:500011064
 
 ### mdhn:Illuminated_Headpiece: Headpiece1 in 9v
-- ![ Headpiece1 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/1027,1401,1689,1141/280,/0/default.jpg)
+- ![ Headpiece1 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/1027,1401,1689,1141/130,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** کتاب شاهنامه حکيم فردوسی
 - **English Text:** The Book Of Shahnama from Great Firdowsi
 
 ### mdhn:Illuminated_Headpiece: Headpiece2 in 9v
-- ![ Headpiece2 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/1407,3796,917,319/160,/0/default.jpg)
+- ![ Headpiece2 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/1407,3796,917,319/130,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** گفتار در ستايش خرد گويد
 - **English Text:** Speech in praise of wisdom
 
 ### mdhn:Text_or_Verses: Textblock1 in 9v
-- ![ Textblock1 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/889,2601,1974,2267/160,/0/default.jpg)
+- ![ Textblock1 in 9v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/889,2601,1974,2267/130,/0/default.jpg)
 - **Styles:** aat:300195198, aat:500011066
 - **Persian Text:** به نام خداوندِ جان و خرد
 
@@ -869,33 +869,33 @@
 - **Styles:** aat:500011064
 
 ### mdhn:Illuminated_Headpiece: Headpiece1 in 10r
-- ![ Headpiece1 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2123,1530,947,316/180,/0/default.jpg)
+- ![ Headpiece1 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2123,1530,947,316/130,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** 'گفتار در آفرينش گويد'
 - **English Text:** Saying in Creation
 
 ### mdhn:Illuminated_Headpiece: Headpiece2 in 10r
-- ![ Headpiece2 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2135,3081,947,316/180,/0/default.jpg)
+- ![ Headpiece2 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2135,3081,947,316/130,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** گفتار در آفريدن عالم
 - **English Text:** Speech in Creating the World
 
 ### mdhn:Illuminated_Headpiece: Headpiece3 in 10r
-- ![ Headpiece3 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2157,4482,947,316/180,/0/default.jpg)
+- ![ Headpiece3 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/2157,4482,947,316/130,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** گفتار در آفريدن آدم
 - **English Text:** Speech in Crating of Human
 
 ### mdhn:Text_or_Verses: Textblock1 in 10r
-- ![ Textblock1 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/1608,1249,1989,316/180,/0/default.jpg)
+- ![ Textblock1 in 10r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/1608,1249,1989,316/130,/0/default.jpg)
 - **Styles:** aat:300195198, aat:500011066
 - **Persian Text:** خرد را و جان را همی‌سَنجد، اوی
 
 ---
 
 ## ResourceCanvas: f.12v — Dīv Tears Siyamak Apart
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
-- **Contains:** HasPainting, HasText
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300033936
+- **Contains:** HasPainting, HasHalkari, HasText
 
 ### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 12v
 - ![ Siamak cropped figure from 12v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0026/1786,2982,758,948/130,/0/default.jpg)
@@ -923,6 +923,103 @@
 ### mdhn:Fragment_Cropped_Image: People2 cropped figure from 12v
 - ![ People2 cropped figure from 12v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0026/848,3296,1162,979/130,/0/default.jpg)
 - **Styles:** aat:500011001
+
+---
+
+## ResourceCanvas: f.42r — Salm and Tur behraded Iraj
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:500011092, aat:300033936
+- **Contains:** HasPainting, HasHalkari, HasText
+
+### mdhn:Fragment_Cropped_Image: Iraj cropped figure from 42r
+- ![ Iraj cropped figure from 42r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/2510,3343,592,787/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Iraj
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Salm cropped figure from 42r
+- ![ Salm cropped figure from 42r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/2165,2496,511,850/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Salm
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Tur cropped figure from 42r
+- ![ Tur cropped figure from 42r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/2782,2280,525,977/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Tur
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Females cropped figure from 42r
+- ![ Females cropped figure from 42r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/1073,2210,670,418/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Female cropped figure from 42r
+- ![ Female cropped figure from 42r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/1082,1593,569,638/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Group of People cropped figure from 42r
+- ![ Group of People cropped figure from 42r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/2998,3073,551,1114/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Group of People cropped figure from 42r
+- ![ Group of People cropped figure from 42r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/1831,2531,454,1651/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Group of People cropped figure from 42r
+- ![ Group of People cropped figure from 42r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/3253,2571,296,731/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 42r
+- ![ Textblock1 in 42r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/1752,1231,1910,639/130,/0/default.jpg)
+- **Styles:** aat:300195198, aat:500011066
+- **Persian Text:** نیایدت گفت ایچ بیم از خدای؟
+
+### mdhn:Text_or_Verses: Textblock2 in 42r
+- ![ Textblock2 in 42r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/1714,4186,1950,651/130,/0/default.jpg)
+- **Styles:** aat:300195198, aat:500011066
+- **Persian Text:** فرود آمد از پای سرو سهی
+
+---
+
+## ResourceCanvas: f.105v — Rostam Kills White Elephant
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:500011092, aat:300033936
+- **Contains:** HasPainting, HasHalkari, HasText
+
+### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 105v
+- ![ Rostam cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1052,3227,495,905/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Elephant cropped figure from 105v
+- ![ Elephant cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1590,3376,884,758/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Elephant
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Persona cropped figure from 105v
+- ![ Persona cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/2774,3820,361,985/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Females cropped figure from 105v
+- ![ Females cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/2603,1828,680,821/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Females cropped figure from 105v
+- ![ Females cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1882,2223,326,688/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Females cropped figure from 105v
+- ![ Females cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1264,2223,362,698/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Babr e Bayan cropped figure from 105v
+- ![ Babr e Bayan cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1015,2274,270,339/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 105v
+- ![ Textblock1 in 105v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/854,1228,1917,644/130,/0/default.jpg)
+- **Styles:** aat:300195198, aat:500011066
+- **Persian Text:** رمیدند از آن پهلو نامور 
+
+### mdhn:Text_or_Verses: Textblock2 in 105v
+- ![ Textblock2 in 105v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/1714,4186,1950,651/130,/0/default.jpg)
+- **Styles:** aat:300195198, aat:500011066
+- **Persian Text:** تهمتن یکی گرز زد بر سرش
 
 ---
 
@@ -1032,6 +1129,56 @@
 - **Iconography Tags (elementLOUD):** mdhn:Rostam, mdhn:White_Div_7th_Course
 - **Styles:** aat:300265532
 - **Persian Text:** همه غار یکسر پر از کشته بود
+
+---
+
+
+
+
+# Shahnama Smith-Lesouëf 224
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Garšasp-nāma, Šāh-nāma Abū al-Qāsim Firdawsī Smith-Lesouëf 224
+
+## ResourceCanvas: f.90v — Smith-Lesouëf 224, Nariman and Sam Mourning Garshasb
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:300033936
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Nariman cropped figure from 90v
+- ![ Nariman cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/545,2301,621,1072/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Nariman
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Sam cropped figure from 90v
+- ![ Sam cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/1021,2191,554,1383/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Sam
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Carring Coffin cropped figure from 90v
+- ![ Carring Coffin cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/199,1570,1895,901/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Coffin
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Mourning People 1 cropped figure from 90v
+- ![ Mourning People 1 cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/229,1009,810,1041/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mourning
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Mourning People 2 cropped figure from 90v
+- ![ Mourning People 2 cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/1058,1027,1316,737/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mourning
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Mourning People 3 cropped figure from 90v
+- ![ Mourning People 3 cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/1277,3073,1286,1168/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mourning
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Mourning People 4 cropped figure from 90v
+- ![ Mourning People 4 cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/187,3088,1052,1183/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mourning
+- **Styles:** aat:500011001
 
 ---
 
