@@ -926,7 +926,7 @@
 
 ---
 
-## ResourceCanvas: f.42r — Salm and Tur behraded Iraj
+## ResourceCanvas: f.42r — Salm and Tur beheaded Iraj
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:500011092, aat:300033936
 - **Contains:** HasPainting, HasHalkari, HasText
 
@@ -1179,6 +1179,45 @@
 - ![ Mourning People 4 cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/187,3088,1052,1183/130,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Mourning
 - **Styles:** aat:500011001
+
+---
+
+## ResourceCanvas: f.119r — Smith-Lesouëf 224, Salm and Tur beheaded Iraj
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:500011092, aat:300033936
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Iraj cropped figure from 119r
+- ![ Iraj cropped figure from 119r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f263/1324,3521,1709,948/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Iraj
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Salm cropped figure from 119r
+- ![ Salm cropped figure from 119r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f263/1076,2609,1153,1824/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Salm
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Tur cropped figure from 119r
+- ![ Tur cropped figure from 119r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f263/2186,2167,864,1723/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Tur
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People 1 cropped figure from 4119r2r
+- ![ People 1 cropped figure from 4119r2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f263/867,1196,1284,1288/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People 2 cropped figure from 119r
+- ![ People 2 cropped figure from 119r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f263/2128,1225,929,1259/130,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 119r
+- ![ Textblock1 in 119r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f263/876,1078,2177,202/130,/0/default.jpg)
+- **Styles:** aat:300195198, aat:500011066
+- **Persian Text:** تو نيز ای بخيره خرف گشته مرد
+
+### mdhn:Text_or_Verses: Textblock2 in 119r
+- ![ Textblock2 in 119r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f263/921,4436,2148,235/130,/0/default.jpg)
+- **Styles:** aat:300195198, aat:500011066
+- **Persian Text:** چو شاهان کشی بيگنه خير و خير
 
 ---
 
