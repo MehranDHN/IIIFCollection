@@ -1,0 +1,1285 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/DetailsOfJamiAlTawarikhCollection.json",
+    "@type": "sc:Collection",
+    "label": "Details Of Jami' al-Tawarikh OR.MS.20",
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 70 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "summary": {
+        "en": [
+            "Cropped details of Jami' al-Tawarikh, OR.MS.20, a Persian manuscript from the 16th century, featuring intricate illustrations and calligraphy. This collection provides a focused view of specific folios, highlighting the artistic and historical significance of the work."
+        ]
+    },
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://ids.si.edu/ids/iiif/FS-7364_15/53,3,3538,5491/700,/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 1086,
+            "width": 701,
+            "service": [
+                {
+                    "id": "https://ids.si.edu/ids/iiif/FS-7364_15",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 1086,
+                    "width": 701,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/DepartedFolioCollection.json",
+    "manifests": [
+        {
+            "id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEsha~4~4~61208~102896/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Jami' al-Tawarikh f.108v"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Jami' al-Tawarikh f.108v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Rashid-al-Din Hamadani",
+                            "WD:Q328782"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Rashid_al_Din_Hamadani"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Mahmud_of_Ghazni"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Shows Mahmud ibn Sebuktegin, ruler of the Turkish Ghaznavid Dynasty from 998 to 1030CE, conquering Qasdar in India. The fortress of Qasdar can be seen to the right of the image, with several archers on its battlements, with the troops of Sebuktegin, also armed, to the left of the scene. Arguably the greatest treasure in the library, the Jami' al-Tawarikh, or Compendium of Chronicles, is a world history which encompasses a range of cultures, from China in the East, to Ireland in the West, from the time of Adam. It is written in the Naskh script and contains 70 illustrated folios."
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.108v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Arabic"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "University of Edinburgh"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "UoEsha~4~4~61208~102896"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1414 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300079783",
+                            "aat:300033936",
+                            "aat:300189604",
+                            "aat:500181051"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000138"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEsha~4~4~61219~102897/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Jami' al-Tawarikh f.109r"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Jami' al-Tawarikh f.109r"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Rashid-al-Din Hamadani",
+                            "WD:Q328782"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Rashid_al_Din_Hamadani"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Mahmud_of_Ghazni"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Shows Mahmud ibn Sebuktegin, ruler of the Turkish Ghaznavid Dynasty which controlled eastern Afghanistan, from 998 to 1030CE, routing rebels in Qasdar. Six horsemen, representing the King of Qadar's forces can be seen fleeing towards the left of the image, while Sebuktegin's horsemen stand grouped on the right. Two discarded maces, a drum and three spears can be seen lying in the foreground Arguably the greatest treasure in the library, the Jami' al-Tawarikh, or Compendium of Chronicles, is a world history which encompasses a range of cultures, from China in the East, to Ireland in the West, from the time of Adam. It is written in the Naskh script and contains 70 illustrated folios."
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.109r"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Arabic"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "University of Edinburgh"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "UoEsha~4~4~61219~102897"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1414 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300079783",
+                            "aat:300033936",
+                            "aat:300189604",
+                            "aat:500181050"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000138"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEsha~4~4~60537~102835/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Jami' al-Tawarikh f.10v"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Jami' al-Tawarikh f.10v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Rashid-al-Din Hamadani",
+                            "WD:Q328782"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Rashid_al_Din_Hamadani"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Shows Yusha (Joshua), seated on two large cushions and surrounded by attendants, ordering the property taken at Jericho to be destroyed. This occasion is not directly related to any account in the bible, apart from perhaps a reference in Joshua 6:21: 'and they utterly destroyed all that was in the city'. Arguably the greatest treasure in the library, the Jami' al-Tawarikh, or Compendium of Chronicles, is a world history which encompasses a range of cultures, from China in the East, to Ireland in the West, from the time of Adam. It is written in the Naskh script and contains 70 illustrated folios."
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.10v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Arabic"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "University of Edinburgh"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "UoEsha~4~4~60537~102835"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1414 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300079783",
+                            "aat:300033936",
+                            "aat:300189604",
+                            "aat:500181051"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000138"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEsha~4~4~60735~102853/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Jami' al-Tawarikh f.110v"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Jami' al-Tawarikh f.110v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Rashid-al-Din Hamadani",
+                            "WD:Q328782"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Rashid_al_Din_Hamadani"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Shows the forces of 'Adud and Mu'ayyid al-Dawla, two brothers of the Buyid Dynasty, which controlled most of Iran and Iraq during the 10th and 11th centuries, attacking the troops of their brother Rukn al'Dawla, in a struggle for succession. Two horsemen can be seen in combat in the centre of the picture, while other mounted troops look on from either side. A real historical event, the battle took place in September 976CE. Arguably the greatest treasure in the library, the Jami' al-Tawarikh, or Compendium of Chronicles, is a world history which encompasses a range of cultures, from China in the East, to Ireland in the West, from the time of Adam. It is written in the Naskh script and contains 70 illustrated folios."
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.110v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Arabic"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "University of Edinburgh"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "UoEsha~4~4~60735~102853"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1414 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300079783",
+                            "aat:300033936",
+                            "aat:300189604",
+                            "aat:500181051"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000138"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEsha~4~4~60801~102859/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Jami' al-Tawarikh f.111v"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Jami' al-Tawarikh f.111v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Rashid-al-Din Hamadani",
+                            "WD:Q328782"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Rashid_al_Din_Hamadani"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Shows the forces of 'Adud and Mu'ayyid al-Dawla, two brothers of the Buyid Dynasty, which controlled most of Iran and Iraq during the 10th and 11th centuries, attacking the troops of their brother Rukn al'Dawla, in a struggle for succession. Two horsemen can be seen in combat in the centre of the picture, while other mounted troops look on from either side. A real historical event, the battle took place in September 976CE. Arguably the greatest treasure in the library, the Jami' al-Tawarikh, or Compendium of Chronicles, is a world history which encompasses a range of cultures, from China in the East, to Ireland in the West, from the time of Adam. It is written in the Naskh script and contains 70 illustrated folios."
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.111v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Arabic"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "University of Edinburgh"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "UoEsha~4~4~60801~102859"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1414 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300079783",
+                            "aat:300033936",
+                            "aat:300189604",
+                            "aat:500181051"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000138"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEsha~4~4~60999~102877/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Jami' al-Tawarikh f.137v"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Jami' al-Tawarikh f.137v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Rashid-al-Din Hamadani",
+                            "WD:Q328782"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Rashid_al_Din_Hamadani"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Detail of gold and blue illumination from the Compendium of Chronicles by Rashid al-Din. Arguably the greatest treasure in the library, the Jami' al-Tawarikh, or Compendium of Chronicles, is a world history which encompasses a range of cultures, from China in the East, to Ireland in the West, from the time of Adam. It is written in the Naskh script and contains 70 illustrated folios. Written by the scholar and courtier Rashid al-Din (d.1318), there is some debate as to the exact date of this manuscript, but it was almost certainly completed within the author's lifetime, making it one of the earliest copies in existence. It is one of the three main sources for the life of Genghis Khan and is considered to be one of the most important medieval documents in the world"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.137v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Arabic"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "University of Edinburgh"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "UoEsha~4~4~60999~102877"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1414 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300079783",
+                            "aat:300033936",
+                            "aat:300189604",
+                            "aat:500181051"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000138"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEsha~4~4~60394~102822/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Jami' al-Tawarikh f.8r"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Jami' al-Tawarikh f.8r"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Rashid-al-Din Hamadani",
+                            "WD:Q328782"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Rashid_al_Din_Hamadani"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Story_of_Moses",
+                            "mdhn:Moses"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Shows Musa (Moses) and seventy learned men hearing the voice of God from the clouds. Moses is shown on a rock, wearing a veil of the type usually worn by prophets and sages, while the seventy are lying prostrate beneath. Mountains can be seen behind. Arguably the greatest treasure in the library, the Jami' al-Tawarikh, or Compendium of Chronicles, is a world history which encompasses a range of cultures, from China in the East, to Ireland in the West, from the time of Adam. It is written in the Naskh script and contains 70 illustrated folios. Written by the scholar and courtier Rashid al-Din (d.1318), there is some debate as to the exact date of this manuscript, but it was almost certainly completed within the author's lifetime, making it one of the earliest copies in existence. It is one of the three main sources for the life of Genghis Khan and is considered to be one of the most important medieval documents in the world"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.8r"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Arabic"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "University of Edinburgh"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "UoEsha~4~4~60394~102822"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1414 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300079783",
+                            "aat:300033936",
+                            "aat:300189604",
+                            "aat:500181050"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000138"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEsha~4~4~60427~102825/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Jami' al-Tawarikh f.6v"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Jami' al-Tawarikh f.6v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Rashid-al-Din Hamadani",
+                            "WD:Q328782"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Rashid_al_Din_Hamadani"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Kingdom_of_Manuchehr",
+                            "mdhn:Manuchehr",
+                            "mdhn:Rostam"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Shows the legendary Persian king Minuchehr seated on a throne and surrounded by attendants. Two guards, one on either side of the king, are seen holding halberds, while the Persian hero, Rustam, is seated to his left. Arguably the greatest treasure in the library, the Jami' al-Tawarikh, or Compendium of Chronicles, is a world history which encompasses a range of cultures, from China in the East, to Ireland in the West, from the time of Adam. It is written in the Naskh script and contains 70 illustrated folios. Written by the scholar and courtier Rashid al-Din (d.1318), there is some debate as to the exact date of this manuscript, but it was almost certainly completed within the author's lifetime, making it one of the earliest copies in existence. It is one of the three main sources for the life of Genghis Khan and is considered to be one of the most important medieval documents in the world."
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.6v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Arabic"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "University of Edinburgh"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "UoEsha~4~4~60427~102825"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1414 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300079783",
+                            "aat:300033936",
+                            "aat:300189604",
+                            "aat:500181050"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000138"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEsha~4~4~60449~102827/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Jami' al-Tawarikh f.2v"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Jami' al-Tawarikh f.2v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Rashid-al-Din Hamadani",
+                            "WD:Q328782"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Rashid_al_Din_Hamadani"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:KingdomOfTahmuras",
+                            "mdhn:Tahmuras_Enthroned",
+                            "mdhn:Tahmuras"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Shows Tahmuras, the third king of the world according to Persian mythology, surrounded by attendants. One, who is shown writing, appears to be a scribe, while another is holding an arrow, bow and quiver. Arguably the greatest treasure in the library, the Jami' al-Tawarikh, or Compendium of Chronicles, is a world history which encompasses a range of cultures, from China in the East, to Ireland in the West, from the time of Adam. It is written in the Naskh script and contains 70 illustrated folios. Written by the scholar and courtier Rashid al-Din (d.1318), there is some debate as to the exact date of this manuscript, but it was almost certainly completed within the author's lifetime, making it one of the earliest copies in existence. It is one of the three main sources for the life of Genghis Khan and is considered to be one of the most important medieval documents in the world."
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.2v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Arabic"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "University of Edinburgh"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "UoEsha~4~4~60449~102827"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1414 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300079783",
+                            "aat:300033936",
+                            "aat:300189604",
+                            "aat:500181050"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000138"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
