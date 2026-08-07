@@ -10,22 +10,22 @@ This project was initiated to explore the requirements for building a modern nat
 
 Recognizing that such an ambitious undertaking would ideally require crowdsourcing and a broad community of contributors, I encountered significant practical challenges in coordinating volunteer efforts. Therefore, I decided to develop the project on a limited and controlled scale as a **Proof of Concept**. This approach enabled the core structures to take shape while revealing the main technical challenges early on.
 
-One of the most important and decisive design choices was the adoption of **IIIF Collections** as the primary mechanism for organizing resources into dynamic, machine consumable, hierarchical lists. This structure naturally supports tree-like modeling of classified resources. The underlying information model was designed in full compliance with an RDF/OWL ontology. Initially, the ontology was intentionally minimal—containing only the core concepts of `Digital Collection` and `Digital Resource` along with their relationship to allow the project to start at a manageable/limited scale. Thanks to the remarkable flexibility of the ontology, it has since been iteratively expanded according to evolving needs.
+One of the most important and decisive design choices was the adoption of **IIIF Collections** as the primary mechanism for organizing resources into dynamic, machine consumable, hierarchical lists. This structure naturally supports tree-like modeling of classified resources. The underlying information model was designed in full compliance with an RDF/OWL ontology. Initially, the ontology was intentionally minimal—containing only the core concepts of `Digital Collection`, `Digital Resource`, `ResourceCanvas` and `ContentElement` along with their relationship to allow the project to start at a manageable/limited scale. Thanks to the remarkable flexibility of the ontology, it has since been iteratively expanded according to evolving needs.
 
 In its original form, a single IIIF Collection functioned as the root of a nested hierarchy, with nested Collections and IIIF Manifests placed inside them. This design provided a highly flexible information model that serves both as a machine consumable resource list and as a pointer to digital assets hosted across GLAM institutions without the need to manulay download them. Because IIIF inherently supports a wide variety of digital object types including books, manuscripts, artworks, calligraphy, photographs, historical documents, maps, and even audio/video materials the system is versatile and well-suited for long-term growth.
 
 ## Key Features  
 
-- Machine Readability: The catalog is designed to be machine-readable and consumable.
-- Linked Data. IIIFDexir is fully compatible with Linked Data Paradigm and LOUD/FAIR concepts. 
-- IIIF Compatibility: IIIFDexir is fully compatible with IIIF standards.  
-- Hierarchical Arrangement: Resources in the catalog are all IIIF Manifests accessible online and are arranged hierarchically as nested Multipart IIIF Collection.  
-- Flexible Data Structures: The data structures of the resources in the collection are JSON-LD compatible and highly flexible that can be enriched with external data sources, including XML, JSON, and RDF files.  
-- Controlled Vocabularies: IIIFDexir is associated with standard controlled vocabularies and knowledge baeses like AAT, TGN, LCSH, TGM and Wikidata. In some circumestances I extend The AAT and TGM with new terms and concepts to demonstrate how easy is extending the contolled vocabularies.
-- FHKB (Family History Knowledge Base). A Full version of FHKB is embeded into the project for the Agential data.  
-- On The Fly Manifests. There are many use cases that we want to use a customize curated manifests from selected cavases that physically belong to other manifests. There is a python code to achive this goal which provided with some samples. These manifests are hosted locally.
-- Human Usability: While the primary focus is on machine consumption, the catalog is also usable by humans via standard IIIF viewers like Mirador and OpenSeaDragon.  
-- Public Accessibility: The catalog remains publicly accessible. 
+- **Machine Readability**: The catalog is designed to be machine-readable and consumable.
+- **Linked Data**: IIIFDexir is fully compatible with `Linked Data` Paradigm, `LinkedArt` and `LOUD/FAIR` concepts. 
+- **IIIF Compatibility**: IIIFDexir is fully compatible with IIIF standards.  
+- **Hierarchical Arrangement**: Resources in the catalog are all IIIF Manifests accessible online and are arranged hierarchically as nested Multipart IIIF Collection.  
+- **Flexible Data Structures**: The data structures of the resources in the collection are JSON-LD compatible and highly flexible that can be enriched with external data sources, including XML, JSON, and RDF files.  
+- **Controlled Vocabularies**: IIIFDexir is associated with standard controlled vocabularies and knowledge baeses like AAT, TGN, LCSH, TGM and Wikidata. In some circumestances I extend The AAT and TGM with new terms and concepts to demonstrate how easy is extending the contolled vocabularies.
+- **FHKB** (Family History Knowledge Base): A Full version of FHKB is embeded into the project for the Agential data.  
+- **On The Fly Manifests**: There are many use cases that we want to use a customize curated manifests from selected cavases that physically belong to other manifests. There is a python code to achive this goal which provided with some samples. These manifests are hosted locally.
+- **Human Usability**: While the primary focus is on machine consumption, the catalog is also usable by humans via standard IIIF viewers like Mirador and OpenSeaDragon.  
+- **Public Accessibility**: The catalog remains publicly accessible. 
 
 ![IIIFDexir](/IIIFCollection/images/IIIFDexir.JPG)
 
@@ -33,15 +33,17 @@ In its original form, a single IIIF Collection functioned as the root of a neste
 
 ### Root Collection
 
-Although the primary goal of this system is to deliver high-quality structured data for machines and enabling advanced querying, reasoning, and integration within a Knowledge Graph, it also provides rich, user-friendly access and experiences for humans. Through standard IIIF viewers such as `Mirador`, `Theseus`, or any other compatible `IIIF Viewer`, users can easily browse and explore the collections.
+Although the primary goal of this system is to deliver high-quality structured data for machines and enabling advanced querying, reasoning, and integration within a Knowledge Graph, it also provides rich, user-friendly access and experiences for humans. Through standard IIIF viewers such as `Mirador`, `Theseus`, `Glycerine` or any other compatible `IIIF Viewer`, users can easily browse and explore the collections.
 
 Some of the most important of this human interaction includes:
 
-- Navigating hierarchical structure of the `Collections` and their nested `sub-collections`
-- Exploring `IIIF Manifests` and their associated media(images/audio/video/3d Models)
-- Viewing and examining high-resolution images of manuscripts, photograph albums, maps. periodical contents, artworks, and other digital assets.
+- Navigating hierarchical structure of the `Collections` and their nested `sub-collections`.
+- Exploring `IIIF Manifests` and their associated media(images/audio/video/3d Models).
+- Viewing and examining high-resolution images of manuscripts, photograph albums, maps, periodical contents, artworks, and other digital assets.
 - Downloading metadata and original digital assets.
+- Discovering the original GLAMs which are Galleries, Libraries, Archives and Muesuems.
 - Following and even rendering of enriched data that are available via the `seeAlso`, `navPlace`, and `Annotation` fields to discover related resources across the web.
+- Rendering riched `Data Visulization` presentations about any aspects of statistical information related to the Cultural Heritage context.
 
 Each of these features plays a significant role in making the collection both machine-readable and human-accessible. Several practical examples are provided later in this document.
 It is important to note that while the detailed metadata embedded in the `IIIF Collections` is primarily designed as a template for building the RDF/OWL Knowledge Graph (and is not directly displayed by most viewers), the viewers themselves serve as powerful interfaces for human exploration of the underlying resources. A more detailed explanation of how the Knowledge Graph is constructed from this data is provided in the sections below.
@@ -53,16 +55,15 @@ It is important to note that while the detailed metadata embedded in the `IIIF C
 - [Edward Browne Collection](https://theseusviewer.org/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/EdwardBrowneCollection.json)
 
 #### Current Structure of the Collections and nested sub-Collections
-- [Collection Structure](https://theseusviewer.org/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/EdwardBrowneCollection.json)
+- [Collection Structure](https://github.com/MehranDHN/IIIFCollection/blob/master/IIIFCollection/docs/collections.md)
 
 
 ## Content Organization
 
 
-
 ### Departed vs. Resource Collections
 
-IIIFDexir empower a modern, multiple-layered approach to classification that differs substantially from traditional legacy systems. While legacy catalogs often rely on rigid physical categorization, IIIFDexir emphasizes semantic unity across all resources.
+IIIFDexir empower a modern, multiple-layered approach to classification that differs substantially from traditional legacy systems. While legacy catalogs often rely on rigid physical categorization, IIIFDexir emphasizes semantic unity across all resources, which truly enhances the real power of `Linked Data`.
 
 #### Common Foundation of Digital Resources
 At the highest level, all digital objects in IIIFDexir share a common root structure defined by two core ontology classes: **`ResourceCollection`** and **`DigitalResource`**. Every digital resource includes:
@@ -71,6 +72,7 @@ At the highest level, all digital objects in IIIFDexir share a common root struc
 - **Agential information** (creators, artists, photographers, patrons, previous owners, etc., modeled through the `Person` class which may also represent institutions or agencies)
 - **Temporal information** (dates, periods, eras)
 - **Spatial information** (geographic locations, places)
+- **Iconography and Subject Heading information** (Narrative Episodes, Concepts, Techniques, Inceptions)
 
 This shared foundation ensures consistency while allowing rich, multi-dimensional classification.
 
@@ -85,8 +87,8 @@ These collections reflect how humans naturally think about cultural heritage and
 
 **Important Note**: Not every Quran, manuscript, or painting in the system is placed within these thematic collections. Resource Collections serve as helpful curated pathways rather than exhaustive containers.
 
-#### Machine-First Access: Taxonomy, Queries, and Accessibility
-While Resource Collections support human browsing, the system’s primary strength lies in **machine-readable structured data**. Detailed classification is achieved through taxonomy tags, controlled vocabularies (especially AAT), and semantic relationships. This enables precise, powerful querying far beyond what hierarchical folders can achieve.
+#### Machine-First Access: Taxonomy, Thesaurus, Queries, and Accessibility
+While Resource Collections support human browsing, the system’s primary strength lies in **machine-readable structured data**. Detailed classification is achieved through taxonomy tags, controlled vocabularies (especially AAT), and semantic relationships(`OWL`, Web Ontology Language). This enables precise, powerful querying far beyond what hierarchical folders can achieve.
 
 Users are encouraged to explore resources through query languages such as **SPARQL** (recommended), Cypher, or GraphQL. These queries can combine multiple criteria to answer complex “WH” questions (Who, What, When, Where, Which).
 
@@ -98,16 +100,16 @@ More advanced queries can combine numerous conditions. For instance:
 Such complex queries demonstrate the system’s analytical power and deliver highly accurate results.
 
 #### Departed Collections: Reuniting Scattered Heritage
-In addition to Resource Collections, IIIFDexir introduces the concept of **Departed Collections**. These are logical groupings created to reunite fragments of historically significant but physically dispersed works.
+In addition to Resource Collections, IIIFDexir introduces the concept of **Departed Folios Collection**. These are logical groupings created to reunite fragments of historically significant but physically dispersed works.
 
-Unlike Resource Collections, Departed Collections do not follow IIIF nesting rules strictly. They serve as virtual reunifications of items scattered across dozens of institutions worldwide.
+Unlike Resource Collections, Departed Folios Collectios do not follow IIIF nesting rules strictly. They serve as virtual reunifications of items scattered across dozens of institutions worldwide.
 
 **Examples**:
-- **Shahnameh of Shah Tahmasp** (pages and illustrations now dispersed across more than 30 museums, libraries, and galleries)
+- **Shahnameh of Shah Tahmasp** (pages and illustrations now dispersed across more than 30 museums, libraries, and galleries even private collections)
 - **Haft Orang** (Ibrahim Sultan edition) – pages separated (Probably by mistake) even within the Smithsonian Archive.
-- **Ernst Herzfeld** Documents and photographs related to Ernst Herzfeld, 
-- **Dr. Qasem Ghani** Documents related to Dr. Qasem Ghani,
-- **Great Mongol Shahnameh**  The Great Mongol Shahnameh also known as the Demotte Shahnameh or Great Ilkhanid Shahnama
+- **Ernst Herzfeld** Documents and photographs related to Ernst Herzfeld works. 
+- **Dr. Qasem Ghani** Documents related to Dr. Qasem Ghani.
+- **Great Mongol Shahnameh**  The Great Mongol Shahnameh also known as the Demotte Shahnameh or Great Ilkhanid Shahnama.
 
 #### On-the-Fly Manifests: Virtual Binding
 To make these reunifications practically usable, IIIFDexir uses a custom **Python tool** to generate **on-the-fly IIIF Manifests**. This powerful feature dynamically creates a new, independent manifest containing selected canvases from multiple sources effectively creating a “virtual binding” that never existed physically.
@@ -128,6 +130,7 @@ To fully benefit from IIIFDexir, familiarity with core IIIF concepts is highly r
 - IIIF Image API
 - IIIF Annotation
 - IIIF Content State API
+- IIIF Ranges and Structure concepts
 
 A dedicated appendix explaining these concepts in the context of IIIFDexir is available in the repository. For comprehensive understanding, refer to the official [IIIF Documentation](https://iiif.io/).
 
@@ -143,11 +146,12 @@ The project directly incorporates several established vocabularies, including:
 - **TGN** (Getty Thesaurus of Geographic Names)
 - **LCTGM** (Library of Congress Thesaurus for Graphic Materials)
 - **LCSH** (Library of Congress Subject Headings)
+- **WikiData** (WikiData Individual QCodes as standalone reference and also acts as brige to associates concepts in other authorative resources using `SKOS`)
 
-Additional vocabularies such as **Iconclass** and **IA** (Iconography Authority) serve as major sources of inspiration. Where existing vocabularies were insufficient, custom terminologies and extensions have been developed to meet the specific needs of the Persian cultural heritage domain.
+Additional vocabularies such as **Iconclass** and **IA** (Iconography Authority) serve as major sources of inspiration. Where existing vocabularies were insufficient, custom terminologies and extensions have been developed to meet the specific needs of the Persian cultural heritage domain and defined in Limited Scope.
 
 #### Person Entities & Family History Knowledge Base (FHKB)
-A dedicated hierarchical list of persons has been created using the **Family History Knowledge Base (FHKB)**. This includes historical figures, artists, creators, and mythological or fictional characters (such as the White Demon, Simorgh, and Satan), all cross-referenced with **Wikidata**.
+A dedicated hierarchical list of persons has been created using the **Family History Knowledge Base (FHKB)**. This includes historical figures, artists, creators, and mythological or fictional characters (such as the White Demon, Simorgh, and Satan), all cross-referenced with **WikiData**.
 
 The ontology adopts concepts such as `Inheritance` from software engineering and family history modeling, distinguishing between:
 - `Person` (general class)
@@ -155,10 +159,10 @@ The ontology adopts concepts such as `Inheritance` from software engineering and
 - `Man` / `Woman`
 - `FictionalMan` / `FictionalWoman`
 
-In addition to Wikidata alignments and reconciliation, relative and causal relationships (father, mother, spouse, sibling, etc.) have been modeled where data is available. Entries without complete relational data remain as independent records and are fully usable within the system. These relationships can be incrementally enriched over time.
+In addition to WikiData alignments and reconciliation, relative and causal relationships (father, mother, spouse, sibling, etc.) have been modeled where data is available. Entries without complete relational data remain as independent records and are fully usable within the system. These relationships can be incrementally enriched over time.
 
 #### Art & Architecture Thesaurus (AAT)
-The **Getty Art & Architecture Thesaurus (AAT)** is one of the most important resources in IIIFDexir due to its depth and hierarchical structure. Because of its vast scope, only a carefully selected and relevant subset is actively used. This subset continues to grow and evolve alongside the collection.
+The **Getty's Art & Architecture Thesaurus (AAT)** is one of the most important resources in IIIFDexir due to its depth and hierarchical structure. Because of its vast scope, only a carefully selected and relevant subset is actively used. This subset continues to grow and evolve alongside the collection.
 
 A dynamic data visualization of the current AAT subset is maintained to help examine relationships and support ongoing expansion.
 
@@ -166,7 +170,7 @@ A dynamic data visualization of the current AAT subset is maintained to help exa
   ![AAT Subset](/IIIFCollection/images/mermaid-diagram-2026-05-21-123435.svg)
 
 #### Iconography & Narrative Episodes
-For iconographic description, the project draws directly from **Iconclass** and **IA**, creating custom entries tailored to Persian visual culture. These entries are carefully aligned with **Wikidata** and **AAT** to avoid ambiguity.
+For iconographic description, the project draws directly from **Iconclass** and **IA**, creating custom entries tailored to Persian visual culture. These entries are carefully aligned with **WikiData**, **AAT** and **TGM** to avoid ambiguity.
 
 A particularly important extension is the concept of **Narrative Episodes** which is inherited from the `Iconography` base class. These are hierarchical and often interconnected, especially when documenting works related to Ferdowsi’s *Shahnameh*. For example:
 - The “Kingdom of Kiyumars” represents a broader historical period within the “Pishdadian Dynasty” and appears in specific artworks such as *The Court of Kiyumars* by Sultan Muhammad.
@@ -175,7 +179,7 @@ A particularly important extension is the concept of **Narrative Episodes** whic
 This layered narrative model allows precise linking between visual resources and literary/historical context. Further details on alignment with scholarly editions (such as the critical text by the late Professor Jalal Khaleghi Mutlaq) will be provided in dedicated sections.
 
 #### Geographic Names & Built Heritage (TGN)
-The **Getty Thesaurus of Geographic Names (TGN)** serves as the primary reference for countries, cities, and villages. The same thesaurus has been extended to include buildings and architectural complexes (treated as a subclass). Examples include:
+The **Getty's Thesaurus of Geographic Names (TGN)** serves as the primary reference for countries, cities, and villages. The same thesaurus has been extended to include buildings and architectural complexes (treated as a subclass). Examples include:
 - Grand Mosque of Isfahan
 - Golestan Palace
 - Chehel Sotun
@@ -185,7 +189,7 @@ Hierarchical relationships are fully supported. For instance, while **Naqsh-e Ja
 
 ## Spatial Navigation with navPlace Extension
 
-III FDexir leverages the official **[navPlace Extension](https://iiif.io/api/extension/navplace/)** of the IIIF Presentation API 3.0 to enrich manifests with professional **geospatial metadata**.
+IIIFDexir leverages the official **[navPlace Extension](https://iiif.io/api/extension/navplace/)** of the IIIF Presentation API 3.0 to enrich manifests with professional **geospatial metadata**.
 
 This powerful feature allows any IIIF Manifest (or individual Canvas) to be linked to real-world geographic locations using:
 - Simple coordinates (Point)
@@ -250,19 +254,155 @@ Significant updates involve expanding controlled vocabularies and external refer
 For example, documenting a `ResourceCanvas` depicting “The Binding of Zahhak in Damavand” requires well-defined entries for the broader literary work (*Story of Zahhak*), its sub-episodes, and related characters. All such entries are aligned with Wikidata Q-codes to ensure disambiguation and interoperability. Similarly, when adding new AAT concepts (e.g., “Stuccowork”), the full hierarchical context (Broader/Narrower terms) is incorporated.
 
 #### Adding New Content
-New resources are added as an instance of **DigitalResources** (requiring a valid IIIF Manifest). When a suitable manifest does not exist, resources are uploaded to the **Internet Archive**, which automatically generates a compliant IIIF Manifest. This approach ensures all items meet IIIF standards while respecting copyright considerations.
+New resources are added as an instance of **DigitalResources** (requiring a valid IIIF Manifest). When a suitable manifest does not exist, resources are uploaded to the **Internet Archive**, which automatically generates an IIIF compliant Manifest. This approach ensures all items meet IIIF standards while respecting copyright considerations.
 
 New **Resource Collections** are created when needed for better thematic organization (e.g., a collection for 400 slides by Dennis Bali in digital Keyon which originally are not IIIF Compliant).
 
-#### Departed Collections & On-the-Fly Manifests
-As explained earlier, **Departed Collections** and dynamically generated “on-the-fly” manifests enable the virtual reunification of dispersed heritage items (such as pages from the *Shahnameh of Shah Tahmasp*).
+#### Departed Folios Collection & On-the-Fly Manifests
+As explained earlier, **Departed Folios Collection** and dynamically generated “on-the-fly” manifests enable the virtual reunification of dispersed heritage items (such as pages from the *Shahnameh of Shah Tahmasp*).
 
 #### Transparency & Change Tracking
 IIIFDexir grows almost daily. Thanks to GitHub’s version control, every change including what was modified, when, and by whom is permanently recorded and traceable from the project’s inception.
 
-**Core Principle**: While IIIFDexir prioritizes machine-readable structured data and semantic precision, significant effort has been made to ensure it remains accessible and useful for human researchers through standard IIIF viewers.
+
+## Iconclass Integration
+
+IIIFDexir integrates a carefully selected subset of the [Iconclass](https://iconclass.org/) classification system to provide an authoritative, hierarchical backbone for shared Biblical and Quranic narrative subjects (Adam & Eve, Noah, Abraham, Joseph/Yusuf, Moses, Solomon, etc.).
+
+### Design Principles
+
+- **Dual inheritance**: Every Iconclass concept is modelled as an instance of `mdhn:IconclassTerm`, which is a subclass of both `mdhn:SubjectSource` *and* `mdhn:Iconography`. This allows the same entities to serve as controlled subject headings **and** as iconographic concepts that can be linked to manuscripts, canvases and content elements.
+- **Local hierarchy**: The official Iconclass tree is mirrored locally using `mdhn:hasIconclassBroader`, exactly parallel to the existing `mdhn:hasAATBroader` pattern.
+- **Bridges**: Dense `skos:exactMatch`, `skos:closeMatch` and `skos:relatedMatch` links connect Iconclass terms to Wikidata, existing `mdhn:NarrativeEpisode` resources, and (where available) AAT / TGM concepts.
+- **Limited-scope extensions**: Project-specific refinements that are especially important for Persian manuscript painting (e.g. the Zulaykha women cutting their hands, Solomon’s Persian-style court) are marked with `mdhn:isInExtendedScope true`.
+
+### Core Classes & Properties
+
+| Resource / Property              | Role |
+|----------------------------------|------|
+| `mdhn:IconclassTerm`             | Local Iconclass concept (subclass of SubjectSource + Iconography) |
+| `mdhn:hasIconclassBroader`       | Hierarchical link inside the local subset |
+| `mdhn:iconclassNotation`         | Official alphanumeric notation (e.g. `"71D13"`) |
+| `mdhn:isInExtendedScope`         | Flag for user-defined / Persian-specific children |
+| `mdhn:depicts` / `mdhn:elementDepicts` | Runtime association from manuscripts, canvases and content elements |
+
+### Architecture Overview
+
+```mermaid
+flowchart TB
+    %% Styles
+    classDef core fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+    classDef iconclass fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+    classDef extended fill:#FCE4EC,stroke:#C2185B,stroke-width:2px
+    classDef narrative fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+    classDef external fill:#F3E5F5,stroke:#7B1FA2,stroke-width:1px
+    classDef resource fill:#BBDEFB,stroke:#1976D2,stroke-width:2px
+
+    %% Core ontology
+    subgraph CORE["IIIFDexir Core Ontology"]
+        SS[mdhn:SubjectSource]:::core
+        IC[mdhn:Iconography]:::core
+        ICT[mdhn:IconclassTerm<br/>subClassOf both]:::iconclass
+        SS --> ICT
+        IC --> ICT
+    end
+
+    %% Resources
+    subgraph RES["Digital Resources"]
+        DR[mdhn:DigitalResource<br/>Manuscript / Manifest]:::resource
+        RC[mdhn:ResourceCanvas<br/>Page / Folio]:::resource
+        CE[mdhn:CanvasContentElement<br/>CroppedFigure etc.]:::resource
+        DR --> RC --> CE
+    end
+
+    %% Iconclass hierarchy (selected)
+    subgraph ICON["Iconclass Hierarchy – Shared Cycles"]
+        direction TB
+        OT[71 Old Testament]:::iconclass
+
+        A[71A Adam & Eve]:::iconclass
+        N[71B3 Noah / نوح]:::iconclass
+        AB[71C1 Abraham / ابراهیم]:::iconclass
+        J[71D Joseph / یوسف]:::iconclass
+        M[71E1 Moses / موسی]:::iconclass
+        S[71I Solomon / سلیمان]:::iconclass
+
+        OT --> A & N & AB & J & M & S
+
+        J1[71D1 Part I]:::iconclass
+        J13[71D13 Potiphar / Zulaykha]:::iconclass
+        J2[71D2 Part II]:::iconclass
+        J --> J1 & J2
+        J1 --> J13
+
+        %% Extended scope nodes
+        JZ[71D13_ZulaykhaWomen<br/>Extended Scope]:::extended
+        SP[71I_PersianCourt<br/>Extended Scope]:::extended
+        AI[71C131_Ismail<br/>Extended Scope]:::extended
+
+        J13 --> JZ
+        S --> SP
+        AB -.-> AI
+    end
+
+    %% Existing narrative episodes
+    subgraph NARR["Existing Narrative Episodes"]
+        YZ[mdhn:Yusuf_and_Zulaikha]:::narrative
+        ZW[mdhn:Zulaikha_invites_the_egyptian_women]:::narrative
+        SSQ[mdhn:Solomon_and_Queen_of_Sheba]:::narrative
+    end
+
+    %% External
+    subgraph EXT["External Authorities"]
+        wdJ[wd:Q8423 Joseph]:::external
+        wdYZ[wd:Q3350827 Yusuf & Zulaikha]:::external
+        wdS[wd:Q44204 Solomon]:::external
+        wdA[wd:Q9181 Abraham]:::external
+        wdM[wd:Q9077 Moses]:::external
+        wdN[wd:Q8141 Noah]:::external
+        wdAE[wd:Q70899 Adam & Eve]:::external
+    end
+
+    %% Runtime linking
+    DR -->|mdhn:depicts| ICT
+    RC -->|mdhn:depicts| ICT
+    CE -->|mdhn:elementDepicts| ICT
+
+    %% Conceptual bridges
+    J -.->|skos:relatedMatch| YZ
+    J13 -.->|skos:relatedMatch| YZ
+    JZ -.->|skos:relatedMatch| ZW
+    S -.->|skos:relatedMatch| SSQ
+
+    J -->|skos:closeMatch| wdJ
+    J -->|skos:relatedMatch| wdYZ
+    S -->|skos:closeMatch| wdS
+    AB -->|skos:closeMatch| wdA
+    M -->|skos:closeMatch| wdM
+    N -->|skos:closeMatch| wdN
+    A -->|skos:closeMatch| wdAE
+```
+## Usage Example
+
+```turtle
+# A whole manuscript depicts the Joseph cycle
+ex:MS_Yusuf_1540 a mdhn:DigitalResource ;
+    mdhn:depicts mdhn:iconclass71D , mdhn:iconclass71D_PersianCycle .
+
+# A specific folio shows the Zulaykha women scene
+ex:Canvas_f045r a mdhn:ResourceCanvas ;
+    mdhn:depicts mdhn:iconclass71D13_ZulaykhaWomen .
+
+# A cropped figure is linked to the same concept
+ex:Cropped_Zulaykha a mdhn:CroppedFigure ;
+    mdhn:elementDepicts mdhn:iconclass71D13 .
+```
+The combination of the official Iconclass hierarchy, local limited-scope refinements, and multi-vocabulary SKOS bridges creates a rich semantic network that can be queried across manuscripts, pages and individual content elements which is one of the core goals of IIIFDexir.
 
 ---
+
+
+
 
 
 ## Using Data and preparing to create Knowledge Graph 
@@ -332,7 +472,7 @@ Would you like me to adjust the tone, add more details, or integrate this sectio
 
 **IIIF Collection Ontology**
 
-The **IIIF Collection Ontology** serves as the semantic foundation and conceptual blueprint for the entire IIIFCollection project. Defined in RDF/OWL (Turtle format), it provides a structured, interoperable vocabulary to model digital cultural heritage resources, their metadata, and complex interrelationships within the IIIF (International Image Interoperability Framework) ecosystem.
+The **IIIF Collection Ontology** serves as the semantic foundation and conceptual blueprint for the entire IIIFDexir project. Defined in RDF/OWL (Turtle format), it provides a structured, interoperable vocabulary to model digital cultural heritage resources, their metadata, and complex interrelationships within the IIIF (International Image Interoperability Framework) ecosystem.
 
 ![A Semantic Gateway to Persian Heritage](/IIIFCollection/images/Semantic_Gateway_to_Persian_Heritage.jpg)
 
@@ -340,11 +480,11 @@ The **IIIF Collection Ontology** serves as the semantic foundation and conceptua
 
 This ontology acts as the **central knowledge model** for the repository. It enables:
 
-- Consistent semantic annotation of IIIF manifests and collections
-- Rich, machine-readable descriptions of cultural artifacts (manuscripts, photographs, maps, calligraphy, etc.)
-- Advanced querying, discovery, and linking across heterogeneous resources
-- Integration with external authority sources (Getty AAT, TGN, LCSH, Wikidata, etc.)
-- Support for both human-readable navigation and automated reasoning
+- Consistent semantic annotation of IIIF manifests and collections.
+- Rich, machine-readable descriptions of cultural artifacts (manuscripts, photographs, maps, calligraphy, etc.).
+- Advanced querying, discovery, and linking across heterogeneous resources.
+- Integration with external authority sources (Getty AAT, TGN, LCSH, Wikidata, etc.).
+- Support for both human-readable navigation and automated reasoning.
 
 By formalizing the project's domain concepts, the ontology ensures data consistency, facilitates future extensions, and positions the collection as part of the broader linked open data (LOD) graph in cultural heritage.
 
@@ -800,8 +940,8 @@ Group by ?collection
 Order by Desc(?resourceCount)
 ```
 
-####  Query 2: Find Creators of Digital Resources
-This query lists creators and their labels associated with `DigitalResource` instances.
+####  Query 2: List of all the Creators of Digital Resources
+This query lists creators and their labels associated with `DigitalResource` instances.(Without any aggregation)
 
 ```sparql
 PREFIX mdhn: <http://example.com/mdhn/>
@@ -826,17 +966,33 @@ WHERE {
 }
 ```
 
+Hierarchical result:
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+SELECT ?parent ?child ?childLabel
+WHERE {
+  ?child a mdhn:ResourceCollection ;
+    (mdhn:subCollectionOf)* ?parent ;
+    mdhn:caption ?childLabel .
+    FILTER(?child!=?parent)
+}
+```
+
 ####  Query 4: Resources by Type Using Controlled Vocabularies
 This query finds `DigitalResource` instances associated with a specific resource type from Getty's AAT.
 
 ```sparql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX aat: <https://vocab.getty.edu/aat/>
 SELECT ?resource ?label
 WHERE {
   ?resource a mdhn:DigitalResource ;
-            mdhn:classifiedAs mdhn:aat300027200 ;  # AAT term for "Photograph Album"
+            mdhn:classifiedAs mdhn:aat800190000 ;  # AAT term (local scope/user defined) for "Photograph Album"
             rdfs:label ?label .
+    FILTER(LANG(?label)="en")
+    #BIND(LANG(?label) as ?languages)
+    #FILTER(?languages IN ("fr", "en", "fa"))
 }
 
 ```
@@ -880,11 +1036,12 @@ PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sc: <https://schema.org/>
 
-select ?s  ?reslabel{
+select ?s  ?reslabel ?typeLabel{
     ?s a mdhn:DigitalResource;
        rdfs:label ?reslabel;
+       mdhn:classifiedAs ?types;
       mdhn:isInCollection mdhn:PhotographAlbum.
-
+    ?types rdfs:label ?typeLabel.
 }
 ```
 
@@ -907,9 +1064,8 @@ WHERE {
 Screenshot of running SPARQL query and its coresponding result:
 ![Query 4](/IIIFCollection/images/langfilter.JPG)
 
-####  Query 5: Accessing the specified folio type (Drawings) 
-This query finds all matches that have the `mdhn:folioHasDrawing` flag, which is a flag to identify the drawing resources.
-In future improvements, we should associate this feature with the particular Controlled Vocabulary designed to identify folio types.
+####  Query 5: Accessing the resources by Script Style
+This query finds all matches that have the `mdhn:hasScriptStyle` pointing to different script style based on AAT Concepts.
 
 ```sparql
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -918,25 +1074,11 @@ PREFIX aat: <https://vocab.getty.edu/aat/>
 SELECT *
 WHERE {
   ?resource a mdhn:DigitalResource ; 
-            mdhn:folioHasDrawing ?drawing;
+            mdhn:hasScriptStyle ?scriptStyle;
             mdhn:partOf ?part;
             rdfs:label ?label .
-}
-```
-![Query 5](/IIIFCollection/images/FolioType.JPG)
-It is obvious that we can use filters to limit the results only for specified physical or logical collection:
-
-```sparql
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX mdhn: <http://example.com/mdhn/>
-PREFIX aat: <https://vocab.getty.edu/aat/>
-SELECT *
-WHERE {
-  ?resource a mdhn:DigitalResource ; 
-            mdhn:folioHasDrawing ?drawing;
-            mdhn:partOf ?part;
-            rdfs:label ?label .
-  Filter(?part=mdhn:vcol1000111)
+  ?scriptStyle rdfs:label ?scriptStyleLabel.
+  FILTER(LANG(?scriptStyleLabel)="en")    
 }
 ```
 ####  Query 6: Accessing the resources that somehow related to specified geo spatial TGN location
@@ -966,18 +1108,20 @@ This query finds all resources that marked with Agential information which is in
 See [Family History Knowledge Base (FHKB)](https://oboacademy.github.io/obook/tutorial/fhkb/)
 
 ```sparql
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sc: <https://schema.org/>
-
-select ?person ?lblPerson{
+select ?s  ?placelbl ?restype ?typelbl {
     ?s a mdhn:DigitalResource;
-       mdhn:hasAgential ?person.
-    ?person rdfs:label ?lblPerson.
-    Filter(Lang(?lblPerson)="fa")
+      mdhn:classifiedAs ?restype;
+      mdhn:hasTGNPlace ?place.
+    ?restype rdfs:label ?typelbl.
+    ?place rdfs:label ?placelbl.
+    Filter(?place=mdhn:tgn1001228)
+    Filter(Lang(?typelbl)="en")
 }
 ```
-![Query 7](/IIIFCollection/images/fhkbResult.JPG)
 
 Accessing all resources that relate to specified person:
 ```sparql
@@ -985,12 +1129,16 @@ PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sc: <https://schema.org/>
 
-select ?person ?lblPerson{
+select ?resLabel ?lblType ?person ?lblPerson{
     ?s a mdhn:DigitalResource;
+       rdfs:label ?resLabel;
+       mdhn:classifiedAs ?resType;
        mdhn:hasAgential ?person.
     ?person rdfs:label ?lblPerson.
+    ?resType rdfs:label ?lblType.
     Filter(?person=mdhn:Naser_al_Din_Shah_Qajar)
     Filter(Lang(?lblPerson)="fa")
+    Filter(Lang(?lblType)="en")
 }
 ```
 ####  Query 8: Accessing the resources that have Kufic script style excepts those in specified collection
@@ -1004,6 +1152,7 @@ PREFIX sc: <https://schema.org/>
 # ليست آثاری که به خط کوفی مرتبط هستند به استثنای مجموعه آثار الباقيه
 select * {
     ?s a mdhn:DigitalResource;
+       rdfs:label ?lblRes;
        mdhn:hasScriptStyle mdhn:aat300194434;
        mdhn:isInCollection ?collection.
     Filter(?collection!=mdhn:AsarolBaghieOrMs161)
@@ -1013,7 +1162,6 @@ select * {
 ####  Query 9: Determinig which resources have the Subject headers that reconciliated against AAT and LCSH (Not The LCTGM)
 This query finds all resources that have specified subject header types. Those that are `mdhn:AATTerm` and `mdhn:LCSHSubject` because all resources reconciliate against three primary sources inclusing `LCTGM`, `LCSH` and `AAT`.
 ```sparql
-PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -1021,10 +1169,13 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT *
 WHERE {
     ?s a mdhn:DigitalResource ;
+       rdfs:label ?lblRes;
        mdhn:hasSubject ?subject ;
-       mdhn:isInCollection ?collection .
-    ?subject a ?type .
+      (mdhn:isInCollection)* ?collection .
+    ?subject a ?type;
+       rdfs:label ?lblSubject.
     FILTER(?type IN (mdhn:AATTerm, mdhn:LCSHSubject))
+    Filter(Lang(?lblSubject)="en")
 }
 ```
 ####  Query 10: Determinig the participants in resources with their roles 
@@ -1038,8 +1189,10 @@ PREFIX sc: <https://schema.org/>
 SELECT *
 WHERE {
     ?s a mdhn:DigitalResource ;
+       rdfs:label ?lblRes;
        mdhn:hasParticipantInRole ?Agential ;
-       mdhn:isInCollection ?collection .
+    mdhn:isInCollection ?collection .
+    Filter(Lang(?lblRes)="en")
 }
 ```
 Obviously we can get all participants with one or more specified role:
@@ -1052,8 +1205,10 @@ PREFIX sc: <https://schema.org/>
 SELECT *
 WHERE {
     ?s a mdhn:DigitalResource ;
+       rdfs:label ?lblRes;
        mdhn:hasParticipantInRolePhotographer ?Agential ;
        mdhn:isInCollection ?collection .
+    Filter(Lang(?lblRes)="en")
 }
 ```
 Then execuating a query to get a result of aggregated agential info:
@@ -1082,11 +1237,11 @@ PREFIX sc: <https://schema.org/>
 
 select * {
     ?s a mdhn:DigitalResource;
-       mdhn:isInCollection mdhn:DepartedDrawing;
+       mdhn:isInCollection mdhn:DepartedFolios;
        mdhn:depicts ?icgtag.
     ?icgtag rdfs:label ?lbltag.
     Filter(Lang(?lbltag)="en")
-    Filter(?icgtag=mdhn:Boat)
+    #Filter(?icgtag=mdhn:Throne)
 }
 ```
 
@@ -1099,7 +1254,7 @@ PREFIX sc: <https://schema.org/>
 
 select *{
     ?s a mdhn:DigitalResource;
-       mdhn:isInCollection mdhn:DepartedDrawing;
+       mdhn:isInCollection mdhn:DepartedFolios;
        mdhn:depicts ?iconography;
        mdhn:hasParticipantInRolePoet ?poet.
     ?s rdfs:label ?lblresource.
@@ -1116,16 +1271,18 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-
 SELECT *
 WHERE {
     ?s a mdhn:ResourceCanvas;
        rdfs:label ?canvasLabel;
+       mdhn:classifiedAs ?type;
        mdhn:canvasIndex ?idx;
        mdhn:folioNo ?foliono;
        mdhn:folioStandaloneURL ?url;
        mdhn:canvasOf ?res.
-    ?res rdfs:label ?resLabel;   
+    ?res rdfs:label ?resLabel.
+    ?type rdfs:label ?typeLabel.
+    Filter(Lang(?typeLabel)="en")
 }
 ORDER BY ?idx
 ```
@@ -1136,17 +1293,19 @@ ORDER BY ?idx
 PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?collection ?resource ?resLabel ?canvas ?label ?folio ?canvasUrl  ?idx
+SELECT ?collection ?resource ?resLabel ?canvas ?canvasTypeLabel ?canvasLabel ?folio ?canvasUrl  ?idx
 WHERE {
   ?resource a mdhn:DigitalResource ;
             rdfs:label ?resLabel ;
             mdhn:isInCollection ?collection;
             mdhn:hasCanvas ?canvas .
   ?canvas a mdhn:ResourceCanvas ;
-          rdfs:label ?label ;
+          rdfs:label ?canvasLabel ;
           mdhn:canvasIndex ?idx;
+          mdhn:classifiedAs ?canvasType;
           mdhn:folioNo ?folio ;  
-          mdhn:canvasUrl ?canvasUrl .  
+          mdhn:canvasUrl ?canvasUrl .
+  ?canvasType rdfs:label ?canvasTypeLabel.  
   #FILTER(CONTAINS(?resLabel, "Peck Shahnamah"))
   FILTER(?resource=mdhn:72507ee3_850b_4ad6_9098_141257cb319f)
 }
@@ -1181,7 +1340,7 @@ LIMIT 100
 PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?collection ?resource ?canvas ?canvasLabel ?resLabel ?figureLabel ?imgurl  ?depictedIconography ?agential
+SELECT ?collection ?resource ?canvas ?canvasLabel ?resLabel ?figureLabel ?imgurl  ?elementDepicts ?agential
 WHERE {
   ?resource a mdhn:DigitalResource ;
             rdfs:label ?resLabel ;
@@ -1193,7 +1352,7 @@ WHERE {
   ?figure a mdhn:CroppedFigure ;
           rdfs:label ?figureLabel;
           mdhn:croppedImageURL ?imgurl;
-  OPTIONAL { ?figure mdhn:elementDepicts ?depictedIconography . }
+  OPTIONAL { ?figure mdhn:elementDepicts ?elementDepicts . }
   OPTIONAL {?figure mdhn:hasAgential ?agential}
   FILTER(?collection IN (mdhn:ShahnameShahTahmasb , mdhn:SmallIlkhanidShahname))
   FILTER(CONTAINS(?resLabel, "Zahhak"))
@@ -1230,7 +1389,7 @@ LIMIT 15
 PREFIX mdhn: <http://example.com/mdhn/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?canvas ?canvasLabel ?lingElement ?textContent ?elementdepicts ?croppedimgurl
+SELECT ?canvas ?canvasLabel ?lingElement ?textContent ?elementDepicts ?croppedimgurl
 WHERE {
   ?canvas a mdhn:ResourceCanvas ;
           rdfs:label ?canvasLabel ;
@@ -1238,7 +1397,7 @@ WHERE {
   ?lingElement a mdhn:LinguisticElement ;
                mdhn:croppedImageURL ?croppedimgurl;
                rdfs:label ?textContent . 
-  OPTIONAL { ?lingElement mdhn:elementDepicts ?elementdepicts . }  # adapt to your exact props
+  OPTIONAL { ?lingElement mdhn:elementDepicts ?elementDepicts . }  # adapt to your exact props
 }
 ORDER BY ?canvasLabel
 ```
@@ -1319,14 +1478,14 @@ SELECT *
 WHERE {
     ?s a mdhn:DigitalResource;
        rdfs:label ?resLabel;
-       mdhn:classifiedAs ?aatcat;
+       mdhn:classifiedAs ?aatCat;
        mdhn:hasUrl ?ressurl;
        mdhn:hasParticipantInRoleFormerOwner ?participants;
        mdhn:isInCollection ?collection.
     ?aatcat rdfs:label ?catlbl;
             mdhn:hasAATBroader ?brodercat.
     ?collection rdfs:label ?collbl.
-    FILTER(?aatcat IN (mdhn:aat500011082 , mdhn:aat500011084))    
+    FILTER(?aatCat IN (mdhn:aat500011082 , mdhn:aat500011084))    
 }
 
 ```
