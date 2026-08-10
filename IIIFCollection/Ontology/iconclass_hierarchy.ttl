@@ -1,0 +1,628 @@
+
+
+
+@prefix mdhn:       <http://example.com/mdhn/> .
+@prefix owl:        <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix iconclass:  <https://iconclass.org/> .
+@prefix wd:         <http://www.wikidata.org/entity/> .
+@prefix aat:        <http://vocab.getty.edu/aat/> .
+
+#################################################################
+# Joseph / Yusuf cycle – Iconclass 71D hierarchy
+# Primed for IIIFDexir association with manuscripts, canvases & content elements
+#################################################################
+
+# ------------------------------------------------------------
+# Root of the cycle
+# ------------------------------------------------------------
+mdhn:iconclass71D a mdhn:IconclassTerm ;
+    rdfs:label "Genesis: the story of Joseph"@en ,
+               "داستان یوسف (پیدایش)"@fa ;
+    rdfs:comment "Iconclass 71D – full story of Joseph (son of Jacob). Central shared Biblical–Quranic narrative; highly relevant for Persian Yusuf va Zulaykha cycles."@en ;
+    mdhn:iconclassNotation "71D" ;
+    skos:exactMatch iconclass:71D ;
+    skos:exactMatch <https://iconclass.org/71D> ;      
+    skos:closeMatch wd:Q8423 ;                    # Joseph (son of Jacob)
+    skos:relatedMatch wd:Q3350827 ;               # Yusuf and Zulaikha
+    skos:relatedMatch mdhn:Yusuf_and_Zulaikha ;   # your existing narrative episode
+    mdhn:hasIconclassBroader mdhn:iconclass71 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass11H a mdhn:IconclassTerm ;
+    rdfs:label "male saints"@en ,
+               "قدیسان مرد"@fa ;
+    
+    rdfs:comment "Iconclass division 11H: male saints (including named individual saints such as Saint George, the Seven Sleepers, etc.)."@en ;    
+    mdhn:iconclassNotation "11H" ;
+    skos:exactMatch <https://iconclass.org/11H> ;    
+    mdhn:hasIconclassBroader mdhn:iconclass11 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .    
+
+mdhn:iconclass_PropheticBirths a mdhn:IconclassTerm ;
+    rdfs:label "Births of Prophets"@en ,
+               "تولد پیامبران"@fa ;    
+    rdfs:comment """Project-specific higher-level grouping for the birth scenes of prophets 
+    in Islamic narrative tradition (and related Biblical figures when treated in the same 
+    pictorial cycles). 
+    Used as a broader term for limited-scope Iconclass entries such as the Birth of 
+    the Prophet Muhammad. 
+    No official Iconclass division corresponds exactly to this category."""@en ;    
+    mdhn:iconclassNotation "" ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean .    
+
+# ------------------------------------------------------------
+# Part I (youth → rise in Egypt)
+# ------------------------------------------------------------
+mdhn:iconclass71D1 a mdhn:IconclassTerm ;
+    rdfs:label "story of Joseph (part I)"@en ,
+               "داستان یوسف (بخش اول)"@fa ;
+    mdhn:iconclassNotation "71D1" ;
+    skos:exactMatch iconclass:71D1 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71D ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+# Key scenes in Part I that appear frequently in Persian manuscripts
+mdhn:iconclass71D11 a mdhn:IconclassTerm ;
+    rdfs:label "Joseph incurs the hatred of his brothers (Genesis 37:1-11)"@en ,
+               "حسادت برادران یوسف"@fa ;
+    mdhn:iconclassNotation "71D11" ;
+    skos:exactMatch iconclass:71D11 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71D1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71D12 a mdhn:IconclassTerm ;
+    rdfs:label "Joseph sold into slavery and taken to Egypt (Genesis 37:12-35)"@en ,
+               "فروخته شدن یوسف و بردن او به مصر"@fa ;
+    mdhn:iconclassNotation "71D12" ;
+    skos:exactMatch iconclass:71D12 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71D1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71D13 a mdhn:IconclassTerm ;
+    rdfs:label "Joseph in Potiphar's house; the chastity of Joseph (Genesis 39)"@en ,
+               "یوسف در خانه پوتیفار / پاکدامنی یوسف"@fa ;
+    rdfs:comment "Extremely important for Persian tradition – the core of the Zulaykha narrative."@en ;
+    mdhn:iconclassNotation "71D13" ;
+    skos:exactMatch iconclass:71D13 ;
+    skos:relatedMatch wd:Q3350827 ;               # Yusuf and Zulaikha
+    skos:relatedMatch mdhn:Yusuf_and_Zulaikha ;
+    mdhn:hasIconclassBroader mdhn:iconclass71D1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71D14 a mdhn:IconclassTerm ;
+    rdfs:label "Joseph in prison (Genesis 39:21-40)"@en ,
+               "یوسف در زندان"@fa ;
+    mdhn:iconclassNotation "71D14" ;
+    skos:exactMatch iconclass:71D14 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71D1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71D15 a mdhn:IconclassTerm ;
+    rdfs:label "Pharaoh's dreams interpreted (Genesis 41:1-36)"@en ,
+               "تعبیر خواب فرعون توسط یوسف"@fa ;
+    mdhn:iconclassNotation "71D15" ;
+    skos:exactMatch iconclass:71D15 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71D1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71D16 a mdhn:IconclassTerm ;
+    rdfs:label "elevation and marriage of Joseph (Genesis 41:37-57)"@en ,
+               "ارتقای یوسف و ازدواج او"@fa ;
+    mdhn:iconclassNotation "71D16" ;
+    skos:exactMatch iconclass:71D16 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71D1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+# ------------------------------------------------------------
+# Part II (family reunion and later years)
+# ------------------------------------------------------------
+mdhn:iconclass71D2 a mdhn:IconclassTerm ;
+    rdfs:label "story of Joseph (part II)"@en ,
+               "داستان یوسف (بخش دوم)"@fa ;
+    mdhn:iconclassNotation "71D2" ;
+    skos:exactMatch iconclass:71D2 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71D ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71D21 a mdhn:IconclassTerm ;
+    rdfs:label "Jacob and his family go to Egypt (Genesis 46)"@en ,
+               "رفتن یعقوب و خانواده‌اش به مصر"@fa ;
+    mdhn:iconclassNotation "71D21" ;
+    skos:exactMatch iconclass:71D21 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71D2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71D24 a mdhn:IconclassTerm ;
+    rdfs:label "Jacob's last days / blessing of the sons (Genesis 47–49)"@en ,
+               "روزهای پایانی یعقوب و برکت دادن پسران"@fa ;
+    mdhn:iconclassNotation "71D24" ;
+    skos:exactMatch iconclass:71D24 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71D2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71D25 a mdhn:IconclassTerm ;
+    rdfs:label "Jacob's death (Genesis 49–50)"@en ,
+               "درگذشت یعقوب"@fa ;
+    mdhn:iconclassNotation "71D25" ;
+    skos:exactMatch iconclass:71D25 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71D2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+# ------------------------------------------------------------
+# Limited-scope (project-specific) extensions – examples
+# These are the ones you will most often attach to Persian manuscript canvases
+# ------------------------------------------------------------
+
+# The famous scene of the Egyptian women cutting their hands when they see Yusuf
+# (very common in Persian painting, less emphasised in pure Iconclass)
+mdhn:iconclass71D13_ZulaykhaWomen a mdhn:IconclassTerm ;
+    rdfs:label "Zulaykha invites the Egyptian women; they cut their hands at the sight of Yusuf"@en ,
+               "دعوت زلیخا از زنان مصری و بریدن دست‌ها از دیدن یوسف"@fa ;
+    rdfs:comment "Project-specific refinement of 71D13. Central visual motif in Persian Yusuf va Zulaykha manuscripts."@en ;
+    mdhn:iconclassNotation "71D13" ;                 # still inherits the official notation
+    mdhn:hasIconclassBroader mdhn:iconclass71D13 ;
+    skos:relatedMatch mdhn:Zulaikha_invites_the_egyptian_women ;  # your existing episode
+    skos:relatedMatch wd:Q3350827 ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean .
+
+# Optional: a broader “Persian Yusuf cycle” grouping if you want a single entry point
+mdhn:iconclass71D_PersianCycle a mdhn:IconclassTerm ;
+    rdfs:label "Yusuf cycle in Persian manuscript tradition"@en ,
+               "چرخه یوسف در سنت نسخه‌های خطی ایرانی"@fa ;
+    rdfs:comment "Convenience node that groups the most relevant 71D children for Persian cultural heritage resources."@en ;
+    mdhn:hasIconclassBroader mdhn:iconclass71D ;
+    skos:relatedMatch mdhn:Yusuf_and_Zulaikha ;
+    skos:relatedMatch wd:Q3350827 ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean .
+
+#################################################################
+# Iconclass hierarchy subset – starting with 71A8
+#################################################################
+
+# Parent context (kept for completeness of the hierarchy)
+mdhn:iconclass71A a mdhn:IconclassTerm ;
+    rdfs:label "Genesis from the creation to the expulsion from paradise, and later years of Adam and Eve"@en ;
+    mdhn:iconclassNotation "71A" ;
+    skos:exactMatch iconclass:71A ;
+    mdhn:hasIconclassBroader mdhn:iconclass71 .   # optional higher parent
+
+mdhn:iconclass71 a mdhn:IconclassTerm ;
+    rdfs:label "Old Testament"@en ;
+    mdhn:iconclassNotation "71" ;
+    skos:exactMatch iconclass:71 .
+
+# Core concept requested by user
+mdhn:iconclass71A8 a mdhn:IconclassTerm ;
+    rdfs:label "the story of Cain and Abel (Genesis 4:3-17)"@en ,
+               "داستان قابیل و هابیل"@fa ;
+    rdfs:comment "Iconclass 71A8 – the story of Cain and Abel (Genesis 4:3-17)"@en ;
+    mdhn:iconclassNotation "71A8" ;
+    skos:exactMatch iconclass:71A8 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71A ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+# Immediate children of 71A8 (so the hierarchy can be extended)
+mdhn:iconclass71A81 a mdhn:IconclassTerm ;
+    rdfs:label "the sacrifice of Cain and Abel: Abel offers a lamb, Cain usually a sheaf of corn"@en ;
+    mdhn:iconclassNotation "71A81" ;
+    skos:exactMatch iconclass:71A81 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71A8 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71A82 a mdhn:IconclassTerm ;
+    rdfs:label "the killing of Abel: Cain slays him with a stone, a club or a jaw-bone, alternatively with a spade or another tool as weapon"@en ;
+    mdhn:iconclassNotation "71A82" ;
+    skos:exactMatch iconclass:71A82 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71A8 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71A83 a mdhn:IconclassTerm ;
+    rdfs:label "the curse and flight of Cain"@en ;
+    mdhn:iconclassNotation "71A83" ;
+    skos:exactMatch iconclass:71A83 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71A8 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71A84 a mdhn:IconclassTerm ;
+    rdfs:label "later life of Cain"@en ;
+    mdhn:iconclassNotation "71A84" ;
+    skos:exactMatch iconclass:71A84 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71A8 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+#################################################################
+# Adam & Eve / آدم و حوا (71A)
+#################################################################    
+mdhn:iconclass71A a mdhn:IconclassTerm ;
+    rdfs:label "Genesis from the creation to the expulsion from paradise, and later years of Adam and Eve"@en ,
+               "آفرینش تا اخراج از بهشت و سال‌های پایانی آدم و حوا"@fa ;
+    mdhn:iconclassNotation "71A" ;
+    skos:exactMatch iconclass:71A ;
+    skos:closeMatch wd:Q70899 ;          # Adam and Eve
+    skos:relatedMatch wd:Q70899 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71A3 a mdhn:IconclassTerm ;
+    rdfs:label "creation of man; the Garden of Eden"@en ,
+               "آفرینش انسان و باغ عدن"@fa ;
+    mdhn:iconclassNotation "71A3" ;
+    skos:exactMatch iconclass:71A3 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71A ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71A4 a mdhn:IconclassTerm ;
+    rdfs:label "Temptation and Fall"@en ,
+               "وسوسه و هبوط"@fa ;
+    mdhn:iconclassNotation "71A4" ;
+    skos:exactMatch iconclass:71A4 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71A ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71A6 a mdhn:IconclassTerm ;
+    rdfs:label "expulsion of Adam and Eve from paradise"@en ,
+               "اخراج آدم و حوا از بهشت"@fa ;
+    mdhn:iconclassNotation "71A6" ;
+    skos:exactMatch iconclass:71A6 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71A ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+# Limited-scope Persian emphasis
+mdhn:iconclass71A_PersianParadise a mdhn:IconclassTerm ;
+    rdfs:label "Adam and Eve in the Persian pictorial tradition of Paradise"@en ,
+               "آدم و حوا در سنت تصویری ایرانی بهشت"@fa ;
+    mdhn:hasIconclassBroader mdhn:iconclass71A ;
+    skos:relatedMatch wd:Q70899 ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean .
+
+#################################################################
+# Noah / نوح (71B3)
+#################################################################  
+mdhn:iconclass71B3 a mdhn:IconclassTerm ;
+    rdfs:label "story of Noah"@en ,
+               "داستان نوح"@fa ;
+    mdhn:iconclassNotation "71B3" ;
+    skos:exactMatch iconclass:71B3 ;
+    skos:closeMatch wd:Q8141 ;           # Noah
+    skos:relatedMatch wd:Q8141 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71B ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71B32 a mdhn:IconclassTerm ;
+    rdfs:label "the building of the ark, and the embarkation"@en ,
+               "ساخت کشتی و سوار شدن"@fa ;
+    mdhn:iconclassNotation "71B32" ;
+    skos:exactMatch iconclass:71B32 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71B3 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71B33 a mdhn:IconclassTerm ;
+    rdfs:label "the Flood and destruction of mankind"@en ,
+               "طوفان و نابودی بشریت"@fa ;
+    mdhn:iconclassNotation "71B33" ;
+    skos:exactMatch iconclass:71B33 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71B3 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71B34 a mdhn:IconclassTerm ;
+    rdfs:label "the disembarkation ~ story of Noah"@en ,
+               "پیاده شدن از کشتی نوح"@fa ;
+    mdhn:iconclassNotation "71B34" ;
+    skos:exactMatch iconclass:71B34 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71B3 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+#################################################################
+# Abraham / ابراهیم (71C1)
+#################################################################  
+mdhn:iconclass71C1 a mdhn:IconclassTerm ;
+    rdfs:label "story of Abraham"@en ,
+               "داستان ابراهیم"@fa ;
+    mdhn:iconclassNotation "71C1" ;
+    skos:exactMatch iconclass:71C1 ;
+    skos:closeMatch wd:Q9181 ;           # Abraham
+    skos:relatedMatch wd:Q9181 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71C ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+# Sacrifice of Isaac / Ismail – critical shared / diverging point
+mdhn:iconclass71C131 a mdhn:IconclassTerm ;
+    rdfs:label "the sacrifice of Isaac"@en ,
+               "قربانی اسحاق / اسماعیل"@fa ;
+    mdhn:iconclassNotation "71C131" ;
+    skos:exactMatch iconclass:71C131 ;
+    skos:relatedMatch wd:Q9181 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71C1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+# Limited-scope Islamic emphasis
+mdhn:iconclass71C131_Ismail a mdhn:IconclassTerm ;
+    rdfs:label "the sacrifice of Ismail (Islamic tradition)"@en ,
+               "قربانی اسماعیل (سنت اسلامی)"@fa ;
+    mdhn:hasIconclassBroader mdhn:iconclass71C131 ;
+    skos:relatedMatch wd:Q9181 ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean .
+#################################################################
+# Moses / موسی (71E1)
+#################################################################  
+mdhn:iconclass71E1 a mdhn:IconclassTerm ;
+    rdfs:label "the book Exodus: story of Moses and Aaron"@en ,
+               "داستان موسی و هارون"@fa ;
+    mdhn:iconclassNotation "71E1" ;
+    skos:exactMatch iconclass:71E1 ;
+    skos:closeMatch wd:Q9077 ;           # Moses
+    skos:relatedMatch wd:Q9077 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71E ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+ 
+
+mdhn:iconclass71E11 a mdhn:IconclassTerm ;
+    rdfs:label "the finding of Moses / Moses in the bulrushes"@en ,
+               "یافتن موسی در نیزارها"@fa ;
+    mdhn:iconclassNotation "71E11" ;
+    skos:exactMatch iconclass:71E11 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71E1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass71E114 a mdhn:IconclassTerm ;
+    rdfs:label "the burning bush"@en ,
+               "بوته‌ی سوزان"@fa ;
+    mdhn:iconclassNotation "71E114" ;
+    skos:exactMatch iconclass:71E114 ;
+    mdhn:hasIconclassBroader mdhn:iconclass71E1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+#################################################################
+# Solomon / سليمان + Queen of Sheba (71I)
+#################################################################  
+mdhn:iconclass71I a mdhn:IconclassTerm ;
+    rdfs:label "story of Solomon"@en ,
+               "داستان سلیمان"@fa ;
+    mdhn:iconclassNotation "71I" ;
+    skos:exactMatch iconclass:71I ;
+    skos:closeMatch wd:Q44204 ;          # Solomon
+    skos:relatedMatch wd:Q44204 ;
+    skos:relatedMatch mdhn:Solomon_and_Queen_of_Sheba ;   # your existing episode
+    mdhn:hasIconclassBroader mdhn:iconclass71 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+# Queen of Sheba visit – the most important shared visual motif
+mdhn:iconclass71I6 a mdhn:IconclassTerm ;
+    rdfs:label "the visit of the Queen of Sheba"@en ,
+               "بازدید ملکه سبا"@fa ;
+    mdhn:iconclassNotation "71I6" ;
+    skos:exactMatch iconclass:71I6 ;
+    skos:relatedMatch wd:Q44204 ;
+    skos:relatedMatch mdhn:Solomon_and_Queen_of_Sheba ;
+    mdhn:hasIconclassBroader mdhn:iconclass71I ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+# Limited-scope Persian court / throne emphasis
+mdhn:iconclass71I_PersianCourt a mdhn:IconclassTerm ;
+    rdfs:label "Solomon’s court and throne in Persian manuscript painting"@en ,
+               "بارگاه و تخت سلیمان در نگارگری ایرانی"@fa ;
+    mdhn:hasIconclassBroader mdhn:iconclass71I ;
+    skos:relatedMatch mdhn:Solomon_and_Queen_of_Sheba ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean .
+
+#################################################################
+# Story of Shuaib relates to (71E1)
+#################################################################  
+
+
+# Limited-scope extension for the distinct Islamic prophetic figure
+mdhn:iconclass71E_Midian a mdhn:IconclassTerm ;
+    rdfs:label "Shuaib / Prophet of Midian (Islamic tradition)"@en ,
+               "شعیب، پیامبر مدین (سنت اسلامی)"@fa ;
+    rdfs:comment """Project-specific extension covering the Quranic prophet Shuaib 
+    (identified with or related to Jethro). 
+    Captures the distinctive themes of preaching to Midian, 
+    fair weights and measures, and the destruction of the people of Midian/Aykah."""@en ;    
+    mdhn:iconclassNotation "71E1" ;                 # inherits the nearest official notation
+    mdhn:hasIconclassBroader mdhn:iconclass71E1 ;    
+    skos:relatedMatch mdhn:Shuaib ;                 # back-link to the narrative episode
+    skos:relatedMatch wd:Q982867 ;
+    skos:relatedMatch wd:Q47680 ;                   # Jethro    
+    mdhn:isInExtendedScope "true"^^xsd:boolean .  
+
+#################################################################
+# Classical History – Alexander
+#################################################################
+
+mdhn:iconclass98B a mdhn:IconclassTerm ;
+    rdfs:label "male persons from classical history"@en ,
+               "اشخاص مرد از تاریخ کلاسیک"@fa ;
+    mdhn:iconclassNotation "98B" ;
+    skos:exactMatch mdhn:iconclass98B ;
+    mdhn:hasIconclassBroader mdhn:iconclass98 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+mdhn:iconclass98B_Alexander a mdhn:IconclassTerm ;
+    rdfs:label "Alexander the Great"@en ,
+               "اسکندر مقدونی / اسکندر کبیر"@fa ;
+    rdfs:comment "Official Iconclass notation for the historical and classical legendary figure of Alexander the Great."@en ;    
+    mdhn:iconclassNotation "98B(ALEXANDER THE GREAT)" ;       
+    mdhn:hasIconclassBroader mdhn:iconclass98B ;   # if you later add the parent
+    mdhn:isInExtendedScope "false"^^xsd:boolean ;    
+    skos:relatedMatch mdhn:Iskandar_Dhul_Qarnayn .   
+
+mdhn:iconclass_DhulQarnayn a mdhn:IconclassTerm ;
+    rdfs:label "Dhul-Qarnayn (the Two-Horned One)"@en ,
+               "ذوالقرنین"@fa ;
+    rdfs:comment """Project-specific extension for the Quranic figure Dhul-Qarnayn.
+    In Islamic tradition widely identified with Alexander / Iskandar.
+    Covers the prophetic and righteous-ruler aspects (building the wall against Gog and Magog, 
+    seeking the Water of Life, etc.) that are not fully captured by the classical Iconclass notation."""@en ;    
+    # We deliberately do not invent a fake Iconclass notation
+    mdhn:iconclassNotation "98B(ALEXANDER THE GREAT)" ;   # nearest official notation    
+    mdhn:hasIconclassBroader mdhn:iconclass98B_Alexander ;    
+    skos:relatedMatch mdhn:Iskandar_Dhul_Qarnayn ;
+    skos:relatedMatch wd:Q8409 ;
+    skos:relatedMatch mdhn:iconclass_GogMagogWall ;    
+    mdhn:isInExtendedScope "true"^^xsd:boolean . 
+
+mdhn:iconclass_GogMagogWall a mdhn:IconclassTerm ;
+    rdfs:label "Wall against Gog and Magog"@en ,
+               "سدّ یأجوج و مأجوج"@fa ,
+               "Sadd Yaʾjūj wa Maʾjūj"@ar ;    
+    rdfs:comment """Project-specific extension for the motif of the iron wall (or rampart) 
+    built by Dhul-Qarnayn / Iskandar against the tribes of Gog and Magog (Yaʾjūj wa Maʾjūj).
+    This is one of the most distinctive visual and narrative elements of the Islamic Alexander / 
+    Dhul-Qarnayn tradition and appears in Persian manuscript painting of the Iskandarnama cycle."""@en ;    
+    # Nearest official Iconclass notation (classical Alexander)
+    mdhn:iconclassNotation "98B(ALEXANDER THE GREAT)" ;    
+    mdhn:hasIconclassBroader mdhn:iconclass_DhulQarnayn ;    
+    skos:relatedMatch mdhn:Iskandar_Dhul_Qarnayn ;
+    skos:relatedMatch mdhn:iconclass_DhulQarnayn ;
+    skos:relatedMatch wd:Q8409 ;    
+    mdhn:isInExtendedScope "true"^^xsd:boolean .
+
+mdhn:iconclass71E1_MosesSeventyElders a mdhn:IconclassTerm ;
+    rdfs:label "Moses and the seventy elders hearing the voice of God from the clouds"@en ,
+               "موسی و هفتاد عالم در حال شنیدن ندای خداوند از میان ابرها"@fa ;    
+    rdfs:comment """Project-specific extension for the scene in which Moses (Musa), 
+    standing or seated on a rock/mountain and often wearing a prophetic veil, 
+    hears the voice of God emerging from the clouds, while the seventy elders 
+    (or learned men) lie prostrate below him. 
+    Mountains form the background. 
+    This composition is particularly characteristic of Ilkhanid manuscript painting 
+    (notably the Edinburgh Jāmiʿ al-Tawārīkh) and reflects both Biblical 
+    (Exodus 24; Numbers 11) and Islamic narrative traditions."""@en ;
+    mdhn:iconclassNotation "71E1" ;                 # story of Moses and Aaron
+    mdhn:hasIconclassBroader mdhn:iconclass71E1 ;
+    skos:relatedMatch mdhn:iconclass71E1 ;
+    skos:relatedMatch wd:Q9077 ;                    # Moses
+    skos:relatedMatch mdhn:Moses_and_the_Seventy_Elders ;    
+    mdhn:isInExtendedScope "true"^^xsd:boolean .    
+    
+  mdhn:iconclass71E1124 a mdhn:IconclassTerm ;
+    rdfs:label "the finding of Moses: Pharaoh's daughter discovers the child in the river"@en ,
+               "یافتن موسی توسط دختر فرعون در رود نیل"@fa ;    
+    rdfs:comment """Official Iconclass notation for the discovery of the infant Moses 
+    floating in a basket on the Nile by Pharaoh’s daughter and her maidens. 
+    In Persian and Islamic manuscript painting the scene often shows Queen Bithia 
+    (with long dark hair) and an Israelite nurse of lighter complexion."""@en ;    
+    mdhn:iconclassNotation "71E1124" ;
+    skos:exactMatch <https://iconclass.org/71E1124> ;    
+    mdhn:hasIconclassBroader mdhn:iconclass71E1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean ;    
+    skos:relatedMatch mdhn:Finding_of_Moses ;
+    skos:relatedMatch wd:Q9077 .
+
+mdhn:iconclass71V42 a mdhn:IconclassTerm ;
+    rdfs:label "Jonah under the gourd plant"@en ,
+               "یونس در زیر بوته کدو / گیاه سایه"@fa ;    
+    rdfs:comment """Jonah (Yunus) reclining in the shade of the gourd plant (or vine) 
+    that God caused to grow to shelter him after he was cast up by the great fish 
+    (Jonah 4:6). 
+    The reclining pose is continuous with early Christian iconography. 
+    In Persian and Islamic manuscripts the sea creature is frequently shown as a large fish."""@en ;    
+    mdhn:iconclassNotation "71V42" ;                # conventional placement under the Jonah cycle
+    skos:exactMatch <https://iconclass.org/71V42> ; # adjust if the exact official notation differs    
+    mdhn:hasIconclassBroader mdhn:iconclass71V ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean ;    
+    skos:relatedMatch mdhn:Jonah_under_the_Gourd ;
+    skos:relatedMatch wd:Q2468262 .  
+
+### Official Christian Iconclass term
+mdhn:iconclass11H_SevenSleepers a mdhn:IconclassTerm ;
+    rdfs:label "the Seven Sleepers of Ephesus"@en ,
+               "هفت خفتگان افسس"@fa ;    
+    rdfs:comment """Official Iconclass notation for the Seven Sleepers (children) of Ephesus 
+    (11H(SEVEN SLEEPERS)). Christian tradition of the youths walled up in a cave under Decius 
+    and miraculously awakened under Theodosius II."""@en ;    
+    mdhn:iconclassNotation "11H(SEVEN SLEEPERS)" ;
+    skos:exactMatch <https://iconclass.org/11H(SEVEN%20SLEEPERS)> ;    
+    mdhn:hasIconclassBroader mdhn:iconclass11H ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean ;    
+    skos:relatedMatch mdhn:Story_of_Seven_sleepers_of_Ephesus ;
+    skos:relatedMatch wd:Q466973 .
+
+
+### Limited-scope Islamic / Qur’anic layer
+mdhn:iconclass_Ashab_al_Kahf a mdhn:IconclassTerm ;
+    rdfs:label "Aṣḥāb al-Kahf (Companions of the Cave)"@en ,
+               "اصحاب کهف"@fa ;    
+    rdfs:comment """Project-specific extension for the Qur’anic version of the Seven Sleepers 
+    (Sūrat al-Kahf 18:9–26). Emphasises the Islamic narrative details: the 309-year sleep, 
+    the dog (Qiṭmīr), and the alternative location of the cave in Toyug (Central Asia) 
+    rather than Ephesus. Used when the painting or text clearly follows the Islamic tradition."""@en ;    
+    mdhn:iconclassNotation "11H(SEVEN SLEEPERS)" ;   # nearest official notation
+    mdhn:hasIconclassBroader mdhn:iconclass11H_SevenSleepers ;    
+    skos:relatedMatch mdhn:Story_of_Seven_sleepers_of_Ephesus ;
+    skos:relatedMatch wd:Q466973 ;    
+    mdhn:isInExtendedScope "true"^^xsd:boolean .   
+
+
+### Official Christian Iconclass term (parent)
+mdhn:iconclass11H_George a mdhn:IconclassTerm ;
+    rdfs:label "Saint George"@en ,
+               "قدیس جرجیس / مار جرجس"@fa ;    
+    rdfs:comment "Official Iconclass notation for Saint George (11H(GEORGE))."@en ;    
+    mdhn:iconclassNotation "11H(GEORGE)" ;
+    skos:exactMatch <https://iconclass.org/11H(GEORGE)> ;                       
+    mdhn:hasIconclassBroader mdhn:iconclass11H ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean ;    
+    skos:relatedMatch mdhn:Jurjis_led_to_the_King_of_Mosul ;
+    skos:relatedMatch wd:Q48438 .
+
+
+### Limited-scope Islamic / prophetic layer
+mdhn:iconclass_Jurjis_led_to_King a mdhn:IconclassTerm ;
+    rdfs:label "Jurjis led in chains to the King of Mosul"@en ,
+               "جرجیس با زنجیر در حال برده‌شدن به نزد پادشاه موصل"@fa ;    
+    rdfs:comment """Project-specific extension for the Islamic narrative of the Prophet Jurjis 
+    (Jirjis) being led in chains to the King of Mosul after refusing to worship idols. 
+    In Islamic tradition he is miraculously protected from the subsequent tortures. 
+    This visual formula appears in Ilkhanid painting (notably the Edinburgh Jāmiʿ al-Tawārīkh)."""@en ;    
+    mdhn:iconclassNotation "11H(GEORGE)" ;          # nearest official notation
+    mdhn:hasIconclassBroader mdhn:iconclass11H_George ;    
+    skos:relatedMatch mdhn:Jurjis_led_to_the_King_of_Mosul ;
+    skos:relatedMatch wd:Q48438 ;    
+    mdhn:isInExtendedScope "true"^^xsd:boolean .       
+
+mdhn:iconclass_Birth_of_Muhammad a mdhn:IconclassTerm ;
+    rdfs:label "Birth of the Prophet Muhammad"@en ,
+               "تولد پیامبر محمد"@fa ;    
+    rdfs:comment """Project-specific extension for the birth of the Prophet Muhammad. 
+    The mother reclines on a couch while the newborn is handed to one of two attending angels. 
+    The composition is known from Ilkhanid manuscript painting (notably the Edinburgh 
+    Jāmiʿ al-Tawārīkh) and later prophetic cycles. 
+    No exact official Iconclass notation exists for this Islamic prophetic subject; 
+    the term is therefore marked as limited-scope."""@en ;
+    mdhn:iconclassNotation "" ;    
+    mdhn:hasIconclassBroader mdhn:iconclass_PropheticBirths ;    
+    skos:relatedMatch mdhn:Birth_of_the_Prophet_Muhammad ;
+    skos:relatedMatch wd:Q9458 ;    
+    mdhn:isInExtendedScope "true"^^xsd:boolean .    
+
+### Main official term
+mdhn:iconclass71E1164 a mdhn:IconclassTerm ;
+    rdfs:label "Moses and Aaron before Pharaoh; Aaron’s rod changes into a snake"@en ,
+               "موسی و هارون در برابر فرعون؛ عصا به مار تبدیل می‌شود"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 71E1164: 
+    Moses and Aaron before Pharaoh; Aaron performs the miracle of the rod changing into a snake."""@en ;    
+    mdhn:iconclassNotation "71E1164" ;
+    skos:exactMatch <https://iconclass.org/71E1164> ;    
+    mdhn:hasIconclassBroader mdhn:iconclass71E116 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean ;    
+    skos:relatedMatch mdhn:Staff_becomes_Serpent ;
+    skos:relatedMatch wd:Q9077 .
+
+
+### More specific official child term (swallowing the magicians’ snakes)
+mdhn:iconclass71E11641 a mdhn:IconclassTerm ;
+    rdfs:label "Aaron’s rod swallows the magicians’ snakes"@en ,
+               "عصای هارون مارهای جادوگران را می‌بلعد"@fa ;    
+    rdfs:comment """Official Iconclass notation 71E11641: 
+    All the magicians summoned by the king turn their rods into snakes, 
+    but Aaron’s rod swallows them."""@en ;    
+    mdhn:iconclassNotation "71E11641" ;
+    skos:exactMatch <https://iconclass.org/71E11641> ;    
+    mdhn:hasIconclassBroader mdhn:iconclass71E1164 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean ;    
+    skos:relatedMatch mdhn:Staff_becomes_Serpent .    
+
+
+   

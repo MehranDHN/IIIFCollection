@@ -60,6 +60,29 @@ Or render PNG:
 python render_persons_graph.py --format png
 ```
 
+## Iconography Concept Graph
+
+- `generate_iconography_concept_graph.py` scans all `*Collection.json` files and builds a DOT graph from a set of Iconography concepts.
+- The script renders:
+  - selected input concepts,
+  - any `skos:exactMatch` and `skos:relatedMatch` / `skos:relatedMath` neighbours,
+  - resources that reference those concepts,
+  - additional iconography concepts found in those resources (including narrative episodes).
+
+### Usage
+
+From `util_script/visualization`:
+
+```bash
+python generate_iconography_concept_graph.py --concept mdhn:sh2020006752_Winged_Horses --concept mdhn:sh85088283_Miraj
+```
+
+To write a custom DOT file:
+
+```bash
+python generate_iconography_concept_graph.py --dot iconography_concept_graph.dot --concept mdhn:sh2020006752_Winged_Horses
+```
+
 ## Notes
 
 - Hierarchy edges are derived from `mdhn:hasAATBroader`.

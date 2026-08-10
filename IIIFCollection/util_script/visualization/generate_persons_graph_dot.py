@@ -16,6 +16,7 @@ symmetric_relations = {
     'isBrotherOf',
     'isSisterOf',
     'isSiblingOf',
+    'isStudentOf',
 }
 
 for raw_line in lines:

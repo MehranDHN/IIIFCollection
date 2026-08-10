@@ -1223,3 +1223,100 @@
 
 
 
+
+# Qisas al Anbiya Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Qiṣaṣ al-anbiyā Diez A fol. 3
+
+*No States found.*
+## Manifest: Qiṣaṣ al-anbiyā Supplément Persan 1313
+
+*No States found.*
+## Manifest: Qiṣaṣ al-anbiyā Persan 54
+
+*No States found.*
+## Manifest: Hādhā kitāb qiṣaṣ al-anbiyā
+
+*No States found.*
+## Manifest: Qiṣaṣ al-anbiyā Per 231
+
+## ResourceCanvas: f.107v — Qisas al-anbiya Per 231, Moses staff becomes a snake
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Moses cropped figure from 107v
+- ![ Moses cropped figure from 107v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_224.jpg/2121,2525,742,1616/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Moses
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Harun cropped figure from 107v
+- ![ Harun cropped figure from 107v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_224.jpg/1780,2424,452,560/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Harun
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Dragon cropped figure from 107v
+- ![ Dragon cropped figure from 107v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_224.jpg/841,3788,1866,1224/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Dragon
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Pharaoh cropped figure from 107v
+- ![ Pharaoh cropped figure from 107v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_224.jpg/787,2106,1068,1139/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Pharaoh
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 107v
+- ![ Textblock1 in 107v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_224.jpg/690,1448,2230,560/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Moses, mdhn:Pharaoh
+- **Styles:** aat:300265532
+- **Persian Text:** در دست راست تست تا فرو برد آنچه کردند و هست و جادو را فلاح نبود آنجا که حق بود و اندرين علما را سخنست بعضی گفته اند اين سخن جبرئيل گفت و بعضی گويند
+
+### mdhn:Text_or_Verses: Textblock1 in 107v
+- ![ Textblock1 in 107v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_224.jpg/751,4982,2230,560/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Moses, mdhn:Pharaoh
+- **Styles:** aat:300265532
+- **Persian Text:** گويند خدای تعالی شنوانيد و گفته ؟ وی افکند حق تعالی و گفت يا موسی دل بجای آر موسی عصا بيفکند و گفت بسم الله و آن عصا سر برآورد و هفصد
+
+---
+
+## ResourceCanvas: f.134r — Qisas al-anbiya Per 231, Qarun swallowed by the earth
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Moses cropped figure from 134r
+- ![ Moses cropped figure from 134r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_277.jpg/2999,1641,818,1933/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Moses
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Qarun cropped figure from 134r
+- ![ Qarun cropped figure from 134r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_277.jpg/2048,2936,609,574/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Qarun
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Punishment cropped figure from 134r
+- ![ Punishment cropped figure from 134r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_277.jpg/2049,3404,1158,1414/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Horse
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from 134r
+- ![ People cropped figure from 134r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_277.jpg/1698,1877,815,888/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:People
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 134r
+- ![ Textblock1 in 134r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_277.jpg/1611,1307,2280,581/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Moses, mdhn:Pharaoh
+- **Styles:** aat:300265532
+- **Persian Text:** گفت وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ وَلَا تَنْسَ نَصِيبَكَ مِنَ الدُّنْيَا وَأَحْسِنْ كَمَا أَحْسَنَ اللَّهُ إِلَيْكَ بقارون گفت نکويی کن
+
+### mdhn:Text_or_Verses: Textblock1 in 134r
+- ![ Textblock1 in 134r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_277.jpg/1698,4928,2158,535/130,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Moses, mdhn:Pharaoh
+- **Styles:** aat:300265532
+- **Persian Text:** بدين که خدای تعالی ترا داده  است و فساد مکن که خدای تعالی مفسدانرا دوست ندارد. قارون گفت  إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلۡمٍ عِندِيٓۚ 
+
+---
+
+
+

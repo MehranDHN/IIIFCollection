@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IIIF Collection Statistics</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #fafafa; color: #202020; }
+    h1 { margin-bottom: 0.25rem; }
+    .summary { margin-bottom: 1.5rem; }
+    .chart-box { max-width: 1200px; margin-bottom: 2rem; }
+    table { border-collapse: collapse; width: 100%; max-width: 1200px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #f0f0f0; }
+    tbody tr:nth-child(even) { background: #ffffff; }
+  </style>
+</head>
+<body>
+  <h1>IIIF Collection Statistics</h1>
+  <div class="summary">
+    <p>Top 30 collections by total members (manifests + items).</p>
+    <p>Total collections scanned: 194</p>
+  </div>
+
+  <div class="chart-box">
+    <canvas id="collectionChart" height="400"></canvas>
+  </div>
+
+  <h2>Top Collections</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Collection file</th>
+        <th>Label</th>
+        <th>Subcollections</th>
+        <th>Manifests</th>
+        <th>Items</th>
+        <th>Total members</th>
+      </tr>
+    </thead>
+    <tbody>
+  <tr><td>1</td><td>WisconsinPhotoCollection.json</td><td>Wisconsin Photo Collection</td><td>0</td><td>1600</td><td>0</td><td>1600</td></tr>
+  <tr><td>2</td><td>ViolletOriginalPhotographsCollection.json</td><td>Henry Viollet Original Photographs</td><td>0</td><td>914</td><td>0</td><td>914</td></tr>
+  <tr><td>3</td><td>DrGhasemGhaniCollection.json</td><td>Dr Ghasem Ghani Collection</td><td>0</td><td>801</td><td>0</td><td>801</td></tr>
+  <tr><td>4</td><td>BementSmithPhotographsCollection.json</td><td>Myron Bement Smith Collection</td><td>0</td><td>690</td><td>0</td><td>690</td></tr>
+  <tr><td>5</td><td>AllemagnePhotographicCollection.json</td><td>Henry d'Allemagne Collection Photographs</td><td>0</td><td>683</td><td>0</td><td>683</td></tr>
+  <tr><td>6</td><td>ChronologyofNationsCollection.json</td><td>Asarol Baghie Or.Ms.161 Collection</td><td>0</td><td>375</td><td>0</td><td>375</td></tr>
+  <tr><td>7</td><td>PenBoxCollection.json</td><td>Pen Box Collection</td><td>0</td><td>293</td><td>0</td><td>293</td></tr>
+  <tr><td>8</td><td>McGillArabicCollection.json</td><td>McGill Arabic Calligraphy</td><td>0</td><td>289</td><td>0</td><td>289</td></tr>
+  <tr><td>9</td><td>ShahnameShahTahmasbCollection.json</td><td>Shahname Shah Tahmasb</td><td>0</td><td>187</td><td>0</td><td>187</td></tr>
+  <tr><td>10</td><td>MiscLouisHagheCollection.json</td><td>Louis Haghe and David Roberts Collections</td><td>0</td><td>164</td><td>0</td><td>164</td></tr>
+  <tr><td>11</td><td>StephanArpeePhotographsCollection.json</td><td>Stephen Arpee Collection</td><td>0</td><td>161</td><td>0</td><td>161</td></tr>
+  <tr><td>12</td><td>GabrielOriginalPhotographsCollection.json</td><td>Gabriel Original Photographs Collection</td><td>0</td><td>149</td><td>0</td><td>149</td></tr>
+  <tr><td>13</td><td>KonstantinVonKaufmanCollection.json</td><td>Konstantin von Kaufman Photographs</td><td>0</td><td>89</td><td>0</td><td>89</td></tr>
+  <tr><td>14</td><td>GreatIlkhanidShahnamehCollection.json</td><td>Great Ilkhanid Shahnameh</td><td>0</td><td>77</td><td>0</td><td>77</td></tr>
+  <tr><td>15</td><td>PersianManuscriptCollection.json</td><td>Persian Manuscript Collection</td><td>8</td><td>76</td><td>0</td><td>76</td></tr>
+  <tr><td>16</td><td>EdinburghOrMS373Collection.json</td><td>Qit‘at-i Khushkhatt Or.MS.373</td><td>0</td><td>74</td><td>0</td><td>74</td></tr>
+  <tr><td>17</td><td>SmallIlkhanidShahnameCollection.json</td><td>Small Ilkhanid Shahname</td><td>0</td><td>74</td><td>0</td><td>74</td></tr>
+  <tr><td>18</td><td>DepartedFolioCollection.json</td><td>Departed Folios</td><td>19</td><td>69</td><td>0</td><td>69</td></tr>
+  <tr><td>19</td><td>MuraqqaCollection.json</td><td>Muraqqa (Calligraphy & Painting Collection)</td><td>0</td><td>47</td><td>0</td><td>47</td></tr>
+  <tr><td>20</td><td>ShahnamaCollection.json</td><td>Shahnama Collection</td><td>7</td><td>43</td><td>0</td><td>43</td></tr>
+  <tr><td>21</td><td>TarikhnamaByBalamiCollection.json</td><td>Tarikhnama by Balami</td><td>0</td><td>40</td><td>0</td><td>40</td></tr>
+  <tr><td>22</td><td>SingleLacquerCoverCollection.json</td><td>Single Lacquer Cover Collection</td><td>0</td><td>39</td><td>0</td><td>39</td></tr>
+  <tr><td>23</td><td>VideoCollection.json</td><td>Comentary Videos Collection</td><td>0</td><td>38</td><td>0</td><td>38</td></tr>
+  <tr><td>24</td><td>IllustratedLondonNewsCollection.json</td><td>Illustrated London News</td><td>0</td><td>36</td><td>0</td><td>36</td></tr>
+  <tr><td>25</td><td>MapCollection.json</td><td>Maps</td><td>0</td><td>35</td><td>0</td><td>35</td></tr>
+  <tr><td>26</td><td>IIIF2Collection.json</td><td>MDHN's IIIFDexir Collection</td><td>86</td><td>32</td><td>0</td><td>32</td></tr>
+  <tr><td>27</td><td>QuranCollection.json</td><td>Quran Collection</td><td>1</td><td>30</td><td>0</td><td>30</td></tr>
+  <tr><td>28</td><td>YaqubBegAlbumCollection.json</td><td>Yaqub Beg Album Collection</td><td>0</td><td>30</td><td>0</td><td>30</td></tr>
+  <tr><td>29</td><td>CatalogsAndIndexCollection.json</td><td>Catalogs And Index</td><td>1</td><td>29</td><td>0</td><td>29</td></tr>
+  <tr><td>30</td><td>GPAK0100Collection.json</td><td>Albumkhane 0100 Album</td><td>0</td><td>29</td><td>0</td><td>29</td></tr>
+  <tr><td>31</td><td>RoyalPaintingCollection.json</td><td>Royal Painting Collection</td><td>0</td><td>29</td><td>0</td><td>29</td></tr>
+  <tr><td>32</td><td>TurkishManuscriptCollection.json</td><td>Turkish Manuscript Collection</td><td>0</td><td>29</td><td>0</td><td>29</td></tr>
+  <tr><td>33</td><td>GarthFowdenCollection.json</td><td>Garth Fowden Collection</td><td>0</td><td>28</td><td>0</td><td>28</td></tr>
+  <tr><td>34</td><td>MirrorCaseCollection.json</td><td>Mirror Case Collection</td><td>0</td><td>28</td><td>0</td><td>28</td></tr>
+  <tr><td>35</td><td>KulliatSaadiCollection.json</td><td>Kulliat Saadi</td><td>0</td><td>26</td><td>0</td><td>26</td></tr>
+  <tr><td>36</td><td>MiscReportAndLetterCollection.json</td><td>Report And Letter Collections</td><td>0</td><td>24</td><td>0</td><td>24</td></tr>
+  <tr><td>37</td><td>DieulafoyCollection.json</td><td>Dieulafoy Collection</td><td>0</td><td>23</td><td>0</td><td>23</td></tr>
+  <tr><td>38</td><td>KhamseCollection.json</td><td>Nizami Ganjavi Collection</td><td>0</td><td>23</td><td>0</td><td>23</td></tr>
+  <tr><td>39</td><td>RawdatAlSafaFS7421Collection.json</td><td>Rawdat al Safa FS 7421</td><td>0</td><td>23</td><td>0</td><td>23</td></tr>
+  <tr><td>40</td><td>Khamse_fsg_S1986_59Collection.json</td><td>Khamsa (Quintet) by Nizami FS-7421</td><td>0</td><td>22</td><td>0</td><td>22</td></tr>
+  <tr><td>41</td><td>SinglePhotoCollection.json</td><td>Single Photo Collection</td><td>0</td><td>22</td><td>0</td><td>22</td></tr>
+  <tr><td>42</td><td>FlandinCosteCollection.json</td><td>Eugene Flandin and Pascal Coste Collection</td><td>0</td><td>21</td><td>0</td><td>21</td></tr>
+  <tr><td>43</td><td>SingleSheetEngravingsCollection.json</td><td>Single Sheet Engravings</td><td>0</td><td>21</td><td>0</td><td>21</td></tr>
+  <tr><td>44</td><td>HaftOwrangIbrahimSultanCollection.json</td><td>Haft Owrang Ibrahim Sultan</td><td>0</td><td>19</td><td>0</td><td>19</td></tr>
+  <tr><td>45</td><td>FathAliHijabShiraziCollection.json</td><td>Fath Ali Hijab Shirazi</td><td>0</td><td>18</td><td>0</td><td>18</td></tr>
+  <tr><td>46</td><td>VaraminPhotographs195Collection.json</td><td>Varamin Photographs, 195 G</td><td>0</td><td>18</td><td>0</td><td>18</td></tr>
+  <tr><td>47</td><td>ArabicManuscriptCollection.json</td><td>Arabic Manuscript Collection</td><td>0</td><td>17</td><td>0</td><td>17</td></tr>
+  <tr><td>48</td><td>KufficQuranCollection.json</td><td>Kuffic Quran Collection</td><td>0</td><td>17</td><td>0</td><td>17</td></tr>
+  <tr><td>49</td><td>AurelSteinCollection.json</td><td>Aurel Stein</td><td>0</td><td>16</td><td>0</td><td>16</td></tr>
+  <tr><td>50</td><td>AbdarRahmanJamiCollection.json</td><td>Abdar Rahman Jami Collection</td><td>0</td><td>15</td><td>0</td><td>15</td></tr>
+  <tr><td>51</td><td>MirzaMohammadKazemTehraniCollection.json</td><td>Mirza Mohammad Kazem Tehrani</td><td>0</td><td>15</td><td>0</td><td>15</td></tr>
+  <tr><td>52</td><td>MiscPhotoAlbumCollection.json</td><td>Photograph Albums</td><td>15</td><td>14</td><td>0</td><td>14</td></tr>
+  <tr><td>53</td><td>ArsislamicaCollection.json</td><td>Ars Islamica Collection</td><td>0</td><td>13</td><td>0</td><td>13</td></tr>
+  <tr><td>54</td><td>GertrudeBellCollection.json</td><td>Gertrude Bell</td><td>0</td><td>13</td><td>0</td><td>13</td></tr>
+  <tr><td>55</td><td>MantiqalTayr63210Collection.json</td><td>Mantiq al-Tayr 63.20 Metropolitan</td><td>0</td><td>13</td><td>0</td><td>13</td></tr>
+  <tr><td>56</td><td>MihruMushtariFS8273Collection.json</td><td>Mihr u Mushtari Smithsonian</td><td>0</td><td>13</td><td>0</td><td>13</td></tr>
+  <tr><td>57</td><td>MiscPaintingandDrawingCollection.json</td><td>Misc Painting and Drawing Collection</td><td>0</td><td>13</td><td>0</td><td>13</td></tr>
+  <tr><td>58</td><td>BSMasjidJomehCollection.json</td><td>Masjid-i Jomeh</td><td>0</td><td>12</td><td>0</td><td>12</td></tr>
+  <tr><td>59</td><td>SvenHedinCollection.json</td><td>Sven Hedin</td><td>0</td><td>12</td><td>0</td><td>12</td></tr>
+  <tr><td>60</td><td>EtemadOlSaltaneCollection.json</td><td>Mohammad Hasan Khan E'temad os-Saltaneh</td><td>0</td><td>11</td><td>0</td><td>11</td></tr>
+  <tr><td>61</td><td>CurzonCollection.json</td><td>George Nathaniel Curzon Collection</td><td>0</td><td>10</td><td>0</td><td>10</td></tr>
+  <tr><td>62</td><td>ErichSchmidtCollection.json</td><td>Erich F Schmidt Collection</td><td>0</td><td>10</td><td>0</td><td>10</td></tr>
+  <tr><td>63</td><td>KhavarannamaCollection.json</td><td>Khavaranname Chester Beatty</td><td>0</td><td>10</td><td>0</td><td>10</td></tr>
+  <tr><td>64</td><td>SaadiCollection.json</td><td>Saadi Collection</td><td>0</td><td>10</td><td>0</td><td>10</td></tr>
+  <tr><td>65</td><td>MirEmadHassaniCollection.json</td><td>Mir Emad Hassani</td><td>0</td><td>9</td><td>0</td><td>9</td></tr>
+  <tr><td>66</td><td>ZakariyaAlQazwiniCollection.json</td><td>Zakariya al-Qazwini Collection</td><td>0</td><td>9</td><td>0</td><td>9</td></tr>
+  <tr><td>67</td><td>ByronIsfahanMasjidShahCollection.json</td><td>Masjid-i-Shah</td><td>0</td><td>8</td><td>0</td><td>8</td></tr>
+  <tr><td>68</td><td>DenisBallySlideCollection.json</td><td>Denis Baly Color Slide Collection</td><td>0</td><td>8</td><td>0</td><td>8</td></tr>
+  <tr><td>69</td><td>FriedrichSarreCollection.json</td><td>Friedrich Sarre Collection</td><td>0</td><td>8</td><td>0</td><td>8</td></tr>
+  <tr><td>70</td><td>HarvardMasjidShahPhotoCollection.json</td><td>Harvard Masjid Shah Photo Collection</td><td>0</td><td>8</td><td>0</td><td>8</td></tr>
+  <tr><td>71</td><td>JeanBaptisteFeuvrierCollection.json</td><td>Jean-Baptiste Feuvrier Collection</td><td>0</td><td>8</td><td>0</td><td>8</td></tr>
+  <tr><td>72</td><td>MiscellaneousCollection.json</td><td>Miscellaneous Collection</td><td>6</td><td>8</td><td>0</td><td>8</td></tr>
+  <tr><td>73</td><td>ShardinCollection.json</td><td>Jean Chardin Collection</td><td>0</td><td>8</td><td>0</td><td>8</td></tr>
+  <tr><td>74</td><td>AdamOleariusCollection.json</td><td>Adam Olearius Collection</td><td>0</td><td>7</td><td>0</td><td>7</td></tr>
+  <tr><td>75</td><td>HenrydAllemagneCollection.json</td><td>Henry d'Allemagne Collection</td><td>1</td><td>7</td><td>0</td><td>7</td></tr>
+  <tr><td>76</td><td>JamesMorierCollection.json</td><td>James Morier Collection</td><td>0</td><td>7</td><td>0</td><td>7</td></tr>
+  <tr><td>77</td><td>PercySykesCollection.json</td><td>Percy Molesworth Sykes</td><td>0</td><td>7</td><td>0</td><td>7</td></tr>
+  <tr><td>78</td><td>ChesterBeattyCatalogueCollection.json</td><td>Chester Beatty Catalogue 1962</td><td>0</td><td>6</td><td>0</td><td>6</td></tr>
+  <tr><td>79</td><td>CornelisDeBruynCollection.json</td><td>Cornelis de Bruyn Collection</td><td>0</td><td>6</td><td>0</td><td>6</td></tr>
+  <tr><td>80</td><td>GPAK0240Collection.json</td><td>Albumkhane 0240 Album</td><td>0</td><td>6</td><td>0</td><td>6</td></tr>
+  <tr><td>81</td><td>JohnMalcolmCollection.json</td><td>Sir John Malcolm Collection</td><td>0</td><td>6</td><td>0</td><td>6</td></tr>
+  <tr><td>82</td><td>KeyhanCollection.json</td><td>Keyhan Collection</td><td>0</td><td>6</td><td>0</td><td>6</td></tr>
+  <tr><td>83</td><td>LeJournalillustreCollection.json</td><td>Le Journal illustre</td><td>0</td><td>6</td><td>0</td><td>6</td></tr>
+  <tr><td>84</td><td>MirzaGholamRezaEsfahaniCollection.json</td><td>Mirza Gholam Reza Esfahani</td><td>0</td><td>6</td><td>0</td><td>6</td></tr>
+  <tr><td>85</td><td>PhotographsOfTheSistineChapelFrescoesCollection.json</td><td>Photographs of the Sistine Chapel Frescoes</td><td>0</td><td>6</td><td>0</td><td>6</td></tr>
+  <tr><td>86</td><td>RobertKerPorterCollection.json</td><td>Robert Ker Porter</td><td>0</td><td>6</td><td>0</td><td>6</td></tr>
+  <tr><td>87</td><td>AbdollahMirzaQajarCollection.json</td><td>Abdollah Mirza Qajar Misc Photo Collection</td><td>0</td><td>5</td><td>0</td><td>5</td></tr>
+  <tr><td>88</td><td>AmirShahiSabsavariCollection.json</td><td>Amir Shahi Sabsavari Collection</td><td>0</td><td>5</td><td>0</td><td>5</td></tr>
+  <tr><td>89</td><td>AnnemarieSchwarzenbachCollection.json</td><td>Annemarie Schwarzenbach Collection</td><td>0</td><td>5</td><td>0</td><td>5</td></tr>
+  <tr><td>90</td><td>ErnstHerzfeldCollection.json</td><td>Ernst Herzfeld</td><td>2</td><td>5</td><td>0</td><td>5</td></tr>
+  <tr><td>91</td><td>HarfordJonesCollection.json</td><td>Sir Harford Jones Collection</td><td>0</td><td>5</td><td>0</td><td>5</td></tr>
+  <tr><td>92</td><td>JamesBaillieFraserCollection.json</td><td>James Baillie Fraser Collection</td><td>0</td><td>5</td><td>0</td><td>5</td></tr>
+  <tr><td>93</td><td>LEMondeIllustreCollection.json</td><td>Le Monde Illustre</td><td>0</td><td>5</td><td>0</td><td>5</td></tr>
+  <tr><td>94</td><td>LEPetitCollection.json</td><td>Le Petit Journal</td><td>0</td><td>5</td><td>0</td><td>5</td></tr>
+  <tr><td>95</td><td>QisasalAnbiyaCollection.json</td><td>Qisas al Anbiya Collection</td><td>0</td><td>5</td><td>0</td><td>5</td></tr>
+  <tr><td>96</td><td>RobertElliottCollection.json</td><td>Robert Elliott Collection</td><td>0</td><td>5</td><td>0</td><td>5</td></tr>
+  <tr><td>97</td><td>TuhfatalAhrarCollection.json</td><td>Tuhfat al Ahrar Jami</td><td>0</td><td>5</td><td>0</td><td>5</td></tr>
+  <tr><td>98</td><td>CalligraphyCollection.json</td><td>Calligraphy Collection</td><td>3</td><td>4</td><td>0</td><td>4</td></tr>
+  <tr><td>99</td><td>ClementdeBodeCollection.json</td><td>Clement August DeBode</td><td>0</td><td>4</td><td>0</td><td>4</td></tr>
+  <tr><td>100</td><td>EdwardBrowneCollection.json</td><td>Edward Granville Browne</td><td>0</td><td>4</td><td>0</td><td>4</td></tr>
+    </tbody>
+  </table>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script>
+    const data = JSON.parse(`{"labels": ["Wisconsin Photo Collection", "Henry Viollet Original Photographs", "Dr Ghasem Ghani Collection", "Myron Bement Smith Collection", "Henry d'Allemagne Collection Photographs", "Asarol Baghie Or.Ms.161 Collection", "Pen Box Collection", "McGill Arabic Calligraphy", "Shahname Shah Tahmasb", "Louis Haghe and David Roberts Collections", "Stephen Arpee Collection", "Gabriel Original Photographs Collection", "Konstantin von Kaufman Photographs", "Great Ilkhanid Shahnameh", "Persian Manuscript Collection", "Qit\u2018at-i Khushkhatt Or.MS.373", "Small Ilkhanid Shahname", "Departed Folios", "Muraqqa (Calligraphy & Painting Collection)", "Shahnama Collection", "Tarikhnama by Balami", "Single Lacquer Cover Collection", "Comentary Videos Collection", "Illustrated London News", "Maps", "MDHN's IIIFDexir Collection", "Quran Collection", "Yaqub Beg Album Collection", "Catalogs And Index", "Albumkhane 0100 Album"], "manifests": [1600, 914, 801, 690, 683, 375, 293, 289, 187, 164, 161, 149, 89, 77, 76, 74, 74, 69, 47, 43, 40, 39, 38, 36, 35, 32, 30, 30, 29, 29], "items": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "subcollections": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 19, 0, 7, 0, 0, 0, 0, 0, 86, 1, 0, 1, 0]}`);
+    const ctx = document.getElementById('collectionChart');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: data.labels,
+        datasets: [
+          {
+            label: 'Manifests',
+            data: data.manifests,
+            backgroundColor: 'rgba(54, 162, 235, 0.7)',
+          },
+          {
+            label: 'Items',
+            data: data.items,
+            backgroundColor: 'rgba(255, 159, 64, 0.7)',
+          },
+          {
+            label: 'Subcollections',
+            data: data.subcollections,
+            backgroundColor: 'rgba(75, 192, 192, 0.7)',
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'top' },
+          title: { display: true, text: 'Top 30 IIIF Collections by Member Count' },
+        },
+        scales: {
+          x: { stacked: true, ticks: { autoSkip: false, maxRotation: 45, minRotation: 15 } },
+          y: { beginAtZero: true },
+        },
+      },
+    });
+  </script>
+</body>
+</html>

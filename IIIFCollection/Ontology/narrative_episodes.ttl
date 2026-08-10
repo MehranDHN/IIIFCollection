@@ -11,20 +11,62 @@
 @prefix tgn: <http://vocab.getty.edu/tgn/> .
 @prefix wd: <https://www.wikidata.org/wiki/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix iconclass: <https://iconclass.org/> .
 
 
 mdhn:Shahnameh a mdhn:NarrativeEpisode ;
     mdhn:aatConcept mdhn:aat300404209 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q8279" ;
+    mdhn:isPartOf  mdhn:Legend_Religion_Mythology ;
     dcterms:created "c. 1010" ;
     rdfs:comment """The Shahnameh, or Book of Kings, is an epic poem written by the Persian poet Ferdowsi around 1010 CE. It is one of the most important works of Persian literature and tells the mythical and historical past of Persia from the creation of the world until the Islamic conquest in the 7th century."""@en ;
     rdfs:label "Shahnameh"@en , "شاهنامه"@fa .
 
+mdhn:Garshaspnameh a mdhn:NarrativeEpisode ;
+    mdhn:aatConcept mdhn:aat300404209 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q6391136" ;
+    mdhn:charactersInvolved mdhn:Garshasp;
+    mdhn:isPartOf  mdhn:Legend_Religion_Mythology ;
+    rdfs:comment "Story of the last Shah of the Pishdadian dynasty of Persia according to Shahnameh"@en ;
+    rdfs:label "Garshaspnameh"@en , "گرشاسب نامه"@fa . 
 
+mdhn:Story_of_Shuaib a mdhn:NarrativeEpisode ;
+    rdfs:label "Story of Shuaib"@en , "داستان شعيب"@fa , "Shuʿayb"@ar ;
+    rdfs:comment """Prophet sent to the people of Midian (Madyan) and the Companions of the Wood (Aṣḥāb al-Aykah). 
+    Known in Islamic tradition as the 'Orator of the Prophets'. 
+    Widely identified with the Biblical Jethro (father-in-law of Moses), though some traditions distinguish them. 
+    His message focused on monotheism and fair dealing in weights and measures."""@en ;    
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q982867" ;    
+    mdhn:charactersInvolved mdhn:Shuayb, mdhn:Moses , mdhn:Zipporah ;
+    mdhn:isPartOf  mdhn:Biblical_Stories, mdhn:Islamic_Stories ;    
+    skos:relatedMatch mdhn:iconclass71E1 ;          # story of Moses
+    skos:broadMatch   mdhn:iconclass71E1 ;
+    skos:relatedMatch mdhn:iconclass71E_Midian ;    # limited-scope extension (see below)    
+    skos:relatedMatch wd:Q982867 ;
+    skos:relatedMatch wd:Q47680 .                   # Jethro (Biblical figure) – if you want the cross-tradition link
+
+mdhn:Cain_and_Abel a mdhn:NarrativeEpisode ;
+    rdfs:label "Story of Cain and Abel"@en ,
+               "قابیل و هابیل"@fa ,
+               "Cain and Abel"@ar ;
+    rdfs:comment """The story of the first two sons of Adam and Eve. 
+    Cain (farmer) and Abel (shepherd) offer sacrifices; God accepts Abel’s offering. 
+    Cain kills Abel out of jealousy — the first murder in Biblical and Quranic tradition. 
+    Widely illustrated in Persian Qisas al-Anbiya manuscripts and related prophetic cycles."""@en ;    
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q717996" ;
+    mdhn:charactersInvolved mdhn:Cain , mdhn:Abel , mdhn:Adam , mdhn:Eve ;
+    mdhn:isPartOf mdhn:Biblical_Stories, mdhn:Islamic_Stories, mdhn:Qisas_al_Anbiya ;               
+    skos:exactMatch   mdhn:iconclass71A8 ;        # the story of Cain and Abel
+    skos:closeMatch   mdhn:iconclass71A8 ;
+    skos:relatedMatch mdhn:iconclass71A81 ;       # the sacrifice
+    skos:relatedMatch mdhn:iconclass71A82 ;       # the killing of Abel
+    skos:relatedMatch mdhn:iconclass71A83 ;       # the curse and flight of Cain
+    skos:relatedMatch wd:Q717996 .    
 
 mdhn:Qisas_al_Anbiya a mdhn:NarrativeEpisode ;
     mdhn:aatConcept mdhn:aat300404209 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1087563" ;
+    mdhn:isPartOf  mdhn:Islamic_Stories ;
     rdfs:comment """The Qiṣaṣ al-anbiyā (Arabic: قِصَص الْأَنـۢبِيَاء, lit. 'Stories of the Prophets') is any of various collections of stories about figures recognised as prophets and messengers in Islam, closely related to tafsīr (exegesis of the Qur'an)."""@en ;
     rdfs:label "Qisas al-Anbiya"@en , "قِصَص الْأَنـۢبِيَاء"@fa .    
 
@@ -32,9 +74,15 @@ mdhn:Khamsa_of_Nizami a mdhn:NarrativeEpisode ;
     mdhn:aatConcept mdhn:aat300404746 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3196058" ;
     dcterms:created "c. 1010" ;
+    mdhn:isPartOf  mdhn:Legend_Religion_Mythology ;
     rdfs:comment """The Khamsa (Persian: خمسه, 'Quintet' or 'Quinary', from Arabic) or Panj Ganj (Persian: پنج گنج, 'Five Treasures') is the main and best known work of Nizami Ganjavi. """@en ;
     rdfs:label "Khamsa_of_Nizami"@en , "خمسه نظامی"@fa .   
 
+mdhn:Shah_and_Darvish a mdhn:NarrativeEpisode ;
+   rdfs:label "Shah and Darvish"@en, "منظومه شاه و درويش"@fa;
+   mdhn:isPartOf  mdhn:Legend_Religion_Mythology ;
+   mdhn:icWikiDataURL "" .
+   
 mdhn:Makhzan_al_Asrar a mdhn:NarrativeEpisode ;
    rdfs:label "Makhzan al-Asrar"@en, "مخزن الاسرار"@fa;
    mdhn:isPartOf mdhn:Khamsa_of_Nizami ;
@@ -165,6 +213,7 @@ mdhn:Marriage_of_Layli a mdhn:NarrativeEpisode ;
 
 mdhn:Haft_Awrang a mdhn:NarrativeEpisode ;
     mdhn:aatConcept mdhn:aat300404746 ;
+    mdhn:isPartOf  mdhn:Legend_Religion_Mythology ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5638440" ;
     dcterms:created "c. 1010" ;
     rdfs:comment """The Haft Awrang, or Seven Thrones, is a collection of seven masnavi (long narrative poems) written by the Persian poet Nizami Ganjavi around 1010 CE. It is one of the most important works of Persian literature and tells various romantic and heroic stories."""@en ;
@@ -176,6 +225,8 @@ mdhn:Yusuf_and_Zulaikha a mdhn:NarrativeEpisode ;
    rdfs:comment "romantic story" ;
    mdhn:charactersInvolved mdhn:Yusuf, mdhn:Zulaikha;
    mdhn:isPartOf mdhn:Haft_Awrang ;
+   skos:closeMatch mdhn:iconclass71D ;          # story of Joseph
+   skos:relatedMatch mdhn:iconclass71D2 ;   
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3350827" . 
 
 mdhn:Zulaikha_invites_the_egyptian_women a mdhn:NarrativeEpisode ;
@@ -216,11 +267,14 @@ mdhn:Salaman_and_Absal a mdhn:NarrativeEpisode ;
 mdhn:Solomon_and_Queen_of_Sheba a mdhn:NarrativeEpisode ;
    rdfs:label "Solomon and Queen of Sheba"@en, "بارگاه سليمان و ملکه سبا"@fa;
    rdfs:comment "Mythical story" ;
+   skos:closeMatch iconclass:71I;
+   mdhn:isPartOf  mdhn:Biblical_Stories, mdhn:Islamic_Stories ;
    mdhn:charactersInvolved mdhn:Solomon, mdhn:Queen_of_Sheba;
    mdhn:icWikiDataURL "" .    
 
 mdhn:Safavid_Iran a mdhn:NarrativeEpisode ;
    rdfs:label "Safavid Iran"@en, "سلسله صفوی"@fa;
+   mdhn:isPartOf  mdhn:Legend_Religion_Mythology ;
    mdhn:charactersInvolved mdhn:Safiad_din_Ardabili, mdhn:Ismail_Safavid_I, mdhn:Tahmasp_Safavid_I, mdhn:Ismail_Safavid_II , mdhn:Abbas_the_Great;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q18234383" .           
 
@@ -242,6 +296,13 @@ mdhn:Abbas_the_Great_Safavid_Enthroned a mdhn:NarrativeEpisode ;
     mdhn:isPartOf mdhn:Safavid_Iran ;  
     mdhn:icWikiDataURL "" .      
 
+
+mdhn:Kingdom_of_Lohrasb a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom of Lohrasb"@en, "پادشاهی لهراسب"@fa;
+   rdfs:comment "a mythical kingdom ruled by Lohrasb in Persian mythology" ;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:charactersInvolved mdhn:Kay_Lohrasp;
+   mdhn:icWikiDataURL "" .
 mdhn:Kingdom_of_Keyumars a mdhn:NarrativeEpisode ;
    rdfs:label "Kingdom of Keyumars"@en, "پادشاهی کيومرث"@fa;
    rdfs:comment "a mythical kingdom ruled by Keyumars in Persian mythology" ;
@@ -310,13 +371,13 @@ mdhn:Kingdom_of_Kay_Qubad a mdhn:NarrativeEpisode ;
    mdhn:icWikiDataURL "" . 
 
 mdhn:First_Battle_Of_Rostam_and_Afrasiab a mdhn:NarrativeEpisode;
-   rdfs:label "Funeral of Isfandiyar"@en, "نبرد اول رستم و افراسياب"@fa;
+   rdfs:label "First Battle Of Rostam and Afrasiab"@en, "نبرد اول رستم و افراسياب"@fa;
    mdhn:isPartOf  mdhn:RostamStory , mdhn:Kingdom_of_Kay_Qubad ;
    mdhn:characterInvolved mdhn:Esfandiyar;
    mdhn:icWikiDataURL "" . 
 
 mdhn:Battle_Of_Rostam_and_Afrasiab a mdhn:NarrativeEpisode;
-   rdfs:label "Funeral of Isfandiyar"@en, "نبرد رستم و افراسياب"@fa;
+   rdfs:label "Second Battle Of Rostam and Afrasiab"@en, "نبرد رستم و افراسياب"@fa;
    mdhn:isPartOf  mdhn:RostamStory , mdhn:Kingdom_of_Kay_Qubad ;
    mdhn:characterInvolved mdhn:Esfandiyar;
    mdhn:icWikiDataURL "" .       
@@ -331,8 +392,6 @@ mdhn:KayKavus_Encounters_Arzhang_Div_In_Mazandaran a mdhn:NarrativeEpisode ;
    mdhn:isPartOf mdhn:Kingdom_of_Kay_Kavus ;
    mdhn:charactersInvolved  mdhn:Kay_Kavus, mdhn:Arzhang_Div ;
    mdhn:icWikiDataURL "" .    
-
-
 
 mdhn:Rustam_Slays_White_Elephant a mdhn:NarrativeEpisode ;
    rdfs:label "Rustam Slays White Elephant"@en, "کشتن فيل سپيد"@fa;
@@ -391,13 +450,13 @@ mdhn:Rostams_Seventh_Labour a mdhn:NarrativeEpisode ;
 
 mdhn:Accusation_Against_Siyavush a mdhn:NarrativeEpisode;
    rdfs:label "Accusation Against Siyavush"@en, "تهمت خيانت به سياوش"@fa;
-   mdhn:isPartOf  mdhn:Kingdom_of_Kay_Kavus ;
+   mdhn:isPartOf  mdhn:Kingdom_of_Kay_Kavus, mdhn:Siyavash_Story ;
    mdhn:characterInvolved mdhn:Siyavash , mdhn:Sudabeh;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140366903" . 
 
 mdhn:The_Fire_Trial_of_Siyavush a mdhn:NarrativeEpisode;
    rdfs:label "The Fire Trial of Siyavush"@en, "سياوش در آتش"@fa;
-   mdhn:isPartOf  mdhn:Siyavash_Story ;
+   mdhn:isPartOf  mdhn:Kingdom_of_Kay_Kavus, mdhn:Siyavash_Story;
    mdhn:characterInvolved mdhn:Siyavash;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140366887" .  
 
@@ -420,18 +479,234 @@ mdhn:Mourning_of_Siyavash a mdhn:NarrativeEpisode;
    mdhn:characterInvolved mdhn:Siyavash;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5963952" .    
 
+mdhn:Siyavash_Story a mdhn:NarrativeEpisode;
+   rdfs:label "Siyavash Story"@en, "داستان سياوش"@fa;
+   mdhn:isPartOf  mdhn:Shahnameh ;
+   mdhn:characterInvolved mdhn:Siyavash;
+   mdhn:icWikiDataURL "" .     
+
  
 mdhn:Hushang_In_Feast_Of_Sada a mdhn:NarrativeEpisode;
    rdfs:label "The Feast of Sada"@en, "جشن سده"@fa;
    mdhn:isPartOf mdhn:Kingdom_of_Hushang ;
    mdhn:characterInvolved mdhn:Hushang;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138757360" . 
+
+
+mdhn:Legend_Religion_Mythology a mdhn:NarrativeEpisode;
+   rdfs:label "Legend, Religion, Mythology"@en, "افسانه، دین، اسطوره"@fa;
+   mdhn:icWikiDataURL "" . 
+
+mdhn:Biblical_Stories a mdhn:NarrativeEpisode;
+   rdfs:label "Biblical Stories"@en, "داستانهای کتاب مقدس"@fa;
+   mdhn:isPartOf  mdhn:Legend_Religion_Mythology ;
+   skos:closeMatch iconclass:7;
+   mdhn:icWikiDataURL "" . 
+
+mdhn:Islamic_Stories a mdhn:NarrativeEpisode;
+   rdfs:label "Islamic Stories"@en, "داستانهای اسلامی"@fa;
+   mdhn:isPartOf  mdhn:Legend_Religion_Mythology ;
+   mdhn:icWikiDataURL "" .
+
+mdhn:Story_of_Moses a mdhn:NarrativeEpisode ;
+   rdfs:label "Story of Moses"@en, "داستان موسی پيامبر"@fa;
+   mdhn:charactersInvolved mdhn:Moses;
+   mdhn:isPartOf  mdhn:Biblical_Stories ;
+   mdhn:icWikiDataURL "" .  
+
+mdhn:Staff_becomes_Serpent a mdhn:NarrativeEpisode ;
+    rdfs:label "Aaron’s staff becomes a serpent before Pharaoh"@en ,
+               "عصای هارون به اژدها / مار تبدیل می‌شود"@fa ,
+               "Moses’ staff becomes a snake"@en ;    
+    rdfs:comment """When Moses and Aaron appear before Pharaoh, Aaron casts down his staff 
+    and it becomes a serpent (or tannīn / sea-monster / dragon in some traditions and translations). 
+    The Egyptian magicians perform the same feat with their staffs, but Aaron’s serpent 
+    swallows theirs (Exodus 7:8–12). 
+    The scene is a key demonstration of divine power over Egyptian magic and appears 
+    in both Biblical and Islamic prophetic cycles."""@en ;    
+    mdhn:icWikiDataURL "" ;    
+    mdhn:charactersInvolved mdhn:Moses ,
+                            mdhn:Harun ,
+                            mdhn:Pharaoh ;    
+    mdhn:isPartOf mdhn:Biblical_Stories, mdhn:Story_of_Moses, mdhn:Qisas_al_Anbiya;
+    skos:exactMatch   mdhn:iconclass71E1164 ;
+    skos:relatedMatch mdhn:iconclass71E11641 ;
+    skos:relatedMatch wd:Q9077 .                  # Moses    
+
+mdhn:Moses_and_the_Seventy_Elders a mdhn:NarrativeEpisode ;
+    rdfs:label "Moses and the Seventy Elders hearing the voice of God"@en ,
+               "موسی و هفتاد عالم در حال شنیدن ندای خداوند"@fa ;
+    
+    rdfs:comment """Scene in which Moses (Musa), accompanied by seventy elders (or learned men), 
+    hears the voice of God speaking from the clouds. Moses is typically shown elevated on a rock 
+    or mountain, often wearing a prophetic veil, while the seventy lie prostrate below him. 
+    Mountains form the background. 
+    The episode appears in both Biblical tradition (Exodus 24 and Numbers 11) and Islamic 
+    narrative sources, and is notably illustrated in the Jāmiʿ al-Tawārīkh of Rashīd al-Dīn."""@en ;    
+    mdhn:icWikiDataURL "" ;   # no direct Wikidata item for this specific episode    
+    mdhn:charactersInvolved mdhn:Moses ;
+    mdhn:isPartOf mdhn:Story_of_Moses, mdhn:Qisas_al_Anbiya ;          # or a more specific Moses cycle if you create one    
+    skos:exactMatch   mdhn:iconclass71E1_MosesSeventyElders ;
+    skos:relatedMatch mdhn:iconclass71E1 ;
+    skos:relatedMatch wd:Q9077 .  
+
+mdhn:Finding_of_Moses a mdhn:NarrativeEpisode ;
+    rdfs:label "Finding of Moses"@en ,
+               "یافتن موسی در رود نیل"@fa ,
+               "The Finding of Moses / Moses in the Bulrushes"@en ;    
+    rdfs:comment """The infant Moses is discovered floating in a basket on the River Nile 
+    by women of the Egyptian royal household. Pharaoh had ordered the killing of newborn 
+    Hebrew boys. Moses’ mother placed him in the river; he was rescued and adopted by 
+    Pharaoh’s daughter (often identified as Queen Bithia / Bithiah), shown with long dark 
+    hair. One of the accompanying women, of lighter complexion, is usually the Israelite 
+    nurse (Moses’ own mother or sister). 
+    The scene is common in both Biblical and Islamic manuscript traditions."""@en ;    
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q19897958" ;  # or leave empty if preferred    
+    mdhn:charactersInvolved mdhn:Moses ,
+                            mdhn:Pharaohs_Daughter ;   # create later if needed    
+    mdhn:isPartOf mdhn:Story_of_Moses, mdhn:Qisas_al_Anbiya;
+    skos:exactMatch   mdhn:iconclass71E1124 ;
+    skos:relatedMatch mdhn:iconclass71E1 ;
+    skos:relatedMatch wd:Q9077 .   
+
+mdhn:Jonah_under_the_Gourd a mdhn:NarrativeEpisode ;
+    rdfs:label "Jonah under the Gourd Plant"@en ,
+               "یونس در دهان ماهی زیر بوته کدو"@fa ,
+               "Yunus and the Gourd"@en ;    
+    rdfs:comment """After being cast up by the great fish (whale), the prophet Jonah (Yunus) 
+    lies in the shade of a gourd plant that God caused to grow overnight to provide him with 
+    food and shelter (Jonah 4:6). 
+    The reclining pose of Jonah under the plant is a motif already present in early Christian art. 
+    In many manuscript traditions the whale is depicted as a large fish, reflecting limited 
+    knowledge of the actual creature. 
+    The scene is part of both Biblical and Islamic prophetic cycles."""@en ;    
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q2468262" ;   # no single stable Wikidata item for this specific episode    
+    mdhn:charactersInvolved mdhn:Jonah ;    
+    mdhn:isPartOf mdhn:Biblical_Stories, mdhn:Qisas_al_Anbiya;
+    skos:exactMatch   mdhn:iconclass71V42 ;
+    skos:relatedMatch mdhn:iconclass71V ;
+    skos:relatedMatch wd:Q2468262 .                  # Jonah        
+
+mdhn:Story_of_Ibrahim a mdhn:NarrativeEpisode ;
+   rdfs:label "Story of Ibrahim"@en, "داستان ابراهيم"@fa;
+   mdhn:charactersInvolved mdhn:Ibrahim;
+   mdhn:isPartOf  mdhn:Biblical_Stories ;
+   mdhn:icWikiDataURL "" . 
+
+mdhn:Story_of_Jeremiah a mdhn:NarrativeEpisode ;
+   rdfs:label "Story of Jeremiah"@en, "داستان ارميا"@fa;
+   mdhn:charactersInvolved mdhn:Jeremiah;
+   mdhn:isPartOf  mdhn:Biblical_Stories ;
+   mdhn:icWikiDataURL "" .  
+
+
+mdhn:Story_of_Seven_sleepers_of_Ephesus a mdhn:NarrativeEpisode ;
+    rdfs:label "Seven Sleepers of Ephesus"@en ,
+               "اصحاب کهف"@fa ,
+               "Aṣḥāb al-Kahf"@ar ,
+               "Seven Sleepers"@en ;    
+    rdfs:comment """Christian and Islamic legend of seven (or more) young believers 
+    who fled the persecution of the Roman emperor Decius (Digyanus) and were walled up 
+    in a cave where they fell into a miraculous sleep. 
+    They awoke during the reign of Theodosius II (c. AD 450). 
+    In the Qur’an (Sūrat al-Kahf 18:9–26) they are praised for their faith; 
+    the period of their sleep is given as 309 years. 
+    Muslim tradition sometimes locates the cave in Toyug (Central Asia) rather than Ephesus. 
+    The scene is frequently illustrated in both Christian and Islamic manuscript painting."""@en ;
+    mdhn:saidToBeTheSameAs wd:Q4071833;    
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q466973" ;      
+    mdhn:isPartOf mdhn:Biblical_Stories, mdhn:Islamic_Stories ;
+    skos:exactMatch   mdhn:iconclass11H_SevenSleepers ;
+    skos:relatedMatch mdhn:iconclass_Ashab_al_Kahf ;
+    skos:relatedMatch wd:Q466973 .
+
+mdhn:Jurjis_led_to_the_King_of_Mosul a mdhn:NarrativeEpisode ;
+    rdfs:label "Jurjis led to the King of Mosul"@en ,
+               "جرجیس در حال برده‌شدن به نزد پادشاه موصل"@fa ,
+               "Jirjis before the King of Mosul"@en ;    
+    rdfs:comment """The Prophet Jurjis (Jirjis / Saint George in Islamic tradition) 
+    is shown with a chain around his neck, being led to the King of Mosul for refusing 
+    to worship idols. According to Islamic sources, his steadfast faith caused him to be 
+    miraculously protected from the successive tortures that followed. 
+    The episode forms part of the Islamic prophetic cycle and is illustrated in the 
+    Jāmiʿ al-Tawārīkh of Rashīd al-Dīn."""@en ;    
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q48438" ;  # Saint George (closest stable identity)    
+    mdhn:charactersInvolved mdhn:Saint_George ;    
+    mdhn:isPartOf mdhn:Biblical_Stories, mdhn:Islamic_Stories ;
+    skos:exactMatch   mdhn:iconclass_Jurjis_led_to_King ;
+    skos:relatedMatch mdhn:iconclass11H_George ;
+    skos:relatedMatch wd:Q48438 .    
+
+
+mdhn:Birth_of_the_Prophet_Muhammad a mdhn:NarrativeEpisode ;
+    rdfs:label "Birth of the Prophet Muhammad"@en ,
+               "تولد پیامبر محمد"@fa ,
+               "Mawlid al-Nabī"@ar ;    
+    rdfs:comment """The birth of the Prophet Muhammad. 
+    The mother (Āmina) is shown reclining on a couch in the centre of the scene, 
+    while the newborn child is handed to one of two angels who have witnessed the event 
+    (visible on the left of the composition). 
+    This visual formula appears in the Jāmiʿ al-Tawārīkh of Rashīd al-Dīn and later 
+    prophetic cycles; it adapts compositional elements familiar from Christian nativity 
+    iconography while remaining within the Islamic narrative tradition."""@en ;    
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q9458" ;  # Muhammad (person)    
+    mdhn:charactersInvolved mdhn:Muhammad ,mdhn:Aminah ;    
+    mdhn:isPartOf mdhn:Islamic_Stories ;    
+    skos:exactMatch   mdhn:iconclass_Birth_of_Muhammad ;
+    skos:relatedMatch wd:Q9458 .    
+
+mdhn:Story_of_David a mdhn:NarrativeEpisode ;
+   rdfs:label "Story of David"@en, "داستان داوود نبی"@fa;
+   mdhn:charactersInvolved mdhn:David;
+   skos:closeMatch iconclass:71H;
+   mdhn:isPartOf  mdhn:Biblical_Stories ;
+   mdhn:icWikiDataURL "" .     
+
+mdhn:Story_of_Joshua a mdhn:NarrativeEpisode ;
+   rdfs:label "Story of Joshua"@en, "داستان يوشع"@fa;
+   mdhn:charactersInvolved mdhn:Joshua;
+   mdhn:isPartOf  mdhn:Biblical_Stories ;
+   mdhn:icWikiDataURL "" .    
+
+
+
+mdhn:A_man_who_questioned_how_God_bring_a_ruined_city_back a mdhn:NarrativeEpisode ;
+   rdfs:label "A man who questioned how God bring a ruined city back"@en, "مردی که در مورد قدرت خداوند در احيا ترديد کرد"@fa;
+   mdhn:charactersInvolved mdhn:Jeremiah;
+   mdhn:isPartOf  mdhn:Story_of_Jeremiah ;
+   mdhn:icWikiDataURL "" . 
+
+mdhn:Ibrahim_being_catapulted_into_a_fire a mdhn:NarrativeEpisode ;
+   rdfs:label "Ibrahim being catapulted into a fire"@en, "ابراهيم پيامبر در آتش"@fa;
+   mdhn:charactersInvolved mdhn:Ibrahim;
+   mdhn:isPartOf  mdhn:Story_of_Ibrahim ;
+   mdhn:icWikiDataURL "" .         
+
+mdhn:Qarun_swallowed_by_the_earth a mdhn:NarrativeEpisode ;
+   rdfs:label "Qarun swallowed by the earth"@en, "غرق شدن قارون در زمين"@fa;
+   mdhn:charactersInvolved mdhn:Moses, mdhn:Qarun;
+   mdhn:isPartOf  mdhn:Story_of_Moses ;
+   mdhn:icWikiDataURL "" .         
+
+mdhn:Egyptians_Drown_in_the_Red_Sea a mdhn:NarrativeEpisode ;
+   rdfs:label "Egyption Drown in the Red Sea"@en, "غرق شدن لشگر فرعون در نيل"@fa;
+   mdhn:charactersInvolved mdhn:Moses;
+   mdhn:isPartOf  mdhn:Story_of_Moses ;
+   mdhn:icWikiDataURL "" .    
+   
+
+mdhn:Story_of_Samson a mdhn:NarrativeEpisode ;
+   rdfs:label "Story of Samson"@en, "داستان سامسون"@fa;
+   mdhn:charactersInvolved mdhn:Samson, mdhn:Delilah;
+   mdhn:isPartOf  mdhn:Biblical_Stories ;
+   mdhn:icWikiDataURL "" .            
         
 
 mdhn:Kingdom_of_Zu_Tahmasb a mdhn:NarrativeEpisode ;
    rdfs:label "Kingdom of Zu Tahmasb"@en, "پادشاهی زو طهماسب"@fa;
    rdfs:comment "a mythical kingdom ruled by Zu Tahmasb in Persian mythology" ;
    mdhn:charactersInvolved  mdhn:Zu_Tahmasb;
+   mdhn:isPartOf mdhn:Shahnameh ;
    mdhn:icWikiDataURL "" .   
 
 mdhn:KingdomOfTahmuras a mdhn:NarrativeEpisode;
@@ -545,14 +820,23 @@ mdhn:Battle_Between_Rostam_and_AkvanDiv a mdhn:NarrativeEpisode;
    mdhn:icWikiDataURL "" .  
    
 mdhn:Kingdom_of_Manuchehr a mdhn:NarrativeEpisode ;
-   rdfs:label "Kingdom of Fereydun"@en, "پادشاهی منوچهر"@fa;
+   rdfs:label "Kingdom of Manuchehr"@en, "پادشاهی منوچهر"@fa;
    mdhn:isPartOf mdhn:Shahnameh ;
    rdfs:comment "a mythical kingdom ruled by Manuchehr in Persian mythology" ;
    mdhn:charactersInvolved  mdhn:Manuchehr;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .
 
+mdhn:KingdomOfFaridun a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom of Fereydun"@en, "پادشاهی فريدون"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   rdfs:comment "a mythical kingdom ruled by Fereydun in Persian mythology" ;
+   mdhn:charactersInvolved  mdhn:Fereydun;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .   
+
+   
+
 mdhn:Kingdom_of_KayKhosrow a mdhn:NarrativeEpisode ;
-   rdfs:label "Kingdom of Fereydun"@en, "پادشاهی کيخسرو"@fa;
+   rdfs:label "Kingdom of KayKhosrow"@en, "پادشاهی کيخسرو"@fa;
    mdhn:isPartOf mdhn:Shahnameh ;
    rdfs:comment "a mythical kingdom ruled by KayKhosrow in Persian mythology" ;
    mdhn:charactersInvolved  mdhn:KayKhosrow;

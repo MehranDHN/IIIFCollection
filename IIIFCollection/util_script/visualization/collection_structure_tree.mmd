@@ -150,8 +150,8 @@ flowchart TB
   class ArabicManuscriptCollection collection;
   ChristianManuscriptCollection["Christian Manuscript Collection (0 collections, 1 manifests)"]
   class ChristianManuscriptCollection collection;
-  DepartedDrawingCollection["Drawing Collection (2 collections, 391 manifests)"]
-  class DepartedDrawingCollection collection;
+  DepartedFolioCollection["Drawing Collection (2 collections, 391 manifests)"]
+  class DepartedFolioCollection collection;
   FalnamaCollection["Falnama (0 collections, 4 manifests)"]
   class FalnamaCollection collection;
   MiscLouisHagheCollection["Louis Haghe and David Roberts Collections (0 collections, 164 manifests)"]
@@ -365,9 +365,9 @@ flowchart TB
   IIIF2Collection --> ManuscriptCollection
   ManuscriptCollection --> ArabicManuscriptCollection
   ManuscriptCollection --> ChristianManuscriptCollection
-  ManuscriptCollection --> DepartedDrawingCollection
-  DepartedDrawingCollection --> FalnamaCollection
-  DepartedDrawingCollection --> MiscLouisHagheCollection
+  ManuscriptCollection --> DepartedFolioCollection
+  DepartedFolioCollection --> FalnamaCollection
+  DepartedFolioCollection --> MiscLouisHagheCollection
   ManuscriptCollection --> MuraqqaCollection
   ManuscriptCollection --> PersianManuscriptCollection
   PersianManuscriptCollection --> AbdarRahmanJamiCollection

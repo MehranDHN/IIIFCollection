@@ -15,6 +15,8 @@
 @prefix tgn: <http://vocab.getty.edu/tgn/> .
 @prefix wd: <https://www.wikidata.org/wiki/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix iconclass: <https://iconclass.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 mdhn:IIIFDexirOntology a owl:Ontology ;
     rdfs:label "IIIFDexir Project Ontology"@en ;
@@ -27,6 +29,10 @@ mdhn:ResourceCollection a owl:Class ;
 mdhn:ResourceCollection owl:disjointWith mdhn:DigitalResource ,
                                          mdhn:ResourceCanvas ,
                                          mdhn:DepartedCollection .
+
+iconclass: a skos:ConceptScheme ;
+    rdfs:label "Iconclass"@en ;
+    skos:notation "Iconclass" .                                         
 
 mdhn:DigitalResource a owl:Class ;
     rdfs:comment "A IIIF manifest representing a digital resource such as a book, photograph, or video." ;
@@ -128,6 +134,31 @@ mdhn:DepartedCollection a owl:Class ;
 mdhn:Iconography a owl:Class ;
     rdfs:comment "Root class of Iconography" ;
     rdfs:label "Iconography" .  
+
+#################################################################
+# Iconclass integration
+#################################################################
+
+mdhn:IconclassTerm a owl:Class ;
+    rdfs:label "Iconclass Term"@en , "اصطلاح آیکون‌کلس"@fa ;
+    rdfs:comment "Local subset of Iconclass notations used in IIIFDexir. Dual inheritance: acts both as an authoritative SubjectSource and as an Iconography concept (especially for Biblical / Quranic / shared narrative subjects)."@en ;
+    rdfs:subClassOf mdhn:SubjectSource , mdhn:Iconography .
+
+# Optional: keep it disjoint from the pure AAT / TGM / LCSH branches
+mdhn:IconclassTerm owl:disjointWith mdhn:AATTerm , mdhn:LCTGMSubject , mdhn:LCSHSubject .
+
+mdhn:hasIconclassBroader a owl:ObjectProperty ;
+    rdfs:label "has Iconclass broader"@en ;
+    rdfs:comment "Local hierarchical link parallel to mdhn:hasAATBroader. Used inside iconclass_hierarchy.ttl."@en ;
+    rdfs:domain mdhn:IconclassTerm ;
+    rdfs:range mdhn:IconclassTerm .
+
+mdhn:iconclassNotation a owl:DatatypeProperty ;
+    rdfs:label "Iconclass notation"@en ;
+    rdfs:domain mdhn:IconclassTerm ;
+    rdfs:range xsd:string ;
+    rdfs:comment "The official alphanumeric Iconclass notation (e.g. '71A8')."@en .
+         
 
 mdhn:BattleSignAndEquipment a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
@@ -1233,7 +1264,7 @@ mdhn:lcTGMURI a owl:DatatypeProperty ;
     rdfs:label "lcTGMURI" ;
     rdfs:range xsd:string .
 
-mdhn:hasTGNPlace a owl:ObjectProperty ;
+mdhn:hasTGNPlace a owl:ObjectProperty , owl:TransitiveProperty;
     rdfs:comment "TGN entry associate the resource to Getty TGN" ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "hasTGNPlace" ;
@@ -1502,13 +1533,19 @@ fhkb:hasRelation a owl:ObjectProperty,
     rdfs:domain fhkb:Person ;
     rdfs:range fhkb:Person .
 
-fhkb:isStudentOf a owl:ObjectProperty;
+fhkb:isStudentOf a owl:ObjectProperty, owl:AsymmetricProperty;
     rdfs:label "isStudentOf"@en;
     rdfs:subPropertyOf fhkb:hasRelation ;
     rdfs:domain fhkb:Person ;
     rdfs:range fhkb:Person .
 
-fhkb:isInfluencedBy a owl:ObjectProperty;
+fhkb:hasSimilarInterestWith a owl:ObjectProperty , owl:SymmetricProperty;
+    rdfs:label "hasSimilarInterestWith"@en;
+    rdfs:subPropertyOf fhkb:hasRelation ;
+    rdfs:domain fhkb:Person ;
+    rdfs:range fhkb:Person .    
+
+fhkb:isInfluencedBy a owl:ObjectProperty, owl:AsymmetricProperty;
     rdfs:label "isInfluencedBy"@en;
     rdfs:subPropertyOf fhkb:hasRelation ;
     rdfs:domain fhkb:Person ;
