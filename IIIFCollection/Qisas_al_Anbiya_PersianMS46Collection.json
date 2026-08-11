@@ -1,0 +1,769 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/Qisas_al_Anbiya_PersianMS46Collection.json",
+    "@type": "sc:Collection",
+    "label": "Qisas al-Anbiya Persian MS. 46",
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 70 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "summary": {
+        "en": [
+            "Qisas al-Anbiyâ Persian MS. 46. Inscriptions at the beginning and end of the manuscript include several 18th- and 19th century dates, but they tell nothing about the provenance of the manuscript (Schmitz, p. 119)"
+        ]
+    },
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://iiif.nypl.org/iiif/3/psnypl_spn_617/full/!760,760/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 761,
+            "width": 491,
+            "service": [
+                {
+                    "id": "https://iiif.nypl.org/iiif/3/psnypl_spn_617",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 761,
+                    "width": 491,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/QisasalAnbiyaCollection.json",
+    "manifests": [
+        {
+            "id": "https://api-collections.nypl.org/manifests/4811c890-c6cc-012f-2fbf-3c075448cc4b",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Front cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Front cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Ahmad ibn Ibrahim al-Nisaburi",
+                            "WD:Q5948230"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Ahmad_ibn_Ibrahim_al_Nisaburi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Spencer"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:300417741"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "2"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "NYPL"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "4811c890-c6cc-012f-2fbf-3c075448cc4b"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000246"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1850 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "IsCover"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://api-collections.nypl.org/manifests/50259630-ee77-0135-99a4-02db82756222",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Inside front cover"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Inside front cover"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Ahmad ibn Ibrahim al-Nisaburi",
+                            "WD:Q5948230"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Ahmad_ibn_Ibrahim_al_Nisaburi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Spencer"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:300417741"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "NYPL"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "50259630-ee77-0135-99a4-02db82756222"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000246"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1850 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "IsCover"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://api-collections.nypl.org/manifests/4f781c50-c6cc-012f-7bda-3c075448cc4b",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "An unidentified prophet surrounded by members of his entourage"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "An unidentified prophet surrounded by members of his entourage"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.1v-2r"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Ahmad ibn Ibrahim al-Nisaburi",
+                            "WD:Q5948230"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Ahmad_ibn_Ibrahim_al_Nisaburi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Spencer"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:300189604",
+                            "aat:500181050",
+                            "aat:300079783",
+                            "aat:500011064",
+                            "aat:500011067"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "NYPL"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "4f781c50-c6cc-012f-7bda-3c075448cc4b"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000246"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1850 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasPainting",
+                            "HasIlluminated",
+                            "HasHalkari"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://api-collections.nypl.org/manifests/4f781c50-c6cc-012f-7bda-3c075448cc4b",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Shamse (right)"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Shamse (right)"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.2v"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Ahmad ibn Ibrahim al-Nisaburi",
+                            "WD:Q5948230"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Ahmad_ibn_Ibrahim_al_Nisaburi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Spencer"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:300189604",
+                            "aat:500181050",
+                            "aat:500011067",
+                            "aat:300009972",
+                            "aat:500011066"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "NYPL"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "4f781c50-c6cc-012f-7bda-3c075448cc4b"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000246"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1850 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasIlluminated",
+                            "HasShamse"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://api-collections.nypl.org/manifests/77c76530-e50d-0135-b729-0493c2472bc5",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Shamse (left)"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Shamse (left)"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.3r"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Ahmad ibn Ibrahim al-Nisaburi",
+                            "WD:Q5948230"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Ahmad_ibn_Ibrahim_al_Nisaburi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Spencer"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:300189604",
+                            "aat:500181050",
+                            "aat:500011067",
+                            "aat:300009972",
+                            "aat:500011066"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "NYPL"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "77c76530-e50d-0135-b729-0493c2472bc5"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000246"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1850 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasIlluminated",
+                            "HasShamse"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
