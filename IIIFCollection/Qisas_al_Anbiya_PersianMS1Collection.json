@@ -1,0 +1,256 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/Qisas_al_Anbiya_PersianMS46Collection.json",
+    "@type": "sc:Collection",
+    "label": "Qisas al-Anbiya Persian MS. 1",
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 70 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "summary": {
+        "en": [
+            "Qisas al-Anbiyâ Persian MS. 1. Inscriptions at the beginning and end of the manuscript include several 18th- and 19th century dates, but they tell nothing about the provenance of the manuscript (Schmitz, p. 119)"
+        ]
+    },
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://iiif.nypl.org/iiif/3/psnypl_spn_617/full/!760,760/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 761,
+            "width": 491,
+            "service": [
+                {
+                    "id": "https://iiif.nypl.org/iiif/3/psnypl_spn_617",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 761,
+                    "width": 491,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/QisasalAnbiyaCollection.json",
+    "manifests": [
+        {
+            "id": "https://api-collections.nypl.org/manifests/eccbcfb0-c6b7-012f-f56c-58d385a7bc34",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "The Semitic prophet Sâlîh leads a camel from the side of a mountain"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "The Semitic prophet Sâlîh leads a camel from the side of a mountain"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "f.19v"
+                    }
+                },                
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Ahmad ibn Ibrahim al-Nisaburi",
+                            "WD:Q5948230"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Ahmad_ibn_Ibrahim_al_Nisaburi"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Spencer"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Story_of_Salih_and_the_She_Camel",
+                            "mdhn:iconclass_Salih_SheCamel",
+                            "mdhn:Salih"
+                        ]
+                    }
+                },                
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300079783",
+                            "aat:300033936",
+                            "aat:300189604",
+                            "aat:500181050",
+                            "aat:500011000"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "NYPL"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "eccbcfb0-c6b7-012f-f56c-58d385a7bc34"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000247"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1877 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "HasPainting",
+                            "HasText",
+                            "HasHalkari"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "true",
+                            "true",
+                            "true"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
