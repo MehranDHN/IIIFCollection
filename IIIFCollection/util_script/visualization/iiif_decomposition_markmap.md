@@ -1093,6 +1093,306 @@
 
 
 
+# Shahname Shah Tahmasb
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Folio 20v The Court of Kayumars
+
+## ResourceCanvas: f.20v — The Court of Kayumars
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasPainting, HasText
+
+---
+
+## Manifest: Folio 23v Tahmuras Defeats the Divs
+
+## ResourceCanvas: f.23v — Folio 23v Tahmuras Defeats the Divs
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from f23v
+- ![ Tahmuras cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/897,1368,553,534/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Tahmuras
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from f23v
+- ![ Div1 cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/619,1583,295,369/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div2 cropped figure from f23v
+- ![ Div2 cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/428,1621,265,429/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div3 cropped figure from f23v
+- ![ Div3 cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/759,2074,222,376/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div4 cropped figure from f23v
+- ![ Div4 cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/329,2034,284,411/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Horse rider cropped figure from f23v
+- ![ Horse rider cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/1273,1023,292,602/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Riders cropped figure from f23v
+- ![ Riders cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/1360,1373,389,1033/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+---
+
+## Manifest: Folio 77v Mihrab Hears of Rudaba Folly
+
+## ResourceCanvas: f.77v — Mihrab Hears of Rudaba Folly
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Mihrab cropped figure from f77v
+- ![ Mihrab cropped figure from f77v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/843,2340,286,706/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mihrab
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Sindukht cropped figure from f77v
+- ![ Sindukht cropped figure from f77v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/1082,2416,572,499/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Sindukht
+- **Styles:** aat:500011001
+
+### mdhn:Calligraphy_Inscription: Inscription1 in Fig77v Q:2:127
+- ![ Inscription1 in Fig77v Q:2:127 ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/711,314,1077,129/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Quran
+- **Styles:** aat:300265532
+- **Persian Text:** وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ رَبَّنَا تَقَبَّلْ مِنَّا ۖ إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ
+- **English Text:** And when Abraham and Ishmael were raising the foundations of the House, they prayed, Our Lord, accept [this] from us. Indeed You are the All-Hearing, the All-Knowing.
+
+### mdhn:Calligraphy_Inscription: Inscription2 in Fig77v
+- ![ Inscription2 in Fig77v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/723,1427,1078,109/1200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Tahmasp_Safavid_I
+- **Styles:** aat:300265532
+- **Persian Text:** امر بينيان هذ العماره الرفيعه المنيعه الشريفه السلطان الاعدل الاکرم
+- **English Text:** The construction of this lofty, fortified, and noble building was ordered by the just and most generous Sultan.
+
+### mdhn:Calligraphy_Inscription: Inscription3 in Fig77v
+- ![ Inscription3 in Fig77v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/732,722,1049,155/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Tahmasp_Safavid_I
+- **Styles:** aat:300265532
+- **Persian Text:** این صفحه که هست رشک خوبان طراز آراسته پیکری‌ست بیننده نواز گویا در رحمت است کز عالم فیض بر ناظر این کتاب می‌گردد باز
+- **English Text:** This page which is the envy of the good, the graceful form of a body, the beholder seems to be in mercy, as if the world of grace is turning to the observer of this book.
+
+### mdhn:Calligraphy_Inscription: Inscription4 in Fig77v
+- ![ Inscription4 in Fig77v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/412,1922,278,245/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Tahmasp_Safavid_I
+- **Styles:** aat:300265532
+- **Persian Text:** بر درت جا کنند اهل نجات یرفع الله قدرهم درجات
+- **English Text:** May the people of salvation rest upon you, may Allah elevate their ranks.
+
+### mdhn:Calligraphy_Inscription: Inscription5 in Fig77v
+- ![ Inscription5 in Fig77v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/433,1932,222,306/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Tahmasp_Safavid_I
+- **Styles:** aat:300265532
+- **Persian Text:** يا مفتح الابواب
+- **English Text:** O Opener of Doors
+
+### mdhn:Calligraphy_Inscription: Inscription6 in Fig77v
+- ![ Inscription6 in Fig77v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/737,707,1044,177/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Tahmasp_Safavid_I
+- **Styles:** aat:300265532
+- **Persian Text:** این صفحه که شد رشک پریخانه‌ی چین مانی نکشیده صورتی بهتر از این  خطش به خط پری رخان می‌ماند کاراسته باشد به هزاران آیین
+- **English Text:** This page, which has become the envy of the Chinese fairy house, has not drawn a single line better than this, its lines resemble the lines of a flowing fairy, may it be useful for thousands of rituals.
+
+---
+
+## Manifest: Folio 299r Bizhan Slaughters the Wild Boars of Irman
+
+## ResourceCanvas: f.27v — Folio 229r Bizhan Slaughters the Wild Boars
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Bizhan cropped figure from f299r
+- ![ Bizhan cropped figure from f299r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp--299r%2FFolio299r.jpg/3828,4710,914,1208/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Bizhan
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Wild Boar cropped figure from f299r
+- ![ Wild Boar cropped figure from f299r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp--299r%2FFolio299r.jpg/2408,5028,1206,757/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Boar
+- **Styles:** aat:500011001
+
+### mdhn:Calligraphy_Inscription: Inscription1 in 299r
+- ![ Inscription1 in 299r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp--299r%2FFolio299r.jpg/2161,2068,3361,608/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Bizhan
+- **Styles:** aat:300265532
+- **Persian Text:** ز دندان همی آتش افروختند تو گفتی که گیتی همی سوختند برانگیختند آتش کارزار برآمد یکی دود زان مرغزار سوی بيژن آمد گرازی دلير برو حمله آورد مانند شير يکی تيغ زد بر ميان سرش بدو نيم شد پيلتن پيکرش
+
+### mdhn:Calligraphy_Inscription: Inscription2 in 299r
+- ![ Inscription2 in 299r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp--299r%2FFolio299r.jpg/2161,2068,3361,608/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Tahmasp_Safavid_I
+- **Styles:** aat:300265532
+- **Persian Text:** السلطان العظم
+- **English Text:** Great is the glory of the king
+
+---
+
+## Manifest: Folio 7r Firdausi Encounters the Court Poets of Ghazna
+
+## ResourceCanvas: f.7r — Firdausi Encounters the Court Poets of Ghazna
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Ferdowsi cropped figure from f7r
+- ![ Ferdowsi cropped figure from f7r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-7r%2FFolio7r.jpg/314,802,118,236/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Ferdowsi
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Abu Mansur Daqiqi cropped figure from f7r
+- ![ Abu Mansur Daqiqi cropped figure from f7r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-7r%2FFolio7r.jpg/622,648,127,151/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:AbuMansurDaqiqi
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unsuri cropped figure from f7r
+- ![ Unsuri cropped figure from f7r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-7r%2FFolio7r.jpg/715,744,143,177/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Unsuri
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Asjadi cropped figure from f7r
+- ![ Asjadi cropped figure from f7r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00013.jp2/2967,5397,468,843/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Asjadi
+- **Styles:** aat:500011001
+
+---
+
+## Manifest: Folio 27v Zahhak Receives the Daughters of Jamshid
+
+## ResourceCanvas: f.27v — Folio 27v Zahhak Receives the Daughters of Jamshid
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Zahhak cropped figure from f27v
+- ![ Zahhak cropped figure from f27v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-27v%2FFolio27v.jpg/978,1511,354,459/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Zahhak
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Jamshid's daughters cropped figure from f27v
+- ![ Jamshid's daughters cropped figure from f27v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-27v%2FFolio27v.jpg/711,1401,232,666/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Shahrnaz, mdhn:Arnavaz
+- **Styles:** aat:500011001
+
+### mdhn:Calligraphy_Inscription: Inscription1 in Fig27v
+- ![ Inscription1 in Fig27v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-27v%2FFolio27v.jpg/640,555,1032,182/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Zahhak
+- **Styles:** aat:300265532
+- **Persian Text:** زلف ترا رقیب به گردن گرفته بود. ضحاک را به زحمت ماران گذاشتیم
+- **English Text:** The rival had taken your Zulf, We left Zahhak to the trouble of the snakes.
+
+### mdhn:Calligraphy_Inscription: Inscription2 in Fig27v
+- ![ Inscription2 in Fig27v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-27v%2FFolio27v.jpg/375,1901,193,69/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Tahmasp_Safavid_I
+- **Styles:** aat:300265532
+- **Persian Text:** السلطان العظم
+- **English Text:** Great is the glory of the king
+
+---
+
+## Manifest: Folio 124r Rustam Seventh Courseو He Kills the White Div
+
+## ResourceCanvas: f.124r — Rostam Kills the White Div
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasPainting, HasText
+
+---
+
+## Manifest: Folio 25v The Death of King Mirdas
+
+## ResourceCanvas: f.25v — The Death of King Mirdas
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Mirdas cropped figure from f25v
+- ![ Mirdas cropped figure from f25v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-25v%2F25v.jpg/490,2078,403,359/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mirdas
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Iblis cropped figure from f25v
+- ![ Iblis cropped figure from f25v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-25v%2F25v.jpg/192,1464,212,312/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Iblis
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Zahhak cropped figure from f25v
+- ![ Zahhak cropped figure from f25v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-25v%2F25v.jpg/623,1431,248,395/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Zahhak
+- **Styles:** aat:500011001
+
+---
+
+## Manifest: Folio 166r: The Fire Trail of Siyavush
+
+## ResourceCanvas: f.166r — The Fire Trail of Siyavush
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 168r
+- ![ Siyavush cropped figure from 168r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/1126,2504,731,947/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Siyavash, mdhn:Behzad_Horse
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 168r
+- ![ Kay Kavus cropped figure from 168r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/2335,2471,578,998/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Kay_Kavus
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Sudabeh cropped figure from 168r
+- ![ Sudabeh cropped figure from 168r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/2193,1402,206,516/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Sudabeh
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from 168r
+- ![ People cropped figure from 168r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/2170,3496,742,588/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Calligraphy_Inscription: Inscription1 in 168r
+- ![ Inscription1 in 168r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/2603,2163,181,73/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** يا مفتح الابواب
+- **English Text:** O Opener of The Doors
+
+---
+
+## Manifest: Folio 168v: Siyavush and Rustam Captures Balkh
+
+## ResourceCanvas: f.168v — Siyavush and Rustam Captures Balkh
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 168v
+- ![ Siyavush cropped figure from 168v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-168v%2Ffolio168v.jpg/1965,1905,316,613/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Siyavash
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 168v
+- ![ Rostam cropped figure from 168v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-168v%2Ffolio168v.jpg/1769,1880,292,438/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Siyavash and Rostam cropped figure from 168v
+- ![ Siyavash and Rostam cropped figure from 168v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-168v%2Ffolio168v.jpg/1517,1877,914,937/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Siyavash, mdhn:Rostam
+- **Styles:** aat:500011001
+
+### mdhn:Calligraphy_Inscription: Inscription1 in 168v
+- ![ Inscription1 in 168v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-168v%2Ffolio168v.jpg/1188,2466,255,110/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** حصار دارالسلطنه بلخ
+- **English Text:** The gate of Capital City of Balkh
+
+---
+
+
+
+
 # Ibrahim Sultan Shahnama Collection
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
