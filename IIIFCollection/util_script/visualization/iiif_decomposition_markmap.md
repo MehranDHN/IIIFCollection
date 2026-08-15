@@ -1424,5 +1424,129 @@
 
 ---
 
+## Manifest: Nuh (Noah) and his family on deck in the ark
+
+## ResourceCanvas: f.19r — Nuh (Noah) and his family on deck in the ark
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Noah cropped figure from 19r
+- ![ Noah cropped figure from 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/2596,2873,866,1673/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Noah
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Kanan cropped figure from 19r
+- ![ Kanan cropped figure from 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/3649,4004,659,551/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Kanan
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Women in the Sheep cropped figure from 19r
+- ![ Women in the Sheep cropped figure from 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/1952,3912,719,611/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unknown figure cropped from 19r
+- ![ Unknown figure cropped from 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/3338,3680,554,869/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Man Measuring Depth figure cropped from 19r
+- ![ Man Measuring Depth figure cropped from 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/1443,3121,650,1930/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Man rowing in the ship figure cropped from 19r
+- ![ Man rowing in the ship figure cropped from 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/4021,3268,983,1958/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Man drawning cropped from 19r
+- ![ Man drawning cropped from 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/1386,5361,1116,969/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Man praying cropped from 19r
+- ![ Man praying cropped from 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/4068,5209,866,1134/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Animal Gathered in the ship cropped from 19r
+- ![ Animal Gathered in the ship cropped from 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/1881,4504,2491,695/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 19r
+- ![ Textblock1 in 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/1934,1736,3153,489/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Noah, mdhn:Kanan
+- **Styles:** aat:300265532
+- **Persian Text:** جهان آب گرفته بود از مشرق تا مغرب که هر کوهی که در جهان بلندتر بود چهل گز آب از او بر تر بود
+
+### mdhn:Text_or_Verses: Textblock2 in 19r
+- ![ Textblock2 in 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/1965,6350,3124,430/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Noah, mdhn:Kanan
+- **Styles:** aat:300265532
+- **Persian Text:** و همه هلاک گشتند و نوح عليه السلام با قوم در کشتی درآمدند و پسران و دختران و دامادان دوازده تن
+
+### mdhn:Linguistic_Flag_or_Sign: Text in 19r
+- ![ Text in 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/2120,2597,2122,967/200,/0/default.jpg)
+- **Styles:** aat:300265540
+- **Persian Text:** چه غم ديوار امت را که دارد چون تو پشتيبان چه باک از موج بحرانی که باشد نوح کشتيبان
+
+---
+
+
+
+
+# Qisas al-Anbiya Persian MS. 1
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: The expulsion of Âdam and Hawwâ from Paradise
+
+## ResourceCanvas: f.8v — The expulsion of Âdam and Hawwâ from Paradise
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Adam cropped figure from 8v
+- ![ Adam cropped figure from 8v ](https://iiif.nypl.org/iiif/3/1658025/1569,3981,1045,1939/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Adam
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Eve cropped figure from 8v
+- ![ Eve cropped figure from 8v ](https://iiif.nypl.org/iiif/3/1658025/2376,4288,727,1626/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Eve
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Iblis cropped figure from 8v
+- ![ Iblis cropped figure from 8v ](https://iiif.nypl.org/iiif/3/1658025/2930,2680,552,651/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Iblis
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angles cropped figure from 8v
+- ![ Angles cropped figure from 8v ](https://iiif.nypl.org/iiif/3/1658025/1191,2950,918,1031/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Cow cropped from 8v
+- ![ Cow cropped from 8v ](https://iiif.nypl.org/iiif/3/1658025/2043,3365,1763,1035/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Peacock
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Snake cropped from 8v
+- ![ Snake cropped from 8v ](https://iiif.nypl.org/iiif/3/1658025/2212,5535,1651,568/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Snake
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unknown cropped from 8v
+- ![ Unknown cropped from 8v ](https://iiif.nypl.org/iiif/3/1658025/2890,3763,1316,2035/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 8r
+- ![ Textblock1 in 8r ](https://iiif.nypl.org/iiif/3/1658025/638,2001,3005,736/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Adam, mdhn:Eve
+- **Styles:** aat:300265532
+- **Persian Text:** رويد از بهشت که عاصی اندر بهشت نباشد که آدم و حوا و ابليس و طاووس و مار هميشه دشمن يکديگريد چنانکه خدای تبارک و تعالی در قرآن مجيد و فرقان حميد صبر ميدهد
+
+### mdhn:Text_or_Verses: Textblock2 in 8r
+- ![ Textblock2 in 8r ](https://iiif.nypl.org/iiif/3/1658025/701,6482,3005,736/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Adam, mdhn:Eve
+- **Styles:** aat:300265532
+- **Persian Text:**  قوله تعالی اهبطوا من السماء إلى الأرض، وسيكون بعضكم لبعض عدوًا، در بيرون آمدن آدم از بهشت و توبه کردن و گريستن
+
+---
+
 
 
