@@ -1773,6 +1773,52 @@
 
 ---
 
+## Manifest: The White Dīv captures and blinds Kay Kāvus
+
+## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasHalkari, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 1v
+- ![ Kay Kavus cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1055,4046,765,1338/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Kay_Kavus
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: White Div cropped figure from 1v
+- ![ White Div cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/2271,4114,1384,2374/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:White_Div_7th_Course
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 1v
+- ![ Div1 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/2332,1909,1028,924/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1v
+- ![ Div2 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/614,1992,1028,924/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unknown man 1 in captive cropped figure from 1v
+- ![ Unknown man 1 in captive cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/599,4271,685,1138/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unknown man 2 in captive  cropped figure from 1v
+- ![ Unknown man 2 in captive  cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1639,4393,685,1138/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 1v
+- ![ Textblock1 in 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1874,1536,1075,360/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** سختی يکی هفته اندر کشطد نيامد همی روشنايی بديد
+
+### mdhn:Text_or_Verses: Textblock1 in 1v
+- ![ Textblock1 in 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/612,5373,1122,318/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** همی برتری را بياراستی چرا گاه مازندران خواستی
+
+---
+
 ## Manifest: Siyavush Trial
 
 ## ResourceCanvas: f.1v — Folio of Siyavush Trial
