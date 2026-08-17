@@ -31,48 +31,111 @@
 - **Contains:** HasPainting, HasIllumination
 - **Depicts:**
     - mdhn:Solomon_and_Queen_of_Sheba
+        - skos:closeMatch: iconclass:71I
     - mdhn:Solomon
     - mdhn:Asfi_bin_Barkhiya
     - mdhn:Throne
+        - Q189233
+        - skos:exactMatch: mdhn:aat300038141
     - mdhn:Donkey
+        - Q3537778
     - mdhn:Dragon
+        - Q7559
+        - skos:exactMatch: mdhn:aat300375726
     - mdhn:Bird
+        - Q5113
     - mdhn:Turtle
+        - Q32945370
     - mdhn:Mouse
+        - Q83310
+        - skos:exactMatch: mdhn:aat300250251
     - mdhn:Jingle
+        - Q264922
+        - skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
     - mdhn:Lizard
+        - Q27532
+        - skos:exactMatch: mdhn:aat300250251
     - mdhn:Scorpion
+        - Q3952762
     - mdhn:Snake
+        - Q2102
     - mdhn:Leopard
+        - Q34706
     - mdhn:Lion
+        - Q140
     - mdhn:Elepahant
     - mdhn:Monkey
+        - Q1367
+        - skos:exactMatch: mdhn:aat300250028
     - mdhn:Cow
+        - Q11748378
     - mdhn:harpy
+        - Q113468247
     - mdhn:Horse
+        - Q726
     - mdhn:Rabbit
+        - Q9394
+        - skos:exactMatch: mdhn:aat300250218
     - mdhn:Camel
+        - Q106695054
     - mdhn:Flaming_Nimbus
+        - Q123456
     - mdhn:Simurgh
+        - Q548119
+        - skos:exactMatch: mdhn:aat300379749
     - mdhn:Eurasian_Hoopoe
+        - Q25247
+        - skos:exactMatch: mdhn:aat5300250068
     - mdhn:Throne
+        - Q189233
+        - skos:exactMatch: mdhn:aat300038141
     - mdhn:Angles_From_Heaven
+        - Q123456
     - mdhn:Mace
+        - Q272990
+        - skos:exactMatch: mdhn:aat300037214
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Feasting
+        - Q200538
+        - skos:relatedMatch: mdhn:aat300073261
     - mdhn:Peacock
+        - Q2083405
     - mdhn:Royal_Court
+        - Q1134237
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Cloud
+        - Q8074
     - mdhn:Flower
+        - Q506
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Wind
+        - Q8094
+        - skos:exactMatch: mdhn:aat300055395
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Duck
+        - Q3736439
     - mdhn:Sea_River_Pool
+        - Q4022
 
 ### mdhn:Fragment_Cropped_Image: Solomon cropped figure from f1b
 - ![ Solomon cropped figure from f1b ](https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/4396,4476,1014,1902/200,/0/default.jpg)
@@ -90,6 +153,7 @@
 - ![ Divs cropped figure from f1b ](https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/6022,6710,975,3914/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -99,12 +163,14 @@
 - ![ Angel cropped figure from f1b ](https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/3443,4597,1070,1170/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Angles_From_Heaven
+        - Q123456
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Simurgh cropped figure from f1b
 - ![ Simurgh cropped figure from f1b ](https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/3866,2719,2455,1084/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Simurgh
+        - Q548119
         - skos:exactMatch: mdhn:aat300379749
 - **Styles:** aat:500011001
 
@@ -112,6 +178,7 @@
 - ![ Mythical Creatures cropped figure from f1b ](https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/3008,8744,2077,1371/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Dragon
+        - Q7559
         - skos:exactMatch: mdhn:aat300375726
 - **Styles:** aat:500011001
 
@@ -119,12 +186,14 @@
 - ![ Harpy cropped figure from f1b ](https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/3760,7372,364,382/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:harpy
+        - Q113468247
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Peacock cropped figure from f1b
 - ![ Peacock cropped figure from f1b ](https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/3343,7107,485,1304/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Peacock
+        - Q2083405
 - **Styles:** aat:500011001
 
 ---
@@ -134,31 +203,73 @@
 - **Contains:** HasPainting, HasIllumination
 - **Depicts:**
     - mdhn:Solomon_and_Queen_of_Sheba
+        - skos:closeMatch: iconclass:71I
     - mdhn:Queen_of_Sheba
     - mdhn:Throne
+        - Q189233
+        - skos:exactMatch: mdhn:aat300038141
     - mdhn:Tambourine
+        - Q193666
+        - skos:exactMatch: mdhn:aat300041759
     - mdhn:kamancheh
+        - Q290951
+        - skos:exactMatch: mdhn:aat300265852
     - mdhn:Sea_River_Pool
+        - Q4022
     - mdhn:Fountain
+        - Q483453
+        - skos:exactMatch: mdhn:aat300006179
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Sitar
     - mdhn:Harp
+        - Q47369
+        - skos:exactMatch: mdhn:aat300042047, mdhn:tgm004889_Harps
     - mdhn:LongNeckedBottle
+        - Q116274271
     - mdhn:LongNeckedJar
+        - Q2413314
+        - skos:exactMatch: mdhn:aat300045685
     - mdhn:Vessel
+        - Q96952903
+        - skos:exactMatch: mdhn:aat300193015
     - mdhn:WineCup
+        - Q95684968
+        - skos:exactMatch: mdhn:aat300218966
     - mdhn:CopperDish
     - mdhn:CopperTray
     - mdhn:Pomegranate
+        - Q13188
+        - skos:exactMatch: mdhn:aat300400483
     - mdhn:Fruits
+        - Q1364
     - mdhn:headscarf
+        - Q2002752
+        - skos:exactMatch: mdhn:aat300256716
     - mdhn:Throne
+        - Q189233
+        - skos:exactMatch: mdhn:aat300038141
     - mdhn:Angles_From_Heaven
+        - Q123456
     - mdhn:Feasting
+        - Q200538
+        - skos:relatedMatch: mdhn:aat300073261
     - mdhn:Royal_Court
+        - Q1134237
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
 
 ### mdhn:Fragment_Cropped_Image: Bilqis cropped figure from f2a
 - ![ Bilqis cropped figure from f2a ](https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/4819,4858,1112,1878/200,/0/default.jpg)
@@ -170,24 +281,28 @@
 - ![ Dancer Angels cropped figure from f2a ](https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/4194,8491,2334,2196/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Angles_From_Heaven
+        - Q123456
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Angels cropped figure from f2a
 - ![ Angels cropped figure from f2a ](https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/3050,2784,1859,2167/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Angles_From_Heaven
+        - Q123456
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Angels cropped figure from f2a
 - ![ Angels cropped figure from f2a ](https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/4376,2670,1824,901/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Angles_From_Heaven
+        - Q123456
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Musicians cropped figure from f2a
 - ![ Musicians cropped figure from f2a ](https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/3040,8400,1706,2166/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Feasting
+        - Q200538
         - skos:relatedMatch: mdhn:aat300073261
 - **Styles:** aat:500011001
 
@@ -253,46 +368,118 @@
     - mdhn:ZahhakStory
     - mdhn:Fereydun_Strikes_Down_Zahhak
     - mdhn:Throne
+        - Q189233
+        - skos:exactMatch: mdhn:aat300038141
     - mdhn:Tambourine
+        - Q193666
+        - skos:exactMatch: mdhn:aat300041759
     - mdhn:Flute
+        - Q11405
+        - skos:exactMatch: mdhn:aat300160680, mdhn:aat300235053
     - mdhn:Harp
+        - Q47369
+        - skos:exactMatch: mdhn:aat300042047, mdhn:tgm004889_Harps
     - mdhn:Pool
+        - Q1501
+        - skos:exactMatch: mdhn:aat300008692
     - mdhn:Fountain
+        - Q483453
+        - skos:exactMatch: mdhn:aat300006179
     - mdhn:Glazed_Tile
+        - Q76827920
+        - skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
     - mdhn:Fruits
+        - Q1364
     - mdhn:Sword
+        - Q12791
     - mdhn:Dagger
+        - Q182780
+        - skos:exactMatch: mdhn:aat300037048
     - mdhn:Building_Ornament
+        - Q12043387
+        - skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
     - mdhn:Persian_Architecture
+        - Q137133192
+        - skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
     - mdhn:Architectural_Structure
+        - Q811979
     - mdhn:Balcony
+        - Q170552
+        - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
     - mdhn:Iwan
+        - Q636232
+        - skos:exactMatch: mdhn:aat300075830, mdhn:tgm110002_Iwan
     - mdhn:Plantanus_Orientalis
+        - Q161105
+        - skos:exactMatch: mdhn:aat300375194
+        - skos:relatedMatch: mdhn:aat300132410
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:LongNeckedBottle
+        - Q116274271
     - mdhn:LongNeckedJar
+        - Q2413314
+        - skos:exactMatch: mdhn:aat300045685
     - mdhn:Vessel
+        - Q96952903
+        - skos:exactMatch: mdhn:aat300193015
     - mdhn:WineCup
+        - Q95684968
+        - skos:exactMatch: mdhn:aat300218966
     - mdhn:CopperDish
     - mdhn:CopperTray
     - mdhn:Pomegranate
+        - Q13188
+        - skos:exactMatch: mdhn:aat300400483
     - mdhn:Club
+        - Q392326
     - mdhn:headscarf
+        - Q2002752
+        - skos:exactMatch: mdhn:aat300256716
     - mdhn:Window
+        - Q35473
+        - skos:exactMatch: mdhn:aat300002944
     - mdhn:Flower
+        - Q506
     - mdhn:Feasting
+        - Q200538
+        - skos:relatedMatch: mdhn:aat300073261
     - mdhn:Royal_Court
+        - Q1134237
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Bolster
+        - Q3057620
+        - skos:exactMatch: mdhn:aat300236072
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Fence
+        - Q148571
+        - skos:exactMatch: mdhn:aat300005044, mdhn:tgm003920_Fences
     - mdhn:Door
+        - Q36794
+        - skos:exactMatch: mdhn:aat300002803, mdhn:tgm003230_Doors__doorways
     - mdhn:Book
+        - Q571
+        - skos:exactMatch: mdhn:aat300028051
     - mdhn:GemEncrustedBelt
+        - Q134560
     - mdhn:Cypress
+        - Q14169641
+        - skos:exactMatch: mdhn:aat300343641
+        - skos:relatedMatch: mdhn:aat300132410
     - mdhn:Snake
+        - Q2102
 
 ### mdhn:Fragment_Cropped_Image: Fereydun cropped figure from f22a
 - ![ Fereydun cropped figure from f22a ](https://iiif-cloud.princeton.edu/iiif/2/c0%2Fe7%2Ff8%2Fc0e7f8f78358453a82da209c93369e46%2Fintermediate_file/4595,5228,875,1495/200,/0/default.jpg)
@@ -349,46 +536,120 @@
     - mdhn:Kingdom_of_Manuchehr
     - mdhn:Fereydun_Strikes_Down_Zahhak
     - mdhn:Pavilion
+        - Q57661959
+        - skos:exactMatch: mdhn:aat300006819, mdhn:tgm007537_Pavilions_Facilities
     - mdhn:Pinus
+        - Q26782
+        - skos:exactMatch: mdhn:aat300343658
+        - skos:relatedMatch: mdhn:aat300132410
     - mdhn:Torches
+        - Q327954
+        - skos:exactMatch: mdhn:aat300037652, mdhn:tgm010897_Torches_Lighting_devices
+        - skos:relatedMatch: mdhn:aat300180425
     - mdhn:Rifle
+        - Q124072
+        - skos:exactMatch: mdhn:aat300427534, mdhn:tgm008914_Rifles
     - mdhn:Pool
+        - Q1501
+        - skos:exactMatch: mdhn:aat300008692
     - mdhn:Fountain
+        - Q483453
+        - skos:exactMatch: mdhn:aat300006179
     - mdhn:Glazed_Tile
+        - Q76827920
+        - skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
     - mdhn:Fruits
+        - Q1364
     - mdhn:Sword
+        - Q12791
     - mdhn:Dagger
+        - Q182780
+        - skos:exactMatch: mdhn:aat300037048
     - mdhn:Building_Ornament
+        - Q12043387
+        - skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
     - mdhn:Persian_Architecture
+        - Q137133192
+        - skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
     - mdhn:Architectural_Structure
+        - Q811979
     - mdhn:Balcony
+        - Q170552
+        - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
     - mdhn:Iwan
+        - Q636232
+        - skos:exactMatch: mdhn:aat300075830, mdhn:tgm110002_Iwan
     - mdhn:Plantanus_Orientalis
+        - Q161105
+        - skos:exactMatch: mdhn:aat300375194
+        - skos:relatedMatch: mdhn:aat300132410
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:LongNeckedBottle
+        - Q116274271
     - mdhn:LongNeckedJar
+        - Q2413314
+        - skos:exactMatch: mdhn:aat300045685
     - mdhn:Vessel
+        - Q96952903
+        - skos:exactMatch: mdhn:aat300193015
     - mdhn:WineCup
+        - Q95684968
+        - skos:exactMatch: mdhn:aat300218966
     - mdhn:CopperDish
     - mdhn:CopperTray
     - mdhn:Pomegranate
+        - Q13188
+        - skos:exactMatch: mdhn:aat300400483
     - mdhn:Club
+        - Q392326
     - mdhn:headscarf
+        - Q2002752
+        - skos:exactMatch: mdhn:aat300256716
     - mdhn:Window
+        - Q35473
+        - skos:exactMatch: mdhn:aat300002944
     - mdhn:Flower
+        - Q506
     - mdhn:Feasting
+        - Q200538
+        - skos:relatedMatch: mdhn:aat300073261
     - mdhn:Royal_Court
+        - Q1134237
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Bolster
+        - Q3057620
+        - skos:exactMatch: mdhn:aat300236072
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Fence
+        - Q148571
+        - skos:exactMatch: mdhn:aat300005044, mdhn:tgm003920_Fences
     - mdhn:Door
+        - Q36794
+        - skos:exactMatch: mdhn:aat300002803, mdhn:tgm003230_Doors__doorways
     - mdhn:Book
+        - Q571
+        - skos:exactMatch: mdhn:aat300028051
     - mdhn:GemEncrustedBelt
+        - Q134560
     - mdhn:Cypress
+        - Q14169641
+        - skos:exactMatch: mdhn:aat300343641
+        - skos:relatedMatch: mdhn:aat300132410
     - mdhn:Snake
+        - Q2102
 
 ### mdhn:Fragment_Cropped_Image: Zal cropped figure from 38a
 - ![ Zal cropped figure from 38a ](https://iiif-cloud.princeton.edu/iiif/2/c8%2F4e%2F2a%2Fc84e2a0ad7bf407cafc6f0c04d31bd88%2Fintermediate_file/4053,7504,1232,2548/200,/0/default.jpg)
@@ -446,14 +707,30 @@
     - mdhn:Rock
     - mdhn:Cloude
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Lasso
+        - Q840507
+        - skos:exactMatch: mdhn:aat300255575
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Horse
+        - Q726
     - mdhn:Combat_Helmet
+        - Q3579211
+        - skos:exactMatch: mdhn:aat300391023
     - mdhn:Flower
+        - Q506
     - mdhn:Bird
+        - Q5113
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
 
 ### mdhn:Fragment_Cropped_Image: Young Rostam cropped figure from 54a
 - ![ Young Rostam cropped figure from 54a ](https://iiif-cloud.princeton.edu/iiif/2/70%2F3d%2F24%2F703d249a3c914c61a027424f2f33878c%2Fintermediate_file/2485,8421,1622,2598/200,/0/default.jpg)
@@ -514,16 +791,34 @@
     - mdhn:Rock
     - mdhn:Cloude
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Jingle
+        - Q264922
+        - skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Horse
+        - Q726
     - mdhn:Babr_e_Bayan
+        - Q23068742
     - mdhn:Sword
+        - Q12791
     - mdhn:TearingApart
     - mdhn:Cave
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 62b
 - ![ Rostam cropped figure from 62b ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/4205,7420,2760,2724/200,/0/default.jpg)
@@ -547,6 +842,7 @@
 - ![ Injured Div cropped figure from 62b ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/6355,9640,1758,1494/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -562,6 +858,7 @@
 - ![ Div cropped figure from 62b ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/4744,4812,855,1264/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -571,6 +868,7 @@
 - ![ Divs cropped figure from 62b ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/5929,2847,2200,4737/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -580,6 +878,7 @@
 - ![ Div cropped figure from 62b ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/6309,2826,1744,2100/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -589,6 +888,7 @@
 - ![ Div cropped figure from 62b ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/6580,4888,1224,1829/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -598,6 +898,7 @@
 - ![ Div cropped figure from 62b ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/5853,5572,974,1373/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -607,6 +908,7 @@
 - ![ Div cropped figure from 62b ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/7221,6171,870,1555/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -732,26 +1034,60 @@
     - mdhn:Kingdom_of_Keyumars
     - mdhn:mdhn:KeyumarsEnthroned
     - mdhn:Rocks
+        - Q8063
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Flower
+        - Q506
     - mdhn:Cloud
+        - Q8074
     - mdhn:Pomegranate
+        - Q13188
+        - skos:exactMatch: mdhn:aat300400483
     - mdhn:Tiger
+        - Q19939
+        - skos:exactMatch: mdhn:aat300310390
     - mdhn:Deer
+        - Q29838690
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Feasting
+        - Q200538
+        - skos:relatedMatch: mdhn:aat300073261
     - mdhn:Fruits
+        - Q1364
     - mdhn:Throne
+        - Q189233
+        - skos:exactMatch: mdhn:aat300038141
     - mdhn:Club
+        - Q392326
     - mdhn:Tambourine
+        - Q193666
+        - skos:exactMatch: mdhn:aat300041759
     - mdhn:Oud
+        - Q191000
+        - skos:exactMatch: mdhn:aat300217935
     - mdhn:Goat
+        - Q2934
     - mdhn:LeopardSkinDress
+        - Q3564428
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:LongNeckedBottle
+        - Q116274271
     - mdhn:Vessel
+        - Q96952903
+        - skos:exactMatch: mdhn:aat300193015
     - mdhn:WineCup
+        - Q95684968
+        - skos:exactMatch: mdhn:aat300218966
     - mdhn:WineBowl
 
 ### mdhn:Fragment_Cropped_Image: Keyumars cropped figure from 13r
@@ -790,28 +1126,61 @@
 - **Depicts:**
     - mdhn:Kingdom_of_Keyumars
     - mdhn:Siamak_Was_Slayin_By_Div
+        - skos:exactMatch: mdhn:aat300185692
     - mdhn:Jingle
+        - Q264922
+        - skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
     - mdhn:Rocks
+        - Q8063
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Flower
+        - Q506
     - mdhn:TearingApart
     - mdhn:Mace
+        - Q272990
+        - skos:exactMatch: mdhn:aat300037214
     - mdhn:Sword
+        - Q12791
     - mdhn:Lion
+        - Q140
     - mdhn:Horse_Spur
+        - Q740732
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Combat_Helmet
+        - Q3579211
+        - skos:exactMatch: mdhn:aat300391023
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Fox
+        - Q8331
     - mdhn:Battle
+        - Q198
+        - skos:exactMatch: mdhn:aat300185692
     - mdhn:Bird
+        - Q5113
     - mdhn:Leopard
+        - Q34706
     - mdhn:Deer
+        - Q29838690
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Flag
+        - Q14660
+        - skos:exactMatch: mdhn:aat300195678
     - mdhn:GemEncrustedBelt
+        - Q134560
     - mdhn:Horse
+        - Q726
 
 ### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 13v
 - ![ Siamak cropped figure from 13v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0032/1071,2944,576,1035/200,/0/default.jpg)
@@ -829,6 +1198,7 @@
 - ![ Div cropped figure from 13v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0032/259,2265,585,715/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -850,33 +1220,77 @@
 - **Depicts:**
     - mdhn:KayKavus_Encounters_Arzhang_Div_In_Mazandaran
     - mdhn:AlamandKotalandKotal
+        - Q140502385
+        - skos:exactMatch: mdhn:aat500011096
     - mdhn:Rocks
+        - Q8063
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Flower
+        - Q506
     - mdhn:Mace
+        - Q272990
+        - skos:exactMatch: mdhn:aat300037214
     - mdhn:Sword
+        - Q12791
     - mdhn:SunShade
+        - Q1762975
+        - skos:exactMatch: mdhn:aat300428884
     - mdhn:Horse_Spur
+        - Q740732
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Combat_Helmet
+        - Q3579211
+        - skos:exactMatch: mdhn:aat300391023
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Horse_Head_Defence
     - mdhn:Horse_Riding
+        - Q179226
     - mdhn:Battle
+        - Q198
+        - skos:exactMatch: mdhn:aat300185692
     - mdhn:Bow_and_Arrow
+        - Q19827042
     - mdhn:Body_Armour
+        - Q485027
+        - skos:exactMatch: mdhn:aat300036746
     - mdhn:Battle_Field
+        - Q4895508
+        - skos:exactMatch: mdhn:aat300000835
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Flag
+        - Q14660
+        - skos:exactMatch: mdhn:aat300195678
     - mdhn:Shield
+        - Q131559
+        - skos:exactMatch: mdhn:aat300222454
     - mdhn:Horse
+        - Q726
     - mdhn:Club
+        - Q392326
     - mdhn:Dagger
+        - Q182780
+        - skos:exactMatch: mdhn:aat300037048
     - mdhn:GemEncrustedArmBand
+        - Q680343
     - mdhn:GemEncrustedBracelet
+        - Q201664
     - mdhn:Jingle
+        - Q264922
+        - skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
     - mdhn:Sorna
+        - Q825246
 
 ### mdhn:Fragment_Cropped_Image: Kaykavus cropped figure from 202v
 - ![ Kaykavus cropped figure from 202v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0410/1174,1828,769,1221/200,/0/default.jpg)
@@ -894,6 +1308,7 @@
 - ![ div1 cropped figure from 202v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0410/283,1048,745,900/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -903,6 +1318,7 @@
 - ![ div2 cropped figure from 202v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0410/269,2222,225,387/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -918,6 +1334,7 @@
 - ![ div4 cropped figure from 202v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0410/582,2877,610,1107/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -927,6 +1344,7 @@
 - ![ soldiers cropped figure from 202v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0410/1722,1405,604,1104/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -936,6 +1354,7 @@
 - ![ soldiers cropped figure from 202v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0410/1739,2554,591,1287/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -966,19 +1385,39 @@
     - mdhn:Rock
     - mdhn:Cloude
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Horse
+        - Q726
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Babr_e_Bayan
+        - Q23068742
     - mdhn:Sword
+        - Q12791
     - mdhn:Cave
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Birds
     - mdhn:Mace
+        - Q272990
+        - skos:exactMatch: mdhn:aat300037214
     - mdhn:TearingApart
     - mdhn:Flower
+        - Q506
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 208r
 - ![ Rostam cropped figure from 208r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0421/1632,2534,1111,1115/200,/0/default.jpg)
@@ -1008,6 +1447,7 @@
 - ![ Divs cropped figure from 208r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0421/2249,1658,907,631/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1065,38 +1505,87 @@
 - **Contains:** HasPainting, HasIllumination
 - **Depicts:**
     - mdhn:Solomon_and_Queen_of_Sheba
+        - skos:closeMatch: iconclass:71I
     - mdhn:Solomon
     - mdhn:Turtle
+        - Q32945370
     - mdhn:Mouse
+        - Q83310
+        - skos:exactMatch: mdhn:aat300250251
     - mdhn:Lizard
+        - Q27532
+        - skos:exactMatch: mdhn:aat300250251
     - mdhn:Scorpion
+        - Q3952762
     - mdhn:Snake
+        - Q2102
     - mdhn:Leopard
+        - Q34706
     - mdhn:Lion
+        - Q140
     - mdhn:Elepahant
     - mdhn:Monkey
+        - Q1367
+        - skos:exactMatch: mdhn:aat300250028
     - mdhn:Cow
+        - Q11748378
     - mdhn:Horse
+        - Q726
     - mdhn:Rabbit
+        - Q9394
+        - skos:exactMatch: mdhn:aat300250218
     - mdhn:Camel
+        - Q106695054
     - mdhn:Flaming_Nimbus
+        - Q123456
     - mdhn:Simurgh
+        - Q548119
+        - skos:exactMatch: mdhn:aat300379749
     - mdhn:Eurasian_Hoopoe
+        - Q25247
+        - skos:exactMatch: mdhn:aat5300250068
     - mdhn:Throne
+        - Q189233
+        - skos:exactMatch: mdhn:aat300038141
     - mdhn:Angles_From_Heaven
+        - Q123456
     - mdhn:Mace
+        - Q272990
+        - skos:exactMatch: mdhn:aat300037214
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Feasting
+        - Q200538
+        - skos:relatedMatch: mdhn:aat300073261
     - mdhn:Peacock
+        - Q2083405
     - mdhn:Royal_Court
+        - Q1134237
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Cloud
+        - Q8074
     - mdhn:Flower
+        - Q506
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Duck
+        - Q3736439
 
 ### mdhn:Fragment_Cropped_Image: Solomon cropped figure from 2v
 - ![ Solomon cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1593,1951,872,1158/200,/0/default.jpg)
@@ -1120,18 +1609,21 @@
 - ![ Angel cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/982,1711,284,924/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Angles_From_Heaven
+        - Q123456
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Ange2 cropped figure from 2v
 - ![ Ange2 cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/2258,2932,585,835/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Angles_From_Heaven
+        - Q123456
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 2v
 - ![ Div1 cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/958,2868,506,946/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1141,6 +1633,7 @@
 - ![ Divs cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/2295,1885,664,1168/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1150,6 +1643,7 @@
 - ![ Simurgh cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1651,1357,1016,585/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Simurgh
+        - Q548119
         - skos:exactMatch: mdhn:aat300379749
 - **Styles:** aat:500011001
 
@@ -1157,12 +1651,14 @@
 - ![ Peacock cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1509,2332,267,687/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Peacock
+        - Q2083405
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Snake cropped figure from 2v
 - ![ Snake cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1356,3403,183,285/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Snake
+        - Q2102
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Creature cropped figure from 2v
@@ -1173,6 +1669,7 @@
 - ![ Lizard cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1299,4079,170,214/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Lizard
+        - Q27532
         - skos:exactMatch: mdhn:aat300250251
 - **Styles:** aat:500011001
 
@@ -1180,12 +1677,14 @@
 - ![ Cow cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/952,4328,603,361/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Cow
+        - Q11748378
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Boar cropped figure from 2v
 - ![ Boar cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1500,4412,415,272/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Boar
+        - Q266764
         - skos:exactMatch: mdhn:aat300250112
 - **Styles:** aat:500011001
 
@@ -1193,18 +1692,21 @@
 - ![ Scorpion cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1803,3567,192,165/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Scorpion
+        - Q3952762
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Lion cropped figure from 2v
 - ![ Lion cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1594,3579,617,407/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Lion
+        - Q140
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Elephant cropped figure from 2v
 - ![ Elephant cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/965,3998,366,584/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Elephant
+        - Q7378
         - skos:exactMatch: mdhn:aat:300250160
 - **Styles:** aat:500011001
 
@@ -1223,30 +1725,67 @@
 - **Contains:** HasPainting, HasIllumination
 - **Depicts:**
     - mdhn:Solomon_and_Queen_of_Sheba
+        - skos:closeMatch: iconclass:71I
     - mdhn:Queen_of_Sheba
     - mdhn:Tambourine
+        - Q193666
+        - skos:exactMatch: mdhn:aat300041759
     - mdhn:Sea_River_Pool
+        - Q4022
     - mdhn:Fountain
+        - Q483453
+        - skos:exactMatch: mdhn:aat300006179
     - mdhn:Sitar
     - mdhn:Tanbur
+        - Q3424319
+        - skos:exactMatch: mdhn:aat300042864
     - mdhn:LongNeckedBottle
+        - Q116274271
     - mdhn:LongNeckedJar
+        - Q2413314
+        - skos:exactMatch: mdhn:aat300045685
     - mdhn:Vessel
+        - Q96952903
+        - skos:exactMatch: mdhn:aat300193015
     - mdhn:WineCup
+        - Q95684968
+        - skos:exactMatch: mdhn:aat300218966
     - mdhn:CopperDish
     - mdhn:CopperTray
     - mdhn:Pomegranate
+        - Q13188
+        - skos:exactMatch: mdhn:aat300400483
     - mdhn:Fruits
+        - Q1364
     - mdhn:Flaming_Nimbus
+        - Q123456
     - mdhn:Simurgh
+        - Q548119
+        - skos:exactMatch: mdhn:aat300379749
     - mdhn:Eurasian_Hoopoe
+        - Q25247
+        - skos:exactMatch: mdhn:aat5300250068
     - mdhn:Throne
+        - Q189233
+        - skos:exactMatch: mdhn:aat300038141
     - mdhn:Angles_From_Heaven
+        - Q123456
     - mdhn:Feasting
+        - Q200538
+        - skos:relatedMatch: mdhn:aat300073261
     - mdhn:Royal_Court
+        - Q1134237
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
 
 ### mdhn:Fragment_Cropped_Image: Solomon cropped figure from 3r
 - ![ Solomon cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1895,2395,607,818/200,/0/default.jpg)
@@ -1258,36 +1797,42 @@
 - ![ Angel1 cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1936,1382,876,677/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Angles_From_Heaven
+        - Q123456
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Angel2 cropped figure from 3r
 - ![ Angel2 cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/2791,1386,631,846/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Angles_From_Heaven
+        - Q123456
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Angel3 cropped figure from 3r
 - ![ Angel3 cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/2511,2184,921,1142/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Angles_From_Heaven
+        - Q123456
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Angel4 cropped figure from 3r
 - ![ Angel4 cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1433,1878,726,725/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Angles_From_Heaven
+        - Q123456
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Angel5 cropped figure from 3r
 - ![ Angel5 cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/2229,2183,457,529/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Angles_From_Heaven
+        - Q123456
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Musicians cropped figure from 3r
 - ![ Musicians cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1422,3879,649,842/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1297,6 +1842,7 @@
 - ![ Dancers cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1970,3496,698,863/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1406,25 +1952,54 @@
 - **Depicts:**
     - mdhn:Kingdom_of_Keyumars
     - mdhn:Siamak_Was_Slayin_By_Div
+        - skos:exactMatch: mdhn:aat300185692
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Rocks
+        - Q8063
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Dagger
+        - Q182780
+        - skos:exactMatch: mdhn:aat300037048
     - mdhn:Sword
+        - Q12791
     - mdhn:Bow_and_Arrow
+        - Q19827042
     - mdhn:Horse_Spur
+        - Q740732
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Horse_Head_Defence
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Horse_Riding
+        - Q179226
     - mdhn:Battle
+        - Q198
+        - skos:exactMatch: mdhn:aat300185692
     - mdhn:Axe
+        - Q39397
+        - skos:exactMatch: mdhn:aat300036982
     - mdhn:Sheild
     - mdhn:Flower
+        - Q506
     - mdhn:GemEncrustedBelt
+        - Q134560
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Horse
+        - Q726
 
 ### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 12v
 - ![ Siamak cropped figure from 12v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0026/1786,2982,758,948/200,/0/default.jpg)
@@ -1442,6 +2017,7 @@
 - ![ Divs cropped figure from 12v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0026/3300,1450,498,731/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1468,29 +2044,71 @@
     - mdhn:Kingdom_of_Fereydun
     - mdhn:Beheading_Iraj_By_His_Brothers
     - mdhn:Persian_Architecture
+        - Q137133192
+        - skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
     - mdhn:Building_Ornament
+        - Q12043387
+        - skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
     - mdhn:Feasting
+        - Q200538
+        - skos:relatedMatch: mdhn:aat300073261
     - mdhn:Architectural_Structure
+        - Q811979
     - mdhn:Dagger
+        - Q182780
+        - skos:exactMatch: mdhn:aat300037048
     - mdhn:Balcony
+        - Q170552
+        - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
     - mdhn:Pavilion
+        - Q57661959
+        - skos:exactMatch: mdhn:aat300006819, mdhn:tgm007537_Pavilions_Facilities
     - mdhn:Glazed_Tile
+        - Q76827920
+        - skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Fruits
+        - Q1364
     - mdhn:Decapitation
+        - Q204933
     - mdhn:Clothing
+        - Q26690120
+        - skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:headscarf
+        - Q2002752
+        - skos:exactMatch: mdhn:aat300256716
     - mdhn:GemEncrustedBelt
+        - Q134560
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:GemEncrustedBelt
+        - Q134560
     - mdhn:Pomegranate
+        - Q13188
+        - skos:exactMatch: mdhn:aat300400483
     - mdhn:LongNeckedJar
+        - Q2413314
+        - skos:exactMatch: mdhn:aat300045685
     - mdhn:HandledJug
     - mdhn:WineCup
+        - Q95684968
+        - skos:exactMatch: mdhn:aat300218966
     - mdhn:CopperTray
     - mdhn:Curtain
+        - Q49005
+        - skos:exactMatch: mdhn:aat300037564, mdhn:tgm002819_Curtain_walls
     - mdhn:Window
+        - Q35473
+        - skos:exactMatch: mdhn:aat300002944
 
 ### mdhn:Fragment_Cropped_Image: Iraj cropped figure from 42r
 - ![ Iraj cropped figure from 42r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/2510,3343,592,787/200,/0/default.jpg)
@@ -1549,22 +2167,56 @@
     - mdhn:Rustam_Slays_White_Elephant
     - mdhn:RostamStory
     - mdhn:Persian_Architecture
+        - Q137133192
+        - skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
     - mdhn:Building_Ornament
+        - Q12043387
+        - skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
     - mdhn:Bolster
+        - Q3057620
+        - skos:exactMatch: mdhn:aat300236072
     - mdhn:Architectural_Structure
+        - Q811979
     - mdhn:Elephant
+        - Q7378
+        - skos:exactMatch: mdhn:aat:300250160
     - mdhn:Balcony
+        - Q170552
+        - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
     - mdhn:Pavilion
+        - Q57661959
+        - skos:exactMatch: mdhn:aat300006819, mdhn:tgm007537_Pavilions_Facilities
     - mdhn:Glazed_Tile
+        - Q76827920
+        - skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:OxHeadMace
+        - skos:broadMatch: mdhn:Mace
     - mdhn:Clothing
+        - Q26690120
+        - skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:headscarf
+        - Q2002752
+        - skos:exactMatch: mdhn:aat300256716
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Curtain
+        - Q49005
+        - skos:exactMatch: mdhn:aat300037564, mdhn:tgm002819_Curtain_walls
     - mdhn:Window
+        - Q35473
+        - skos:exactMatch: mdhn:aat300002944
     - mdhn:Babr_e_Bayan
+        - Q23068742
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 105v
 - ![ Rostam cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1052,3227,495,905/200,/0/default.jpg)
@@ -1576,6 +2228,7 @@
 - ![ Elephant cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1590,3376,884,758/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Elephant
+        - Q7378
         - skos:exactMatch: mdhn:aat:300250160
 - **Styles:** aat:500011001
 
@@ -1625,19 +2278,41 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:Bird
+        - Q5113
     - mdhn:Duck
+        - Q3736439
     - mdhn:Rocks
+        - Q8063
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Flower
+        - Q506
     - mdhn:Sea_River_Pool
+        - Q4022
     - mdhn:Book
+        - Q571
+        - skos:exactMatch: mdhn:aat300028051
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Flower
+        - Q506
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Vessel
+        - Q96952903
+        - skos:exactMatch: mdhn:aat300193015
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
 
 ### mdhn:Fragment_Cropped_Image: Ferdowsi cropped figure from f7r
 - ![ Ferdowsi cropped figure from f7r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00013.jp2/3171,5833,582,782/200,/0/default.jpg)
@@ -1674,18 +2349,40 @@
     - mdhn:TearingApart
     - mdhn:Rock
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Cloud
+        - Q8074
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Flower
+        - Q506
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Horse
+        - Q726
     - mdhn:Combat_Helmet
+        - Q3579211
+        - skos:exactMatch: mdhn:aat300391023
     - mdhn:Sword
+        - Q12791
     - mdhn:Dagger
+        - Q182780
+        - skos:exactMatch: mdhn:aat300037048
     - mdhn:Bow_and_Arrow
+        - Q19827042
     - mdhn:Cave
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 44r
 - ![ Rostam cropped figure from 44r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/2600,5794,933,1205/200,/0/default.jpg)
@@ -1735,18 +2432,37 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:KeyumarsEnthroned
+        - skos:exactMatch: mdhn:aat300185692
     - mdhn:Royal_Court
+        - Q1134237
     - mdhn:LeopardSkinDress
+        - Q3564428
     - mdhn:Throne
+        - Q189233
+        - skos:exactMatch: mdhn:aat300038141
     - mdhn:Enthronement
+        - Q1671499
+        - skos:exactMatch: mdhn:aat300054754
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Rocks
+        - Q8063
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Cloud
+        - Q8074
     - mdhn:Bird
+        - Q5113
     - mdhn:Leopard
+        - Q34706
     - mdhn:Lion
+        - Q140
 
 ---
 
@@ -1759,24 +2475,56 @@
     - mdhn:Tahmuras_Defeating_the_Divs
     - mdhn:TahmurasDefeatsDivs
     - mdhn:OxHeadMace
+        - skos:broadMatch: mdhn:Mace
     - mdhn:Mace
+        - Q272990
+        - skos:exactMatch: mdhn:aat300037214
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Body_Armour
+        - Q485027
+        - skos:exactMatch: mdhn:aat300036746
     - mdhn:Soldier
+        - Q4991371
+        - skos:exactMatch: mdhn:aat300185678
     - mdhn:Battle
+        - Q198
+        - skos:exactMatch: mdhn:aat300185692
     - mdhn:Wind
+        - Q8094
+        - skos:exactMatch: mdhn:aat300055395
     - mdhn:Cloud
+        - Q8074
     - mdhn:Horse
+        - Q726
     - mdhn:Lasso
+        - Q840507
+        - skos:exactMatch: mdhn:aat300255575
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Flower
+        - Q506
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Rocks
+        - Q8063
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Bird
+        - Q5113
     - mdhn:Gazzele
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Combat_Helmet
+        - Q3579211
+        - skos:exactMatch: mdhn:aat300391023
 
 ### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from f23v
 - ![ Tahmuras cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/897,1368,553,534/200,/0/default.jpg)
@@ -1788,6 +2536,7 @@
 - ![ Div1 cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/619,1583,295,369/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1797,6 +2546,7 @@
 - ![ Div2 cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/428,1621,265,429/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1806,6 +2556,7 @@
 - ![ Div3 cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/759,2074,222,376/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1815,6 +2566,7 @@
 - ![ Div4 cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/329,2034,284,411/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1838,27 +2590,64 @@
 - **Depicts:**
     - mdhn:ZalAndRudaba
     - mdhn:Architectural_Structure
+        - Q811979
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:WineBowl
     - mdhn:Flower
+        - Q506
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Persian_Architecture
+        - Q137133192
+        - skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
     - mdhn:Balcony
+        - Q170552
+        - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
     - mdhn:Iwan
+        - Q636232
+        - skos:exactMatch: mdhn:aat300075830, mdhn:tgm110002_Iwan
     - mdhn:Calligraphy_Inscription
+        - Q1640824
+        - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
     - mdhn:Sea_River_Pool
+        - Q4022
     - mdhn:Duck
+        - Q3736439
     - mdhn:Pool
+        - Q1501
+        - skos:exactMatch: mdhn:aat300008692
     - mdhn:Fountain
+        - Q483453
+        - skos:exactMatch: mdhn:aat300006179
     - mdhn:Fence
+        - Q148571
+        - skos:exactMatch: mdhn:aat300005044, mdhn:tgm003920_Fences
     - mdhn:Cypress
+        - Q14169641
+        - skos:exactMatch: mdhn:aat300343641
+        - skos:relatedMatch: mdhn:aat300132410
     - mdhn:AgriculturalAndFarming
     - mdhn:Persian_Garden
+        - Q4460
     - mdhn:headscarf
+        - Q2002752
+        - skos:exactMatch: mdhn:aat300256716
 
 ### mdhn:Fragment_Cropped_Image: Mihrab cropped figure from f77v
 - ![ Mihrab cropped figure from f77v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/843,2340,286,706/200,/0/default.jpg)
@@ -1876,6 +2665,7 @@
 - ![ Inscription1 in Fig77v Q:2:127 ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/711,314,1077,129/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Quran
+        - Q428
         - skos:exactMatch: mdhn:aat300265128
 - **Styles:** aat:300265532
 - **Persian Text:** وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ رَبَّنَا تَقَبَّلْ مِنَّا ۖ إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ
@@ -1933,18 +2723,36 @@
     - mdhn:KingdomOfZahhak
     - mdhn:ZahhakStory
     - mdhn:Horse
+        - Q726
     - mdhn:Horse_Spur
+        - Q740732
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Horse_Riding
+        - Q179226
     - mdhn:Bow_and_Arrow
+        - Q19827042
     - mdhn:Sword
+        - Q12791
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Flower
+        - Q506
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Cloud
+        - Q8074
 
 ### mdhn:Fragment_Cropped_Image: Bizhan cropped figure from f299r
 - ![ Bizhan cropped figure from f299r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp--299r%2FFolio299r.jpg/3828,4710,914,1208/200,/0/default.jpg)
@@ -1956,6 +2764,7 @@
 - ![ Wild Boar cropped figure from f299r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp--299r%2FFolio299r.jpg/2408,5028,1206,757/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Boar
+        - Q266764
         - skos:exactMatch: mdhn:aat300250112
 - **Styles:** aat:500011001
 
@@ -1983,28 +2792,67 @@
 - **Contains:** HasText, HasPainting
 - **Depicts:**
     - mdhn:Feasting
+        - Q200538
+        - skos:relatedMatch: mdhn:aat300073261
     - mdhn:Architectural_Structure
+        - Q811979
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:WineBowl
     - mdhn:Flower
+        - Q506
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Persian_Architecture
+        - Q137133192
+        - skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
     - mdhn:Balcony
+        - Q170552
+        - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
     - mdhn:Iwan
+        - Q636232
+        - skos:exactMatch: mdhn:aat300075830, mdhn:tgm110002_Iwan
     - mdhn:Calligraphy_Inscription
+        - Q1640824
+        - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
     - mdhn:Sea_River_Pool
+        - Q4022
     - mdhn:Duck
+        - Q3736439
     - mdhn:Pool
+        - Q1501
+        - skos:exactMatch: mdhn:aat300008692
     - mdhn:Fountain
+        - Q483453
+        - skos:exactMatch: mdhn:aat300006179
     - mdhn:Fence
+        - Q148571
+        - skos:exactMatch: mdhn:aat300005044, mdhn:tgm003920_Fences
     - mdhn:Cypress
+        - Q14169641
+        - skos:exactMatch: mdhn:aat300343641
+        - skos:relatedMatch: mdhn:aat300132410
     - mdhn:AgriculturalAndFarming
     - mdhn:Persian_Garden
+        - Q4460
     - mdhn:headscarf
+        - Q2002752
+        - skos:exactMatch: mdhn:aat300256716
 
 ### mdhn:Fragment_Cropped_Image: Ferdowsi cropped figure from f7r
 - ![ Ferdowsi cropped figure from f7r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-7r%2FFolio7r.jpg/314,802,118,236/200,/0/default.jpg)
@@ -2042,25 +2890,57 @@
     - mdhn:KingdomOfZahhak
     - mdhn:ZahhakStory
     - mdhn:Architectural_Structure
+        - Q811979
     - mdhn:Balcony
+        - Q170552
+        - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
     - mdhn:Snake
+        - Q2102
     - mdhn:Minaret
+        - Q48356
+        - skos:exactMatch: mdhn:aat300007535, mdhn:tgm006608_Minarets
     - mdhn:Calligraphy_Inscription
+        - Q1640824
+        - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
     - mdhn:Dagger
+        - Q182780
+        - skos:exactMatch: mdhn:aat300037048
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Flower
+        - Q506
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Horse
+        - Q726
     - mdhn:Donkey
+        - Q3537778
     - mdhn:Bow_and_Arrow
+        - Q19827042
     - mdhn:LongNeckedBottle
+        - Q116274271
     - mdhn:LongNeckedJar
+        - Q2413314
+        - skos:exactMatch: mdhn:aat300045685
     - mdhn:GoldVessel
+        - Q96952903
+        - skos:exactMatch: mdhn:aat300193015
     - mdhn:Bowl
+        - Q153988
     - mdhn:Fence
+        - Q148571
+        - skos:exactMatch: mdhn:aat300005044, mdhn:tgm003920_Fences
 
 ### mdhn:Fragment_Cropped_Image: Zahhak cropped figure from f27v
 - ![ Zahhak cropped figure from f27v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-27v%2FFolio27v.jpg/978,1511,354,459/200,/0/default.jpg)
@@ -2105,16 +2985,35 @@
     - mdhn:Rock
     - mdhn:Cloude
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Horse
+        - Q726
     - mdhn:Babr_e_Bayan
+        - Q23068742
     - mdhn:Dagger
+        - Q182780
+        - skos:exactMatch: mdhn:aat300037048
     - mdhn:Cave
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
 
 ---
 
@@ -2127,18 +3026,38 @@
     - mdhn:ZahhakKillsHisOwnFather
     - mdhn:ZahhakStory
     - mdhn:Iblis
+        - skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
+        - skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
     - mdhn:Sword
+        - Q12791
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Flower
+        - Q506
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Architectural_Structure
+        - Q811979
     - mdhn:Balcony
+        - Q170552
+        - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
     - mdhn:Duck
+        - Q3736439
     - mdhn:Sea_River_Pool
+        - Q4022
     - mdhn:Pit
+        - Q23090513
 
 ### mdhn:Fragment_Cropped_Image: Mirdas cropped figure from f25v
 - ![ Mirdas cropped figure from f25v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-25v%2F25v.jpg/490,2078,403,359/200,/0/default.jpg)
@@ -2171,28 +3090,66 @@
     - mdhn:Siyavash_Story
     - mdhn:The_Fire_Trial_of_Siyavush
     - mdhn:SunShade
+        - Q1762975
+        - skos:exactMatch: mdhn:aat300428884
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Building_Ornament
+        - Q12043387
+        - skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
     - mdhn:Horse
+        - Q726
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Architectural_Structure
+        - Q811979
     - mdhn:Balcony
+        - Q170552
+        - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
     - mdhn:Rocks
+        - Q8063
     - mdhn:Horse_Spur
+        - Q740732
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Horse_Riding
+        - Q179226
     - mdhn:Fire
+        - Q3196
     - mdhn:Curtain
+        - Q49005
+        - skos:exactMatch: mdhn:aat300037564, mdhn:tgm002819_Curtain_walls
     - mdhn:Cypress
+        - Q14169641
+        - skos:exactMatch: mdhn:aat300343641
+        - skos:relatedMatch: mdhn:aat300132410
     - mdhn:Window
+        - Q35473
+        - skos:exactMatch: mdhn:aat300002944
     - mdhn:Door
+        - Q36794
+        - skos:exactMatch: mdhn:aat300002803, mdhn:tgm003230_Doors__doorways
     - mdhn:HorseStirrup
+        - Q116240973
+        - skos:exactMatch: mdhn:aat300255573
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Flower
+        - Q506
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - Calligraphy_Inscription
+        - Q1640824
+        - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
 
 ### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 168r
 - ![ Siyavush cropped figure from 168r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/1126,2504,731,947/200,/0/default.jpg)
@@ -2234,42 +3191,95 @@
     - mdhn:Siyavash_Story
     - mdhn:Siyavush_and_Rustem_Capture_Balkh
     - mdhn:Fortress
+        - Q57831
+        - skos:exactMatch: mdhn:aat300006894, mdhn:tgm004239_Forts__fortifications
     - mdhn:Sword
+        - Q12791
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Building_Ornament
+        - Q12043387
+        - skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
     - mdhn:Horse
+        - Q726
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Architectural_Structure
+        - Q811979
     - mdhn:Balcony
+        - Q170552
+        - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
     - mdhn:Rocks
+        - Q8063
     - mdhn:Horse_Spur
+        - Q740732
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Horse_Riding
+        - Q179226
     - mdhn:Bow_and_Arrow
+        - Q19827042
     - mdhn:OxHeadMace
+        - skos:broadMatch: mdhn:Mace
     - mdhn:Soldier
+        - Q4991371
+        - skos:exactMatch: mdhn:aat300185678
     - mdhn:Battle
+        - Q198
+        - skos:exactMatch: mdhn:aat300185692
     - mdhn:Body_Armour
+        - Q485027
+        - skos:exactMatch: mdhn:aat300036746
     - mdhn:Combat_Helmet
+        - Q3579211
+        - skos:exactMatch: mdhn:aat300391023
     - mdhn:Battle_Field
+        - Q4895508
+        - skos:exactMatch: mdhn:aat300000835
     - mdhn:Spear
+        - Q44475
+        - skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
     - mdhn:Shield
+        - Q131559
+        - skos:exactMatch: mdhn:aat300222454
     - mdhn:Flag
+        - Q14660
+        - skos:exactMatch: mdhn:aat300195678
     - mdhn:HorseStirrup
+        - Q116240973
+        - skos:exactMatch: mdhn:aat300255573
     - mdhn:Blowing_Horn
+        - Q2665724
+        - skos:exactMatch: mdhn:aat300426074
     - mdhn:Tamborim
+        - Q1751598
     - mdhn:Sorna
+        - Q825246
     - mdhn:Korna
     - mdhn:ShortOboe
     - mdhn:CurvedSorna
+        - Q825246
     - mdhn:GemEncrustedBelt
+        - Q134560
     - mdhn:BlueSky
+        - Q18575790
     - mdhn:Cloud
+        - Q8074
     - mdhn:AlamandKotal
     - Calligraphy_Inscription
+        - Q1640824
+        - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
     - mdhn:Bridge
+        - Q12280
+        - skos:exactMatch: mdhn:aat300007836, mdhn:tgm001333_Bridges
 
 ### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 168v
 - ![ Siyavush cropped figure from 168v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-168v%2Ffolio168v.jpg/1965,1905,316,613/200,/0/default.jpg)
@@ -2314,15 +3324,32 @@
     - mdhn:Rostams_Seventh_Labour
     - mdhn:Rock
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Babr_e_Bayan
+        - Q23068742
     - mdhn:TearingApart
     - mdhn:Dagger
+        - Q182780
+        - skos:exactMatch: mdhn:aat300037048
     - mdhn:Bow_and_Arrow
+        - Q19827042
     - mdhn:Cave
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 71a
 - ![ Rostam cropped figure from 71a ](https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/2263,2371,2254,1695/200,/0/default.jpg)
@@ -2374,18 +3401,39 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:Garshaspnameh
+        - Q6391136
+        - skos:closeMatch: mdhn:aat300404209
     - mdhn:Coffin
+        - Q184418
+        - skos:exactMatch: mdhn:aat300197585, mdhn:tgm002250_Coffins
     - mdhn:Mourning
+        - Q750652
+        - skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Cloud
+        - Q8074
     - mdhn:Horse
+        - Q726
     - mdhn:Horse_Spur
+        - Q740732
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Rock
     - mdhn:Book
+        - Q571
+        - skos:exactMatch: mdhn:aat300028051
     - mdhn:Bow_and_Arrow
+        - Q19827042
 
 ### mdhn:Fragment_Cropped_Image: Nariman cropped figure from 90v
 - ![ Nariman cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/545,2301,621,1072/200,/0/default.jpg)
@@ -2403,6 +3451,7 @@
 - ![ Carring Coffin cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/199,1570,1895,901/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Coffin
+        - Q184418
         - skos:exactMatch: mdhn:aat300197585, mdhn:tgm002250_Coffins
 - **Styles:** aat:500011001
 
@@ -2410,6 +3459,7 @@
 - ![ Mourning People 1 cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/229,1009,810,1041/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Mourning
+        - Q750652
         - skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
 - **Styles:** aat:500011001
 
@@ -2417,6 +3467,7 @@
 - ![ Mourning People 2 cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/1058,1027,1316,737/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Mourning
+        - Q750652
         - skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
 - **Styles:** aat:500011001
 
@@ -2424,6 +3475,7 @@
 - ![ Mourning People 3 cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/1277,3073,1286,1168/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Mourning
+        - Q750652
         - skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
 - **Styles:** aat:500011001
 
@@ -2431,6 +3483,7 @@
 - ![ Mourning People 4 cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/187,3088,1052,1183/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Mourning
+        - Q750652
         - skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
 - **Styles:** aat:500011001
 
@@ -2443,17 +3496,34 @@
     - mdhn:Kingdom_of_Fereydun
     - mdhn:Beheading_Iraj_By_His_Brothers
     - mdhn:Dagger
+        - Q182780
+        - skos:exactMatch: mdhn:aat300037048
     - mdhn:Combat_Helmet
+        - Q3579211
+        - skos:exactMatch: mdhn:aat300391023
     - mdhn:Rock
     - mdhn:Decapitation
+        - Q204933
     - mdhn:Clothing
+        - Q26690120
+        - skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Horse
+        - Q726
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Horse_Spur
+        - Q740732
     - mdhn:Bow_and_Arrow
+        - Q19827042
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Body_Armour
+        - Q485027
+        - skos:exactMatch: mdhn:aat300036746
     - mdhn:Flower
+        - Q506
 
 ### mdhn:Fragment_Cropped_Image: Iraj cropped figure from 119r
 - ![ Iraj cropped figure from 119r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f263/1324,3521,1709,948/200,/0/default.jpg)
@@ -2508,22 +3578,40 @@
 - **Depicts:**
     - mdhn:Kingdom_of_Keyumars
     - mdhn:Hushang_Fight_Black_Div
+        - skos:exactMatch: mdhn:aat300185692
     - mdhn:Mace
+        - Q272990
+        - skos:exactMatch: mdhn:aat300037214
     - mdhn:LeopardSkinDress
+        - Q3564428
     - mdhn:Wolf
+        - Q1698992
+        - skos:exactMatch: mdhn:aat300250132
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Rocks
+        - Q8063
     - mdhn:Cat
+        - Q146
     - mdhn:Corvus
+        - Q43365
+        - skos:exactMatch: mdhn:aat300310524
     - mdhn:Bird
+        - Q5113
     - mdhn:Leopard
+        - Q34706
     - mdhn:Lion
+        - Q140
 
 ### mdhn:Fragment_Cropped_Image: Hushang cropped figure from 1r
 - ![ Hushang cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/1509,3903,1467,1300/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Hushang
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2545,6 +3633,7 @@
 - ![ Corvus cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/751,3835,858,624/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Corvus
+        - Q43365
         - skos:exactMatch: mdhn:aat300310524
 - **Styles:** aat:500011001
 
@@ -2552,6 +3641,7 @@
 - ![ Wolf cropped from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/603,3486,1131,582/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Wolf
+        - Q1698992
         - skos:exactMatch: mdhn:aat300250132
 - **Styles:** aat:500011001
 
@@ -2559,6 +3649,7 @@
 - ![ Leopard cropped from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/3184,3614,557,780/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Leopard
+        - Q34706
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Unknown cropped from 1r
@@ -2598,20 +3689,36 @@
     - mdhn:Kingdom_of_Fereydun
     - mdhn:ZahhakStory
     - mdhn:Horse
+        - Q726
     - mdhn:Horse_Spur
+        - Q740732
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Horse_Riding
+        - Q179226
     - mdhn:Bow_and_Arrow
+        - Q19827042
     - mdhn:mdhn:OxHeadMace
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Hammer
+        - Q25294
+        - skos:exactMatch: mdhn:aat300024823, mdhn:tgm004844_Hammers
     - mdhn:Sun
     - mdhn:Nail
+        - Q37077
+        - skos:exactMatch: mdhn:aat300033565
     - mdhn:Rocks
+        - Q8063
     - mdhn:Cloud
+        - Q8074
     - mdhn:Plants
     - mdhn:Flower
+        - Q506
     - mdhn:Snake
+        - Q2102
 
 ### mdhn:Fragment_Cropped_Image: Zahhak cropped figure from f3v
 - ![ Zahhak cropped figure from f3v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/files/images/Per104_3_09034.jpg/2777,2442,1224,1324/200,/0/default.jpg)
@@ -2651,31 +3758,73 @@
     - mdhn:Tahmuras_Defeating_the_Divs
     - mdhn:TahmurasDefeatsDivs
     - mdhn:Mace
+        - Q272990
+        - skos:exactMatch: mdhn:aat300037214
     - mdhn:Shield
+        - Q131559
+        - skos:exactMatch: mdhn:aat300222454
     - mdhn:Body_Armour
+        - Q485027
+        - skos:exactMatch: mdhn:aat300036746
     - mdhn:Horse_Spur
+        - Q740732
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Horse_Riding
+        - Q179226
     - mdhn:Sword
+        - Q12791
     - mdhn:Bow_and_Arrow
+        - Q19827042
     - mdhn:Soldier
+        - Q4991371
+        - skos:exactMatch: mdhn:aat300185678
     - mdhn:Battle
+        - Q198
+        - skos:exactMatch: mdhn:aat300185692
     - mdhn:Wind
+        - Q8094
+        - skos:exactMatch: mdhn:aat300055395
     - mdhn:Cloud
+        - Q8074
     - mdhn:Horse
+        - Q726
     - mdhn:Lasso
+        - Q840507
+        - skos:exactMatch: mdhn:aat300255575
     - mdhn:Dagger
+        - Q182780
+        - skos:exactMatch: mdhn:aat300037048
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Flower
+        - Q506
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Rocks
+        - Q8063
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Bird
+        - Q5113
     - mdhn:Bird_Nest
+        - Q1137226
+        - skos:relatedMatch: mdhn:aat300429524, mdhn:tgm007038_Nests
     - mdhn:Gazzele
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Combat_Helmet
+        - Q3579211
+        - skos:exactMatch: mdhn:aat300391023
 
 ### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from 1r
 - ![ Tahmuras cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1842,4617,1505,1454/200,/0/default.jpg)
@@ -2699,6 +3848,7 @@
 - ![ Div1 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/593,5246,1453,1017/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2708,6 +3858,7 @@
 - ![ Div2 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/2121,5963,1687,577/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2717,6 +3868,7 @@
 - ![ Div3 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/3073,4101,985,1441/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2726,6 +3878,7 @@
 - ![ Div4 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1772,3974,890,1026/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2735,6 +3888,7 @@
 - ![ Div5 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1197,3582,796,1877/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2744,6 +3898,7 @@
 - ![ Divس cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/604,4003,818,1550/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2800,31 +3955,73 @@
     - mdhn:Tahmuras_Defeating_the_Divs
     - mdhn:TahmurasDefeatsDivs
     - mdhn:Mace
+        - Q272990
+        - skos:exactMatch: mdhn:aat300037214
     - mdhn:Spear
+        - Q44475
+        - skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
     - mdhn:Shield
+        - Q131559
+        - skos:exactMatch: mdhn:aat300222454
     - mdhn:Jingle
+        - Q264922
+        - skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
     - mdhn:Body_Armour
+        - Q485027
+        - skos:exactMatch: mdhn:aat300036746
     - mdhn:Horse_Spur
+        - Q740732
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Horse_Riding
+        - Q179226
     - mdhn:Sword
+        - Q12791
     - mdhn:Bow_and_Arrow
+        - Q19827042
     - mdhn:Soldier
+        - Q4991371
+        - skos:exactMatch: mdhn:aat300185678
     - mdhn:Battle
+        - Q198
+        - skos:exactMatch: mdhn:aat300185692
     - mdhn:Sorna
+        - Q825246
     - mdhn:Horse
+        - Q726
     - mdhn:Lasso
+        - Q840507
+        - skos:exactMatch: mdhn:aat300255575
     - mdhn:Dagger
+        - Q182780
+        - skos:exactMatch: mdhn:aat300037048
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Flower
+        - Q506
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Rocks
+        - Q8063
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Bird
+        - Q5113
     - mdhn:Gazzele
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Combat_Helmet
+        - Q3579211
+        - skos:exactMatch: mdhn:aat300391023
 
 ### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from 1v
 - ![ Tahmuras cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/2468,3539,1259,1337/200,/0/default.jpg)
@@ -2844,6 +4041,7 @@
 - ![ Div1 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/1714,4058,867,945/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2853,6 +4051,7 @@
 - ![ Div2 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/662,3872,1161,861/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2862,6 +4061,7 @@
 - ![ Div3 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/917,4625,858,729/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2871,6 +4071,7 @@
 - ![ Div4 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/2441,4973,792,919/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2880,6 +4081,7 @@
 - ![ Div5 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/524,1598,880,1143/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2908,18 +4110,43 @@
     - mdhn:Kingdom_of_Kay_Kavus
     - mdhn:Rostams_Seven_Labours
     - mdhn:Mace
+        - Q272990
+        - skos:exactMatch: mdhn:aat300037214
     - mdhn:StoneMace
+        - skos:broadMatch: mdhn:Mace
     - mdhn:Cave
     - mdhn:Shield
+        - Q131559
+        - skos:exactMatch: mdhn:aat300222454
     - mdhn:Jingle
+        - Q264922
+        - skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Rocks
+        - Q8063
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Flower
+        - Q506
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Turban
+        - Q2460567
+        - skos:exactMatch: mdhn:aat300046127
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Divs
+        - Q177413
+        - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+        - skos:exactMatch: mdhn:aat500011098
+        - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
 
 ### mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 1v
 - ![ Kay Kavus cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1055,4046,765,1338/200,/0/default.jpg)
@@ -2937,6 +4164,7 @@
 - ![ Div1 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/2332,1909,1028,924/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2946,6 +4174,7 @@
 - ![ Div2 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/614,1992,1028,924/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Divs
+        - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
         - skos:exactMatch: mdhn:aat500011098
         - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -3030,15 +4259,28 @@
     - mdhn:Staff_becomes_Serpent
     - mdhn:iconclass71E11641
     - mdhn:Dragon
+        - Q7559
+        - skos:exactMatch: mdhn:aat300375726
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Cloud
+        - Q8074
     - mdhn:Horse_Saddle
+        - Q192249
     - mdhn:Horse
+        - Q726
     - mdhn:Bow_and_Arrow
+        - Q19827042
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Flaming_Nimbus
+        - Q123456
     - mdhn:Veiled_Face
     - mdhn:Horse_Riding
+        - Q179226
 
 ### mdhn:Fragment_Cropped_Image: Moses cropped figure from 107v
 - ![ Moses cropped figure from 107v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_224.jpg/2121,2525,742,1616/200,/0/default.jpg)
@@ -3056,6 +4298,7 @@
 - ![ Dragon cropped figure from 107v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_224.jpg/841,3788,1866,1224/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Dragon
+        - Q7559
         - skos:exactMatch: mdhn:aat300375726
 - **Styles:** aat:500011001
 
@@ -3090,9 +4333,16 @@
     - mdhn:Story_of_Moses
     - mdhn:Qarun_swallowed_by_the_earth
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Horse
+        - Q726
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Flaming_Nimbus
+        - Q123456
     - mdhn:Veiled_Face
 
 ### mdhn:Fragment_Cropped_Image: Moses cropped figure from 134r
@@ -3111,6 +4361,7 @@
 - ![ Punishment cropped figure from 134r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_277.jpg/2049,3404,1158,1414/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Horse
+        - Q726
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: People cropped figure from 134r
@@ -3142,13 +4393,21 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:Jonah_under_the_Gourd
+        - Q2468262
     - mdhn:iconclass71V42
     - mdhn:Sea_River_Pool
+        - Q4022
     - mdhn:Rock
     - mdhn:Tree
+        - Q10884
+        - skos:exactMatch: mdhn:aat300132410
     - mdhn:Flaming_Nimbus
+        - Q123456
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Cloud
+        - Q8074
 
 ### mdhn:Fragment_Cropped_Image: Jonah cropped figure from 156r
 - ![ Jonah cropped figure from 156r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_321.jpg/2085,3427,1679,1474/200,/0/default.jpg)
@@ -3196,25 +4455,46 @@
     - mdhn:iconclass71A_PersianParadise
     - mdhn:iconclass71A32
     - mdhn:iconclass71A421
+        - skos:relatedMatch: mdhn:Adam_and_Eve_Eat_Forbidden_Fruit
     - mdhn:iconclass71A33
+        - skos:relatedMatch: mdhn:Adam_and_Eve_Iden_Paradise
     - mdhn:Adam_and_Eve_Iden_Paradise
     - mdhn:Adam
     - mdhn:Eve
     - mdhn:Jibril
     - mdhn:Iblis
+        - skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
+        - skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
     - mdhn:Angles_From_Heaven
+        - Q123456
     - mdhn:Cloud
+        - Q8074
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Sea_River_Pool
+        - Q4022
     - mdhn:Throne
+        - Q189233
+        - skos:exactMatch: mdhn:aat300038141
     - mdhn:Fruit
     - mdhn:Sea_River_Pool
+        - Q4022
     - mdhn:Flower
+        - Q506
     - mdhn:Garden_of_Eden
+        - Q19014
+        - skos:exactMatch: mdhn:sh85040949_Eden
     - mdhn:God
+        - skos:exactMatch: mdhn:sh85055517_God
     - mdhn:Flaming_Nimbus
+        - Q123456
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
 
 ### mdhn:Fragment_Cropped_Image: Adam cropped figure from 9r
 - ![ Adam cropped figure from 9r ](https://iiif.nypl.org/iiif/3/psnypl_spn_617/2111,3674,978,1798/200,/0/default.jpg)
@@ -3269,40 +4549,67 @@
     - mdhn:iconclass71A821
     - mdhn:iconclass71A822
     - mdhn:Story_of_Cain_and_Abel
+        - Q717996
     - mdhn:Cain_buries_Abel
     - mdhn:Abel
+        - Q162767
     - mdhn:Cain
+        - Q162766
     - mdhn:Cow
+        - Q11748378
     - mdhn:Blossom
+        - Q2047589
     - mdhn:Plant
+        - Q756
+        - skos:exactMatch: mdhn:aat300132360
     - mdhn:Flower
+        - Q506
     - mdhn:Cloud
+        - Q8074
     - mdhn:Leopard
+        - Q34706
     - mdhn:Gazelle
+        - Q29001815
     - mdhn:Burial
+        - Q331055
+        - skos:exactMatch: mdhn:aat300263485, mdhn:sh85018080_Burial
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Grave
+        - Q173387
+        - skos:exactMatch: mdhn:aat300005907, mdhn:tgm004713_Graves
     - mdhn:Burial
+        - Q331055
+        - skos:exactMatch: mdhn:aat300263485, mdhn:sh85018080_Burial
 
 ### mdhn:Fragment_Cropped_Image: Adam cropped figure from 15r
 - ![ Adam cropped figure from 15r ](https://iiif.nypl.org/iiif/3/57463913/3578,4066,342,340/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Abel
+        - Q162767
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Abel cropped figure from 15r
 - ![ Abel cropped figure from 15r ](https://iiif.nypl.org/iiif/3/57463913/3494,4256,383,361/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Cain
+        - Q162766
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Jibril cropped figure from 15r
 - ![ Jibril cropped figure from 15r ](https://iiif.nypl.org/iiif/3/57463913/3451,4046,1176,1845/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Abel
+        - Q162767
     - mdhn:Cain
+        - Q162766
     - mdhn:Burial
+        - Q331055
         - skos:exactMatch: mdhn:aat300263485, mdhn:sh85018080_Burial
 - **Styles:** aat:500011001
 
@@ -3310,14 +4617,18 @@
 - ![ Cow cropped teaching burial to cane from 15r ](https://iiif.nypl.org/iiif/3/57463913/1979,4951,1437,1379/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Cow
+        - Q11748378
 - **Styles:** aat:500011001
 
 ### mdhn:Text_or_Verses: Textblock1 in 15r
 - ![ Textblock1 in 15r ](https://iiif.nypl.org/iiif/3/57463913/1968,1836,3047,445/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Abel
+        - Q162767
     - mdhn:Cain
+        - Q162766
     - mdhn:Cow
+        - Q11748378
 - **Styles:** aat:300265532
 - **Persian Text:** و هابيل را گردن نهاده تا آنگاه خدای تعالی سبب کرد تا دو کلاغ بيامدند و جنگ کردند و يکی
 
@@ -3325,8 +4636,11 @@
 - ![ Textblock2 in 15r ](https://iiif.nypl.org/iiif/3/57463913/1977,6414,3115,445/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Abel
+        - Q162767
     - mdhn:Cain
+        - Q162766
     - mdhn:Cow
+        - Q11748378
 - **Styles:** aat:300265532
 - **Persian Text:** ديگری را بکشت و زمين بکاويد و کشته را در آنجا پنهان کرد قابيل گفت من از آن کلاغ کمتر نيستم 
 
@@ -3347,23 +4661,45 @@
     - mdhn:Noah
     - mdhn:Kanan
     - mdhn:Ship
+        - Q11446
     - mdhn:Horse
+        - Q726
     - mdhn:Sail
+        - Q25999
     - mdhn:Sea_River_Pool
+        - Q4022
     - mdhn:Flooding
     - mdhn:Minaret
+        - Q48356
+        - skos:exactMatch: mdhn:aat300007535, mdhn:tgm006608_Minarets
     - mdhn:Dome
+        - Q12493
+        - skos:exactMatch: mdhn:aat300001280, mdhn:tgm003212_Domes
     - mdhn:Cow
+        - Q11748378
     - mdhn:Sheep
+        - Q7368
     - mdhn:Lino
     - mdhn:Camel
+        - Q106695054
     - mdhn:Leopard
+        - Q34706
     - mdhn:Goat
+        - Q2934
     - mdhn:Gazelle
+        - Q29001815
     - mdhn:Donkey
+        - Q3537778
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Veil
+        - Q6497446
+        - skos:exactMatch: mdhn:aat300266885
 
 ### mdhn:Fragment_Cropped_Image: Noah cropped figure from 19r
 - ![ Noah cropped figure from 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/2596,2873,866,1673/200,/0/default.jpg)
@@ -3446,21 +4782,41 @@
     - mdhn:iconclass71A61
     - mdhn:Expulsion_of_Adam_and_Eve
     - mdhn:Iblis
+        - skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
+        - skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
     - mdhn:Angles_From_Heaven
+        - Q123456
     - mdhn:Peacock
+        - Q2083405
     - mdhn:Snake
+        - Q2102
     - mdhn:Adam
     - mdhn:Eve
     - mdhn:Sea_River_Pool
+        - Q4022
     - mdhn:Flower
+        - Q506
     - mdhn:Garden_of_Eden
+        - Q19014
+        - skos:exactMatch: mdhn:sh85040949_Eden
     - mdhn:God
+        - skos:exactMatch: mdhn:sh85055517_God
     - mdhn:Flaming_Nimbus
+        - Q123456
     - mdhn:Cloud
+        - Q8074
     - mdhn:Robe
+        - Q345127
+        - skos:exactMatch: mdhn:aat300209852
+        - skos:relatedMatch: mdhn:aat300212133
     - mdhn:Headgear
+        - Q14952
+        - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
     - mdhn:Balcony
+        - Q170552
+        - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
     - mdhn:Sword
+        - Q12791
 
 ### mdhn:Fragment_Cropped_Image: Adam cropped figure from 8v
 - ![ Adam cropped figure from 8v ](https://iiif.nypl.org/iiif/3/1658025/1569,3981,1045,1939/200,/0/default.jpg)
@@ -3486,18 +4842,21 @@
 - ![ Angles cropped figure from 8v ](https://iiif.nypl.org/iiif/3/1658025/1191,2950,918,1031/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Angles_From_Heaven
+        - Q123456
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Cow cropped from 8v
 - ![ Cow cropped from 8v ](https://iiif.nypl.org/iiif/3/1658025/2043,3365,1763,1035/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Peacock
+        - Q2083405
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Snake cropped from 8v
 - ![ Snake cropped from 8v ](https://iiif.nypl.org/iiif/3/1658025/2212,5535,1651,568/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Snake
+        - Q2102
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Unknown cropped from 8v
