@@ -31,6 +31,7 @@
 - **Contains:** HasPainting, HasIllumination
 - **Depicts:**
     - mdhn:Solomon_and_Queen_of_Sheba
+        - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
         - skos:closeMatch: iconclass:71I
     - mdhn:Solomon
     - mdhn:Asfi_bin_Barkhiya
@@ -203,6 +204,7 @@
 - **Contains:** HasPainting, HasIllumination
 - **Depicts:**
     - mdhn:Solomon_and_Queen_of_Sheba
+        - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
         - skos:closeMatch: iconclass:71I
     - mdhn:Queen_of_Sheba
     - mdhn:Throne
@@ -366,7 +368,11 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:ZahhakStory
+        - Q139923562
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:Fereydun_Strikes_Down_Zahhak
+        - Q138713256
+        - mdhn:isPartOf: mdhn:KingdomOfZahhak
     - mdhn:Throne
         - Q189233
         - skos:exactMatch: mdhn:aat300038141
@@ -534,7 +540,11 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:Kingdom_of_Manuchehr
+        - Q40466994
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:Fereydun_Strikes_Down_Zahhak
+        - Q138713256
+        - mdhn:isPartOf: mdhn:KingdomOfZahhak
     - mdhn:Pavilion
         - Q57661959
         - skos:exactMatch: mdhn:aat300006819, mdhn:tgm007537_Pavilions_Facilities
@@ -702,8 +712,12 @@
 - **Contains:** HasPainting, HasHalkari, HasText
 - **Depicts:**
     - mdhn:Kingdom_Of_Garshasp
+        - Q140479595
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:Rostam_Capture_The_Rakhsh_With_Lasso
+            - mdhn:isPartOf: mdhn:Kingdom_Of_Garshasp, mdhn:RostamStory
     - mdhn:RostamStory
-    - mdhn:Rostam_Capture_The_Rakhsh_With_Lasso
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:Rock
     - mdhn:Cloude
     - mdhn:Plant
@@ -787,7 +801,10 @@
 - **Contains:** HasPainting, HasHalkari, HasText
 - **Depicts:**
     - mdhn:Rostams_Seventh_Labour
+        - Q138585485
+        - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
     - mdhn:RostamStory
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:Rock
     - mdhn:Cloude
     - mdhn:Plant
@@ -1032,6 +1049,8 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:Kingdom_of_Keyumars
+        - Q138719971
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:mdhn:KeyumarsEnthroned
     - mdhn:Rocks
         - Q8063
@@ -1125,8 +1144,12 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:Kingdom_of_Keyumars
-    - mdhn:Siamak_Was_Slayin_By_Div
-        - skos:exactMatch: mdhn:aat300185692
+        - Q138719971
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:Siamak_Was_Slayin_By_Div
+            - Q139923384
+            - mdhn:isPartOf: mdhn:Kingdom_of_Keyumars
+            - skos:exactMatch: mdhn:aat300185692
     - mdhn:Jingle
         - Q264922
         - skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
@@ -1219,6 +1242,7 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:KayKavus_Encounters_Arzhang_Div_In_Mazandaran
+        - mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus
     - mdhn:AlamandKotalandKotal
         - Q140502385
         - skos:exactMatch: mdhn:aat500011096
@@ -1381,7 +1405,10 @@
 - **Contains:** HasPainting, HasHalkari, HasText
 - **Depicts:**
     - mdhn:Rostams_Seventh_Labour
+        - Q138585485
+        - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
     - mdhn:RostamStory
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:Rock
     - mdhn:Cloude
     - mdhn:Plant
@@ -1505,6 +1532,7 @@
 - **Contains:** HasPainting, HasIllumination
 - **Depicts:**
     - mdhn:Solomon_and_Queen_of_Sheba
+        - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
         - skos:closeMatch: iconclass:71I
     - mdhn:Solomon
     - mdhn:Turtle
@@ -1725,6 +1753,7 @@
 - **Contains:** HasPainting, HasIllumination
 - **Depicts:**
     - mdhn:Solomon_and_Queen_of_Sheba
+        - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
         - skos:closeMatch: iconclass:71I
     - mdhn:Queen_of_Sheba
     - mdhn:Tambourine
@@ -1951,8 +1980,12 @@
 - **Contains:** HasPainting, HasHalkari, HasText
 - **Depicts:**
     - mdhn:Kingdom_of_Keyumars
-    - mdhn:Siamak_Was_Slayin_By_Div
-        - skos:exactMatch: mdhn:aat300185692
+        - Q138719971
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:Siamak_Was_Slayin_By_Div
+            - Q139923384
+            - mdhn:isPartOf: mdhn:Kingdom_of_Keyumars
+            - skos:exactMatch: mdhn:aat300185692
     - mdhn:Divs
         - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
@@ -2042,7 +2075,10 @@
 - **Contains:** HasPainting, HasHalkari, HasText
 - **Depicts:**
     - mdhn:Kingdom_of_Fereydun
-    - mdhn:Beheading_Iraj_By_His_Brothers
+        - Q40466994
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:Beheading_Iraj_By_His_Brothers
+            - mdhn:isPartOf: mdhn:Kingdom_of_Fereydun
     - mdhn:Persian_Architecture
         - Q137133192
         - skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
@@ -2164,8 +2200,10 @@
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:500011092, aat:300033936
 - **Contains:** HasPainting, HasHalkari, HasText
 - **Depicts:**
-    - mdhn:Rustam_Slays_White_Elephant
     - mdhn:RostamStory
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:Rustam_Slays_White_Elephant
+            - mdhn:isPartOf: mdhn:RostamStory
     - mdhn:Persian_Architecture
         - Q137133192
         - skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
@@ -2345,7 +2383,10 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:Rostams_Seventh_Labour
+        - Q138585485
+        - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
     - mdhn:RostamStory
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:TearingApart
     - mdhn:Rock
     - mdhn:Plant
@@ -2432,6 +2473,8 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:KeyumarsEnthroned
+        - Q139923350
+        - mdhn:isPartOf: mdhn:Kingdom_of_Keyumars
         - skos:exactMatch: mdhn:aat300185692
     - mdhn:Royal_Court
         - Q1134237
@@ -2473,12 +2516,14 @@
 - **Contains:** HasText, HasPainting
 - **Depicts:**
     - mdhn:Tahmuras_Defeating_the_Divs
+        - Q138676508
+        - mdhn:isPartOf: mdhn:KingdomOfTahmuras
     - mdhn:TahmurasDefeatsDivs
-    - mdhn:OxHeadMace
-        - skos:broadMatch: mdhn:Mace
     - mdhn:Mace
         - Q272990
         - skos:exactMatch: mdhn:aat300037214
+        - mdhn:OxHeadMace
+            - skos:broadMatch: mdhn:Mace
     - mdhn:Divs
         - Q177413
         - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
@@ -2589,6 +2634,8 @@
 - **Contains:** HasText, HasPainting
 - **Depicts:**
     - mdhn:ZalAndRudaba
+        - Q5960418
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:Architectural_Structure
         - Q811979
     - mdhn:Turban
@@ -2720,8 +2767,14 @@
 - **Contains:** HasText, HasPainting
 - **Depicts:**
     - mdhn:Bizhan_Slaughters_the_Wild_Boars_of_Irman
-    - mdhn:KingdomOfZahhak
+        - Q138863131
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:ZahhakStory
+        - Q139923562
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:KingdomOfZahhak
+            - Q40466998
+            - mdhn:isPartOf: mdhn:ZahhakStory
     - mdhn:Horse
         - Q726
     - mdhn:Horse_Spur
@@ -2886,9 +2939,15 @@
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 - **Depicts:**
-    - mdhn:Zahhak_and_Daughters_of_Jamshid
-    - mdhn:KingdomOfZahhak
     - mdhn:ZahhakStory
+        - Q139923562
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:KingdomOfZahhak
+            - Q40466998
+            - mdhn:isPartOf: mdhn:ZahhakStory
+            - mdhn:Zahhak_and_Daughters_of_Jamshid
+                - Q138841381
+                - mdhn:isPartOf: mdhn:KingdomOfZahhak
     - mdhn:Architectural_Structure
         - Q811979
     - mdhn:Balcony
@@ -2980,7 +3039,10 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:Rostams_Seventh_Labour
+        - Q138585485
+        - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
     - mdhn:RostamStory
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:TearingApart
     - mdhn:Rock
     - mdhn:Cloude
@@ -3023,8 +3085,12 @@
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 - **Depicts:**
-    - mdhn:ZahhakKillsHisOwnFather
     - mdhn:ZahhakStory
+        - Q139923562
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:ZahhakKillsHisOwnFather
+            - Q138841520
+            - mdhn:isPartOf: mdhn:ZahhakStory
     - mdhn:Iblis
         - skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
         - skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
@@ -3088,7 +3154,10 @@
 - **Contains:** HasText, HasPainting
 - **Depicts:**
     - mdhn:Siyavash_Story
-    - mdhn:The_Fire_Trial_of_Siyavush
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:The_Fire_Trial_of_Siyavush
+            - Q140366887
+            - mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus, mdhn:Siyavash_Story
     - mdhn:SunShade
         - Q1762975
         - skos:exactMatch: mdhn:aat300428884
@@ -3189,7 +3258,10 @@
 - **Contains:** HasText, HasPainting
 - **Depicts:**
     - mdhn:Siyavash_Story
-    - mdhn:Siyavush_and_Rustem_Capture_Balkh
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:Siyavush_and_Rustem_Capture_Balkh
+            - Q140367004
+            - mdhn:isPartOf: mdhn:Siyavash_Story
     - mdhn:Fortress
         - Q57831
         - skos:exactMatch: mdhn:aat300006894, mdhn:tgm004239_Forts__fortifications
@@ -3322,6 +3394,8 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:Rostams_Seventh_Labour
+        - Q138585485
+        - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
     - mdhn:Rock
     - mdhn:Plant
         - Q756
@@ -3402,6 +3476,7 @@
 - **Depicts:**
     - mdhn:Garshaspnameh
         - Q6391136
+        - mdhn:isPartOf: mdhn:Persian_Epic_and_Mythology
         - skos:closeMatch: mdhn:aat300404209
     - mdhn:Coffin
         - Q184418
@@ -3494,7 +3569,10 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:Kingdom_of_Fereydun
-    - mdhn:Beheading_Iraj_By_His_Brothers
+        - Q40466994
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:Beheading_Iraj_By_His_Brothers
+            - mdhn:isPartOf: mdhn:Kingdom_of_Fereydun
     - mdhn:Dagger
         - Q182780
         - skos:exactMatch: mdhn:aat300037048
@@ -3577,8 +3655,12 @@
 - **Contains:** HasPainting, HasOnvan, HasText
 - **Depicts:**
     - mdhn:Kingdom_of_Keyumars
-    - mdhn:Hushang_Fight_Black_Div
-        - skos:exactMatch: mdhn:aat300185692
+        - Q138719971
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:Hushang_Fight_Black_Div
+            - Q138757163
+            - mdhn:isPartOf: mdhn:Kingdom_of_Keyumars
+            - skos:exactMatch: mdhn:aat300185692
     - mdhn:Mace
         - Q272990
         - skos:exactMatch: mdhn:aat300037214
@@ -3687,7 +3769,11 @@
 - **Contains:** HasText, HasOnvan, HasPainting
 - **Depicts:**
     - mdhn:Kingdom_of_Fereydun
+        - Q40466994
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:ZahhakStory
+        - Q139923562
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:Horse
         - Q726
     - mdhn:Horse_Spur
@@ -3756,6 +3842,8 @@
 - **Contains:** HasText, HasHalkari, HasPainting
 - **Depicts:**
     - mdhn:Tahmuras_Defeating_the_Divs
+        - Q138676508
+        - mdhn:isPartOf: mdhn:KingdomOfTahmuras
     - mdhn:TahmurasDefeatsDivs
     - mdhn:Mace
         - Q272990
@@ -3953,6 +4041,8 @@
 - **Contains:** HasText, HasHalkari, HasPainting
 - **Depicts:**
     - mdhn:Tahmuras_Defeating_the_Divs
+        - Q138676508
+        - mdhn:isPartOf: mdhn:KingdomOfTahmuras
     - mdhn:TahmurasDefeatsDivs
     - mdhn:Mace
         - Q272990
@@ -4106,14 +4196,20 @@
 - **Contains:** HasText, HasHalkari, HasPainting
 - **Depicts:**
     - mdhn:RostamStory
-    - mdhn:KayKavus_Captured_and_Blinded_in_Cave
+        - mdhn:isPartOf: mdhn:Shahnameh
     - mdhn:Kingdom_of_Kay_Kavus
-    - mdhn:Rostams_Seven_Labours
+        - Q40466974
+        - mdhn:isPartOf: mdhn:Shahnameh
+        - mdhn:KayKavus_Captured_and_Blinded_in_Cave
+            - mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus
+        - mdhn:Rostams_Seven_Labours
+            - Q4119480
+            - mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus, mdhn:RostamStory
     - mdhn:Mace
         - Q272990
         - skos:exactMatch: mdhn:aat300037214
-    - mdhn:StoneMace
-        - skos:broadMatch: mdhn:Mace
+        - mdhn:StoneMace
+            - skos:broadMatch: mdhn:Mace
     - mdhn:Cave
     - mdhn:Shield
         - Q131559
@@ -4256,8 +4352,14 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:Story_of_Moses
-    - mdhn:Staff_becomes_Serpent
+        - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
+        - mdhn:Staff_becomes_Serpent
+            - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Jewish_Mythology, mdhn:Qisas_al_Anbiya, mdhn:Story_of_Moses
+            - skos:exactMatch: mdhn:iconclass71E1164
+            - skos:relatedMatch: mdhn:iconclass71E11641, wd:Q9077
     - mdhn:iconclass71E11641
+        - skos:exactMatch: <https://iconclass.org/71E11641>
+        - skos:relatedMatch: mdhn:Staff_becomes_Serpent
     - mdhn:Dragon
         - Q7559
         - skos:exactMatch: mdhn:aat300375726
@@ -4331,7 +4433,9 @@
 - **Contains:** HasPainting, HasText
 - **Depicts:**
     - mdhn:Story_of_Moses
-    - mdhn:Qarun_swallowed_by_the_earth
+        - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
+        - mdhn:Qarun_swallowed_by_the_earth
+            - mdhn:isPartOf: mdhn:Story_of_Moses
     - mdhn:Headgear
         - Q14952
         - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
@@ -4394,7 +4498,12 @@
 - **Depicts:**
     - mdhn:Jonah_under_the_Gourd
         - Q2468262
+        - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Qisas_al_Anbiya
+        - skos:exactMatch: mdhn:iconclass71V42
+        - skos:relatedMatch: mdhn:iconclass71V, wd:Q2468262
     - mdhn:iconclass71V42
+        - skos:exactMatch: <https://iconclass.org/71V42>
+        - skos:relatedMatch: mdhn:Jonah_under_the_Gourd, wd:Q2468262
     - mdhn:Sea_River_Pool
         - Q4022
     - mdhn:Rock
@@ -4452,13 +4561,19 @@
 - **Contains:** HasText, HasPainting
 - **Depicts:**
     - mdhn:iconclass71A3
+        - skos:exactMatch: <https://iconclass.org/71A3>
     - mdhn:iconclass71A_PersianParadise
+        - skos:relatedMatch: mdhn:Adam_and_Eve_Iden_Paradise, wd:Q70899
     - mdhn:iconclass71A32
+        - skos:exactMatch: <https://iconclass.org/71A32>
     - mdhn:iconclass71A421
+        - skos:exactMatch: <https://iconclass.org/71A421>
         - skos:relatedMatch: mdhn:Adam_and_Eve_Eat_Forbidden_Fruit
     - mdhn:iconclass71A33
+        - skos:exactMatch: <https://iconclass.org/71A33>
         - skos:relatedMatch: mdhn:Adam_and_Eve_Iden_Paradise
     - mdhn:Adam_and_Eve_Iden_Paradise
+        - mdhn:isPartOf: mdhn:Qisas_al_Anbiya, mdhn:Story_of_Adam_and_Eve
     - mdhn:Adam
     - mdhn:Eve
     - mdhn:Jibril
@@ -4488,6 +4603,7 @@
         - Q19014
         - skos:exactMatch: mdhn:sh85040949_Eden
     - mdhn:God
+        - Q190
         - skos:exactMatch: mdhn:sh85055517_God
     - mdhn:Flaming_Nimbus
         - Q123456
@@ -4545,16 +4661,31 @@
 - **Contains:** HasText, HasPainting
 - **Depicts:**
     - mdhn:iconclass71A8
+        - skos:exactMatch: iconclass:71A8
+        - skos:relatedMatch: mdhn:Story_of_Cain_and_Abel
     - mdhn:iconclass71A82
+        - skos:exactMatch: <https://iconclass.org/71A82>, iconclass:71A82
     - mdhn:iconclass71A821
+        - skos:exactMatch: <https://iconclass.org/71A821>
     - mdhn:iconclass71A822
+        - skos:exactMatch: <https://iconclass.org/71A822>
     - mdhn:Story_of_Cain_and_Abel
         - Q717996
-    - mdhn:Cain_buries_Abel
+        - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology, mdhn:Qisas_al_Anbiya, mdhn:Story_of_Adam_and_Eve
+        - skos:closeMatch: mdhn:iconclass71A8
+        - skos:exactMatch: mdhn:iconclass71A8
+        - skos:relatedMatch: mdhn:iconclass71A81, mdhn:iconclass71A82, mdhn:iconclass71A83, wd:Q717996
+        - mdhn:Cain_buries_Abel
+            - mdhn:isPartOf: mdhn:Story_of_Cain_and_Abel
+            - skos:exactMatch: mdhn:iconclass71A822
     - mdhn:Abel
         - Q162767
+        - skos:exactMatch: wd:Q162767
+        - skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A81
     - mdhn:Cain
         - Q162766
+        - skos:exactMatch: wd:Q162766
+        - skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A82
     - mdhn:Cow
         - Q11748378
     - mdhn:Blossom
@@ -4592,6 +4723,8 @@
 - **Iconography Tags (elementLOUD):**
     - mdhn:Abel
         - Q162767
+        - skos:exactMatch: wd:Q162767
+        - skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A81
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Abel cropped figure from 15r
@@ -4599,6 +4732,8 @@
 - **Iconography Tags (elementLOUD):**
     - mdhn:Cain
         - Q162766
+        - skos:exactMatch: wd:Q162766
+        - skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A82
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Jibril cropped figure from 15r
@@ -4606,8 +4741,12 @@
 - **Iconography Tags (elementLOUD):**
     - mdhn:Abel
         - Q162767
+        - skos:exactMatch: wd:Q162767
+        - skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A81
     - mdhn:Cain
         - Q162766
+        - skos:exactMatch: wd:Q162766
+        - skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A82
     - mdhn:Burial
         - Q331055
         - skos:exactMatch: mdhn:aat300263485, mdhn:sh85018080_Burial
@@ -4625,8 +4764,12 @@
 - **Iconography Tags (elementLOUD):**
     - mdhn:Abel
         - Q162767
+        - skos:exactMatch: wd:Q162767
+        - skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A81
     - mdhn:Cain
         - Q162766
+        - skos:exactMatch: wd:Q162766
+        - skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A82
     - mdhn:Cow
         - Q11748378
 - **Styles:** aat:300265532
@@ -4637,8 +4780,12 @@
 - **Iconography Tags (elementLOUD):**
     - mdhn:Abel
         - Q162767
+        - skos:exactMatch: wd:Q162767
+        - skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A81
     - mdhn:Cain
         - Q162766
+        - skos:exactMatch: wd:Q162766
+        - skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A82
     - mdhn:Cow
         - Q11748378
 - **Styles:** aat:300265532
@@ -4653,12 +4800,22 @@
 - **Contains:** HasText, HasPainting
 - **Depicts:**
     - mdhn:iconclass71B3
+        - skos:exactMatch: iconclass:71B3
+        - skos:relatedMatch: wd:Q81422
     - mdhn:iconclass71B33
+        - skos:exactMatch: iconclass:71B33
     - mdhn:iconclass71B331
+        - skos:relatedMatch: mdhn:Noah_and_Family_on_the_Ark
     - mdhn:iconclass71B34
+        - skos:exactMatch: iconclass:71B34
     - mdhn:Story_of_Noah
-    - mdhn:Noah_and_Family_on_the_Ark
+        - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology, mdhn:Qisas_al_Anbiya
+        - mdhn:Noah_and_Family_on_the_Ark
+            - mdhn:isPartOf: mdhn:Story_of_Noah
+            - skos:exactMatch: mdhn:iconclass71B331
+            - skos:relatedMatch: <http://www.wikidata.org/entity/Q126553>, <http://www.wikidata.org/entity/Q81422>
     - mdhn:Noah
+        - skos:exactMatch: biblissima:Q113387
     - mdhn:Kanan
     - mdhn:Ship
         - Q11446
@@ -4705,6 +4862,7 @@
 - ![ Noah cropped figure from 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/2596,2873,866,1673/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Noah
+        - skos:exactMatch: biblissima:Q113387
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Kanan cropped figure from 19r
@@ -4745,6 +4903,7 @@
 - ![ Textblock1 in 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/1934,1736,3153,489/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Noah
+        - skos:exactMatch: biblissima:Q113387
     - mdhn:Kanan
 - **Styles:** aat:300265532
 - **Persian Text:** جهان آب گرفته بود از مشرق تا مغرب که هر کوهی که در جهان بلندتر بود چهل گز آب از او بر تر بود
@@ -4753,6 +4912,7 @@
 - ![ Textblock2 in 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/1965,6350,3124,430/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):**
     - mdhn:Noah
+        - skos:exactMatch: biblissima:Q113387
     - mdhn:Kanan
 - **Styles:** aat:300265532
 - **Persian Text:** و همه هلاک گشتند و نوح عليه السلام با قوم در کشتی درآمدند و پسران و دختران و دامادان دوازده تن
@@ -4778,9 +4938,13 @@
 - **Contains:** HasText, HasPainting
 - **Depicts:**
     - mdhn:iconclass71A5
+        - skos:exactMatch: <https://iconclass.org/71A5>
     - mdhn:iconclass71A6
+        - skos:exactMatch: <https://iconclass.org/71A6>
     - mdhn:iconclass71A61
+        - skos:exactMatch: <https://iconclass.org/71A61>
     - mdhn:Expulsion_of_Adam_and_Eve
+        - mdhn:isPartOf: mdhn:Qisas_al_Anbiya, mdhn:Story_of_Adam_and_Eve
     - mdhn:Iblis
         - skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
         - skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
@@ -4800,6 +4964,7 @@
         - Q19014
         - skos:exactMatch: mdhn:sh85040949_Eden
     - mdhn:God
+        - Q190
         - skos:exactMatch: mdhn:sh85055517_God
     - mdhn:Flaming_Nimbus
         - Q123456
