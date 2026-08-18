@@ -4178,7 +4178,7 @@ markmap:
 
 ---
 
-## Manifest: Folio 124r Rustam Seventh Courseو He Kills the White Div
+## Manifest: Folio 124r Rustam Seventh Course, He Kills the White Div
 
 ## ResourceCanvas: f.124r — Rostam Kills the White Div
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
@@ -5315,6 +5315,702 @@ markmap:
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Fereydun
+
+
+---
+
+
+
+
+# Haft Owrang Ibrahim Sultan
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Folio of Salaman and Absal
+
+## ResourceCanvas: f.182v — Folio of Salaman and Absal
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:300220539
+- **Contains:** HasOnvan, HasText, IsOpening, HasIllumination
+
+### Depicts
+
+#### mdhn:Haft_Awrang
+- Q5638440
+- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+
+##### mdhn:Salaman_and_Absal
+- Q31068219
+- mdhn:isPartOf: mdhn:Haft_Awrang
+
+
+---
+
+## Manifest: Colophon folio from the Silsilat al-dhahab
+
+## ResourceCanvas: f.4r — Colophon folio from the Silsilat al-dhahab
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710
+- **Contains:** HasText, IsColophon, HasIllumination
+
+### Depicts
+
+#### mdhn:Haft_Awrang
+- Q5638440
+- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+
+##### mdhn:Silsilat_al_Dhahab
+- mdhn:isPartOf: mdhn:Haft_Awrang
+
+
+---
+
+## Manifest: Colophon folio from the Silsilat al-dhahab
+
+## ResourceCanvas: f.37v — Colophon folio from the Silsilat al-dhahab
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:300220539, aat:300028710
+- **Contains:** HasText, IsColophon, HasIllumination
+
+### Depicts
+
+#### mdhn:Haft_Awrang
+- Q5638440
+- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+
+##### mdhn:Silsilat_al_Dhahab
+- mdhn:isPartOf: mdhn:Haft_Awrang
+
+
+---
+
+## Manifest: Colophon of Yusuf u Zulaykha
+
+## ResourceCanvas: f.7v — Colophon of Yusuf u Zulaykha
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:300220539, aat:300028710
+- **Contains:** HasText, IsColophon, HasIllumination
+
+### Depicts
+
+#### mdhn:Haft_Awrang
+- Q5638440
+- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+
+##### mdhn:Yusuf_and_Zulaikha
+- Q3350827
+- mdhn:isPartOf: mdhn:Haft_Awrang
+- skos:closeMatch: mdhn:iconclass71D
+- skos:relatedMatch: mdhn:iconclass71D2
+
+
+---
+
+## Manifest: Colophon of Salaman u Absal
+
+## ResourceCanvas: f.19r — Colophon of Yusuf u Zulaykha
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710
+- **Contains:** HasText, IsColophon, HasIllumination
+
+### Depicts
+
+#### mdhn:Haft_Awrang
+- Q5638440
+- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+
+##### mdhn:Salaman_and_Absal
+- Q31068219
+- mdhn:isPartOf: mdhn:Haft_Awrang
+
+
+---
+
+## Manifest: Majnun comes before Layli disguised as a sheep
+
+## ResourceCanvas: f.43r — Majnun comes before Layli disguised as a sheep
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
+- **Contains:** HasText, HasPainting, HasHalkari
+
+### Depicts
+
+#### mdhn:Haft_Awrang
+- Q5638440
+- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+
+##### mdhn:Leyli_and_Majnun_Jami
+- Q140301003
+- mdhn:isPartOf: mdhn:Haft_Awrang
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Tent
+- Q170544
+- skos:exactMatch: mdhn:aat300263692
+
+#### mdhn:Dog
+- Q144
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Flower
+- Q506
+
+#### mdhn:Blossom
+- Q2047589
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Goat
+- Q2934
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Sheep
+- Q7368
+- skos:broadMatch: mdhn:Animal
+
+
+---
+
+## Manifest: The Townsman Robs the Villager's Orchard
+
+## ResourceCanvas: f.37r — The Townsman Robs the Villager's Orchard ![](https://ids.si.edu/ids/iiif/FS-7258_37/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
+- **Contains:** HasText, HasPainting, HasHalkari
+
+### Depicts
+
+#### mdhn:Haft_Awrang
+- Q5638440
+- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+
+##### mdhn:Subhat_al_Abrar
+- mdhn:isPartOf: mdhn:Haft_Awrang
+
+#### mdhn:Pomegranate
+- Q13188
+- skos:exactMatch: mdhn:aat300400483
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Pine_Tree
+- Q59668787
+- skos:relatedMatch: mdhn:aat300132410
+
+#### mdhn:Cypress
+- Q14169641
+- skos:exactMatch: mdhn:aat300343641
+- skos:relatedMatch: mdhn:aat300132410
+
+#### mdhn:Persian_garden
+- Q4460
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Flower
+- Q506
+
+#### mdhn:Blossom
+- Q2047589
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Wind
+- Q8094
+- skos:exactMatch: mdhn:aat300055395
+
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Persian_Architecture
+- Q137133192
+- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
+
+#### mdhn:beggar
+- Q273283
+- skos:exactMatch: mdhn:aat300188618, mdhn:tgm000938_Beggars
+
+#### mdhn:Architectural_Structure
+- Q811979
+
+#### mdhn:Tanbur
+- Q3424319
+- skos:exactMatch: mdhn:aat300042864
+
+
+### mdhn:Fragment_Cropped_Image: Townsman cropped figure from FS-7258_37
+- ![ Townsman cropped figure from FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/1373,2600,498,665/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Villager cropped figure from FS-7258_37
+- ![ Villager cropped figure from FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/436,2532,458,845/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from FS-7258_37
+- ![ People cropped figure from FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/1310,3255,977,913/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Begger cropped figure from FS-7258_37
+- ![ Begger cropped figure from FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/2210,3246,700,848/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People in Garden cropped figure from FS-7258_37
+- ![ People in Garden cropped figure from FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/655,1040,1142,1618/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in FS-7258_37
+- ![ Textblock1 in FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/1934,683,446,322/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** هر که از فخری او گفته صفات دهنش کرده پر از حب نبات
+
+### mdhn:Text_or_Verses: Textblock2 in FS-7258_37
+- ![ Textblock2 in FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/1934,683,446,322/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** شهری القصه چو آن باغ بديد کاو نفسش بحر آگاه رسيد
+
+### mdhn:Text_or_Verses: Textblock3 in FS-7258_37
+- ![ Textblock3 in FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/1934,683,446,322/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** می نکردند از پس و از پيش نگاه همچو گرگی که فتد در رمه گاه
+
+---
+
+## Manifest: Qays(Majnun) first Glimpses Layla
+
+## ResourceCanvas: f.29r — Qays(Majnun) first Glimpses Layla
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
+- **Contains:** HasText, HasPainting, HasHalkari
+
+### Depicts
+
+#### mdhn:Haft_Awrang
+- Q5638440
+- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+
+##### mdhn:Leyli_and_Majnun_Jami
+- Q140301003
+- mdhn:isPartOf: mdhn:Haft_Awrang
+
+#### mdhn:SunShade
+- Q1762975
+- skos:exactMatch: mdhn:aat300428884
+
+#### mdhn:Book
+- Q571
+- skos:exactMatch: mdhn:aat300028051
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Tent
+- Q170544
+- skos:exactMatch: mdhn:aat300263692
+
+#### mdhn:Angles_From_Heaven
+- Q123456
+
+#### mdhn:Bowl
+- Q153988
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Flower
+- Q506
+
+#### mdhn:Blossom
+- Q2047589
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Goat
+- Q2934
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Cow
+- Q11748378
+- skos:broadMatch: mdhn:Animal
+
+
+---
+
+## Manifest: Yusuf Is rescued from the well
+
+## ResourceCanvas: f.47r — Yusuf Is rescued from the well
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
+- **Contains:** HasText, HasPainting, HasHalkari
+
+### Depicts
+
+#### mdhn:Haft_Awrang
+- Q5638440
+- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+
+##### mdhn:Yusuf_and_Zulaikha
+- Q3350827
+- mdhn:isPartOf: mdhn:Haft_Awrang
+- skos:closeMatch: mdhn:iconclass71D
+- skos:relatedMatch: mdhn:iconclass71D2
+
+#### mdhn:Water_well
+- Q43483
+- skos:exactMatch: mdhn:aat300152327
+
+#### mdhn:SunShade
+- Q1762975
+- skos:exactMatch: mdhn:aat300428884
+
+#### mdhn:Book
+- Q571
+- skos:exactMatch: mdhn:aat300028051
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Arecaceae
+- Q14080
+- skos:exactMatch: mdhn:aat300375395
+
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Horse_Saddle
+- Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
+
+#### mdhn:Flaming_Nimbus
+- Q123456
+
+#### mdhn:Tent
+- Q170544
+- skos:exactMatch: mdhn:aat300263692
+
+#### mdhn:Angles_From_Heaven
+- Q123456
+
+#### mdhn:Bowl
+- Q153988
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Flower
+- Q506
+
+#### mdhn:Blossom
+- Q2047589
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Cow
+- Q11748378
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:HandledJug
+
+#### mdhn:Cauldron
+- Q1317634
+- skos:exactMatch: mdhn:aat300196395, mdhn:tgm001798_Cauldrons
+
+
+---
+
+## Manifest: Yusuf tends his flocks
+
+## ResourceCanvas: f.2r — Yusuf tends his flocks
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
+- **Contains:** HasText, HasPainting, HasHalkari
+
+### Depicts
+
+#### mdhn:Haft_Awrang
+- Q5638440
+- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+
+##### mdhn:Yusuf_and_Zulaikha
+- Q3350827
+- mdhn:isPartOf: mdhn:Haft_Awrang
+- skos:closeMatch: mdhn:iconclass71D
+- skos:relatedMatch: mdhn:iconclass71D2
+
+#### mdhn:Wind
+- Q8094
+- skos:exactMatch: mdhn:aat300055395
+
+#### mdhn:SunShade
+- Q1762975
+- skos:exactMatch: mdhn:aat300428884
+
+#### mdhn:Tent
+- Q170544
+- skos:exactMatch: mdhn:aat300263692
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Pine_Tree
+- Q59668787
+- skos:relatedMatch: mdhn:aat300132410
+
+#### mdhn:Bird_Nest
+- Q1137226
+- skos:relatedMatch: mdhn:aat300429524, mdhn:tgm007038_Nests
+
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Goat
+- Q2934
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:headscarf
+- Q2002752
+- skos:exactMatch: mdhn:aat300256716
+
+#### mdhn:Dog
+- Q144
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Sheep
+- Q7368
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Flower
+- Q506
+
+#### mdhn:Blossom
+- Q2047589
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Cow
+- Q11748378
+- skos:broadMatch: mdhn:Animal
+
+
+---
+
+## Manifest: Yusuf gives a royal banquet in honor of his marriage
+
+## ResourceCanvas: f.2r — Yusuf gives a royal banquet in honor of his marriage ![](https://ids.si.edu/ids/iiif/FS-7238_47/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
+- **Contains:** HasText, HasPainting, HasHalkari
+
+### Depicts
+
+#### mdhn:Haft_Awrang
+- Q5638440
+- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+
+##### mdhn:Yusuf_and_Zulaikha
+- Q3350827
+- mdhn:isPartOf: mdhn:Haft_Awrang
+- skos:closeMatch: mdhn:iconclass71D
+- skos:relatedMatch: mdhn:iconclass71D2
+
+#### mdhn:Wind
+- Q8094
+- skos:exactMatch: mdhn:aat300055395
+
+#### mdhn:SunShade
+- Q1762975
+- skos:exactMatch: mdhn:aat300428884
+
+#### mdhn:Cypress
+- Q14169641
+- skos:exactMatch: mdhn:aat300343641
+- skos:relatedMatch: mdhn:aat300132410
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Sword
+- Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
+
+#### mdhn:Carpet
+- Q163446
+- skos:exactMatch: mdhn:aat300185756, mdhn:sh85020445_Carpets, mdhn:tgm009055_Rugs
+
+#### mdhn:CopperTray
+
+#### mdhn:Persian_Architecture
+- Q137133192
+- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
+
+#### mdhn:Calligraphy_Inscription
+- Q1640824
+- skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
+
+#### mdhn:Feasting
+- Q200538
+- skos:relatedMatch: mdhn:aat300073261
+
+#### mdhn:Architectural_Structure
+- Q811979
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Iwan
+- Q636232
+- skos:exactMatch: mdhn:aat300075830, mdhn:tgm110002_Iwan
+
+#### mdhn:Blossom
+- Q2047589
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Glazed_Tile
+- Q76827920
+- skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
+
+#### mdhn:WineBowl
+
+
+### mdhn:Calligraphy_Inscription: Unnamed
+- ![ Unnamed ](https://ids.si.edu/ids/iiif/FS-7238_47/1608,1015,316,116/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** سلطان ابوالفتح ابراهيم ميرزا
+- **English Text:** Soltan Abolfath Ibrahim Mirza
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Ibrahim_Sultan
 
 
 ---
