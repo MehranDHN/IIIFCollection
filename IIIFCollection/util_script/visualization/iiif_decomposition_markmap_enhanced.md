@@ -44,6 +44,13 @@ markmap:
 
 #### mdhn:Solomon
 
+#### mdhn:iconclass71I6
+- skos:exactMatch: iconclass:71I6
+- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
+
+#### mdhn:iconclass71I_PersianCourt
+- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
+
 #### mdhn:Asfi_bin_Barkhiya
 
 #### mdhn:Throne
@@ -129,6 +136,7 @@ markmap:
 
 #### mdhn:Mace
 - Q272990
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Divs
@@ -528,10 +536,13 @@ markmap:
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Dagger
 - Q182780
-- skos:exactMatch: mdhn:aat300037048
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Building_Ornament
 - Q12043387
@@ -759,10 +770,13 @@ markmap:
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Dagger
 - Q182780
-- skos:exactMatch: mdhn:aat300037048
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Building_Ornament
 - Q12043387
@@ -1103,8 +1117,11 @@ markmap:
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:TearingApart
+- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Cave
 
@@ -1527,13 +1544,17 @@ markmap:
 - Q506
 
 #### mdhn:TearingApart
+- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Mace
 - Q272990
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Lion
 - Q140
@@ -1551,6 +1572,8 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Fox
 - Q8331
@@ -1655,10 +1678,13 @@ markmap:
 
 #### mdhn:Mace
 - Q272990
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:SunShade
 - Q1762975
@@ -1677,6 +1703,8 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Horse_Head_Defence
 
@@ -1710,6 +1738,7 @@ markmap:
 
 #### mdhn:Shield
 - Q131559
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300222454
 
 #### mdhn:Horse
@@ -1720,7 +1749,8 @@ markmap:
 
 #### mdhn:Dagger
 - Q182780
-- skos:exactMatch: mdhn:aat300037048
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:GemEncrustedArmBand
 - Q680343
@@ -1886,12 +1916,16 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Babr_e_Bayan
 - Q23068742
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Cave
 
@@ -1908,9 +1942,11 @@ markmap:
 
 #### mdhn:Mace
 - Q272990
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:TearingApart
+- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Flower
 - Q506
@@ -2094,6 +2130,7 @@ markmap:
 
 #### mdhn:Mace
 - Q272990
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Divs
@@ -2636,10 +2673,13 @@ markmap:
 
 #### mdhn:Dagger
 - Q182780
-- skos:exactMatch: mdhn:aat300037048
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
@@ -2655,6 +2695,8 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -2665,6 +2707,7 @@ markmap:
 
 #### mdhn:Axe
 - Q39397
+- skos:broadMatch: mdhn:SharpEdgedWeopen
 - skos:exactMatch: mdhn:aat300036982
 
 #### mdhn:Sheild
@@ -2759,7 +2802,8 @@ markmap:
 
 #### mdhn:Dagger
 - Q182780
-- skos:exactMatch: mdhn:aat300037048
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Balcony
 - Q170552
@@ -2782,6 +2826,7 @@ markmap:
 
 #### mdhn:Decapitation
 - Q204933
+- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Clothing
 - Q26690120
@@ -2940,7 +2985,7 @@ markmap:
 - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:OxHeadMace
-- skos:broadMatch: mdhn:Mace
+- skos:broadMatch: mdhn:Mace, mdhn:Weopen
 
 #### mdhn:Clothing
 - Q26690120
@@ -3143,6 +3188,7 @@ markmap:
 - mdhn:isPartOf: mdhn:Shahnameh
 
 #### mdhn:TearingApart
+- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Rock
 
@@ -3175,10 +3221,13 @@ markmap:
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Dagger
 - Q182780
-- skos:exactMatch: mdhn:aat300037048
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
@@ -3326,10 +3375,11 @@ markmap:
 
 #### mdhn:Mace
 - Q272990
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300037214
 
 ##### mdhn:OxHeadMace
-- skos:broadMatch: mdhn:Mace
+- skos:broadMatch: mdhn:Mace, mdhn:Weopen
 
 #### mdhn:Divs
 - Q177413
@@ -3676,6 +3726,8 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -3685,6 +3737,8 @@ markmap:
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Turban
 - Q2460567
@@ -3928,7 +3982,8 @@ markmap:
 
 #### mdhn:Dagger
 - Q182780
-- skos:exactMatch: mdhn:aat300037048
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Turban
 - Q2460567
@@ -4041,6 +4096,7 @@ markmap:
 - mdhn:isPartOf: mdhn:Shahnameh
 
 #### mdhn:TearingApart
+- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Rock
 
@@ -4065,6 +4121,8 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Horse
 - Q726
@@ -4074,7 +4132,8 @@ markmap:
 
 #### mdhn:Dagger
 - Q182780
-- skos:exactMatch: mdhn:aat300037048
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Cave
 
@@ -4112,6 +4171,8 @@ markmap:
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Turban
 - Q2460567
@@ -4241,6 +4302,8 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -4346,6 +4409,8 @@ markmap:
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Turban
 - Q2460567
@@ -4385,6 +4450,8 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -4393,7 +4460,7 @@ markmap:
 - Q19827042
 
 #### mdhn:OxHeadMace
-- skos:broadMatch: mdhn:Mace
+- skos:broadMatch: mdhn:Mace, mdhn:Weopen
 
 #### mdhn:Soldier
 - Q4991371
@@ -4417,10 +4484,12 @@ markmap:
 
 #### mdhn:Spear
 - Q44475
+- skos:broadMatch: mdhn:SharpEdgedWeopen
 - skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
 
 #### mdhn:Shield
 - Q131559
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300222454
 
 #### mdhn:Flag
@@ -4544,10 +4613,12 @@ markmap:
 - Q23068742
 
 #### mdhn:TearingApart
+- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Dagger
 - Q182780
-- skos:exactMatch: mdhn:aat300037048
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
@@ -4670,6 +4741,8 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Rock
 
@@ -4771,7 +4844,8 @@ markmap:
 
 #### mdhn:Dagger
 - Q182780
-- skos:exactMatch: mdhn:aat300037048
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Combat_Helmet
 - Q3579211
@@ -4781,6 +4855,7 @@ markmap:
 
 #### mdhn:Decapitation
 - Q204933
+- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Clothing
 - Q26690120
@@ -4792,6 +4867,8 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Horse_Spur
 - Q740732
@@ -4884,6 +4961,7 @@ markmap:
 
 #### mdhn:Mace
 - Q272990
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:LeopardSkinDress
@@ -5044,6 +5122,8 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -5137,10 +5217,12 @@ markmap:
 
 #### mdhn:Mace
 - Q272990
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Shield
 - Q131559
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300222454
 
 #### mdhn:Body_Armour
@@ -5152,12 +5234,16 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
@@ -5186,7 +5272,8 @@ markmap:
 
 #### mdhn:Dagger
 - Q182780
-- skos:exactMatch: mdhn:aat300037048
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Turban
 - Q2460567
@@ -5387,14 +5474,17 @@ markmap:
 
 #### mdhn:Mace
 - Q272990
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Spear
 - Q44475
+- skos:broadMatch: mdhn:SharpEdgedWeopen
 - skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
 
 #### mdhn:Shield
 - Q131559
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300222454
 
 #### mdhn:Jingle
@@ -5410,12 +5500,16 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
@@ -5440,7 +5534,8 @@ markmap:
 
 #### mdhn:Dagger
 - Q182780
-- skos:exactMatch: mdhn:aat300037048
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Turban
 - Q2460567
@@ -5598,15 +5693,17 @@ markmap:
 
 #### mdhn:Mace
 - Q272990
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300037214
 
 ##### mdhn:StoneMace
-- skos:broadMatch: mdhn:Mace
+- skos:broadMatch: mdhn:Mace, mdhn:Weopen
 
 #### mdhn:Cave
 
 #### mdhn:Shield
 - Q131559
+- skos:broadMatch: mdhn:Weopen
 - skos:exactMatch: mdhn:aat300222454
 
 #### mdhn:Jingle
@@ -5773,6 +5870,111 @@ markmap:
 
 
 
+# Tarikhnama by Balami
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Tarikhname by Balami FS-6504_06
+
+## ResourceCanvas: f.6v — Solomon and Sheba ![](https://ids.si.edu/ids/iiif/FS-6504_06/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Solomon_and_Queen_of_Sheba
+- mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
+- skos:closeMatch: iconclass:71I
+
+#### mdhn:iconclass71I6
+- skos:exactMatch: iconclass:71I6
+- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
+
+#### mdhn:iconclass71I_PersianCourt
+- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Divs
+- Q177413
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Throne
+- Q189233
+- skos:exactMatch: mdhn:aat300038141
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:Royal_Court
+- Q1134237
+
+#### mdhn:Bird
+- Q5113
+
+
+### mdhn:Fragment_Cropped_Image: Solomon and Sheba
+- ![ Solomon and Sheba ](https://ids.si.edu/ids/iiif/FS-6504_06/134,1523,1792,1392/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Solomon
+
+##### mdhn:Queen_of_Sheba
+
+
+---
+
+
+
+
+# Report And Letter Collections
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Firman of the Emperor Aurangzeb FS-7375_24
+
+## ResourceCanvas: f.1 — Firman of the Emperor Aurangzeb ![](https://ids.si.edu/ids/iiif/FS-7375_24/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300027806, aat:500011012
+- **Contains:** HasText, HasSeal
+
+### mdhn:Seal_or_Toghra: Seal in Letter
+- ![ Seal in Letter ](https://ids.si.edu/ids/iiif/FS-7375_24/822,845,248,269/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** پادشاه غازی زيب بهادر هالم گير
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Aurangzeb
+
+
+### mdhn:Seal_or_Toghra: Seal2 in Letter
+- ![ Seal2 in Letter ](https://ids.si.edu/ids/iiif/FS-7375_24/447,859,313,254/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300195198
+- **Persian Text:** پادشاه غازی زيب بهادر هالم گير
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Aurangzeb
+
+
+---
+
+
+
+
 # Qisas al Anbiya Collection
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
@@ -5810,6 +6012,8 @@ markmap:
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse
 
 #### mdhn:Horse
 - Q726
@@ -6650,6 +6854,8 @@ markmap:
 
 #### mdhn:Sword
 - Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 
 ### mdhn:Fragment_Cropped_Image: Adam cropped figure from 8v
