@@ -5980,7 +5980,7 @@ markmap:
 
 
 ### mdhn:Fragment_Cropped_Image: Sudabeh cropped figure from 1v
-- ![ Sudabeh cropped figure from 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/414,3145,1850,1731/200,/0/default.jpg)
+- ![ Sudabeh cropped figure from 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/2287,2328,575,774/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
 #### Iconography Tags (elementLOUD)
