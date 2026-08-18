@@ -59,6 +59,7 @@ markmap:
 
 #### mdhn:Donkey
 - Q3537778
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Dragon
 - Q7559
@@ -66,12 +67,15 @@ markmap:
 
 #### mdhn:Bird
 - Q5113
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Turtle
 - Q32945370
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Mouse
 - Q83310
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250251
 
 #### mdhn:Jingle
@@ -80,41 +84,51 @@ markmap:
 
 #### mdhn:Lizard
 - Q27532
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250251
 
 #### mdhn:Scorpion
 - Q3952762
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Snake
 - Q2102
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lion
 - Q140
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Elepahant
 
 #### mdhn:Monkey
 - Q1367
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250028
 
 #### mdhn:Cow
 - Q11748378
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:harpy
 - Q113468247
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Rabbit
 - Q9394
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250218
 
 #### mdhn:Camel
 - Q106695054
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Flaming_Nimbus
 - Q123456
@@ -125,6 +139,7 @@ markmap:
 
 #### mdhn:Eurasian_Hoopoe
 - Q25247
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat5300250068
 
 #### mdhn:Throne
@@ -151,6 +166,7 @@ markmap:
 
 #### mdhn:Peacock
 - Q2083405
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Royal_Court
 - Q1134237
@@ -192,6 +208,7 @@ markmap:
 
 #### mdhn:Duck
 - Q3736439
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Sea_River_Pool
 - Q4022
@@ -278,6 +295,7 @@ markmap:
 
 ##### mdhn:Peacock
 - Q2083405
+- skos:broadMatch: mdhn:Animal
 
 
 ---
@@ -597,6 +615,7 @@ markmap:
 
 #### mdhn:Club
 - Q392326
+- skos:broadMatch: mdhn:Weopen
 
 #### mdhn:headscarf
 - Q2002752
@@ -659,6 +678,7 @@ markmap:
 
 #### mdhn:Snake
 - Q2102
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Fereydun cropped figure from f22a
@@ -751,6 +771,7 @@ markmap:
 
 #### mdhn:Rifle
 - Q124072
+- skos:broadMatch: mdhn:Firearms_Weopen, mdhn:Weopen
 - skos:exactMatch: mdhn:aat300427534, mdhn:tgm008914_Rifles
 
 #### mdhn:Pool
@@ -831,6 +852,7 @@ markmap:
 
 #### mdhn:Club
 - Q392326
+- skos:broadMatch: mdhn:Weopen
 
 #### mdhn:headscarf
 - Q2002752
@@ -893,6 +915,7 @@ markmap:
 
 #### mdhn:Snake
 - Q2102
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Zal cropped figure from 38a
@@ -989,6 +1012,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Combat_Helmet
 - Q3579211
@@ -999,6 +1023,7 @@ markmap:
 
 #### mdhn:Bird
 - Q5113
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Tree
 - Q10884
@@ -1111,6 +1136,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Babr_e_Bayan
 - Q23068742
@@ -1418,10 +1444,12 @@ markmap:
 
 #### mdhn:Tiger
 - Q19939
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300310390
 
 #### mdhn:Deer
 - Q29838690
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Headgear
 - Q14952
@@ -1440,6 +1468,7 @@ markmap:
 
 #### mdhn:Club
 - Q392326
+- skos:broadMatch: mdhn:Weopen
 
 #### mdhn:Tambourine
 - Q193666
@@ -1451,6 +1480,7 @@ markmap:
 
 #### mdhn:Goat
 - Q2934
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:LeopardSkinDress
 - Q3564428
@@ -1558,6 +1588,7 @@ markmap:
 
 #### mdhn:Lion
 - Q140
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Spur
 - Q740732
@@ -1577,6 +1608,7 @@ markmap:
 
 #### mdhn:Fox
 - Q8331
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Battle
 - Q198
@@ -1584,12 +1616,15 @@ markmap:
 
 #### mdhn:Bird
 - Q5113
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Deer
 - Q29838690
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Divs
 - Q177413
@@ -1606,6 +1641,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 13v
@@ -1717,6 +1753,8 @@ markmap:
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Body_Armour
 - Q485027
@@ -1743,9 +1781,11 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Club
 - Q392326
+- skos:broadMatch: mdhn:Weopen
 
 #### mdhn:Dagger
 - Q182780
@@ -1913,6 +1953,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Saddle
 - Q192249
@@ -2068,47 +2109,66 @@ markmap:
 
 #### mdhn:Solomon
 
+#### mdhn:iconclass71I6
+- skos:exactMatch: iconclass:71I6
+- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
+
+#### mdhn:iconclass71I_PersianCourt
+- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
+
 #### mdhn:Turtle
 - Q32945370
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Mouse
 - Q83310
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250251
 
 #### mdhn:Lizard
 - Q27532
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250251
 
 #### mdhn:Scorpion
 - Q3952762
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Snake
 - Q2102
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lion
 - Q140
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Elepahant
 
 #### mdhn:Monkey
 - Q1367
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250028
 
 #### mdhn:Cow
 - Q11748378
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Rabbit
 - Q9394
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250218
 
 #### mdhn:Camel
 - Q106695054
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Flaming_Nimbus
 - Q123456
@@ -2119,6 +2179,7 @@ markmap:
 
 #### mdhn:Eurasian_Hoopoe
 - Q25247
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat5300250068
 
 #### mdhn:Throne
@@ -2145,6 +2206,7 @@ markmap:
 
 #### mdhn:Peacock
 - Q2083405
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Royal_Court
 - Q1134237
@@ -2178,6 +2240,7 @@ markmap:
 
 #### mdhn:Duck
 - Q3736439
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Solomon cropped figure from 2v
@@ -2272,6 +2335,7 @@ markmap:
 
 ##### mdhn:Peacock
 - Q2083405
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Snake cropped figure from 2v
@@ -2282,6 +2346,7 @@ markmap:
 
 ##### mdhn:Snake
 - Q2102
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Creature cropped figure from 2v
@@ -2296,6 +2361,7 @@ markmap:
 
 ##### mdhn:Lizard
 - Q27532
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250251
 
 
@@ -2307,6 +2373,7 @@ markmap:
 
 ##### mdhn:Cow
 - Q11748378
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Boar cropped figure from 2v
@@ -2317,6 +2384,7 @@ markmap:
 
 ##### mdhn:Boar
 - Q266764
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250112
 
 
@@ -2328,6 +2396,7 @@ markmap:
 
 ##### mdhn:Scorpion
 - Q3952762
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Lion cropped figure from 2v
@@ -2338,6 +2407,7 @@ markmap:
 
 ##### mdhn:Lion
 - Q140
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Elephant cropped figure from 2v
@@ -2348,6 +2418,7 @@ markmap:
 
 ##### mdhn:Elephant
 - Q7378
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat:300250160
 
 
@@ -2425,6 +2496,7 @@ markmap:
 
 #### mdhn:Eurasian_Hoopoe
 - Q25247
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat5300250068
 
 #### mdhn:Throne
@@ -2683,6 +2755,8 @@ markmap:
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Horse_Spur
 - Q740732
@@ -2725,6 +2799,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 12v
@@ -2966,6 +3041,7 @@ markmap:
 
 #### mdhn:Elephant
 - Q7378
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat:300250160
 
 #### mdhn:Balcony
@@ -3035,6 +3111,7 @@ markmap:
 
 ##### mdhn:Elephant
 - Q7378
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat:300250160
 
 
@@ -3087,9 +3164,11 @@ markmap:
 
 #### mdhn:Bird
 - Q5113
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Duck
 - Q3736439
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Rocks
 - Q8063
@@ -3214,6 +3293,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Combat_Helmet
 - Q3579211
@@ -3231,6 +3311,8 @@ markmap:
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Cave
 
@@ -3349,12 +3431,15 @@ markmap:
 
 #### mdhn:Bird
 - Q5113
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lion
 - Q140
+- skos:broadMatch: mdhn:Animal
 
 
 ---
@@ -3408,6 +3493,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lasso
 - Q840507
@@ -3433,6 +3519,7 @@ markmap:
 
 #### mdhn:Bird
 - Q5113
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Gazzele
 
@@ -3582,6 +3669,7 @@ markmap:
 
 #### mdhn:Duck
 - Q3736439
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Pool
 - Q1501
@@ -3720,6 +3808,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Spur
 - Q740732
@@ -3734,6 +3823,8 @@ markmap:
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Sword
 - Q12791
@@ -3784,6 +3875,7 @@ markmap:
 
 ##### mdhn:Boar
 - Q266764
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250112
 
 
@@ -3876,6 +3968,7 @@ markmap:
 
 #### mdhn:Duck
 - Q3736439
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Pool
 - Q1501
@@ -3971,6 +4064,7 @@ markmap:
 
 #### mdhn:Snake
 - Q2102
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Minaret
 - Q48356
@@ -4010,12 +4104,16 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Donkey
 - Q3537778
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:LongNeckedBottle
 - Q116274271
@@ -4126,6 +4224,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Babr_e_Bayan
 - Q23068742
@@ -4206,6 +4305,7 @@ markmap:
 
 #### mdhn:Duck
 - Q3736439
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Sea_River_Pool
 - Q4022
@@ -4275,6 +4375,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Blossom
 - Q2047589
@@ -4423,6 +4524,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Blossom
 - Q2047589
@@ -4458,6 +4560,8 @@ markmap:
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:OxHeadMace
 - skos:broadMatch: mdhn:Mace, mdhn:Weopen
@@ -4622,6 +4726,8 @@ markmap:
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Cave
 
@@ -4735,6 +4841,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Spur
 - Q740732
@@ -4752,6 +4859,8 @@ markmap:
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 
 ### mdhn:Fragment_Cropped_Image: Nariman cropped figure from 90v
@@ -4864,6 +4973,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Saddle
 - Q192249
@@ -4875,6 +4985,8 @@ markmap:
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Plant
 - Q756
@@ -4969,6 +5081,7 @@ markmap:
 
 #### mdhn:Wolf
 - Q1698992
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250132
 
 #### mdhn:Divs
@@ -4982,19 +5095,24 @@ markmap:
 
 #### mdhn:Cat
 - Q146
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Corvus
 - Q43365
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300310524
 
 #### mdhn:Bird
 - Q5113
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lion
 - Q140
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Hushang cropped figure from 1r
@@ -5038,6 +5156,7 @@ markmap:
 
 ##### mdhn:Corvus
 - Q43365
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300310524
 
 
@@ -5049,6 +5168,7 @@ markmap:
 
 ##### mdhn:Wolf
 - Q1698992
+- skos:broadMatch: mdhn:Animal
 - skos:exactMatch: mdhn:aat300250132
 
 
@@ -5060,6 +5180,7 @@ markmap:
 
 ##### mdhn:Leopard
 - Q34706
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Unknown cropped from 1r
@@ -5116,6 +5237,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Spur
 - Q740732
@@ -5130,6 +5252,8 @@ markmap:
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:mdhn:OxHeadMace
 
@@ -5161,6 +5285,7 @@ markmap:
 
 #### mdhn:Snake
 - Q2102
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Zahhak cropped figure from f3v
@@ -5247,6 +5372,8 @@ markmap:
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Soldier
 - Q4991371
@@ -5265,6 +5392,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lasso
 - Q840507
@@ -5295,6 +5423,7 @@ markmap:
 
 #### mdhn:Bird
 - Q5113
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Bird_Nest
 - Q1137226
@@ -5513,6 +5642,8 @@ markmap:
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Soldier
 - Q4991371
@@ -5527,6 +5658,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lasso
 - Q840507
@@ -5557,6 +5689,7 @@ markmap:
 
 #### mdhn:Bird
 - Q5113
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Gazzele
 
@@ -5922,6 +6055,7 @@ markmap:
 
 #### mdhn:Bird
 - Q5113
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Solomon and Sheba
@@ -6017,9 +6151,12 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Robe
 - Q345127
@@ -6117,6 +6254,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Robe
 - Q345127
@@ -6155,6 +6293,7 @@ markmap:
 
 ##### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: People cropped figure from 134r
@@ -6461,6 +6600,7 @@ markmap:
 
 #### mdhn:Cow
 - Q11748378
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Blossom
 - Q2047589
@@ -6477,9 +6617,11 @@ markmap:
 
 #### mdhn:Leopard
 - Q34706
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Gazelle
 - Q29001815
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Burial
 - Q331055
@@ -6556,6 +6698,7 @@ markmap:
 
 ##### mdhn:Cow
 - Q11748378
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 15r
@@ -6577,6 +6720,7 @@ markmap:
 
 ##### mdhn:Cow
 - Q11748378
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Text_or_Verses: Textblock2 in 15r
@@ -6598,6 +6742,7 @@ markmap:
 
 ##### mdhn:Cow
 - Q11748378
+- skos:broadMatch: mdhn:Animal
 
 
 ---
@@ -6641,6 +6786,7 @@ markmap:
 
 #### mdhn:Horse
 - Q726
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Sail
 - Q25999
@@ -6660,26 +6806,33 @@ markmap:
 
 #### mdhn:Cow
 - Q11748378
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Sheep
 - Q7368
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lino
 
 #### mdhn:Camel
 - Q106695054
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Goat
 - Q2934
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Gazelle
 - Q29001815
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Donkey
 - Q3537778
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Robe
 - Q345127
@@ -6811,9 +6964,11 @@ markmap:
 
 #### mdhn:Peacock
 - Q2083405
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Snake
 - Q2102
+- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Adam
 
@@ -6905,6 +7060,7 @@ markmap:
 
 ##### mdhn:Peacock
 - Q2083405
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Snake cropped from 8v
@@ -6915,6 +7071,7 @@ markmap:
 
 ##### mdhn:Snake
 - Q2102
+- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Unknown cropped from 8v
