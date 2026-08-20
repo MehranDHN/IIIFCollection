@@ -4749,6 +4749,11 @@ markmap:
 #### mdhn:Horse_Riding
 - Q179226
 
+#### mdhn:HorseStirrup
+- Q191657
+- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
+- skos:relatedMatch: mdhn:Horse_Saddle
+
 #### mdhn:Bridge
 - Q12280
 - skos:exactMatch: mdhn:aat300007836, mdhn:tgm001333_Bridges
@@ -6958,6 +6963,80 @@ markmap:
 - **Styles:** aat:500011057, aat:300265532
 - **Persian Text:** 'گذشتن سياوش از آتش بجهت سوگند
 - **English Text:** Fire trial for passing Purity test
+
+---
+
+## Manifest: Album page in the Style of Muhammad Siyah Qalam 1
+
+## ResourceCanvas: f.1v — Muhammad Siyah Qalam 1 ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/full/200,/0/default.jpg>)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Divs
+- Q177413
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Cow
+- Q11748378
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Jingle
+- Q264922
+- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
+
+##### mdhn:Brass_Metal_Jingle
+- skos:broadMatch: mdhn:Jingle
+
+#### mdhn:Clothing
+- Q26690120
+- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
+- skos:relatedMatch: mdhn:aat300212133
+
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1065
+- ![ Div cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/616,669,1373,1642/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Men hangging cropped figure from MSS_1065
+- ![ Men hangging cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/141,1934,1291,1347/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Cow cropped figure from MSS_1065
+- ![ Cow cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/1548,913,841,1957/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in MSS_1065
+- ![ Textblock1 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/1542,349,860,175/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بهینِ همه جانور آدمیست که گوينده و پادشاه زميست
+
+### mdhn:Text_or_Verses: Textblock2 in MSS_1065
+- ![ Textblock2 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/87,323,860,175/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:**  و گر سوی کسری بود رای تو درافتد بديوان بد جای تو
+
+### mdhn:Text_or_Verses: Textblock3 in MSS_1065
+- ![ Textblock3 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/87,323,860,175/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بجز آدمی جانور نيست نيز که درد است یزدانش این هر سه نیز
+
+### mdhn:Text_or_Verses: Textblock3 in MSS_1065
+- ![ Textblock3 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/87,323,860,175/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** نرگس آن ترک جگر خواره را نيست خدنگی که جگر دوز نيست
 
 ---
 
