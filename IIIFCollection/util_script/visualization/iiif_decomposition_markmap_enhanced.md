@@ -5336,7 +5336,7 @@ markmap:
 
 #### mdhn:Haft_Awrang
 - Q5638440
-- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
 
 ##### mdhn:Salaman_and_Absal
 - Q31068219
@@ -5355,7 +5355,7 @@ markmap:
 
 #### mdhn:Haft_Awrang
 - Q5638440
-- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
 
 ##### mdhn:Silsilat_al_Dhahab
 - mdhn:isPartOf: mdhn:Haft_Awrang
@@ -5373,7 +5373,7 @@ markmap:
 
 #### mdhn:Haft_Awrang
 - Q5638440
-- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
 
 ##### mdhn:Silsilat_al_Dhahab
 - mdhn:isPartOf: mdhn:Haft_Awrang
@@ -5391,7 +5391,7 @@ markmap:
 
 #### mdhn:Haft_Awrang
 - Q5638440
-- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
 
 ##### mdhn:Yusuf_and_Zulaikha
 - Q3350827
@@ -5412,7 +5412,7 @@ markmap:
 
 #### mdhn:Haft_Awrang
 - Q5638440
-- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
 
 ##### mdhn:Salaman_and_Absal
 - Q31068219
@@ -5431,7 +5431,7 @@ markmap:
 
 #### mdhn:Haft_Awrang
 - Q5638440
-- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
 
 ##### mdhn:Leyli_and_Majnun_Jami
 - Q140301003
@@ -5501,7 +5501,7 @@ markmap:
 
 #### mdhn:Haft_Awrang
 - Q5638440
-- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
 
 ##### mdhn:Subhat_al_Abrar
 - mdhn:isPartOf: mdhn:Haft_Awrang
@@ -5628,7 +5628,7 @@ markmap:
 
 #### mdhn:Haft_Awrang
 - Q5638440
-- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
 
 ##### mdhn:Leyli_and_Majnun_Jami
 - Q140301003
@@ -5708,7 +5708,7 @@ markmap:
 
 #### mdhn:Haft_Awrang
 - Q5638440
-- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
 
 ##### mdhn:Yusuf_and_Zulaikha
 - Q3350827
@@ -5812,7 +5812,7 @@ markmap:
 
 #### mdhn:Haft_Awrang
 - Q5638440
-- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
 
 ##### mdhn:Yusuf_and_Zulaikha
 - Q3350827
@@ -5912,7 +5912,7 @@ markmap:
 
 #### mdhn:Haft_Awrang
 - Q5638440
-- mdhn:isPartOf: mdhn:Religious_Folklore_Epic_or_Mythology
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
 
 ##### mdhn:Yusuf_and_Zulaikha
 - Q3350827
