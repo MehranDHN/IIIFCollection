@@ -4727,6 +4727,10 @@ markmap:
 #### mdhn:Architectural_Structure
 - Q811979
 
+#### mdhn:Building_Ornament
+- Q12043387
+- skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+
 #### mdhn:Balcony
 - Q170552
 - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
