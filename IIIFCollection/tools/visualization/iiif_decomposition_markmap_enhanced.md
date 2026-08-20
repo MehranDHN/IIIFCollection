@@ -1604,7 +1604,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Fox
 - Q8331
@@ -1740,7 +1740,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Horse_Head_Defence
 
@@ -1958,7 +1958,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Babr_e_Bayan
 - Q23068742
@@ -2770,7 +2770,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -3816,7 +3816,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -4220,7 +4220,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Horse
 - Q726
@@ -4404,7 +4404,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -4430,8 +4430,9 @@ markmap:
 - skos:exactMatch: mdhn:aat300002803, mdhn:tgm003230_Doors__doorways
 
 #### mdhn:HorseStirrup
-- Q116240973
-- skos:exactMatch: mdhn:aat300255573
+- Q191657
+- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
+- skos:relatedMatch: mdhn:Horse_Saddle
 
 #### mdhn:Blossom
 - Q2047589
@@ -4553,7 +4554,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -4601,8 +4602,9 @@ markmap:
 - skos:exactMatch: mdhn:aat300195678
 
 #### mdhn:HorseStirrup
-- Q116240973
-- skos:exactMatch: mdhn:aat300255573
+- Q191657
+- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
+- skos:relatedMatch: mdhn:Horse_Saddle
 
 #### mdhn:Blowing_Horn
 - Q2665724
@@ -4738,7 +4740,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -4765,8 +4767,9 @@ markmap:
 - skos:exactMatch: mdhn:aat300002803, mdhn:tgm003230_Doors__doorways
 
 #### mdhn:HorseStirrup
-- Q116240973
-- skos:exactMatch: mdhn:aat300255573
+- Q191657
+- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
+- skos:relatedMatch: mdhn:Horse_Saddle
 
 #### mdhn:Sorna
 - Q825246
@@ -4789,13 +4792,13 @@ markmap:
 - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
 
 
-### mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 166r
-- ![ Kay Kavus cropped figure from 166r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/1282,1772,524,555/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Kay Khosrow cropped figure from 166r
+- ![ Kay Khosrow cropped figure from 166r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/1282,1772,524,555/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
 #### Iconography Tags (elementLOUD)
 
-##### mdhn:Kay_Kavus
+##### mdhn:KayKhosrow
 
 
 ### mdhn:Fragment_Cropped_Image: Soldiers cropped figure from 221r
@@ -4927,12 +4930,12 @@ markmap:
 ### mdhn:Calligraphy_Inscription: Inscription1 in 221r
 - ![ Inscription1 in 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/630,756,216,85/200,/0/default.jpg)
 - **Styles:** aat:300195198
-- **Persian Text:** السلطان الاعظم الخاقان الاکرم
+- **Persian Text:** رواق منظر چشم من آشيانه توست کرم نما و فرودا که خانه خانه توست
 
 ### mdhn:Calligraphy_Inscription: Inscription1 in 221r
 - ![ Inscription1 in 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/192,609,388,154/200,/0/default.jpg)
 - **Styles:** aat:300195198
-- **Persian Text:** السلطان الاعظم الخاقان الاکرم
+- **Persian Text:** جهانت به کام و فلک يار باد جهان آفرينت نگهدار باد
 
 ---
 
@@ -5107,7 +5110,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Rock
 
@@ -5236,7 +5239,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Horse_Spur
 - Q740732
@@ -5503,7 +5506,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -6001,7 +6004,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Flaming_Nimbus
 - Q123456
@@ -6314,7 +6317,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -6584,7 +6587,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Horse_Riding
 - Q179226
@@ -7101,7 +7104,7 @@ markmap:
 #### mdhn:Horse_Saddle
 - Q192249
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Horse
 - Q726
