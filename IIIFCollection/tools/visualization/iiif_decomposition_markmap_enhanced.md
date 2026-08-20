@@ -1,6 +1,6 @@
 ---
 markmap:
-  initialExpandLevel: 6
+  initialExpandLevel: 8
   maxWidth: 360
 ---
 
