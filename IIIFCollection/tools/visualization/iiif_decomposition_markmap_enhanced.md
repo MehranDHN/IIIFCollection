@@ -7033,8 +7033,8 @@ markmap:
 - **Styles:** aat:300265532
 - **Persian Text:** بجز آدمی جانور نيست نيز که درد است یزدانش این هر سه نیز
 
-### mdhn:Text_or_Verses: Textblock3 in MSS_1065
-- ![ Textblock3 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/87,323,860,175/200,/0/default.jpg)
+### mdhn:Text_or_Verses: Textblock4 in MSS_1065
+- ![ Textblock4 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/129,477,384,943/200,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** نرگس آن ترک جگر خواره را نيست خدنگی که جگر دوز نيست
 
