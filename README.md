@@ -169,6 +169,17 @@ A dynamic data visualization of the current AAT subset is maintained to help exa
 - **AAT Subset** (Art & Architecture Thesaurus) — critical for this project:
   ![AAT Subset](/IIIFCollection/images/mermaid-diagram-2026-05-21-123435.svg)
 
+## Data Visualisation Reports
+
+IIIFDexir uses reproducible Python scripts to turn its IIIF Collections, RDF/OWL ontology, controlled vocabularies, and Knowledge Graph relationships into diagrams and reports. These reports support both human exploration and machine-first analysis of collections, ResourceCanvases, ContentElements, persons, places, iconography, narrative episodes, and statistical coverage.
+
+The visualization work is documented separately so that generated artefacts can evolve without obscuring the project model described in this README:
+
+- [Data Visualisation Reorganisation Proposal](IIIFCollection/tools/visualization/PROPOSAL.md)
+- [Data Visualisation Script Guide](IIIFCollection/tools/visualization/SCRIPT_GUIDE.md)
+
+The proposal preserves the current flat script directory during migration. New names and locations should be introduced with compatibility wrappers until existing reports and workflows have been verified.
+
 #### Iconography & Narrative Episodes
 For iconographic description, the project draws directly from **Iconclass** and **IA**, creating custom entries tailored to Persian visual culture. These entries are carefully aligned with **WikiData**, **AAT** and **TGM** to avoid ambiguity.
 
