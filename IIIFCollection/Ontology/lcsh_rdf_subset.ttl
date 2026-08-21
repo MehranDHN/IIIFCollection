@@ -1,6 +1,8 @@
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
 @prefix mdhn: <http://example.com/mdhn/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 mdhn:sh85006507 a mdhn:LCSHSubject ;
     rdfs:label "Archaeology" ;
@@ -21,6 +23,65 @@ mdhn:sh85122135 a mdhn:LCSHSubject ;
 mdhn:sh85020445_Carpets a mdhn:LCSHSubject;
     rdfs:label "Carpets" ;
     mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85020445" .
+
+mdhn:sh85037378_Devil__Islam a mdhn:LCSHSubject;
+    rdfs:label "Devil--Islam" ;
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85037378" .    
+
+mdhn:sh85037376_Devil a mdhn:LCSHSubject;
+    rdfs:label "Devil" ;
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85037376" .     
+
+mdhn:sh85040949_Eden a mdhn:LCSHSubject;
+    rdfs:label "Eden" ;
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85040949" .  
+
+mdhn:sh85055517_God a mdhn:LCSHSubject;
+    rdfs:label "God" ;
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85055517" .  
+
+mdhn:sh94003288_Stirrups a mdhn:LCSHSubject;
+    rdfs:label "Stirrups" ;
+    skos:exactMatch mdhn:aat300255573 ;
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh94003288" .      
+
+mdhn:sh85035397_Daggers a mdhn:LCSHSubject;
+    rdfs:label "Daggers" ;
+    skos:exactMatch mdhn:aat300037058 ;
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85035397" . 
+
+mdhn:sh85115383_Rope a mdhn:LCSHSubject;
+    rdfs:label "Rope" ;
+    skos:exactMatch mdhn:aat300014248 ;
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85115383" .     
+
+mdhn:sh85005249_Animals a mdhn:LCSHSubject;
+    rdfs:label "Animals" ;
+    skos:exactMatch mdhn:aat300249395 ;
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85005249" .  
+
+
+mdhn:sh85016142_Bow_and_arrow a mdhn:LCSHSubject;
+    rdfs:label "Bow and arrow" ;
+    skos:exactMatch mdhn:aat300037058  ;
+    skos:closeMatch mdhn:aat300037000;
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85016142" .                         
+
+mdhn:sh85021756_Cemeteries a mdhn:LCSHSubject;
+    rdfs:label "Cemeteries" ;
+    skos:exactMatch mdhn:aat300266755;
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85021756" .
+
+mdhn:sh85131359_Swords a mdhn:LCSHSubject;
+    rdfs:label "Swords" ;
+    skos:exactMatch mdhn:aat300037048;
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85131359" .
+
+
+mdhn:sh85018080_Burial a mdhn:LCSHSubject;
+    rdfs:label "Burial" ;
+    skos:exactMatch mdhn:aat300263485;
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85018080" .           
 
 mdhn:sh85088283_Miraj a mdhn:LCSHSubject;
     rdfs:label "Muḥammad, Prophet, -632--Isrāʾ and Miʻrāj" ;
@@ -70,7 +131,18 @@ mdhn:sh87003918_Architecture_Seljuk a mdhn:LCSHSubject ;
 
 mdhn:sh85036302_Decoration_and_ornament_Seljuk a mdhn:LCSHSubject ;
     rdfs:label "Decoration and ornament, Seljuk" ;
-    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85036302" .   
+    mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85036302" . 
+
+mdhn:sh77000001_Iran_History_Seljuk_Dynasty a mdhn:LCSHSubject ;
+    rdfs:label "Iran--History--Seljuk dynasty, 1037-1194" ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:tgmURI "https://id.loc.gov/authorities/subjects/sh77000001" .     
+
+
+
+
+
+
 mdhn:sh85121390 a mdhn:LCSHSubject ;
     rdfs:label "Shīʻah" ;
     mdhn:lcshURI "https://id.loc.gov/authorities/subjects/sh85121390" . 

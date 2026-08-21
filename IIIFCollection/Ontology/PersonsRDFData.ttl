@@ -1,4 +1,5 @@
 @prefix : <http://api.stardog.com/> .
+@prefix biblissima: <https://data.biblissima.fr/entity/> .
 @prefix fhkb: <http://www.example.com/genealogy.owl#> .
 @prefix mdhn: <http://example.com/mdhn/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -8,9 +9,8 @@
 @prefix so: <https://schema.org/> .
 @prefix tgm: <http://id.loc.gov/vocabulary/graphicMaterials/> .
 @prefix tgn: <http://vocab.getty.edu/tgn/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix wd: <https://www.wikidata.org/wiki/> .
-
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 mdhn:Naser_al_Din_Shah_Qajar a fhkb:Man ;
    fhkb:hasSon mdhn:Masoud_Mirza_Zel_Ol_Soltan, 
@@ -685,7 +685,9 @@ mdhn:Nawi_Khabushani a fhkb:FictionalMan ;
 
 
 mdhn:Joseph a fhkb:Man ;
-   rdfs:label "Joseph"@en, "يوسف"@fa ;     
+   rdfs:label "Joseph"@en, "يوسف"@fa ; 
+   mdhn:saidToBeSameAs wd:Q145746;
+   mdhn:hasOccupation mdhn:Prophet;    
    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q563644" . 
 
 mdhn:Zuleika a fhkb:FictionalWoman ;
@@ -879,7 +881,7 @@ mdhn:Shuayb  a fhkb:Man ;
    mdhn:hasOccupation mdhn:Prophet;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q982867" ;
    skos:exactMatch wd:Q982867 ;
-   skos:relatedMatch mdhn:Shuaib ;                 # NarrativeEpisode
+   skos:relatedMatch mdhn:Story_of_Shuaib ;                 # NarrativeEpisode
    skos:relatedMatch mdhn:iconclass71E1 ;
    skos:relatedMatch mdhn:iconclass71E_Midian .   
 
@@ -898,7 +900,7 @@ mdhn:Cain a fhkb:Man ;
     rdfs:comment "First son of Adam and Eve; farmer who killed his brother Abel. First murderer in Biblical and Quranic tradition."@en ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q162766" ;
     skos:exactMatch wd:Q162766 ;
-    skos:relatedMatch mdhn:Cain_and_Abel ;
+    skos:relatedMatch mdhn:Story_of_Cain_and_Abel ;
     skos:relatedMatch mdhn:iconclass71A8 ;
     skos:relatedMatch mdhn:iconclass71A82 .
 
@@ -908,14 +910,44 @@ mdhn:Abel a fhkb:Man ;
     rdfs:comment "Second son of Adam and Eve; shepherd whose offering was accepted by God. First murder victim."@en ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q162767" ;
     skos:exactMatch wd:Q162767 ;
-    skos:relatedMatch mdhn:Cain_and_Abel ;
+    skos:relatedMatch mdhn:Story_of_Cain_and_Abel ;
     skos:relatedMatch mdhn:iconclass71A8 ;
     skos:relatedMatch mdhn:iconclass71A81 .
 
 mdhn:Eve  a fhkb:Woman;
    rdfs:label "Eve"@en, "حوا"@fa;
    fhkb:isSpouseOf mdhn:Adam;
-   mdhn:agentialWikiData "" .
+   mdhn:saidTobeTheSameAs mdhn:Eve_in_Islam;
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q830183" .
+
+mdhn:Eve_in_Islam  a fhkb:Woman;
+   rdfs:label "Eve"@en, "حوا در اسلام"@fa;
+   fhkb:isSpouseOf mdhn:Adam_in_Islam;
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q28956531" .   
+
+mdhn:Adam  a fhkb:Man;
+   rdfs:label "Adam"@en, "حوا"@fa;
+   fhkb:hasSon mdhn:Abel, mdhn:Cain;
+   mdhn:saidTobeTheSameAs mdhn:Adam_in_Islam;
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q70899" .   
+
+mdhn:Adam_in_Islam  a fhkb:Man;
+   rdfs:label "Adam in Islam"@en, "آدم در اسلام"@fa;
+   fhkb:hasSon mdhn:Abel, mdhn:Cain;
+   mdhn:hasOccupation mdhn:Prophet;
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q2001710" . 
+
+mdhn:Noah  a fhkb:Man;
+   rdfs:label "Noah"@en, "نوح چيامبر"@fa;
+   fhkb:hasSon mdhn:Kanan;
+   mdhn:hasOccupation mdhn:Prophet;
+   mdhn:saidToBeTheSameAs wd:Q1782672;
+   skos:exactMatch biblissima:Q113387;
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q81422" .   
+
+mdhn:Kanan  a fhkb:Man ;
+   rdfs:label "Kanan"@en, "کنعان"@fa;  
+   mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q30308913" .           
      
 
 mdhn:Khadija_bint_Khuwaylid  a fhkb:Woman ;
@@ -3391,7 +3423,12 @@ mdhn:Hud a mdhn:Man;
 mdhn:Jeremiah a mdhn:Man;
     rdfs:label "Jeremiah"@en , "ارميا پيامبر"@fa ;
     mdhn:hasOccupation mdhn:Prophet;
-    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q158825".    
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q158825". 
+
+mdhn:Salih a mdhn:Man;
+    rdfs:label "Salih"@en , "صالح پيامبر"@fa ;
+    mdhn:hasOccupation mdhn:Prophet;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q326189".           
 
 mdhn:Joshua a mdhn:Man;
     rdfs:label "Joshua"@en , "يوشع پيامبر"@fa ;
@@ -3401,7 +3438,36 @@ mdhn:Joshua a mdhn:Man;
 mdhn:Ibrahim a mdhn:Man;
     rdfs:label "Ibrahim (Abraham )"@en , "ابراهيم پيامبر"@fa ;
     mdhn:hasOccupation mdhn:Prophet;
-    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q9181".   
+    mdhn:saidToBeTheSameAs wd:Q1768161;
+    fhkb:hasSon mdhn:Ishmael, mdhn:Isaac;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q9181". 
+
+mdhn:Ishmael  a mdhn:Man;
+    rdfs:label "Ishmael"@en , "اسماعيل"@fa ;
+    mdhn:saidToBeTheSameAs wd:Q470988;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q183403".   
+
+mdhn:Isaac  a mdhn:Man;
+    rdfs:label "Isaac"@en , "اسحق"@fa ;
+    mdhn:saidToBeTheSameAs wd:Q1642480;
+    fhkb:hasSon mdhn:Jacob;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q671872". 
+
+mdhn:Jacob  a mdhn:Man;
+    rdfs:label "Jacob"@en , "يعقوب"@fa ;
+    mdhn:saidToBeTheSameAs wd:Q3331244, wd:Q2513598;
+    fhkb:hasSon mdhn:Joseph;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q289957".               
+
+mdhn:Joshua a mdhn:Man;
+    rdfs:label "Joshua"@en , "يوشع پيامبر"@fa ;
+    mdhn:hasOccupation mdhn:Prophet;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q7734".         
+
+mdhn:Ibrahim_Khalil a mdhn:Man;
+    rdfs:label "Ibrahim Khalil"@en , "ابراهيم خليل"@fa ;
+    mdhn:hasOccupation mdhn:Calligrapher;
+    mdhn:agentialWikiData "".       
 
 mdhn:Qarun a mdhn:Man;
     rdfs:label "Qarun"@en , "قارون"@fa ;
@@ -3585,7 +3651,12 @@ mdhn:Rashid_al_Din_Hamadani a fhkb:Man ;
 
 mdhn:Ghiyath_al_Din_Muhammad a mdhn:Man;
     rdfs:label "Ghiyath al-Din Muhammad"@en , "غياث الدين محمد ابن فضل الله"@fa ;
-    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q970441".  
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q970441". 
+
+
+mdhn:Muhammad_Siyah_Qalam a mdhn:Man;
+    rdfs:label "Mehmed Siyah Qalam"@en , "محمد سياه قلم"@fa ;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q2470155".       
 
 mdhn:Hagop_Kevorkian a mdhn:Man;
     rdfs:label "Hagop Kevorkian"@en , "هاگوپ کևورکیان"@fa ;
@@ -3595,9 +3666,7 @@ mdhn:Ali_Uskudari a mdhn:Man;
     rdfs:label "Ali Üsküdari"@en , "علی اسکوداری"@fa ;
     mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q112116249".    
 
-mdhn:Ibrahim_Khalil a mdhn:Man;
-    rdfs:label "Ibrahim Khalil"@en , "ابراهيم خليل"@fa ;
-    mdhn:agentialWikiData "".         
+      
 
 mdhn:Ekhtiyar_Monshi_Gonabadi a mdhn:Man;
     rdfs:label "Ekhtiyar Monshi Gonabadi"@en , "خواجه اختيار منشی گنابادی"@fa ;
@@ -3632,6 +3701,11 @@ mdhn:Haydar_Ali a mdhn:Man;
     rdfs:label "Engelbert Kaempfer"@en , "انگلبرت کامفر"@fa ;
     mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q58042". 
 
+ mdhn:Mohammad_Zaman  a mdhn:Man;
+    rdfs:label "Mohammad Zaman"@en , "محمد زمان"@fa ;
+    mdhn:hasOccupation mdhn:Painter;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q2743344".     
+
  mdhn:Erich_F_Schmidt   a mdhn:Man;
     rdfs:label "Erich F Schmidt"@en , "اريک اشميت"@fa ;
     mdhn:hasOccupation mdhn:Author, mdhn:Scientist;
@@ -3649,13 +3723,22 @@ mdhn:Black_Div_Slayer_Of_Siamak a fhkb:MaleCreature ;
 
 mdhn:Iblis a fhkb:MaleCreature ;
     rdfs:label "Iblis"@en , "ابلیس"@fa ;
+    skos:exactMatch mdhn:sh85037378_Devil__Islam, mdhn:sh85037376_Devil , biblissima:Q291817;
+    skos:relatedMatch mdhn:aat300379005, mdhn:aat300379730;
+    mdhn:saidToBeTheSameAs wd:Q35230;
+    
     mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q273101".  
 
 
 mdhn:Rakhsh a fhkb:MaleCreature ;
     rdfs:label "Rakhsh"@en , "رخش"@fa ;
     mdhn:presentInWork mdhn:Shahnameh;
-    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q630911".  
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q630911". 
+
+mdhn:Camel_o_Salih a fhkb:MaleCreature ;
+    rdfs:label "Camel Of Salih"@en , "شتر صالح"@fa ;
+    mdhn:presentInWork mdhn:Qisas_al_Anbiya;
+    mdhn:agentialWikiData "".       
 
 mdhn:Behzad_Horse a fhkb:MaleCreature ;
     rdfs:label "Behzad"@en , "بهزاد اسب سياوش"@fa ;
@@ -3700,7 +3783,12 @@ mdhn:Arzhang_Div a fhkb:MaleCreature ;
 mdhn:Akvan_Div a fhkb:MaleCreature ;
     rdfs:label "Akvan Div"@en , "اکوان ديو"@fa ;
     mdhn:presentInWork mdhn:Shahnameh;
-    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q85740335".      
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q85740335".
+
+mdhn:Kharozan_Div a fhkb:MaleCreature ;
+    rdfs:label "Kharozan Div"@en , "خروزان  ديو"@fa ;
+    mdhn:presentInWork mdhn:Shahnameh;
+    mdhn:agentialWikiData "https://www.wikidata.org/wiki/Q85969949".            
 
 mdhn:Olad_Div a fhkb:MaleCreature ;
     rdfs:label "Olad Div"@en , "اولاد ديو مرزبان"@fa ;

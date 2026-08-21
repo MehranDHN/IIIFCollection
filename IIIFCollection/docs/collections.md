@@ -174,6 +174,8 @@
      - [Asarol Baghie Or.Ms.161 Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/ChronologyofNationsCollection.json)  
      - [Nizami Ganjavi Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/KhamseCollection.json) 
      - [Qisas al Anbiya Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/QisasalAnbiyaCollection.json)
+       - [Qisas al-Anbiyâ Persian MS. 1 NYPL](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/Qisas_al_Anbiya_PersianMS1Collection.json) 
+       - [Qisas al-Anbiyâ Persian MS. 46 NYPL](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/Qisas_al_Anbiya_PersianMS46Collection.json)             
      - [Saadi Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/SaadiCollection.json)
      - [Shahnama Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/ShahnamaCollection.json)
        - [Juki Shahnama](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/JukiShahnamaCollection.json)       

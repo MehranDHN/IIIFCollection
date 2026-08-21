@@ -1,5 +1,5 @@
-@prefix fhkb: <http://www.example.com/genealogy.owl#> .
 @prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix fhkb: <http://www.example.com/genealogy.owl#> .
 @prefix mdhn: <http://example.com/mdhn/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -11,6 +11,7 @@
 @prefix wd: <https://www.wikidata.org/wiki/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix iconclass: <https://iconclass.org/> .
+@prefix biblissima: <https://data.biblissima.fr/entity/> .
 
 #################################################################
 # iconography_RDF.ttl
@@ -96,6 +97,18 @@ mdhn:Persian_Architecture a mdhn:ArchitecturalConceptOrElement ;
    skos:exactMatch mdhn:aat500011068, mdhn:tgm000469_Architecture;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q137133192" .
 
+mdhn:Bricks a mdhn:ArchitecturalConceptOrElement ;
+   rdfs:label "Bricks"@en, "آجر"@fa;
+   rdfs:comment "block or a single unit of a ceramic material used in masonry construction" ;
+   skos:exactMatch mdhn:aat300010463, mdhn:tgm001324_Bricks;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40089" .  
+
+mdhn:Rope a mdhn:ArchitecturalConceptOrElement ;
+   rdfs:label "Rope"@en, "طناب"@fa;
+   rdfs:comment "long, flexible, and strong object, usually round in shape, made of threads, strands, or filaments twisted or braided together" ;
+   skos:exactMatch mdhn:aat300014248, mdhn:sh85115383_Rope;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q31029" .      
+
 
 
 
@@ -125,6 +138,11 @@ mdhn:Illuminated_Headpiece a mdhn:Manuscript_Processing ;
    skos:exactMatch mdhn:aat500011053;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3071780" .  
 
+mdhn:Linguistic_Flag_or_Sign a mdhn:Manuscript_Processing ;
+   rdfs:label "Linguistic Content on Flag or Other surface"@en, "متن روی پرچم يا ساير سطوح"@fa;
+   rdfs:comment "a calligraphic text in a Fkag or other type of surfaces" ;
+   mdhn:icWikiDataURL "" .    
+
 mdhn:Dome a mdhn:ArchitecturalConceptOrElement ;
    rdfs:label "Dome"@en, "گنبد"@fa;
    skos:exactMatch mdhn:aat300001280 , mdhn:tgm003212_Domes;
@@ -132,7 +150,13 @@ mdhn:Dome a mdhn:ArchitecturalConceptOrElement ;
 
 mdhn:Daraygah a mdhn:ArchitecturalConceptOrElement ;
    rdfs:label "Daraygah"@en, "درآيگاه"@fa;
-   mdhn:icWikiDataURL "" .        
+   mdhn:icWikiDataURL "" .
+
+mdhn:Oar a mdhn:ArchitecturalConceptOrElement ;
+   rdfs:label "Oar"@en, "پارو"@fa;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q2003749" .       
+
+        
 
 mdhn:Minaret a mdhn:ArchitecturalConceptOrElement ;
    rdfs:label "Minaret"@en, "مناره"@fa;
@@ -165,32 +189,43 @@ mdhn:howdah a mdhn:TravelsAndTransportation ;
 mdhn:Divs a mdhn:MythicalAnimalsOrMonsters ;
    rdfs:label "Divs"@en, "دیوها"@fa;
    skos:exactMatch mdhn:aat500011098;
+   skos:relatedMatch mdhn:aat300379730, mdhn:tgm002979_Demons;
+   skos:closeMatch mdhn:Devil, mdhn:IblisOrDeamons;
    rdfs:comment "Mythical creatures" ;
-   mdhn:icWikiDataURL "" . 
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q177413" . 
+
+mdhn:Devil a mdhn:MythicalAnimalsOrMonsters ;
+   rdfs:label "Devil"@en, "ابليس يا اهريمن"@fa;
+   rdfs:comment "a type of supernatural creature in Persian mythology" ;
+   mdhn:icWikiDataURL "Q6674" .     
 
 mdhn:IblisOrDeamons a mdhn:MythicalAnimalsOrMonsters ;
-   rdfs:label "Divs"@en, "ابليس يا اهريمن"@fa;
+   rdfs:label "Iblis"@en, "ابليس يا اهريمن"@fa;
    rdfs:comment "a type of supernatural creature in Persian mythology" ;
    mdhn:icWikiDataURL "" .     
 
 
+mdhn:Weopen a mdhn:BattleSignAndEquipment ;
+   rdfs:label "Weopen"@en, "جنگ افزار"@fa;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q124078422" .  
 
-mdhn:OxHeadMace a mdhn:BattleSignAndEquipment ;
-   rdfs:label "Ox-head Mace"@en, "گرز گاو سر"@fa;
-   mdhn:icWikiDataURL "" . #36v  
+mdhn:SharpEdgedWeopen a mdhn:BattleSignAndEquipment ;
+   rdfs:label "Weopen"@en, "جنگ افزار با لبه تيز"@fa;
+   skos:broadMatch mdhn:Weopen;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q44475" .    
 
-mdhn:ChainedMace a mdhn:BattleSignAndEquipment ;
-   rdfs:label "Chained Mace"@en, "گرز  زنجيردار"@fa;
-   mdhn:icWikiDataURL "" . #138r 
 
 mdhn:Spear a mdhn:BattleSignAndEquipment ;
    rdfs:label "Spear"@en, "نيزه"@fa;
    skos:exactMatch mdhn:aat300037038 , mdhn:tgm009912_Spears;
+   skos:broadMatch mdhn:SharpEdgedWeopen;   
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q44475" .   
 
 mdhn:Sword a mdhn:BattleSignAndEquipment ;
    rdfs:label "Sword"@en, "شمشير"@fa;
    rdfs:comment "a bladed weapon used for cutting or thrusting" ;
+   skos:exactMatch mdhn:aat300037048, mdhn:sh85131359_Swords , biblissima:Q294911;
+   skos:broadMatch mdhn:SharpEdgedWeopen;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q12791" .   
 
 mdhn:Horse_Spur a mdhn:TravelsAndTransportation ;
@@ -204,6 +239,8 @@ mdhn:Horse_Head_Defence a mdhn:TravelsAndTransportation ;
 
 mdhn:Horse_Saddle a mdhn:TravelsAndTransportation ;
    rdfs:label "Horse Saddle"@en, "زین اسب"@fa;
+   skos:exactMatch mdhn:aat300212972, mdhn:tgm009095_Saddles;
+   skos:relatedMatch mdhn:Horse , mdhn:HorseStirrup;
    rdfs:comment "a supportive structure for a rider or other load, fastened to an animal's back by a girth" ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q192249" .
 
@@ -213,14 +250,22 @@ mdhn:Horse_Riding a mdhn:TravelsAndTransportation ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q179226" .    
 
 mdhn:Bow_and_Arrow a mdhn:BattleSignAndEquipment ;
-   rdfs:label "Bow and Arrow"@en, "کمان و پیکار"@fa;
+   rdfs:label "Bow and Arrow"@en, "کمان و پيکان"@fa;
    rdfs:comment "a pair of a bow and an arrow" ;
+   skos:broadMatch mdhn:Weopen;
+   skos:closeMatch mdhn:aat300037000;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q19827042" . 
 
 mdhn:Boat a mdhn:TravelsAndTransportation ;
    rdfs:label "Boat"@en, "قایق"@fa;
    rdfs:comment "a small vessel for traveling on water, propelled by oars, sails, or an engine" ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q35872" . 
+
+mdhn:Animal  a mdhn:TravelsAndTransportation ;
+   rdfs:label "Animal"@en, "حيوانات"@fa;
+   rdfs:comment "kingdom of multicellular eukaryotic organisms" ;
+   skos:exactMatch mdhn:aat300249395, mdhn:sh85005249_Animals ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q729" . 
 
 mdhn:Ship a mdhn:TravelsAndTransportation ;
    rdfs:label "Ship"@en, "کشتی"@fa;
@@ -231,7 +276,10 @@ mdhn:Sail a mdhn:TravelsAndTransportation ;
    rdfs:label "sail"@en, "بادبان"@fa;
    rdfs:comment "a piece of material extended on a mast to catch the wind and propel a boat or ship" ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q25999" . 
-          
+
+mdhn:Flooding a mdhn:TravelsAndTransportation ;
+   rdfs:label "Flooding"@en, "غرق شدن"@fa;
+   mdhn:icWikiDataURL "" .           
 
 mdhn:Sea_River_Pool a mdhn:NaturalElement ;
    rdfs:label "Sea/River/Pool"@en, "دریا/رودخانه/استخر"@fa;
@@ -259,7 +307,7 @@ mdhn:Cave a mdhn:NaturalElement ;
 
 mdhn:Feasting a mdhn:MonarchOrHistoricalCeremony ;
     rdfs:label "Feasting"@en , "بزم"@fa ;
-    skos:relatedMatch mdhn:300073261;
+    skos:relatedMatch mdhn:aat300073261;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q200538" .  
 
 mdhn:Soldier a mdhn:BattleSignAndEquipment;
@@ -269,10 +317,21 @@ mdhn:Soldier a mdhn:BattleSignAndEquipment;
 
 mdhn:Rifle a mdhn:BattleSignAndEquipment;
     rdfs:label "Rifle"@en , "تفنگ"@fa ;
-    skos:exactMatch mdhn:aat300427534, mdhn:tgm008914_Rifles ;
+    skos:broadMatch mdhn:Firearms_Weopen, mdhn:Weopen;    
+    skos:exactMatch mdhn:aat300427534, mdhn:tgm008914_Rifles, mdhn:tgm008914_Rifles;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q124072" .       
 
+mdhn:Firearms_Weopen a mdhn:BattleSignAndEquipment ;
+    rdfs:label "Firearms_Weopen"@en , "اسلحه آتشين(باروتی)"@fa ;
+    skos:broadMatch mdhn:Weopen;
+    skos:exactMatch mdhn:aat300037148, iconclass:45C16;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q12796" .
 
+mdhn:Cannon  a mdhn:BattleSignAndEquipment ;
+    rdfs:label "cannon "@en , "توپ (سلاح)"@fa ;
+    skos:broadMatch mdhn:Weopen;
+    skos:exactMatch mdhn:aat300036936;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q12796" .    
 
 mdhn:Derafsh_Kaviani a mdhn:BattleSignAndEquipment ;
     rdfs:label "Derafsh Kaviani"@en , "درفش کاويانی"@fa ;
@@ -370,6 +429,7 @@ mdhn:Battle a mdhn:BattleSignAndEquipment  ;
 mdhn:Duel a mdhn:BattleSignAndEquipment  ;
     rdfs:label "Duel"@en , "دوئل"@fa ;
     skos:exactMatch mdhn:aat300230815 ;
+    skos:broadMatch mdhn:Battle;   
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q191503" .     
 
 mdhn:Battle_Field a mdhn:BattleSignAndEquipment ;
@@ -379,12 +439,17 @@ mdhn:Battle_Field a mdhn:BattleSignAndEquipment ;
 
 mdhn:Decapitation a mdhn:BattleSignAndEquipment  ;
     rdfs:label "Decapitation"@en , "بريدن سر"@fa ;
+    skos:broadMatch mdhn:Murder;     
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q204933" .   
 
 mdhn:TearingApart a mdhn:BattleSignAndEquipment  ;
     rdfs:label "TearingApart"@en , "دريدن"@fa ;
+    skos:broadMatch mdhn:Murder; 
     mdhn:icWikiDataURL "" .       
      
+mdhn:Murder a mdhn:BattleSignAndEquipment  ;
+    rdfs:label "Murder"@en , "قتل"@fa ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q132821" .     
 
 mdhn:Enthronement a mdhn:MonarchOrHistoricalCeremony ;
     rdfs:label "Enthronement"@en , "تاجگذاری"@fa ;
@@ -422,16 +487,37 @@ mdhn:Mace a mdhn:BattleSignAndEquipment ;
    rdfs:label "Mace"@en, "گرز"@fa;
    skos:exactMatch mdhn:aat300037214 ;
    rdfs:comment "a type of blunt weapon that is typically made of metal and has a heavy head on a solid shaft" ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q272990" .    
+   skos:broadMatch mdhn:Weopen;   
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q272990" . 
+
+mdhn:OxHeadMace a mdhn:BattleSignAndEquipment ;
+   rdfs:label "Ox-head Mace"@en, "گرز گاو سر"@fa;
+   skos:broadMatch mdhn:Mace;  
+   skos:broadMatch mdhn:Weopen;    
+   mdhn:icWikiDataURL "" . #36v  
+
+mdhn:ChainedMace a mdhn:BattleSignAndEquipment ;
+   rdfs:label "Chained Mace"@en, "گرز  زنجيردار"@fa;
+   skos:broadMatch mdhn:Mace;  
+   skos:broadMatch mdhn:Weopen;      
+   mdhn:icWikiDataURL "" . #138r  
+
+mdhn:StoneMace a mdhn:BattleSignAndEquipment ;
+   rdfs:label "Stone Mace"@en, "گرز  سنگی"@fa;
+   skos:broadMatch mdhn:Mace;     
+   skos:broadMatch mdhn:Weopen;
+   mdhn:icWikiDataURL "" . #138r           
 
 mdhn:Spear a mdhn:BattleSignAndEquipment ;
       rdfs:label "Spear"@en , "نيزه"@fa ;
       skos:exactMatch mdhn:aat300037033 ;
+      skos:broadMatch mdhn:SharpEdgedWeopen;
       mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q44475" . 
 
 mdhn:Shield a mdhn:BattleSignAndEquipment ;
     rdfs:label "Shield"@en , "سپر"@fa ;
     skos:exactMatch mdhn:aat300222454 ;
+    skos:broadMatch mdhn:Weopen;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q131559" .    
 
 mdhn:Horse_Armour a mdhn:BattleSignAndEquipment  ;
@@ -443,16 +529,25 @@ mdhn:Horse_Armour a mdhn:BattleSignAndEquipment  ;
 mdhn:Axe a mdhn:BattleSignAndEquipment  ;
     rdfs:label "Axe"@en , "تبر"@fa ;
     skos:exactMatch mdhn:aat300036982 ;
+    skos:broadMatch mdhn:SharpEdgedWeopen;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q39397" .
 
 mdhn:Club a mdhn:BattleSignAndEquipment  ;
     rdfs:label "Club"@en , "چوبدست"@fa ;
+    skos:broadMatch mdhn:Weopen;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q392326" .    
 
 mdhn:Dagger a mdhn:BattleSignAndEquipment  ;
     rdfs:label "Dagger"@en , "خنجر"@fa ;
-    skos:exactMatch mdhn:aat300037048 ;
+    skos:exactMatch mdhn:aat300037058, mdhn:sh85035397_Daggers, biblissima:Q320290 ;
+    skos:broadMatch mdhn:SharpEdgedWeopen;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q182780" .  
+
+mdhn:Knives a mdhn:BattleSignAndEquipment  ;
+    rdfs:label "Knives"@en , "انواع چاقو"@fa ;
+    skos:exactMatch mdhn:aat300024668;
+    skos:broadMatch mdhn:SharpEdgedWeopen;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q32489" .      
 
 mdhn:Flag a mdhn:BattleSignAndEquipment  ;
      rdfs:label "Flag"@en , "پرچم/بيرق"@fa ;
@@ -461,8 +556,9 @@ mdhn:Flag a mdhn:BattleSignAndEquipment  ;
 
 mdhn:HorseStirrup a mdhn:TravelsAndTransportation  ;
     rdfs:label "Horse Stirrup"@en , "رکاب"@fa ;
-    skos:exactMatch mdhn:aat300255573 ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q116240973" .
+    skos:exactMatch mdhn:aat300255573, mdhn:sh94003288_Stirrups ;
+    skos:relatedMatch mdhn:Horse_Saddle;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q191657" .
        
 
 mdhn:Blowing_Horn a mdhn:BattleSignAndEquipment;
@@ -650,7 +746,7 @@ mdhn:Wind a mdhn:NaturalElement ;
 
 mdhn:Pomegranate a mdhn:NaturalElement ;
     rdfs:label "pomegranate"@en , "انار"@fa ;
-    skos:exactMatch mdhn:aa300400483 ;
+    skos:exactMatch mdhn:aat300400483 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q13188" .
             
 
@@ -661,14 +757,17 @@ mdhn:Bird_Nest a mdhn:NaturalElement ;
 
 mdhn:Lion a mdhn:Animals ;
     rdfs:label "Lion"@en , "شیر"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140" . 
 
 mdhn:Leopard a mdhn:Animals ;
     rdfs:label "Leopard"@en , "پلنگ"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q34706" .   
 
 mdhn:Cat a mdhn:Animals ;
     rdfs:label "Cat"@en , "گربه"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q146" .   
 
 mdhn:harpy a mdhn:MythicalAnimalsOrMonsters ;
@@ -677,61 +776,75 @@ mdhn:harpy a mdhn:MythicalAnimalsOrMonsters ;
      
 mdhn:Wolf a mdhn:Animals ;
     rdfs:label "Wolf"@en , "گرگ"@fa ;
-    skos:exactMatch mdhn:aa300250132;
+    skos:exactMatch mdhn:aat300250132;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1698992" .  
 
 mdhn:Corvus a mdhn:Animals ;
     rdfs:label "Corvus"@en , "کلاغ"@fa ;
-    skos:exactMatch mdhn:aa300310524;
+    skos:exactMatch mdhn:aat300310524;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q43365" .           
 
 mdhn:Fox a mdhn:Animals ;
     rdfs:label "Fox"@en , "روباه"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q8331" .              
 
 mdhn:Bird a mdhn:Animals  ;
     rdfs:label "Bird"@en , "پرندگان"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5113" .
 
 mdhn:Deer a mdhn:Animals ;
     rdfs:label "Deer"@en , "گوزن"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q29838690" .
 
 mdhn:Duck a mdhn:Animals ;
     rdfs:label "Duck"@en , "اردک"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3736439" . 
      
 
 mdhn:Donkey a mdhn:Animals, mdhn:TravelsAndTransportation ;
     rdfs:label "Donkey"@en , "الاغ"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3537778" .      
 
 mdhn:Gazelle a mdhn:Animals ;
     rdfs:label "Gazelle"@en , "آهو"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q29001815" . 
 
 mdhn:Camel a mdhn:Animals, mdhn:TravelsAndTransportation ;
     rdfs:label "Camel"@en , "شتر"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q106695054" . 
 
 mdhn:Sheep a mdhn:Animals ;
     rdfs:label "Sheep"@en , "گوسفند"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q7368" . 
 
 mdhn:Cow a mdhn:Animals ;
     rdfs:label "Cow"@en , "گاو"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q11748378" . 
 
 mdhn:Snake a mdhn:Animals ;
     rdfs:label "Snake"@en , "مار"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q2102" . 
 
 mdhn:Dog a mdhn:Animals ;
     rdfs:label "Dog"@en , "سگ"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q144" .
 
 mdhn:Horse a mdhn:Animals, mdhn:TravelsAndTransportation ;
     rdfs:label "Horse"@en , "اسب"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q726" .
 
 mdhn:Bridge a mdhn:ArchitecturalConceptOrElement, mdhn:TravelsAndTransportation ;
@@ -743,6 +856,7 @@ mdhn:Bridge a mdhn:ArchitecturalConceptOrElement, mdhn:TravelsAndTransportation 
 
 mdhn:Goat a mdhn:Animals ;
     rdfs:label "Goat"@en , "بز"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q2934" .  
 
 mdhn:Simurgh a mdhn:MythicalAnimalsOrMonsters ;
@@ -753,11 +867,13 @@ mdhn:Simurgh a mdhn:MythicalAnimalsOrMonsters ;
 mdhn:Eurasian_Hoopoe a mdhn:Animals ;
     rdfs:label "Eurasian Hoopoe"@en , "هدهد"@fa ;
     skos:exactMatch mdhn:aat5300250068;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q25247" .
 
 mdhn:Buraq a mdhn:MythicalAnimalsOrMonsters ;
     rdfs:label "Buraq"@en , "براق"@fa ;
-    skos:relatedMatch mdhn:sh2020006752_Winged_Horses;
+    skos:exactMatch biblissima:Q297446, mdhn:sh2020006752_Winged_Horses;
+    skos:relatedMatch mdhn:Ascension_of_the_Prophet;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q332242" .
 
 mdhn:Dragon a mdhn:MythicalAnimalsOrMonsters ;
@@ -767,6 +883,7 @@ mdhn:Dragon a mdhn:MythicalAnimalsOrMonsters ;
 
 mdhn:Peacock a mdhn:Animals ;
     rdfs:label "peacock"@en , "طاووس"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q2083405" .
      
             
@@ -774,40 +891,48 @@ mdhn:Peacock a mdhn:Animals ;
 mdhn:Tiger a mdhn:Animals ;
     rdfs:label "Tiger"@en , "ببر"@fa ;
     skos:exactMatch mdhn:aat300310390;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q19939" .   
 
 mdhn:Turtle a mdhn:Animals ;
     rdfs:label "Turtle"@en , "لاکپشت"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q32945370" .
 
 mdhn:Mouse a mdhn:Animals ;
     rdfs:label "Mouse"@en , "موش"@fa ;
     skos:exactMatch mdhn:aat300250251;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q83310" .  
 
 mdhn:Scorpion a mdhn:Animals ;
     rdfs:label "Scorpion"@en , "عقرب"@fa ;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3952762" . 
 
 mdhn:Lizard a mdhn:Animals ;
     rdfs:label "Lizard"@en , "مارمولک"@fa ;
     skos:exactMatch mdhn:aat300250251;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q27532" .               
 
 
 mdhn:Monkey a mdhn:Animals ;
     rdfs:label "Monkey"@en , "ميمون"@fa ;
     skos:exactMatch mdhn:aat300250028;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1367" .
 
 mdhn:Rabbit a mdhn:Animals ;
     rdfs:label "Rabbit"@en , "خرگوش"@fa ;
     skos:exactMatch mdhn:aat300250218;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q9394" .    
 
 mdhn:Caelifera a mdhn:Animals ;
     rdfs:label "Caelifera"@en , "ملخ"@fa ;
     skos:exactMatch mdhn:aat300310684;
+    skos:broadMatch mdhn:Animal;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q83902" .    
 
            
@@ -816,12 +941,14 @@ mdhn:Boar a mdhn:Animals ;
    rdfs:label "Boar"@en, "گراز"@fa;
    rdfs:comment "Wild boars usually in hunting scenes" ;
    skos:exactMatch mdhn:aat300250112;
+   skos:broadMatch mdhn:Animal;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q266764" .  
  
 
 mdhn:Elephant a mdhn:Animals, mdhn:TravelsAndTransportation ;
    rdfs:label "Elephant"@en, "فيل"@fa;
    skos:exactMatch mdhn:aat:300250160;
+   skos:broadMatch mdhn:Animal;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q7378" .                        
 
 mdhn:LongNeckedBottle a mdhn:Tableware ;
@@ -917,10 +1044,7 @@ mdhn:Muhammad_First_Marriage a mdhn:HistoricalEvent ;
 mdhn:Exodus a mdhn:HistoricalEvent ;
     rdfs:label "Exodus"@en , "روايت موسی و فرعون"@fa ;
     mdhn:icWikiDataURL "" .     
-
-mdhn:Cain_and_Abel a mdhn:MythicalEvent ;
-    rdfs:label "Cain and Abel"@en , "روايت هابيل و قابيل"@fa ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q717996" .           
+      
 
 mdhn:Misbaha  a mdhn:ObjectsAndTools ;
     rdfs:label "Misbaha"@en , "تسبيح"@fa ;
@@ -944,7 +1068,14 @@ mdhn:Hammer a mdhn:ObjectsAndTools ;
 mdhn:Jingle a mdhn:ObjectsAndTools ;
     rdfs:label "jingle "@en , "زنگوله"@fa ;
     skos:exactMatch mdhn:aat300024823 , mdhn:sh90002359_Jingles ;  
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q264922" .      
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q264922" .  
+
+mdhn:Brass_Metal_Jingle a mdhn:ObjectsAndTools ;
+    rdfs:label "jingle "@en , "زنگوله قورچه برنجی"@fa ;
+    skos:broadMatch mdhn:Jingle ;  
+    mdhn:icWikiDataURL "" .      
+
+        
 
 mdhn:Nail a mdhn:ObjectsAndTools ;
     rdfs:label "Nail"@en , "ميخ"@fa ;
@@ -1070,7 +1201,7 @@ mdhn:Niche   a mdhn:ArchitecturalConceptOrElement ;
     skos:exactMatch mdhn:aat300002704 , mdhn:tgm007071_Niches;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q695992" .   
 
-mdhn:Mosque    a mdhn:ArchitecturalConceptOrElement ;
+mdhn:Mosque a mdhn:ArchitecturalConceptOrElement ;
     rdfs:label "Mosque  "@en , "مسجد"@fa ;
     skos:exactMatch mdhn:aat300007544 , mdhn:tgm006778_Mosques;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q32815" .             
@@ -1079,6 +1210,21 @@ mdhn:Rosette a mdhn:SubjectiveConcepts ;
     rdfs:label "rosette"@en , "شمسه"@fa ;
     skos:exactMatch mdhn:aat300009972  ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1277215" .
+
+mdhn:Grave a mdhn:SubjectiveConcepts ;
+    rdfs:label "Grave"@en , "قبر/گور"@fa ;
+    skos:exactMatch mdhn:aat300005907, mdhn:tgm004713_Graves ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q173387" .  
+
+mdhn:Cemetery a mdhn:SubjectiveConcepts, mdhn:ArchitecturalConceptOrElement ;
+    rdfs:label "Cemetry"@en , "قبرستان"@fa ;
+    skos:exactMatch mdhn:aat300266755, mdhn:sh85021756_Cemeteries  ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q39614" .   
+
+mdhn:Burial a mdhn:SubjectiveConcepts ;
+    rdfs:label "burial"@en , "دفن"@fa ;
+    skos:exactMatch mdhn:aat300263485, mdhn:sh85018080_Burial ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q331055" .          
 
 
 mdhn:School_Scene_Persian_Painting a mdhn:SubjectiveConcepts ;
@@ -1092,12 +1238,23 @@ mdhn:Paper_Burnishing a mdhn:SubjectiveConcepts ;
 
 mdhn:Eram_Garden a mdhn:SubjectiveConcepts ;
     rdfs:label "Eram Garden"@en , "باغ ارم"@fa ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q127963" .    
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q127963" .
+
+mdhn:Garden_of_Eden a mdhn:SubjectiveConcepts ;
+    rdfs:label "Garden of Eden"@en , "باغ عدن"@fa ;
+    skos:exactMatch mdhn:sh85040949_Eden;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q19014" .            
 
 mdhn:Veil a mdhn:SubjectiveConcepts ;
     rdfs:label "Veil"@en , "حجاب"@fa ;
     skos:exactMatch mdhn:aat300266885  ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q6497446" .    
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q6497446" .  
+
+mdhn:God a mdhn:SubjectiveConcepts ;
+    rdfs:label "God"@en , "پروردگار"@fa ;
+    skos:exactMatch mdhn:sh85055517_God  ;
+    mdhn:saidToBeTheSameAs wd:Q2095353, wd:Q825, wd:Q2155501, wd:Q3678579, wd:Q5576009, wd:Q179575 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q190" .         
 
 mdhn:Mourning a mdhn:Emotion ;
     rdfs:label "mourning"@en , "سوگ و عزا"@fa ;
