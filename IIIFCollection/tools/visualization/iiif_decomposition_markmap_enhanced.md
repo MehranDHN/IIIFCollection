@@ -7042,6 +7042,73 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
+## Manifest: Album page in the Style of Muhammad Siyah Qalam 2
+
+## ResourceCanvas: f.1v — Muhammad Siyah Qalam 2 ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/full/200,/0/default.jpg>)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Divs
+- Q177413
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Camel
+- Q106695054
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Jingle
+- Q264922
+- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
+
+#### mdhn:Clothing
+- Q26690120
+- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
+- skos:relatedMatch: mdhn:aat300212133
+
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1075
+#### **Div cropped figure from MSS_1075** ![ Div cropped figure from MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/541,1153,1111,2432/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Camel cropped figure from MSS_1075
+#### **Camel cropped figure from MSS_1075** ![ Camel cropped figure from MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/208,1009,1424,1230/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in MSS_1075
+#### **Textblock1 in MSS_1075** ![ Textblock1 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/137,136,2295,484/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** لَوْلَا الْهَوَى لَمْ تُرِقْ دَمْعًا عَلَى طَلَلٍ / وَلَا أَرِقْتَ لِذِكْرِ الْبَانِ وَالْعَلَمِ
+
+### mdhn:Text_or_Verses: Textblock2 in MSS_1075
+#### **Textblock2 in MSS_1075** ![ Textblock2 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/298,752,1442,239/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300195198
+- **Persian Text:** شیر مردانه بگویم  پندی روبهی باشی اگر نپذيری بر کس آن به که نگيری آهو که سگی باشد آهوگيری الله لا اله الا هو
+
+### mdhn:Text_or_Verses: Textblock3 in MSS_1075
+#### **Textblock3 in MSS_1075** ![ Textblock3 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/1769,2149,616,1522/200,/0/default.jpg)
+- **Styles:** aat:300265530
+- **Persian Text:** گر ترا بودی غم من شاد میکردی مرا ور بخاطر می رسیدم یاد می کردی مرا کرده ای گویا فراموش از گرفتاران غم ورنه از زندان غم آزاد می کردی مرا وه کجا شد ز انکه بر دیگران گل می زدی زان ميان گاهی بسنگی شاه ميکردی مرا بود قصد کشتنم با صد فريب آخر ترا ای که صيد غمزه صياد ميکردی مرا عاقبت کشتی بصد بيداد و کين چون حیدر بس که دايم وعده ديدار ميکردی مرا
+
+### mdhn:Text_or_Verses: Textblock4 in MSS_1075
+#### **Textblock4 in MSS_1075** ![ Textblock4 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/178,2493,238,1129/200,/0/default.jpg)
+- **Styles:** aat:300265530
+- **Persian Text:** الحق الحق بعد ازین مضمون جمع کردن ... دنیا، کمال جهالت و احمقی است فی سنه
+
+---
+
 
 
 
