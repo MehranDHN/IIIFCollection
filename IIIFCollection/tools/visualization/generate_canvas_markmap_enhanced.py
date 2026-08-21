@@ -54,6 +54,8 @@ ONTOLOGY_FILES: List[str] = [
 
 # Integer width used for the IIIF size segment: /{THUMBNAIL_WIDTH},/
 THUMBNAIL_WIDTH: int = 200
+# Default number of Markmap levels expanded in the generated document.
+INITIAL_EXPAND_LEVEL: int = 8
 OUTPUT_FILE: str = os.path.join(OUTPUT_DIR, "iiif_decomposition_markmap_enhanced.md")
 # ===================================================
 
@@ -606,7 +608,8 @@ def process_content_element(
     cropped_img = elem.get('croppedImage') or elem.get('image')
     thumb = get_thumbnail_url(cropped_img)
     if thumb:
-        lines.append(f"- ![ {el_label} ]({thumb})")
+        #lines.append(f"- **{el_label}** ![ {el_label} ]({thumb})")
+        lines.append(f"#### **{el_label}** ![ {el_label} ]({thumb})")
 
     styles = elem.get('elementStyle', []) or elem.get('style', [])
     if styles:
@@ -803,12 +806,14 @@ def main():
     all_lines: List[str] = []
     all_lines.append("---")
     all_lines.append("markmap:")
-    all_lines.append("  initialExpandLevel: 6")
+    all_lines.append(f"  initialExpandLevel: {INITIAL_EXPAND_LEVEL}")
     all_lines.append("  maxWidth: 360")
     all_lines.append("---")
     all_lines.append("")
     all_lines.append("اين گزارش بوسيله ماشين تهيه شده و به منظور تست صحت اطلاعات و ساختار مدل اطلاعات ساختار يافته و رابطه های سلسله مراتبی اجزای يک صفحه از نسخه دستنويس يا نگاره طراحی شده . ")
     all_lines.append("")
+    all_lines.append("---")
+    all_lines.append("Testing Canvas decomposition to Multiple type of ContentElement **Machine generated report**")        
     for filename in INPUT_JSON_FILES:
         json_path = os.path.join(INPUT_DIR, filename)
         if not os.path.exists(json_path):
