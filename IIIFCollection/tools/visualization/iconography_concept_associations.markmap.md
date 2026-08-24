@@ -82,10 +82,10 @@ markmap:
   - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ### Co-depicted on matching canvases
 
@@ -98,18 +98,18 @@ markmap:
   - mdhn:RostamStory — The Story of Rostam / داستان رستم
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Story_of_Akvan_Div — Story of Akvan Div / داستان اکوان ديو
     - mdhn:Kingdom_of_KayKhosrow — Kingdom of KayKhosrow / پادشاهی کيخسرو
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 #### mdhn:Hushang_Fight_Black_Div — Hushang and Keyumars went to Fight the Black Div / انتقام خون سيامک به دست هوشنگ
 - **Type:** mdhn:NarrativeEpisode
@@ -122,10 +122,10 @@ markmap:
   - mdhn:Kingdom_of_Keyumars — Kingdom of Keyumars / پادشاهی کيومرث
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 - skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:KayKavus_Captured_and_Blinded_in_Cave — KayKavus captured and blinded in cave / اسارت کيکاووس در غار با چشمانی کور شده
@@ -138,10 +138,10 @@ markmap:
   - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 #### mdhn:KayKavus_Encounters_Arzhang_Div_In_Mazandaran — KayKavus Encounters Arzhang Div In Mazandaran / رويارويی کيکاوس و ارژنگ ديو در مازندران
 - **Type:** mdhn:NarrativeEpisode
@@ -153,10 +153,10 @@ markmap:
   - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 #### mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
 - **Type:** mdhn:NarrativeEpisode
@@ -169,10 +169,10 @@ markmap:
 - **isPartOf ancestry**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 #### mdhn:Kingdom_of_Keyumars — Kingdom of Keyumars / پادشاهی کيومرث
 - **Type:** mdhn:NarrativeEpisode
@@ -185,10 +185,10 @@ markmap:
 - **isPartOf ancestry**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 #### mdhn:RostamStory — The Story of Rostam / داستان رستم
 - **Type:** mdhn:NarrativeEpisode
@@ -199,10 +199,10 @@ markmap:
 - **isPartOf ancestry**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 #### mdhn:Rostams_Seven_Labours — Rostam's Seven Labours / هفت خوان رستم
 - **Type:** mdhn:NarrativeEpisode
@@ -216,17 +216,17 @@ markmap:
   - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:RostamStory — The Story of Rostam / داستان رستم
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 #### mdhn:Rostams_Seventh_Labour — Rostam's Seventh Labour
 - **Type:** mdhn:NarrativeEpisode
@@ -239,17 +239,17 @@ markmap:
     - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:RostamStory — The Story of Rostam / داستان رستم
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 #### mdhn:Siamak_Was_Slayin_By_Div — Siamak Was Slayin By Div / کشته شدن سيامک به دست ديو
 - **Type:** mdhn:NarrativeEpisode
@@ -262,10 +262,10 @@ markmap:
   - mdhn:Kingdom_of_Keyumars — Kingdom of Keyumars / پادشاهی کيومرث
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 - skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Solomon_and_Queen_of_Sheba — Solomon and Queen of Sheba / بارگاه سليمان و ملکه سبا
@@ -277,12 +277,26 @@ markmap:
 - **mdhn:charactersInvolved:** mdhn:Queen_of_Sheba, mdhn:Solomon
 - **isPartOf ancestry**
   - mdhn:Christian_Mythology — Christian Mythology / ميتولوژی مسيحيت
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 - skos:closeMatch: iconclass:71I
+
+#### mdhn:Story_of_Ramayana — Story of Ramayana / افسانه رامايانا
+- **Type:** mdhn:NarrativeEpisode
+- **Label (en):** Story of Ramayana
+- **Label (fa):** افسانه رامايانا
+- **Wikidata:** Q37293
+- **Source:** narrative_episodes.ttl
+- **mdhn:charactersInvolved:** mdhn:Dasaratha, mdhn:Hanuman, mdhn:Kausalya, mdhn:Krishna, mdhn:Lakshmana, mdhn:Rama, mdhn:Ravana, mdhn:Shiva, mdhn:Sita, mdhn:Vanaras
+- **isPartOf ancestry**
+  - mdhn:Indian_Epic_and_Mythology — Indian Epic and Mythology / افسانه های حماسی و فولکور هند
+    - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+    - mdhn:Indian_Mythology — Indian Mythology / ميتولوژی هندی
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 #### mdhn:Tahmuras_Defeating_the_Divs — Tahmuras Defeating the Divs / طهمورث شکستن دیو ها
 - **Type:** mdhn:NarrativeEpisode
@@ -296,14 +310,14 @@ markmap:
   - mdhn:KingdomOfTahmuras — The Kingdom of Tahmuras / پادشاهی طهمورث
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ## Depicted in collections
 
-- **12 collection(s), 21 resource(s), 23 canvas(es)**
+- **13 collection(s), 22 resource(s), 24 canvas(es)**
 
 ### Collection: Departed Folios ![Departed Folios](https://viewer.cbl.ie/viewer/api/v1/records/Per_144_20/files/images/D0002536.jpg/full/250,/0/default.jpg)
 - `DepartedFolioCollection.json`
@@ -388,10 +402,10 @@ markmap:
   - mdhn:KingdomOfTahmuras — The Kingdom of Tahmuras / پادشاهی طهمورث
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:TahmurasDefeatsDivs
 
@@ -559,10 +573,10 @@ markmap:
   - mdhn:KingdomOfTahmuras — The Kingdom of Tahmuras / پادشاهی طهمورث
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:TahmurasDefeatsDivs
 
@@ -705,10 +719,10 @@ markmap:
 - **isPartOf**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:KayKavus_Captured_and_Blinded_in_Cave — KayKavus captured and blinded in cave / اسارت کيکاووس در غار با چشمانی کور شده
 - mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus
@@ -717,10 +731,10 @@ markmap:
   - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
 - Q40466974
@@ -729,10 +743,10 @@ markmap:
 - **isPartOf**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Rostams_Seven_Labours — Rostam's Seven Labours / هفت خوان رستم
 - Q4119480
@@ -742,17 +756,17 @@ markmap:
   - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:RostamStory — The Story of Rostam / داستان رستم
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Mace — Mace / گرز
 - Q272990
@@ -902,18 +916,18 @@ markmap:
   - mdhn:RostamStory — The Story of Rostam / داستان رستم
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Story_of_Akvan_Div — Story of Akvan Div / داستان اکوان ديو
     - mdhn:Kingdom_of_KayKhosrow — Kingdom of KayKhosrow / پادشاهی کيخسرو
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Rostam
 
@@ -975,17 +989,17 @@ markmap:
     - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:RostamStory — The Story of Rostam / داستان رستم
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Rock
 
@@ -1051,17 +1065,17 @@ markmap:
     - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:RostamStory — The Story of Rostam / داستان رستم
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:RostamStory — The Story of Rostam / داستان رستم
 - mdhn:isPartOf: mdhn:Shahnameh
@@ -1069,10 +1083,10 @@ markmap:
 - **isPartOf**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:TearingApart — TearingApart / دريدن
 - skos:broadMatch: mdhn:Murder
@@ -1161,11 +1175,11 @@ markmap:
 - **Narrative episode**
 - **isPartOf**
   - mdhn:Christian_Mythology — Christian Mythology / ميتولوژی مسيحيت
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Solomon
 
@@ -1347,11 +1361,11 @@ markmap:
 - **Narrative episode**
 - **isPartOf**
   - mdhn:Christian_Mythology — Christian Mythology / ميتولوژی مسيحيت
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Queen_of_Sheba
 
@@ -1514,17 +1528,17 @@ markmap:
     - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:RostamStory — The Story of Rostam / داستان رستم
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:RostamStory — The Story of Rostam / داستان رستم
 - mdhn:isPartOf: mdhn:Shahnameh
@@ -1532,10 +1546,10 @@ markmap:
 - **isPartOf**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Rock
 
@@ -1631,11 +1645,11 @@ markmap:
 - **Narrative episode**
 - **isPartOf**
   - mdhn:Christian_Mythology — Christian Mythology / ميتولوژی مسيحيت
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Solomon
 
@@ -1797,11 +1811,11 @@ markmap:
 - **Narrative episode**
 - **isPartOf**
   - mdhn:Christian_Mythology — Christian Mythology / ميتولوژی مسيحيت
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Queen_of_Sheba
 
@@ -1918,10 +1932,10 @@ markmap:
 - **isPartOf**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Siamak_Was_Slayin_By_Div — Siamak Was Slayin By Div / کشته شدن سيامک به دست ديو
 - Q139923384
@@ -1932,10 +1946,10 @@ markmap:
   - mdhn:Kingdom_of_Keyumars — Kingdom of Keyumars / پادشاهی کيومرث
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Rocks — Rocks / صخره
 - Q8063
@@ -2041,10 +2055,10 @@ markmap:
 - **isPartOf**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Siamak_Was_Slayin_By_Div — Siamak Was Slayin By Div / کشته شدن سيامک به دست ديو
 - Q139923384
@@ -2055,10 +2069,10 @@ markmap:
   - mdhn:Kingdom_of_Keyumars — Kingdom of Keyumars / پادشاهی کيومرث
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Jingle — jingle / زنگوله
 - Q264922
@@ -2204,10 +2218,10 @@ markmap:
   - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:AlamandKotalandKotal — Alam and Kotal / علم و کتل
 - Q140502385
@@ -2346,17 +2360,17 @@ markmap:
     - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:RostamStory — The Story of Rostam / داستان رستم
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:RostamStory — The Story of Rostam / داستان رستم
 - mdhn:isPartOf: mdhn:Shahnameh
@@ -2364,10 +2378,10 @@ markmap:
 - **isPartOf**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Rock
 
@@ -2446,10 +2460,10 @@ markmap:
 - **isPartOf**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Rostams_Seventh_Labour — Rostam's Seventh Labour
 - Q138585485
@@ -2460,17 +2474,17 @@ markmap:
     - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:RostamStory — The Story of Rostam / داستان رستم
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Rock
 
@@ -2568,10 +2582,10 @@ markmap:
   - mdhn:KingdomOfTahmuras — The Kingdom of Tahmuras / پادشاهی طهمورث
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:TahmurasDefeatsDivs
 
@@ -2666,17 +2680,17 @@ markmap:
     - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:RostamStory — The Story of Rostam / داستان رستم
       - mdhn:Shahnameh — Shahnameh / شاهنامه
         - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
         - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-            - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+            - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:RostamStory — The Story of Rostam / داستان رستم
 - mdhn:isPartOf: mdhn:Shahnameh
@@ -2684,10 +2698,10 @@ markmap:
 - **isPartOf**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:TearingApart — TearingApart / دريدن
 - skos:broadMatch: mdhn:Murder
@@ -2832,10 +2846,10 @@ markmap:
 - **isPartOf**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Capturing_the_Bahman_Castle — Capturing the_Bahman Castle / فتح بهمن دژ
 - mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus
@@ -2844,10 +2858,10 @@ markmap:
   - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Sword — Sword / شمشير
 - Q12791
@@ -2976,10 +2990,10 @@ markmap:
 - **isPartOf**
   - mdhn:Shahnameh — Shahnameh / شاهنامه
     - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-      - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
     - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
       - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Hushang_Fight_Black_Div — Hushang and Keyumars went to Fight the Black Div / انتقام خون سيامک به دست هوشنگ
 - Q138757163
@@ -2990,10 +3004,10 @@ markmap:
   - mdhn:Kingdom_of_Keyumars — Kingdom of Keyumars / پادشاهی کيومرث
     - mdhn:Shahnameh — Shahnameh / شاهنامه
       - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-        - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
-          - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:Mace — Mace / گرز
 - Q272990
@@ -3056,11 +3070,11 @@ markmap:
 - **Narrative episode**
 - **isPartOf**
   - mdhn:Christian_Mythology — Christian Mythology / ميتولوژی مسيحيت
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
-    - mdhn:Narrative_Episodes — Narrative Episodes / وايت های اساطيری/نظم و نثر
+    - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
 ###### mdhn:iconclass71I6 — the visit of the Queen of Sheba
 - skos:exactMatch: iconclass:71I6
@@ -3093,4 +3107,60 @@ markmap:
 ###### mdhn:Bird — Bird / پرندگان
 - Q5113
 - skos:broadMatch: mdhn:Animal
+
+### Collection: The Ramayana ![The Ramayana](https://ids.si.edu/ids/iiif/FS-6996_01/202,110,1825,3398/250,/0/default.jpg)
+- `RamayanaV2Collection.json`
+
+#### Resource: FS-6997_08 ![FS-6997_08](https://ids.si.edu/ids/iiif/FS-6997_08/full/250,/0/default.jpg)
+
+##### f.8v — Folio 8 ![canvas f.8v](https://ids.si.edu/ids/iiif/FS-6997_08/full/250,/0/default.jpg)
+- **Matched via:** canvas depicts
+- **Selected concept(s) on this canvas:** mdhn:Divs
+- **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasHalkari, HasPainting
+###### Canvas depicts
+
+###### mdhn:Divs — Divs / دیوها ★
+- Q177413
+- skos:exactMatch: mdhn:aat500011098
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+###### mdhn:Story_of_Ramayana — Story of Ramayana / افسانه رامايانا
+- Q37293
+- mdhn:isPartOf: mdhn:Indian_Epic_and_Mythology
+- **Narrative episode**
+- **isPartOf**
+  - mdhn:Indian_Epic_and_Mythology — Indian Epic and Mythology / افسانه های حماسی و فولکور هند
+    - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+    - mdhn:Indian_Mythology — Indian Mythology / ميتولوژی هندی
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+
+###### mdhn:Throne — Throne / تخت پادشاهی
+- Q189233
+- skos:exactMatch: mdhn:aat300038141
+
+###### mdhn:LongNeckedJar — Long-necked Jar / جام گردن بلند
+- Q2413314
+- skos:exactMatch: mdhn:aat300045685
+
+###### mdhn:Stick — Stick / عصا
+- Q10971443
+- skos:exactMatch: mdhn:aat300014681
+
+###### mdhn:GemEncrustedCrown — Gem-Encrusted Crown / تاج مرصع
+- Q170984
+
+###### mdhn:Building_Ornament — Minaret / تزئينات معماری
+- Q12043387
+- skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+
+###### mdhn:Architectural_Structure — Architectural Structure / بنای معماری
+- Q811979
+
+###### mdhn:Column — Column / ستون
+- Q4817
+- skos:exactMatch: biblissima:Q295903, iconclass:48C161, mdhn:aat300001571, mdhn:aat300001650, mdhn:tgm002319_Columns
+- skos:relatedMatch: mdhn:aat300001650
 

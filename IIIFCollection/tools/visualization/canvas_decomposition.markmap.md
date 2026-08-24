@@ -1336,27 +1336,27 @@
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
-### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 168r
-- ![ Siyavush cropped figure from 168r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/1126,2504,731,947/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 166r
+- ![ Siyavush cropped figure from 166r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/1126,2504,731,947/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Siyavash, mdhn:Behzad_Horse
 - **Styles:** aat:500011001
 
-### mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 168r
-- ![ Kay Kavus cropped figure from 168r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/2335,2471,578,998/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 166r
+- ![ Kay Kavus cropped figure from 166r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/2335,2471,578,998/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Kay_Kavus
 - **Styles:** aat:500011001
 
-### mdhn:Fragment_Cropped_Image: Sudabeh cropped figure from 168r
-- ![ Sudabeh cropped figure from 168r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/2193,1402,206,516/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Sudabeh cropped figure from 166r
+- ![ Sudabeh cropped figure from 166r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/2193,1402,206,516/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Sudabeh
 - **Styles:** aat:500011001
 
-### mdhn:Fragment_Cropped_Image: People cropped figure from 168r
-- ![ People cropped figure from 168r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/2170,3496,742,588/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: People cropped figure from 166r
+- ![ People cropped figure from 166r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/2170,3496,742,588/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
-### mdhn:Calligraphy_Inscription: Inscription1 in 168r
-- ![ Inscription1 in 168r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/2603,2163,181,73/200,/0/default.jpg)
+### mdhn:Calligraphy_Inscription: Inscription1 in 166r
+- ![ Inscription1 in 166r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/2603,2163,181,73/200,/0/default.jpg)
 - **Styles:** aat:300195198
 - **Persian Text:** يا مفتح الابواب
 - **English Text:** O Opener of The Doors
@@ -1389,6 +1389,83 @@
 - **Styles:** aat:300195198
 - **Persian Text:** حصار دارالسلطنه بلخ
 - **English Text:** The gate of Capital City of Balkh
+
+---
+
+## Manifest: Folio 221r Kay Khusrau Takes the Castle of Bahman
+
+## ResourceCanvas: f.221r — Kay Khusrau Takes the Castle of Bahman
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Kay Khosrow cropped figure from 166r
+- ![ Kay Khosrow cropped figure from 166r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/1282,1772,524,555/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:KayKhosrow
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Soldiers cropped figure from 221r
+- ![ Soldiers cropped figure from 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/1468,657,608,880/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 221r
+- ![ Div1 cropped figure from 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/98,134,472,578/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div2 cropped figure from 221r
+- ![ Div2 cropped figure from 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/519,782,182,271/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div3 cropped figure from 221r
+- ![ Div3 cropped figure from 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/865,653,453,466/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div4 cropped figure from 221r
+- ![ Div4 cropped figure from 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/1206,657,263,211/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div5 cropped figure from 221r
+- ![ Div5 cropped figure from 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/633,1522,291,507/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div6 cropped figure from 221r
+- ![ Div6 cropped figure from 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/1345,2240,741,245/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div7 cropped figure from 221r
+- ![ Div7 cropped figure from 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/548,1319,583,779/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div8 cropped figure from 221r
+- ![ Div8 cropped figure from 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/76,2188,345,297/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div9 cropped figure from 221r
+- ![ Div9 cropped figure from 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/248,679,257,321/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Calligraphy_Inscription: Inscription1 in 221r
+- ![ Inscription1 in 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/331,880,1074,266/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** السلطان الاعظم الخاقان الاکرم
+
+### mdhn:Calligraphy_Inscription: Inscription1 in 221r
+- ![ Inscription1 in 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/630,756,216,85/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** رواق منظر چشم من آشيانه توست کرم نما و فرودا که خانه خانه توست
+
+### mdhn:Calligraphy_Inscription: Inscription1 in 221r
+- ![ Inscription1 in 221r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/192,609,388,154/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** جهانت به کام و فلک يار باد جهان آفرينت نگهدار باد
 
 ---
 
@@ -1810,7 +1887,7 @@
 ### mdhn:Text_or_Verses: Textblock1 in 1v
 - ![ Textblock1 in 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1874,1536,1075,360/200,/0/default.jpg)
 - **Styles:** aat:300265532
-- **Persian Text:** سختی يکی هفته اندر کشطد نيامد همی روشنايی بديد
+- **Persian Text:** سختی يکی هفته اندر کشيد نيامد همی روشنايی بديد
 
 ### mdhn:Text_or_Verses: Textblock1 in 1v
 - ![ Textblock1 in 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/612,5373,1122,318/200,/0/default.jpg)
@@ -1849,6 +1926,123 @@
 - **Styles:** aat:500011057, aat:300265532
 - **Persian Text:** 'گذشتن سياوش از آتش بجهت سوگند
 - **English Text:** Fire trial for passing Purity test
+
+---
+
+## Manifest: Album page in the Style of Muhammad Siyah Qalam 1
+
+## ResourceCanvas: f.1v — Muhammad Siyah Qalam 1
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1065
+- ![ Div cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/616,669,1373,1642/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Men hangging cropped figure from MSS_1065
+- ![ Men hangging cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/141,1934,1291,1347/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Cow cropped figure from MSS_1065
+- ![ Cow cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/1548,913,841,1957/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in MSS_1065
+- ![ Textblock1 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/1542,349,860,175/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بهینِ همه جانور آدمیست که گوينده و پادشاه زميست
+
+### mdhn:Text_or_Verses: Textblock2 in MSS_1065
+- ![ Textblock2 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/87,323,860,175/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:**  و گر سوی کسری بود رای تو درافتد بديوان بد جای تو
+
+### mdhn:Text_or_Verses: Textblock3 in MSS_1065
+- ![ Textblock3 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/110,3405,873,166/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بجز آدمی جانور نيست نيز که درد است یزدانش این هر سه نیز
+
+### mdhn:Text_or_Verses: Textblock4 in MSS_1065
+- ![ Textblock4 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/129,477,384,943/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** نرگس آن ترک جگر خواره را نيست خدنگی که جگر دوز نيست
+
+---
+
+## Manifest: Album page in the Style of Muhammad Siyah Qalam 2
+
+## ResourceCanvas: f.1v — Muhammad Siyah Qalam 2
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1075
+- ![ Div cropped figure from MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/541,1153,1111,2432/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Camel cropped figure from MSS_1075
+- ![ Camel cropped figure from MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/208,1009,1424,1230/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in MSS_1075
+- ![ Textblock1 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/137,136,2295,484/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** لَوْلَا الْهَوَى لَمْ تُرِقْ دَمْعًا عَلَى طَلَلٍ / وَلَا أَرِقْتَ لِذِكْرِ الْبَانِ وَالْعَلَمِ
+
+### mdhn:Text_or_Verses: Textblock2 in MSS_1075
+- ![ Textblock2 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/298,752,1442,239/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300195198
+- **Persian Text:** شیر مردانه بگویم  پندی روبهی باشی اگر نپذيری بر کس آن به که نگيری آهو که سگی باشد آهوگيری الله لا اله الا هو
+
+### mdhn:Text_or_Verses: Textblock3 in MSS_1075
+- ![ Textblock3 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/1769,2149,616,1522/200,/0/default.jpg)
+- **Styles:** aat:300265530
+- **Persian Text:** گر ترا بودی غم من شاد میکردی مرا ور بخاطر می رسیدم یاد می کردی مرا کرده ای گویا فراموش از گرفتاران غم ورنه از زندان غم آزاد می کردی مرا وه کجا شد ز انکه بر دیگران گل می زدی زان ميان گاهی بسنگی شاه ميکردی مرا بود قصد کشتنم با صد فريب آخر ترا ای که صيد غمزه صياد ميکردی مرا عاقبت کشتی بصد بيداد و کين چون حیدر بس که دايم وعده ديدار ميکردی مرا
+
+### mdhn:Text_or_Verses: Textblock4 in MSS_1075
+- ![ Textblock4 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/178,2493,238,1129/200,/0/default.jpg)
+- **Styles:** aat:300265530
+- **Persian Text:** الحق الحق بعد ازین مضمون جمع کردن ... دنیا، کمال جهالت و احمقی است فی سنه
+
+---
+
+## Manifest: Akvan Div prepares to heave the sleeping Rustam into the sea
+
+## ResourceCanvas: f.1v — Akvan Div and Rostam
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasOnvan, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Rostam cropped figure from FS-6781_01
+- ![ Rostam cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/916,1588,806,635/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Akvan Div cropped figure from FS-6781_01
+- ![ Akvan Div cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/916,1588,806,635/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Akvan_Div
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from FS-6781_01
+- ![ Rakhsh cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/1285,1588,614,637/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rakhsh
+- **Styles:** aat:500011001
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in 6781_01
+- ![ Headpiece1 in 6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/980,604,489,133/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** آغاز داستان
+- **English Text:** Begining Of The Story
+
+### mdhn:Text_or_Verses: Textblock1 in FS-6781_01
+- ![ Textblock1 in FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/523,570,1407,1031/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** سخن گوی دهقان چنين کرد ياد که يکروز کيخسرو از بامداد
+
+### mdhn:Text_or_Verses: Textblock2 in FS-6781_01
+- ![ Textblock2 in FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/490,2223,1431,129/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** که دانم کنون در يکی چاره نيست که خود کرده ام و ستمکاره نيست
 
 ---
 
@@ -2176,6 +2370,46 @@
 - **Iconography Tags (elementLOUD):** mdhn:Adam, mdhn:Eve
 - **Styles:** aat:300265532
 - **Persian Text:**  قوله تعالی اهبطوا من السماء إلى الأرض، وسيكون بعضكم لبعض عدوًا، در بيرون آمدن آدم از بهشت و توبه کردن و گريستن
+
+---
+
+
+
+
+# The Ramayana
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: FS-6997_08
+
+## ResourceCanvas: f.8v — Folio 8
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasHalkari, HasPainting
+
+### mdhn:Fragment_Cropped_Image: two figures cropped figure from 8
+- ![ two figures cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/282,919,729,784/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Teo Divs cropped figure from 8
+- ![ Teo Divs cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/259,1613,623,1219/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from 8
+- ![ Div cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/290,2527,507,802/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Figures cropped figure from 8
+- ![ Figures cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/991,1955,1028,683/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Throned King cropped figure from 8
+- ![ Throned King cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/1012,377,993,1328/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Marginal_Side_Note: Marginal/Side 1 note in 8
+- ![ Marginal/Side 1 note in 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/842,2617,1184,402/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** آنزمان همه ميمونان و راجهسان باقی مانده بر رام آفرين گفتند و خوشحال شدند
 
 ---
 
