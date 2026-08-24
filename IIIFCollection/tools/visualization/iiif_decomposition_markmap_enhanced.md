@@ -14,7 +14,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Kitāb-i Shāhnāmah Peck Shahnamah
 
-## ResourceCanvas: f.f.1a — Peck Shahnamah, Binding, Front Cover ![Canvas thumbnail](<https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/full/200,/0/default.jpg>)
+## ResourceCanvas: f.f.1a — Peck Shahnamah, Binding, Front Cover ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500011063
 - **Contains:** IsFlyLeaf
 
@@ -24,7 +24,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.Cover — Peck Shahnamah, Binding, Back Cover ![Canvas thumbnail](<https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/full/200,/0/default.jpg>)
+## ResourceCanvas: f.Cover — Peck Shahnamah, Binding, Back Cover ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:300417741
 - **Contains:** IsCover
 
@@ -34,7 +34,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.1b — Peck Shahnamah, Sulaiman is enthroned amidst angels, demons, humans, and animals. ![Canvas thumbnail](<https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/full/200,/0/default.jpg>)
+## ResourceCanvas: f.1b — Peck Shahnamah, Sulaiman is enthroned amidst angels, demons, humans, and animals. ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
 
@@ -302,7 +302,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.2a — Peck Shahnamah, Bilqis, Queen of Saba, is enthroned amidst Peris and handmaidens. ![Canvas thumbnail](<https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/full/200,/0/default.jpg>)
+## ResourceCanvas: f.2a — Peck Shahnamah, Bilqis, Queen of Saba, is enthroned amidst Peris and handmaidens. ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
 
@@ -456,7 +456,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.2b — Peck, Right part of Double sided carpet illuminated page ![Canvas thumbnail](<https://iiif-cloud.princeton.edu/iiif/2/22%2F68%2F41%2F226841bf05db4c62a5ca644098eebb9a%2Fintermediate_file/full/200,/0/default.jpg>)
+## ResourceCanvas: f.2b — Peck, Right part of Double sided carpet illuminated page ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/22%2F68%2F41%2F226841bf05db4c62a5ca644098eebb9a%2Fintermediate_file/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:500011064, aat:500011053
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination, HasText, HasOnvan
 
@@ -466,7 +466,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.3a — Peck, Left part of Double sided carpet illuminated page ![Canvas thumbnail](<https://iiif-cloud.princeton.edu/iiif/2/60%2Ff3%2Fbb%2F60f3bbd69c374dc884538aa5febb2107%2Fintermediate_file/full/200,/0/default.jpg>)
+## ResourceCanvas: f.3a — Peck, Left part of Double sided carpet illuminated page ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/60%2Ff3%2Fbb%2F60f3bbd69c374dc884538aa5febb2107%2Fintermediate_file/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:500011064, aat:500011059, aat:500011053
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination, HasText, HasOnvan
 
@@ -476,7 +476,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.12b — Peck, Opening Unwan Page ![Canvas thumbnail](<https://iiif-cloud.princeton.edu/iiif/2/be%2F33%2F65%2Fbe33654029104d6aa56fa5d12e5cc36f%2Fintermediate_file/full/200,/0/default.jpg>)
+## ResourceCanvas: f.12b — Peck, Opening Unwan Page ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/be%2F33%2F65%2Fbe33654029104d6aa56fa5d12e5cc36f%2Fintermediate_file/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522, aat:500011053, aat:500011012, aat:500011000, aat:500011057
 - **Contains:** IsOpeningPage, HasIllumination, HasOnvan, HasHalkari, HasText
 
@@ -509,7 +509,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.22a — Peck Shahnamah, The tyrant Zahhak brought before Faridun ![Canvas thumbnail](<https://iiif-cloud.princeton.edu/iiif/2/c0%2Fe7%2Ff8%2Fc0e7f8f78358453a82da209c93369e46%2Fintermediate_file/full/200,/0/default.jpg>)
+## ResourceCanvas: f.22a — Peck Shahnamah, The tyrant Zahhak brought before Faridun ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/c0%2Fe7%2Ff8%2Fc0e7f8f78358453a82da209c93369e46%2Fintermediate_file/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasText
 
@@ -743,7 +743,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.38a — Peck Shahnamah, Zal visits Rudaba in her castle ![Canvas thumbnail](<https://iiif-cloud.princeton.edu/iiif/2/c8%2F4e%2F2a%2Fc84e2a0ad7bf407cafc6f0c04d31bd88%2Fintermediate_file/full/200,/0/default.jpg>)
+## ResourceCanvas: f.38a — Peck Shahnamah, Zal visits Rudaba in her castle ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/c8%2F4e%2F2a%2Fc84e2a0ad7bf407cafc6f0c04d31bd88%2Fintermediate_file/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasText
 
@@ -980,7 +980,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.54a — Peck Shahnamah, Rostam chooses his horse, Rakhsh ![Canvas thumbnail](<https://iiif-cloud.princeton.edu/iiif/2/70%2F3d%2F24%2F703d249a3c914c61a027424f2f33878c%2Fintermediate_file/full/200,/0/default.jpg>)
+## ResourceCanvas: f.54a — Peck Shahnamah, Rostam chooses his horse, Rakhsh ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/70%2F3d%2F24%2F703d249a3c914c61a027424f2f33878c%2Fintermediate_file/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasHalkari, HasText
 
@@ -1101,7 +1101,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.62b — Peck Shahnamah, Rostam kills white Div ![Canvas thumbnail](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/full/200,/0/default.jpg>)
+## ResourceCanvas: f.62b — Peck Shahnamah, Rostam kills white Div ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasHalkari, HasText
 
@@ -1325,7 +1325,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Firdausī: Šāhnāma Ms. or. fol. 4251
 
-## ResourceCanvas: f.Cover — Front Cover ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731525744-0001/full/200,/0/default.jpg>)
+## ResourceCanvas: f.Cover — Front Cover ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0001/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:300417741
 - **Contains:** IsCover
 
@@ -1335,7 +1335,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.Cover — Front Cover ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731525744-0002/full/200,/0/default.jpg>)
+## ResourceCanvas: f.Cover — Front Cover ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0002/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:300417741
 - **Contains:** IsCover
 
@@ -1345,7 +1345,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.FlyLeaf — Folio With Note ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731525744-0007/full/200,/0/default.jpg>)
+## ResourceCanvas: f.FlyLeaf — Folio With Note ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0007/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:500011063
 - **Contains:** IsFlyLeaf, HasNote, HasSeal
 
@@ -1355,7 +1355,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.1v — Right part of Double sided carpet illuminated page ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731525744-0008/full/200,/0/default.jpg>)
+## ResourceCanvas: f.1v — Right part of Double sided carpet illuminated page ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0008/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination
 
@@ -1365,7 +1365,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.2r — Left part of Double sided carpet illuminated page ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731525744-0009/full/200,/0/default.jpg>)
+## ResourceCanvas: f.2r — Left part of Double sided carpet illuminated page ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0009/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination
 
@@ -1381,7 +1381,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.2v — Opening Unwan Page ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731525744-0010/full/200,/0/default.jpg>)
+## ResourceCanvas: f.2v — Opening Unwan Page ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0010/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsOpeningPage, HasIllumination
 
@@ -1391,7 +1391,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.7v — Right part of Double sided Opening illuminated page ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731525744-0020/full/200,/0/default.jpg>)
+## ResourceCanvas: f.7v — Right part of Double sided Opening illuminated page ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0020/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination
 
@@ -1401,7 +1401,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.8r — Left part of Double sided Opening illuminated page ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731525744-0021/full/200,/0/default.jpg>)
+## ResourceCanvas: f.8r — Left part of Double sided Opening illuminated page ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0021/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination
 
@@ -1411,7 +1411,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.13r — Kayumarṯ amidst his entourage ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731525744-0031/full/200,/0/default.jpg>)
+## ResourceCanvas: f.13r — Kayumarṯ amidst his entourage ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0031/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
 
@@ -1542,7 +1542,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.13v — Dīv Tears Siyamak Apart ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731525744-0032/full/200,/0/default.jpg>)
+## ResourceCanvas: f.13v — Dīv Tears Siyamak Apart ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0032/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
 
@@ -1687,7 +1687,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.202v — Keykavus and Arzhang Div ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731525744-0410/full/200,/0/default.jpg>)
+## ResourceCanvas: f.202v — Keykavus and Arzhang Div ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0410/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
 
@@ -1922,7 +1922,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.208r — SH 4251, Rostam Kills the White Div ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731525744-0421/full/200,/0/default.jpg>)
+## ResourceCanvas: f.208r — SH 4251, Rostam Kills the White Div ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0421/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasHalkari, HasText
 
@@ -2079,7 +2079,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Firdausī: Šāhnāma Ms. or. fol. 359
 
-## ResourceCanvas: f.FCover — Front Cover ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731527356-0001/full/200,/0/default.jpg>)
+## ResourceCanvas: f.FCover — Front Cover ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731527356-0001/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:300417741
 - **Contains:** IsCover
 
@@ -2089,7 +2089,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.IFCover — Inside Front Cover ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731527356-0002/full/200,/0/default.jpg>)
+## ResourceCanvas: f.IFCover — Inside Front Cover ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731527356-0002/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:300417741
 - **Contains:** IsCover
 
@@ -2099,7 +2099,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.2v — Sulaiman is enthroned amidst angels, demons, humans, and animals. ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/full/200,/0/default.jpg>)
+## ResourceCanvas: f.2v — Sulaiman is enthroned amidst angels, demons, humans, and animals. ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
 
@@ -2434,7 +2434,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.3r — Bilqīs, Queen of Saba, is enthroned amidst Peris and handmaidens. ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/full/200,/0/default.jpg>)
+## ResourceCanvas: f.3r — Bilqīs, Queen of Saba, is enthroned amidst Peris and handmaidens. ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
 
@@ -2625,7 +2625,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.3v — Right part of Double sided carpet illuminated page ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731527356-0008/full/200,/0/default.jpg>)
+## ResourceCanvas: f.3v — Right part of Double sided carpet illuminated page ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731527356-0008/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination
 
@@ -2635,7 +2635,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.4r — Left part of Double sided carpet illuminated page ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731527356-0009/full/200,/0/default.jpg>)
+## ResourceCanvas: f.4r — Left part of Double sided carpet illuminated page ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731527356-0009/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsCarpetIlluminatedPage, HasIllumination
 
@@ -2645,7 +2645,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.9v — Right part of Double sided illuminated open page ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731527356-0020/full/200,/0/default.jpg>)
+## ResourceCanvas: f.9v — Right part of Double sided illuminated open page ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731527356-0020/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsOpeningPage, HasIllumination, HasHalkari
 
@@ -2676,7 +2676,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.10r — Left part of Double sided illuminated open page ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731527356-0021/full/200,/0/default.jpg>)
+## ResourceCanvas: f.10r — Left part of Double sided illuminated open page ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731527356-0021/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:300220539, aat:300264522
 - **Contains:** IsOpeningPage, HasIllumination
 
@@ -2713,7 +2713,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.12v — Dīv Tears Siyamak Apart ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731527356-0026/full/200,/0/default.jpg>)
+## ResourceCanvas: f.12v — Dīv Tears Siyamak Apart ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731527356-0026/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300033936
 - **Contains:** HasPainting, HasHalkari, HasText
 
@@ -2849,7 +2849,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.42r — Salm and Tur beheaded Iraj ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731527356-0085/full/200,/0/default.jpg>)
+## ResourceCanvas: f.42r — Salm and Tur beheaded Iraj ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:500011092, aat:300033936
 - **Contains:** HasPainting, HasHalkari, HasText
 
@@ -3014,7 +3014,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.105v — Rostam Kills White Elephant ![Canvas thumbnail](<https://content.staatsbibliothek-berlin.de/dc/731527356-0212/full/200,/0/default.jpg>)
+## ResourceCanvas: f.105v — Rostam Kills White Elephant ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:500011092, aat:300033936
 - **Contains:** HasPainting, HasHalkari, HasText
 
@@ -3158,7 +3158,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Shāhnāmah MS MS-RAS-00239 (Juki)
 
-## ResourceCanvas: f.7r — Firdawsī encounters the court poets of Ghaznī ![Canvas thumbnail](<https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00013.jp2/full/200,/0/default.jpg>)
+## ResourceCanvas: f.7r — Firdawsī encounters the court poets of Ghaznī ![Canvas thumbnail](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00013.jp2/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
 
@@ -3255,7 +3255,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.44r — Juki Shahnamah, Rostam kills white Div ![Canvas thumbnail](<https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/full/200,/0/default.jpg>)
+## ResourceCanvas: f.44r — Juki Shahnamah, Rostam kills white Div ![Canvas thumbnail](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
 
@@ -3448,7 +3448,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Folio 23v Tahmuras Defeats the Divs
 
-## ResourceCanvas: f.23v — Folio 23v Tahmuras Defeats the Divs ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.23v — Folio 23v Tahmuras Defeats the Divs ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
@@ -3607,7 +3607,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Folio 77v Mihrab Hears of Rudaba Folly
 
-## ResourceCanvas: f.77v — Mihrab Hears of Rudaba Folly ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.77v — Mihrab Hears of Rudaba Folly ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
@@ -3790,7 +3790,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Folio 299r Bizhan Slaughters the Wild Boars of Irman
 
-## ResourceCanvas: f.27v — Folio 229r Bizhan Slaughters the Wild Boars ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp--299r%2FFolio299r.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.27v — Folio 229r Bizhan Slaughters the Wild Boars ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp--299r%2FFolio299r.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
@@ -3906,7 +3906,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Folio 7r Firdausi Encounters the Court Poets of Ghazna
 
-## ResourceCanvas: f.7r — Firdausi Encounters the Court Poets of Ghazna ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-7r%2FFolio7r.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.7r — Firdausi Encounters the Court Poets of Ghazna ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-7r%2FFolio7r.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
@@ -4039,7 +4039,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Folio 27v Zahhak Receives the Daughters of Jamshid
 
-## ResourceCanvas: f.27v — Folio 27v Zahhak Receives the Daughters of Jamshid ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-27v%2FFolio27v.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.27v — Folio 27v Zahhak Receives the Daughters of Jamshid ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-27v%2FFolio27v.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
@@ -4252,7 +4252,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Folio 25v The Death of King Mirdas
 
-## ResourceCanvas: f.25v — The Death of King Mirdas ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-25v%2F25v.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.25v — The Death of King Mirdas ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-25v%2F25v.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
@@ -4349,7 +4349,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Folio 166r: The Fire Trail of Siyavush
 
-## ResourceCanvas: f.166r — The Fire Trail of Siyavush ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.166r — The Fire Trail of Siyavush ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
@@ -4494,7 +4494,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Folio 168v: Siyavush and Rustam Captures Balkh
 
-## ResourceCanvas: f.168v — Siyavush and Rustam Captures Balkh ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-168v%2Ffolio168v.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.168v — Siyavush and Rustam Captures Balkh ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-168v%2Ffolio168v.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
@@ -4684,7 +4684,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Folio 221r Kay Khusrau Takes the Castle of Bahman
 
-## ResourceCanvas: f.221r — Kay Khusrau Takes the Castle of Bahman ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.221r — Kay Khusrau Takes the Castle of Bahman ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
@@ -4959,7 +4959,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Shāhnāmah-ʼi Firdawsī MS. Ouseley Add. 176 (Ibrahim Sultan)
 
-## ResourceCanvas: f.71a — Ibrahim Sultan Shahnamah, Rostam kills white Div ![Canvas thumbnail](<https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/full/200,/0/default.jpg>)
+## ResourceCanvas: f.71a — Ibrahim Sultan Shahnamah, Rostam kills white Div ![Canvas thumbnail](https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
 
@@ -5075,7 +5075,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Garšasp-nāma, Šāh-nāma Abū al-Qāsim Firdawsī Smith-Lesouëf 224
 
-## ResourceCanvas: f.90v — Smith-Lesouëf 224, Nariman and Sam Mourning Garshasb ![Canvas thumbnail](<https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/full/200,/0/default.jpg>)
+## ResourceCanvas: f.90v — Smith-Lesouëf 224, Nariman and Sam Mourning Garshasb ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:300033936
 - **Contains:** HasPainting, HasText
 
@@ -5210,7 +5210,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.119r — Smith-Lesouëf 224, Salm and Tur beheaded Iraj ![Canvas thumbnail](<https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f263/full/200,/0/default.jpg>)
+## ResourceCanvas: f.119r — Smith-Lesouëf 224, Salm and Tur beheaded Iraj ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f263/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:500011092, aat:300033936
 - **Contains:** HasPainting, HasText
 
@@ -5328,7 +5328,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Hushang kills the Black Div (recto) and Hushang discovers fire while killing a dragon with a stone (verso) f.1
 
-## ResourceCanvas: f.1r — Hushang kills the Black Div ![Canvas thumbnail](<https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.1r — Hushang kills the Black Div ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasOnvan, HasText
 
@@ -5493,7 +5493,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: The tyrant Zahhak is imprisoned under Mount Damavand f.3
 
-## ResourceCanvas: f.3v — Zahhak is imprisoned under Mount Damavand ![Canvas thumbnail](<https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/files/images/Per104_3_09034.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.3v — Zahhak is imprisoned under Mount Damavand ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/files/images/Per104_3_09034.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasOnvan, HasPainting
 
@@ -5765,7 +5765,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: The Townsman Robs the Villager's Orchard
 
-## ResourceCanvas: f.37r — The Townsman Robs the Villager's Orchard ![Canvas thumbnail](<https://ids.si.edu/ids/iiif/FS-7258_37/full/200,/0/default.jpg>)
+## ResourceCanvas: f.37r — The Townsman Robs the Villager's Orchard ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-7258_37/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
 - **Contains:** HasText, HasPainting, HasHalkari
 
@@ -6176,7 +6176,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Yusuf gives a royal banquet in honor of his marriage
 
-## ResourceCanvas: f.2r — Yusuf gives a royal banquet in honor of his marriage ![Canvas thumbnail](<https://ids.si.edu/ids/iiif/FS-7238_47/full/200,/0/default.jpg>)
+## ResourceCanvas: f.2r — Yusuf gives a royal banquet in honor of his marriage ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-7238_47/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
 - **Contains:** HasText, HasPainting, HasHalkari
 
@@ -6296,7 +6296,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Ṭahmūras defeats the demon army
 
-## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army ![Canvas thumbnail](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasHalkari, HasPainting
 
@@ -6557,7 +6557,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Ṭahmūras defeats the demon army
 
-## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army ![Canvas thumbnail](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasHalkari, HasPainting
 
@@ -6772,7 +6772,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: The White Dīv captures and blinds Kay Kāvus
 
-## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army ![Canvas thumbnail](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasHalkari, HasPainting
 
@@ -6912,7 +6912,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Siyavush Trial
 
-## ResourceCanvas: f.1v — Folio of Siyavush Trial ![Canvas thumbnail](<https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/full/200,/0/default.jpg>)
+## ResourceCanvas: f.1v — Folio of Siyavush Trial ![Canvas thumbnail](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasNote, HasText, HasPainting
 
@@ -6970,7 +6970,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Album page in the Style of Muhammad Siyah Qalam 1
 
-## ResourceCanvas: f.1v — Muhammad Siyah Qalam 1 ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.1v — Muhammad Siyah Qalam 1 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
@@ -7044,7 +7044,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Album page in the Style of Muhammad Siyah Qalam 2
 
-## ResourceCanvas: f.1v — Muhammad Siyah Qalam 2 ![Canvas thumbnail](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.1v — Muhammad Siyah Qalam 2 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
@@ -7111,7 +7111,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Akvan Div prepares to heave the sleeping Rustam into the sea
 
-## ResourceCanvas: f.1v — Akvan Div and Rostam ![Canvas thumbnail](<https://ids.si.edu/ids/iiif/FS-6781_01/full/200,/0/default.jpg>)
+## ResourceCanvas: f.1v — Akvan Div and Rostam ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-6781_01/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasOnvan, HasPainting
 
@@ -7198,7 +7198,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Tarikhname by Balami FS-6504_06
 
-## ResourceCanvas: f.6v — Solomon and Sheba ![Canvas thumbnail](<https://ids.si.edu/ids/iiif/FS-6504_06/full/200,/0/default.jpg>)
+## ResourceCanvas: f.6v — Solomon and Sheba ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-6504_06/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
@@ -7262,7 +7262,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Tarikhname by Balami FS-6240_03
 
-## ResourceCanvas: f.1v — The fortress of Al-Muqanna ![Canvas thumbnail](<https://ids.si.edu/ids/iiif/FS-6240_03/full/200,/0/default.jpg>)
+## ResourceCanvas: f.1v — The fortress of Al-Muqanna ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-6240_03/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
@@ -7365,7 +7365,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Firman of the Emperor Aurangzeb FS-7375_24
 
-## ResourceCanvas: f.1 — Firman of the Emperor Aurangzeb ![Canvas thumbnail](<https://ids.si.edu/ids/iiif/FS-7375_24/full/200,/0/default.jpg>)
+## ResourceCanvas: f.1 — Firman of the Emperor Aurangzeb ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-7375_24/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300027806, aat:500011012
 - **Contains:** HasText, HasSeal
 
@@ -7400,7 +7400,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Qiṣaṣ al-anbiyā Per 231
 
-## ResourceCanvas: f.107v — Qisas al-anbiya Per 231, Moses staff becomes a snake ![Canvas thumbnail](<https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_224.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.107v — Qisas al-anbiya Per 231, Moses staff becomes a snake ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_224.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
 
@@ -7521,7 +7521,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.134r — Qisas al-anbiya Per 231, Qarun swallowed by the earth ![Canvas thumbnail](<https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_277.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.134r — Qisas al-anbiya Per 231, Qarun swallowed by the earth ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_277.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
 
@@ -7616,7 +7616,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.156r — Qisas al-anbiya Per 231, God sent a great fish to swallow Jonah ![Canvas thumbnail](<https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_321.jpg/full/200,/0/default.jpg>)
+## ResourceCanvas: f.156r — Qisas al-anbiya Per 231, God sent a great fish to swallow Jonah ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_321.jpg/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
 
@@ -7703,7 +7703,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Adam and Hawwa wearing crowns and royal robes enthroned in Paradise
 
-## ResourceCanvas: f.9r — Âdam and Hawwâ wearing crowns and royal robes enthroned in Paradise ![Canvas thumbnail](<https://iiif.nypl.org/iiif/3/psnypl_spn_617/full/200,/0/default.jpg>)
+## ResourceCanvas: f.9r — Âdam and Hawwâ wearing crowns and royal robes enthroned in Paradise ![Canvas thumbnail](https://iiif.nypl.org/iiif/3/psnypl_spn_617/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
@@ -7843,7 +7843,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Ghabil (Cain) carries his dead brother Hâbîl (Abel) on his back
 
-## ResourceCanvas: f.15r — Ghabil (Cain) carries his dead brother Hâbîl (Abel) on his back ![Canvas thumbnail](<https://iiif.nypl.org/iiif/3/57463913/full/200,/0/default.jpg>)
+## ResourceCanvas: f.15r — Ghabil (Cain) carries his dead brother Hâbîl (Abel) on his back ![Canvas thumbnail](https://iiif.nypl.org/iiif/3/57463913/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
@@ -8034,7 +8034,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Nuh (Noah) and his family on deck in the ark
 
-## ResourceCanvas: f.19r — Nuh (Noah) and his family on deck in the ark ![Canvas thumbnail](<https://iiif.nypl.org/iiif/3/psnypl_spn_575/full/200,/0/default.jpg>)
+## ResourceCanvas: f.19r — Nuh (Noah) and his family on deck in the ark ![Canvas thumbnail](https://iiif.nypl.org/iiif/3/psnypl_spn_575/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
@@ -8222,7 +8222,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: The expulsion of Âdam and Hawwâ from Paradise
 
-## ResourceCanvas: f.8v — The expulsion of Âdam and Hawwâ from Paradise ![Canvas thumbnail](<https://iiif.nypl.org/iiif/3/1658025/full/200,/0/default.jpg>)
+## ResourceCanvas: f.8v — The expulsion of Âdam and Hawwâ from Paradise ![Canvas thumbnail](https://iiif.nypl.org/iiif/3/1658025/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
@@ -8398,7 +8398,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Chronology of Ancient Nations, f.48v
 
-## ResourceCanvas: f.48v — Adam and Eve ![Canvas thumbnail](<https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/full/200,/0/default.jpg>)
+## ResourceCanvas: f.48v — Adam and Eve ![Canvas thumbnail](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
@@ -8501,7 +8501,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ## Manifest: Chronology of Ancient Nations, f.93v
 
-## ResourceCanvas: f.93v — The storming of the fortress of Al-Muqanna ![Canvas thumbnail](<https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/full/200,/0/default.jpg>)
+## ResourceCanvas: f.93v — The storming of the fortress of Al-Muqanna ![Canvas thumbnail](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
