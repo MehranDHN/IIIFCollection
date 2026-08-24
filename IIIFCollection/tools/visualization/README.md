@@ -60,6 +60,7 @@ tools/visualization/
 | `generate_persons_graph_dot_extended.py`  | (flag `--extended`)                   | |
 | `render_persons_graph.py`                 | (shared renderer)                     | |
 | `generate_iconography_concept_graph.py`   | `generators/iconography.py`           | |
+| `generate_iconography_concept_markmap.py` | `generators/iconography.py` (Markmap view) | |
 | `generate_narrative_episode_hierarchy.py` | `generators/narrative.py`             | |
 | `generate_narrative_episodes_graph.py`    | (same module, different mode)         | |
 | `generate_collection_tree_mermaid.py`     | `tools/visualization/generate_collection_tree.py` | compatibility wrapper retained |
@@ -121,7 +122,19 @@ Build a neighbourhood graph around one or more iconographic concepts, showing ex
 | **Primary inputs** | All `*Collection.json` files + `data/ontology/iconography_RDF.ttl` |
 | **Key properties used** | `skos:exactMatch`, `skos:relatedMatch`, `mdhn:depicts`, `mdhn:elementDepicts`, narrative-episode links |
 | **Outputs** | `iconography_concept_graph.dot` (and test variants) |
-| **Usage (current)** | ```bash<br>python generate_iconography_concept_graph.py \<br>  --concept mdhn:sh2020006752_Winged_Horses \<br>  --concept mdhn:sh85088283_Miraj<br>``` |
+| **Usage (current)** | Edit the `INPUT_CONCEPTS` array, then:<br>```bash<br>python generate_iconography_concept_graph.py<br>``` |
+
+**Markmap view of the same neighbourhood**
+
+| | |
+|---|---|
+| **Current script** | `generate_iconography_concept_markmap.py` |
+| **Root** | The concept(s) listed in `INPUT_CONCEPTS` (same array as the DOT script). A single concept such as `mdhn:Divs` becomes the Markmap root; several concepts become sibling branches. |
+| **Primary inputs** | All `*Collection.json` files + `Ontology/iconography_RDF.ttl`, `narrative_episodes.ttl`, `iconclass_hierarchy.ttl`, `aat_hierarchy.ttl`, `LCTGM_RDF.ttl` |
+| **Key properties used** | `skos:exactMatch`, `skos:closeMatch`, `skos:relatedMatch`, `skos:broadMatch`, `mdhn:isPartOf`, `mdhn:charactersInvolved`, `mdhn:hasAATBroader`, `mdhn:hasIconclassBroader`, `mdhn:hasTGMBroader`, canvas `depicts` / `elementLOUD` |
+| **Thumbnails** | IIIF Image API size segment rewritten to `/{THUMBNAIL_WIDTH},/` (default `250`) for collection, resource, canvas, and cropped-element images |
+| **Outputs** | `iconography_concept_associations.markmap.md` |
+| **Usage (current)** | Edit the `INPUT_CONCEPTS` array, then:<br>```bash<br>python generate_iconography_concept_markmap.py<br>``` |
 
 ---
 

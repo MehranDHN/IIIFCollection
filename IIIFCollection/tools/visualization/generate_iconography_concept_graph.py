@@ -12,7 +12,7 @@ OUTPUT_DOT = SCRIPT_DIR / 'iconography_concept_graph.dot'
 
 # Edit this list to choose the iconography concepts that should be included by default.
 INPUT_CONCEPTS = [
-    'mdhn:HorseStirrup'
+    'mdhn:Divs'
     #'mdhn:Ascension_of_the_Prophet',
     # Add more concepts here.
 ]

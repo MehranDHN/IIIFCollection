@@ -58,7 +58,8 @@ The reports should retain labels and Wikidata identifiers where available, becau
 
 | Current script | Purpose | Inputs | Outputs |
 |---|---|---|---|
-| `generate_iconography_concept_graph.py` | Build a neighbourhood graph around selected iconographic concepts, their SKOS links, and resources that reference them. | Collection JSON files and iconography RDF/Turtle data; concepts supplied through command-line options. | Iconography concept DOT graph. |
+| `generate_iconography_concept_graph.py` | Build a neighbourhood graph around selected iconographic concepts, their SKOS links, and resources that reference them. | Collection JSON files and iconography RDF/Turtle data; concepts supplied through the `INPUT_CONCEPTS` array. | Iconography concept DOT graph. |
+| `generate_iconography_concept_markmap.py` | Concept-rooted Markmap of the same neighbourhood: SKOS alignments (AAT, Iconclass, TGM), narrative episodes, collections, resources, canvases, matching content elements, and IIIF thumbnails. | Same `INPUT_CONCEPTS` array as the DOT graph, all `*Collection.json` files, plus `iconography_RDF.ttl`, `narrative_episodes.ttl`, `iconclass_hierarchy.ttl`, `aat_hierarchy.ttl`, and `LCTGM_RDF.ttl`. | `iconography_concept_associations.markmap.md`. |
 | `generate_depicts_graph.py` | Build a graph of `mdhn:depicts` and related resource-to-concept associations. | Collection JSON and ontology data used by the script. | Depicts graph DOT output. |
 | `generate_depicts_graph_mermaid.py` | Emit the depicts relationships as Mermaid source. | Collection JSON and ontology data. | Mermaid depicts graph. |
 | `generate_narrative_episodes_graph.py` | Build a graph of narrative episode concepts and their links. | `Ontology/narrative_episodes.ttl` and related project data. | Narrative episode concept DOT output. |

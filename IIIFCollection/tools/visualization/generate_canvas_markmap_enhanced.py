@@ -40,7 +40,8 @@ INPUT_JSON_FILES: List[str] = [
     "MiscReportAndLetterCollection.json",
     "QisasalAnbiyaCollection.json",
     "Qisas_al_Anbiya_PersianMS46Collection.json",
-    "Qisas_al_Anbiya_PersianMS1Collection.json"
+    "Qisas_al_Anbiya_PersianMS1Collection.json",
+    "ChronologyofNationsCollection.json"
     # Add more filenames here
 ]
 
@@ -124,6 +125,9 @@ def get_thumbnail_url(iiif_url: str, width: int = THUMBNAIL_WIDTH) -> Optional[s
     """Resize a cropped IIIF image; keep the existing region (element crops)."""
     if not iiif_url or not isinstance(iiif_url, str):
         return None
+    iiif_url = iiif_url.strip()
+    if iiif_url.startswith("<") and iiif_url.endswith(">"):
+        iiif_url = iiif_url[1:-1].strip()
     if '/full/' in iiif_url:
         return iiif_url.replace('/full/', f'/{width},/')
     if '/max/' in iiif_url:
@@ -134,6 +138,9 @@ def get_thumbnail_url(iiif_url: str, width: int = THUMBNAIL_WIDTH) -> Optional[s
 def _iiif_path_segments(iiif_url: str) -> Optional[Tuple[urlsplit, List[str]]]:
     if not iiif_url or not isinstance(iiif_url, str):
         return None
+    iiif_url = iiif_url.strip()
+    if iiif_url.startswith("<") and iiif_url.endswith(">"):
+        iiif_url = iiif_url[1:-1].strip()
     parsed = urlsplit(iiif_url)
     segs = parsed.path.split("/")
     if len(segs) < 4:
@@ -744,7 +751,7 @@ def generate_markmap_from_json(
             )
             heading = f"## ResourceCanvas: f.{folio} — {label}"
             if canvas_thumb:
-                heading = f"{heading} ![Canvas thumbnail](<{canvas_thumb}>)"
+                heading = f"{heading} ![Canvas thumbnail]({canvas_thumb})"
             lines.append(heading)
 
             if state.get('canvasType'):
