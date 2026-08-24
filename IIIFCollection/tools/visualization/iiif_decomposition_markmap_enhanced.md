@@ -7109,6 +7109,86 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
+## Manifest: Akvan Div prepares to heave the sleeping Rustam into the sea
+
+## ResourceCanvas: f.1v — Akvan Div and Rostam ![Canvas thumbnail](<https://ids.si.edu/ids/iiif/FS-6781_01/full/200,/0/default.jpg>)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasOnvan, HasPainting
+
+### Depicts
+
+#### mdhn:Battle_Between_Rostam_and_AkvanDiv
+- mdhn:isPartOf: mdhn:RostamStory, mdhn:Story_of_Akvan_Div
+
+#### mdhn:Rostam
+
+#### mdhn:Akvan_Div
+
+#### mdhn:Rakhsh
+
+#### mdhn:Sword
+- Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Sun
+
+#### mdhn:Cloud
+- Q8074
+
+#### mdhn:Rocks
+- Q8063
+
+
+### mdhn:Fragment_Cropped_Image: Rostam cropped figure from FS-6781_01
+#### **Rostam cropped figure from FS-6781_01** ![ Rostam cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/916,1588,806,635/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Rostam
+
+
+### mdhn:Fragment_Cropped_Image: Akvan Div cropped figure from FS-6781_01
+#### **Akvan Div cropped figure from FS-6781_01** ![ Akvan Div cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/916,1588,806,635/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Akvan_Div
+
+
+### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from FS-6781_01
+#### **Rakhsh cropped figure from FS-6781_01** ![ Rakhsh cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/1285,1588,614,637/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Rakhsh
+
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in 6781_01
+#### **Headpiece1 in 6781_01** ![ Headpiece1 in 6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/980,604,489,133/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** آغاز داستان
+- **English Text:** Begining Of The Story
+
+### mdhn:Text_or_Verses: Textblock1 in FS-6781_01
+#### **Textblock1 in FS-6781_01** ![ Textblock1 in FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/523,570,1407,1031/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** سخن گوی دهقان چنين کرد ياد که يکروز کيخسرو از بامداد
+
+### mdhn:Text_or_Verses: Textblock2 in FS-6781_01
+#### **Textblock2 in FS-6781_01** ![ Textblock2 in FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/490,2223,1431,129/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** که دانم کنون در يکی چاره نيست که خود کرده ام و ستمکاره نيست
+
+---
+
 
 
 
@@ -7177,6 +7257,102 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Queen_of_Sheba
 
+
+---
+
+## Manifest: Tarikhname by Balami FS-6240_03
+
+## ResourceCanvas: f.1v — The fortress of Al-Muqanna ![Canvas thumbnail](<https://ids.si.edu/ids/iiif/FS-6240_03/full/200,/0/default.jpg>)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Siege_of_Al_Muqanna_Fortress
+
+#### mdhn:Khaydhar_ibn_Kawus_al_Afshin
+
+#### mdhn:Abu_Muslim_al_Khorasani
+
+#### mdhn:Al_Muqanna
+
+#### mdhn:Battle_Field
+- Q4895508
+- skos:exactMatch: mdhn:aat300000835
+
+#### mdhn:Bow_and_Arrow
+- Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
+
+#### mdhn:AlamandKotalandKotal
+- Q140502385
+- skos:exactMatch: mdhn:aat500011096
+
+#### mdhn:Sheild
+
+#### mdhn:Combat_Helmet
+- Q3579211
+- skos:exactMatch: mdhn:aat300391023
+
+#### mdhn:Dome
+- Q12493
+- skos:exactMatch: mdhn:aat300001280, mdhn:tgm003212_Domes
+
+#### mdhn:Bricks
+- Q40089
+- skos:exactMatch: mdhn:aat300010463, mdhn:tgm001324_Bricks
+
+#### mdhn:Fortress
+- Q57831
+- skos:exactMatch: mdhn:aat300006894, mdhn:tgm004239_Forts__fortifications
+
+#### mdhn:Cloud
+- Q8074
+
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Horse_Spur
+- Q740732
+
+#### mdhn:Horse_Saddle
+- Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+
+#### mdhn:Horse_Riding
+- Q179226
+
+#### mdhn:HorseStirrup
+- Q191657
+- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
+- skos:relatedMatch: mdhn:Horse_Saddle
+
+
+### mdhn:Fragment_Cropped_Image: Afshin cropped figure from 93v
+#### **Afshin cropped figure from 93v** ![ Afshin cropped figure from 93v ](https://ids.si.edu/ids/iiif/FS-6240_03/672,839,438,649/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Khaydhar_ibn_Kawus_al_Afshin
+
+
+### mdhn:Fragment_Cropped_Image: Al_Muqanna cropped figure from 93v
+#### **Al_Muqanna cropped figure from 93v** ![ Al_Muqanna cropped figure from 93v ](https://ids.si.edu/ids/iiif/FS-6240_03/837,573,306,246/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Al_Muqanna
+
+
+### mdhn:Text_or_Verses: Textblock1 in 93v
+#### **Textblock1 in 93v** ![ Textblock1 in 93v ](https://ids.si.edu/ids/iiif/FS-6240_03/277,276,1309,435/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** وقت چاشتگاه ميافتد از ... و خبر به افشين رسيد. افشين جعفر را بفرستاد کی بحرب فراز شو
 
 ---
 
@@ -8210,6 +8386,212 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Eve
 
+
+---
+
+
+
+
+# Asarol Baghie Or.Ms.161 Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Chronology of Ancient Nations, f.48v
+
+## ResourceCanvas: f.48v — Adam and Eve ![Canvas thumbnail](<https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/full/200,/0/default.jpg>)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Adam
+
+#### mdhn:Eve
+
+#### mdhn:Iblis
+- skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
+- skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
+
+#### mdhn:iconclass71A
+- skos:closeMatch: wd:Q70899
+- skos:exactMatch: iconclass:71A
+- skos:relatedMatch: mdhn:Story_of_Adam_and_Eve, wd:Q70899
+
+#### mdhn:iconclass71A33
+- skos:exactMatch: <https://iconclass.org/71A33>
+- skos:relatedMatch: mdhn:Adam_and_Eve_Iden_Paradise
+
+#### mdhn:Adam_and_Eve_Iden_Paradise
+- mdhn:isPartOf: mdhn:Qisas_al_Anbiya, mdhn:Story_of_Adam_and_Eve
+
+#### mdhn:iconclass71A4
+- skos:exactMatch: <https://iconclass.org/71A4>
+
+#### mdhn:iconclass71A421
+- skos:exactMatch: <https://iconclass.org/71A421>
+- skos:relatedMatch: mdhn:Adam_and_Eve_Eat_Forbidden_Fruit
+
+#### mdhn:Flaming_Nimbus
+- Q123456
+
+#### mdhn:Garden_of_Eden
+- Q19014
+- skos:exactMatch: mdhn:sh85040949_Eden
+
+#### mdhn:God
+- Q190
+- skos:exactMatch: mdhn:sh85055517_God
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Pomegranate
+- Q13188
+- skos:exactMatch: mdhn:aat300400483
+
+#### mdhn:Fruits
+- Q1364
+
+
+### mdhn:Fragment_Cropped_Image: Adam cropped figure from 48v
+#### **Adam cropped figure from 48v** ![ Adam cropped figure from 48v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/831,2547,718,1751/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Adam
+
+
+### mdhn:Fragment_Cropped_Image: Eve cropped figure from 48v
+#### **Eve cropped figure from 48v** ![ Eve cropped figure from 48v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/1520,2535,718,1751/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Eve
+
+
+### mdhn:Fragment_Cropped_Image: Iblis cropped figure from 48v
+#### **Iblis cropped figure from 48v** ![ Iblis cropped figure from 48v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/2266,2654,1108,1661/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Iblis
+- skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
+- skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
+
+
+### mdhn:Text_or_Verses: Textblock1 in 48v
+#### **Textblock1 in 48v** ![ Textblock1 in 48v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/591,864,3330,945/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** فی صورة شيخ محملها علی تناوک فواکه الاشجار
+
+### mdhn:Text_or_Verses: Textblock2 in 48v
+#### **Textblock2 in 48v** ![ Textblock2 in 48v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/544,4335,3379,2419/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** فی کتاب ابستا کعلومه ثم کان البطن السابع
+
+---
+
+## Manifest: Chronology of Ancient Nations, f.93v
+
+## ResourceCanvas: f.93v — The storming of the fortress of Al-Muqanna ![Canvas thumbnail](<https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/full/200,/0/default.jpg>)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Siege_of_Al_Muqanna_Fortress
+
+#### mdhn:Khaydhar_ibn_Kawus_al_Afshin
+
+#### mdhn:Abu_Muslim_al_Khorasani
+
+#### mdhn:Al_Muqanna
+
+#### mdhn:Battle_Field
+- Q4895508
+- skos:exactMatch: mdhn:aat300000835
+
+#### mdhn:Bow_and_Arrow
+- Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
+
+#### mdhn:Bricks
+- Q40089
+- skos:exactMatch: mdhn:aat300010463, mdhn:tgm001324_Bricks
+
+#### mdhn:Fortress
+- Q57831
+- skos:exactMatch: mdhn:aat300006894, mdhn:tgm004239_Forts__fortifications
+
+#### mdhn:Cloud
+- Q8074
+
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Horse_Spur
+- Q740732
+
+#### mdhn:Horse_Saddle
+- Q192249
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+
+#### mdhn:Horse_Riding
+- Q179226
+
+#### mdhn:HorseStirrup
+- Q191657
+- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
+- skos:relatedMatch: mdhn:Horse_Saddle
+
+#### mdhn:DoorKnocker
+- Q12180
+- skos:exactMatch: mdhn:aat300080114
+
+
+### mdhn:Fragment_Cropped_Image: Soldiers cropped figure from 93v
+#### **Soldiers cropped figure from 93v** ![ Soldiers cropped figure from 93v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/903,1738,1815,637/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Adam
+
+
+### mdhn:Fragment_Cropped_Image: Soldiers cropped figure from 93v
+#### **Soldiers cropped figure from 93v** ![ Soldiers cropped figure from 93v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/2489,2345,1338,1791/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Eve
+
+
+### mdhn:Text_or_Verses: Textblock1 in 93v
+#### **Textblock1 in 93v** ![ Textblock1 in 93v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/548,913,3321,772/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** و مثل من خالف و شرع لهم حميع ما اتی به مزدک
+
+### mdhn:Text_or_Verses: Textblock2 in 93v
+#### **Textblock2 in 93v** ![ Textblock2 in 93v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/571,4244,3351,1104/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** احيط به ليلا شی جسده فتحقق اصحابه قوله
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in 93v
+#### **Headpiece1 in 93v** ![ Headpiece1 in 93v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/572,5275,3352,1496/200,/0/default.jpg)
+- **Styles:** aat:300194434, aat:300195195
+- **Persian Text:** ثم کلهر رجل محتوما فی اهل فارس يعرف بالحسين منصور حلاج
 
 ---
 
