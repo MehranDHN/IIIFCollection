@@ -66,7 +66,8 @@ ONTOLOGY_FILES: List[str] = [
 # Integer width used for the IIIF size segment: /{THUMBNAIL_WIDTH},/
 THUMBNAIL_WIDTH: int = 250
 # Default number of Markmap levels expanded in the generated document.
-INITIAL_EXPAND_LEVEL: int = 3
+# 4 shows Collection → Resource; canvas / depicts stay collapsed until opened.
+INITIAL_EXPAND_LEVEL: int = 4
 # ===================================================
 
 ConceptRec = Dict[str, Any]
@@ -79,6 +80,21 @@ CONTENT_KEYS: List[str] = [
     "ContentElement",
     "elements",
 ]
+# Prefer painting crops for canvas thumbnails; skip text blocks and payload blobs.
+THUMB_SOURCE_KEYS: List[str] = [
+    "croppedFigures",
+    "croppedPatterns",
+    "ContentElement",
+    "elements",
+]
+SKIP_THUMB_KEYS = {
+    "linguisticElements",
+    "basse64",
+    "refers",
+    "elementTextBlocks",
+    "elementFAText",
+    "elementENText",
+}
 
 SKOS_PREDICATES = (
     "skos:exactMatch",
@@ -571,9 +587,10 @@ def rewrite_iiif_size(
     return None
 
 
-def find_iiif_urls(node: Any) -> List[str]:
+def find_iiif_urls(node: Any, skip_keys: Optional[Set[str]] = None) -> List[str]:
     found: List[str] = []
     seen: Set[str] = set()
+    skip_keys = skip_keys or set()
 
     def add(url: Optional[str]) -> None:
         if url and url not in seen:
@@ -593,8 +610,11 @@ def find_iiif_urls(node: Any) -> List[str]:
             thumb = value.get("thumbnail")
             if thumb is not None:
                 walk(thumb)
-            for nested in value.values():
-                if nested is thumb:
+            for key, nested in value.items():
+                if key in skip_keys or key == "thumbnail" or key in (
+                    "croppedImage",
+                    "image",
+                ):
                     continue
                 walk(nested)
             return
@@ -611,12 +631,25 @@ def thumbnail_for(
     width: int = THUMBNAIL_WIDTH,
     *,
     full_region: bool = False,
+    skip_keys: Optional[Set[str]] = None,
 ) -> Optional[str]:
-    for url in find_iiif_urls(node):
+    for url in find_iiif_urls(node, skip_keys=skip_keys):
         rewritten = rewrite_iiif_size(url, width, full_region=full_region)
         if rewritten:
             return rewritten
     return None
+
+
+def canvas_thumbnail(canvas: Dict[str, Any], width: int = THUMBNAIL_WIDTH) -> Optional[str]:
+    """Whole-folio thumb from a painting crop, not from linguisticElements."""
+    for key in THUMB_SOURCE_KEYS:
+        nested = canvas.get(key)
+        if not nested:
+            continue
+        thumb = thumbnail_for(nested, width, full_region=True, skip_keys=SKIP_THUMB_KEYS)
+        if thumb:
+            return thumb
+    return thumbnail_for(canvas, width, full_region=True, skip_keys=SKIP_THUMB_KEYS)
 
 
 # ---------------------------------------------------------------------------
@@ -902,11 +935,20 @@ def collect_hits(
                 depicts = set(canvas_depicts(canvas))
                 loud_terms: Set[str] = set()
                 matching_elements: List[Dict[str, Any]] = []
+                seen_elems: List[int] = []
                 for elem in iter_content_elements(canvas):
                     el_terms = set(element_loud(elem)) | set(find_all_terms(elem))
                     loud_terms.update(element_loud(elem))
                     if el_terms & expanded:
                         matching_elements.append(elem)
+                        seen_elems.append(id(elem))
+                # Painting crops on a matching canvas even when elementLOUD is missing
+                # (Ramayana Div figures have labels but no LOUD tags).
+                for key in ("croppedFigures", "croppedPatterns"):
+                    for elem in canvas.get(key) or []:
+                        if isinstance(elem, dict) and id(elem) not in seen_elems:
+                            matching_elements.append(elem)
+                            seen_elems.append(id(elem))
                 matched = (depicts | loud_terms | canvas_all) & expanded
                 if not matched:
                     continue
@@ -921,10 +963,12 @@ def collect_hits(
                     reasons.append(
                         "SKOS-aligned: " + ", ".join(sorted(aligned)[:6])
                     )
-                canvas_thumb = thumbnail_for(canvas, full_region=True)
+                canvas_thumb = canvas_thumbnail(canvas)
                 element_thumb = None
                 for elem in matching_elements:
-                    element_thumb = thumbnail_for(elem, full_region=False)
+                    element_thumb = thumbnail_for(
+                        elem, full_region=False, skip_keys=SKIP_THUMB_KEYS
+                    )
                     if element_thumb:
                         break
                 hits.append(
@@ -987,7 +1031,8 @@ def md_image(alt: str, url: Optional[str]) -> str:
     if not url:
         return ""
     safe_alt = alt.replace("[", "(").replace("]", ")").replace("\n", " ")
-    return f"![{safe_alt}]({url})"
+    # Angle brackets keep commas in IIIF region/size (x,y,w,h and 250,) inside the URL.
+    return f"![{safe_alt}](<{url}>)"
 
 
 def with_thumb(text: str, url: Optional[str], alt: str) -> str:
@@ -1260,28 +1305,28 @@ def emit_element(
     elem: Dict[str, Any],
     store: Dict[str, ConceptRec],
     selected: Set[str],
-    heading_level: int,
+    indent: int,
 ) -> None:
+    """Emit a content element as nested list items (avoids Markdown h6 ceiling)."""
     el_label = get_label_text(elem.get("elementLabel") or elem.get("label"))
     el_type = elem.get("elementType") or "ContentElement"
-    thumb = thumbnail_for(elem, full_region=False)
+    thumb = thumbnail_for(elem, full_region=False, skip_keys=SKIP_THUMB_KEYS)
     heading = f"{el_type}: {el_label}"
-    lines.append(md_heading(heading_level, with_thumb(heading, thumb, el_label)))
+    lines.append(bullet(indent, with_thumb(heading, thumb, el_label)))
     loud = element_loud(elem)
     if loud:
         highlighted = []
         for tag in loud:
             mark = " ★" if tag in selected else ""
             highlighted.append(f"{tag}{mark}")
-        lines.append(bullet(0, f"**elementLOUD:** {', '.join(highlighted)}"))
+        lines.append(bullet(indent + 1, f"**elementLOUD:** {', '.join(highlighted)}"))
     styles = elem.get("elementStyle") or elem.get("style") or []
     if styles:
         lines.append(
-            bullet(0, f"**Styles:** {', '.join(str(s) for s in styles)}")
+            bullet(indent + 1, f"**Styles:** {', '.join(str(s) for s in styles)}")
         )
     for tag in loud:
-        emit_skos_for_term(lines, tag, store, indent=1)
-    lines.append("")
+        emit_skos_for_term(lines, tag, store, indent=indent + 1)
 
 
 def emit_resources_branch(
@@ -1338,14 +1383,12 @@ def emit_resources_branch(
                 )
         matching = hit.get("matching_elements") or []
         if matching:
-            lines.append(md_heading(min(level + 1, 6), "Matching content elements"))
-            lines.append("")
+            lines.append(bullet(0, "**Matching content elements**"))
             for elem in matching:
-                emit_element(lines, elem, store, selected, min(level + 2, 6))
+                emit_element(lines, elem, store, selected, indent=1)
         depicts = hit.get("depicts") or []
         if depicts:
-            lines.append(md_heading(min(level + 1, 6), "Canvas depicts"))
-            lines.append("")
+            lines.append(bullet(0, "**Canvas depicts**"))
             ordered = [t for t in depicts if t in selected] + [
                 t for t in depicts if t not in selected
             ]
@@ -1356,17 +1399,16 @@ def emit_resources_branch(
                 seen.add(tag)
                 star = " ★" if tag in selected else ""
                 title = concept_heading_text(tag, store)
-                lines.append(md_heading(min(level + 2, 6), f"{title}{star}"))
-                emit_skos_for_term(lines, tag, store, indent=0)
+                lines.append(bullet(1, f"{title}{star}"))
+                emit_skos_for_term(lines, tag, store, indent=2)
                 if is_narrative(tag, store):
-                    lines.append(bullet(0, "**Narrative episode**"))
+                    lines.append(bullet(2, "**Narrative episode**"))
                     emit_broader_list(
-                        lines, tag, store, aliases, "isPartOf", 0, "isPartOf"
+                        lines, tag, store, aliases, "isPartOf", 2, "isPartOf"
                     )
-                lines.append("")
         elif not canvas:
             lines.append(bullet(0, "Resource-level match (no AsCanvas / States entry)."))
-            lines.append("")
+        lines.append("")
 
     grouped: DefaultDict[str, DefaultDict[str, List[Hit]]] = defaultdict(
         lambda: defaultdict(list)
@@ -1379,10 +1421,12 @@ def emit_resources_branch(
             hit["collection_label"],
             hit.get("collection_thumb"),
         )
-        resource_meta[hit["resource_id"]] = (
-            hit["resource_label"],
-            hit.get("resource_thumb"),
-        )
+        prev = resource_meta.get(hit["resource_id"])
+        thumb = hit.get("resource_thumb")
+        if prev is None:
+            resource_meta[hit["resource_id"]] = (hit["resource_label"], thumb)
+        elif not prev[1] and thumb:
+            resource_meta[hit["resource_id"]] = (prev[0], thumb)
 
     canvas_count = sum(1 for hit in hits if hit.get("canvas") is not None)
     lines.append(
