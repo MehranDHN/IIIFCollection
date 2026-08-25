@@ -317,7 +317,7 @@ markmap:
 
 ## Depicted in collections
 
-- **13 collection(s), 23 resource(s), 25 canvas(es)**
+- **14 collection(s), 24 resource(s), 26 canvas(es)**
 
 ### Collection: Departed Folios ![Departed Folios](<https://viewer.cbl.ie/viewer/api/v1/records/Per_144_20/files/images/D0002536.jpg/full/250,/0/default.jpg>)
 - `DepartedFolioCollection.json`
@@ -2910,7 +2910,77 @@ markmap:
     - Q5113
     - skos:broadMatch: mdhn:Animal
 
-### Collection: The Ramayana ![The Ramayana](<https://ids.si.edu/ids/iiif/FS-6996_01/202,110,1825,3398/250,/0/default.jpg>)
+### Collection: The Ramayana V1 ![The Ramayana V1](<https://ids.si.edu/ids/iiif/FS-6987_01/full/250,/0/default.jpg>)
+- `RamayanaV1Collection.json`
+
+#### Resource: FS-6987_03 ![FS-6987_03](<https://ids.si.edu/ids/iiif/FS-6987_03/full/250,/0/default.jpg>)
+
+##### f.3r — Folio 3 ![canvas f.3r](<https://ids.si.edu/ids/iiif/FS-6987_03/full/250,/0/default.jpg>)
+- **Matched via:** canvas depicts
+- **Selected concept(s) on this canvas:** mdhn:Divs
+- **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+- **Matching content elements**
+  - mdhn:Fragment_Cropped_Image: Female Div cropped figure from 3r ![Female Div cropped figure from 3r](<https://ids.si.edu/ids/iiif/FS-6987_03/1410,1630,429,570/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Yoda like Div cropped figure from 3r ![Yoda like Div cropped figure from 3r](<https://ids.si.edu/ids/iiif/FS-6987_03/1220,2180,450,429/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Horned Div cropped figure from 3r ![Horned Div cropped figure from 3r](<https://ids.si.edu/ids/iiif/FS-6987_03/944,1825,413,468/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Pink Fox like Div cropped figure from 3r ![Pink Fox like Div cropped figure from 3r](<https://ids.si.edu/ids/iiif/FS-6987_03/71,2432,578,935/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Female Divs cropped figure from 3r ![Female Divs cropped figure from 3r](<https://ids.si.edu/ids/iiif/FS-6987_03/114,1014,720,1164/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Unknown Figure cropped figure from 3r ![Unknown Figure cropped figure from 3r](<https://ids.si.edu/ids/iiif/FS-6987_03/832,1186,415,699/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Monkey Figure cropped figure from 3r ![Monkey Figure cropped figure from 3r](<https://ids.si.edu/ids/iiif/FS-6987_03/1118,767,348,376/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+- **Canvas depicts**
+  - mdhn:Divs — Divs / دیوها ★
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Story_of_Ramayana — Story of Ramayana / افسانه رامايانا
+    - Q37293
+    - mdhn:isPartOf: mdhn:Indian_Epic_and_Mythology
+    - **Narrative episode**
+    - **isPartOf**
+      - mdhn:Indian_Epic_and_Mythology — Indian Epic and Mythology / افسانه های حماسی و فولکور هند
+        - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+        - mdhn:Indian_Mythology — Indian Mythology / ميتولوژی هندی
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+  - mdhn:Fortress — Fortress / قلعه
+    - Q57831
+    - skos:exactMatch: mdhn:aat300006894, mdhn:tgm004239_Forts__fortifications
+  - mdhn:Architectural_Structure — Architectural Structure / بنای معماری
+    - Q811979
+  - mdhn:Brass_Metal_Jingle — jingle / زنگوله قورچه برنجی
+    - skos:broadMatch: mdhn:Jingle
+  - mdhn:Spear — Spear / نيزه
+    - Q44475
+    - skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
+    - skos:broadMatch: mdhn:SharpEdgedWeopen
+  - mdhn:Column — Column / ستون
+    - Q4817
+    - skos:exactMatch: biblissima:Q295903, iconclass:48C161, mdhn:aat300001571, mdhn:aat300001650, mdhn:tgm002319_Columns
+    - skos:relatedMatch: mdhn:aat300001650
+  - mdhn:Minaret — Minaret / مناره
+    - Q48356
+    - skos:exactMatch: mdhn:aat300007535, mdhn:tgm006608_Minarets
+  - mdhn:Tree — Tree / درخت
+    - Q10884
+    - skos:exactMatch: mdhn:aat300132410
+  - mdhn:Gazelle — Gazelle / آهو
+    - Q29001815
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Monkey — Monkey / ميمون
+    - Q1367
+    - skos:exactMatch: mdhn:aat300250028
+    - skos:broadMatch: mdhn:Animal
+
+### Collection: The Ramayana V2 ![The Ramayana V2](<https://ids.si.edu/ids/iiif/FS-6996_01/202,110,1825,3398/250,/0/default.jpg>)
 - `RamayanaV2Collection.json`
 
 #### Resource: FS-6997_08 ![FS-6997_08](<https://ids.si.edu/ids/iiif/FS-6997_08/full/250,/0/default.jpg>)
@@ -2919,7 +2989,7 @@ markmap:
 - **Matched via:** canvas depicts
 - **Selected concept(s) on this canvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
-- **Contains:** HasText, HasHalkari, HasPainting
+- **Contains:** HasText, HasPainting
 - **Matching content elements**
   - mdhn:Fragment_Cropped_Image: two figures cropped figure from 8 ![two figures cropped figure from 8](<https://ids.si.edu/ids/iiif/FS-6997_08/282,919,729,784/250,/0/default.jpg>)
     - **Styles:** aat:500011001
@@ -2974,7 +3044,7 @@ markmap:
 - **Matched via:** canvas depicts
 - **Selected concept(s) on this canvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
-- **Contains:** HasText, HasHalkari, HasPainting
+- **Contains:** HasText, HasPainting
 - **Matching content elements**
   - mdhn:Fragment_Cropped_Image: Div cropped figure from 3v ![Div cropped figure from 3v](<https://ids.si.edu/ids/iiif/FS-6998_03/233,846,1742,1238/250,/0/default.jpg>)
     - **Styles:** aat:500011001
@@ -2999,6 +3069,9 @@ markmap:
     - skos:exactMatch: mdhn:aat300236072
   - mdhn:Brass_Metal_Jingle — jingle / زنگوله قورچه برنجی
     - skos:broadMatch: mdhn:Jingle
+  - mdhn:Misbaha — Misbaha / تسبيح
+    - Q1141821
+    - skos:exactMatch: mdhn:aat300264661
   - mdhn:Column — Column / ستون
     - Q4817
     - skos:exactMatch: biblissima:Q295903, iconclass:48C161, mdhn:aat300001571, mdhn:aat300001650, mdhn:tgm002319_Columns
