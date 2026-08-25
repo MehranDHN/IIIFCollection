@@ -317,7 +317,7 @@ markmap:
 
 ## Depicted in collections
 
-- **13 collection(s), 22 resource(s), 24 canvas(es)**
+- **13 collection(s), 23 resource(s), 25 canvas(es)**
 
 ### Collection: Departed Folios ![Departed Folios](<https://viewer.cbl.ie/viewer/api/v1/records/Per_144_20/files/images/D0002536.jpg/full/250,/0/default.jpg>)
 - `DepartedFolioCollection.json`
@@ -2963,6 +2963,42 @@ markmap:
     - skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
   - mdhn:Architectural_Structure — Architectural Structure / بنای معماری
     - Q811979
+  - mdhn:Column — Column / ستون
+    - Q4817
+    - skos:exactMatch: biblissima:Q295903, iconclass:48C161, mdhn:aat300001571, mdhn:aat300001650, mdhn:tgm002319_Columns
+    - skos:relatedMatch: mdhn:aat300001650
+
+#### Resource: FS-6998_03 ![FS-6998_03](<https://ids.si.edu/ids/iiif/FS-6998_03/full/250,/0/default.jpg>)
+
+##### f.3v — Folio 3 ![canvas f.3v](<https://ids.si.edu/ids/iiif/FS-6998_03/full/250,/0/default.jpg>)
+- **Matched via:** canvas depicts
+- **Selected concept(s) on this canvas:** mdhn:Divs
+- **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasHalkari, HasPainting
+- **Matching content elements**
+  - mdhn:Fragment_Cropped_Image: Div cropped figure from 3v ![Div cropped figure from 3v](<https://ids.si.edu/ids/iiif/FS-6998_03/233,846,1742,1238/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+- **Canvas depicts**
+  - mdhn:Divs — Divs / دیوها ★
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Story_of_Ramayana — Story of Ramayana / افسانه رامايانا
+    - Q37293
+    - mdhn:isPartOf: mdhn:Indian_Epic_and_Mythology
+    - **Narrative episode**
+    - **isPartOf**
+      - mdhn:Indian_Epic_and_Mythology — Indian Epic and Mythology / افسانه های حماسی و فولکور هند
+        - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+        - mdhn:Indian_Mythology — Indian Mythology / ميتولوژی هندی
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+  - mdhn:Bolster — Bolster / متکا
+    - Q3057620
+    - skos:exactMatch: mdhn:aat300236072
+  - mdhn:Brass_Metal_Jingle — jingle / زنگوله قورچه برنجی
+    - skos:broadMatch: mdhn:Jingle
   - mdhn:Column — Column / ستون
     - Q4817
     - skos:exactMatch: biblissima:Q295903, iconclass:48C161, mdhn:aat300001571, mdhn:aat300001650, mdhn:tgm002319_Columns
