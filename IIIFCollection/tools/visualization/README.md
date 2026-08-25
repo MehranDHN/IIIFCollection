@@ -6,8 +6,6 @@ This folder (and the surrounding `tools/visualization/` package) turns the RDF/O
 
 For the migration plan and the current script contracts, see [PROPOSAL.md](PROPOSAL.md) and [SCRIPT_GUIDE.md](SCRIPT_GUIDE.md). This README remains the package-level overview; the script guide is the operational reference for inputs and outputs.
 
-> **Status (August 2026)**  
-> The original scripts lived in a flat `util_script/visualization/` directory with mixed naming. They are being refactored into a coherent package with consistent naming, shared configuration and a single CLI entry point. This README documents both the **current** scripts and the **target** organisation.
 
 ---
 
@@ -19,33 +17,6 @@ For the migration plan and the current script contracts, see [PROPOSAL.md](PROPO
 4. **Scholarly usefulness** — Tooltips expose `rdfs:comment`, Wikidata QIDs, Iconclass notations and other rich metadata.
 5. **Multiple output formats** — DOT (Graphviz), Mermaid, Markmap, SVG, PNG, HTML, JSON.
 
----
-
-## Target Package Layout
-
-```text
-tools/visualization/
-├── README.md                    ← this file
-├── __init__.py
-├── cli.py                       # future unified entry point
-├── config/
-│   └── styles.yaml              # colours, ranks, node shapes, tooltip templates
-├── generators/
-│   ├── __init__.py
-│   ├── base.py                  # common RDF loading, namespace handling, colour helpers
-│   ├── generate_aat_hierarchy.py
-│   ├── persons.py
-│   ├── iconography.py
-│   ├── narrative.py
-│   ├── generate_collection_tree.py
-│   ├── generate_canvas_decomposition_markmap.py
-│   └── generate_collection_statistics.py
-├── renderers/
-│   ├── render_graphviz.py       # .dot → SVG / PNG
-│   ├── mermaid.py
-│   └── markmap.py
-└── reports/                     # default output directory (generated artefacts)
-```
 
 ---
 

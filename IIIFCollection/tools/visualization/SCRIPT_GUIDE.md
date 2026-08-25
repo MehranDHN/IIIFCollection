@@ -22,6 +22,7 @@ Graphviz-dependent scripts additionally require the Graphviz `dot` executable. R
 |---|---|---|---|
 | `generate_collection_tree.py` | Walk the root IIIF collection and nested collection references to show collection hierarchy and member counts. | `IIIF2Collection.json` and referenced collection JSON files. | `collection_tree.mmd`. |
 | `generate_collection_statistics.py` | Summarise collection, manifest, item, member, and subcollection counts. | Files matching `*Collection.json` in the IIIFCollection directory. | `collection_statistics.html` and `collection_statistics.json`. |
+| `generate_iconography_concept_markmap.py` | A Hierarchical graph presenting associations between Resources. Canvases, Content Elements and Iconography Concept | Specified Iconography Concept | Hierarchical Markmap Document `iconography_concept_associations.markmap.md` |
 
 ### Canvas and content-element reports
 
