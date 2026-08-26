@@ -317,7 +317,7 @@ markmap:
 
 ## Depicted in collections
 
-- **14 collection(s), 25 resource(s), 27 canvas(es)**
+- **14 collection(s), 26 resource(s), 28 canvas(es)**
 
 ### Collection: Departed Folios ![Departed Folios](<https://viewer.cbl.ie/viewer/api/v1/records/Per_144_20/files/images/D0002536.jpg/full/250,/0/default.jpg>)
 - `DepartedFolioCollection.json`
@@ -3024,6 +3024,55 @@ markmap:
   - mdhn:Ring — Ring / انگشتر
     - Q46847
     - skos:exactMatch: iconclass:41D2664, mdhn:aat300046012, mdhn:sh85114133_Rings, mdhn:tgm008926_Rings
+  - mdhn:Tree — Tree / درخت
+    - Q10884
+    - skos:exactMatch: mdhn:aat300132410
+
+#### Resource: FS-6988_09 ![FS-6988_09](<https://ids.si.edu/ids/iiif/FS-6988_09/full/250,/0/default.jpg>)
+
+##### f.9r — Folio 9 ![canvas f.9r](<https://ids.si.edu/ids/iiif/FS-6988_09/full/250,/0/default.jpg>)
+- **Matched via:** canvas depicts
+- **Selected concept(s) on this canvas:** mdhn:Divs
+- **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+- **Matching content elements**
+  - mdhn:Fragment_Cropped_Image: Marich Div cropped figure from 9r ![Marich Div cropped figure from 9r](<https://ids.si.edu/ids/iiif/FS-6988_09/204,1732,1798,1794/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Syiah(Black) Div Orange color cropped figure from 9r ![Syiah(Black) Div Orange color cropped figure from 9r](<https://ids.si.edu/ids/iiif/FS-6988_09/1336,125,700,2491/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Rama Shooting cropped figure from 9r ![Rama Shooting cropped figure from 9r](<https://ids.si.edu/ids/iiif/FS-6988_09/225,865,1021,1157/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+- **Canvas depicts**
+  - mdhn:Divs — Divs / دیوها ★
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Story_of_Ramayana — Story of Ramayana / افسانه رامايانا
+    - Q37293
+    - mdhn:isPartOf: mdhn:Indian_Epic_and_Mythology
+    - **Narrative episode**
+    - **isPartOf**
+      - mdhn:Indian_Epic_and_Mythology — Indian Epic and Mythology / افسانه های حماسی و فولکور هند
+        - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+        - mdhn:Indian_Mythology — Indian Mythology / ميتولوژی هندی
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+  - mdhn:Rocks — Rocks / صخره
+    - Q8063
+  - mdhn:Bow_and_Arrow — Bow and Arrow / کمان و پيکان
+    - Q19827042
+    - skos:closeMatch: mdhn:aat300037000
+    - skos:broadMatch: mdhn:Weopen
+  - mdhn:Brass_Metal_Jingle — jingle / زنگوله قورچه برنجی
+    - skos:broadMatch: mdhn:Jingle
+  - mdhn:Earing — Earing / گوشواره
+    - Q168456
+    - skos:exactMatch: iconclass:41D2663, mdhn:aat300045998, mdhn:sh85040426_Earrings, mdhn:tgm003432_Earrings
+  - mdhn:GemEncrustedCrown — Gem-Encrusted Crown / تاج مرصع
+    - Q170984
+  - mdhn:Sea_River_Pool — Sea/River/Pool / دریا/رودخانه/استخر
+    - Q4022
   - mdhn:Tree — Tree / درخت
     - Q10884
     - skos:exactMatch: mdhn:aat300132410

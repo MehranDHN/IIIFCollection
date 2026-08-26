@@ -2452,6 +2452,36 @@
 
 ---
 
+## Manifest: FS-6988_09
+
+## ResourceCanvas: f.9r — Folio 9
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Marich Div cropped figure from 9r
+- ![ Marich Div cropped figure from 9r ](https://ids.si.edu/ids/iiif/FS-6988_09/204,1732,1798,1794/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Syiah(Black) Div Orange color cropped figure from 9r
+- ![ Syiah(Black) Div Orange color cropped figure from 9r ](https://ids.si.edu/ids/iiif/FS-6988_09/1336,125,700,2491/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Rama Shooting cropped figure from 9r
+- ![ Rama Shooting cropped figure from 9r ](https://ids.si.edu/ids/iiif/FS-6988_09/225,865,1021,1157/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 note in 6r
+- ![ Textblock1 note in 6r ](https://ids.si.edu/ids/iiif/FS-6988_09/251,507,1201,195/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** لروه را عرضداشت بی شعور در دريا افتاد اما نمرد رامچند چون او را ديد که بيهوش شده است
+
+### mdhn:Text_or_Verses: Textblock1 note in 6r
+- ![ Textblock1 note in 6r ](https://ids.si.edu/ids/iiif/FS-6988_09/164,3231,207,242/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** تبسمی کرد
+
+---
+
 
 
 
