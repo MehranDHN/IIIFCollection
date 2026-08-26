@@ -2376,7 +2376,86 @@
 
 
 
-# The Ramayana
+# The Ramayana V1
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: FS-6987_03
+
+## ResourceCanvas: f.3r — Folio 3
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Female Div cropped figure from 3r
+- ![ Female Div cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/1410,1630,429,570/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Yoda like Div cropped figure from 3r
+- ![ Yoda like Div cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/1220,2180,450,429/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Horned Div cropped figure from 3r
+- ![ Horned Div cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/944,1825,413,468/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Pink Fox like Div cropped figure from 3r
+- ![ Pink Fox like Div cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/71,2432,578,935/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Female Divs cropped figure from 3r
+- ![ Female Divs cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/114,1014,720,1164/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unknown Figure cropped figure from 3r
+- ![ Unknown Figure cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/832,1186,415,699/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Monkey Figure cropped figure from 3r
+- ![ Monkey Figure cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/1118,767,348,376/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 note in 3r
+- ![ Textblock1 note in 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/626,526,1217,157/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** درختان اسوک بن و ويران کردن قلعه را
+
+### mdhn:Text_or_Verses: Textblock1 note in 3r
+- ![ Textblock1 note in 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/643,2761,1212,271/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** برام گفتن و روان شدن رام و انجمن و سگريو با لشگر بسيار به جانب جنوب و در کناره دريا
+
+---
+
+## Manifest: FS-6988_06
+
+## ResourceCanvas: f.6r — Folio 6
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Female Div cropped figure from 6r
+- ![ Female Div cropped figure from 6r ](https://ids.si.edu/ids/iiif/FS-6988_06/360,888,925,1859/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Rama Shooting cropped figure from 6r
+- ![ Rama Shooting cropped figure from 6r ](https://ids.si.edu/ids/iiif/FS-6988_06/1166,1328,926,1319/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 note in 6r
+- ![ Textblock1 note in 6r ](https://ids.si.edu/ids/iiif/FS-6988_06/363,524,1177,371/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** رام آمد و نفامنی هولناک که سر بفلک کشطده بود صورتی کريه و چشمان سرخ و زرد خود را به رام نمود
+
+### mdhn:Text_or_Verses: Textblock1 note in 6r
+- ![ Textblock1 note in 6r ](https://ids.si.edu/ids/iiif/FS-6988_06/352,2738,1215,354/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** تو واقف باش و ببين که من او را چگونه ميکشم
+
+---
+
+
+
+
+# The Ramayana V2
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
 
@@ -2384,7 +2463,7 @@
 
 ## ResourceCanvas: f.8v — Folio 8
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
-- **Contains:** HasText, HasHalkari, HasPainting
+- **Contains:** HasText, HasPainting
 
 ### mdhn:Fragment_Cropped_Image: two figures cropped figure from 8
 - ![ two figures cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/282,919,729,784/200,/0/default.jpg)
@@ -2406,10 +2485,32 @@
 - ![ Throned King cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/1012,377,993,1328/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
-### mdhn:Marginal_Side_Note: Marginal/Side 1 note in 8
-- ![ Marginal/Side 1 note in 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/842,2617,1184,402/200,/0/default.jpg)
+### mdhn:Text_or_Verses: Textblock1 note in 8
+- ![ Textblock1 note in 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/842,2617,1184,402/200,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** آنزمان همه ميمونان و راجهسان باقی مانده بر رام آفرين گفتند و خوشحال شدند
+
+---
+
+## Manifest: FS-6998_03
+
+## ResourceCanvas: f.3v — Folio 3
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from 3v
+- ![ Div cropped figure from 3v ](https://ids.si.edu/ids/iiif/FS-6998_03/233,846,1742,1238/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 note in 3v
+- ![ Textblock1 note in 3v ](https://ids.si.edu/ids/iiif/FS-6998_03/751,509,1186,362/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** ارش طول آن خانه بود و آن خانه از برای خواب او مهيا شد
+
+### mdhn:Text_or_Verses: Textblock1 note in 3v
+- ![ Textblock1 note in 3v ](https://ids.si.edu/ids/iiif/FS-6998_03/751,509,1186,362/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** و دربندان خانه از دندان فيل بر صفهای آن جواهر و لعل تعبيه کرده بودند کنبه کرن در اينچنين خانه رفته خواب کرد و تا هزار سال برو چنان گذشت
 
 ---
 
