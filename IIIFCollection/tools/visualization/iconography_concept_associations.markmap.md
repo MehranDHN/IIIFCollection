@@ -317,7 +317,7 @@ markmap:
 
 ## Depicted in collections
 
-- **14 collection(s), 24 resource(s), 26 canvas(es)**
+- **14 collection(s), 25 resource(s), 27 canvas(es)**
 
 ### Collection: Departed Folios ![Departed Folios](<https://viewer.cbl.ie/viewer/api/v1/records/Per_144_20/files/images/D0002536.jpg/full/250,/0/default.jpg>)
 - `DepartedFolioCollection.json`
@@ -2964,7 +2964,7 @@ markmap:
     - skos:broadMatch: mdhn:SharpEdgedWeopen
   - mdhn:Column — Column / ستون
     - Q4817
-    - skos:exactMatch: biblissima:Q295903, iconclass:48C161, mdhn:aat300001571, mdhn:aat300001650, mdhn:tgm002319_Columns
+    - skos:exactMatch: biblissima:Q295903, mdhn:aat300001571, mdhn:aat300001650, mdhn:iconclass48C161, mdhn:tgm002319_Columns
     - skos:relatedMatch: mdhn:aat300001650
   - mdhn:Minaret — Minaret / مناره
     - Q48356
@@ -2979,6 +2979,54 @@ markmap:
     - Q1367
     - skos:exactMatch: mdhn:aat300250028
     - skos:broadMatch: mdhn:Animal
+
+#### Resource: FS-6988_06 ![FS-6988_06](<https://ids.si.edu/ids/iiif/FS-6988_06/full/250,/0/default.jpg>)
+
+##### f.6r — Folio 6 ![canvas f.6r](<https://ids.si.edu/ids/iiif/FS-6988_06/full/250,/0/default.jpg>)
+- **Matched via:** canvas depicts
+- **Selected concept(s) on this canvas:** mdhn:Divs
+- **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+- **Matching content elements**
+  - mdhn:Fragment_Cropped_Image: Female Div cropped figure from 6r ![Female Div cropped figure from 6r](<https://ids.si.edu/ids/iiif/FS-6988_06/360,888,925,1859/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Rama Shooting cropped figure from 6r ![Rama Shooting cropped figure from 6r](<https://ids.si.edu/ids/iiif/FS-6988_06/1166,1328,926,1319/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+- **Canvas depicts**
+  - mdhn:Divs — Divs / دیوها ★
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Story_of_Ramayana — Story of Ramayana / افسانه رامايانا
+    - Q37293
+    - mdhn:isPartOf: mdhn:Indian_Epic_and_Mythology
+    - **Narrative episode**
+    - **isPartOf**
+      - mdhn:Indian_Epic_and_Mythology — Indian Epic and Mythology / افسانه های حماسی و فولکور هند
+        - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+        - mdhn:Indian_Mythology — Indian Mythology / ميتولوژی هندی
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+  - mdhn:Rocks — Rocks / صخره
+    - Q8063
+  - mdhn:Bow_and_Arrow — Bow and Arrow / کمان و پيکان
+    - Q19827042
+    - skos:closeMatch: mdhn:aat300037000
+    - skos:broadMatch: mdhn:Weopen
+  - mdhn:Brass_Metal_Jingle — jingle / زنگوله قورچه برنجی
+    - skos:broadMatch: mdhn:Jingle
+  - mdhn:Misbaha — Misbaha / تسبيح
+    - Q1141821
+    - skos:exactMatch: mdhn:aat300264661
+  - mdhn:GemEncrustedCrown — Gem-Encrusted Crown / تاج مرصع
+    - Q170984
+  - mdhn:Ring — Ring / انگشتر
+    - Q46847
+    - skos:exactMatch: iconclass:41D2664, mdhn:aat300046012, mdhn:sh85114133_Rings, mdhn:tgm008926_Rings
+  - mdhn:Tree — Tree / درخت
+    - Q10884
+    - skos:exactMatch: mdhn:aat300132410
 
 ### Collection: The Ramayana V2 ![The Ramayana V2](<https://ids.si.edu/ids/iiif/FS-6996_01/202,110,1825,3398/250,/0/default.jpg>)
 - `RamayanaV2Collection.json`
@@ -3035,7 +3083,7 @@ markmap:
     - Q811979
   - mdhn:Column — Column / ستون
     - Q4817
-    - skos:exactMatch: biblissima:Q295903, iconclass:48C161, mdhn:aat300001571, mdhn:aat300001650, mdhn:tgm002319_Columns
+    - skos:exactMatch: biblissima:Q295903, mdhn:aat300001571, mdhn:aat300001650, mdhn:iconclass48C161, mdhn:tgm002319_Columns
     - skos:relatedMatch: mdhn:aat300001650
 
 #### Resource: FS-6998_03 ![FS-6998_03](<https://ids.si.edu/ids/iiif/FS-6998_03/full/250,/0/default.jpg>)
@@ -3074,6 +3122,6 @@ markmap:
     - skos:exactMatch: mdhn:aat300264661
   - mdhn:Column — Column / ستون
     - Q4817
-    - skos:exactMatch: biblissima:Q295903, iconclass:48C161, mdhn:aat300001571, mdhn:aat300001650, mdhn:tgm002319_Columns
+    - skos:exactMatch: biblissima:Q295903, mdhn:aat300001571, mdhn:aat300001650, mdhn:iconclass48C161, mdhn:tgm002319_Columns
     - skos:relatedMatch: mdhn:aat300001650
 
