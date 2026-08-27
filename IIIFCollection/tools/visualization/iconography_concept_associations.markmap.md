@@ -317,7 +317,7 @@ markmap:
 
 ## Depicted in collections
 
-- **14 collection(s), 26 resource(s), 28 canvas(es)**
+- **14 collection(s), 26 resource(s), 29 canvas(es)**
 
 ### Collection: Departed Folios ![Departed Folios](<https://viewer.cbl.ie/viewer/api/v1/records/Per_144_20/files/images/D0002536.jpg/full/250,/0/default.jpg>)
 - `DepartedFolioCollection.json`
@@ -372,7 +372,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-  - mdhn:Fragment_Cropped_Image: Divس cropped figure from 1r ![Divس cropped figure from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/604,4003,818,1550/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Divs cropped figure from 1r ![Divs cropped figure from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/604,4003,818,1550/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
     - Q177413
@@ -885,12 +885,170 @@ markmap:
 ### Collection: Haft Owrang Ibrahim Sultan ![Haft Owrang Ibrahim Sultan](<https://ids.si.edu/ids/iiif/FS-F1946.12.182_001/642,214,2250,4519/250,/0/default.jpg>)
 - `HaftOwrangIbrahimSultanCollection.json`
 
-#### Resource: Solomon and Bilqis sit together and converse frankly
+#### Resource: Solomon and Bilqis sit together and converse frankly ![Solomon and Bilqis sit together and converse frankly](<https://ids.si.edu/ids/iiif/FS-8474_19/full/250,/0/default.jpg>)
 
-##### Resource metadata
-- **Matched via:** resource metadata
+##### f.19 — Solomon and Bilqis ![canvas f.19](<https://ids.si.edu/ids/iiif/FS-8474_19/full/250,/0/default.jpg>)
+- **Matched via:** canvas depicts; content-element tag
 - **Selected concept(s) on this canvas:** mdhn:Divs
-- Resource-level match (no AsCanvas / States entry).
+- **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+- **Matching content elements**
+  - mdhn:Fragment_Cropped_Image: Scene cropped figure from FS-8474_19 ![Scene cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/129,3118,1451,1945/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Divs ★
+    - **Styles:** aat:500011001
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Fragment_Cropped_Image: Solomon cropped figure from FS-8474_19 ![Solomon cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2573,2461,445,1034/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Solomon
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Queen_of_Sheba cropped figure from FS-8474_19 ![Queen_of_Sheba cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2942,2741,395,744/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Queen_of_Sheba
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Solomon and Bilqis cropped figure from FS-8474_19 ![Solomon and Bilqis cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2555,1949,796,1643/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Solomon, mdhn:Queen_of_Sheba
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Asfi Barkhiya cropped figure from FS-8474_19 ![Asfi Barkhiya cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/1696,2919,858,932/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Asfi_bin_Barkhiya
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Angel(Probably Jibril) cropped figure from FS-8474_19 ![Angel(Probably Jibril) cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/1696,2919,858,932/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Jibril
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Worjer Div cropped figure from FS-8474_19 ![Worjer Div cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2135,2047,445,1004/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Begger cropped figure from FS-8474_19 ![Begger cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/129,3621,1457,1442/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Begger
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Observers cropped figure from FS-8474_19 ![Observers cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/410,1494,904,1250/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Observers cropped figure from FS-8474_19 ![Observers cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/1575,1345,578,1215/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Pool cropped figure from FS-8474_19 ![Pool cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2227,3960,898,1167/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Sea_River_Pool
+    - **Styles:** aat:500011001
+    - Q4022
+  - mdhn:Fragment_Cropped_Image: A Mother with her Baby cropped figure from FS-8474_19 ![A Mother with her Baby cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/1784,4368,644,759/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: People cropped figure from FS-8474_19 ![People cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2938,3445,821,1629/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: People cropped figure from FS-8474_19 ![People cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2938,3445,821,1629/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Daraygah
+    - **Styles:** aat:500011001
+- **Canvas depicts**
+  - mdhn:Divs — Divs / دیوها ★
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Solomon_and_Queen_of_Sheba — Solomon and Queen of Sheba / بارگاه سليمان و ملکه سبا
+    - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
+    - skos:closeMatch: iconclass:71I
+    - **Narrative episode**
+    - **isPartOf**
+      - mdhn:Christian_Mythology — Christian Mythology / ميتولوژی مسيحيت
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+      - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+      - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+  - mdhn:Solomon
+  - mdhn:Queen_of_Sheba
+  - mdhn:Asfi_bin_Barkhiya
+  - mdhn:iconclass71I6 — the visit of the Queen of Sheba
+    - skos:exactMatch: iconclass:71I6
+    - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
+  - mdhn:iconclass71I_PersianCourt — Solomon’s court and throne in Persian manuscript painting
+    - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
+  - mdhn:Flaming_Nimbus — Flaming Nimbus / نیمبوس آتشی
+    - Q123456
+  - mdhn:Simurgh — Simurgh / سيمرغ
+    - Q548119
+    - skos:exactMatch: mdhn:aat300379749
+  - mdhn:Bird — Bird / پرندگان
+    - Q5113
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Eurasian_Hoopoe — Eurasian Hoopoe / هدهد
+    - Q25247
+    - skos:exactMatch: mdhn:aat5300250068
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Throne — Throne / تخت پادشاهی
+    - Q189233
+    - skos:exactMatch: mdhn:aat300038141
+  - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
+    - Q123456
+  - mdhn:Persian_Architecture — Persian Architecture / معماری ایرانی
+    - Q137133192
+    - skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
+  - mdhn:Calligraphy_Inscription — Calligraphy Inscription / کتيبه خوشنویسی
+    - Q1640824
+    - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
+  - mdhn:Building_Ornament — Minaret / تزئينات معماری
+    - Q12043387
+    - skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+  - mdhn:Daraygah — Daraygah / درآيگاه
+  - mdhn:Sea_River_Pool — Sea/River/Pool / دریا/رودخانه/استخر
+    - Q4022
+  - mdhn:Feasting — Feasting / بزم
+    - Q200538
+    - skos:relatedMatch: mdhn:aat300073261
+  - mdhn:Architectural_Structure — Architectural Structure / بنای معماری
+    - Q811979
+  - mdhn:Balcony — Balcony / بالکن
+    - Q170552
+    - skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
+  - mdhn:Pool — Pool / حوض
+    - Q1501
+    - skos:exactMatch: mdhn:aat300008692
+  - mdhn:Glazed_Tile — Glazed Tile / کاشی لعابدار
+    - Q76827920
+    - skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
+  - mdhn:Cypress — Cupressus / سرو
+    - Q14169641
+    - skos:exactMatch: mdhn:aat300343641
+    - skos:relatedMatch: mdhn:aat300132410
+  - mdhn:Royal_Court — Royal Court / بارگاه پادشاهی
+    - Q1134237
+  - mdhn:Headgear — Headgear / سرپوش
+    - Q14952
+    - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+  - mdhn:Turban — Turban / عمامه
+    - Q2460567
+    - skos:exactMatch: mdhn:aat300046127
+    - skos:relatedMatch: mdhn:aat300212133
+  - mdhn:Robe — Robe / ردا/بالا پوش
+    - Q345127
+    - skos:exactMatch: mdhn:aat300209852
+    - skos:relatedMatch: mdhn:aat300212133
+  - mdhn:Cloud — Cloud / ابر
+    - Q8074
+  - mdhn:Flower — Flower / گل
+    - Q506
+  - mdhn:Blossom — Blossom / شکوفه
+    - Q2047589
+  - mdhn:Plant — Plant / گیاه
+    - Q756
+    - skos:exactMatch: mdhn:aat300132360
+  - mdhn:Tree — Tree / درخت
+    - Q10884
+    - skos:exactMatch: mdhn:aat300132410
+  - mdhn:Duck — Duck / اردک
+    - Q3736439
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Horse — Horse / اسب
+    - Q726
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Fountain — Fountain / فواره
+    - Q483453
+    - skos:exactMatch: mdhn:aat300006179
+  - mdhn:Veiled_Face — Veiled_Face / صورت پوشيده در نگارگری
+  - mdhn:Dagger — Dagger / خنجر
+    - Q182780
+    - skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
+    - skos:broadMatch: mdhn:SharpEdgedWeopen
+  - mdhn:SunShade — Sun Shade / چتر آفتاب
+    - Q1762975
+    - skos:exactMatch: mdhn:aat300428884
 
 ### Collection: Ibrahim Sultan Shahnama Collection ![Ibrahim Sultan Shahnama Collection](<https://iiif.bodleian.ox.ac.uk/iiif/image/cb077bd1-c3ef-4f0e-b7f2-185c40ea9b28/1575,632,4573,6608/250,/0/default.jpg>)
 - `IbrahimSultanShahnamaCollection.json`

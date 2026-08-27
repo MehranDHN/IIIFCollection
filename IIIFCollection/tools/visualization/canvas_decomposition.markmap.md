@@ -1747,8 +1747,8 @@
 - **Iconography Tags (elementLOUD):** mdhn:Divs
 - **Styles:** aat:500011001
 
-### mdhn:Fragment_Cropped_Image: Divس cropped figure from 1r
-- ![ Divس cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/604,4003,818,1550/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Divs cropped figure from 1r
+- ![ Divs cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/604,4003,818,1550/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Divs
 - **Styles:** aat:500011001
 
