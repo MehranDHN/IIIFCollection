@@ -1036,28 +1036,28 @@ markmap:
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783
 - **Contains:** HasPainting
 - **Matching content elements**
-  - mdhn:Fragment_Cropped_Image: Div cropped figure from FS-F1950.1_001 ![Div cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2146,3798,1005,811/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Div1 cropped figure from FS-F1950.1_001 ![Div1 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2146,3798,1005,811/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-  - mdhn:Fragment_Cropped_Image: Div cropped figure from FS-F1950.1_001 ![Div cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/316,3668,294,659/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-F1950.1_001 ![Div2 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/316,3668,294,659/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-  - mdhn:Fragment_Cropped_Image: Div cropped figure from FS-F1950.1_001 ![Div cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/480,790,842,683/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Div3 cropped figure from FS-F1950.1_001 ![Div3 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/480,790,842,683/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-  - mdhn:Fragment_Cropped_Image: Div cropped figure from FS-F1950.1_001 ![Div cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2456,2318,746,709/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Div4 cropped figure from FS-F1950.1_001 ![Div4 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2456,2318,746,709/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
     - Q177413
@@ -1067,40 +1067,40 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Solomon cropped figure from FS-F1950.1_001 ![Solomon cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1321,2097,907,831/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Solomon
     - **Styles:** aat:500011001
-  - mdhn:Fragment_Cropped_Image: Simurgh cropped figure from FS-F1950.1_001 ![Simurgh cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1321,2097,907,831/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Simurgh cropped figure from FS-F1950.1_001 ![Simurgh cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/347,337,1033,428/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Simurgh
     - **Styles:** aat:500011001
     - Q548119
     - skos:exactMatch: mdhn:aat300379749
-  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1026,704,719,575/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Angles1 cropped figure from FS-F1950.1_001 ![Angles1 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1026,704,719,575/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
     - Q123456
-  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/725,1132,931,765/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Angles2 cropped figure from FS-F1950.1_001 ![Angles2 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/725,1132,931,765/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
     - Q123456
-  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1646,988,974,602/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Angles3 cropped figure from FS-F1950.1_001 ![Angles3 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1646,988,974,602/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
     - Q123456
-  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2365,1125,773,778/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Angles4 cropped figure from FS-F1950.1_001 ![Angles4 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2365,1125,773,778/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
     - Q123456
-  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2253,1736,798,637/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Angles5 cropped figure from FS-F1950.1_001 ![Angles5 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2253,1736,798,637/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
     - Q123456
-  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2194,2958,997,965/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Angles6 cropped figure from FS-F1950.1_001 ![Angles6 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2194,2958,997,965/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
     - Q123456
-  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/333,2301,1220,921/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Angles7 cropped figure from FS-F1950.1_001 ![Angles7 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/333,2301,1220,921/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/320,2974,2870,972/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Angles8 cropped figure from FS-F1950.1_001 ![Angles8 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/320,2974,2870,972/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/367,3747,1232,727/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Angles9 cropped figure from FS-F1950.1_001 ![Angles9 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/367,3747,1232,727/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
     - Q123456
