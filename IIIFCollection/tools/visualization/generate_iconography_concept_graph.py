@@ -8,6 +8,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parents[1]
 ONTOLOGY_PATH = ROOT_DIR / 'Ontology' / 'iconography_RDF.ttl'
 NARRATIVE_PATH = ROOT_DIR / 'Ontology' / 'narrative_episodes.ttl'
+PERSONS_PATH = ROOT_DIR / 'Ontology' / 'PersonsRDFData.ttl'
 OUTPUT_DOT = SCRIPT_DIR / 'iconography_concept_graph.dot'
 
 # Edit this list to choose the iconography concepts that should be included by default.
@@ -25,8 +26,11 @@ SKOS_BROAD = 'skos:broadMatch'
 SKOS_BROADER = 'skos:broader'
 SKOS_NARROWER = 'skos:narrower'
 WIKIDATA_PRED = 'mdhn:icWikiDataURL'
+SAID_SAME = 'mdhn:saidToBeTheSameAs'
 QCODE_RE = re.compile(r'Q\d+', re.IGNORECASE)
+WD_CURIE_RE = re.compile(r'(?:wd|WD):Q(\d+)', re.IGNORECASE)
 WIKIDATA_LINE_RE = re.compile(r'mdhn:icWikiDataURL\s+"([^"]*)"')
+SAID_SAME_LINE_RE = re.compile(r'mdhn:saidToBeTheSameAs\b')
 SKOS_PRED_RE = re.compile(r'(skos:[A-Za-z]+)')
 SKOS_OBJECT_RE = re.compile(
     r"<[^>]+>|mdhn:[A-Za-z0-9_]+|[A-Za-z][A-Za-z0-9_-]*:[A-Za-z0-9_.:/%()'-]+"
@@ -44,6 +48,7 @@ SKOS_EDGE_STYLE = {
     SKOS_BROADER: ('broader', 'solid', '#38761d'),
     SKOS_NARROWER: ('narrower', 'solid', '#38761d'),
     'skos:relatedMath': ('relatedMatch', 'dashed', '#6a3d9a'),
+    SAID_SAME: ('saidToBeTheSameAs', 'solid', '#b23c17'),
 }
 
 
@@ -69,7 +74,12 @@ def normalize_term(value: Any) -> Optional[str]:
     if text.startswith('<') and text.endswith('>'):
         text = text[1:-1].strip()
     terms = re.findall(r'mdhn:[A-Za-z0-9_]+', text)
-    return terms[0] if terms else None
+    if terms:
+        return terms[0]
+    wd_match = WD_CURIE_RE.search(text)
+    if wd_match:
+        return f'wd:Q{wd_match.group(1)}'
+    return None
 
 
 def normalize_label(value: Any) -> str:
@@ -100,6 +110,7 @@ def find_all_terms(value: Any) -> List[str]:
             terms.extend(find_all_terms(v))
     elif isinstance(value, str):
         terms.extend(re.findall(r'mdhn:[A-Za-z0-9_]+', value))
+        terms.extend(f'wd:Q{m}' for m in WD_CURIE_RE.findall(value))
     return terms
 
 
@@ -113,6 +124,10 @@ def extract_allowed_terms(value: Any, allowed_terms: Set[str]) -> Set[str]:
             terms.update(extract_allowed_terms(v, allowed_terms))
     elif isinstance(value, str):
         for term in re.findall(r'mdhn:[A-Za-z0-9_]+', value):
+            if term in allowed_terms:
+                terms.add(term)
+        for qnum in WD_CURIE_RE.findall(value):
+            term = f'wd:Q{qnum}'
             if term in allowed_terms:
                 terms.add(term)
     return terms
@@ -200,6 +215,16 @@ def parse_iconography_ontology(
             if values:
                 concepts[current_subject].setdefault(IS_PART_OF, set()).update(values)
 
+        if SAID_SAME_LINE_RE.search(line):
+            values = set()
+            for term in SKOS_OBJECT_RE.findall(line):
+                if term in {SAID_SAME, current_subject} or term.startswith('skos:'):
+                    continue
+                wd_match = WD_CURIE_RE.search(term)
+                values.add(f'wd:Q{wd_match.group(1)}' if wd_match else term)
+            if values:
+                concepts[current_subject].setdefault(SAID_SAME, set()).update(values)
+
         wiki_match = WIKIDATA_LINE_RE.search(line)
         if wiki_match:
             qcode = extract_qcode(wiki_match.group(1))
@@ -251,7 +276,9 @@ def collect_iconography_tags(resource: Any, allowed_terms: Set[str]) -> Dict[str
 
     direct_terms = {t for t in direct_terms if t in allowed_terms}
     canvas_terms = {
-        t for t in canvas_terms if t in allowed_terms or t.startswith('mdhn:')
+        t
+        for t in canvas_terms
+        if t in allowed_terms or t.startswith('mdhn:') or t.startswith('wd:')
     }
     return {
         'direct': direct_terms,
@@ -318,7 +345,11 @@ def find_relating_resources(root: Path, concepts: Set[str], ontology_concepts: S
 
         collection_label = collection.get('label') or path.stem
 
-        for resource in collection.get('manifests', []) + collection.get('items', []):
+        for resource in (
+            list(collection.get('manifests') or [])
+            + list(collection.get('items') or [])
+            + list(collection.get('members') or [])
+        ):
             tags = collect_iconography_tags(resource, ontology_concepts)
             if not tags['all']:
                 continue
@@ -368,8 +399,9 @@ def build_graph(
     selected_related = set()
     for concept in selected_concepts:
         selected_exact.update(ontology.get(concept, {}).get(SKOS_EXACT, set()))
+        selected_exact.update(ontology.get(concept, {}).get(SAID_SAME, set()))
         for pred, values in ontology.get(concept, {}).items():
-            if pred != SKOS_EXACT:
+            if pred not in {SKOS_EXACT, SAID_SAME}:
                 selected_related.update(values)
 
     concept_style = {}
@@ -468,20 +500,34 @@ def main() -> None:
         raise SystemExit('At least one concept must be defined in INPUT_CONCEPTS.')
 
     ontology, wikidata = parse_iconography_ontology(ONTOLOGY_PATH)
-    if NARRATIVE_PATH.exists():
-        narrative_ontology, narrative_wiki = parse_iconography_ontology(NARRATIVE_PATH)
-        for term, rels in narrative_ontology.items():
+    for extra_path in (NARRATIVE_PATH, PERSONS_PATH):
+        if not extra_path.exists():
+            continue
+        extra_ontology, extra_wiki = parse_iconography_ontology(extra_path)
+        for term, rels in extra_ontology.items():
             if term not in ontology:
                 ontology[term] = {}
             for pred, values in rels.items():
                 ontology[term].setdefault(pred, set()).update(values)
-        for term, qcode in narrative_wiki.items():
+        for term, qcode in extra_wiki.items():
             wikidata.setdefault(term, qcode)
     allowed_terms = expand_allowed_terms(ontology)
+    for qcode in wikidata.values():
+        if qcode:
+            allowed_terms.add(f'wd:{qcode}')
 
     expanded_concepts = set(selected_concepts)
     for concept in list(selected_concepts):
         expanded_concepts.update(skos_targets(ontology, concept))
+        qcode = wikidata.get(concept)
+        if qcode:
+            expanded_concepts.add(f'wd:{qcode}')
+    # Reverse saidToBeTheSameAs: other concepts that identify as the same Wikidata record.
+    for source, rels in ontology.items():
+        same = rels.get(SAID_SAME, set())
+        if same & expanded_concepts or source in expanded_concepts:
+            expanded_concepts.add(source)
+            expanded_concepts.update(same)
 
     resources = find_relating_resources(ROOT_DIR, expanded_concepts, allowed_terms)
 

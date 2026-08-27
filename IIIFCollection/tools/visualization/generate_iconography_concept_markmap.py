@@ -17,6 +17,9 @@ association under them:
         matching cropped content elements (IIIF thumbnails)
         co-occurring iconography tags and their SKOS
         narrative-episode tags on that canvas
+      Depicts-only records (metadata Depicts, no AsCanvas / States)
+        listed separately from AsCanvas canvases and from other metadata hits
+      mdhn:saidToBeTheSameAs Wikidata / local identity equivalents (wd:Q… and WD:Q…)
 
 Root recommendation
 -------------------
@@ -57,6 +60,7 @@ INPUT_CONCEPTS = [
 ONTOLOGY_FILES: List[str] = [
     "iconography_RDF.ttl",
     "narrative_episodes.ttl",
+    "PersonsRDFData.ttl",
     "iconclass_hierarchy.ttl",
     "aat_hierarchy.ttl",
     "ctl_vocabs.ttl",
@@ -126,6 +130,8 @@ AAT_BROADER = "mdhn:hasAATBroader"
 ICONCLASS_BROADER = "mdhn:hasIconclassBroader"
 TGM_BROADER = "mdhn:hasTGMBroader"
 WIKIDATA_PRED = "mdhn:icWikiDataURL"
+SAID_SAME = "mdhn:saidToBeTheSameAs"
+WD_CURIE_RE = re.compile(r"(?:wd|WD):Q(\d+)", re.IGNORECASE)
 
 REGION_XYWH_RE = re.compile(
     r"^\d+(?:\.\d+)?,\d+(?:\.\d+)?,\d+(?:\.\d+)?,\d+(?:\.\d+)?$"
@@ -199,6 +205,7 @@ def empty_concept() -> ConceptRec:
         "hasIconclassBroader": set(),
         "hasTGMBroader": set(),
         "sameAs": set(),
+        "saidToBeTheSameAs": set(),
         "wikidata": None,
         "iconclassNotation": None,
         "isGuideTerm": False,
@@ -242,6 +249,38 @@ def extract_qcode(raw: Any) -> Optional[str]:
         return None
     match = QCODE_RE.search(str(raw).strip())
     return match.group(0).upper() if match else None
+
+
+def canonical_wd_term(raw: Any) -> Optional[str]:
+    """Normalize WD:Q123 / wd:Q123 / Wikidata URL to wd:Q123."""
+    if raw is None:
+        return None
+    text = str(raw).strip()
+    if text.startswith("<") and text.endswith(">"):
+        text = text[1:-1].strip()
+    match = WD_CURIE_RE.search(text)
+    if match:
+        return f"wd:Q{match.group(1)}"
+    wd = WD_IRI_RE.match(text)
+    if wd:
+        return f"wd:{wd.group(1).upper()}"
+    return None
+
+
+def find_wd_terms(text: str) -> List[str]:
+    terms: List[str] = []
+    seen: Set[str] = set()
+    for match in WD_CURIE_RE.finditer(text):
+        term = f"wd:Q{match.group(1)}"
+        if term not in seen:
+            seen.add(term)
+            terms.append(term)
+    for match in WD_IRI_RE.finditer(text):
+        term = f"wd:{match.group(1).upper()}"
+        if term not in seen:
+            seen.add(term)
+            terms.append(term)
+    return terms
 
 
 def normalize_iri(value: str) -> str:
@@ -407,6 +446,13 @@ def apply_predicate(
             if kind == "iri":
                 rec["sameAs"].add(value)
         return
+    if predicate == SAID_SAME:
+        for kind, value, _lang in objects:
+            if kind != "iri" and kind != "literal":
+                continue
+            wd = canonical_wd_term(value)
+            rec["saidToBeTheSameAs"].add(wd or value)
+        return
     if predicate == WIKIDATA_PRED:
         for kind, value, _lang in objects:
             qcode = extract_qcode(value)
@@ -512,6 +558,13 @@ def build_aliases(store: Dict[str, ConceptRec]) -> Dict[str, str]:
         for other in rec["sameAs"]:
             aliases[other] = term
             aliases[term] = term
+        for other in rec.get("saidToBeTheSameAs") or []:
+            aliases.setdefault(other, term)
+            wd = canonical_wd_term(other)
+            if wd:
+                aliases.setdefault(wd, term)
+        if rec.get("wikidata"):
+            aliases.setdefault(f"wd:{rec['wikidata']}", term)
         for key in alias_keys(term):
             aliases.setdefault(key, term)
         notation = rec.get("iconclassNotation")
@@ -674,10 +727,62 @@ def get_label_text(label: Any) -> str:
     return str(label) if label is not None else "Unnamed"
 
 
+def metadata_label_key(value: Any) -> str:
+    return get_label_text(value).strip().lower()
+
+
 def is_states_or_ascanvas_label(value: Any) -> bool:
-    return "states" in get_label_text(value).strip().lower() or "ascanvas" in get_label_text(
-        value
-    ).strip().lower()
+    key = metadata_label_key(value)
+    return "states" in key or "ascanvas" in key
+
+
+def is_depicts_field_label(value: Any) -> bool:
+    """True for the resource-level Depicts metadata field, not AsCanvas.depicts."""
+    return metadata_label_key(value) == "depicts"
+
+
+def iter_resource_metadata(resource: Dict[str, Any]) -> Iterable[Dict[str, Any]]:
+    metadata = resource.get("metadata") or []
+    if isinstance(metadata, list):
+        for meta in metadata:
+            if isinstance(meta, dict):
+                yield meta
+
+
+def metadata_field_value(resource: Dict[str, Any], *names: str) -> Any:
+    wanted = {name.lower() for name in names}
+    for meta in iter_resource_metadata(resource):
+        if metadata_label_key(meta.get("label")) in wanted:
+            return meta.get("value")
+    return None
+
+
+def resource_unique_id(resource: Dict[str, Any]) -> str:
+    for name in ("Unique ID", "UniqueID", "Shelfmark"):
+        value = metadata_field_value(resource, name)
+        if value is None:
+            continue
+        text = get_label_text(value).strip()
+        if text:
+            return text
+    rid = str(resource.get("id") or resource.get("@id") or "").rstrip("/")
+    return rid.split("/")[-1] if rid else ""
+
+
+def extract_depicts_field_terms(metadata: Any) -> List[str]:
+    """Terms from metadata labeled 'Depicts' (term list, not an AsCanvas object)."""
+    terms: List[str] = []
+    seen: Set[str] = set()
+    if not isinstance(metadata, list):
+        return terms
+    for meta in metadata:
+        if not isinstance(meta, dict) or not is_depicts_field_label(meta.get("label")):
+            continue
+        for term in find_all_terms(meta.get("value")):
+            if term and term not in seen:
+                seen.add(term)
+                terms.append(term)
+    return terms
 
 
 def normalize_term(value: Any) -> Optional[str]:
@@ -703,7 +808,10 @@ def normalize_term(value: Any) -> Optional[str]:
     found = MDHN_TERM_RE.findall(text)
     if found:
         return found[0]
-    if re.match(r"^(iconclass|wd|aat|tgm|biblissima|lcsh):", text):
+    wd = canonical_wd_term(text)
+    if wd:
+        return wd
+    if re.match(r"^(iconclass|wd|aat|tgm|biblissima|lcsh):", text, re.IGNORECASE):
         return normalize_iri(text)
     return None
 
@@ -718,10 +826,13 @@ def find_all_terms(value: Any) -> List[str]:
             terms.extend(find_all_terms(nested))
     elif isinstance(value, str):
         terms.extend(MDHN_TERM_RE.findall(value))
+        terms.extend(find_wd_terms(value))
         for match in CURIE_OR_IRI_RE.findall(value):
             if match.startswith("mdhn:"):
                 continue
-            if match.startswith(("iconclass:", "wd:", "aat:", "tgm:", "biblissima:")):
+            if match.lower().startswith("wd:"):
+                continue
+            if match.startswith(("iconclass:", "aat:", "tgm:", "biblissima:")):
                 terms.append(normalize_iri(match))
     return terms
 
@@ -783,18 +894,40 @@ def iter_content_elements(node: Any) -> Iterable[Dict[str, Any]]:
             yield from iter_content_elements(item)
 
 
-def canvas_depicts(canvas: Dict[str, Any]) -> List[str]:
-    raw = canvas.get("depicts") or []
-    if isinstance(raw, str):
-        raw = [raw]
+def extract_depicts_terms(value: Any) -> List[str]:
+    """Every mdhn: / wd: term from canvas-level 'depicts' arrays (nested)."""
     terms: List[str] = []
     seen: Set[str] = set()
-    for item in raw:
-        term = normalize_term(item)
+
+    def add(term: Optional[str]) -> None:
         if term and term not in seen:
             seen.add(term)
             terms.append(term)
+
+    def walk(node: Any) -> None:
+        if isinstance(node, dict):
+            if "depicts" in node:
+                raw = node.get("depicts") or []
+                if isinstance(raw, str):
+                    raw = [raw]
+                if isinstance(raw, list):
+                    for item in raw:
+                        add(normalize_term(item))
+                        if isinstance(item, str):
+                            for wd in find_wd_terms(item):
+                                add(wd)
+            for nested in node.values():
+                walk(nested)
+        elif isinstance(node, list):
+            for item in node:
+                walk(item)
+
+    walk(value)
     return terms
+
+
+def canvas_depicts(canvas: Dict[str, Any]) -> List[str]:
+    return extract_depicts_terms(canvas)
 
 
 def element_loud(elem: Dict[str, Any]) -> List[str]:
@@ -823,7 +956,60 @@ def skos_targets(store: Dict[str, ConceptRec], term: str) -> Set[str]:
     targets.update(rec["hasAATBroader"])
     targets.update(rec["hasIconclassBroader"])
     targets.update(rec["hasTGMBroader"])
+    targets.update(rec.get("saidToBeTheSameAs") or set())
     return targets
+
+
+def identity_equivalents(
+    term: str,
+    store: Dict[str, ConceptRec],
+    aliases: Dict[str, str],
+) -> Set[str]:
+    """Local concept plus owl:sameAs / saidToBeTheSameAs / primary Wikidata Q-code."""
+    found: Set[str] = set()
+    resolved = resolve_term(term, store, aliases)
+    found.add(resolved)
+    wd = canonical_wd_term(term)
+    if wd:
+        found.add(wd)
+    rec = store.get(resolved)
+    if not rec:
+        return found
+    if rec.get("wikidata"):
+        found.add(f"wd:{rec['wikidata']}")
+    for other in rec.get("sameAs") or set():
+        found.add(resolve_term(other, store, aliases))
+        other_wd = canonical_wd_term(other)
+        if other_wd:
+            found.add(other_wd)
+    for other in rec.get("saidToBeTheSameAs") or set():
+        found.add(resolve_term(other, store, aliases))
+        other_wd = canonical_wd_term(other)
+        if other_wd:
+            found.add(other_wd)
+    return found
+
+
+def identity_closure(
+    selected: Set[str],
+    store: Dict[str, ConceptRec],
+    aliases: Dict[str, str],
+) -> Set[str]:
+    """Transitive identity set, including reverse saidToBeTheSameAs."""
+    identity: Set[str] = set()
+    for term in selected:
+        identity.update(identity_equivalents(term, store, aliases))
+    for _ in range(4):
+        snapshot = set(identity)
+        for source, rec in store.items():
+            src_ids = identity_equivalents(source, store, aliases)
+            if src_ids & identity:
+                identity.add(source)
+                identity.update(src_ids)
+                identity.update(rec.get("saidToBeTheSameAs") or set())
+        if identity == snapshot:
+            break
+    return identity
 
 
 def expand_selected(
@@ -840,21 +1026,41 @@ def expand_selected(
         if rec:
             for other in rec["sameAs"]:
                 expanded.add(resolve_term(other, store, aliases))
+    expanded.update(identity_closure(selected, store, aliases))
+    # Same neighbourhood rule as the DOT graph: identity of SKOS neighbours
+    # and reverse saidToBeTheSameAs into the match set.
+    expanded.update(identity_closure(set(expanded), store, aliases))
     return expanded
 
 
 def incoming_skos(
-    store: Dict[str, ConceptRec], selected: Set[str]
+    store: Dict[str, ConceptRec],
+    selected: Set[str],
+    aliases: Optional[Dict[str, str]] = None,
 ) -> Dict[str, Dict[str, Set[str]]]:
     """Map selected term → {skos predicate: {source concepts}}."""
+    aliases = aliases or {}
     incoming: Dict[str, Dict[str, Set[str]]] = {
         term: defaultdict(set) for term in selected
+    }
+    identity_of = {
+        term: identity_equivalents(term, store, aliases) for term in selected
     }
     for source, rec in store.items():
         for pred, values in rec["skos"].items():
             for target in values:
                 if target in selected and source != target:
                     incoming[target][pred].add(source)
+        for target in rec.get("saidToBeTheSameAs") or set():
+            if source in selected:
+                continue
+            target_ids = {target}
+            wd = canonical_wd_term(target)
+            if wd:
+                target_ids.add(wd)
+            for sel, ids in identity_of.items():
+                if target_ids & ids:
+                    incoming[sel][SAID_SAME].add(source)
     return incoming
 
 
@@ -897,16 +1103,66 @@ def related_narratives(
 Hit = Dict[str, Any]
 
 
+def _base_hit(
+    *,
+    path: Path,
+    collection_label: str,
+    collection_thumb: Optional[str],
+    resource_id: str,
+    resource_label: str,
+    resource_thumb: Optional[str],
+    unique_id: str,
+    match_source: str,
+) -> Hit:
+    return {
+        "collection": path.name,
+        "collection_label": collection_label,
+        "collection_thumb": collection_thumb,
+        "resource_id": resource_id,
+        "resource_label": resource_label,
+        "resource_thumb": resource_thumb,
+        "unique_id": unique_id,
+        "match_source": match_source,
+        "mid": "",
+        "cid": "",
+        "canvas": None,
+        "canvas_label": "",
+        "folio": "",
+        "canvas_thumb": None,
+        "element_thumb": None,
+        "depicts": [],
+        "matching_elements": [],
+        "matched_terms": [],
+        "direct_terms": [],
+        "aligned_terms": [],
+        "reasons": [],
+        "identity_via_wikidata": False,
+    }
+
+
+def _identity_via_wikidata(
+    matched: Set[str], original_selected: Set[str], identity: Set[str]
+) -> bool:
+    if matched & original_selected:
+        return False
+    wd_ids = {t for t in identity if t.startswith("wd:")}
+    local_ids = identity - original_selected - wd_ids
+    return bool(matched & (wd_ids | local_ids))
+
+
 def collect_hits(
     selected: Set[str],
     expanded: Set[str],
+    original_selected: Optional[Set[str]] = None,
 ) -> List[Hit]:
+    original_selected = original_selected or selected
     hits: List[Hit] = []
     files = sorted(ROOT_DIR.glob("*Collection.json"))
     for path in files:
         try:
             collection = json.loads(path.read_text(encoding="utf-8"))
-        except Exception:
+        except Exception as exc:
+            print(f"  warning: skipped {path.name}: {exc}")
             continue
         collection_label = get_label_text(
             collection.get("label") or collection.get("title") or path.stem
@@ -925,8 +1181,11 @@ def collect_hits(
             )
             resource_label = get_label_text(resource.get("label") or resource_id)
             resource_thumb = thumbnail_for(resource.get("thumbnail"), full_region=False)
+            unique_id = resource_unique_id(resource)
             metadata = resource.get("metadata") or []
             canvases = extract_canvas_entries(metadata) if isinstance(metadata, list) else []
+            depicts_field_terms = extract_depicts_field_terms(metadata)
+            depicts_field_set = set(depicts_field_terms)
 
             resource_terms = set(find_all_terms(resource))
             matched_canvases = 0
@@ -955,10 +1214,19 @@ def collect_hits(
                 reasons: List[str] = []
                 direct = matched & selected
                 aligned = matched - selected
+                via_wd = _identity_via_wikidata(
+                    matched, original_selected, selected
+                )
                 if depicts & selected:
-                    reasons.append("canvas depicts")
+                    reasons.append("AsCanvas depicts")
                 if loud_terms & selected:
                     reasons.append("content-element tag")
+                wd_hit = {t for t in matched if t.startswith("wd:")} & selected
+                if wd_hit or via_wd:
+                    reasons.append(
+                        "saidToBeTheSameAs Wikidata: "
+                        + ", ".join(sorted(wd_hit or (matched & selected))[:6])
+                    )
                 if aligned:
                     reasons.append(
                         "SKOS-aligned: " + ", ".join(sorted(aligned)[:6])
@@ -971,14 +1239,20 @@ def collect_hits(
                     )
                     if element_thumb:
                         break
-                hits.append(
+                hit = _base_hit(
+                    path=path,
+                    collection_label=collection_label,
+                    collection_thumb=collection_thumb,
+                    resource_id=str(resource_id),
+                    resource_label=resource_label,
+                    resource_thumb=resource_thumb or canvas_thumb,
+                    unique_id=unique_id,
+                    match_source="ascanvas",
+                )
+                hit.update(
                     {
-                        "collection": path.name,
-                        "collection_label": collection_label,
-                        "collection_thumb": collection_thumb,
-                        "resource_id": resource_id,
-                        "resource_label": resource_label,
-                        "resource_thumb": resource_thumb or canvas_thumb,
+                        "mid": str(canvas.get("mid") or ""),
+                        "cid": str(canvas.get("cid") or ""),
                         "canvas": canvas,
                         "canvas_label": get_label_text(canvas.get("label")),
                         "folio": canvas.get("folio") or "",
@@ -990,32 +1264,86 @@ def collect_hits(
                         "direct_terms": sorted(direct),
                         "aligned_terms": sorted(aligned),
                         "reasons": reasons,
+                        "identity_via_wikidata": via_wd,
                     }
                 )
+                hits.append(hit)
                 matched_canvases += 1
 
-            if matched_canvases == 0 and resource_terms & expanded:
-                hits.append(
+            if matched_canvases:
+                continue
+
+            matched_depicts = depicts_field_set & expanded
+            if matched_depicts:
+                via_wd = _identity_via_wikidata(
+                    matched_depicts, original_selected, selected
+                )
+                reasons = [
+                    "Depicts metadata field (no AsCanvas / States on this record)"
+                ]
+                wd_hit = {t for t in matched_depicts if t.startswith("wd:")} & selected
+                if wd_hit or via_wd:
+                    reasons.append(
+                        "saidToBeTheSameAs Wikidata: "
+                        + ", ".join(sorted(wd_hit or (matched_depicts & selected))[:6])
+                    )
+                hit = _base_hit(
+                    path=path,
+                    collection_label=collection_label,
+                    collection_thumb=collection_thumb,
+                    resource_id=str(resource_id),
+                    resource_label=resource_label,
+                    resource_thumb=resource_thumb,
+                    unique_id=unique_id,
+                    match_source="depicts_field",
+                )
+                hit.update(
                     {
-                        "collection": path.name,
-                        "collection_label": collection_label,
-                        "collection_thumb": collection_thumb,
-                        "resource_id": resource_id,
-                        "resource_label": resource_label,
-                        "resource_thumb": resource_thumb,
-                        "canvas": None,
-                        "canvas_label": "",
-                        "folio": "",
-                        "canvas_thumb": None,
-                        "element_thumb": None,
-                        "depicts": [],
-                        "matching_elements": [],
-                        "matched_terms": sorted(resource_terms & expanded),
-                        "direct_terms": sorted(resource_terms & selected),
-                        "aligned_terms": sorted((resource_terms & expanded) - selected),
-                        "reasons": ["resource metadata"],
+                        "depicts": depicts_field_terms,
+                        "matched_terms": sorted(matched_depicts),
+                        "direct_terms": sorted(matched_depicts & selected),
+                        "aligned_terms": sorted(matched_depicts - selected),
+                        "reasons": reasons,
+                        "identity_via_wikidata": via_wd,
                     }
                 )
+                hits.append(hit)
+                continue
+
+            other_terms = resource_terms & expanded
+            if other_terms:
+                via_wd = _identity_via_wikidata(
+                    other_terms, original_selected, selected
+                )
+                reasons = [
+                    "other resource metadata (not AsCanvas, not Depicts field)"
+                ]
+                wd_hit = {t for t in other_terms if t.startswith("wd:")} & selected
+                if wd_hit or via_wd:
+                    reasons.append(
+                        "saidToBeTheSameAs Wikidata: "
+                        + ", ".join(sorted(wd_hit or (other_terms & selected))[:6])
+                    )
+                hit = _base_hit(
+                    path=path,
+                    collection_label=collection_label,
+                    collection_thumb=collection_thumb,
+                    resource_id=str(resource_id),
+                    resource_label=resource_label,
+                    resource_thumb=resource_thumb,
+                    unique_id=unique_id,
+                    match_source="resource_metadata",
+                )
+                hit.update(
+                    {
+                        "matched_terms": sorted(other_terms),
+                        "direct_terms": sorted(other_terms & selected),
+                        "aligned_terms": sorted(other_terms - selected),
+                        "reasons": reasons,
+                        "identity_via_wikidata": via_wd,
+                    }
+                )
+                hits.append(hit)
     return hits
 
 
@@ -1116,6 +1444,14 @@ def emit_identity(
         lines.append(bullet(indent, f"**Label:** {none}"))
     if rec.get("wikidata"):
         lines.append(bullet(indent, f"**Wikidata:** {rec['wikidata']}"))
+    same_as = sorted(rec.get("saidToBeTheSameAs") or [])
+    if same_as:
+        lines.append(
+            bullet(
+                indent,
+                f"**{SAID_SAME} (same Wikidata / local records):** {', '.join(same_as)}",
+            )
+        )
     if rec.get("iconclassNotation"):
         lines.append(
             bullet(indent, f"**Iconclass notation:** {rec['iconclassNotation']}")
@@ -1150,6 +1486,9 @@ def emit_skos_for_term(
         return
     if include_qid and rec.get("wikidata"):
         lines.append(bullet(indent, rec["wikidata"]))
+    same_as = sorted(rec.get("saidToBeTheSameAs") or [])
+    if same_as:
+        lines.append(bullet(indent, f"{SAID_SAME}: {', '.join(same_as)}"))
     if include_is_part_of and rec.get("isPartOf"):
         lines.append(
             bullet(indent, f"{IS_PART_OF}: {', '.join(sorted(rec['isPartOf']))}")
@@ -1219,11 +1558,23 @@ def emit_vocabulary_branch(
     rec = store.get(term) or empty_concept()
     lines.append(md_heading(heading_level, "Vocabulary alignments"))
     lines.append("")
+    same_as = sorted(rec.get("saidToBeTheSameAs") or [])
     any_skos = any(rec["skos"].values())
-    if not any_skos and not incoming.get(term):
+    if not any_skos and not incoming.get(term) and not same_as:
         lines.append("- No SKOS alignments recorded for this concept.")
         lines.append("")
         return
+
+    if same_as:
+        lines.append(
+            md_heading(
+                min(heading_level + 1, 6),
+                f"{SAID_SAME} (same Wikidata / local records)",
+            )
+        )
+        lines.append("")
+        for obj in same_as:
+            emit_aligned_term(lines, obj, store, aliases, min(heading_level + 2, 6))
 
     for pred in SKOS_DISPLAY_ORDER:
         objects = sorted(rec["skos"].get(pred, set()))
@@ -1344,30 +1695,95 @@ def emit_resources_branch(
         lines.append("")
         return
 
-    # Patch emit_canvas_hit broader lookup by closing over aliases
-    def emit_canvas(hit: Hit, level: int) -> None:
-        canvas = hit["canvas"]
-        folio = hit["folio"]
-        label = hit["canvas_label"]
-        if canvas is None:
-            folio_bit = "Resource metadata"
-            heading = f"{folio_bit} — {label}" if label else folio_bit
+    def emit_depicts_list(title: str, depicts: List[str]) -> None:
+        if not depicts:
+            return
+        lines.append(bullet(0, f"**{title}**"))
+        ordered = [t for t in depicts if t in selected] + [
+            t for t in depicts if t not in selected
+        ]
+        seen: Set[str] = set()
+        for tag in ordered:
+            if tag in seen:
+                continue
+            seen.add(tag)
+            star = " ★" if tag in selected else ""
+            title_text = concept_heading_text(tag, store)
+            lines.append(bullet(1, f"{title_text}{star}"))
+            emit_skos_for_term(lines, tag, store, indent=2)
+            if is_narrative(tag, store):
+                lines.append(bullet(2, "**Narrative episode**"))
+                emit_broader_list(
+                    lines, tag, store, aliases, "isPartOf", 2, "isPartOf"
+                )
+
+    def record_heading(hit: Hit) -> str:
+        source = hit.get("match_source") or ""
+        unique_id = str(hit.get("unique_id") or "")
+        mid = str(hit.get("mid") or "")
+        ident = mid or unique_id
+        folio = hit.get("folio") or ""
+        label = hit.get("canvas_label") or ""
+        via_wd = bool(hit.get("identity_via_wikidata"))
+        wd_note = "saidToBeTheSameAs Wikidata" if via_wd else ""
+        if source == "ascanvas":
+            folio_bit = f"f.{folio}" if folio else "AsCanvas"
+            parts = ["AsCanvas"]
+            if ident:
+                parts.append(ident)
+            parts.append(folio_bit if folio else "canvas")
+            heading = " — ".join(dict.fromkeys(parts))
+            if label:
+                heading = f"{heading} — {label}"
+            if wd_note:
+                heading = f"{heading} — {wd_note}"
+            return heading
+        if source == "depicts_field":
+            heading = "Depicts field (no AsCanvas / States)"
+            if wd_note:
+                heading = f"{heading} — {wd_note}"
+            if ident:
+                heading = f"{heading} — {ident}"
+            return heading
+        if via_wd:
+            heading = "saidToBeTheSameAs Wikidata (no AsCanvas, not Depicts field)"
         else:
-            folio_bit = f"f.{folio}" if folio else "Canvas"
-            heading = f"{folio_bit} — {label}" if label else folio_bit
+            heading = "Other resource metadata (no AsCanvas, not Depicts field)"
+        if ident:
+            heading = f"{heading} — {ident}"
+        return heading
+
+    def emit_canvas(hit: Hit, level: int) -> None:
+        source = hit.get("match_source") or ""
+        canvas = hit["canvas"]
+        heading = record_heading(hit)
+        thumb = hit.get("canvas_thumb") if canvas is not None else None
         lines.append(
-            md_heading(
-                level,
-                with_thumb(heading, hit.get("canvas_thumb"), f"canvas {folio_bit}"),
-            )
+            md_heading(level, with_thumb(heading, thumb, heading))
         )
+        ident = hit.get("unique_id") or hit.get("mid") or ""
+        if ident:
+            lines.append(bullet(0, f"**Record ID:** `{ident}`"))
+        if hit.get("mid") or hit.get("cid"):
+            bits = []
+            if hit.get("mid"):
+                bits.append(f"mid `{hit['mid']}`")
+            if hit.get("cid"):
+                bits.append(f"cid `{hit['cid']}`")
+            lines.append(bullet(0, f"**AsCanvas identifiers:** {', '.join(bits)}"))
         if hit.get("reasons"):
             lines.append(bullet(0, f"**Matched via:** {'; '.join(hit['reasons'])}"))
         if hit.get("direct_terms"):
+            if source == "depicts_field":
+                where = "in Depicts field"
+            elif source == "ascanvas":
+                where = "on this AsCanvas"
+            else:
+                where = "in other resource metadata"
             lines.append(
                 bullet(
                     0,
-                    f"**Selected concept(s) on this canvas:** {', '.join(hit['direct_terms'])}",
+                    f"**Selected concept(s) {where}:** {', '.join(hit['direct_terms'])}",
                 )
             )
         if canvas:
@@ -1387,34 +1803,39 @@ def emit_resources_branch(
             for elem in matching:
                 emit_element(lines, elem, store, selected, indent=1)
         depicts = hit.get("depicts") or []
-        if depicts:
-            lines.append(bullet(0, "**Canvas depicts**"))
-            ordered = [t for t in depicts if t in selected] + [
-                t for t in depicts if t not in selected
-            ]
-            seen: Set[str] = set()
-            for tag in ordered:
-                if tag in seen:
-                    continue
-                seen.add(tag)
-                star = " ★" if tag in selected else ""
-                title = concept_heading_text(tag, store)
-                lines.append(bullet(1, f"{title}{star}"))
-                emit_skos_for_term(lines, tag, store, indent=2)
-                if is_narrative(tag, store):
-                    lines.append(bullet(2, "**Narrative episode**"))
-                    emit_broader_list(
-                        lines, tag, store, aliases, "isPartOf", 2, "isPartOf"
+        if source == "depicts_field":
+            emit_depicts_list("Depicts field", depicts)
+        elif canvas:
+            emit_depicts_list("AsCanvas depicts", depicts)
+        elif source == "resource_metadata":
+            if hit.get("identity_via_wikidata"):
+                lines.append(
+                    bullet(
+                        0,
+                        "Matched via mdhn:saidToBeTheSameAs (same Wikidata record); "
+                        "this record has no AsCanvas / States and the selected concept "
+                        "is not in a Depicts field.",
                     )
-        elif not canvas:
-            lines.append(bullet(0, "Resource-level match (no AsCanvas / States entry)."))
+                )
+                emit_depicts_list(
+                    "saidToBeTheSameAs Wikidata terms",
+                    hit.get("direct_terms") or hit.get("matched_terms") or [],
+                )
+            else:
+                lines.append(
+                    bullet(
+                        0,
+                        "Matched in Agents or other metadata; this record has no AsCanvas / States "
+                        "and the selected concept is not in a Depicts field.",
+                    )
+                )
         lines.append("")
 
     grouped: DefaultDict[str, DefaultDict[str, List[Hit]]] = defaultdict(
         lambda: defaultdict(list)
     )
     collection_meta: Dict[str, Tuple[str, Optional[str]]] = {}
-    resource_meta: Dict[str, Tuple[str, Optional[str]]] = {}
+    resource_meta: Dict[str, Tuple[str, Optional[str], str]] = {}
     for hit in hits:
         grouped[hit["collection"]][hit["resource_id"]].append(hit)
         collection_meta[hit["collection"]] = (
@@ -1423,16 +1844,35 @@ def emit_resources_branch(
         )
         prev = resource_meta.get(hit["resource_id"])
         thumb = hit.get("resource_thumb")
+        unique_id = str(hit.get("unique_id") or "")
         if prev is None:
-            resource_meta[hit["resource_id"]] = (hit["resource_label"], thumb)
+            resource_meta[hit["resource_id"]] = (
+                hit["resource_label"],
+                thumb,
+                unique_id,
+            )
         elif not prev[1] and thumb:
-            resource_meta[hit["resource_id"]] = (prev[0], thumb)
+            resource_meta[hit["resource_id"]] = (prev[0], thumb, prev[2] or unique_id)
+        elif not prev[2] and unique_id:
+            resource_meta[hit["resource_id"]] = (prev[0], prev[1], unique_id)
 
-    canvas_count = sum(1 for hit in hits if hit.get("canvas") is not None)
+    ascanvas_count = sum(1 for hit in hits if hit.get("match_source") == "ascanvas")
+    depicts_field_count = sum(
+        1 for hit in hits if hit.get("match_source") == "depicts_field"
+    )
+    other_meta_count = sum(
+        1 for hit in hits if hit.get("match_source") == "resource_metadata"
+    )
+    wd_same_count = sum(1 for hit in hits if hit.get("identity_via_wikidata"))
     lines.append(
         bullet(
             0,
-            f"**{len(grouped)} collection(s), {sum(len(v) for v in grouped.values())} resource(s), {canvas_count} canvas(es)**",
+            f"**{len(grouped)} collection(s), "
+            f"{sum(len(v) for v in grouped.values())} resource(s), "
+            f"{ascanvas_count} AsCanvas, "
+            f"{depicts_field_count} Depicts-only (no AsCanvas), "
+            f"{other_meta_count} other metadata (no AsCanvas, not Depicts field), "
+            f"{wd_same_count} saidToBeTheSameAs Wikidata**",
         )
     )
     lines.append("")
@@ -1448,11 +1888,15 @@ def emit_resources_branch(
         lines.append(bullet(0, f"`{collection}`"))
         lines.append("")
         for resource_id, resource_hits in grouped[collection].items():
-            res_label, res_thumb = resource_meta[resource_id]
+            res_label, res_thumb, unique_id = resource_meta[resource_id]
+            if unique_id and unique_id not in res_label:
+                res_heading = f"Resource: {unique_id} — {res_label}"
+            else:
+                res_heading = f"Resource: {res_label}"
             lines.append(
                 md_heading(
                     min(heading_level + 2, 6),
-                    with_thumb(f"Resource: {res_label}", res_thumb, res_label),
+                    with_thumb(res_heading, res_thumb, res_label),
                 )
             )
             lines.append("")
@@ -1525,9 +1969,11 @@ def generate_markmap(
     store: Dict[str, ConceptRec],
     aliases: Dict[str, str],
     hits: List[Hit],
+    identity_terms: Optional[Set[str]] = None,
 ) -> List[str]:
     selected_set = set(selected)
-    incoming = incoming_skos(store, selected_set)
+    identity_terms = identity_terms or selected_set
+    incoming = incoming_skos(store, selected_set, aliases)
     lines: List[str] = [
         "---",
         "markmap:",
@@ -1541,7 +1987,7 @@ def generate_markmap(
         term = selected[0]
         scoped = hits_for_concept(term, selected_set, hits)
         emit_concept_tree(
-            lines, term, store, aliases, incoming, scoped, selected_set, 1
+            lines, term, store, aliases, incoming, scoped, identity_terms, 1
         )
     else:
         lines.append("# Iconography concept associations")
@@ -1558,17 +2004,15 @@ def generate_markmap(
         )
         lines.append("")
         for term in selected:
+            ids = identity_equivalents(term, store, aliases)
             scoped = [
                 hit
                 for hit in hits
-                if term in (hit.get("matched_terms") or [])
-                or term in (hit.get("direct_terms") or [])
+                if ids & set(hit.get("matched_terms") or [])
+                or ids & set(hit.get("direct_terms") or [])
             ]
-            if not scoped:
-                # Still show the concept even if no resource hits.
-                scoped = []
             emit_concept_tree(
-                lines, term, store, aliases, incoming, scoped, selected_set, 2
+                lines, term, store, aliases, incoming, scoped, ids, 2
             )
     return lines
 
@@ -1619,16 +2063,23 @@ def main() -> None:
         if resolved not in store:
             print(f"  warning: {term} was not found in the ontology files")
 
+    identity = identity_closure(set(resolved_selected), store, aliases)
     expanded = expand_selected(set(resolved_selected), store, aliases)
+    expanded.update(identity)
     print(f"Selected concepts: {resolved_selected}")
+    print(f"Identity equivalents (saidToBeTheSameAs / Wikidata): {sorted(identity)}")
     print(f"Expanded neighbourhood: {len(expanded)} terms")
 
     print("Scanning collection JSON files...")
-    hits = collect_hits(set(resolved_selected), expanded)
+    hits = collect_hits(
+        identity, expanded, original_selected=set(resolved_selected)
+    )
     canvas_hits = sum(1 for hit in hits if hit.get("canvas") is not None)
     print(f"  {len(hits)} resource/canvas hits ({canvas_hits} canvases)")
 
-    lines = generate_markmap(resolved_selected, store, aliases, hits)
+    lines = generate_markmap(
+        resolved_selected, store, aliases, hits, identity_terms=identity
+    )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"WROTE {args.output}")

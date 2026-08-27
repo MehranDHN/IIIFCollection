@@ -68,6 +68,52 @@ markmap:
     - mdhn:tgm010398_Supernatural — Supernatural
       - mdhn:tgm002410_Concepts — Concepts
 
+### Incoming associations
+
+#### ← skos:closeMatch
+
+##### mdhn:Akvan_Div — Akvan Div / اکوان ديو
+- **Type:** fhkb:MaleCreature
+- **Label (en):** Akvan Div
+- **Label (fa):** اکوان ديو
+- **Source:** PersonsRDFData.ttl
+- skos:closeMatch: mdhn:Divs
+
+##### mdhn:Arzhang_Div — Arzhang Div / ارژنگ ديو
+- **Type:** fhkb:MaleCreature
+- **Label (en):** Arzhang Div
+- **Label (fa):** ارژنگ ديو
+- **Source:** PersonsRDFData.ttl
+- skos:closeMatch: mdhn:Divs
+
+##### mdhn:Div_King — Div_King / ديو شاه
+- **Type:** fhkb:MaleCreature
+- **Label (en):** Div_King
+- **Label (fa):** ديو شاه
+- **Source:** PersonsRDFData.ttl
+- skos:closeMatch: mdhn:Divs
+
+##### mdhn:Kharozan_Div — Kharozan Div / خروزان  ديو
+- **Type:** fhkb:MaleCreature
+- **Label (en):** Kharozan Div
+- **Label (fa):** خروزان  ديو
+- **Source:** PersonsRDFData.ttl
+- skos:closeMatch: mdhn:Divs
+
+##### mdhn:Olad_Div — Olad Div / اولاد ديو مرزبان
+- **Type:** fhkb:MaleCreature
+- **Label (en):** Olad Div
+- **Label (fa):** اولاد ديو مرزبان
+- **Source:** PersonsRDFData.ttl
+- skos:closeMatch: mdhn:Divs
+
+##### mdhn:White_Div_7th_Course — White Div (7th Cource) / ديو سپيد
+- **Type:** fhkb:MaleCreature
+- **Label (en):** White Div (7th Cource)
+- **Label (fa):** ديو سپيد
+- **Source:** PersonsRDFData.ttl
+- skos:closeMatch: mdhn:Divs
+
 ## Narrative episodes
 
 ### Directly involving this concept
@@ -317,23 +363,108 @@ markmap:
 
 ## Depicted in collections
 
-- **14 collection(s), 26 resource(s), 29 canvas(es)**
+- **14 collection(s), 26 resource(s), 29 AsCanvas, 2 Depicts-only (no AsCanvas), 1 other metadata (no AsCanvas, not Depicts field), 0 saidToBeTheSameAs Wikidata**
 
 ### Collection: Departed Folios ![Departed Folios](<https://viewer.cbl.ie/viewer/api/v1/records/Per_144_20/files/images/D0002536.jpg/full/250,/0/default.jpg>)
 - `DepartedFolioCollection.json`
 
-#### Resource: Sulayman and Bilqis enthroned
+#### Resource: FS-7124_05 — Sulayman and Bilqis enthroned
 
-##### Resource metadata
-- **Matched via:** resource metadata
-- **Selected concept(s) on this canvas:** mdhn:Divs
-- Resource-level match (no AsCanvas / States entry).
+##### Depicts field (no AsCanvas / States) — FS-7124_05
+- **Record ID:** `FS-7124_05`
+- **Matched via:** Depicts metadata field (no AsCanvas / States on this record)
+- **Selected concept(s) in Depicts field:** mdhn:Divs
+- **Depicts field**
+  - mdhn:Divs — Divs / دیوها ★
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Solomon_and_Queen_of_Sheba — Solomon and Queen of Sheba / بارگاه سليمان و ملکه سبا
+    - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
+    - skos:closeMatch: iconclass:71I
+    - **Narrative episode**
+    - **isPartOf**
+      - mdhn:Christian_Mythology — Christian Mythology / ميتولوژی مسيحيت
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+      - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+      - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+  - mdhn:Solomon — Solomon / سليمان
+  - mdhn:Queen_of_Sheba — Queen of Sheba / ملکه سبا
+  - mdhn:iconclass71I6 — the visit of the Queen of Sheba
+    - skos:exactMatch: iconclass:71I6
+    - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
+  - mdhn:iconclass71I_PersianCourt — Solomon’s court and throne in Persian manuscript painting
+    - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
+  - mdhn:Flaming_Nimbus — Flaming Nimbus / نیمبوس آتشی
+    - Q123456
+  - mdhn:Simurgh — Simurgh / سيمرغ
+    - Q548119
+    - skos:exactMatch: mdhn:aat300379749
+  - mdhn:Eurasian_Hoopoe — Eurasian Hoopoe / هدهد
+    - Q25247
+    - skos:exactMatch: mdhn:aat5300250068
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Throne — Throne / تخت پادشاهی
+    - Q189233
+    - skos:exactMatch: mdhn:aat300038141
+  - mdhn:Dragon — dragon / اژدها
+    - Q7559
+    - skos:exactMatch: mdhn:aat300375726
+  - mdhn:Elephant — Elephant / فيل
+    - Q7378
+    - skos:exactMatch: mdhn:aat:300250160
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Cow — Cow / گاو
+    - Q11748378
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Monkey — Monkey / ميمون
+    - Q1367
+    - skos:exactMatch: mdhn:aat300250028
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Caelifera — Caelifera / ملخ
+    - Q83902
+    - skos:exactMatch: mdhn:aat300310684
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Wind — Wind / باد
+    - Q8094
+    - skos:exactMatch: mdhn:aat300055395
+  - mdhn:Bird — Bird / پرندگان
+    - Q5113
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Horse — Horse / اسب
+    - Q726
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
+    - Q123456
+  - mdhn:Feasting — Feasting / بزم
+    - Q200538
+    - skos:relatedMatch: mdhn:aat300073261
+  - mdhn:Royal_Court — Royal Court / بارگاه پادشاهی
+    - Q1134237
+  - mdhn:Headgear — Headgear / سرپوش
+    - Q14952
+    - skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+  - mdhn:Turban — Turban / عمامه
+    - Q2460567
+    - skos:exactMatch: mdhn:aat300046127
+    - skos:relatedMatch: mdhn:aat300212133
+  - mdhn:Robe — Robe / ردا/بالا پوش
+    - Q345127
+    - skos:exactMatch: mdhn:aat300209852
+    - skos:relatedMatch: mdhn:aat300212133
+  - mdhn:Cloud — Cloud / ابر
+    - Q8074
 
-#### Resource: Ṭahmūras defeats the demon army ![Ṭahmūras defeats the demon army](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/full/250,/0/default.jpg>)
+#### Resource: Per_256.1 — Ṭahmūras defeats the demon army ![Ṭahmūras defeats the demon army](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/full/250,/0/default.jpg>)
 
-##### f.1v — Ṭahmūras defeats the demon army ![canvas f.1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — Per_256_1 — f.1v — Ṭahmūras defeats the demon army ![AsCanvas — Per_256_1 — f.1v — Ṭahmūras defeats the demon army](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/full/250,/0/default.jpg>)
+- **Record ID:** `Per_256.1`
+- **AsCanvas identifiers:** mid `Per_256_1`, cid `0001`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasHalkari, HasPainting
 - **Matching content elements**
@@ -388,7 +519,7 @@ markmap:
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Fighter cropped figure from 1r ![Fighter cropped figure from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/3775,2997,1224,1440/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -482,11 +613,13 @@ markmap:
     - Q3579211
     - skos:exactMatch: mdhn:aat300391023
 
-#### Resource: Ṭahmūras defeats the demon army ![Ṭahmūras defeats the demon army](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/full/250,/0/default.jpg>)
+#### Resource: Per_277.17 — Ṭahmūras defeats the demon army ![Ṭahmūras defeats the demon army](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/full/250,/0/default.jpg>)
 
-##### f.1v — Ṭahmūras defeats the demon army ![canvas f.1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — Per_277_17 — f.1v — Ṭahmūras defeats the demon army ![AsCanvas — Per_277_17 — f.1v — Ṭahmūras defeats the demon army](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/full/250,/0/default.jpg>)
+- **Record ID:** `Per_277.17`
+- **AsCanvas identifiers:** mid `Per_277_17`, cid `0001`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasHalkari, HasPainting
 - **Matching content elements**
@@ -532,7 +665,7 @@ markmap:
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Fighter cropped figure from 1v ![Fighter cropped figure from 1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/856,2469,853,1031/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -627,11 +760,13 @@ markmap:
     - Q3579211
     - skos:exactMatch: mdhn:aat300391023
 
-#### Resource: The White Dīv captures and blinds Kay Kāvus ![The White Dīv captures and blinds Kay Kāvus](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/full/250,/0/default.jpg>)
+#### Resource: Per_277.9 — The White Dīv captures and blinds Kay Kāvus ![The White Dīv captures and blinds Kay Kāvus](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/full/250,/0/default.jpg>)
 
-##### f.1v — Ṭahmūras defeats the demon army ![canvas f.1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — Per_277_9 — f.1v — Ṭahmūras defeats the demon army ![AsCanvas — Per_277_9 — f.1v — Ṭahmūras defeats the demon army](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/full/250,/0/default.jpg>)
+- **Record ID:** `Per_277.9`
+- **AsCanvas identifiers:** mid `Per_277_9`, cid `0001`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasHalkari, HasPainting
 - **Matching content elements**
@@ -655,11 +790,12 @@ markmap:
   - mdhn:Fragment_Cropped_Image: White Div cropped figure from 1v ![White Div cropped figure from 1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/2271,4114,1384,2374/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:White_Div_7th_Course
     - **Styles:** aat:500011001
+    - skos:closeMatch: mdhn:Divs
   - mdhn:Fragment_Cropped_Image: Unknown man 1 in captive cropped figure from 1v ![Unknown man 1 in captive cropped figure from 1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/599,4271,685,1138/250,/0/default.jpg>)
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Unknown man 2 in captive  cropped figure from 1v ![Unknown man 2 in captive  cropped figure from 1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1639,4393,685,1138/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -752,11 +888,13 @@ markmap:
     - Q756
     - skos:exactMatch: mdhn:aat300132360
 
-#### Resource: Album page in the Style of Muhammad Siyah Qalam 1 ![Album page in the Style of Muhammad Siyah Qalam 1](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/full/250,/0/default.jpg>)
+#### Resource: KhaliliCollection_MSS_1065 — Album page in the Style of Muhammad Siyah Qalam 1 ![Album page in the Style of Muhammad Siyah Qalam 1](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/full/250,/0/default.jpg>)
 
-##### f.1v — Muhammad Siyah Qalam 1 ![canvas f.1v](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — KhaliliCollection_MSS_1065 — f.1v — Muhammad Siyah Qalam 1 ![AsCanvas — KhaliliCollection_MSS_1065 — f.1v — Muhammad Siyah Qalam 1](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/full/250,/0/default.jpg>)
+- **Record ID:** `KhaliliCollection_MSS_1065`
+- **AsCanvas identifiers:** mid `KhaliliCollection_MSS_1065`, cid `0001`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 - **Matching content elements**
@@ -771,7 +909,7 @@ markmap:
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Cow cropped figure from MSS_1065 ![Cow cropped figure from MSS_1065](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/1548,913,841,1957/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -790,11 +928,13 @@ markmap:
     - skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
     - skos:relatedMatch: mdhn:aat300212133
 
-#### Resource: Album page in the Style of Muhammad Siyah Qalam 2 ![Album page in the Style of Muhammad Siyah Qalam 2](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/full/250,/0/default.jpg>)
+#### Resource: KhaliliCollection_MSS_1075 — Album page in the Style of Muhammad Siyah Qalam 2 ![Album page in the Style of Muhammad Siyah Qalam 2](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/full/250,/0/default.jpg>)
 
-##### f.1v — Muhammad Siyah Qalam 2 ![canvas f.1v](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — KhaliliCollection_MSS_1075 — f.1v — Muhammad Siyah Qalam 2 ![AsCanvas — KhaliliCollection_MSS_1075 — f.1v — Muhammad Siyah Qalam 2](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/full/250,/0/default.jpg>)
+- **Record ID:** `KhaliliCollection_MSS_1075`
+- **AsCanvas identifiers:** mid `KhaliliCollection_MSS_1075`, cid `0001`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 - **Matching content elements**
@@ -807,7 +947,7 @@ markmap:
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
   - mdhn:Fragment_Cropped_Image: Camel cropped figure from MSS_1075 ![Camel cropped figure from MSS_1075](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/208,1009,1424,1230/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -824,11 +964,13 @@ markmap:
     - skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
     - skos:relatedMatch: mdhn:aat300212133
 
-#### Resource: Akvan Div prepares to heave the sleeping Rustam into the sea ![Akvan Div prepares to heave the sleeping Rustam into the sea](<https://ids.si.edu/ids/iiif/FS-6781_01/full/250,/0/default.jpg>)
+#### Resource: FS-6781_01 — Akvan Div prepares to heave the sleeping Rustam into the sea ![Akvan Div prepares to heave the sleeping Rustam into the sea](<https://ids.si.edu/ids/iiif/FS-6781_01/full/250,/0/default.jpg>)
 
-##### f.1v — Akvan Div and Rostam ![canvas f.1v](<https://ids.si.edu/ids/iiif/FS-6781_01/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — KhaliliCollection_MSS_1075 — f.1v — Akvan Div and Rostam ![AsCanvas — KhaliliCollection_MSS_1075 — f.1v — Akvan Div and Rostam](<https://ids.si.edu/ids/iiif/FS-6781_01/full/250,/0/default.jpg>)
+- **Record ID:** `FS-6781_01`
+- **AsCanvas identifiers:** mid `KhaliliCollection_MSS_1075`, cid `0001`
+- **Matched via:** AsCanvas depicts
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasOnvan, HasPainting
 - **Matching content elements**
@@ -838,10 +980,11 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Akvan Div cropped figure from FS-6781_01 ![Akvan Div cropped figure from FS-6781_01](<https://ids.si.edu/ids/iiif/FS-6781_01/916,1588,806,635/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Akvan_Div
     - **Styles:** aat:500011001
+    - skos:closeMatch: mdhn:Divs
   - mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from FS-6781_01 ![Rakhsh cropped figure from FS-6781_01](<https://ids.si.edu/ids/iiif/FS-6781_01/1285,1588,614,637/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Rakhsh
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -866,9 +1009,10 @@ markmap:
             - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
               - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
                 - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
-  - mdhn:Rostam
-  - mdhn:Akvan_Div
-  - mdhn:Rakhsh
+  - mdhn:Rostam — Rostam / رستم
+  - mdhn:Akvan_Div — Akvan Div / اکوان ديو
+    - skos:closeMatch: mdhn:Divs
+  - mdhn:Rakhsh — Rakhsh / رخش
   - mdhn:Sword — Sword / شمشير
     - Q12791
     - skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
@@ -885,11 +1029,13 @@ markmap:
 ### Collection: Haft Owrang Ibrahim Sultan ![Haft Owrang Ibrahim Sultan](<https://ids.si.edu/ids/iiif/FS-F1946.12.182_001/642,214,2250,4519/250,/0/default.jpg>)
 - `HaftOwrangIbrahimSultanCollection.json`
 
-#### Resource: Solomon and Bilqis sit together and converse frankly ![Solomon and Bilqis sit together and converse frankly](<https://ids.si.edu/ids/iiif/FS-8474_19/full/250,/0/default.jpg>)
+#### Resource: FS-8474_19 — Solomon and Bilqis sit together and converse frankly ![Solomon and Bilqis sit together and converse frankly](<https://ids.si.edu/ids/iiif/FS-8474_19/full/250,/0/default.jpg>)
 
-##### f.19 — Solomon and Bilqis ![canvas f.19](<https://ids.si.edu/ids/iiif/FS-8474_19/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — FS-8474_19 — f.19 — Solomon and Bilqis ![AsCanvas — FS-8474_19 — f.19 — Solomon and Bilqis](<https://ids.si.edu/ids/iiif/FS-8474_19/full/250,/0/default.jpg>)
+- **Record ID:** `FS-8474_19`
+- **AsCanvas identifiers:** mid `FS-8474_19`, cid `0001`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 - **Matching content elements**
@@ -915,6 +1061,8 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Angel(Probably Jibril) cropped figure from FS-8474_19 ![Angel(Probably Jibril) cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/1696,2919,858,932/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Jibril
     - **Styles:** aat:500011001
+    - mdhn:saidToBeTheSameAs: mdhn:Gabriel
+    - skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
   - mdhn:Fragment_Cropped_Image: Worjer Div cropped figure from FS-8474_19 ![Worjer Div cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2135,2047,445,1004/250,/0/default.jpg>)
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Begger cropped figure from FS-8474_19 ![Begger cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/129,3621,1457,1442/250,/0/default.jpg>)
@@ -935,7 +1083,7 @@ markmap:
   - mdhn:Fragment_Cropped_Image: People cropped figure from FS-8474_19 ![People cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2938,3445,821,1629/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Daraygah
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -952,9 +1100,9 @@ markmap:
         - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
         - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
-  - mdhn:Solomon
-  - mdhn:Queen_of_Sheba
-  - mdhn:Asfi_bin_Barkhiya
+  - mdhn:Solomon — Solomon / سليمان
+  - mdhn:Queen_of_Sheba — Queen of Sheba / ملکه سبا
+  - mdhn:Asfi_bin_Barkhiya — Asef bin Barkhiya / آصف بن برخيا
   - mdhn:iconclass71I6 — the visit of the Queen of Sheba
     - skos:exactMatch: iconclass:71I6
     - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
@@ -962,6 +1110,10 @@ markmap:
     - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
   - mdhn:Flaming_Nimbus — Flaming Nimbus / نیمبوس آتشی
     - Q123456
+  - mdhn:God — God / پروردگار
+    - Q190
+    - mdhn:saidToBeTheSameAs: wd:Q179575, wd:Q2095353, wd:Q2155501, wd:Q3678579, wd:Q5576009, wd:Q825
+    - skos:exactMatch: mdhn:sh85055517_God
   - mdhn:Simurgh — Simurgh / سيمرغ
     - Q548119
     - skos:exactMatch: mdhn:aat300379749
@@ -1053,11 +1205,13 @@ markmap:
 ### Collection: Ibrahim Sultan Shahnama Collection ![Ibrahim Sultan Shahnama Collection](<https://iiif.bodleian.ox.ac.uk/iiif/image/cb077bd1-c3ef-4f0e-b7f2-185c40ea9b28/1575,632,4573,6608/250,/0/default.jpg>)
 - `IbrahimSultanShahnamaCollection.json`
 
-#### Resource: Shāhnāmah-ʼi Firdawsī MS. Ouseley Add. 176 (Ibrahim Sultan) ![Shāhnāmah-ʼi Firdawsī MS. Ouseley Add. 176 (Ibrahim Sultan)](<https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/full/250,/0/default.jpg>)
+#### Resource: bcbfd832-086b-4874-80f8-87500e0de704 — Shāhnāmah-ʼi Firdawsī MS. Ouseley Add. 176 (Ibrahim Sultan) ![Shāhnāmah-ʼi Firdawsī MS. Ouseley Add. 176 (Ibrahim Sultan)](<https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/full/250,/0/default.jpg>)
 
-##### f.71a — Ibrahim Sultan Shahnamah, Rostam kills white Div ![canvas f.71a](<https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — bcbfd832-086b-4874-80f8-87500e0de704 — f.71a — Ibrahim Sultan Shahnamah, Rostam kills white Div ![AsCanvas — bcbfd832-086b-4874-80f8-87500e0de704 — f.71a — Ibrahim Sultan Shahnamah, Rostam kills white Div](<https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/full/250,/0/default.jpg>)
+- **Record ID:** `bcbfd832-086b-4874-80f8-87500e0de704`
+- **AsCanvas identifiers:** mid `bcbfd832-086b-4874-80f8-87500e0de704`, cid `0151`
+- **Matched via:** AsCanvas depicts
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
 - **Matching content elements**
@@ -1067,10 +1221,12 @@ markmap:
   - mdhn:Fragment_Cropped_Image: White Div cropped figure from 71a ![White Div cropped figure from 71a](<https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/2256,3130,3050,1905/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:White_Div_7th_Course
     - **Styles:** aat:500011001
+    - skos:closeMatch: mdhn:Divs
   - mdhn:Fragment_Cropped_Image: Olad Div cropped figure from 71a ![Olad Div cropped figure from 71a](<https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/1266,1615,1100,2535/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Olad_Div
     - **Styles:** aat:500011001
-- **Canvas depicts**
+    - skos:closeMatch: mdhn:Divs
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -1129,9 +1285,11 @@ markmap:
 
 #### Resource: Shāhnāmah MS MS-RAS-00239 (Juki) ![Shāhnāmah MS MS-RAS-00239 (Juki)](<https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/full/250,/0/default.jpg>)
 
-##### f.44r — Juki Shahnamah, Rostam kills white Div ![canvas f.44r](<https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — MS-RAS-00239-00001 — f.44r — Juki Shahnamah, Rostam kills white Div ![AsCanvas — MS-RAS-00239-00001 — f.44r — Juki Shahnamah, Rostam kills white Div](<https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/full/250,/0/default.jpg>)
+- **Record ID:** `MS-RAS-00239`
+- **AsCanvas identifiers:** mid `MS-RAS-00239-00001`, cid `0087`
+- **Matched via:** AsCanvas depicts
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
 - **Matching content elements**
@@ -1141,13 +1299,15 @@ markmap:
   - mdhn:Fragment_Cropped_Image: White Div cropped figure from 44r ![White Div cropped figure from 44r](<https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/2066,6171,1878,992/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:White_Div_7th_Course
     - **Styles:** aat:500011001
+    - skos:closeMatch: mdhn:Divs
   - mdhn:Fragment_Cropped_Image: Olad Div cropped figure from 44r ![Olad Div cropped figure from 44r](<https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/4467,4589,534,1307/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Olad_Div
     - **Styles:** aat:500011001
+    - skos:closeMatch: mdhn:Divs
   - mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 44r ![Rakhsh cropped figure from 44r](<https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/3987,4886,511,612/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Rakhsh
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -1226,11 +1386,13 @@ markmap:
 ### Collection: Peck Shahnama Collection ![Peck Shahnama Collection](<https://iiif-cloud.princeton.edu/iiif/2/c8%2F4e%2F2a%2Fc84e2a0ad7bf407cafc6f0c04d31bd88%2Fintermediate_file/1078,1665,7394,10526/250,/0/default.jpg>)
 - `PeckShahnamaCollection.json`
 
-#### Resource: Kitāb-i Shāhnāmah Peck Shahnamah ![Kitāb-i Shāhnāmah Peck Shahnamah](<https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/full/250,/0/default.jpg>)
+#### Resource: 72507ee3-850b-4ad6-9098-141257cb319f — Kitāb-i Shāhnāmah Peck Shahnamah ![Kitāb-i Shāhnāmah Peck Shahnamah](<https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/full/250,/0/default.jpg>)
 
-##### f.1b — Peck Shahnamah, Sulaiman is enthroned amidst angels, demons, humans, and animals. ![canvas f.1b](<https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — 72507ee3-850b-4ad6-9098-141257cb319f — f.1b — Peck Shahnamah, Sulaiman is enthroned amidst angels, demons, humans, and animals. ![AsCanvas — 72507ee3-850b-4ad6-9098-141257cb319f — f.1b — Peck Shahnamah, Sulaiman is enthroned amidst angels, demons, humans, and animals.](<https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/full/250,/0/default.jpg>)
+- **Record ID:** `72507ee3-850b-4ad6-9098-141257cb319f`
+- **AsCanvas identifiers:** mid `72507ee3-850b-4ad6-9098-141257cb319f`, cid `0002`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
 - **Matching content elements**
@@ -1270,7 +1432,7 @@ markmap:
     - **Styles:** aat:500011001
     - Q2083405
     - skos:broadMatch: mdhn:Animal
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -1287,13 +1449,13 @@ markmap:
         - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
         - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
-  - mdhn:Solomon
+  - mdhn:Solomon — Solomon / سليمان
   - mdhn:iconclass71I6 — the visit of the Queen of Sheba
     - skos:exactMatch: iconclass:71I6
     - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
   - mdhn:iconclass71I_PersianCourt — Solomon’s court and throne in Persian manuscript painting
     - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
-  - mdhn:Asfi_bin_Barkhiya
+  - mdhn:Asfi_bin_Barkhiya — Asef bin Barkhiya / آصف بن برخيا
   - mdhn:Throne — Throne / تخت پادشاهی
     - Q189233
     - skos:exactMatch: mdhn:aat300038141
@@ -1407,9 +1569,11 @@ markmap:
   - mdhn:Sea_River_Pool — Sea/River/Pool / دریا/رودخانه/استخر
     - Q4022
 
-##### f.2a — Peck Shahnamah, Bilqis, Queen of Saba, is enthroned amidst Peris and handmaidens. ![canvas f.2a](<https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — 72507ee3-850b-4ad6-9098-141257cb319f — f.2a — Peck Shahnamah, Bilqis, Queen of Saba, is enthroned amidst Peris and handmaidens. ![AsCanvas — 72507ee3-850b-4ad6-9098-141257cb319f — f.2a — Peck Shahnamah, Bilqis, Queen of Saba, is enthroned amidst Peris and handmaidens.](<https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/full/250,/0/default.jpg>)
+- **Record ID:** `72507ee3-850b-4ad6-9098-141257cb319f`
+- **AsCanvas identifiers:** mid `72507ee3-850b-4ad6-9098-141257cb319f`, cid `0003`
+- **Matched via:** AsCanvas depicts
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181050, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
 - **Matching content elements**
@@ -1433,7 +1597,7 @@ markmap:
     - **Styles:** aat:500011001
     - Q200538
     - skos:relatedMatch: mdhn:aat300073261
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -1450,7 +1614,7 @@ markmap:
         - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
         - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
-  - mdhn:Queen_of_Sheba
+  - mdhn:Queen_of_Sheba — Queen of Sheba / ملکه سبا
   - mdhn:Throne — Throne / تخت پادشاهی
     - Q189233
     - skos:exactMatch: mdhn:aat300038141
@@ -1509,9 +1673,11 @@ markmap:
     - skos:exactMatch: mdhn:aat300209852
     - skos:relatedMatch: mdhn:aat300212133
 
-##### f.62b — Peck Shahnamah, Rostam kills white Div ![canvas f.62b](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — 72507ee3-850b-4ad6-9098-141257cb319f — f.62b — Peck Shahnamah, Rostam kills white Div ![AsCanvas — 72507ee3-850b-4ad6-9098-141257cb319f — f.62b — Peck Shahnamah, Rostam kills white Div](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/full/250,/0/default.jpg>)
+- **Record ID:** `72507ee3-850b-4ad6-9098-141257cb319f`
+- **AsCanvas identifiers:** mid `72507ee3-850b-4ad6-9098-141257cb319f`, cid `0124`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasHalkari, HasText
 - **Matching content elements**
@@ -1570,13 +1736,15 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Rostam cropped figure from 62b ![Rostam cropped figure from 62b](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/2834,4455,869,1775/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Olad_Div
     - **Styles:** aat:500011001
+    - skos:closeMatch: mdhn:Divs
   - mdhn:Fragment_Cropped_Image: White Div cropped figure from 62b ![White Div cropped figure from 62b](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/1825,6948,2827,3146/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:White_Div_7th_Course
     - **Styles:** aat:500011001
+    - skos:closeMatch: mdhn:Divs
   - mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 62b ![Rakhsh cropped figure from 62b](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/1908,5014,1224,1601/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Rakhsh
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -1646,21 +1814,24 @@ markmap:
 ### Collection: Rawdat al Safa FS 7421 ![Rawdat al Safa FS 7421](<https://ids.si.edu/ids/iiif/FS-7287_10/341,506,2798,3639/250,/0/default.jpg>)
 - `RawdatAlSafaFS7421Collection.json`
 
-#### Resource: Suleyman provides a one day meal for humans, jinns, animals, wild beasts, birds, reptiles, and insects
+#### Resource: FS-7421_25 — Suleyman provides a one day meal for humans, jinns, animals, wild beasts, birds, reptiles, and insects
 
-##### Resource metadata
-- **Matched via:** resource metadata
-- **Selected concept(s) on this canvas:** mdhn:Divs
-- Resource-level match (no AsCanvas / States entry).
+##### Other resource metadata (no AsCanvas, not Depicts field) — FS-7421_25
+- **Record ID:** `FS-7421_25`
+- **Matched via:** other resource metadata (not AsCanvas, not Depicts field)
+- **Selected concept(s) in other resource metadata:** mdhn:Divs
+- Matched in Agents or other metadata; this record has no AsCanvas / States and the selected concept is not in a Depicts field.
 
 ### Collection: Shahnama Ms. or. fol. 359 ![Shahnama Ms. or. fol. 359](<https://content.staatsbibliothek-berlin.de/dc/731527356-0020/738,563,3295,4960/250,/0/default.jpg>)
 - `ShahnamaMsorfol359Collection.json`
 
-#### Resource: Firdausī: Šāhnāma Ms. or. fol. 359 ![Firdausī: Šāhnāma Ms. or. fol. 359](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/full/250,/0/default.jpg>)
+#### Resource: 731527356 — Firdausī: Šāhnāma Ms. or. fol. 359 ![Firdausī: Šāhnāma Ms. or. fol. 359](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/full/250,/0/default.jpg>)
 
-##### f.2v — Sulaiman is enthroned amidst angels, demons, humans, and animals. ![canvas f.2v](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — 731527356 — f.2v — Sulaiman is enthroned amidst angels, demons, humans, and animals. ![AsCanvas — 731527356 — f.2v — Sulaiman is enthroned amidst angels, demons, humans, and animals.](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/full/250,/0/default.jpg>)
+- **Record ID:** `731527356`
+- **AsCanvas identifiers:** mid `731527356`, cid `0006`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
 - **Matching content elements**
@@ -1687,6 +1858,8 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Jibril cropped figure from 2v ![Jibril cropped figure from 2v](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1156,2051,433,791/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Jibril
     - **Styles:** aat:500011001
+    - mdhn:saidToBeTheSameAs: mdhn:Gabriel
+    - skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
   - mdhn:Fragment_Cropped_Image: Angel cropped figure from 2v ![Angel cropped figure from 2v](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/982,1711,284,924/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
@@ -1749,7 +1922,7 @@ markmap:
     - **Styles:** aat:500011064
   - mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 2v ![Pattern1 cropped from 2v](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/2964,118,1105,5757/250,/0/default.jpg>)
     - **Styles:** aat:500011064
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -1766,7 +1939,7 @@ markmap:
         - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
         - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
-  - mdhn:Solomon
+  - mdhn:Solomon — Solomon / سليمان
   - mdhn:iconclass71I6 — the visit of the Queen of Sheba
     - skos:exactMatch: iconclass:71I6
     - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
@@ -1863,9 +2036,11 @@ markmap:
     - Q3736439
     - skos:broadMatch: mdhn:Animal
 
-##### f.3r — Bilqīs, Queen of Saba, is enthroned amidst Peris and handmaidens. ![canvas f.3r](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/full/250,/0/default.jpg>)
+##### AsCanvas — 731527356 — f.3r — Bilqīs, Queen of Saba, is enthroned amidst Peris and handmaidens. ![AsCanvas — 731527356 — f.3r — Bilqīs, Queen of Saba, is enthroned amidst Peris and handmaidens.](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/full/250,/0/default.jpg>)
+- **Record ID:** `731527356`
+- **AsCanvas identifiers:** mid `731527356`, cid `0007`
 - **Matched via:** content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181050, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
 - **Matching content elements**
@@ -1910,7 +2085,7 @@ markmap:
     - **Styles:** aat:500011064
   - mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 3r ![Pattern1 cropped from 3r](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/385,1105,1003,4535/250,/0/default.jpg>)
     - **Styles:** aat:500011064
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Solomon_and_Queen_of_Sheba — Solomon and Queen of Sheba / بارگاه سليمان و ملکه سبا
     - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
     - skos:closeMatch: iconclass:71I
@@ -1922,7 +2097,7 @@ markmap:
         - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
       - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
         - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
-  - mdhn:Queen_of_Sheba
+  - mdhn:Queen_of_Sheba — Queen of Sheba / ملکه سبا
   - mdhn:Tambourine — tambourine / دف
     - Q193666
     - skos:exactMatch: mdhn:aat300041759
@@ -1984,9 +2159,11 @@ markmap:
     - skos:exactMatch: mdhn:aat300209852
     - skos:relatedMatch: mdhn:aat300212133
 
-##### f.12v — Dīv Tears Siyamak Apart ![canvas f.12v](<https://content.staatsbibliothek-berlin.de/dc/731527356-0026/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — 731527356 — f.12v — Dīv Tears Siyamak Apart ![AsCanvas — 731527356 — f.12v — Dīv Tears Siyamak Apart](<https://content.staatsbibliothek-berlin.de/dc/731527356-0026/full/250,/0/default.jpg>)
+- **Record ID:** `731527356`
+- **AsCanvas identifiers:** mid `731527356`, cid `0026`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300033936
 - **Contains:** HasPainting, HasHalkari, HasText
 - **Matching content elements**
@@ -2009,7 +2186,7 @@ markmap:
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: People2 cropped figure from 12v ![People2 cropped figure from 12v](<https://content.staatsbibliothek-berlin.de/dc/731527356-0026/848,3296,1162,979/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -2094,11 +2271,13 @@ markmap:
 ### Collection: Shahnama Ms. or. fol. 4251 ![Shahnama Ms. or. fol. 4251](<https://content.staatsbibliothek-berlin.de/dc/731525744-0421/full/250,/0/default.jpg>)
 - `ShahnamaMsorfol4251Collection.json`
 
-#### Resource: Firdausī: Šāhnāma Ms. or. fol. 4251 ![Firdausī: Šāhnāma Ms. or. fol. 4251](<https://content.staatsbibliothek-berlin.de/dc/731525744-0032/full/250,/0/default.jpg>)
+#### Resource: 731525744 — Firdausī: Šāhnāma Ms. or. fol. 4251 ![Firdausī: Šāhnāma Ms. or. fol. 4251](<https://content.staatsbibliothek-berlin.de/dc/731525744-0032/full/250,/0/default.jpg>)
 
-##### f.13v — Dīv Tears Siyamak Apart ![canvas f.13v](<https://content.staatsbibliothek-berlin.de/dc/731525744-0032/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — 731525744 — f.13v — Dīv Tears Siyamak Apart ![AsCanvas — 731525744 — f.13v — Dīv Tears Siyamak Apart](<https://content.staatsbibliothek-berlin.de/dc/731525744-0032/full/250,/0/default.jpg>)
+- **Record ID:** `731525744`
+- **AsCanvas identifiers:** mid `731525744`, cid `0032`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
 - **Matching content elements**
@@ -2119,7 +2298,7 @@ markmap:
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: People2 cropped figure from 13v ![People2 cropped figure from 13v](<https://content.staatsbibliothek-berlin.de/dc/731525744-0032/1084,2283,677,460/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -2211,9 +2390,11 @@ markmap:
     - Q726
     - skos:broadMatch: mdhn:Animal
 
-##### f.202v — Keykavus and Arzhang Div ![canvas f.202v](<https://content.staatsbibliothek-berlin.de/dc/731525744-0410/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — 731525744 — f.202v — Keykavus and Arzhang Div ![AsCanvas — 731525744 — f.202v — Keykavus and Arzhang Div](<https://content.staatsbibliothek-berlin.de/dc/731525744-0410/full/250,/0/default.jpg>)
+- **Record ID:** `731525744`
+- **AsCanvas identifiers:** mid `731525744`, cid `0410`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
 - **Matching content elements**
@@ -2258,10 +2439,11 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Arzhang div cropped figure from 202v ![Arzhang div cropped figure from 202v](<https://content.staatsbibliothek-berlin.de/dc/731525744-0410/298,1985,601,998/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Arzhang_Div
     - **Styles:** aat:500011001
+    - skos:closeMatch: mdhn:Divs
   - mdhn:Fragment_Cropped_Image: div3 cropped figure from 202v ![div3 cropped figure from 202v](<https://content.staatsbibliothek-berlin.de/dc/731525744-0410/280,3028,742,827/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Rakhsh
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -2357,9 +2539,11 @@ markmap:
   - mdhn:Sorna — Sorna / سرنا
     - Q825246
 
-##### f.208r — SH 4251, Rostam Kills the White Div ![canvas f.208r](<https://content.staatsbibliothek-berlin.de/dc/731525744-0421/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — 731525744 — f.208r — SH 4251, Rostam Kills the White Div ![AsCanvas — 731525744 — f.208r — SH 4251, Rostam Kills the White Div](<https://content.staatsbibliothek-berlin.de/dc/731525744-0421/full/250,/0/default.jpg>)
+- **Record ID:** `731525744`
+- **AsCanvas identifiers:** mid `731525744`, cid `0421`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasHalkari, HasText
 - **Matching content elements**
@@ -2376,13 +2560,15 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Rostam cropped figure from 208r ![Rostam cropped figure from 208r](<https://content.staatsbibliothek-berlin.de/dc/731525744-0421/1105,1313,436,1142/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Olad_Div
     - **Styles:** aat:500011001
+    - skos:closeMatch: mdhn:Divs
   - mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 208r ![Rakhsh cropped figure from 208r](<https://content.staatsbibliothek-berlin.de/dc/731525744-0421/1560,1316,772,673/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Rakhsh
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: White Div cropped figure from 208r ![White Div cropped figure from 208r](<https://content.staatsbibliothek-berlin.de/dc/731525744-0421/1571,2979,1467,1153/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:White_Div_7th_Course
     - **Styles:** aat:500011001
-- **Canvas depicts**
+    - skos:closeMatch: mdhn:Divs
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -2460,11 +2646,13 @@ markmap:
 ### Collection: Shahnama Supplement persan 489 ![Shahnama Supplement persan 489](<https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f143/1278,995,2468,3780/250,/0/default.jpg>)
 - `ShahnamaSupplementpersan489Collection.json`
 
-#### Resource: Shāhnāmah Supplément persan 489 ![Shāhnāmah Supplément persan 489](<https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/full/250,/0/default.jpg>)
+#### Resource: btv1b8422995t — Shāhnāmah Supplément persan 489 ![Shāhnāmah Supplément persan 489](<https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/full/250,/0/default.jpg>)
 
-##### f.75r — Sh 489, Seventh Labour. Rostam kills the white Div ![canvas f.75r](<https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — btv1b8422995t — f.75r — Sh 489, Seventh Labour. Rostam kills the white Div ![AsCanvas — btv1b8422995t — f.75r — Sh 489, Seventh Labour. Rostam kills the white Div](<https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/full/250,/0/default.jpg>)
+- **Record ID:** `btv1b8422995t`
+- **AsCanvas identifiers:** mid `btv1b8422995t`, cid `f161`
+- **Matched via:** AsCanvas depicts
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasOnvan, HasText
 - **Matching content elements**
@@ -2474,13 +2662,15 @@ markmap:
   - mdhn:Fragment_Cropped_Image: White Div cropped figure from 75r ![White Div cropped figure from 75r](<https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/2235,3655,1456,1074/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:White_Div_7th_Course
     - **Styles:** aat:500011001
+    - skos:closeMatch: mdhn:Divs
   - mdhn:Fragment_Cropped_Image: Olad Div cropped figure from 75r ![Olad Div cropped figure from 75r](<https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/1186,3198,549,1317/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Olad_Div
     - **Styles:** aat:500011001
+    - skos:closeMatch: mdhn:Divs
   - mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 75r ![Rakhsh cropped figure from 75r](<https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/1772,3325,575,613/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Rakhsh
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -2546,11 +2736,13 @@ markmap:
 ### Collection: Shahname Shah Tahmasb ![Shahname Shah Tahmasb](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/297,707,1503,2310/250,/0/default.jpg>)
 - `ShahnameShahTahmasbCollection.json`
 
-#### Resource: Folio 23v Tahmuras Defeats the Divs ![Folio 23v Tahmuras Defeats the Divs](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/full/250,/0/default.jpg>)
+#### Resource: shahnama-shah-tahmasp-23v — Folio 23v Tahmuras Defeats the Divs ![Folio 23v Tahmuras Defeats the Divs](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/full/250,/0/default.jpg>)
 
-##### f.23v — Folio 23v Tahmuras Defeats the Divs ![canvas f.23v](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — shahnama-shah-tahmasp-23v — f.23v — Folio 23v Tahmuras Defeats the Divs ![AsCanvas — shahnama-shah-tahmasp-23v — f.23v — Folio 23v Tahmuras Defeats the Divs](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/full/250,/0/default.jpg>)
+- **Record ID:** `shahnama-shah-tahmasp-23v`
+- **AsCanvas identifiers:** mid `shahnama-shah-tahmasp-23v`, cid `0001`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 - **Matching content elements**
@@ -2589,7 +2781,7 @@ markmap:
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Riders cropped figure from f23v ![Riders cropped figure from f23v](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/1360,1373,389,1033/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -2658,14 +2850,16 @@ markmap:
     - Q3579211
     - skos:exactMatch: mdhn:aat300391023
 
-#### Resource: Folio 124r Rustam Seventh Course, He Kills the White Div
+#### Resource: shahnama-shah-tahmasp-124r — Folio 124r Rustam Seventh Course, He Kills the White Div
 
-##### f.124r — Rostam Kills the White Div
-- **Matched via:** canvas depicts
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — shahnama-shah-tahmasp-124r — f.124r — Rostam Kills the White Div
+- **Record ID:** `shahnama-shah-tahmasp-124r`
+- **AsCanvas identifiers:** mid `shahnama-shah-tahmasp-124r`, cid `0001`
+- **Matched via:** AsCanvas depicts
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -2735,18 +2929,82 @@ markmap:
     - skos:exactMatch: mdhn:aat300046127
     - skos:relatedMatch: mdhn:aat300212133
 
-#### Resource: Folio 24v The Court of Jamshid
+#### Resource: shahnama-shah-tahmasp-24v — Folio 24v The Court of Jamshid
 
-##### Resource metadata
-- **Matched via:** resource metadata
-- **Selected concept(s) on this canvas:** mdhn:Divs
-- Resource-level match (no AsCanvas / States entry).
+##### Depicts field (no AsCanvas / States) — shahnama-shah-tahmasp-24v
+- **Record ID:** `shahnama-shah-tahmasp-24v`
+- **Matched via:** Depicts metadata field (no AsCanvas / States on this record)
+- **Selected concept(s) in Depicts field:** mdhn:Divs
+- **Depicts field**
+  - mdhn:Divs — Divs / دیوها ★
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:EnthronementOfJamshid
+  - mdhn:knitting — knitting / بافندگی
+    - Q193188
+  - mdhn:smithy — smithy / آهنگری، کارگاه آهنگری
+    - Q40558
+  - mdhn:Throne — Throne / تخت پادشاهی
+    - Q189233
+    - skos:exactMatch: mdhn:aat300038141
+  - mdhn:Battle — Battle / زرم و نبرد
+    - Q198
+    - skos:exactMatch: mdhn:aat300185692
+  - mdhn:Wind — Wind / باد
+    - Q8094
+    - skos:exactMatch: mdhn:aat300055395
+  - mdhn:Cloud — Cloud / ابر
+    - Q8074
+  - mdhn:Bow_and_Arrow — Bow and Arrow / کمان و پيکان
+    - Q19827042
+    - skos:closeMatch: mdhn:aat300037000
+    - skos:broadMatch: mdhn:Weopen
+  - mdhn:Sword — Sword / شمشير
+    - Q12791
+    - skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
+    - skos:broadMatch: mdhn:SharpEdgedWeopen
+  - mdhn:Turban — Turban / عمامه
+    - Q2460567
+    - skos:exactMatch: mdhn:aat300046127
+    - skos:relatedMatch: mdhn:aat300212133
+  - mdhn:Flower — Flower / گل
+    - Q506
+  - mdhn:Tree — Tree / درخت
+    - Q10884
+    - skos:exactMatch: mdhn:aat300132410
+  - mdhn:Rocks — Rocks / صخره
+    - Q8063
+  - mdhn:Blossom — Blossom / شکوفه
+    - Q2047589
+  - mdhn:Bird — Bird / پرندگان
+    - Q5113
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:GoldVessel — Gold Vessel / ظرف طلا
+    - Q96952903
+    - skos:exactMatch: mdhn:aat300193015
+  - mdhn:Plant — Plant / گیاه
+    - Q756
+    - skos:exactMatch: mdhn:aat300132360
+  - mdhn:Bowl — Bowl / کاسه
+    - Q153988
+  - mdhn:SunShade — Sun Shade / چتر آفتاب
+    - Q1762975
+    - skos:exactMatch: mdhn:aat300428884
+  - mdhn:LongNeckedBottle — Long-necked Bottle / بطری گردن بلند
+    - Q116274271
+  - mdhn:Scissors — Scissors / قيچی
+    - Q40847
+    - skos:exactMatch: mdhn:aat300023459
 
-#### Resource: Folio 221r Kay Khusrau Takes the Castle of Bahman ![Folio 221r Kay Khusrau Takes the Castle of Bahman](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/full/250,/0/default.jpg>)
+#### Resource: shahnama-shah-tahmasp-221r — Folio 221r Kay Khusrau Takes the Castle of Bahman ![Folio 221r Kay Khusrau Takes the Castle of Bahman](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/full/250,/0/default.jpg>)
 
-##### f.221r — Kay Khusrau Takes the Castle of Bahman ![canvas f.221r](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/full/250,/0/default.jpg>)
+##### AsCanvas — shahnama-shah-tahmasp-221r — f.221r — Kay Khusrau Takes the Castle of Bahman ![AsCanvas — shahnama-shah-tahmasp-221r — f.221r — Kay Khusrau Takes the Castle of Bahman](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/full/250,/0/default.jpg>)
+- **Record ID:** `shahnama-shah-tahmasp-221r`
+- **AsCanvas identifiers:** mid `shahnama-shah-tahmasp-221r`, cid `0001`
 - **Matched via:** content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 - **Matching content elements**
@@ -2818,7 +3076,7 @@ markmap:
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Soldiers cropped figure from 221r ![Soldiers cropped figure from 221r](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/1468,657,608,880/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Kingdom_of_Kay_Kavus — Kingdom Kay Kāvus / پادشاهی کيکاوس
     - Q40466974
     - mdhn:isPartOf: mdhn:Shahnameh
@@ -2913,11 +3171,13 @@ markmap:
 ### Collection: Small Ilkhanid Shahname ![Small Ilkhanid Shahname](<https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/files/images/Per104_9_09049.jpg/818,1769,3139,1759/250,/0/default.jpg>)
 - `SmallIlkhanidShahnameCollection.json`
 
-#### Resource: Hushang kills the Black Div (recto) and Hushang discovers fire while killing a dragon with a stone (verso) f.1 ![Hushang kills the Black Div (recto) and Hushang discovers fire while killing a dragon with a stone (verso) f.1](<https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/full/250,/0/default.jpg>)
+#### Resource: Per_104_1 — Hushang kills the Black Div (recto) and Hushang discovers fire while killing a dragon with a stone (verso) f.1 ![Hushang kills the Black Div (recto) and Hushang discovers fire while killing a dragon with a stone (verso) f.1](<https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/full/250,/0/default.jpg>)
 
-##### f.1r — Hushang kills the Black Div ![canvas f.1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts; content-element tag
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — Per_104_1 — f.1r — Hushang kills the Black Div ![AsCanvas — Per_104_1 — f.1r — Hushang kills the Black Div](<https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/full/250,/0/default.jpg>)
+- **Record ID:** `Per_104_1`
+- **AsCanvas identifiers:** mid `Per_104_1`, cid `0001`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasOnvan, HasText
 - **Matching content elements**
@@ -2931,6 +3191,7 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Khazrevan Div cropped figure from 1r ![Khazrevan Div cropped figure from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/2666,3500,671,1210/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Kharozan_Div
     - **Styles:** aat:500011001
+    - skos:closeMatch: mdhn:Divs
   - mdhn:Fragment_Cropped_Image: Keyumars cropped figure from 1r ![Keyumars cropped figure from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/3359,3896,1051,1419/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Keyumars
     - **Styles:** aat:500011001
@@ -2953,7 +3214,7 @@ markmap:
     - skos:broadMatch: mdhn:Animal
   - mdhn:Fragment_Cropped_Image: Unknown cropped from 1r ![Unknown cropped from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/2047,3455,950,838/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -3017,16 +3278,18 @@ markmap:
 
 #### Resource: Tarikhname by Balami FS-6504_06 ![Tarikhname by Balami FS-6504_06](<https://ids.si.edu/ids/iiif/FS-6504_06/full/250,/0/default.jpg>)
 
-##### f.6v — Solomon and Sheba ![canvas f.6v](<https://ids.si.edu/ids/iiif/FS-6504_06/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — FS-6504_06 — f.6v — Solomon and Sheba ![AsCanvas — FS-6504_06 — f.6v — Solomon and Sheba](<https://ids.si.edu/ids/iiif/FS-6504_06/full/250,/0/default.jpg>)
+- **Record ID:** `FS-6504_06`
+- **AsCanvas identifiers:** mid `FS-6504_06`, cid `0001`
+- **Matched via:** AsCanvas depicts
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 - **Matching content elements**
   - mdhn:Fragment_Cropped_Image: Solomon and Sheba ![Solomon and Sheba](<https://ids.si.edu/ids/iiif/FS-6504_06/134,1523,1792,1392/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Solomon, mdhn:Queen_of_Sheba
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -3073,9 +3336,11 @@ markmap:
 
 #### Resource: FS-6987_03 ![FS-6987_03](<https://ids.si.edu/ids/iiif/FS-6987_03/full/250,/0/default.jpg>)
 
-##### f.3r — Folio 3 ![canvas f.3r](<https://ids.si.edu/ids/iiif/FS-6987_03/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — FS-6987_03 — f.3r — Folio 3 ![AsCanvas — FS-6987_03 — f.3r — Folio 3](<https://ids.si.edu/ids/iiif/FS-6987_03/full/250,/0/default.jpg>)
+- **Record ID:** `FS-6987_03`
+- **AsCanvas identifiers:** mid `FS-6987_03`, cid `0001`
+- **Matched via:** AsCanvas depicts
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 - **Matching content elements**
@@ -3093,7 +3358,7 @@ markmap:
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Monkey Figure cropped figure from 3r ![Monkey Figure cropped figure from 3r](<https://ids.si.edu/ids/iiif/FS-6987_03/1118,767,348,376/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -3140,9 +3405,11 @@ markmap:
 
 #### Resource: FS-6988_06 ![FS-6988_06](<https://ids.si.edu/ids/iiif/FS-6988_06/full/250,/0/default.jpg>)
 
-##### f.6r — Folio 6 ![canvas f.6r](<https://ids.si.edu/ids/iiif/FS-6988_06/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — FS-6988_06 — f.6r — Folio 6 ![AsCanvas — FS-6988_06 — f.6r — Folio 6](<https://ids.si.edu/ids/iiif/FS-6988_06/full/250,/0/default.jpg>)
+- **Record ID:** `FS-6988_06`
+- **AsCanvas identifiers:** mid `FS-6988_06`, cid `0001`
+- **Matched via:** AsCanvas depicts
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 - **Matching content elements**
@@ -3150,7 +3417,7 @@ markmap:
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Rama Shooting cropped figure from 6r ![Rama Shooting cropped figure from 6r](<https://ids.si.edu/ids/iiif/FS-6988_06/1166,1328,926,1319/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -3188,9 +3455,11 @@ markmap:
 
 #### Resource: FS-6988_09 ![FS-6988_09](<https://ids.si.edu/ids/iiif/FS-6988_09/full/250,/0/default.jpg>)
 
-##### f.9r — Folio 9 ![canvas f.9r](<https://ids.si.edu/ids/iiif/FS-6988_09/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — FS-6988_09 — f.9r — Folio 9 ![AsCanvas — FS-6988_09 — f.9r — Folio 9](<https://ids.si.edu/ids/iiif/FS-6988_09/full/250,/0/default.jpg>)
+- **Record ID:** `FS-6988_09`
+- **AsCanvas identifiers:** mid `FS-6988_09`, cid `0001`
+- **Matched via:** AsCanvas depicts
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 - **Matching content elements**
@@ -3200,7 +3469,7 @@ markmap:
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Rama Shooting cropped figure from 9r ![Rama Shooting cropped figure from 9r](<https://ids.si.edu/ids/iiif/FS-6988_09/225,865,1021,1157/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -3240,9 +3509,11 @@ markmap:
 
 #### Resource: FS-6997_08 ![FS-6997_08](<https://ids.si.edu/ids/iiif/FS-6997_08/full/250,/0/default.jpg>)
 
-##### f.8v — Folio 8 ![canvas f.8v](<https://ids.si.edu/ids/iiif/FS-6997_08/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — FS-6997_08 — f.8v — Folio 8 ![AsCanvas — FS-6997_08 — f.8v — Folio 8](<https://ids.si.edu/ids/iiif/FS-6997_08/full/250,/0/default.jpg>)
+- **Record ID:** `FS-6997_08`
+- **AsCanvas identifiers:** mid `FS-6997_08`, cid `0001`
+- **Matched via:** AsCanvas depicts
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 - **Matching content elements**
@@ -3256,7 +3527,7 @@ markmap:
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Throned King cropped figure from 8 ![Throned King cropped figure from 8](<https://ids.si.edu/ids/iiif/FS-6997_08/1012,377,993,1328/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
@@ -3295,15 +3566,17 @@ markmap:
 
 #### Resource: FS-6998_03 ![FS-6998_03](<https://ids.si.edu/ids/iiif/FS-6998_03/full/250,/0/default.jpg>)
 
-##### f.3v — Folio 3 ![canvas f.3v](<https://ids.si.edu/ids/iiif/FS-6998_03/full/250,/0/default.jpg>)
-- **Matched via:** canvas depicts
-- **Selected concept(s) on this canvas:** mdhn:Divs
+##### AsCanvas — FS-6998_03 — f.3v — Folio 3 ![AsCanvas — FS-6998_03 — f.3v — Folio 3](<https://ids.si.edu/ids/iiif/FS-6998_03/full/250,/0/default.jpg>)
+- **Record ID:** `FS-6998_03`
+- **AsCanvas identifiers:** mid `FS-6998_03`, cid `0001`
+- **Matched via:** AsCanvas depicts
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
 - **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 - **Matching content elements**
   - mdhn:Fragment_Cropped_Image: Div cropped figure from 3v ![Div cropped figure from 3v](<https://ids.si.edu/ids/iiif/FS-6998_03/233,846,1742,1238/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-- **Canvas depicts**
+- **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
