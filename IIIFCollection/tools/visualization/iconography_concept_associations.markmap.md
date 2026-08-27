@@ -1208,7 +1208,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-  - mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-7358_26 ![Div2 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2365,1125,773,778/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-7358_26 ![Div2 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-7358_26/712,2044,879,504/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
     - Q177413

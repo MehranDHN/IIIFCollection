@@ -2159,7 +2159,7 @@
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-7358_26
-- ![ Div2 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/2365,1125,773,778/200,/0/default.jpg)
+- ![ Div2 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/712,2044,879,504/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Divs
 - **Styles:** aat:500011001
 
