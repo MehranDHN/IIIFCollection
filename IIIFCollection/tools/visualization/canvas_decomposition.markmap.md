@@ -2046,6 +2046,135 @@
 
 ---
 
+## Manifest: Ascension of Solomon
+
+## ResourceCanvas: f.50 — Ascension of Solomon
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783
+- **Contains:** HasPainting
+
+### mdhn:Fragment_Cropped_Image: Solomon cropped figure from FS-F1950.1_001
+- ![ Solomon cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/1321,2097,907,831/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Solomon
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Simurgh cropped figure from FS-F1950.1_001
+- ![ Simurgh cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/347,337,1033,428/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Simurgh
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angles1 cropped figure from FS-F1950.1_001
+- ![ Angles1 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/1026,704,719,575/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angles2 cropped figure from FS-F1950.1_001
+- ![ Angles2 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/725,1132,931,765/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angles3 cropped figure from FS-F1950.1_001
+- ![ Angles3 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/1646,988,974,602/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angles4 cropped figure from FS-F1950.1_001
+- ![ Angles4 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/2365,1125,773,778/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angles5 cropped figure from FS-F1950.1_001
+- ![ Angles5 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/2253,1736,798,637/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angles6 cropped figure from FS-F1950.1_001
+- ![ Angles6 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/2194,2958,997,965/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angles7 cropped figure from FS-F1950.1_001
+- ![ Angles7 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/333,2301,1220,921/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angles8 cropped figure from FS-F1950.1_001
+- ![ Angles8 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/320,2974,2870,972/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angles9 cropped figure from FS-F1950.1_001
+- ![ Angles9 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/367,3747,1232,727/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from FS-F1950.1_001
+- ![ Div1 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/2146,3798,1005,811/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-F1950.1_001
+- ![ Div2 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/316,3668,294,659/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div3 cropped figure from FS-F1950.1_001
+- ![ Div3 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/480,790,842,683/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div4 cropped figure from FS-F1950.1_001
+- ![ Div4 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/2456,2318,746,709/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+---
+
+## Manifest: Two Demons Attacked by Four Flying Angels
+
+## ResourceCanvas: f.26 — Ascension of Solomon
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783
+- **Contains:** HasPainting, HasOnvan
+
+### mdhn:Fragment_Cropped_Image: Angle1 cropped figure from FS-7358_26
+- ![ Angle1 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/365,864,672,681/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angle2 cropped figure from FS-7358_26
+- ![ Angle2 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/946,859,585,752/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angle3 cropped figure from FS-7358_26
+- ![ Angle3 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/957,1356,643,949/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angle4 cropped figure from FS-7358_26
+- ![ Angle4 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/371,1730,562,644/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from FS-7358_26
+- ![ Div1 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/563,1374,434,695/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-7358_26
+- ![ Div2 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/2365,1125,773,778/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Illuminated_Headpiece: Textblock1 in FS-7358_26
+- ![ Textblock1 in FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/353,604,1255,241/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** ذکر الطواعين و المويان الحاديثه فی الازمان
+
+### mdhn:Illuminated_Headpiece: Textblock2 in FS-7358_26
+- ![ Textblock2 in FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/367,2547,1265,275/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** چنان پهن خوان کرم گسترد
+
+---
+
 
 
 

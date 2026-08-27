@@ -361,9 +361,24 @@ markmap:
         - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
           - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
+#### mdhn:Yusuf_and_Zulaikha — Yusuf and Zulaikha / يوسف و زليخا
+- **Type:** mdhn:NarrativeEpisode
+- **Label (en):** Yusuf and Zulaikha
+- **Label (fa):** يوسف و زليخا
+- **Wikidata:** Q3350827
+- **Comment:** romantic story
+- **Source:** narrative_episodes.ttl
+- **mdhn:charactersInvolved:** mdhn:Yusuf, mdhn:Zulaikha
+- **isPartOf ancestry**
+  - mdhn:Haft_Awrang — Haft Awrang / هفت اونگ
+    - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+- skos:closeMatch: mdhn:iconclass71D
+- skos:relatedMatch: mdhn:iconclass71D2
+
 ## Depicted in collections
 
-- **14 collection(s), 27 resource(s), 30 AsCanvas, 2 Depicts-only (no AsCanvas), 1 other metadata (no AsCanvas, not Depicts field), 0 saidToBeTheSameAs Wikidata**
+- **14 collection(s), 28 resource(s), 31 AsCanvas, 2 Depicts-only (no AsCanvas), 1 other metadata (no AsCanvas, not Depicts field), 0 saidToBeTheSameAs Wikidata**
 
 ### Collection: Departed Folios ![Departed Folios](<https://viewer.cbl.ie/viewer/api/v1/records/Per_144_20/files/images/D0002536.jpg/full/250,/0/default.jpg>)
 - `DepartedFolioCollection.json`
@@ -1175,6 +1190,75 @@ markmap:
     - skos:relatedMatch: mdhn:aat300073261
   - mdhn:Royal_Court — Royal Court / بارگاه پادشاهی
     - Q1134237
+
+#### Resource: FS-7358_26 — Two Demons Attacked by Four Flying Angels ![Two Demons Attacked by Four Flying Angels](<https://ids.si.edu/ids/iiif/FS-7358_26/full/250,/0/default.jpg>)
+
+##### AsCanvas — FS-7358_26 — f.26 — Ascension of Solomon ![AsCanvas — FS-7358_26 — f.26 — Ascension of Solomon](<https://ids.si.edu/ids/iiif/FS-7358_26/full/250,/0/default.jpg>)
+- **Record ID:** `FS-7358_26`
+- **AsCanvas identifiers:** mid `FS-7358_26`, cid `0001`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
+- **Canvas types:** aat:300189604, aat:500181051, aat:300079783
+- **Contains:** HasPainting, HasOnvan
+- **Matching content elements**
+  - mdhn:Fragment_Cropped_Image: Div1 cropped figure from FS-7358_26 ![Div1 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-7358_26/563,1374,434,695/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Divs ★
+    - **Styles:** aat:500011001
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-7358_26 ![Div2 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2365,1125,773,778/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Divs ★
+    - **Styles:** aat:500011001
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Fragment_Cropped_Image: Angle1 cropped figure from FS-7358_26 ![Angle1 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-7358_26/365,864,672,681/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Angles_From_Heaven
+    - **Styles:** aat:500011001
+    - Q123456
+  - mdhn:Fragment_Cropped_Image: Angle2 cropped figure from FS-7358_26 ![Angle2 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-7358_26/946,859,585,752/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Angles_From_Heaven
+    - **Styles:** aat:500011001
+    - Q123456
+  - mdhn:Fragment_Cropped_Image: Angle3 cropped figure from FS-7358_26 ![Angle3 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-7358_26/957,1356,643,949/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Angles_From_Heaven
+    - **Styles:** aat:500011001
+    - Q123456
+  - mdhn:Fragment_Cropped_Image: Angle4 cropped figure from FS-7358_26 ![Angle4 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-7358_26/371,1730,562,644/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Angles_From_Heaven
+    - **Styles:** aat:500011001
+    - Q123456
+- **AsCanvas depicts**
+  - mdhn:Divs — Divs / دیوها ★
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Yusuf_and_Zulaikha — Yusuf and Zulaikha / يوسف و زليخا
+    - Q3350827
+    - mdhn:isPartOf: mdhn:Haft_Awrang
+    - skos:closeMatch: mdhn:iconclass71D
+    - skos:relatedMatch: mdhn:iconclass71D2
+    - **Narrative episode**
+    - **isPartOf**
+      - mdhn:Haft_Awrang — Haft Awrang / هفت اونگ
+        - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+  - mdhn:Yusuf
+  - mdhn:Zulaikha
+  - mdhn:iconclass71D — Genesis: the story of Joseph
+    - skos:exactMatch: iconclass:71D
+    - skos:closeMatch: wd:Q8423
+    - skos:relatedMatch: mdhn:Yusuf_and_Zulaikha, wd:Q3350827
+  - mdhn:God — God / پروردگار
+    - Q190
+    - mdhn:saidToBeTheSameAs: wd:Q179575, wd:Q2095353, wd:Q2155501, wd:Q3678579, wd:Q5576009, wd:Q825
+    - skos:exactMatch: mdhn:sh85055517_God
+  - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
+    - Q123456
 
 ### Collection: Haft Owrang Ibrahim Sultan ![Haft Owrang Ibrahim Sultan](<https://ids.si.edu/ids/iiif/FS-F1946.12.182_001/642,214,2250,4519/250,/0/default.jpg>)
 - `HaftOwrangIbrahimSultanCollection.json`
