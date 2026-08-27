@@ -363,7 +363,7 @@ markmap:
 
 ## Depicted in collections
 
-- **14 collection(s), 26 resource(s), 29 AsCanvas, 2 Depicts-only (no AsCanvas), 1 other metadata (no AsCanvas, not Depicts field), 0 saidToBeTheSameAs Wikidata**
+- **14 collection(s), 27 resource(s), 30 AsCanvas, 2 Depicts-only (no AsCanvas), 1 other metadata (no AsCanvas, not Depicts field), 0 saidToBeTheSameAs Wikidata**
 
 ### Collection: Departed Folios ![Departed Folios](<https://viewer.cbl.ie/viewer/api/v1/records/Per_144_20/files/images/D0002536.jpg/full/250,/0/default.jpg>)
 - `DepartedFolioCollection.json`
@@ -1025,6 +1025,156 @@ markmap:
     - Q8074
   - mdhn:Rocks — Rocks / صخره
     - Q8063
+
+#### Resource: FS-F1950.1_001 — Ascension of Solomon ![Ascension of Solomon](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/full/250,/0/default.jpg>)
+
+##### AsCanvas — FS-F1950.1_001 — f.50 — Ascension of Solomon ![AsCanvas — FS-F1950.1_001 — f.50 — Ascension of Solomon](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/full/250,/0/default.jpg>)
+- **Record ID:** `FS-F1950.1_001`
+- **AsCanvas identifiers:** mid `FS-F1950.1_001`, cid `0001`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
+- **Canvas types:** aat:300189604, aat:500181051, aat:300079783
+- **Contains:** HasPainting
+- **Matching content elements**
+  - mdhn:Fragment_Cropped_Image: Div cropped figure from FS-F1950.1_001 ![Div cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2146,3798,1005,811/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Divs ★
+    - **Styles:** aat:500011001
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Fragment_Cropped_Image: Div cropped figure from FS-F1950.1_001 ![Div cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/316,3668,294,659/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Divs ★
+    - **Styles:** aat:500011001
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Fragment_Cropped_Image: Div cropped figure from FS-F1950.1_001 ![Div cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/480,790,842,683/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Divs ★
+    - **Styles:** aat:500011001
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Fragment_Cropped_Image: Div cropped figure from FS-F1950.1_001 ![Div cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2456,2318,746,709/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Divs ★
+    - **Styles:** aat:500011001
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Fragment_Cropped_Image: Solomon cropped figure from FS-F1950.1_001 ![Solomon cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1321,2097,907,831/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Solomon
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Simurgh cropped figure from FS-F1950.1_001 ![Simurgh cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1321,2097,907,831/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Simurgh
+    - **Styles:** aat:500011001
+    - Q548119
+    - skos:exactMatch: mdhn:aat300379749
+  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1026,704,719,575/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Angles_From_Heaven
+    - **Styles:** aat:500011001
+    - Q123456
+  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/725,1132,931,765/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Angles_From_Heaven
+    - **Styles:** aat:500011001
+    - Q123456
+  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1646,988,974,602/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Angles_From_Heaven
+    - **Styles:** aat:500011001
+    - Q123456
+  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2365,1125,773,778/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Angles_From_Heaven
+    - **Styles:** aat:500011001
+    - Q123456
+  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2253,1736,798,637/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Angles_From_Heaven
+    - **Styles:** aat:500011001
+    - Q123456
+  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2194,2958,997,965/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Angles_From_Heaven
+    - **Styles:** aat:500011001
+    - Q123456
+  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/333,2301,1220,921/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/320,2974,2870,972/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Angles cropped figure from FS-F1950.1_001 ![Angles cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/367,3747,1232,727/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Angles_From_Heaven
+    - **Styles:** aat:500011001
+    - Q123456
+- **AsCanvas depicts**
+  - mdhn:Divs — Divs / دیوها ★
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Solomon_and_Queen_of_Sheba — Solomon and Queen of Sheba / بارگاه سليمان و ملکه سبا
+    - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
+    - skos:closeMatch: iconclass:71I
+    - **Narrative episode**
+    - **isPartOf**
+      - mdhn:Christian_Mythology — Christian Mythology / ميتولوژی مسيحيت
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+      - mdhn:Islamic_Mythology — Islamic Mythology / ميتولوژی اسلامی
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+      - mdhn:Jewish_Mythology — Jewish Mythology / ميتولوژی يهود
+        - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+  - mdhn:Solomon — Solomon / سليمان
+  - mdhn:iconclass71I6 — the visit of the Queen of Sheba
+    - skos:exactMatch: iconclass:71I6
+    - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
+  - mdhn:iconclass71I_PersianCourt — Solomon’s court and throne in Persian manuscript painting
+    - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
+  - mdhn:God — God / پروردگار
+    - Q190
+    - mdhn:saidToBeTheSameAs: wd:Q179575, wd:Q2095353, wd:Q2155501, wd:Q3678579, wd:Q5576009, wd:Q825
+    - skos:exactMatch: mdhn:sh85055517_God
+  - mdhn:Simurgh — Simurgh / سيمرغ
+    - Q548119
+    - skos:exactMatch: mdhn:aat300379749
+  - mdhn:Bird — Bird / پرندگان
+    - Q5113
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Eurasian_Hoopoe — Eurasian Hoopoe / هدهد
+    - Q25247
+    - skos:exactMatch: mdhn:aat5300250068
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Throne — Throne / تخت پادشاهی
+    - Q189233
+    - skos:exactMatch: mdhn:aat300038141
+  - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
+    - Q123456
+  - mdhn:LongNeckedJar — Long-necked Jar / جام گردن بلند
+    - Q2413314
+    - skos:exactMatch: mdhn:aat300045685
+  - mdhn:CopperTray — Copper Tray / سينی مسی
+  - mdhn:SunShade — Sun Shade / چتر آفتاب
+    - Q1762975
+    - skos:exactMatch: mdhn:aat300428884
+  - mdhn:Tambourine — tambourine / دف
+    - Q193666
+    - skos:exactMatch: mdhn:aat300041759
+  - mdhn:Sorna — Sorna / سرنا
+    - Q825246
+  - mdhn:Flute — Flute / نی/فلوت
+    - Q11405
+    - skos:exactMatch: mdhn:aat300160680, mdhn:aat300235053
+  - mdhn:Oud — oud / عود
+    - Q191000
+    - skos:exactMatch: mdhn:aat300217935
+  - mdhn:Peacock — peacock / طاووس
+    - Q2083405
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Duck — Duck / اردک
+    - Q3736439
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Feasting — Feasting / بزم
+    - Q200538
+    - skos:relatedMatch: mdhn:aat300073261
+  - mdhn:Royal_Court — Royal Court / بارگاه پادشاهی
+    - Q1134237
 
 ### Collection: Haft Owrang Ibrahim Sultan ![Haft Owrang Ibrahim Sultan](<https://ids.si.edu/ids/iiif/FS-F1946.12.182_001/642,214,2250,4519/250,/0/default.jpg>)
 - `HaftOwrangIbrahimSultanCollection.json`
