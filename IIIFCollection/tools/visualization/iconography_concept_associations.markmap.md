@@ -1055,7 +1055,7 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Solomon and Bilqis cropped figure from FS-8474_19 ![Solomon and Bilqis cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2555,1949,796,1643/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Solomon, mdhn:Queen_of_Sheba
     - **Styles:** aat:500011001
-  - mdhn:Fragment_Cropped_Image: Asfi Barkhiya cropped figure from FS-8474_19 ![Asfi Barkhiya cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/1696,2919,858,932/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Asfi Barkhiya cropped figure from FS-8474_19 ![Asfi Barkhiya cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/1568,3454,472,1199/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Asfi_bin_Barkhiya
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Angel(Probably Jibril) cropped figure from FS-8474_19 ![Angel(Probably Jibril) cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/1696,2919,858,932/250,/0/default.jpg>)
@@ -1063,7 +1063,7 @@ markmap:
     - **Styles:** aat:500011001
     - mdhn:saidToBeTheSameAs: mdhn:Gabriel
     - skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
-  - mdhn:Fragment_Cropped_Image: Worjer Div cropped figure from FS-8474_19 ![Worjer Div cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2135,2047,445,1004/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Worker Div cropped figure from FS-8474_19 ![Worker Div cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2135,2047,445,1004/250,/0/default.jpg>)
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Begger cropped figure from FS-8474_19 ![Begger cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/129,3621,1457,1442/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Begger
@@ -1080,7 +1080,7 @@ markmap:
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: People cropped figure from FS-8474_19 ![People cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2938,3445,821,1629/250,/0/default.jpg>)
     - **Styles:** aat:500011001
-  - mdhn:Fragment_Cropped_Image: People cropped figure from FS-8474_19 ![People cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2938,3445,821,1629/250,/0/default.jpg>)
+  - mdhn:Fragment_Cropped_Image: Daraygah cropped figure from FS-8474_19 ![Daraygah cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/679,799,902,572/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Daraygah
     - **Styles:** aat:500011001
 - **AsCanvas depicts**

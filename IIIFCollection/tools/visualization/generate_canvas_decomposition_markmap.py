@@ -24,6 +24,7 @@ INPUT_JSON_FILES: List[str] = [
     "ShahnamaSmithLesouef224Collection.json",
     "SmallIlkhanidShahnameCollection.json",
     "DepartedFolioCollection.json",
+    "HaftOwrangIbrahimSultanCollection.json",
     "QisasalAnbiyaCollection.json",
     "Qisas_al_Anbiya_PersianMS46Collection.json",
     "Qisas_al_Anbiya_PersianMS1Collection.json",

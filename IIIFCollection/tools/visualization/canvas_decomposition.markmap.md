@@ -2049,6 +2049,227 @@
 
 
 
+# Haft Owrang Ibrahim Sultan
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Folio of Salaman and Absal
+
+## ResourceCanvas: f.182v — Folio of Salaman and Absal
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:300220539
+- **Contains:** HasOnvan, HasText, IsOpening, HasIllumination
+
+---
+
+## Manifest: Colophon folio from the Silsilat al-dhahab
+
+## ResourceCanvas: f.4r — Colophon folio from the Silsilat al-dhahab
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710
+- **Contains:** HasText, IsColophon, HasIllumination
+
+---
+
+## Manifest: Colophon folio from the Silsilat al-dhahab
+
+## ResourceCanvas: f.37v — Colophon folio from the Silsilat al-dhahab
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:300220539, aat:300028710
+- **Contains:** HasText, IsColophon, HasIllumination
+
+---
+
+## Manifest: Colophon of Yusuf u Zulaykha
+
+## ResourceCanvas: f.7v — Colophon of Yusuf u Zulaykha
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:300220539, aat:300028710
+- **Contains:** HasText, IsColophon, HasIllumination
+
+---
+
+## Manifest: Colophon of Salaman u Absal
+
+## ResourceCanvas: f.19r — Colophon of Yusuf u Zulaykha
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710
+- **Contains:** HasText, IsColophon, HasIllumination
+
+---
+
+## Manifest: Majnun comes before Layli disguised as a sheep
+
+## ResourceCanvas: f.43r — Majnun comes before Layli disguised as a sheep
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
+- **Contains:** HasText, HasPainting, HasHalkari
+
+---
+
+## Manifest: The Townsman Robs the Villager's Orchard
+
+## ResourceCanvas: f.37r — The Townsman Robs the Villager's Orchard
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
+- **Contains:** HasText, HasPainting, HasHalkari
+
+### mdhn:Fragment_Cropped_Image: Townsman cropped figure from FS-7258_37
+- ![ Townsman cropped figure from FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/1373,2600,498,665/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Villager cropped figure from FS-7258_37
+- ![ Villager cropped figure from FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/436,2532,458,845/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from FS-7258_37
+- ![ People cropped figure from FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/1310,3255,977,913/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Begger cropped figure from FS-7258_37
+- ![ Begger cropped figure from FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/2210,3246,700,848/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People in Garden cropped figure from FS-7258_37
+- ![ People in Garden cropped figure from FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/655,1040,1142,1618/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in FS-7258_37
+- ![ Textblock1 in FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/1934,683,446,322/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** هر که از فخری او گفته صفات دهنش کرده پر از حب نبات
+
+### mdhn:Text_or_Verses: Textblock2 in FS-7258_37
+- ![ Textblock2 in FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/1934,683,446,322/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** شهری القصه چو آن باغ بديد کاو نفسش بحر آگاه رسيد
+
+### mdhn:Text_or_Verses: Textblock3 in FS-7258_37
+- ![ Textblock3 in FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/1934,683,446,322/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** می نکردند از پس و از پيش نگاه همچو گرگی که فتد در رمه گاه
+
+---
+
+## Manifest: Qays(Majnun) first Glimpses Layla
+
+## ResourceCanvas: f.29r — Qays(Majnun) first Glimpses Layla
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
+- **Contains:** HasText, HasPainting, HasHalkari
+
+---
+
+## Manifest: Yusuf Is rescued from the well
+
+## ResourceCanvas: f.47r — Yusuf Is rescued from the well
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
+- **Contains:** HasText, HasPainting, HasHalkari
+
+---
+
+## Manifest: Yusuf tends his flocks
+
+## ResourceCanvas: f.2r — Yusuf tends his flocks
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
+- **Contains:** HasText, HasPainting, HasHalkari
+
+---
+
+## Manifest: Yusuf gives a royal banquet in honor of his marriage
+
+## ResourceCanvas: f.2r — Yusuf gives a royal banquet in honor of his marriage
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
+- **Contains:** HasText, HasPainting, HasHalkari
+
+### mdhn:Calligraphy_Inscription: Unnamed
+- ![ Unnamed ](https://ids.si.edu/ids/iiif/FS-7238_47/1608,1015,316,116/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Ibrahim_Sultan
+- **Styles:** aat:300265532
+- **Persian Text:** سلطان ابوالفتح ابراهيم ميرزا
+- **English Text:** Soltan Abolfath Ibrahim Mirza
+
+---
+
+## Manifest: Solomon and Bilqis sit together and converse frankly
+
+## ResourceCanvas: f.19 — Solomon and Bilqis
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Solomon cropped figure from FS-8474_19
+- ![ Solomon cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2573,2461,445,1034/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Solomon
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Queen_of_Sheba cropped figure from FS-8474_19
+- ![ Queen_of_Sheba cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2942,2741,395,744/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Queen_of_Sheba
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Solomon and Bilqis cropped figure from FS-8474_19
+- ![ Solomon and Bilqis cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2555,1949,796,1643/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Solomon, mdhn:Queen_of_Sheba
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Asfi Barkhiya cropped figure from FS-8474_19
+- ![ Asfi Barkhiya cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/1568,3454,472,1199/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Asfi_bin_Barkhiya
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angel(Probably Jibril) cropped figure from FS-8474_19
+- ![ Angel(Probably Jibril) cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/1696,2919,858,932/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Jibril
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Worker Div cropped figure from FS-8474_19
+- ![ Worker Div cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2135,2047,445,1004/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Begger cropped figure from FS-8474_19
+- ![ Begger cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/129,3621,1457,1442/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Begger
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Scene cropped figure from FS-8474_19
+- ![ Scene cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/129,3118,1451,1945/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Observers cropped figure from FS-8474_19
+- ![ Observers cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/410,1494,904,1250/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Observers cropped figure from FS-8474_19
+- ![ Observers cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/1575,1345,578,1215/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Pool cropped figure from FS-8474_19
+- ![ Pool cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2227,3960,898,1167/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Sea_River_Pool
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: A Mother with her Baby cropped figure from FS-8474_19
+- ![ A Mother with her Baby cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/1784,4368,644,759/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from FS-8474_19
+- ![ People cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2938,3445,821,1629/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Daraygah cropped figure from FS-8474_19
+- ![ Daraygah cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/679,799,902,572/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Daraygah
+- **Styles:** aat:500011001
+
+### mdhn:Calligraphy_Inscription: Inscription1 in FS-8474_19
+- ![ Inscription1 in FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/709,2912,865,225/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Quran
+- **Styles:** aat:300265532
+- **Persian Text:** ملک سلیمان مطلب کان کجاست  ملک همانست سلیمان کجاست
+
+### mdhn:Text_or_Verses: Textblock1 in FS-8474_19
+- ![ Textblock1 in FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/3100,1204,624,226/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بود بلقيس و سليمان را سخن روزی اندر کشف سر خويشتن
+
+---
+
+
+
+
 # Qisas al Anbiya Collection
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
