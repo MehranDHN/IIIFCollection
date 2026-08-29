@@ -2212,8 +2212,8 @@
 - **Styles:** aat:300265532
 - **Persian Text:** به خيل عدو چون تن اندر فکند پراکنده هر سو تن و سر فکند
 
-### mdhn:Text_or_Verses: Textblock1 in FS-7421_48
-- ![ Textblock1 in FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/271,2819,1184,191/200,/0/default.jpg)
+### mdhn:Text_or_Verses: Textblock2 in FS-7421_48
+- ![ Textblock2 in FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/271,2819,1184,191/200,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** نريمان جنگی و زابل گروه رسيدند آنجا گروه ها گروه
 
@@ -2252,12 +2252,12 @@
 - **Styles:** aat:500011001
 
 ### mdhn:Text_or_Verses: Textblock1 in FS-7357_44
-- ![ Textblock1 in FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/1411,1215,709,674/200,/0/default.jpg)
+- ![ Textblock1 in FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/958,973,1175,228/200,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** به سينه بدريد هامون ز هم سپر در ربود آن دلاور به هم
 
-### mdhn:Text_or_Verses: Textblock1 in FS-7357_44
-- ![ Textblock1 in FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/942,2631,1179,283/200,/0/default.jpg)
+### mdhn:Text_or_Verses: Textblock2 in FS-7357_44
+- ![ Textblock2 in FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/942,2631,1179,283/200,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** گران تاخت کرد دلير درآمد خروشان چو غرنده شير
 
