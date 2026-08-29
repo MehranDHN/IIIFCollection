@@ -1,3 +1,80 @@
+<style>
+/* RTL layout for VS Code / local Markdown preview. GitHub keeps dir="rtl" below. */
+html, body, .vscode-body, .markdown-body {
+	direction: rtl;
+	text-align: right;
+	line-height: 1.8;
+}
+h1, h2, h3, h4, h5, h6, p, li, dt, dd, td, th, blockquote {
+	text-align: right;
+}
+ul, ol {
+	padding-left: 0 !important;
+	padding-right: 2em !important;
+	padding-inline-start: 2em !important;
+	padding-inline-end: 0 !important;
+	list-style-position: outside;
+}
+li > ul, li > ol {
+	padding-left: 0 !important;
+	padding-right: 2em !important;
+}
+blockquote {
+	border-left: none !important;
+	border-right: 0.25em solid var(--vscode-textBlockQuote-border, #d0d7de) !important;
+	border-inline-start: 0.25em solid var(--vscode-textBlockQuote-border, #d0d7de) !important;
+	border-inline-end: none !important;
+	padding-left: 0 !important;
+	padding-right: 1em !important;
+	padding-inline-start: 1em !important;
+	padding-inline-end: 0 !important;
+}
+table {
+	direction: rtl;
+	margin-left: 0;
+	margin-right: 0;
+}
+th, td {
+	text-align: right !important;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+/* Code, URLs, JSON, and ASCII trees stay LTR */
+pre, pre code, .hljs {
+	direction: ltr !important;
+	text-align: left !important;
+	unicode-bidi: isolate;
+}
+code, kbd, samp, tt {
+	direction: ltr;
+	unicode-bidi: isolate;
+	text-align: left;
+}
+a {
+	unicode-bidi: isolate;
+}
+body.showEditorSelection .code-active-line::before {
+	left: auto;
+	right: -12px;
+}
+[dir="rtl"] h1 .anchor,
+[dir="rtl"] h2 .anchor,
+[dir="rtl"] h3 .anchor,
+[dir="rtl"] h4 .anchor,
+[dir="rtl"] h5 .anchor,
+[dir="rtl"] h6 .anchor {
+	float: right;
+	padding-left: 4px;
+	padding-right: 0;
+	margin-right: -20px;
+	margin-left: 0;
+}
+</style>
+
+<div dir="rtl" lang="fa">
+
 # چارچوب بین‌المللی تعامل‌پذیری تصویر
 پروتکل بين المللی تعامل‌پذيری تصاوير يا  '**International Image Interoperability Framework**' که مخفف يا '**IIIF**'  است مجموعه ايست از استانداردهای باز طراحی و تدوين شده توسط یک جامعهٔ بین‌المللی فعال و پويا برای شيوه ارائه، توصیف، نمایش و تعامل و با اشیای دیجیتال **Digital Resource** در وب به منظور بررسی، مرور،  و اعامل ۀا آنها به صورت مطلوب و موثر.
 **IIIF** در ابتدا فقط با تمرکز بر ارائه راه حلی جهت رفع مشکلات انتشار تصاویر با وضوح بالا شکل گرفت، اما ضمن کسب موفقيت در اين زمينه دامنهٔ آن به طراحی و تدوين ساختارهای پیچیدهٔ منابع آرشيو دیجیتال، تلفيق شناسنامه و متاديتای آثار در قالب يک پرونده مستقل، مستقيما قابل تفسير توسط ماشينها و نرم افزار، حاشیه‌نویسی، افزودن متن و يادداشت ، الحاق انواع داده های ساختار يافته با پرونده ديجيتال، دسته بندی آثار با کمک مجموعه ها يا **Collectionها،** جست‌وجو، انتشار صوت و ویدئو حتی ارائه و مرور مدلهای سه بعدی گسترش یافته است.
@@ -55,7 +132,7 @@
 
 IIIF را از يک منظر می‌توان به‌صورت یک زنجیرهٔ از بخشهای مستقل اما مرتبط بررسی کرد.
 
-مخزن دیجیتال ← سرویس IIIF ← API ← نمایشگر یا برنامهٔ کاربردی
+<p dir="rtl">مخزن دیجیتال ← سرویس IIIF ← API ← نمایشگر یا برنامهٔ کاربردی</p>
 
 برای مثال، یک کتاب دیجیتال ممکن است از ده‌ها یا صدها تصویر تشکیل شده
 باشد. تصاویر اصلی در سرويس دهنده و مخزن ديجيتال مؤسسه نگهداری می‌شوند. Image API نحوهٔ دریافت
@@ -74,17 +151,50 @@ IIIF است.
 
 
 
-| API | نسخهٔ پایدار فعلی | کاربرد |
-| --- | --- | --- |
-| Image API | ۳٫۰٫۰ | درخواست و تحویل استاندارد تصاویر |
-| Presentation API | ۳٫۰٫۰ | توصیف ساختار و نحوهٔ ارائهٔ اشیای دیجیتال |
-| Authorization Flow API | ۲٫۰٫۰ | مدیریت جریان دسترسی به محتوای محدودشده |
-| Content Search API | ۲٫۰٫۰ | جست‌وجو در متن و حاشیه‌نویسی‌های مرتبط با یک شیء |
-| Change Discovery API | ۱٫۰٫۰ | کشف ایجاد، تغییر و حذف منابع IIIF |
-| Content State API | ۱٫۰٫۰ | اشارهٔ يا ارجاع به یک منبع یا نمای خاصی از آن |
+<table dir="rtl">
+<thead>
+<tr>
+<th dir="ltr">API</th>
+<th>نسخهٔ پایدار فعلی</th>
+<th>کاربرد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Image API</td>
+<td>۳٫۰٫۰</td>
+<td>درخواست و تحویل استاندارد تصاویر</td>
+</tr>
+<tr>
+<td dir="ltr">Presentation API</td>
+<td>۳٫۰٫۰</td>
+<td>توصیف ساختار و نحوهٔ ارائهٔ اشیای دیجیتال</td>
+</tr>
+<tr>
+<td dir="ltr">Authorization Flow API</td>
+<td>۲٫۰٫۰</td>
+<td>مدیریت جریان دسترسی به محتوای محدودشده</td>
+</tr>
+<tr>
+<td dir="ltr">Content Search API</td>
+<td>۲٫۰٫۰</td>
+<td>جست‌وجو در متن و حاشیه‌نویسی‌های مرتبط با یک شیء</td>
+</tr>
+<tr>
+<td dir="ltr">Change Discovery API</td>
+<td>۱٫۰٫۰</td>
+<td>کشف ایجاد، تغییر و حذف منابع IIIF</td>
+</tr>
+<tr>
+<td dir="ltr">Content State API</td>
+<td>۱٫۰٫۰</td>
+<td>اشارهٔ يا ارجاع به یک منبع یا نمای خاصی از آن</td>
+</tr>
+</tbody>
+</table>
 
 
-بهترين مرجع مطالعه مستندات API های IIIF سايت رسمی IIIF در https://iiif.io/   میباشد که آنچه در اينجا عنوان ميشود گزيده ای از مطالب اين سايت برای مخاطب فارسی زبان است مخاطبی که می خواه ي: آشنايی کلی و عمومی با IIIF داشته باشد. سايت مرجع مملو از مطالب و اطلاعات مفيد همچنين آموزش های بسيار ارزشمندی است که در اينجا به برخی ازآنها که متناسب با موضوع مورد نظر ما و در حد آشننايی عمومی باشند اشاره خواهد شد.
+بهترين مرجع مطالعه مستندات API های IIIF سايت رسمی IIIF در <span dir="ltr">https://iiif.io/</span> میباشد که آنچه در اينجا عنوان ميشود گزيده ای از مطالب اين سايت برای مخاطب فارسی زبان است مخاطبی که می خواه ي: آشنايی کلی و عمومی با IIIF داشته باشد. سايت مرجع مملو از مطالب و اطلاعات مفيد همچنين آموزش های بسيار ارزشمندی است که در اينجا به برخی ازآنها که متناسب با موضوع مورد نظر ما و در حد آشننايی عمومی باشند اشاره خواهد شد.
 
 
 ## Image API
@@ -107,15 +217,15 @@ IIIF است.
 یکی از ویژگی‌های شاخص Image API این است که
 بسیاری از پارامترهای تصویر در خود URI بیان می‌شوند. به‌صورت مفهومی:
 
-{server}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}
+<pre dir="ltr">{server}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}</pre>
 
 يک مثال واقعی از تصويری در گالری فرير واشنگتن - اسميتسونين
 
-![تصويری محدود شده با طول 1200 پيکسل](https://ids.si.edu/ids/iiif/FS-F1950.1_001/full/1200,/0/default.jpg)
+<p dir="rtl"><img src="https://ids.si.edu/ids/iiif/FS-F1950.1_001/full/1200,/0/default.jpg" alt="تصويری محدود شده با طول 1200 پيکسل"></p>
 
 ---
 
-https://ids.si.edu/ids/iiif/FS-F1950.1_001/full/1200,/0/default.jpg
+<pre dir="ltr">https://ids.si.edu/ids/iiif/FS-F1950.1_001/full/1200,/0/default.jpg</pre>
 
 این مدل باعث می‌شود یک نمایشگر بتواند بدون شناخت ساختار داخلی سامانهٔ
 مدیریت تصاویر یک مؤسسه، درخواست‌های استاندارد ارسال کند.
@@ -148,13 +258,12 @@ Canvas  را ميتوان یک سطح یا ظرف خالی بدون محتوا �
 
 
 
-```text
-Manifest
+<pre dir="ltr"><code>Manifest
 ├── Canvas 1 → جلد
 ├── Canvas 2 → صفحهٔ ۱
 ├── Canvas 3 → صفحهٔ ۲
 └── Canvas 4 → صفحهٔ ۳
-```
+</code></pre>
 
 خواننده اين سطور هر چقدر تصور دقيق تری از ساختاری که مدل ساده شده ای از آن ارائه شد، داشته باشد، قادر خواهد بود به شکل موثرتری از اکو سيستم IIIF استفاده و از مزايای آن بهره مند گردد.
 نکتهٔ مهم این است که Canvas خود تصویر نیست؛ بلکه سطح، صفحه یا چارچوبی است که محتوا روی آن قرار می‌گیرد و يک مانيفست علاوه بر تامين اطلاعات توصيف کننده ساختار و ساير خصوصيات محتوای Canvasها نقش مرتب کردن چنين ساختاری را نيز بر عهده دارد. همچنين يک نکته جالب اين است که هيچ اجباری نيست که Canvas های يک مانيفست به صورت فيزيکی در يک مکان قرار داشته باشند. به عبارت ديگر وجود يک مانيفست که Canvas های آن هرکدام در موزه ها و کتابخانه های جهان قرار داشته باشند غير معمول نيست. اين  مفهوم می تواند ابزار قدرتمندی جهت اجرای مفهوم صحافی مجازی باشد که ايجاد کننده مانيفست، صفحات و Canvasهای پرونده ديجيتال مورد نظر خود را از ساير موزه ها و کتابخانه های دنيا تأمين ميکند.
@@ -172,8 +281,7 @@ IIIF برای ارتباط و الحاق محتوا با Canvas از مدل **We
 
 نمونهٔ ساده:
 
-```json
-{
+<pre dir="ltr"><code>{
 	"type": "Annotation",
 	"motivation": "painting",
 	"body": {
@@ -182,20 +290,19 @@ IIIF برای ارتباط و الحاق محتوا با Canvas از مدل **We
 	},
 	"target": "https://example.org/iiif/book/canvas/p1"
 }
-```
+</code></pre>
 
 ## Annotation Page
 
 در IIIF نسخهٔ ۳، Annotationها معمولاً در **Annotation Page** قرار می‌گیرند.
 
-```text
-Manifest
+<pre dir="ltr"><code>Manifest
 └── Canvas
 	└── Annotation Page
 		├── Annotation
 		├── Annotation
 		└── Annotation
-```
+</code></pre>
 
 ## Range
 
@@ -213,15 +320,14 @@ Collectionهای دیگر است.
 اگر Manifest را پرونده یک شیء تلقی کنيم، Collection می‌تواند نمایندهٔ
 مجموعه‌ای سلسله مراتبی و ساماندهی شده از پرونده ها باشد.
 
-```text
-Collection: نسخه‌های خطی فارسی
+<pre dir="ltr"><code>Collection: نسخه‌های خطی فارسی
 ├── Manifest: نسخهٔ الف
 ├── Manifest: نسخهٔ ب
 ├── Manifest: نسخهٔ ج
 └── Collection: مجموعهٔ نسخ خطی قرن دهم
 	├── Manifest: …
 	└── Manifest: …
-```
+</code></pre>
 
 ## JSON-LD و داده‌های پیوندپذیر
 
@@ -400,8 +506,7 @@ Manifestای ساخت که برگ‌های موجود در چند مؤسسه ر�
 نمونهٔ زیر صرفاً برای نشان دادن ایدهٔ
 کلی است و یک Manifest کامل و معتبر برای استفادهٔ عملی محسوب نمی‌شود:
 
-```json
-{
+<pre dir="ltr"><code>{
 	"@context": "https://iiif.io/api/presentation/3/context.json",
 	"id": "https://example.org/iiif/manifest/book1",
 	"type": "Manifest",
@@ -431,14 +536,13 @@ Manifestای ساخت که برگ‌های موجود در چند مؤسسه ر�
 		}]
 	}]
 }
-```
+</code></pre>
 
 ## رابطهٔ اجزای اصلی
 
 می‌توان معماری اصلی را به شکل زیر خلاصه کرد:
 
-```text
-IIIF
+<pre dir="ltr"><code>IIIF
 ├── Image API
 ├── Presentation API
 ├── Image Manifest
@@ -446,7 +550,7 @@ IIIF
 ├── Annotation Page
 ├── Annotation
 └── Content
-```
+</code></pre>
 
 این تفکيک در تقسيم وظايف یکی از بهترین روش‌ها برای يادگيری و فهم IIIF است:
 
@@ -495,3 +599,5 @@ API در نسخهٔ ۱٫۰٫۰ قرار دارند.
 - استانداردهای وب
 - کتابخانه‌های دیجیتال
 - علوم انسانی دیجیتال
+
+</div>
