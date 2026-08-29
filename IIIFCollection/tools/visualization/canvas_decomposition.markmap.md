@@ -2175,6 +2175,94 @@
 
 ---
 
+## Manifest: Battle between a demon and two men
+
+## ResourceCanvas: f.48 — Battle between a demon and two men
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from FS-7421_48
+- ![ Div cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/662,1892,679,835/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Garshasp cropped figure from FS-7421_48
+- ![ Garshasp cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/1229,1447,698,902/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Garshasp
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Riders cropped figure from FS-7421_48
+- ![ Riders cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/289,1225,666,1120/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People Observing cropped figure from FS-7421_48
+- ![ People Observing cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/289,554,453,439/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Soldiers with raised flag cropped figure from FS-7421_48
+- ![ Soldiers with raised flag cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/956,586,782,416/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Soldiers with raised flag cropped figure from FS-7421_48
+- ![ Soldiers with raised flag cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/1439,600,853,956/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in FS-7421_48
+- ![ Textblock1 in FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/282,993,1164,262/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** به خيل عدو چون تن اندر فکند پراکنده هر سو تن و سر فکند
+
+### mdhn:Text_or_Verses: Textblock1 in FS-7421_48
+- ![ Textblock1 in FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/271,2819,1184,191/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** نريمان جنگی و زابل گروه رسيدند آنجا گروه ها گروه
+
+---
+
+## Manifest: Garshasp slays a dragon
+
+## ResourceCanvas: f.44 — Garshasp slays a dragon
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Garshasp cropped figure from FS-7357_44
+- ![ Garshasp cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/1445,1877,639,597/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Garshasp
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Garshasp cropped figure from FS-7357_44
+- ![ Garshasp cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/585,1933,872,637/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Dragon
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Man with fire cropped figure from FS-7357_44
+- ![ Man with fire cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/1512,450,626,529/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People Chating cropped figure from FS-7357_44
+- ![ People Chating cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/1207,1351,478,516/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Soldiers with raised flag cropped figure from FS-7357_44
+- ![ Soldiers with raised flag cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/494,931,575,1094/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Soldiers with raised flag cropped figure from FS-7357_44
+- ![ Soldiers with raised flag cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/1411,1215,709,674/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in FS-7357_44
+- ![ Textblock1 in FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/1411,1215,709,674/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** به سينه بدريد هامون ز هم سپر در ربود آن دلاور به هم
+
+### mdhn:Text_or_Verses: Textblock1 in FS-7357_44
+- ![ Textblock1 in FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/942,2631,1179,283/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** گران تاخت کرد دلير درآمد خروشان چو غرنده شير
+
+---
+
 
 
 

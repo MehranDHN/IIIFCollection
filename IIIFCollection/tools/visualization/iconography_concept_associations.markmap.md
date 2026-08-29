@@ -157,6 +157,20 @@ markmap:
           - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
             - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
 
+#### mdhn:Garshaspnameh — Garshaspnameh / گرشاسب نامه
+- **Type:** mdhn:NarrativeEpisode
+- **Label (en):** Garshaspnameh
+- **Label (fa):** گرشاسب نامه
+- **Wikidata:** Q6391136
+- **Comment:** Story of the last Shah of the Pishdadian dynasty of Persia according to Shahnameh
+- **Source:** narrative_episodes.ttl
+- **mdhn:charactersInvolved:** mdhn:Garshasp
+- **isPartOf ancestry**
+  - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
+    - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
+      - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+- skos:closeMatch: mdhn:aat300404209
+
 #### mdhn:Hushang_Fight_Black_Div — Hushang and Keyumars went to Fight the Black Div / انتقام خون سيامک به دست هوشنگ
 - **Type:** mdhn:NarrativeEpisode
 - **Label (en):** Hushang and Keyumars went to Fight the Black Div
@@ -378,7 +392,7 @@ markmap:
 
 ## Depicted in collections
 
-- **14 collection(s), 28 resource(s), 31 AsCanvas, 2 Depicts-only (no AsCanvas), 1 other metadata (no AsCanvas, not Depicts field), 0 saidToBeTheSameAs Wikidata**
+- **14 collection(s), 29 resource(s), 32 AsCanvas, 2 Depicts-only (no AsCanvas), 1 other metadata (no AsCanvas, not Depicts field), 0 saidToBeTheSameAs Wikidata**
 
 ### Collection: Departed Folios ![Departed Folios](<https://viewer.cbl.ie/viewer/api/v1/records/Per_144_20/files/images/D0002536.jpg/full/250,/0/default.jpg>)
 - `DepartedFolioCollection.json`
@@ -1259,6 +1273,105 @@ markmap:
     - skos:exactMatch: mdhn:sh85055517_God
   - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
     - Q123456
+
+#### Resource: FS-7421_48 — Battle between a demon and two men ![Battle between a demon and two men](<https://ids.si.edu/ids/iiif/FS-7421_48/full/250,/0/default.jpg>)
+
+##### AsCanvas — FS-7421_48 — f.48 — Battle between a demon and two men ![AsCanvas — FS-7421_48 — f.48 — Battle between a demon and two men](<https://ids.si.edu/ids/iiif/FS-7421_48/full/250,/0/default.jpg>)
+- **Record ID:** `FS-7421_48`
+- **AsCanvas identifiers:** mid `FS-7421_48`, cid `0001`
+- **Matched via:** AsCanvas depicts; content-element tag
+- **Selected concept(s) on this AsCanvas:** mdhn:Divs
+- **Canvas types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasHalkari, HasPainting
+- **Matching content elements**
+  - mdhn:Fragment_Cropped_Image: Div cropped figure from FS-7421_48 ![Div cropped figure from FS-7421_48](<https://ids.si.edu/ids/iiif/FS-7421_48/662,1892,679,835/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Divs ★
+    - **Styles:** aat:500011001
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Fragment_Cropped_Image: Garshasp cropped figure from FS-7421_48 ![Garshasp cropped figure from FS-7421_48](<https://ids.si.edu/ids/iiif/FS-7421_48/1229,1447,698,902/250,/0/default.jpg>)
+    - **elementLOUD:** mdhn:Garshasp
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Riders cropped figure from FS-7421_48 ![Riders cropped figure from FS-7421_48](<https://ids.si.edu/ids/iiif/FS-7421_48/289,1225,666,1120/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: People Observing cropped figure from FS-7421_48 ![People Observing cropped figure from FS-7421_48](<https://ids.si.edu/ids/iiif/FS-7421_48/289,554,453,439/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Soldiers with raised flag cropped figure from FS-7421_48 ![Soldiers with raised flag cropped figure from FS-7421_48](<https://ids.si.edu/ids/iiif/FS-7421_48/956,586,782,416/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+  - mdhn:Fragment_Cropped_Image: Soldiers with raised flag cropped figure from FS-7421_48 ![Soldiers with raised flag cropped figure from FS-7421_48](<https://ids.si.edu/ids/iiif/FS-7421_48/1439,600,853,956/250,/0/default.jpg>)
+    - **Styles:** aat:500011001
+- **AsCanvas depicts**
+  - mdhn:Divs — Divs / دیوها ★
+    - Q177413
+    - skos:exactMatch: mdhn:aat500011098
+    - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+    - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+  - mdhn:Garshaspnameh — Garshaspnameh / گرشاسب نامه
+    - Q6391136
+    - mdhn:isPartOf: mdhn:Persian_Epic_and_Mythology
+    - skos:closeMatch: mdhn:aat300404209
+    - **Narrative episode**
+    - **isPartOf**
+      - mdhn:Persian_Epic_and_Mythology — Persian Epic and Mythology / افسانه های حماسی و فولکور ايران
+        - mdhn:Folklore_Epic_or_Mythology — Legend, Religion, Mythology / افسانه، دین، اسطوره
+          - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
+  - mdhn:Garshasp — Garshasp / گرشاسپ
+  - mdhn:Sorna — Sorna / سرنا
+    - Q825246
+  - mdhn:Tamborim — Tamborim / طبلک
+    - Q1751598
+    - skos:broadMatch: mdhn:aat300041661
+  - mdhn:Flag — Flag / پرچم/بيرق
+    - Q14660
+    - skos:exactMatch: mdhn:aat300195678
+  - mdhn:Body_Armour — Body Armour / زره و لباس رزم
+    - Q485027
+    - skos:exactMatch: mdhn:aat300036746
+  - mdhn:Horse_Spur — Horse Spur / کجاوه اسب
+    - Q740732
+  - mdhn:Horse_Saddle — Horse Saddle / زین اسب
+    - Q192249
+    - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+    - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+  - mdhn:Horse_Riding — Horse Riding / سوارکاری
+    - Q179226
+  - mdhn:Sword — Sword / شمشير
+    - Q12791
+    - skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
+    - skos:broadMatch: mdhn:SharpEdgedWeopen
+  - mdhn:Bow_and_Arrow — Bow and Arrow / کمان و پيکان
+    - Q19827042
+    - skos:closeMatch: mdhn:aat300037000
+    - skos:broadMatch: mdhn:Weopen
+  - mdhn:Soldier — Soldier / جنگجو
+    - Q4991371
+    - skos:exactMatch: mdhn:aat300185678
+  - mdhn:Battle — Battle / زرم و نبرد
+    - Q198
+    - skos:exactMatch: mdhn:aat300185692
+  - mdhn:Murder — Murder / قتل
+    - Q132821
+  - mdhn:Cloud — Cloud / ابر
+    - Q8074
+  - mdhn:Horse — Horse / اسب
+    - Q726
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Camel — Camel / شتر
+    - Q106695054
+    - skos:broadMatch: mdhn:Animal
+  - mdhn:Tree — Tree / درخت
+    - Q10884
+    - skos:exactMatch: mdhn:aat300132410
+  - mdhn:Rocks — Rocks / صخره
+    - Q8063
+  - mdhn:Plant — Plant / گیاه
+    - Q756
+    - skos:exactMatch: mdhn:aat300132360
+  - mdhn:Combat_Helmet — Combat Helmet / کلاهخود
+    - Q3579211
+    - skos:exactMatch: mdhn:aat300391023
 
 ### Collection: Haft Owrang Ibrahim Sultan ![Haft Owrang Ibrahim Sultan](<https://ids.si.edu/ids/iiif/FS-F1946.12.182_001/642,214,2250,4519/250,/0/default.jpg>)
 - `HaftOwrangIbrahimSultanCollection.json`
@@ -3682,7 +3795,7 @@ markmap:
     - Q170984
   - mdhn:Ring — Ring / انگشتر
     - Q46847
-    - skos:exactMatch: iconclass:41D2664, mdhn:aat300046012, mdhn:sh85114133_Rings, mdhn:tgm008926_Rings
+    - skos:exactMatch: mdhn:aat300046012, mdhn:iconclass41D2664, mdhn:sh85114133_Rings, mdhn:tgm008926_Rings
   - mdhn:Tree — Tree / درخت
     - Q10884
     - skos:exactMatch: mdhn:aat300132410
@@ -3729,7 +3842,7 @@ markmap:
     - skos:broadMatch: mdhn:Jingle
   - mdhn:Earing — Earing / گوشواره
     - Q168456
-    - skos:exactMatch: iconclass:41D2663, mdhn:aat300045998, mdhn:sh85040426_Earrings, mdhn:tgm003432_Earrings
+    - skos:exactMatch: mdhn:aat300045998, mdhn:iconclass41D2663, mdhn:sh85040426_Earrings, mdhn:tgm003432_Earrings
   - mdhn:GemEncrustedCrown — Gem-Encrusted Crown / تاج مرصع
     - Q170984
   - mdhn:Sea_River_Pool — Sea/River/Pool / دریا/رودخانه/استخر
