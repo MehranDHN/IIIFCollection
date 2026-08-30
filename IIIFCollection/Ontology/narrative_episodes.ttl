@@ -17,7 +17,7 @@ mdhn:Narrative_Episodes a mdhn:NarrativeEpisode ;
     mdhn:aatConcept mdhn:aat300404209 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3328821" ;
     rdfs:comment "Root entry for Narrative/Literary Works"@en ;
-    rdfs:label "Narrative Episodes"@en , "وايت های اساطيری/نظم و نثر"@fa .
+    rdfs:label "Narrative Episodes"@en , "روايت‌های اساطيری/نظم و نثر"@fa .
 
 mdhn:Folklore_Epic_or_Mythology a mdhn:NarrativeEpisode;
    rdfs:label "Legend, Religion, Mythology"@en, "افسانه، دین، اسطوره"@fa;
@@ -44,10 +44,38 @@ mdhn:Zoroastrian_Mythology a mdhn:NarrativeEpisode;
    mdhn:ispartOf mdhn:Narrative_Episodes;
    mdhn:icWikiDataURL "" .   
 
+mdhn:Indian_Mythology a mdhn:NarrativeEpisode;
+   rdfs:label "Indian Mythology"@en, "ميتولوژی هندی"@fa;
+   mdhn:ispartOf mdhn:Narrative_Episodes;
+   mdhn:icWikiDataURL "" .      
+
 mdhn:Persian_Epic_and_Mythology a mdhn:NarrativeEpisode;
    rdfs:label "Persian Epic and Mythology"@en, "افسانه های حماسی و فولکور ايران"@fa;
    mdhn:ispartOf mdhn:Folklore_Epic_or_Mythology;
-   mdhn:icWikiDataURL "" .   
+   mdhn:icWikiDataURL "" .  
+
+mdhn:Indian_Epic_and_Mythology a mdhn:NarrativeEpisode;
+   rdfs:label "Indian Epic and Mythology"@en, "افسانه های حماسی و فولکور هند"@fa;
+   mdhn:ispartOf mdhn:Folklore_Epic_or_Mythology, mdhn:Indian_Mythology;
+   mdhn:icWikiDataURL "" .  
+
+mdhn:Story_of_Ramayana a mdhn:NarrativeEpisode;
+   rdfs:label "Story of Ramayana"@en, "افسانه رامايانا"@fa;
+   mdhn:ispartOf mdhn:Indian_Epic_and_Mythology;
+   mdhn:charactersInvolved mdhn:Krishna, mdhn:Shiva, mdhn:Rama, mdhn:Lakshmana, mdhn:Ravana , mdhn:Vanaras, mdhn:Hanuman, mdhn:Dasaratha, mdhn:Kausalya, mdhn:Sita ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q37293" .    
+
+mdhn:Story_of_Mahabharata a mdhn:NarrativeEpisode;
+   rdfs:label "Story of Mahabharata"@en, "افسانه مهاباراتا"@fa;
+   mdhn:ispartOf mdhn:Indian_Epic_and_Mythology;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q8276" .             
+
+mdhn:Siege_of_Al_Muqanna_Fortress a mdhn:NarrativeEpisode;
+   rdfs:label "Siege_of_Al_Muqanna_Fortress"@en, "محاصره و جنگ قلعه المقنع"@fa;
+   mdhn:ispartOf mdhn:Persian_Epic_and_Mythology, mdhn:Islamic_Mythology;
+   mdhn:charactersInvolved mdhn:Abu_Muslim_al_Khorasani, mdhn:Al_Muqanna, mdhn:Khaydhar_ibn_Kawus_al_Afshin ;
+   mdhn:icWikiDataURL "" .    
+    
 
 mdhn:Political_or_Regional_Era_as_Narrative a mdhn:NarrativeEpisode;
    rdfs:label "Political or Regional Era as Narrative/Literature"@en, "روايت و داستانهای دوره‌ها و سلسله‌های سياسی يا منطقه‌ای"@fa;

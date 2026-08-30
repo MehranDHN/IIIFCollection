@@ -178,7 +178,8 @@ mdhn:BattleSignAndEquipment owl:disjointWith mdhn:ArchitecturalConceptOrElement 
                                              mdhn:Tableware ,
                                              mdhn:TravelsAndTransportation ,
                                              mdhn:JobsAndCreativity ,
-                                             mdhn:MythicalHumanPersona ,
+                                             mdhn:MythicalCharacters,
+                                             mdhn:MythicalHumanoid ,
                                              mdhn:MonarchOrHistoricalCeremony ,
                                              mdhn:ObjectsAndTools ,
                                              mdhn:SubjectiveConcepts ,
@@ -188,6 +189,11 @@ mdhn:ArchitecturalConceptOrElement a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
     rdfs:comment "SubClass of Iconography related to Architecture including concepts, material and elements" ;
     rdfs:label "ArchitecturalConceptOrElement" . 
+
+mdhn:BuildingMaterials a owl:Class ;
+    rdfs:subClassOf mdhn:ArchitecturalConceptOrElement ;
+    rdfs:comment "Building Materials" ;
+    rdfs:label "BuildingMaterials" .      
 
 mdhn:Art a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
@@ -246,7 +252,7 @@ mdhn:Animals a owl:Class ;
     rdfs:label "Animals" . 
 
 mdhn:MythicalAnimalsOrMonsters a owl:Class ;
-    rdfs:subClassOf mdhn:Animals ;
+    rdfs:subClassOf mdhn:Animals,  mdhn:MythicalCharacters ;
     rdfs:comment "SubClass of Animals" ;
     rdfs:label "MythicalAnimalsOrMonsters" .  
 mdhn:MythicalAnimalsOrMonsters owl:disjointWith mdhn:Animals .       
@@ -266,10 +272,15 @@ mdhn:JobsAndCreativity a owl:Class ;
     rdfs:comment "SubClass of Iconography related to Jobs and Creativity" ;
     rdfs:label "JobsAndCreativity" . 
 
-mdhn:MythicalHumanPersona a owl:Class ;
+mdhn:MythicalCharacters a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
     rdfs:comment "SubClass of Iconography related Mythical Humans" ;
-    rdfs:label "MythicalHumanPersona" .  
+    rdfs:label "MythicalHumanoid" . 
+
+mdhn:MythicalHumanoid a owl:Class ;
+    rdfs:subClassOf mdhn:MythicalCharacters ;
+    rdfs:comment "SubClass of Iconography related Mythical Humans" ;
+    rdfs:label "MythicalHumanoid" .  
 
 mdhn:MonarchOrHistoricalCeremony a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
@@ -285,6 +296,11 @@ mdhn:SubjectiveConcepts a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
     rdfs:comment "SubClass of Iconography related Concepts" ;
     rdfs:label "SubjectiveConcepts" . 
+
+mdhn:ArtisticMotif a owl:Class ;
+    rdfs:subClassOf mdhn:SubjectiveConcepts ;
+    rdfs:comment "SubClass of SubjectiveConcepts related to art motifs" ;
+    rdfs:label "ArtisticMotif" .     
 
 mdhn:Emotion a owl:Class ;
     rdfs:subClassOf mdhn:SubjectiveConcepts ;
@@ -795,11 +811,11 @@ mdhn:signsPermission a owl:ObjectProperty ;
     rdfs:range mdhn:AgentialInfo ;
     owl:inverseOf mdhn:hasParticipantInRoleSignatueryOfPermission .                                         
 
-mdhn:hasParticipantInRoleِCommissioner a owl:ObjectProperty ;
+mdhn:hasParticipantInRoleCommissioner a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
     rdfs:comment "Links a Resource to Commissioner";
     rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "hasParticipantInRoleِCommissioner" ;
+    rdfs:label "hasParticipantInRoleCommissioner" ;
     rdfs:range mdhn:AgentialInfo . 
 
 mdhn:commissionerOf a owl:ObjectProperty ;
@@ -807,7 +823,7 @@ mdhn:commissionerOf a owl:ObjectProperty ;
     rdfs:domain mdhn:DigitalResource ;
     rdfs:label "commissioner Of" ;
     rdfs:range mdhn:AgentialInfo ;
-    owl:inverseOf mdhn:hasParticipantInRoleِCommissioner .                                
+    owl:inverseOf mdhn:hasParticipantInRoleCommissioner .                                
 
 mdhn:hasCreator a owl:ObjectProperty ;
     rdfs:comment "Links a DigitalResource to its creator." ;
@@ -1354,7 +1370,7 @@ fhkb:FictionalMan a owl:Class;
     rdfs:label "Fictional Man" . 
 
 fhkb:MaleCreature a owl:Class;
-    rdfs:subClassOf fhkb:Man;
+    rdfs:subClassOf fhkb:Man, mdhn:MythicalCharacters;
     rdfs:label "Mythical Male cratures" .                           
 
 fhkb:Woman a owl:Class ;
@@ -1369,7 +1385,7 @@ fhkb:FictionalWoman a owl:Class;
     rdfs:label "Fictional Woman" .  
 
 fhkb:FemaleCreature a owl:Class;
-    rdfs:subClassOf fhkb:Woman;
+    rdfs:subClassOf fhkb:Woman, mdhn:MythicalCharacters;
     rdfs:label "Mythical Female cratures" .                             
 
 fhkb:Person a owl:Class ;

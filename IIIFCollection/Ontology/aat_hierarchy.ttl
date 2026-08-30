@@ -816,6 +816,31 @@ mdhn:aat500011065 a mdhn:ResourceType ;
 
 
 
+mdhn:aat300001571 a mdhn:ResourceType ;
+    rdfs:label "columns (architectural elements)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300052248, mdhn:aat300264605.
+
+mdhn:aat300052248 a mdhn:ResourceType ;
+    rdfs:label "<columns and column components>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300078047.    
+
+
+mdhn:aat300078047 a mdhn:ResourceType ;
+    rdfs:label "<supporting and resisting elements>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300078048.   
+
+mdhn:aat300264605 a mdhn:ResourceType ;
+    rdfs:label "pillars (structural elements)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300078047.  
+
+    
+
+   
+
 
 
 
@@ -3534,6 +3559,59 @@ mdhn:aat300041729 a mdhn:ResourceType;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         mdhn:hasAATBroader mdhn:aat300041661 .
 
+mdhn:aat300222119 a mdhn:ResourceType;
+        rdfs:label "surnais"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300042562 .
+
+mdhn:aat300042562 a mdhn:ResourceType;
+        rdfs:label "shawms"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300195247 .   
+
+mdhn:aat300195247 a mdhn:ResourceType;
+        rdfs:label "<reedpipes with double reed: with conical bore>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300205170 .     
+
+mdhn:aat300205170 a mdhn:ResourceType;
+        rdfs:label "<reedpipes with double reed>"@en;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300042558 . 
+
+mdhn:aat300042558 a mdhn:ResourceType;
+        rdfs:label "reedpipes (confined aerophones)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300193013, mdhn:aat300042403 .   
+
+mdhn:aat300193013 a mdhn:ResourceType;
+        rdfs:label "reeds (aerophones)"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300041622 .    
+
+mdhn:aat300041622 a mdhn:ResourceType;
+        rdfs:label "aerophones"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300041621 . 
+
+mdhn:aat300375726 a mdhn:ResourceType;
+        rdfs:label "dragons"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300375725 . 
+
+
+
+mdhn:aat300042403 a mdhn:ResourceType;
+        rdfs:label "woodwind instruments"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300042274 . 
+
+mdhn:aat300042274 a mdhn:ResourceType;
+        rdfs:label "wind instruments"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300041620 . 
+
+
 mdhn:aat300041661 a mdhn:ResourceType;
         rdfs:label "membranophones"@en;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
@@ -4597,6 +4675,47 @@ mdhn:aat300310390 a mdhn:AATSubject ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300310374 .  
 
+mdhn:aat300196222 a mdhn:AATSubject ;
+    rdfs:label "torchères (lamps)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300037593 . 
+
+mdhn:aat300037593 a mdhn:AATSubject ;
+    rdfs:label "<lamps by form>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300037592 . 
+
+mdhn:aat300037592 a mdhn:AATSubject ;
+    rdfs:label "lamps (lighting devices)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300179870 .
+    
+mdhn:aat300179870 a mdhn:AATSubject ;
+    rdfs:label "<lighting devices by form>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300037581 .  
+
+mdhn:aat300037581 a mdhn:AATSubject ;
+    rdfs:label "lighting devices"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300428218 .    
+
+mdhn:aat300428218 a mdhn:AATSubject ;
+    rdfs:label "lighting equipment"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300037342 .        
+
+
+
+
+
+
+
+
+
+
+    
+
 mdhn:aat300310374 a mdhn:AATSubject ;
     rdfs:label "Panthera (genus)"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
@@ -5389,7 +5508,52 @@ mdhn:aat300033638 a mdhn:AATSubject ;
     mdhn:isGuideTerm "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300033618 .  
 
-          
+
+mdhn:aat300045998 a mdhn:AATSubject ;
+    rdfs:label "earrings (jewelry)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300211279 . 
+
+mdhn:aat300211279 a mdhn:AATSubject ;
+    rdfs:label "ear ornaments"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300209301 . 
+
+mdhn:aat300209301 a mdhn:AATSubject ;
+    rdfs:label "jewelry worn on the head"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300211901 .            
+
+
+mdhn:aat300046012 a mdhn:AATSubject ;
+    rdfs:label "rings (finger jewelry)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300117144, mdhn:aat300209288  .    
+
+mdhn:aat300209288 a mdhn:AATSubject ;
+    rdfs:label "<jewelry worn on arms and hands>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300211901 .  
+
+mdhn:aat300211901 a mdhn:AATSubject ;
+    rdfs:label "<jewelry by location>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300209286 .      
+
+mdhn:aat300209286 a mdhn:AATSubject ;
+    rdfs:label "jewelry"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300209274 .     
+
+       
+
+
+
+
+
+
+
+
 
 
 mdhn:aat300033618 a mdhn:AATSubject ;
@@ -6002,6 +6166,28 @@ mdhn:aat300379749 a mdhn:AATSubject ;
     rdfs:label "phoenixes"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean;
     mdhn:hasAATBroader mdhn:aat300375725 .
+
+mdhn:aat300068986 a mdhn:AATSubject ;
+    rdfs:label "fires (events)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean;
+    mdhn:hasAATBroader mdhn:aat300069084 .
+
+
+mdhn:aat300375684 a mdhn:AATSubject ;
+    rdfs:label "halos (glories)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean;
+    mdhn:hasAATBroader mdhn:aat300263370 .
+
+mdhn:aat300263370 a mdhn:AATSubject ;
+    rdfs:label "glories"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean;
+    mdhn:hasAATBroader mdhn:aat300234093 .    
+
+mdhn:aat300379004 a mdhn:AATSubject ;
+    rdfs:label "angels (spirits)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean;
+    mdhn:hasAATBroader mdhn:aat300379007 .  
+
 
 mdhn:aat300375725 a mdhn:AATSubject ;
     rdfs:label "legendary beings"@en ;

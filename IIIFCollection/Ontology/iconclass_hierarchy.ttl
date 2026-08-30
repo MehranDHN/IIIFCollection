@@ -19,7 +19,18 @@
 # Root of the cycle
 # ------------------------------------------------------------
 
-### Missing official Iconclass parents
+### 1 – Religion and Magic
+
+mdhn:iconclass1 a mdhn:IconclassTerm ;
+    rdfs:label "Religion and Magic"@en ,
+               "دین و جادو"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 1: Religion and Magic."@en ;
+    
+    mdhn:iconclassNotation "1" ;
+    skos:exactMatch <https://iconclass.org/1> ;
+    
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
 
 mdhn:iconclass11 a mdhn:IconclassTerm ;
     rdfs:label "Christian religion"@en ,
@@ -34,6 +45,1257 @@ mdhn:iconclass11 a mdhn:IconclassTerm ;
     mdhn:isInExtendedScope "false"^^xsd:boolean .
 
 
+
+
+
+
+
+### 11 – Christian religion
+
+mdhn:iconclass11 a mdhn:IconclassTerm ;
+    rdfs:label "Christian religion"@en ,
+               "دین مسیحی"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 11: Christian religion.
+    Parent of angels (11G), saints (11H), and prophets not in biblical context (11I).
+    Use as broader only; pictorial scenes of angels in Islamic manuscripts 
+    still take 11G as the visual class."""@en ;
+    
+    mdhn:iconclassNotation "11" ;
+    skos:exactMatch <https://iconclass.org/11> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 11G – Angels (requested term)
+
+mdhn:iconclass11G a mdhn:IconclassTerm ;
+    rdfs:label "angels"@en ,
+               "فرشتگان"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 11G: angels.
+    Official visual class for winged celestial messengers.
+    Use also for malāʾika in Persian/Islamic painting 
+    (birth of the Prophet, Revelation scenes, etc.)."""@en ;
+    
+    mdhn:iconclassNotation "11G" ;
+    skos:exactMatch <https://iconclass.org/11G> ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q235113> ;  # angel
+    
+    mdhn:hasIconclassBroader mdhn:iconclass11 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### Direct children of 11G
+
+mdhn:iconclass11G1 a mdhn:IconclassTerm ;
+    rdfs:label "the nine choirs of angels, hierarchy of angels"@en ,
+               "نه گروه فرشتگان، سلسله‌مراتب فرشتگان"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 11G1: the nine choirs of angels, hierarchy of angels."@en ;
+    
+    mdhn:iconclassNotation "11G1" ;
+    skos:exactMatch <https://iconclass.org/11G1> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass11G ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass11G2 a mdhn:IconclassTerm ;
+    rdfs:label "activities of angels (in heaven)"@en ,
+               "اعمال فرشتگان (در آسمان)"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 11G2: activities of angels (in heaven)."@en ;
+    
+    mdhn:iconclassNotation "11G2" ;
+    skos:exactMatch <https://iconclass.org/11G2> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass11G ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass11G3 a mdhn:IconclassTerm ;
+    rdfs:label "angels fighting"@en ,
+               "نبرد فرشتگان"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 11G3: angels fighting."@en ;
+    
+    mdhn:iconclassNotation "11G3" ;
+    skos:exactMatch <https://iconclass.org/11G3> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass11G ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass11G4 a mdhn:IconclassTerm ;
+    rdfs:label "specific aspects of angels, e.g. intervening in human affairs"@en ,
+               "جنبه‌های خاص فرشتگان، مثلاً دخالت در امور انسان"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 11G4: 
+    specific aspects of angels, e.g. intervening in human affairs.
+    Preferred child for angels at the birth of the Prophet, 
+    angels handing the infant, or angels addressing a prophet."""@en ;
+    
+    mdhn:iconclassNotation "11G4" ;
+    skos:exactMatch <https://iconclass.org/11G4> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass11G ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+### 12 – Non-Christian religions
+
+mdhn:iconclass12 a mdhn:IconclassTerm ;
+    rdfs:label "non-Christian religions (including institutions, customs and antiquities)"@en ,
+               "ادیان غیرمسیحی (شامل نهادها، آداب و آثار)"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 12: non-Christian religions (including institutions, customs and antiquities)."@en ;
+    
+    mdhn:iconclassNotation "12" ;
+    skos:exactMatch <https://iconclass.org/12> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 12I – Islam
+
+mdhn:iconclass12I a mdhn:IconclassTerm ;
+    rdfs:label "Islam, Mohammedanism"@en ,
+               "اسلام"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 12I: Islam, Mohammedanism.
+    Official parent for Islamic places of worship, ritual, and functionaries.
+    The historical correlate 'Mohammedanism' is retained only as the Iconclass label."""@en ;
+    
+    mdhn:iconclassNotation "12I" ;
+    skos:exactMatch <https://iconclass.org/12I> ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q432> ;  # Islam
+    
+    mdhn:hasIconclassBroader mdhn:iconclass12 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 12I6 – Places and objects of worship ~ Islam
+
+mdhn:iconclass12I6 a mdhn:IconclassTerm ;
+    rdfs:label "places and objects of worship ~ Islam, Mohammedanism"@en ,
+               "اماکن و اشیاء عبادت ~ اسلام"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 12I6: places and objects of worship ~ Islam, Mohammedanism."@en ;
+    
+    mdhn:iconclassNotation "12I6" ;
+    skos:exactMatch <https://iconclass.org/12I6> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass12I ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 12I61 – Temple, shrine ~ Islam (requested term)
+
+mdhn:iconclass12I61 a mdhn:IconclassTerm ;
+    rdfs:label "temple, shrine ~ Islam, Mohammedanism"@en ,
+               "معبد، زیارتگاه ~ اسلام"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 12I61: 
+    temple, shrine ~ Islam, Mohammedanism.
+    Official class for mosque, masjid, shrine and ziyārat as 
+    depicted architecture (keywords in Iconclass include mosque, minaret).
+    Pair with 48C1623 when a dome is the visual focus."""@en ;
+    
+    mdhn:iconclassNotation "12I61" ;
+    skos:exactMatch <https://iconclass.org/12I61> ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q32815> ;  # mosque
+    
+    mdhn:hasIconclassBroader mdhn:iconclass12I6 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### Siblings under 12I6
+
+mdhn:iconclass12I63 a mdhn:IconclassTerm ;
+    rdfs:label "statues, paintings, etc. as objects of worship (Islam, Mohammedanism)"@en ,
+               "تندیس، نقاشی و مانند آن به‌مثابه اشیاء عبادت (اسلام)"@fa ;
+    mdhn:iconclassNotation "12I63" ;
+    skos:exactMatch <https://iconclass.org/12I63> ;
+    mdhn:hasIconclassBroader mdhn:iconclass12I6 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass12I64 a mdhn:IconclassTerm ;
+    rdfs:label "other holy places ~ Islam, Mohammedanism"@en ,
+               "دیگر مکان‌های مقدس ~ اسلام"@fa ;
+    mdhn:iconclassNotation "12I64" ;
+    skos:exactMatch <https://iconclass.org/12I64> ;
+    mdhn:hasIconclassBroader mdhn:iconclass12I6 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+
+### 2 – Nature    
+
+mdhn:iconclass2 a mdhn:IconclassTerm ;
+    rdfs:label "Nature"@en ,
+               "طبیعت"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 2: Nature."@en ;
+    
+    mdhn:iconclassNotation "2" ;
+    skos:exactMatch <https://iconclass.org/2> ;
+    
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 25 – Earth, world as celestial body
+
+mdhn:iconclass25 a mdhn:IconclassTerm ;
+    rdfs:label "earth, world as celestial body"@en ,
+               "زمین، جهان به‌مثابه جسم آسمانی"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 25: earth, world as celestial body."@en ;
+    
+    mdhn:iconclassNotation "25" ;
+    skos:exactMatch <https://iconclass.org/25> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 25F – Animals
+
+mdhn:iconclass25F a mdhn:IconclassTerm ;
+    rdfs:label "animals"@en ,
+               "جانوران"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 25F: animals."@en ;
+    
+    mdhn:iconclassNotation "25F" ;
+    skos:exactMatch <https://iconclass.org/25F> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass25 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 25FF – Fabulous animals
+
+mdhn:iconclass25FF a mdhn:IconclassTerm ;
+    rdfs:label "fabulous animals"@en ,
+               "جانوران افسانه‌ای"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 25FF: 
+    fabulous animals (sometimes wrongly called 'grotesques'); 'Mostri' (Ripa).
+    Doubled F marks the fabulous counterpart of 25F."""@en ;
+    
+    mdhn:iconclassNotation "25FF" ;
+    skos:exactMatch <https://iconclass.org/25FF> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass25F ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 25FF4 – Fabulous animals ~ reptiles
+
+mdhn:iconclass25FF4 a mdhn:IconclassTerm ;
+    rdfs:label "fabulous animals ~ reptiles"@en ,
+               "جانوران افسانه‌ای ~ خزندگان"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 25FF4: fabulous animals ~ reptiles."@en ;
+    
+    mdhn:iconclassNotation "25FF4" ;
+    skos:exactMatch <https://iconclass.org/25FF4> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass25FF ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 25FF41 – Fabulous animals ~ lizards
+
+mdhn:iconclass25FF41 a mdhn:IconclassTerm ;
+    rdfs:label "fabulous animals ~ lizards"@en ,
+               "جانوران افسانه‌ای ~ سوسمارمانندان"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 25FF41: fabulous animals ~ lizards."@en ;
+    
+    mdhn:iconclassNotation "25FF41" ;
+    skos:exactMatch <https://iconclass.org/25FF41> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass25FF4 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 25FF411 – Dragon (requested term)
+
+mdhn:iconclass25FF411 a mdhn:IconclassTerm ;
+    rdfs:label "dragon"@en ,
+               "اژدها"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 25FF411: dragon.
+    Use this for the four-legged / lizard-like dragon.
+    For the large fabulous serpent (sometimes winged), also use 25FF422."""@en ;
+    
+    mdhn:iconclassNotation "25FF411" ;
+    skos:exactMatch <https://iconclass.org/25FF411> ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q7559> ;  # dragon
+    
+    mdhn:hasIconclassBroader mdhn:iconclass25FF41 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### Sibling under 25FF41
+
+mdhn:iconclass25FF412 a mdhn:IconclassTerm ;
+    rdfs:label "salamander (fabulous animal); salamander as spirit of fire"@en ,
+               "سمندر افسانه‌ای؛ سمندر به‌مثابه روح آتش"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 25FF412: salamander (fabulous animal); salamander as spirit of fire."@en ;
+    
+    mdhn:iconclassNotation "25FF412" ;
+    skos:exactMatch <https://iconclass.org/25FF412> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass25FF41 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+### 25FF42 – Fabulous animals ~ snakes
+
+mdhn:iconclass25FF42 a mdhn:IconclassTerm ;
+    rdfs:label "fabulous animals ~ snakes"@en ,
+               "جانوران افسانه‌ای ~ مارها"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 25FF42: 
+    fabulous animals ~ snakes (aspic, dragon, hydrus, hydra, 
+    amphisbaena, horned snake, cerastes)."""@en ;
+    
+    mdhn:iconclassNotation "25FF42" ;
+    skos:exactMatch <https://iconclass.org/25FF42> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass25FF4 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 25FF422 – Dragon as large fabulous serpent (requested term)
+
+mdhn:iconclass25FF422 a mdhn:IconclassTerm ;
+    rdfs:label "dragon (large fabulous serpent, sometimes with wings and legs)"@en ,
+               "اژدها (مار عظیم افسانه‌ای، گاه بالدار و پا‌دار)"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 25FF422: 
+    dragon (large fabulous serpent, sometimes with wings and legs).
+    Preferred official term for azhdahā / tannīn-type dragons 
+    in Persian and Islamic manuscript painting.
+    Contrast with 25FF411 (lizard-like dragon)."""@en ;
+    
+    mdhn:iconclassNotation "25FF422" ;
+    skos:exactMatch <https://iconclass.org/25FF422> ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q7559> ;  # dragon
+    skos:relatedMatch mdhn:iconclass25FF411 ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass25FF42 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### Siblings under 25FF42
+
+mdhn:iconclass25FF421 a mdhn:IconclassTerm ;
+    rdfs:label "aspic"@en ,
+               "افعی / اسپیک"@fa ;
+    mdhn:iconclassNotation "25FF421" ;
+    skos:exactMatch <https://iconclass.org/25FF421> ;
+    mdhn:hasIconclassBroader mdhn:iconclass25FF42 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass25FF423 a mdhn:IconclassTerm ;
+    rdfs:label "hydrus (watersnake)"@en ,
+               "هیدروس (مار آبی)"@fa ;
+    mdhn:iconclassNotation "25FF423" ;
+    skos:exactMatch <https://iconclass.org/25FF423> ;
+    mdhn:hasIconclassBroader mdhn:iconclass25FF42 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass25FF424 a mdhn:IconclassTerm ;
+    rdfs:label "amphisbaena (snake with head at both ends)"@en ,
+               "آمفیسبنا (مار دو‌سر)"@fa ;
+    mdhn:iconclassNotation "25FF424" ;
+    skos:exactMatch <https://iconclass.org/25FF424> ;
+    mdhn:hasIconclassBroader mdhn:iconclass25FF42 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass25FF425 a mdhn:IconclassTerm ;
+    rdfs:label "horned snake"@en ,
+               "مار شاخدار"@fa ;
+    mdhn:iconclassNotation "25FF425" ;
+    skos:exactMatch <https://iconclass.org/25FF425> ;
+    mdhn:hasIconclassBroader mdhn:iconclass25FF42 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+
+### 4 – Society, Civilization, Culture (top of the 48C161 chain)
+mdhn:iconclass4 a mdhn:IconclassTerm ;
+    rdfs:label "Society, Civilization, Culture"@en ,
+               "جامعه، تمدن، فرهنگ"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 4: Society, Civilization, Culture."@en ;
+    
+    mdhn:iconclassNotation "4" ;
+    skos:exactMatch <https://iconclass.org/4> ;
+    
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+### 45K – Siege, position war
+
+mdhn:iconclass45K a mdhn:IconclassTerm ;
+    rdfs:label "siege, position war"@en ,
+               "محاصره، جنگ موضعی"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 45K: siege, position war."@en ;
+    
+    mdhn:iconclassNotation "45K" ;
+    skos:exactMatch <https://iconclass.org/45K> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass45 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 45K1 – Fortifications, military engineering
+
+mdhn:iconclass45K1 a mdhn:IconclassTerm ;
+    rdfs:label "fortifications, military engineering"@en ,
+               "استحکامات، مهندسی نظامی"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 45K1: fortifications, military engineering."@en ;
+    
+    mdhn:iconclassNotation "45K1" ;
+    skos:exactMatch <https://iconclass.org/45K1> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass45K ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 45K13 – Fortress (requested term)
+
+mdhn:iconclass45K13 a mdhn:IconclassTerm ;
+    rdfs:label "fortress"@en ,
+               "دژ، قلعه"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 45K13: fortress.
+    Use for qalʿa / dezh as a depicted military stronghold.
+    Pair with 48C16 architectural detail when walls, towers or 
+    a dome on a citadel are the pictorial focus."""@en ;
+    
+    mdhn:iconclassNotation "45K13" ;
+    skos:exactMatch <https://iconclass.org/45K13> ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q57831> ;  # fortress
+    
+    mdhn:hasIconclassBroader mdhn:iconclass45K1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+### 41 – Material aspects of daily life
+mdhn:iconclass41 a mdhn:IconclassTerm ;
+    rdfs:label "material aspects of daily life"@en ,
+               "جنبه‌های مادی زندگی روزمره"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41: material aspects of daily life."@en ;
+    
+    mdhn:iconclassNotation "41" ;
+    skos:exactMatch <https://iconclass.org/41> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass4 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+### 47 – Crafts and industries
+
+mdhn:iconclass47 a mdhn:IconclassTerm ;
+    rdfs:label "crafts and industries"@en ,
+               "پیشه‌ها و صنایع"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 47: crafts and industries."@en ;
+    
+    mdhn:iconclassNotation "47" ;
+    skos:exactMatch <https://iconclass.org/47> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass4 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 47G – Building activities
+
+mdhn:iconclass47G a mdhn:IconclassTerm ;
+    rdfs:label "building activities"@en ,
+               "فعالیت‌های ساختمانی"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 47G: building activities."@en ;
+    
+    mdhn:iconclassNotation "47G" ;
+    skos:exactMatch <https://iconclass.org/47G> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass47 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 47G5 – Building materials
+
+mdhn:iconclass47G5 a mdhn:IconclassTerm ;
+    rdfs:label "building materials"@en ,
+               "مصالح ساختمانی"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 47G5: building materials."@en ;
+    
+    mdhn:iconclassNotation "47G5" ;
+    skos:exactMatch <https://iconclass.org/47G5> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass47G ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 47G53 – Clay and sand, etc. ~ building material
+
+mdhn:iconclass47G53 a mdhn:IconclassTerm ;
+    rdfs:label "clay and sand, etc. ~ building material"@en ,
+               "گل و شن و مانند آن ~ مصالح ساختمانی"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 47G53: clay and sand, etc. ~ building material."@en ;
+    
+    mdhn:iconclassNotation "47G53" ;
+    skos:exactMatch <https://iconclass.org/47G53> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass47G5 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 47G532 – Tiles, bricks (requested term)
+
+mdhn:iconclass47G532 a mdhn:IconclassTerm ;
+    rdfs:label "tiles, bricks ~ building material"@en ,
+               "کاشی، آجر ~ مصالح ساختمانی"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 47G532: 
+    tiles, bricks ~ building material.
+    Use for brick and tile as depicted material 
+    (walls, paved courts, kiln scenes, architectural fabric)."""@en ;
+    
+    mdhn:iconclassNotation "47G532" ;
+    skos:exactMatch <https://iconclass.org/47G532> ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q40089> ;  # brick
+    
+    mdhn:hasIconclassBroader mdhn:iconclass47G53 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### Siblings under 47G53
+
+mdhn:iconclass47G531 a mdhn:IconclassTerm ;
+    rdfs:label "mud ~ building material"@en ,
+               "گل / خشت خام ~ مصالح ساختمانی"@fa ;
+    mdhn:iconclassNotation "47G531" ;
+    skos:exactMatch <https://iconclass.org/47G531> ;
+    mdhn:hasIconclassBroader mdhn:iconclass47G53 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass47G533 a mdhn:IconclassTerm ;
+    rdfs:label "concrete ~ building material"@en ,
+               "بتن ~ مصالح ساختمانی"@fa ;
+    mdhn:iconclassNotation "47G533" ;
+    skos:exactMatch <https://iconclass.org/47G533> ;
+    mdhn:hasIconclassBroader mdhn:iconclass47G53 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass47G534 a mdhn:IconclassTerm ;
+    rdfs:label "glass ~ building material"@en ,
+               "شیشه ~ مصالح ساختمانی"@fa ;
+    mdhn:iconclassNotation "47G534" ;
+    skos:exactMatch <https://iconclass.org/47G534> ;
+    mdhn:hasIconclassBroader mdhn:iconclass47G53 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .    
+
+
+### 48C162 – Arch, archivolt ~ architecture
+
+mdhn:iconclass48C162 a mdhn:IconclassTerm ;
+    rdfs:label "arch, archivolt ~ architecture"@en ,
+               "طاق، آرکیولت ~ معماری"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 48C162: arch, archivolt ~ architecture."@en ;
+    
+    mdhn:iconclassNotation "48C162" ;
+    skos:exactMatch <https://iconclass.org/48C162> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48C16 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 48C1623 – Dome (requested term)
+
+mdhn:iconclass48C1623 a mdhn:IconclassTerm ;
+    rdfs:label "dome ~ architecture"@en ,
+               "گنبد ~ معماری"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 48C1623: dome ~ architecture.
+    Use for gumbad / qubba as an architectural motif 
+    in manuscript painting and architectural views."""@en ;
+    
+    mdhn:iconclassNotation "48C1623" ;
+    skos:exactMatch <https://iconclass.org/48C1623> ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q12493> ;  # dome
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48C162 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### Siblings under 48C162
+
+mdhn:iconclass48C1621 a mdhn:IconclassTerm ;
+    rdfs:label "arcade ~ architecture"@en ,
+               "رواق طاقی / آرکید ~ معماری"@fa ;
+    mdhn:iconclassNotation "48C1621" ;
+    skos:exactMatch <https://iconclass.org/48C1621> ;
+    mdhn:hasIconclassBroader mdhn:iconclass48C162 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass48C1622 a mdhn:IconclassTerm ;
+    rdfs:label "vault ~ architecture"@en ,
+               "طاق‌بندی / سقف ضربی ~ معماری"@fa ;
+    mdhn:iconclassNotation "48C1622" ;
+    skos:exactMatch <https://iconclass.org/48C1622> ;
+    mdhn:hasIconclassBroader mdhn:iconclass48C162 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass48C1624 a mdhn:IconclassTerm ;
+    rdfs:label "concha ~ architecture"@en ,
+               "صدف‌طاق / کنکا ~ معماری"@fa ;
+    mdhn:iconclassNotation "48C1624" ;
+    skos:exactMatch <https://iconclass.org/48C1624> ;
+    mdhn:hasIconclassBroader mdhn:iconclass48C162 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+### 48A – Art and the public; styles and ornaments
+
+mdhn:iconclass48A a mdhn:IconclassTerm ;
+    rdfs:label "art and the public; styles and ornaments"@en ,
+               "هنر و مخاطب؛ سبک‌ها و آرایه‌ها"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 48A: art and the public; styles and ornaments."@en ;
+    
+    mdhn:iconclassNotation "48A" ;
+    skos:exactMatch <https://iconclass.org/48A> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 48A9 – Stylistic and formal differentiation of art
+
+mdhn:iconclass48A9 a mdhn:IconclassTerm ;
+    rdfs:label "stylistic and formal differentiation of art"@en ,
+               "تمایز سبکی و صوری هنر"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 48A9: stylistic and formal differentiation of art."@en ;
+    
+    mdhn:iconclassNotation "48A9" ;
+    skos:exactMatch <https://iconclass.org/48A9> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48A ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 48A98 – Ornaments ~ art (requested term)
+
+mdhn:iconclass48A98 a mdhn:IconclassTerm ;
+    rdfs:label "ornaments ~ art"@en ,
+               "آرایه‌ها ~ هنر"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 48A98: ornaments ~ art.
+    Nearest official class for building ornament.
+    Pair with 48C16 (architectural detail) when the ornament 
+    is on a building, and with 47G532 when the medium is tile/brick."""@en ;
+    
+    mdhn:iconclassNotation "48A98" ;
+    skos:exactMatch <https://iconclass.org/48A98> ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q1225716> ;  # ornament (art)
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48A9 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### Direct children of 48A98
+
+mdhn:iconclass48A981 a mdhn:IconclassTerm ;
+    rdfs:label "ornament ~ geometric motifs"@en ,
+               "آرایه ~ نقوش هندسی"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 48A981. Use for girih and geometric tilework."@en ;
+    
+    mdhn:iconclassNotation "48A981" ;
+    skos:exactMatch <https://iconclass.org/48A981> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48A98 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass48A982 a mdhn:IconclassTerm ;
+    rdfs:label "anthropomorphic ornament"@en ,
+               "آرایه انسان‌ریخت"@fa ;
+    
+    mdhn:iconclassNotation "48A982" ;
+    skos:exactMatch <https://iconclass.org/48A982> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48A98 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass48A983 a mdhn:IconclassTerm ;
+    rdfs:label "ornament derived from plant forms"@en ,
+               "آرایه برگرفته از اشکال گیاهی"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 48A983. Use for islīmī / arabesque."@en ;
+    
+    mdhn:iconclassNotation "48A983" ;
+    skos:exactMatch <https://iconclass.org/48A983> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48A98 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass48A984 a mdhn:IconclassTerm ;
+    rdfs:label "ornament derived from animal forms"@en ,
+               "آرایه برگرفته از اشکال جانوری"@fa ;
+    
+    mdhn:iconclassNotation "48A984" ;
+    skos:exactMatch <https://iconclass.org/48A984> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48A98 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass48A985 a mdhn:IconclassTerm ;
+    rdfs:label "ornament derived from objects"@en ,
+               "آرایه برگرفته از اشیاء"@fa ;
+    
+    mdhn:iconclassNotation "48A985" ;
+    skos:exactMatch <https://iconclass.org/48A985> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48A98 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass48A986 a mdhn:IconclassTerm ;
+    rdfs:label "fantasy ornament"@en ,
+               "آرایه خیالی"@fa ;
+    
+    mdhn:iconclassNotation "48A986" ;
+    skos:exactMatch <https://iconclass.org/48A986> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48A98 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass48A987 a mdhn:IconclassTerm ;
+    rdfs:label "frequently used ornamental compositions"@en ,
+               "ترکیب‌های آرایه‌ای پرکاربرد"@fa ;
+    
+    mdhn:iconclassNotation "48A987" ;
+    skos:exactMatch <https://iconclass.org/48A987> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48A98 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+### 22 – Natural phenomena
+
+mdhn:iconclass22 a mdhn:IconclassTerm ;
+    rdfs:label "natural phenomena"@en ,
+               "پدیده‌های طبیعی"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 22: natural phenomena."@en ;
+    
+    mdhn:iconclassNotation "22" ;
+    skos:exactMatch <https://iconclass.org/22> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 22C – Light
+
+mdhn:iconclass22C a mdhn:IconclassTerm ;
+    rdfs:label "light"@en ,
+               "نور"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 22C: light."@en ;
+    
+    mdhn:iconclassNotation "22C" ;
+    skos:exactMatch <https://iconclass.org/22C> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass22 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 22C3 – Supernatural light
+
+mdhn:iconclass22C3 a mdhn:IconclassTerm ;
+    rdfs:label "supernatural light"@en ,
+               "نور فراطبیعی"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 22C3: supernatural light."@en ;
+    
+    mdhn:iconclassNotation "22C3" ;
+    skos:exactMatch <https://iconclass.org/22C3> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass22C ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 22C31 – Radiance emanating from persons or things
+
+mdhn:iconclass22C31 a mdhn:IconclassTerm ;
+    rdfs:label "radiance emanating from persons or things"@en ,
+               "درخشش برآمده از اشخاص یا اشیاء"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 22C31: radiance emanating from persons or things."@en ;
+    
+    mdhn:iconclassNotation "22C31" ;
+    skos:exactMatch <https://iconclass.org/22C31> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass22C3 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 22C311 – Nimbus, halo (requested term)
+
+mdhn:iconclass22C311 a mdhn:IconclassTerm ;
+    rdfs:label "nimbus, halo ~ radiance emanating from persons or things"@en ,
+               "هاله، نیمبوس ~ درخشش برآمده از اشخاص یا اشیاء"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 22C311: 
+    nimbus, halo ~ radiance emanating from persons or things.
+    Use for circular / disc haloes and, as relatedMatch, 
+    for the flaming nimbus of prophets in Islamic/Persian painting."""@en ;
+    
+    mdhn:iconclassNotation "22C311" ;
+    skos:exactMatch <https://iconclass.org/22C311> ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q133600> ;  # halo (art)
+    
+    mdhn:hasIconclassBroader mdhn:iconclass22C31 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### Narrower terms of 22C311
+
+mdhn:iconclass22C3111 a mdhn:IconclassTerm ;
+    rdfs:label "cross-nimbus"@en ,
+               "هاله صلیبی"@fa ;
+    mdhn:iconclassNotation "22C3111" ;
+    skos:exactMatch <https://iconclass.org/22C3111> ;
+    mdhn:hasIconclassBroader mdhn:iconclass22C311 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass22C3112 a mdhn:IconclassTerm ;
+    rdfs:label "square or rhombic nimbus"@en ,
+               "هاله مربع یا لوزی"@fa ;
+    mdhn:iconclassNotation "22C3112" ;
+    skos:exactMatch <https://iconclass.org/22C3112> ;
+    mdhn:hasIconclassBroader mdhn:iconclass22C311 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass22C3113 a mdhn:IconclassTerm ;
+    rdfs:label "star-shaped nimbus"@en ,
+               "هاله ستاره‌ای"@fa ;
+    mdhn:iconclassNotation "22C3113" ;
+    skos:exactMatch <https://iconclass.org/22C3113> ;
+    mdhn:hasIconclassBroader mdhn:iconclass22C311 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass22C3114 a mdhn:IconclassTerm ;
+    rdfs:label "rays as nimbus"@en ,
+               "پرتوها به‌مثابه هاله"@fa ;
+    mdhn:iconclassNotation "22C3114" ;
+    skos:exactMatch <https://iconclass.org/22C3114> ;
+    mdhn:hasIconclassBroader mdhn:iconclass22C311 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass22C3115 a mdhn:IconclassTerm ;
+    rdfs:label "(golden) thread as nimbus"@en ,
+               "رشته (زرین) به‌مثابه هاله"@fa ;
+    mdhn:iconclassNotation "22C3115" ;
+    skos:exactMatch <https://iconclass.org/22C3115> ;
+    mdhn:hasIconclassBroader mdhn:iconclass22C311 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass22C3116 a mdhn:IconclassTerm ;
+    rdfs:label "other types of nimbus, halo"@en ,
+               "انواع دیگر هاله"@fa ;
+    mdhn:iconclassNotation "22C3116" ;
+    skos:exactMatch <https://iconclass.org/22C3116> ;
+    mdhn:hasIconclassBroader mdhn:iconclass22C311 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### Sibling under 22C31 (often needed with 22C311)
+
+mdhn:iconclass22C312 a mdhn:IconclassTerm ;
+    rdfs:label "mandorla"@en ,
+               "ماندورلا / هاله بادامی تمام‌پیکر"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 22C312: mandorla.
+    Whole-body almond-shaped radiance; contrast with head-nimbus 22C311."""@en ;
+    
+    mdhn:iconclassNotation "22C312" ;
+    skos:exactMatch <https://iconclass.org/22C312> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass22C31 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+### 41D – Fashion, clothing
+
+mdhn:iconclass41D a mdhn:IconclassTerm ;
+    rdfs:label "fashion, clothing"@en ,
+               "مد، پوشاک"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41D: fashion, clothing."@en ;
+    
+    mdhn:iconclassNotation "41D" ;
+    skos:exactMatch <https://iconclass.org/41D> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 41D2 – Clothes, costume
+
+mdhn:iconclass41D2 a mdhn:IconclassTerm ;
+    rdfs:label "clothes, costume"@en ,
+               "لباس، جامه"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41D2: clothes, costume."@en ;
+    
+    mdhn:iconclassNotation "41D2" ;
+    skos:exactMatch <https://iconclass.org/41D2> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41D ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+mdhn:iconclass41D21 a mdhn:IconclassTerm ;
+    rdfs:label "clothes covering the entire body"@en ,
+               "لباس پوشاننده تمام بدن"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41D21: clothes covering the entire body."@en ;
+    
+    mdhn:iconclassNotation "41D21" ;
+    skos:exactMatch <https://iconclass.org/41D21> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41D2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+mdhn:iconclass41D22 a mdhn:IconclassTerm ;
+    rdfs:label "head-gear and clothing for the upper part of the body"@en ,
+               "سرپوش و لباس بالاتنه"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41D22: head-gear and clothing for the upper part of the body."@en ;
+    
+    mdhn:iconclassNotation "41D22" ;
+    skos:exactMatch <https://iconclass.org/41D22> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41D2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+mdhn:iconclass41D23 a mdhn:IconclassTerm ;
+    rdfs:label "clothing for the lower part of the body"@en ,
+               "لباس پایین‌تنه"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41D23: clothing for the lower part of the body."@en ;
+    
+    mdhn:iconclassNotation "41D23" ;
+    skos:exactMatch <https://iconclass.org/41D23> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41D2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+mdhn:iconclass41D24 a mdhn:IconclassTerm ;
+    rdfs:label "clothes for special purposes"@en ,
+               "لباس برای مقاصد خاص"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41D24: clothes for special purposes."@en ;
+    
+    mdhn:iconclassNotation "41D24" ;
+    skos:exactMatch <https://iconclass.org/41D24> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41D2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+mdhn:iconclass41D25 a mdhn:IconclassTerm ;
+    rdfs:label "underclothes and nightwear"@en ,
+               "زیرجامه و لباس خواب"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41D25: underclothes and nightwear."@en ;
+    
+    mdhn:iconclassNotation "41D25" ;
+    skos:exactMatch <https://iconclass.org/41D25> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41D2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+mdhn:iconclass41D26 a mdhn:IconclassTerm ;
+    rdfs:label "accessories (~ clothing)"@en ,
+               "تزیینات و لوازم جانبی پوشاک"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41D26: accessories (~ clothing)."@en ;
+    
+    mdhn:iconclassNotation "41D26" ;
+    skos:exactMatch <https://iconclass.org/41D26> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41D2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+mdhn:iconclass41D27 a mdhn:IconclassTerm ;
+    rdfs:label "drapery, draped garment"@en ,
+               "چین‌و‌شکن جامه، لباس دراپه"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 41D27: 
+    drapery, draped garment, 'Gewandgebung'."""@en ;
+    
+    mdhn:iconclassNotation "41D27" ;
+    skos:exactMatch <https://iconclass.org/41D27> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41D2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+mdhn:iconclass41D28 a mdhn:IconclassTerm ;
+    rdfs:label "disguise"@en ,
+               "تغییر جامه / disguising"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41D28: disguise."@en ;
+    
+    mdhn:iconclassNotation "41D28" ;
+    skos:exactMatch <https://iconclass.org/41D28> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41D2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+mdhn:iconclass41D29 a mdhn:IconclassTerm ;
+    rdfs:label "clothed in rags"@en ,
+               "پوشیده در جامه‌های ژنده"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41D29: clothed in rags."@en ;
+    
+    mdhn:iconclassNotation "41D29" ;
+    skos:exactMatch <https://iconclass.org/41D29> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41D2 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 41D266 – Ornaments, jewels
+
+mdhn:iconclass41D266 a mdhn:IconclassTerm ;
+    rdfs:label "ornaments, jewels"@en ,
+               "زیورآلات، جواهرات"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41D266: ornaments, jewels."@en ;
+    
+    mdhn:iconclassNotation "41D266" ;
+    skos:exactMatch <https://iconclass.org/41D266> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41D26 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 41D2663 – Ear-rings (requested term)
+
+mdhn:iconclass41D2663 a mdhn:IconclassTerm ;
+    rdfs:label "ear-rings"@en ,
+               "گوشواره"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 41D2663: ear-rings."@en ;
+    
+    mdhn:iconclassNotation "41D2663" ;
+    skos:exactMatch <https://iconclass.org/41D2663> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass41D266 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### Siblings under 41D266 (optional, for a complete jewels block)
+
+mdhn:iconclass41D2661 a mdhn:IconclassTerm ;
+    rdfs:label "necklace"@en ,
+               "گردنبند"@fa ;
+    mdhn:iconclassNotation "41D2661" ;
+    skos:exactMatch <https://iconclass.org/41D2661> ;
+    mdhn:hasIconclassBroader mdhn:iconclass41D266 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass41D2662 a mdhn:IconclassTerm ;
+    rdfs:label "bracelet, wristlet"@en ,
+               "دستبند"@fa ;
+    mdhn:iconclassNotation "41D2662" ;
+    skos:exactMatch <https://iconclass.org/41D2662> ;
+    mdhn:hasIconclassBroader mdhn:iconclass41D266 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass41D2664 a mdhn:IconclassTerm ;
+    rdfs:label "ring"@en ,
+               "انگشتر"@fa ;
+    mdhn:iconclassNotation "41D2664" ;
+    skos:exactMatch <https://iconclass.org/41D2664> ;
+    mdhn:hasIconclassBroader mdhn:iconclass41D266 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass41D2665 a mdhn:IconclassTerm ;
+    rdfs:label "brooch, agraffe, clasp"@en ,
+               "سنجاق سینه، قلاب، گیره"@fa ;
+    mdhn:iconclassNotation "41D2665" ;
+    skos:exactMatch <https://iconclass.org/41D2665> ;
+    mdhn:hasIconclassBroader mdhn:iconclass41D266 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass41D2666 a mdhn:IconclassTerm ;
+    rdfs:label "diadem, tiara"@en ,
+               "دیادم، تاج‌پایه"@fa ;
+    mdhn:iconclassNotation "41D2666" ;
+    skos:exactMatch <https://iconclass.org/41D2666> ;
+    mdhn:hasIconclassBroader mdhn:iconclass41D266 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+mdhn:iconclass41D2668 a mdhn:IconclassTerm ;
+    rdfs:label "jewel-box"@en ,
+               "جعبه جواهر"@fa ;
+    mdhn:iconclassNotation "41D2668" ;
+    skos:exactMatch <https://iconclass.org/41D2668> ;
+    mdhn:hasIconclassBroader mdhn:iconclass41D266 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .        
+
+### 45 – Warfare; military affairs
+
+mdhn:iconclass45 a mdhn:IconclassTerm ;
+    rdfs:label "warfare; military affairs"@en ,
+               "جنگ؛ امور نظامی"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 45: warfare; military affairs."@en ;
+    
+    mdhn:iconclassNotation "45" ;
+    skos:exactMatch <https://iconclass.org/45> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass4 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 45C – (Military) equipment and supply
+
+mdhn:iconclass45C a mdhn:IconclassTerm ;
+    rdfs:label "(military) equipment and supply"@en ,
+               "تجهیزات و تدارکات (نظامی)"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 45C: (military) equipment and supply."@en ;
+    
+    mdhn:iconclassNotation "45C" ;
+    skos:exactMatch <https://iconclass.org/45C> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass45 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 45C1 – Weapons
+
+mdhn:iconclass45C1 a mdhn:IconclassTerm ;
+    rdfs:label "weapons"@en ,
+               "جنگ‌افزارها"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 45C1: weapons."@en ;
+    
+    mdhn:iconclassNotation "45C1" ;
+    skos:exactMatch <https://iconclass.org/45C1> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass45C ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 45C16 – Bows, arrows, crossbows
+
+mdhn:iconclass45C16 a mdhn:IconclassTerm ;
+    rdfs:label "bows and arrows; crossbow"@en ,
+               "کمان و تیر؛ زنبورک"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 45C16: 
+    bows and arrows; crossbow (archery weapons).
+    Specific types are added in parentheses, e.g. 45C16(CROSSBOW)."""@en ;
+    
+    mdhn:iconclassNotation "45C16" ;
+    skos:exactMatch <https://iconclass.org/45C16> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass45C1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .    
+### 48 – Art (high parent)
+
+mdhn:iconclass48 a mdhn:IconclassTerm ;
+    rdfs:label "art"@en ,
+               "هنر"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 48: art."@en ;
+    
+    mdhn:iconclassNotation "48" ;
+    skos:exactMatch <https://iconclass.org/48> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass4 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 48C – The arts; artists
+
+mdhn:iconclass48C a mdhn:IconclassTerm ;
+    rdfs:label "the arts; artists"@en ,
+               "هنرها؛ هنرمندان"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 48C: the arts; artists."@en ;
+    
+    mdhn:iconclassNotation "48C" ;
+    skos:exactMatch <https://iconclass.org/48C> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 48C1 – Architecture
+
+mdhn:iconclass48C1 a mdhn:IconclassTerm ;
+    rdfs:label "architecture"@en ,
+               "معماری"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 48C1: architecture."@en ;
+    
+    mdhn:iconclassNotation "48C1" ;
+    skos:exactMatch <https://iconclass.org/48C1> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48C ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 48C16 – Civic architecture
+
+mdhn:iconclass48C16 a mdhn:IconclassTerm ;
+    rdfs:label "civic architecture"@en ,
+               "معماری شهری / مدنی"@fa ;
+    
+    rdfs:comment "Official Iconclass notation 48C16: civic architecture."@en ;
+    
+    mdhn:iconclassNotation "48C16" ;
+    skos:exactMatch <https://iconclass.org/48C16> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48C1 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+
+
+### 48C161 – Town hall, guildhall (requested term)
+
+mdhn:iconclass48C161 a mdhn:IconclassTerm ;
+    rdfs:label "town hall, guildhall"@en ,
+               "تالار شهر، تالار صنف"@fa ;
+    
+    rdfs:comment """Official Iconclass notation 48C161: 
+    town hall, guildhall (civic / municipal architecture)."""@en ;
+    
+    mdhn:iconclassNotation "48C161" ;
+    skos:exactMatch <https://iconclass.org/48C161> ;
+    
+    mdhn:hasIconclassBroader mdhn:iconclass48C16 ;
+    mdhn:isInExtendedScope "false"^^xsd:boolean .
+    
 mdhn:iconclass71B a mdhn:IconclassTerm ;
     rdfs:label "Genesis from the descendants of Cain and Seth to Abraham"@en ,
                "پیدایش از نوادگان قابیل و شیث تا ابراهیم"@fa ;

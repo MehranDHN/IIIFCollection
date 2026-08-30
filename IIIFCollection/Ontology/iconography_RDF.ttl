@@ -54,16 +54,6 @@ mdhn:BookMaking a mdhn:JobsAndCreativity ;
    rdfs:comment "Any activity related to Paperfurnishing, Binding, Writing, Painting" ;
    mdhn:icWikiDataURL "" .    
 
-
-
-
-
-
-
-
-
-
-   
 mdhn:Gog_and_Magog a mdhn:MythicalAnimalsOrMonsters ;
    rdfs:label "Gog and Magog"@en, "يأجوج و مأجوج"@fa;
    rdfs:comment "pair of individuals, peoples, or lands in the Bible and the Qur'an" ;
@@ -80,16 +70,23 @@ mdhn:Punishment a mdhn:SubjectiveConcepts ;
    skos:relatedMatch mdhn:aat300137841;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q186361" .                                          
 
-   
-mdhn:Flaming_Nimbus a mdhn:SubjectiveConcepts ;
-   rdfs:label "Flaming Nimbus"@en, "نیمبوس آتشی"@fa;
+mdhn:Halo a mdhn:ArtisticMotif ;
+   rdfs:label "Halo"@en, "هاله تقدس"@fa;
    rdfs:comment "a circular halo of fire surrounding a figure in religious art" ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q123456" . 
+   skos:exactMatch mdhn:aat300375684, mdhn:sh85091972_Nimbus, biblissima:Q295434, mdhn:iconclass22C3111 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3341893" .
 
-mdhn:Angles_From_Heaven a mdhn:MythicalAnimalsOrMonsters ;
+mdhn:Flaming_Nimbus a mdhn:ArtisticMotif ;
+   rdfs:label "Flaming Nimbus"@en, "نیمبوس آتشی"@fa;
+   rdfs:comment "Flame of fire surrounding a figure in religious art" ;
+   skos:broadMatch mdhn:Halo ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3341893" . 
+
+mdhn:Angles_From_Heaven a mdhn:MythicalHumanoid ;
    rdfs:label "Angles From Heaven"@en, "فرشتگان از بهشت"@fa;
    rdfs:comment "a group of angels in Islamic tradition" ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q123456" . 
+   skos:exactMatch mdhn:aat300379004, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels, biblissima:Q295891, mdhn:iconclass11G;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q235113" . 
 
 mdhn:Persian_Architecture a mdhn:ArchitecturalConceptOrElement ;
    rdfs:label "Persian Architecture"@en, "معماری ایرانی"@fa;
@@ -97,10 +94,11 @@ mdhn:Persian_Architecture a mdhn:ArchitecturalConceptOrElement ;
    skos:exactMatch mdhn:aat500011068, mdhn:tgm000469_Architecture;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q137133192" .
 
-mdhn:Bricks a mdhn:ArchitecturalConceptOrElement ;
+mdhn:Bricks a mdhn:BuildingMaterials ;
    rdfs:label "Bricks"@en, "آجر"@fa;
    rdfs:comment "block or a single unit of a ceramic material used in masonry construction" ;
-   skos:exactMatch mdhn:aat300010463, mdhn:tgm001324_Bricks;
+   skos:exactMatch mdhn:aat300010463, mdhn:tgm001324_Bricks , mdhn:sh85016808_Bricks, mdhn:iconclass47G532;
+   skos:broadMatch mdhn:iconclass47G5;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40089" .  
 
 mdhn:Rope a mdhn:ArchitecturalConceptOrElement ;
@@ -116,6 +114,7 @@ mdhn:Calligraphy_Inscription a mdhn:ArchitecturalConceptOrElement ;
    rdfs:label "Calligraphy Inscription"@en, "کتيبه خوشنویسی"@fa;
    rdfs:comment "a calligraphic inscription in a work of art" ;
    skos:exactMatch mdhn:aat300028702, mdhn:tgm005411_Inscriptions;
+   skos:relatedMatch mdhn:aat300208615;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1640824" .  
 
 mdhn:Text_or_Verses a mdhn:ArchitecturalConceptOrElement ;
@@ -145,7 +144,11 @@ mdhn:Linguistic_Flag_or_Sign a mdhn:Manuscript_Processing ;
 
 mdhn:Dome a mdhn:ArchitecturalConceptOrElement ;
    rdfs:label "Dome"@en, "گنبد"@fa;
-   skos:exactMatch mdhn:aat300001280 , mdhn:tgm003212_Domes;
+   skos:exactMatch mdhn:aat300001280 , 
+      mdhn:tgm003212_Domes, 
+      mdhn:iconclass48C1623, 
+      biblissima:Q319264, 
+      mdhn:sh85038905_Domes;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q12493" . 
 
 mdhn:Daraygah a mdhn:ArchitecturalConceptOrElement ;
@@ -160,24 +163,36 @@ mdhn:Oar a mdhn:ArchitecturalConceptOrElement ;
 
 mdhn:Minaret a mdhn:ArchitecturalConceptOrElement ;
    rdfs:label "Minaret"@en, "مناره"@fa;
-   skos:exactMatch mdhn:aat300007535, mdhn:tgm006608_Minarets;
+   skos:exactMatch mdhn:aat300007535, 
+       mdhn:tgm006608_Minarets,
+       biblissima:Q297054,
+       mdhn:sh85085477_Minarets;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q48356" .  
     
 
 mdhn:Mosques a mdhn:ArchitecturalConceptOrElement ;
    rdfs:label "Mosques"@en, "مسجد"@fa;
-   skos:exactMatch mdhn:aat300007544, mdhn:tgm006778_Mosques;
+   skos:exactMatch mdhn:aat300007544, 
+        mdhn:tgm006778_Mosques,
+        biblissima:Q297036,
+        mdhn:iconclass12I61,
+        mdhn:sh85087470_Mosques;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q32815" .
 
 mdhn:Fortress a mdhn:ArchitecturalConceptOrElement ;
    rdfs:label "Fortress"@en, "قلعه"@fa;
-   skos:exactMatch mdhn:aat300006894, mdhn:tgm004239_Forts__fortifications;
+   skos:exactMatch mdhn:aat300006894, 
+      mdhn:tgm004239_Forts__fortifications,
+      mdhn:iconclass45K13;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q57831" .   
     
 
 mdhn:Building_Ornament a mdhn:ArchitecturalConceptOrElement ;
-   rdfs:label "Minaret"@en, "تزئينات معماری"@fa;
-   skos:exactMatch mdhn:aat300378995, mdhn:tgm000453_Architectural_decorations__ornaments , mdhn:sh85036229_Decoration_and_ornament;
+   rdfs:label "Building Ornament"@en, "تزئينات معماری"@fa;
+   skos:exactMatch mdhn:aat300378995, 
+       mdhn:tgm000453_Architectural_decorations__ornaments ,
+       mdhn:iconclass48A98, 
+       mdhn:sh85036229_Decoration_and_ornament;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q12043387" .               
 
 mdhn:howdah a mdhn:TravelsAndTransportation ;
@@ -191,16 +206,19 @@ mdhn:Divs a mdhn:MythicalAnimalsOrMonsters ;
    skos:exactMatch mdhn:aat500011098;
    skos:relatedMatch mdhn:aat300379730, mdhn:tgm002979_Demons;
    skos:closeMatch mdhn:Devil, mdhn:IblisOrDeamons;
+   skos:broadMatch mdhn:aat300375725, mdhn:iconclass25FF1;
    rdfs:comment "Mythical creatures" ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q177413" . 
 
 mdhn:Devil a mdhn:MythicalAnimalsOrMonsters ;
    rdfs:label "Devil"@en, "ابليس يا اهريمن"@fa;
+   skos:broadMatch mdhn:aat300375725;
    rdfs:comment "a type of supernatural creature in Persian mythology" ;
-   mdhn:icWikiDataURL "Q6674" .     
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q6674" .     
 
 mdhn:IblisOrDeamons a mdhn:MythicalAnimalsOrMonsters ;
    rdfs:label "Iblis"@en, "ابليس يا اهريمن"@fa;
+   skos:broadMatch mdhn:aat300375725;
    rdfs:comment "a type of supernatural creature in Persian mythology" ;
    mdhn:icWikiDataURL "" .     
 
@@ -324,7 +342,7 @@ mdhn:Rifle a mdhn:BattleSignAndEquipment;
 mdhn:Firearms_Weopen a mdhn:BattleSignAndEquipment ;
     rdfs:label "Firearms_Weopen"@en , "اسلحه آتشين(باروتی)"@fa ;
     skos:broadMatch mdhn:Weopen;
-    skos:exactMatch mdhn:aat300037148, iconclass:45C16;
+    skos:exactMatch mdhn:aat300037148,mdhn:iconclass45C16;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q12796" .
 
 mdhn:Cannon  a mdhn:BattleSignAndEquipment ;
@@ -357,9 +375,15 @@ mdhn:Lasso a mdhn:BattleSignAndEquipment  ;
     skos:exactMatch mdhn:aat300255575 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q840507" .    
 
-mdhn:Architectural_Structure a mdhn:ArchitecturalConceptOrElement ;
+mdhn:Column a mdhn:ArchitecturalConceptOrElement ;
+    rdfs:label "Column"@en , "ستون"@fa ;
+    skos:exactMatch biblissima:Q295903, mdhn:iconclass48C161, mdhn:tgm002319_Columns, mdhn:aat300001571;  
+    skos:relatedMatch mdhn:aat300001650;     
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4817" . 
+
+mdhn:Architectural_Structure  a mdhn:ArchitecturalConceptOrElement ;
     rdfs:label "Architectural Structure"@en , "بنای معماری"@fa ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q811979" . 
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q811979" .     
 
 mdhn:Balcony a mdhn:ArchitecturalConceptOrElement  ;
     rdfs:label "Balcony"@en , "بالکن"@fa ;
@@ -569,6 +593,7 @@ mdhn:Blowing_Horn a mdhn:BattleSignAndEquipment;
 
 mdhn:Tamborim a mdhn:MusicalInstrument, mdhn:MusicalInstrument  ;
     rdfs:label "Tamborim"@en , "طبلک"@fa ;
+    skos:broadMatch mdhn:aat300041661;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1751598" . 
 
 
@@ -602,6 +627,7 @@ mdhn:Tambourine a mdhn:MusicalInstrument;
 
 mdhn:Sorna a mdhn:MusicalInstrument;
     rdfs:label "Sorna"@en , "سرنا"@fa ;
+    skos:exactMatch mdhn:aat300222119;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q825246" .  
 
 mdhn:Harp a mdhn:MusicalInstrument;
@@ -692,6 +718,7 @@ mdhn:Rocks a mdhn:NaturalElement ;
 
 mdhn:Fire a mdhn:NaturalElement ;
     rdfs:label "Fire"@en , "آتش"@fa ;
+    skos:exactMatch mdhn:aat300068986, biblissima:Q294901, mdhn:sh85048449_Fire, mdhn:tgm003993_Fire;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3196" .
 
 mdhn:Water a mdhn:NaturalElement  ;
@@ -709,6 +736,10 @@ mdhn:Cloud a mdhn:NaturalElement  ;
 mdhn:Moon a mdhn:NaturalElement  ;
     rdfs:label "Moon"@en , "ماه"@fa ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q405" . 
+
+mdhn:Sun a mdhn:NaturalElement  ;
+    rdfs:label "Sun"@en , "خورشيد"@fa ;
+    mdhn:icWikiDataURL "" .     
     
 mdhn:Star a mdhn:NaturalElement ;
     rdfs:label "Star"@en , "ستاره"@fa ;
@@ -874,11 +905,12 @@ mdhn:Buraq a mdhn:MythicalAnimalsOrMonsters ;
     rdfs:label "Buraq"@en , "براق"@fa ;
     skos:exactMatch biblissima:Q297446, mdhn:sh2020006752_Winged_Horses;
     skos:relatedMatch mdhn:Ascension_of_the_Prophet;
+    skos:broadMatch mdhn:aat300375725;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q332242" .
 
 mdhn:Dragon a mdhn:MythicalAnimalsOrMonsters ;
     rdfs:label "dragon"@en , "اژدها"@fa ;
-    skos:exactMatch mdhn:aat300375726;
+    skos:exactMatch mdhn:aat300375726, biblissima:Q291430 , mdhn:iconclass25FF411 , mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q7559" .    
 
 mdhn:Peacock a mdhn:Animals ;
@@ -1046,10 +1078,15 @@ mdhn:Exodus a mdhn:HistoricalEvent ;
     mdhn:icWikiDataURL "" .     
       
 
+mdhn:Torchiere   a mdhn:ObjectsAndTools ;
+    rdfs:label "torchiere "@en , "مشعل"@fa ;
+    skos:exactMatch mdhn:aat300196222 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1164514" . 
+
 mdhn:Misbaha  a mdhn:ObjectsAndTools ;
     rdfs:label "Misbaha"@en , "تسبيح"@fa ;
     skos:exactMatch mdhn:aat300264661  ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1141821" . 
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1141821" .     
 
 mdhn:Carpet a mdhn:ObjectsAndTools ;
     rdfs:label "Carpet"@en , "فرش"@fa ;
@@ -1162,6 +1199,16 @@ mdhn:Column a mdhn:ArchitecturalConceptOrElement ;
 mdhn:Chain a mdhn:ObjectsAndTools ;
     rdfs:label "chain"@en , "زنجير"@fa ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q2397485" . 
+
+mdhn:Ring a mdhn:ObjectsAndTools ;
+    rdfs:label "Ring"@en , "انگشتر"@fa ;
+    skos:exactMatch mdhn:aat300046012 , mdhn:iconclass41D2664, mdhn:sh85114133_Rings, mdhn:tgm008926_Rings;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q46847" .  
+
+mdhn:Earing a mdhn:ObjectsAndTools ;
+    rdfs:label "Earing"@en , "گوشواره"@fa ;
+    skos:exactMatch mdhn:aat300045998 , mdhn:iconclass41D2663, mdhn:sh85040426_Earrings, mdhn:tgm003432_Earrings;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q168456" .            
 
 mdhn:Coffin a mdhn:ObjectsAndTools ;
     rdfs:label "coffin"@en , "تابوت"@fa ;
