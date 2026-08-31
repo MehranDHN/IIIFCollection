@@ -83,6 +83,9 @@ markmap:
         - mdhn:aat300265673 — Living Organisms (hierarchy name)
           - mdhn:aat300264089 — Agents Facet
 
+#### mdhn:iconclass25FF1
+- No ontology record found for this concept.
+
 ### Incoming associations
 
 #### ← skos:closeMatch
@@ -424,7 +427,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Solomon_and_Queen_of_Sheba — Solomon and Queen of Sheba / بارگاه سليمان و ملکه سبا
     - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
     - skos:closeMatch: iconclass:71I
@@ -444,7 +447,8 @@ markmap:
   - mdhn:iconclass71I_PersianCourt — Solomon’s court and throne in Persian manuscript painting
     - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
   - mdhn:Flaming_Nimbus — Flaming Nimbus / نیمبوس آتشی
-    - Q123456
+    - Q3341893
+    - skos:broadMatch: mdhn:Halo
   - mdhn:Simurgh — Simurgh / سيمرغ
     - Q548119
     - skos:exactMatch: mdhn:aat300379749
@@ -483,7 +487,8 @@ markmap:
     - Q726
     - skos:broadMatch: mdhn:Animal
   - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Feasting — Feasting / بزم
     - Q200538
     - skos:relatedMatch: mdhn:aat300073261
@@ -520,7 +525,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1r ![Div2 cropped figure from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/2121,5963,1687,577/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -528,7 +533,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div3 cropped figure from 1r ![Div3 cropped figure from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/3073,4101,985,1441/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -536,7 +541,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div4 cropped figure from 1r ![Div4 cropped figure from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1772,3974,890,1026/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -544,7 +549,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div5 cropped figure from 1r ![Div5 cropped figure from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1197,3582,796,1877/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -552,7 +557,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Divs cropped figure from 1r ![Divs cropped figure from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/604,4003,818,1550/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -560,7 +565,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from 1r ![Tahmuras cropped figure from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1842,4617,1505,1454/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Tahmuras
     - **Styles:** aat:500011001
@@ -576,7 +581,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Tahmuras_Defeating_the_Divs — Tahmuras Defeating the Divs / طهمورث شکستن دیو ها
     - Q138676508
     - mdhn:isPartOf: mdhn:KingdomOfTahmuras
@@ -682,7 +687,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1v ![Div2 cropped figure from 1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/662,3872,1161,861/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -690,7 +695,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div3 cropped figure from 1v ![Div3 cropped figure from 1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/917,4625,858,729/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -698,7 +703,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div4 cropped figure from 1v ![Div4 cropped figure from 1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/2441,4973,792,919/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -706,7 +711,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div5 cropped figure from 1v ![Div5 cropped figure from 1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/524,1598,880,1143/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -714,7 +719,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from 1v ![Tahmuras cropped figure from 1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/2468,3539,1259,1337/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Tahmuras
     - **Styles:** aat:500011001
@@ -728,7 +733,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Tahmuras_Defeating_the_Divs — Tahmuras Defeating the Divs / طهمورث شکستن دیو ها
     - Q138676508
     - mdhn:isPartOf: mdhn:KingdomOfTahmuras
@@ -836,7 +841,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1v ![Div2 cropped figure from 1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/614,1992,1028,924/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -844,7 +849,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 1v ![Kay Kavus cropped figure from 1v](<https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1055,4046,765,1338/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Kay_Kavus
     - **Styles:** aat:500011001
@@ -862,7 +867,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:RostamStory — The Story of Rostam / داستان رستم
     - mdhn:isPartOf: mdhn:Shahnameh
     - **Narrative episode**
@@ -967,7 +972,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Men hangging cropped figure from MSS_1065 ![Men hangging cropped figure from MSS_1065](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/141,1934,1291,1347/250,/0/default.jpg>)
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Cow cropped figure from MSS_1065 ![Cow cropped figure from MSS_1065](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/1548,913,841,1957/250,/0/default.jpg>)
@@ -978,7 +983,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Cow — Cow / گاو
     - Q11748378
     - skos:broadMatch: mdhn:Animal
@@ -1009,7 +1014,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Camel cropped figure from MSS_1075 ![Camel cropped figure from MSS_1075](<https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/208,1009,1424,1230/250,/0/default.jpg>)
     - **Styles:** aat:500011001
 - **AsCanvas depicts**
@@ -1018,7 +1023,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Camel — Camel / شتر
     - Q106695054
     - skos:broadMatch: mdhn:Animal
@@ -1056,7 +1061,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Battle_Between_Rostam_and_AkvanDiv — Battle between Rostam and AkvanDiv / نبرد رستم و اکوان ديو
     - mdhn:isPartOf: mdhn:RostamStory, mdhn:Story_of_Akvan_Div
     - **Narrative episode**
@@ -1110,7 +1115,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-F1950.1_001 ![Div2 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/316,3668,294,659/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -1118,7 +1123,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div3 cropped figure from FS-F1950.1_001 ![Div3 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/480,790,842,683/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -1126,7 +1131,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div4 cropped figure from FS-F1950.1_001 ![Div4 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2456,2318,746,709/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -1134,7 +1139,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Solomon cropped figure from FS-F1950.1_001 ![Solomon cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1321,2097,907,831/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Solomon
     - **Styles:** aat:500011001
@@ -1146,27 +1151,33 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Angles1 cropped figure from FS-F1950.1_001 ![Angles1 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1026,704,719,575/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angles2 cropped figure from FS-F1950.1_001 ![Angles2 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/725,1132,931,765/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angles3 cropped figure from FS-F1950.1_001 ![Angles3 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/1646,988,974,602/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angles4 cropped figure from FS-F1950.1_001 ![Angles4 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2365,1125,773,778/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angles5 cropped figure from FS-F1950.1_001 ![Angles5 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2253,1736,798,637/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angles6 cropped figure from FS-F1950.1_001 ![Angles6 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/2194,2958,997,965/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angles7 cropped figure from FS-F1950.1_001 ![Angles7 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/333,2301,1220,921/250,/0/default.jpg>)
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Angles8 cropped figure from FS-F1950.1_001 ![Angles8 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/320,2974,2870,972/250,/0/default.jpg>)
@@ -1174,14 +1185,15 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Angles9 cropped figure from FS-F1950.1_001 ![Angles9 cropped figure from FS-F1950.1_001](<https://ids.si.edu/ids/iiif/FS-F1950.1_001/367,3747,1232,727/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 - **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Solomon_and_Queen_of_Sheba — Solomon and Queen of Sheba / بارگاه سليمان و ملکه سبا
     - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
     - skos:closeMatch: iconclass:71I
@@ -1217,7 +1229,8 @@ markmap:
     - Q189233
     - skos:exactMatch: mdhn:aat300038141
   - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:LongNeckedJar — Long-necked Jar / جام گردن بلند
     - Q2413314
     - skos:exactMatch: mdhn:aat300045685
@@ -1266,7 +1279,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-7358_26 ![Div2 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-7358_26/712,2044,879,504/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -1274,30 +1287,34 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Angle1 cropped figure from FS-7358_26 ![Angle1 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-7358_26/365,864,672,681/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angle2 cropped figure from FS-7358_26 ![Angle2 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-7358_26/946,859,585,752/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angle3 cropped figure from FS-7358_26 ![Angle3 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-7358_26/957,1356,643,949/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angle4 cropped figure from FS-7358_26 ![Angle4 cropped figure from FS-7358_26](<https://ids.si.edu/ids/iiif/FS-7358_26/371,1730,562,644/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 - **AsCanvas depicts**
   - mdhn:Divs — Divs / دیوها ★
     - Q177413
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Yusuf_and_Zulaikha — Yusuf and Zulaikha / يوسف و زليخا
     - Q3350827
     - mdhn:isPartOf: mdhn:Haft_Awrang
@@ -1319,7 +1336,8 @@ markmap:
     - mdhn:saidToBeTheSameAs: wd:Q179575, wd:Q2095353, wd:Q2155501, wd:Q3678579, wd:Q5576009, wd:Q825
     - skos:exactMatch: mdhn:sh85055517_God
   - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### Resource: FS-7421_48 — Battle between a demon and two men ![Battle between a demon and two men](<https://ids.si.edu/ids/iiif/FS-7421_48/full/250,/0/default.jpg>)
 
@@ -1338,7 +1356,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Garshasp cropped figure from FS-7421_48 ![Garshasp cropped figure from FS-7421_48](<https://ids.si.edu/ids/iiif/FS-7421_48/1229,1447,698,902/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Garshasp
     - **Styles:** aat:500011001
@@ -1356,7 +1374,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Garshaspnameh — Garshaspnameh / گرشاسب نامه
     - Q6391136
     - mdhn:isPartOf: mdhn:Persian_Epic_and_Mythology
@@ -1443,7 +1461,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Solomon cropped figure from FS-8474_19 ![Solomon cropped figure from FS-8474_19](<https://ids.si.edu/ids/iiif/FS-8474_19/2573,2461,445,1034/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Solomon
     - **Styles:** aat:500011001
@@ -1487,7 +1505,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Solomon_and_Queen_of_Sheba — Solomon and Queen of Sheba / بارگاه سليمان و ملکه سبا
     - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
     - skos:closeMatch: iconclass:71I
@@ -1508,7 +1526,8 @@ markmap:
   - mdhn:iconclass71I_PersianCourt — Solomon’s court and throne in Persian manuscript painting
     - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
   - mdhn:Flaming_Nimbus — Flaming Nimbus / نیمبوس آتشی
-    - Q123456
+    - Q3341893
+    - skos:broadMatch: mdhn:Halo
   - mdhn:God — God / پروردگار
     - Q190
     - mdhn:saidToBeTheSameAs: wd:Q179575, wd:Q2095353, wd:Q2155501, wd:Q3678579, wd:Q5576009, wd:Q825
@@ -1527,16 +1546,18 @@ markmap:
     - Q189233
     - skos:exactMatch: mdhn:aat300038141
   - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Persian_Architecture — Persian Architecture / معماری ایرانی
     - Q137133192
     - skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
   - mdhn:Calligraphy_Inscription — Calligraphy Inscription / کتيبه خوشنویسی
     - Q1640824
     - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
-  - mdhn:Building_Ornament — Minaret / تزئينات معماری
+    - skos:relatedMatch: mdhn:aat300208615
+  - mdhn:Building_Ornament — Building Ornament / تزئينات معماری
     - Q12043387
-    - skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+    - skos:exactMatch: mdhn:aat300378995
   - mdhn:Daraygah — Daraygah / درآيگاه
   - mdhn:Sea_River_Pool — Sea/River/Pool / دریا/رودخانه/استخر
     - Q4022
@@ -1631,7 +1652,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Rostams_Seventh_Labour — Rostam's Seventh Labour
     - Q138585485
     - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
@@ -1713,7 +1734,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Rostams_Seventh_Labour — Rostam's Seventh Labour
     - Q138585485
     - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
@@ -1804,7 +1825,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Solomon cropped figure from f1b ![Solomon cropped figure from f1b](<https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/4396,4476,1014,1902/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Solomon
     - **Styles:** aat:500011001
@@ -1814,7 +1835,8 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Angel cropped figure from f1b ![Angel cropped figure from f1b](<https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/3443,4597,1070,1170/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Simurgh cropped figure from f1b ![Simurgh cropped figure from f1b](<https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/3866,2719,2455,1084/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Simurgh
     - **Styles:** aat:500011001
@@ -1840,7 +1862,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Solomon_and_Queen_of_Sheba — Solomon and Queen of Sheba / بارگاه سليمان و ملکه سبا
     - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
     - skos:closeMatch: iconclass:71I
@@ -1918,7 +1940,8 @@ markmap:
     - Q106695054
     - skos:broadMatch: mdhn:Animal
   - mdhn:Flaming_Nimbus — Flaming Nimbus / نیمبوس آتشی
-    - Q123456
+    - Q3341893
+    - skos:broadMatch: mdhn:Halo
   - mdhn:Simurgh — Simurgh / سيمرغ
     - Q548119
     - skos:exactMatch: mdhn:aat300379749
@@ -1927,7 +1950,8 @@ markmap:
     - skos:exactMatch: mdhn:aat5300250068
     - skos:broadMatch: mdhn:Animal
   - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Mace — Mace / گرز
     - Q272990
     - skos:exactMatch: mdhn:aat300037214
@@ -1986,15 +2010,18 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Dancer Angels cropped figure from f2a ![Dancer Angels cropped figure from f2a](<https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/4194,8491,2334,2196/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angels cropped figure from f2a ![Angels cropped figure from f2a](<https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/3050,2784,1859,2167/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angels cropped figure from f2a ![Angels cropped figure from f2a](<https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/4376,2670,1824,901/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Musicians cropped figure from f2a ![Musicians cropped figure from f2a](<https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/3040,8400,1706,2166/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Feasting
     - **Styles:** aat:500011001
@@ -2006,7 +2033,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Solomon_and_Queen_of_Sheba — Solomon and Queen of Sheba / بارگاه سليمان و ملکه سبا
     - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
     - skos:closeMatch: iconclass:71I
@@ -2059,7 +2086,8 @@ markmap:
     - Q2002752
     - skos:exactMatch: mdhn:aat300256716
   - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Feasting — Feasting / بزم
     - Q200538
     - skos:relatedMatch: mdhn:aat300073261
@@ -2092,7 +2120,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div cropped figure from 62b ![Div cropped figure from 62b](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/4744,4812,855,1264/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -2100,7 +2128,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Divs cropped figure from 62b ![Divs cropped figure from 62b](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/5929,2847,2200,4737/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -2108,7 +2136,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div cropped figure from 62b ![Div cropped figure from 62b](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/6309,2826,1744,2100/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -2116,7 +2144,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div cropped figure from 62b ![Div cropped figure from 62b](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/6580,4888,1224,1829/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -2124,7 +2152,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div cropped figure from 62b ![Div cropped figure from 62b](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/5853,5572,974,1373/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -2132,7 +2160,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div cropped figure from 62b ![Div cropped figure from 62b](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/7221,6171,870,1555/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -2140,7 +2168,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Rostam cropped figure from 62b ![Rostam cropped figure from 62b](<https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/4205,7420,2760,2724/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Rostam
     - **Styles:** aat:500011001
@@ -2161,7 +2189,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Rostams_Seventh_Labour — Rostam's Seventh Labour
     - Q138585485
     - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
@@ -2254,7 +2282,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Divs cropped figure from 2v ![Divs cropped figure from 2v](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/2295,1885,664,1168/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -2262,7 +2290,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Solomon cropped figure from 2v ![Solomon cropped figure from 2v](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1593,1951,872,1158/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Solomon
     - **Styles:** aat:500011001
@@ -2277,11 +2305,13 @@ markmap:
   - mdhn:Fragment_Cropped_Image: Angel cropped figure from 2v ![Angel cropped figure from 2v](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/982,1711,284,924/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Ange2 cropped figure from 2v ![Ange2 cropped figure from 2v](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/2258,2932,585,835/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Simurgh cropped figure from 2v ![Simurgh cropped figure from 2v](<https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1651,1357,1016,585/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Simurgh
     - **Styles:** aat:500011001
@@ -2342,7 +2372,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Solomon_and_Queen_of_Sheba — Solomon and Queen of Sheba / بارگاه سليمان و ملکه سبا
     - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
     - skos:closeMatch: iconclass:71I
@@ -2402,7 +2432,8 @@ markmap:
     - Q106695054
     - skos:broadMatch: mdhn:Animal
   - mdhn:Flaming_Nimbus — Flaming Nimbus / نیمبوس آتشی
-    - Q123456
+    - Q3341893
+    - skos:broadMatch: mdhn:Halo
   - mdhn:Simurgh — Simurgh / سيمرغ
     - Q548119
     - skos:exactMatch: mdhn:aat300379749
@@ -2414,7 +2445,8 @@ markmap:
     - Q189233
     - skos:exactMatch: mdhn:aat300038141
   - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Mace — Mace / گرز
     - Q272990
     - skos:exactMatch: mdhn:aat300037214
@@ -2466,7 +2498,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Dancers cropped figure from 3r ![Dancers cropped figure from 3r](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1970,3496,698,863/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -2474,30 +2506,35 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Solomon cropped figure from 3r ![Solomon cropped figure from 3r](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1895,2395,607,818/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Queen_of_Sheba
     - **Styles:** aat:500011001
   - mdhn:Fragment_Cropped_Image: Angel1 cropped figure from 3r ![Angel1 cropped figure from 3r](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1936,1382,876,677/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angel2 cropped figure from 3r ![Angel2 cropped figure from 3r](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/2791,1386,631,846/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angel3 cropped figure from 3r ![Angel3 cropped figure from 3r](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/2511,2184,921,1142/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angel4 cropped figure from 3r ![Angel4 cropped figure from 3r](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1433,1878,726,725/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Image: Angel5 cropped figure from 3r ![Angel5 cropped figure from 3r](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/2229,2183,457,529/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Angles_From_Heaven
     - **Styles:** aat:500011001
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 3r ![Pattern1 cropped from 3r](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/651,4740,2822,996/250,/0/default.jpg>)
     - **Styles:** aat:500011064
   - mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 3r ![Pattern1 cropped from 3r](<https://content.staatsbibliothek-berlin.de/dc/731527356-0007/385,1105,1003,4535/250,/0/default.jpg>)
@@ -2546,7 +2583,8 @@ markmap:
   - mdhn:Fruits — Fruits / ميوه
     - Q1364
   - mdhn:Flaming_Nimbus — Flaming Nimbus / نیمبوس آتشی
-    - Q123456
+    - Q3341893
+    - skos:broadMatch: mdhn:Halo
   - mdhn:Simurgh — Simurgh / سيمرغ
     - Q548119
     - skos:exactMatch: mdhn:aat300379749
@@ -2558,7 +2596,8 @@ markmap:
     - Q189233
     - skos:exactMatch: mdhn:aat300038141
   - mdhn:Angles_From_Heaven — Angles From Heaven / فرشتگان از بهشت
-    - Q123456
+    - Q235113
+    - skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
   - mdhn:Feasting — Feasting / بزم
     - Q200538
     - skos:relatedMatch: mdhn:aat300073261
@@ -2591,7 +2630,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Siamak cropped figure from 12v ![Siamak cropped figure from 12v](<https://content.staatsbibliothek-berlin.de/dc/731527356-0026/1786,2982,758,948/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Siamak
     - **Styles:** aat:500011001
@@ -2610,7 +2649,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Kingdom_of_Keyumars — Kingdom of Keyumars / پادشاهی کيومرث
     - Q138719971
     - mdhn:isPartOf: mdhn:Shahnameh
@@ -2707,7 +2746,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Siamak cropped figure from 13v ![Siamak cropped figure from 13v](<https://content.staatsbibliothek-berlin.de/dc/731525744-0032/1071,2944,576,1035/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Siamak
     - **Styles:** aat:500011001
@@ -2724,7 +2763,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Kingdom_of_Keyumars — Kingdom of Keyumars / پادشاهی کيومرث
     - Q138719971
     - mdhn:isPartOf: mdhn:Shahnameh
@@ -2826,7 +2865,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: div2 cropped figure from 202v ![div2 cropped figure from 202v](<https://content.staatsbibliothek-berlin.de/dc/731525744-0410/269,2222,225,387/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -2834,7 +2873,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: div4 cropped figure from 202v ![div4 cropped figure from 202v](<https://content.staatsbibliothek-berlin.de/dc/731525744-0410/582,2877,610,1107/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -2842,7 +2881,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: soldiers cropped figure from 202v ![soldiers cropped figure from 202v](<https://content.staatsbibliothek-berlin.de/dc/731525744-0410/1722,1405,604,1104/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -2850,7 +2889,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: soldiers cropped figure from 202v ![soldiers cropped figure from 202v](<https://content.staatsbibliothek-berlin.de/dc/731525744-0410/1739,2554,591,1287/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -2858,7 +2897,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Kaykavus cropped figure from 202v ![Kaykavus cropped figure from 202v](<https://content.staatsbibliothek-berlin.de/dc/731525744-0410/1174,1828,769,1221/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Kay_Kavus
     - **Styles:** aat:500011001
@@ -2875,7 +2914,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:KayKavus_Encounters_Arzhang_Div_In_Mazandaran — KayKavus Encounters Arzhang Div In Mazandaran / رويارويی کيکاوس و ارژنگ ديو در مازندران
     - mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus
     - **Narrative episode**
@@ -2982,7 +3021,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Rostam cropped figure from 208r ![Rostam cropped figure from 208r](<https://content.staatsbibliothek-berlin.de/dc/731525744-0421/1632,2534,1111,1115/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Rostam
     - **Styles:** aat:500011001
@@ -3003,7 +3042,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Rostams_Seventh_Labour — Rostam's Seventh Labour
     - Q138585485
     - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
@@ -3106,7 +3145,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:RostamStory — The Story of Rostam / داستان رستم
     - mdhn:isPartOf: mdhn:Shahnameh
     - **Narrative episode**
@@ -3184,7 +3223,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div2 cropped figure from f23v ![Div2 cropped figure from f23v](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/428,1621,265,429/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -3192,7 +3231,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div3 cropped figure from f23v ![Div3 cropped figure from f23v](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/759,2074,222,376/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -3200,7 +3239,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div4 cropped figure from f23v ![Div4 cropped figure from f23v](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/329,2034,284,411/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -3208,7 +3247,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from f23v ![Tahmuras cropped figure from f23v](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/897,1368,553,534/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Tahmuras
     - **Styles:** aat:500011001
@@ -3222,7 +3261,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Tahmuras_Defeating_the_Divs — Tahmuras Defeating the Divs / طهمورث شکستن دیو ها
     - Q138676508
     - mdhn:isPartOf: mdhn:KingdomOfTahmuras
@@ -3301,7 +3340,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Rostams_Seventh_Labour — Rostam's Seventh Labour
     - Q138585485
     - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
@@ -3378,7 +3417,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:EnthronementOfJamshid
   - mdhn:knitting — knitting / بافندگی
     - Q193188
@@ -3453,7 +3492,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div2 cropped figure from 221r ![Div2 cropped figure from 221r](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/519,782,182,271/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -3461,7 +3500,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div3 cropped figure from 221r ![Div3 cropped figure from 221r](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/865,653,453,466/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -3469,7 +3508,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div4 cropped figure from 221r ![Div4 cropped figure from 221r](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/1206,657,263,211/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -3477,7 +3516,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div5 cropped figure from 221r ![Div5 cropped figure from 221r](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/633,1522,291,507/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -3485,7 +3524,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div6 cropped figure from 221r ![Div6 cropped figure from 221r](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/1345,2240,741,245/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -3493,7 +3532,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div7 cropped figure from 221r ![Div7 cropped figure from 221r](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/548,1319,583,779/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -3501,7 +3540,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div8 cropped figure from 221r ![Div8 cropped figure from 221r](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/76,2188,345,297/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -3509,7 +3548,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Div9 cropped figure from 221r ![Div9 cropped figure from 221r](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/248,679,257,321/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Divs ★
     - **Styles:** aat:500011001
@@ -3517,7 +3556,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Kay Khosrow cropped figure from 166r ![Kay Khosrow cropped figure from 166r](<https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/1282,1772,524,555/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:KayKhosrow
     - **Styles:** aat:500011001
@@ -3554,9 +3593,9 @@ markmap:
     - Q2460567
     - skos:exactMatch: mdhn:aat300046127
     - skos:relatedMatch: mdhn:aat300212133
-  - mdhn:Building_Ornament — Minaret / تزئينات معماری
+  - mdhn:Building_Ornament — Building Ornament / تزئينات معماری
     - Q12043387
-    - skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+    - skos:exactMatch: mdhn:aat300378995
   - mdhn:Horse — Horse / اسب
     - Q726
     - skos:broadMatch: mdhn:Animal
@@ -3636,7 +3675,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Fragment_Cropped_Image: Khazrevan Div cropped figure from 1r ![Khazrevan Div cropped figure from 1r](<https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/2666,3500,671,1210/250,/0/default.jpg>)
     - **elementLOUD:** mdhn:Kharozan_Div
     - **Styles:** aat:500011001
@@ -3669,7 +3708,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Kingdom_of_Keyumars — Kingdom of Keyumars / پادشاهی کيومرث
     - Q138719971
     - mdhn:isPartOf: mdhn:Shahnameh
@@ -3745,7 +3784,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Solomon_and_Queen_of_Sheba — Solomon and Queen of Sheba / بارگاه سليمان و ملکه سبا
     - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
     - skos:closeMatch: iconclass:71I
@@ -3815,7 +3854,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Story_of_Ramayana — Story of Ramayana / افسانه رامايانا
     - Q37293
     - mdhn:isPartOf: mdhn:Indian_Epic_and_Mythology
@@ -3828,7 +3867,7 @@ markmap:
           - mdhn:Narrative_Episodes — Narrative Episodes / روايت‌های اساطيری/نظم و نثر
   - mdhn:Fortress — Fortress / قلعه
     - Q57831
-    - skos:exactMatch: mdhn:aat300006894, mdhn:tgm004239_Forts__fortifications
+    - skos:exactMatch: mdhn:aat300006894
   - mdhn:Architectural_Structure — Architectural Structure / بنای معماری
     - Q811979
   - mdhn:Brass_Metal_Jingle — jingle / زنگوله قورچه برنجی
@@ -3843,7 +3882,7 @@ markmap:
     - skos:relatedMatch: mdhn:aat300001650
   - mdhn:Minaret — Minaret / مناره
     - Q48356
-    - skos:exactMatch: mdhn:aat300007535, mdhn:tgm006608_Minarets
+    - skos:exactMatch: mdhn:aat300007535
   - mdhn:Tree — Tree / درخت
     - Q10884
     - skos:exactMatch: mdhn:aat300132410
@@ -3875,7 +3914,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Story_of_Ramayana — Story of Ramayana / افسانه رامايانا
     - Q37293
     - mdhn:isPartOf: mdhn:Indian_Epic_and_Mythology
@@ -3928,7 +3967,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Story_of_Ramayana — Story of Ramayana / افسانه رامايانا
     - Q37293
     - mdhn:isPartOf: mdhn:Indian_Epic_and_Mythology
@@ -3987,7 +4026,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Story_of_Ramayana — Story of Ramayana / افسانه رامايانا
     - Q37293
     - mdhn:isPartOf: mdhn:Indian_Epic_and_Mythology
@@ -4009,9 +4048,9 @@ markmap:
     - skos:exactMatch: mdhn:aat300014681
   - mdhn:GemEncrustedCrown — Gem-Encrusted Crown / تاج مرصع
     - Q170984
-  - mdhn:Building_Ornament — Minaret / تزئينات معماری
+  - mdhn:Building_Ornament — Building Ornament / تزئينات معماری
     - Q12043387
-    - skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+    - skos:exactMatch: mdhn:aat300378995
   - mdhn:Architectural_Structure — Architectural Structure / بنای معماری
     - Q811979
   - mdhn:Column — Column / ستون
@@ -4037,7 +4076,7 @@ markmap:
     - skos:exactMatch: mdhn:aat500011098
     - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
     - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-    - skos:broadMatch: mdhn:aat300375725
+    - skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
   - mdhn:Story_of_Ramayana — Story of Ramayana / افسانه رامايانا
     - Q37293
     - mdhn:isPartOf: mdhn:Indian_Epic_and_Mythology
