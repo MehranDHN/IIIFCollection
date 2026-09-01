@@ -1,0 +1,21 @@
+digraph iconography_skos {
+  rankdir=TB;
+  graph [bgcolor="#ffffff"];
+  node [shape=box, style="filled,rounded", fontname="Arial", fontsize=9, penwidth=0.8];
+  edge [color="#555555", arrowsize=0.8];
+  overlap=scale;
+  splines=true;
+  ranksep=1.0;
+  nodesep=0.4;
+  "Flaming_Nimbus" [label="Flaming Nimbus (Flaming_Nimbus)", tooltip="Flaming Nimbus", fillcolor="#f2f2f2"];
+  "Halo" [label="Halo", tooltip="Halo", fillcolor="#f2f2f2"];
+  "sh85091972_Nimbus" [label="mdhn:sh85091972_Nimbus", tooltip="mdhn:sh85091972_Nimbus", fillcolor="#f2f2f2"];
+  "Q295434" [label="biblissima:Q295434", tooltip="biblissima:Q295434", fillcolor="#f2f2f2"];
+  "iconclass22C3111" [label="cross-nimbus (iconclass22C3111)", tooltip="cross-nimbus", fillcolor="#cfe2f3"];
+  "aat300375684" [label="halos (glories) (aat300375684)", tooltip="halos (glories)", fillcolor="#d8f7d8"];
+  "Flaming_Nimbus" -> "Halo" [color="#38761d", style="dashed", label="broadMatch"];
+  "Halo" -> "sh85091972_Nimbus" [color="#b23c17", style="solid", label="exactMatch"];
+  "Halo" -> "Q295434" [color="#b23c17", style="solid", label="exactMatch"];
+  "Halo" -> "iconclass22C3111" [color="#b23c17", style="solid", label="exactMatch"];
+  "Halo" -> "aat300375684" [color="#b23c17", style="solid", label="exactMatch"];
+}

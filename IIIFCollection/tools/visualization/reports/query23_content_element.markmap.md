@@ -1,0 +1,591 @@
+---
+markmap:
+  initialExpandLevel: 4
+  colorFreezeLevel: 2
+---
+
+# Query23 Content Element
+
+## Departed Folios · Collection
+### The White Dīv captures and blinds Kay Kāvus · Resource
+- **Controlled vocabulary**
+  - Conceptual Drawings
+  - Manuscript Folio
+  - miniatures (paintings)
+  - Recto
+#### Ṭahmūras defeats the demon army · Canvas
+- **Narrative episodes**
+  - KayKavus captured and blinded in cave
+    - **Characters:** Arzhang Div, KayKavus, White Div (7th Cource)
+  - Kingdom Kay Kāvus
+    - **isPartOf:** KayKavus captured and blinded in cave, Rostam's Seven Labours
+    - **Characters:** Arzhang Div, KayKavus, Rostam, Siyavash
+  - Rostam's Seven Labours
+    - **isPartOf:** Rostam's Seventh Labour
+    - **Characters:** KayKavus, Rostam
+  - The Story of Rostam
+    - **isPartOf:** Rostam Capture The Rakhsh With Lasso, Rostam's Seven Labours, Rustam Slays White Elephant, Second Battle Of Rostam and Afrasiab
+    - **Characters:** Rostam
+- **Iconography**
+  - Cave
+  - Divs
+    - **broadMatch:** legendary beings, mdhn:iconclass25FF1
+    - **closeMatch:** Devil, Iblis
+    - **exactMatch:** div
+    - **relatedMatch:** demons, Demons
+  - Flower
+  - Headgear
+    - **exactMatch:** headgear, Headgear
+  - jingle
+    - **exactMatch:** hammers (tools), Jingles
+  - Mace
+    - **broadMatch:** Weopen
+    - **exactMatch:** maces (weapons)
+  - Plant
+    - **exactMatch:** Plantae (kingdom)
+  - Robe
+    - **exactMatch:** robes (main garments)
+    - **relatedMatch:** <costume by function>
+  - Rocks
+  - Shield
+    - **broadMatch:** Weopen
+    - **exactMatch:** mdhn:aat300222454
+  - Stone Mace
+    - **broadMatch:** Mace, Weopen
+  - Tree
+    - **exactMatch:** trees (woody plants)
+  - Turban
+    - **exactMatch:** turbans
+    - **relatedMatch:** <costume by function>
+- **Controlled vocabulary**
+  - Conceptual Drawings
+  - Manuscript Folio
+  - Scribing
+  - Verso
+- **Characters**
+  - KayKavus
+  - White Div (7th Cource)
+- Div1 cropped figure from 1v
+  - ![Div1 cropped figure from 1v](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/2332,1909,1028,924/200,/0/default.jpg)
+  - **Persona:** Divs
+  - **Subject (AAT):** fragment cropped image
+- Div2 cropped figure from 1v
+  - ![Div2 cropped figure from 1v](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/614,1992,1028,924/200,/0/default.jpg)
+  - **Persona:** Divs
+  - **Subject (AAT):** fragment cropped image
+- Kay Kavus cropped figure from 1v
+  - ![Kay Kavus cropped figure from 1v](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1055,4046,765,1338/200,/0/default.jpg)
+  - **Persona:** KayKavus
+  - **Subject (AAT):** fragment cropped image
+- Unknown man 1 in captive cropped figure from 1v
+  - ![Unknown man 1 in captive cropped figure from 1v](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/599,4271,685,1138/200,/0/default.jpg)
+  - **Subject (AAT):** fragment cropped image
+- Unknown man 2 in captive  cropped figure from 1v
+  - ![Unknown man 2 in captive  cropped figure from 1v](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1639,4393,685,1138/200,/0/default.jpg)
+  - **Subject (AAT):** fragment cropped image
+- White Div cropped figure from 1v
+  - ![White Div cropped figure from 1v](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/2271,4114,1384,2374/200,/0/default.jpg)
+  - **Persona:** White Div (7th Cource)
+  - **Subject (AAT):** fragment cropped image
+## Juki Shahnama · Collection
+### Shāhnāmah MS MS-RAS-00239 (Juki) · Resource
+- **Controlled vocabulary**
+  - Illuminated Manuscript
+  - nastaʻliq
+#### Juki Shahnamah, Rostam kills white Div · Canvas
+- **Narrative episodes**
+  - Rostam's Seventh Labour
+    - **Characters:** Rakhsh, Rostam
+  - The Story of Rostam
+    - **isPartOf:** Rostam Capture The Rakhsh With Lasso, Rostam's Seven Labours, Rustam Slays White Elephant, Second Battle Of Rostam and Afrasiab
+    - **Characters:** Rostam
+- **Iconography**
+  - Bow and Arrow
+    - **broadMatch:** Weopen
+    - **closeMatch:** crossbows
+  - Cave
+  - Cloud
+  - Combat Helmet
+    - **exactMatch:** mdhn:aat300391023
+  - Dagger
+    - **broadMatch:** Weopen
+    - **exactMatch:** biblissima:Q320290, Daggers, daggers (weapons)
+  - Divs
+    - **broadMatch:** legendary beings, mdhn:iconclass25FF1
+    - **closeMatch:** Devil, Iblis
+    - **exactMatch:** div
+    - **relatedMatch:** demons, Demons
+  - Flower
+  - Headgear
+    - **exactMatch:** headgear, Headgear
+  - Horse
+    - **broadMatch:** Animal
+  - mdhn:Rock
+  - Plant
+    - **exactMatch:** Plantae (kingdom)
+  - Robe
+    - **exactMatch:** robes (main garments)
+    - **relatedMatch:** <costume by function>
+  - Sword
+    - **broadMatch:** Weopen
+    - **exactMatch:** biblissima:Q294911, swords, Swords
+  - TearingApart
+    - **broadMatch:** Murder
+  - Tree
+    - **exactMatch:** trees (woody plants)
+- **Controlled vocabulary**
+  - Conceptual Drawings
+  - Manuscript Folio
+  - Recto
+  - Scribing
+- **Characters**
+  - Rakhsh
+  - Rostam
+  - White Div (7th Cource)
+- Olad Div cropped figure from 44r
+  - ![Olad Div cropped figure from 44r](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/4467,4589,534,1307/200,/0/default.jpg)
+  - **Persona:** Olad Div
+  - **Subject (AAT):** fragment cropped image
+- Rakhsh cropped figure from 44r
+  - ![Rakhsh cropped figure from 44r](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/3987,4886,511,612/200,/0/default.jpg)
+  - **Persona:** Rakhsh
+  - **Subject (AAT):** fragment cropped image
+- Rostam cropped figure from 44r
+  - ![Rostam cropped figure from 44r](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/2600,5794,933,1205/200,/0/default.jpg)
+  - **Persona:** Rostam
+  - **Subject (AAT):** fragment cropped image
+- White Div cropped figure from 44r
+  - ![White Div cropped figure from 44r](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/2066,6171,1878,992/200,/0/default.jpg)
+  - **Persona:** White Div (7th Cource)
+  - **Subject (AAT):** fragment cropped image
+## Peck Shahnama · Collection
+### Kitāb-i Shāhnāmah Peck Shahnamah · Resource
+- **Controlled vocabulary**
+  - Illuminated Manuscript
+  - nastaʻliq
+#### Peck Shahnamah, Rostam chooses his horse, Rakhsh · Canvas
+- **Narrative episodes**
+  - Kingdom Of Garshasp
+    - **isPartOf:** Rostam Capture The Rakhsh With Lasso
+    - **Characters:** Garshasp
+  - Rostam Capture The Rakhsh With Lasso
+  - The Story of Rostam
+    - **isPartOf:** Rostam Capture The Rakhsh With Lasso, Rostam's Seven Labours, Rustam Slays White Elephant, Second Battle Of Rostam and Afrasiab
+    - **Characters:** Rostam
+- **Iconography**
+  - Bird
+    - **broadMatch:** Animal
+  - Combat Helmet
+    - **exactMatch:** mdhn:aat300391023
+  - Flower
+  - Headgear
+    - **exactMatch:** headgear, Headgear
+  - Horse
+    - **broadMatch:** Animal
+  - Lasso
+    - **exactMatch:** mdhn:aat300255575
+  - mdhn:Cloude
+  - mdhn:Rock
+  - Plant
+    - **exactMatch:** Plantae (kingdom)
+  - Tree
+    - **exactMatch:** trees (woody plants)
+  - Turban
+    - **exactMatch:** turbans
+    - **relatedMatch:** <costume by function>
+- **Controlled vocabulary**
+  - Conceptual Drawings
+  - Halkari
+  - Manuscript Folio
+  - Recto
+  - Scribing
+- **Characters**
+  - Rakhsh
+  - Rostam
+- Farmer cropped figure from 54a
+  - ![Farmer cropped figure from 54a](https://iiif-cloud.princeton.edu/iiif/2/70%2F3d%2F24%2F703d249a3c914c61a027424f2f33878c%2Fintermediate_file/7172,7645,800,2706/200,/0/default.jpg)
+  - **Subject (AAT):** fragment cropped image
+- Persona cropped figure from 54a
+  - ![Persona cropped figure from 54a](https://iiif-cloud.princeton.edu/iiif/2/70%2F3d%2F24%2F703d249a3c914c61a027424f2f33878c%2Fintermediate_file/5761,4514,1764,2088/200,/0/default.jpg)
+  - **Subject (AAT):** fragment cropped image
+- Persona cropped figure from 54a
+  - ![Persona cropped figure from 54a](https://iiif-cloud.princeton.edu/iiif/2/70%2F3d%2F24%2F703d249a3c914c61a027424f2f33878c%2Fintermediate_file/3367,5030,1447,1137/200,/0/default.jpg)
+  - **Subject (AAT):** fragment cropped image
+- Persona cropped figure from 54a
+  - ![Persona cropped figure from 54a](https://iiif-cloud.princeton.edu/iiif/2/70%2F3d%2F24%2F703d249a3c914c61a027424f2f33878c%2Fintermediate_file/1876,3634,1647,2874/200,/0/default.jpg)
+  - **Subject (AAT):** fragment cropped image
+- Rakhsh cropped figure from 54a
+  - ![Rakhsh cropped figure from 54a](https://iiif-cloud.princeton.edu/iiif/2/70%2F3d%2F24%2F703d249a3c914c61a027424f2f33878c%2Fintermediate_file/4950,8685,3001,1737/200,/0/default.jpg)
+  - **Persona:** Rakhsh
+  - **Subject (AAT):** fragment cropped image
+- Wild orses cropped figure from 54a
+  - ![Wild orses cropped figure from 54a](https://iiif-cloud.princeton.edu/iiif/2/70%2F3d%2F24%2F703d249a3c914c61a027424f2f33878c%2Fintermediate_file/2429,6296,5544,2921/200,/0/default.jpg)
+  - **Subject (AAT):** fragment cropped image
+- Young Rostam cropped figure from 54a
+  - ![Young Rostam cropped figure from 54a](https://iiif-cloud.princeton.edu/iiif/2/70%2F3d%2F24%2F703d249a3c914c61a027424f2f33878c%2Fintermediate_file/2485,8421,1622,2598/200,/0/default.jpg)
+  - **Persona:** Rostam
+  - **Subject (AAT):** fragment cropped image
+#### Peck Shahnamah, Rostam kills white Div · Canvas
+- **Narrative episodes**
+  - Rostam's Seventh Labour
+    - **Characters:** Rakhsh, Rostam
+  - The Story of Rostam
+    - **isPartOf:** Rostam Capture The Rakhsh With Lasso, Rostam's Seven Labours, Rustam Slays White Elephant, Second Battle Of Rostam and Afrasiab
+    - **Characters:** Rostam
+- **Iconography**
+  - Babr-e Bayan
+  - Cave
+  - Divs
+    - **broadMatch:** legendary beings, mdhn:iconclass25FF1
+    - **closeMatch:** Devil, Iblis
+    - **exactMatch:** div
+    - **relatedMatch:** demons, Demons
+  - Headgear
+    - **exactMatch:** headgear, Headgear
+  - Horse
+    - **broadMatch:** Animal
+  - jingle
+    - **exactMatch:** hammers (tools), Jingles
+  - mdhn:Cloude
+  - mdhn:Rock
+  - Plant
+    - **exactMatch:** Plantae (kingdom)
+  - Robe
+    - **exactMatch:** robes (main garments)
+    - **relatedMatch:** <costume by function>
+  - Sword
+    - **broadMatch:** Weopen
+    - **exactMatch:** biblissima:Q294911, swords, Swords
+  - TearingApart
+    - **broadMatch:** Murder
+  - Tree
+    - **exactMatch:** trees (woody plants)
+- **Controlled vocabulary**
+  - Conceptual Drawings
+  - Halkari
+  - Manuscript Folio
+  - Recto
+  - Scribing
+- **Characters**
+  - Rakhsh
+  - Rostam
+  - White Div (7th Cource)
+- Div cropped figure from 62b
+  - ![Div cropped figure from 62b](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/5853,5572,974,1373/200,/0/default.jpg)
+  - **Persona:** Divs
+  - **Subject (AAT):** fragment cropped image
+- Div cropped figure from 62b
+  - ![Div cropped figure from 62b](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/7221,6171,870,1555/200,/0/default.jpg)
+  - **Persona:** Divs
+  - **Subject (AAT):** fragment cropped image
+- Div cropped figure from 62b
+  - ![Div cropped figure from 62b](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/4744,4812,855,1264/200,/0/default.jpg)
+  - **Persona:** Divs
+  - **Subject (AAT):** fragment cropped image
+- Div cropped figure from 62b
+  - ![Div cropped figure from 62b](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/6309,2826,1744,2100/200,/0/default.jpg)
+  - **Persona:** Divs
+  - **Subject (AAT):** fragment cropped image
+- Div cropped figure from 62b
+  - ![Div cropped figure from 62b](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/6580,4888,1224,1829/200,/0/default.jpg)
+  - **Persona:** Divs
+  - **Subject (AAT):** fragment cropped image
+- Divs cropped figure from 62b
+  - ![Divs cropped figure from 62b](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/5929,2847,2200,4737/200,/0/default.jpg)
+  - **Persona:** Divs
+  - **Subject (AAT):** fragment cropped image
+- Injured Div cropped figure from 62b
+  - ![Injured Div cropped figure from 62b](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/6355,9640,1758,1494/200,/0/default.jpg)
+  - **Persona:** Divs
+  - **Subject (AAT):** fragment cropped image
+- Rakhsh cropped figure from 62b
+  - ![Rakhsh cropped figure from 62b](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/1908,5014,1224,1601/200,/0/default.jpg)
+  - **Persona:** Rakhsh
+  - **Subject (AAT):** fragment cropped image
+- Rostam cropped figure from 62b
+  - ![Rostam cropped figure from 62b](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/4205,7420,2760,2724/200,/0/default.jpg)
+  - **Persona:** Rostam
+  - **Subject (AAT):** fragment cropped image
+- Rostam cropped figure from 62b
+  - ![Rostam cropped figure from 62b](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/2834,4455,869,1775/200,/0/default.jpg)
+  - **Persona:** Olad Div
+  - **Subject (AAT):** fragment cropped image
+- White Div cropped figure from 62b
+  - ![White Div cropped figure from 62b](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/1825,6948,2827,3146/200,/0/default.jpg)
+  - **Persona:** White Div (7th Cource)
+  - **Subject (AAT):** fragment cropped image
+## Shahnama Ms. or. fol. 359 · Collection
+### Firdausī: Šāhnāma Ms. or. fol. 359 · Resource
+- **Controlled vocabulary**
+  - Illuminated Manuscript
+  - nastaʻliq
+  - thuluth
+#### Rostam Kills White Elephant · Canvas
+- **Narrative episodes**
+  - Rustam Slays White Elephant
+    - **Characters:** Rostam
+  - The Story of Rostam
+    - **isPartOf:** Rostam Capture The Rakhsh With Lasso, Rostam's Seven Labours, Rustam Slays White Elephant, Second Battle Of Rostam and Afrasiab
+    - **Characters:** Rostam
+- **Iconography**
+  - Architectural Structure
+  - Babr-e Bayan
+  - Balcony
+    - **exactMatch:** balconies, Balconies
+  - Bolster
+    - **exactMatch:** bolsters (soft furnishings)
+  - Building Ornament
+    - **exactMatch:** Architectural decorations & ornaments, architectural ornament, Decoration and ornament, ornaments ~ art
+  - Clothing
+    - **exactMatch:** clothing, Clothing & dress
+    - **relatedMatch:** <costume by function>
+  - curtain
+    - **exactMatch:** Curtain walls, curtains (opening hangings)
+  - Elephant
+    - **broadMatch:** Animal
+    - **exactMatch:** mdhn:aat:300250160
+  - Glazed Tile
+    - **exactMatch:** glazed tile, Tiles
+  - Headgear
+    - **exactMatch:** headgear, Headgear
+  - headscarf
+    - **exactMatch:** headscarves
+  - Ox-head Mace
+    - **broadMatch:** Mace, Weopen
+  - Pavilion
+    - **exactMatch:** garden pavilions, Pavilions (Facilities)
+  - Persian Architecture
+    - **exactMatch:** Architecture, Persian Architecture
+  - Robe
+    - **exactMatch:** robes (main garments)
+    - **relatedMatch:** <costume by function>
+  - Turban
+    - **exactMatch:** turbans
+    - **relatedMatch:** <costume by function>
+  - Window
+    - **exactMatch:** windows
+- **Controlled vocabulary**
+  - Calligraphy
+  - Conceptual Drawings
+  - Indoor Feasting
+  - Manuscript Folio
+  - miniatures (paintings)
+  - Recto
+- **Characters**
+  - Rostam
+- Babr e Bayan cropped figure from 105v
+  - ![Babr e Bayan cropped figure from 105v](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1015,2274,270,339/200,/0/default.jpg)
+  - **Subject (AAT):** fragment cropped image
+- Elephant cropped figure from 105v
+  - ![Elephant cropped figure from 105v](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1590,3376,884,758/200,/0/default.jpg)
+  - **Persona:** Elephant
+  - **Subject (AAT):** fragment cropped image
+- Females cropped figure from 105v
+  - ![Females cropped figure from 105v](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/2603,1828,680,821/200,/0/default.jpg)
+  - **Subject (AAT):** fragment cropped image
+- Females cropped figure from 105v
+  - ![Females cropped figure from 105v](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1882,2223,326,688/200,/0/default.jpg)
+  - **Subject (AAT):** fragment cropped image
+- Females cropped figure from 105v
+  - ![Females cropped figure from 105v](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1264,2223,362,698/200,/0/default.jpg)
+  - **Subject (AAT):** fragment cropped image
+- Persona cropped figure from 105v
+  - ![Persona cropped figure from 105v](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/2774,3820,361,985/200,/0/default.jpg)
+  - **Subject (AAT):** fragment cropped image
+- Rostam cropped figure from 105v
+  - ![Rostam cropped figure from 105v](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1052,3227,495,905/200,/0/default.jpg)
+  - **Persona:** Rostam
+  - **Subject (AAT):** fragment cropped image
+## Shahnama Ms. or. fol. 4251 · Collection
+### Firdausī: Šāhnāma Ms. or. fol. 4251 · Resource
+- **Controlled vocabulary**
+  - Illuminated Manuscript
+  - nastaʻliq
+  - thuluth
+#### SH 4251, Rostam Kills the White Div · Canvas
+- **Narrative episodes**
+  - Rostam's Seventh Labour
+    - **Characters:** Rakhsh, Rostam
+  - The Story of Rostam
+    - **isPartOf:** Rostam Capture The Rakhsh With Lasso, Rostam's Seven Labours, Rustam Slays White Elephant, Second Battle Of Rostam and Afrasiab
+    - **Characters:** Rostam
+- **Iconography**
+  - Babr-e Bayan
+  - Cave
+  - Divs
+    - **broadMatch:** legendary beings, mdhn:iconclass25FF1
+    - **closeMatch:** Devil, Iblis
+    - **exactMatch:** div
+    - **relatedMatch:** demons, Demons
+  - Flower
+  - Headgear
+    - **exactMatch:** headgear, Headgear
+  - Horse
+    - **broadMatch:** Animal
+  - Horse Saddle
+    - **exactMatch:** Saddles, saddles (seats)
+    - **relatedMatch:** Horse, Horse Stirrup
+  - Mace
+    - **broadMatch:** Weopen
+    - **exactMatch:** maces (weapons)
+  - mdhn:Birds
+  - mdhn:Cloude
+  - mdhn:Rock
+  - Plant
+    - **exactMatch:** Plantae (kingdom)
+  - Robe
+    - **exactMatch:** robes (main garments)
+    - **relatedMatch:** <costume by function>
+  - Sword
+    - **broadMatch:** Weopen
+    - **exactMatch:** biblissima:Q294911, swords, Swords
+  - TearingApart
+    - **broadMatch:** Murder
+  - Tree
+    - **exactMatch:** trees (woody plants)
+- **Controlled vocabulary**
+  - Conceptual Drawings
+  - Halkari
+  - Manuscript Folio
+  - Recto
+  - Scribing
+- **Characters**
+  - Olad Div
+  - Rakhsh
+  - Rostam
+  - White Div (7th Cource)
+- Divs cropped figure from 208r
+  - ![Divs cropped figure from 208r](https://content.staatsbibliothek-berlin.de/dc/731525744-0421/2249,1658,907,631/200,/0/default.jpg)
+  - **Persona:** Divs
+  - **Subject (AAT):** fragment cropped image
+- Rakhsh cropped figure from 208r
+  - ![Rakhsh cropped figure from 208r](https://content.staatsbibliothek-berlin.de/dc/731525744-0421/1560,1316,772,673/200,/0/default.jpg)
+  - **Persona:** Rakhsh
+  - **Subject (AAT):** fragment cropped image
+- Rostam cropped figure from 208r
+  - ![Rostam cropped figure from 208r](https://content.staatsbibliothek-berlin.de/dc/731525744-0421/1632,2534,1111,1115/200,/0/default.jpg)
+  - **Persona:** Rostam
+  - **Subject (AAT):** fragment cropped image
+- Rostam cropped figure from 208r
+  - ![Rostam cropped figure from 208r](https://content.staatsbibliothek-berlin.de/dc/731525744-0421/1105,1313,436,1142/200,/0/default.jpg)
+  - **Persona:** Olad Div
+  - **Subject (AAT):** fragment cropped image
+- White Div cropped figure from 208r
+  - ![White Div cropped figure from 208r](https://content.staatsbibliothek-berlin.de/dc/731525744-0421/1571,2979,1467,1153/200,/0/default.jpg)
+  - **Persona:** White Div (7th Cource)
+  - **Subject (AAT):** fragment cropped image
+## Shahnama Supplement persan 489 · Collection
+### Shāhnāmah Supplément persan 489 · Resource
+- **Controlled vocabulary**
+  - Illuminated Manuscript
+  - nastaʻliq
+  - riqāʻ
+#### Battle of Rostam and Afrasiab · Canvas
+- **Narrative episodes**
+  - Kingdom Kay Qubad
+    - **isPartOf:** Second Battle Of Rostam and Afrasiab
+    - **Characters:** Afrasiab, Kai Kobad, Rostam
+  - Second Battle Of Rostam and Afrasiab
+  - The Story of Rostam
+    - **isPartOf:** Rostam Capture The Rakhsh With Lasso, Rostam's Seven Labours, Rustam Slays White Elephant, Second Battle Of Rostam and Afrasiab
+    - **Characters:** Rostam
+- **Iconography**
+  - Babr-e Bayan
+  - Bow and Arrow
+    - **broadMatch:** Weopen
+    - **closeMatch:** crossbows
+  - Combat Helmet
+    - **exactMatch:** mdhn:aat300391023
+  - Horse
+    - **broadMatch:** Animal
+  - Horse Saddle
+    - **exactMatch:** Saddles, saddles (seats)
+    - **relatedMatch:** Horse, Horse Stirrup
+  - Plant
+    - **exactMatch:** Plantae (kingdom)
+  - Rocks
+  - Sword
+    - **broadMatch:** Weopen
+    - **exactMatch:** biblissima:Q294911, swords, Swords
+  - Tree
+    - **exactMatch:** trees (woody plants)
+- **Controlled vocabulary**
+  - Calligraphy
+  - Conceptual Drawings
+  - Manuscript Folio
+  - Recto
+- **Characters**
+  - Afrasiab
+  - Kai Kobad
+  - Rakhsh
+  - Rostam
+- Afrasiab cropped figure from 66r
+  - ![Afrasiab cropped figure from 66r](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f143/2010,1874,1007,1076/200,/0/default.jpg)
+  - **Persona:** Afrasiab
+  - **Subject (AAT):** fragment cropped image
+- Rakhsh cropped figure from 66r
+  - ![Rakhsh cropped figure from 66r](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f143/1225,2833,1476,828/200,/0/default.jpg)
+  - **Persona:** Rakhsh
+  - **Subject (AAT):** fragment cropped image
+- Rostam cropped figure from 66r
+  - ![Rostam cropped figure from 66r](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f143/1686,2197,844,1234/200,/0/default.jpg)
+  - **Persona:** Rostam
+  - **Subject (AAT):** fragment cropped image
+#### Sh 489, Seventh Labour. Rostam kills the white Div · Canvas
+- **Narrative episodes**
+  - Rostam's Seventh Labour
+    - **Characters:** Rakhsh, Rostam
+  - The Story of Rostam
+    - **isPartOf:** Rostam Capture The Rakhsh With Lasso, Rostam's Seven Labours, Rustam Slays White Elephant, Second Battle Of Rostam and Afrasiab
+    - **Characters:** Rostam
+- **Iconography**
+  - Babr-e Bayan
+  - Cave
+  - Combat Helmet
+    - **exactMatch:** mdhn:aat300391023
+  - Dagger
+    - **broadMatch:** Weopen
+    - **exactMatch:** biblissima:Q320290, Daggers, daggers (weapons)
+  - Divs
+    - **broadMatch:** legendary beings, mdhn:iconclass25FF1
+    - **closeMatch:** Devil, Iblis
+    - **exactMatch:** div
+    - **relatedMatch:** demons, Demons
+  - Horse
+    - **broadMatch:** Animal
+  - mdhn:Rock
+  - Plant
+    - **exactMatch:** Plantae (kingdom)
+  - Robe
+    - **exactMatch:** robes (main garments)
+    - **relatedMatch:** <costume by function>
+  - TearingApart
+    - **broadMatch:** Murder
+  - Tree
+    - **exactMatch:** trees (woody plants)
+- **Controlled vocabulary**
+  - Calligraphy
+  - Conceptual Drawings
+  - Manuscript Folio
+  - Recto
+- **Characters**
+  - Olad Div
+  - Rakhsh
+  - Rostam
+  - White Div (7th Cource)
+- Olad Div cropped figure from 75r
+  - ![Olad Div cropped figure from 75r](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/1186,3198,549,1317/200,/0/default.jpg)
+  - **Persona:** Olad Div
+  - **Subject (AAT):** fragment cropped image
+- Rakhsh cropped figure from 75r
+  - ![Rakhsh cropped figure from 75r](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/1772,3325,575,613/200,/0/default.jpg)
+  - **Persona:** Rakhsh
+  - **Subject (AAT):** fragment cropped image
+- Rostam cropped figure from 75r
+  - ![Rostam cropped figure from 75r](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/2730,3295,651,1318/200,/0/default.jpg)
+  - **Persona:** Rostam
+  - **Subject (AAT):** fragment cropped image
+- White Div cropped figure from 75r
+  - ![White Div cropped figure from 75r](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/2235,3655,1456,1074/200,/0/default.jpg)
+  - **Persona:** White Div (7th Cource)
+  - **Subject (AAT):** fragment cropped image
