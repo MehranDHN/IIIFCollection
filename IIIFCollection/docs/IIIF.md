@@ -154,9 +154,8 @@ IIIF   است.
 
 <pre dir="ltr">{server}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}</pre>
 
-يک مثال واقعی از تصويری در گالری فرير واشنگتن - اسميتسونين
+<img src="/IIIFCollection/images/docs/s1_06.jpg" alt="IIIF"/><br/>
 
-<p dir="rtl"><img src="https://ids.si.edu/ids/iiif/FS-F1950.1_001/full/1200,/0/default.jpg" alt="تصويری محدود شده با طول 1200 پيکسل"></p>
 
 ---
 
