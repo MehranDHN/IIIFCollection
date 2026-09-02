@@ -8079,7 +8079,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Sea_River_Pool
 - Q4022
 
-#### mdhn:Flooding
+#### mdhn:Drowning
 
 #### mdhn:Minaret
 - Q48356

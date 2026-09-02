@@ -6,26 +6,6 @@
 
 ## Manifest: Kitāb-i Shāhnāmah Peck Shahnamah
 
-## ResourceCanvas: f.f.1a — Peck Shahnamah, Binding, Front Cover
-- **Canvas Types:** aat:300189604, aat:500011063
-- **Contains:** IsFlyLeaf
-
-### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f1a
-- ![ Pattern cropped from f1a ](https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/230,226,8400,12683/200,/0/default.jpg)
-- **Styles:** aat:500011063
-
----
-
-## ResourceCanvas: f.Cover — Peck Shahnamah, Binding, Back Cover
-- **Canvas Types:** aat:300189604, aat:300417741
-- **Contains:** IsCover
-
-### mdhn:Fragment_Cropped_Pattern: Pattern cropped from Cover
-- ![ Pattern cropped from Cover ](https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/327,194,7668,11845/200,/0/default.jpg)
-- **Styles:** aat:300417741
-
----
-
 ## ResourceCanvas: f.1b — Peck Shahnamah, Sulaiman is enthroned amidst angels, demons, humans, and animals.
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
@@ -369,6 +349,81 @@
 
 ---
 
+## ResourceCanvas: f.f.1a — Peck Shahnamah, Binding, Front Cover
+- **Canvas Types:** aat:300189604, aat:500011063
+- **Contains:** IsFlyLeaf
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f1a
+- ![ Pattern cropped from f1a ](https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/230,226,8400,12683/200,/0/default.jpg)
+- **Styles:** aat:500011063
+
+---
+
+## ResourceCanvas: f.Cover — Peck Shahnamah, Binding, Back Cover
+- **Canvas Types:** aat:300189604, aat:300417741
+- **Contains:** IsCover
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from Cover
+- ![ Pattern cropped from Cover ](https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/327,194,7668,11845/200,/0/default.jpg)
+- **Styles:** aat:300417741
+
+---
+
+## ResourceCanvas: f.296b — Peck Shahnamah, Iskandar Slays a Dragon
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
+- **Contains:** HasPainting, HasHalkari, HasText
+
+### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 296b
+- ![ Rostam cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/6386,5718,1373,1721/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Iskandar_Dhul_Qarnayn
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Dragon cropped figure from 296b
+- ![ Dragon cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/2141,3862,5241,5912/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Greedy_Dragon
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People of Village cropped figure from 296b
+- ![ People of Village cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/6164,2583,1896,2699/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Cow cropped figure from 296b
+- ![ Cow cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/6113,3370,1390,1906/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Cow
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from 296b
+- ![ People cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/7253,4925,804,3318/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Soldier cropped figure from 296b
+- ![ Soldier cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/5481,6232,1260,1227/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Cow into the mouth of the dragon cropped figure from 296b
+- ![ Cow into the mouth of the dragon cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/4824,7202,2542,2156/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Greedy_Dragon, mdhn:Cow
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Cows cropped figure from 296b
+- ![ Cows cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/4838,8618,3207,2496/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Cow
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 296b
+- ![ Textblock1 in 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/2082,2944,4404,1047/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Greedy_Dragon, mdhn:Iskandar_Dhul_Qarnayn
+- **Styles:** aat:300265532
+- **Persian Text:** جوان اژدها را خورش بود گاو
+
+### mdhn:Text_or_Verses: Textblock2 in 296b
+- ![ Textblock2 in 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/2055,10143,4405,1002/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Greedy_Dragon, mdhn:Iskandar_Dhul_Qarnayn
+- **Styles:** aat:300265532
+- **Persian Text:** چو نزديک آن اژدها رفت شاه
+
+---
+
 
 
 
@@ -610,6 +665,34 @@
 ### mdhn:Fragment_Cropped_Image: Divs cropped figure from 208r
 - ![ Divs cropped figure from 208r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0421/2249,1658,907,631/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 208r
+- ![ Textblock1 in 208r ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/1946,2852,4392,966/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam, mdhn:White_Div_7th_Course
+- **Styles:** aat:300265532
+- **Persian Text:** بدانگه تو پیروز باشی مگر
+
+### mdhn:Text_or_Verses: Textblock2 in 208r
+- ![ Textblock2 in 208r ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/1946,2852,4392,966/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam, mdhn:White_Div_7th_Course
+- **Styles:** aat:300265532
+- **Persian Text:** ناستاد کس پیش او در به جنگ
+
+---
+
+## ResourceCanvas: f.208r — SH 4251, Garshasp Kills the Dragon
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Garshasp cropped figure from 208r
+- ![ Garshasp cropped figure from 208r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0925/1832,2754,1194,1208/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Garshasp
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 208r
+- ![ Rostam cropped figure from 208r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0925/1310,1618,1858,1394/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Dragon
 - **Styles:** aat:500011001
 
 ### mdhn:Text_or_Verses: Textblock1 in 208r
