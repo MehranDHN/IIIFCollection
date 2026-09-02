@@ -255,6 +255,26 @@ Canvas  را ميتوان یک سطح یا ظرف خالی بدون محتوا �
 اينکه يک  Range بزرگتر شامل Range های کوجکتری هستند اشاره به ويزگی سلسله مراتبی بودن Range هاست که اين وضعيت تا چندين سطح می تواند ديده شود .
 همه مانيفست ها دارای Range نيستند و به عبارت ساده تر Range در Manifest الزامی نيست اما پيش بينی Range و Range ها مخصوصا اگر توسط تهيه کننده و يا منتشر کننده Manifest با دقت و سليقه مرتب شده باشند نشاندهنده نظم و احترام به سليقه مخاطب استو Manifest مذکور از ارزش کيفی بالايی برخوردار است.
 
+<pre dir="ltr"><code>Manifest
+Manifest (Root)
+│
+├── Metadata Sub-Branch
+│   ├── Label / Attribution
+│   └── Metadata Key-Value Pairs
+│
+├── Structures / Ranges Sub-Branch (Table of Contents)
+│   └── Range (Chapter/Section) ──> Targets specific Canvas IDs
+│
+└── Items Sub-Branch (Physical Sequence)
+    └── Canvas (Page 1 Virtual Space)
+        ├── AnnotationPage (Painting Content)
+        │   └── Annotation (Leaf)
+        │       └── Resource / Body (Image / Audio File)
+        │
+        └── AnnotationPage (Overlay/Transcriptions)
+            └── Annotation (Leaf)
+                └── Resource / Body (OCR Text / Subtitles / Comments)
+</code></pre>				
 
 ## مفهوم Collection به عنوان مجموعه ای از پرونده‌ها
 
@@ -274,6 +294,31 @@ Canvas  را ميتوان یک سطح یا ظرف خالی بدون محتوا �
 └── Collection: مجموعهٔ نسخ خطی قرن دهم
 	├── Manifest: …
 	└── Manifest: …
+</code></pre>
+
+در مجموع اگر يک گالری يا موزه بزرگ را در نظر بگيريم برآيند ی از آنچه گفته شد بويژه با نظر داشت تصوير ذهنی درختواره شايد بتوان شماتيک کلی تری از آنچه به عنوان مدل اطلاعات ناميده ميشود به صورت زير در نظر گرفت :
+
+<pre dir="ltr"><code>Collection: نسخه‌های خطی فارسی
+Institute Root Collection (e.g., National Library Archive)
+│
+├── Department Collection (e.g., Special Collections & Manuscripts)
+│   │
+│   ├── Archival Series Collection (e.g., Royal Cartographic Manuscripts)
+│   │   │
+│   │   ├── Sub-Series Collection (e.g., 17th Century Maritime Maps)
+│   │   │   ├── Manifest (Atlas Volume 1) ──> [Canvases...]
+│   │   │   ├── Manifest (Atlas Volume 2) ──> [Canvases...]
+│   │   │   └── Manifest (Portolan Chart) ──> [Canvases...]
+│   │   │
+│   │   └── Sub-Series Collection (e.g., Terrestrial Surveys)
+│   │       └── Manifest (Land Survey 1650) ──> [Canvases...]
+│   │
+│   └── Archival Series Collection (e.g., Illuminated Manuscripts)
+│       └── Manifest (Book of Hours) ──> [Canvases...]
+│
+└── Department Collection (e.g., Photographic Archives)
+    └── Collection (e.g., Historical Glass Plate Negatives)
+        └── Manifest (Photo Album 1910) ──> [Canvases...]
 </code></pre>
 
 ## فرمت JSON-LD و داده‌های پیوندپذیر و قابل تعامل
