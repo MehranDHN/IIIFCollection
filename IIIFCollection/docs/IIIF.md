@@ -163,7 +163,7 @@ IIIF   است.
 
 <pre dir="ltr">https://ids.si.edu/ids/iiif/FS-F1950.1_001/full/1200,/0/default.jpg</pre>
 
-این مدل باعث می‌شود یک نمایشگر بتواند بدون شناخت ساختار داخلی سامانهٔ
+این مدل باعث می‌شود یک نمایشگر بتواند بدون نياز به شناخت ساختار داخلی سامانهٔ
 مدیریت تصاویر یک مؤسسه، درخواست‌های استاندارد ارسال کند.
 
 Presentation API
@@ -194,13 +194,13 @@ Canvas  را ميتوان یک سطح یا ظرف خالی بدون محتوا �
 باشد، چنانچه يک عکس در يک آلبوم اما مفهوم Canvas محدود به صفحهٔ کتاب و تصوير ذنیست و می‌تواند علاوه برتصویر شامل  محتوای صوتی یا ویدئویی نیز باشد. هر مانيفست معمولا دارای حداقل يک Canvas است و هر چند امکان ايجاد يک مانيفست بدون Canvas وجود دارد اما به طور معمول چنين وضعيتی بسيار نادر است که اگر چنين باشد با يک پوشه خالی قابل مقايسه خواهد بود.
 
 
-
-<pre dir="ltr"><code>Manifest
+<div dir="ltr">
+<pre><code>Manifest
 ├── Canvas 1 → جلد
 ├── Canvas 2 → صفحهٔ ۱
 ├── Canvas 3 → صفحهٔ ۲
 └── Canvas 4 → صفحهٔ ۳
-</code></pre>
+</code></pre></div>
 
 خواننده اين سطور هر چقدر تصور دقيق تری از ساختاری که مدل ساده شده ای از آن ارائه شد، داشته باشد، قادر خواهد بود به شکل موثرتری از اکو سيستم IIIF استفاده و از مزايای آن بهره مند گردد.
 نکتهٔ مهم این است که Canvas خود تصویر نیست؛ بلکه سطح، صفحه یا چارچوبی است که محتوا روی آن قرار می‌گیرد و يک مانيفست علاوه بر تامين اطلاعات توصيف کننده ساختار و ساير خصوصيات محتوای Canvasها نقش مرتب کردن چنين ساختاری را نيز بر عهده دارد. همچنين يک نکته جالب اين است که هيچ اجباری نيست که Canvas های يک مانيفست به صورت فيزيکی در يک مکان قرار داشته باشند. به عبارت ديگر وجود يک مانيفست که Canvas های آن هرکدام در موزه ها و کتابخانه های جهان قرار داشته باشند غير معمول نيست. اين  مفهوم می تواند ابزار قدرتمندی جهت اجرای مفهوم صحافی مجازی باشد که ايجاد کننده مانيفست، صفحات و Canvasهای پرونده ديجيتال مورد نظر خود را از ساير موزه ها و کتابخانه های دنيا تأمين ميکند.
@@ -223,7 +223,8 @@ Canvas  را ميتوان یک سطح یا ظرف خالی بدون محتوا �
 
 نمونهٔ ساده:
 
-<pre dir="ltr"><code>{
+<div dir="ltr">
+<pre><code>{
 	"type": "Annotation",
 	"motivation": "painting",
 	"body": {
@@ -232,20 +233,20 @@ Canvas  را ميتوان یک سطح یا ظرف خالی بدون محتوا �
 	},
 	"target": "https://example.org/iiif/book/canvas/p1"
 }
-</code></pre>
+</code></pre><div>
 
 ## مفهوم Annotation Page
 همانطور که قبلا شرح داده شد انواع مختلفی از Annotation در IIIF وجود دارد که انعطاف بسيار قابل توجهی را به ارمغان می آورند. همچنين گفته شد که مهمترين کاربرد Annotation الحاق و اتصال انواع مختلف داده ها و اطلاعات به Canvas می باشد. يک Canvas ميتواند چندين Annotation از يک نوع يا از انواع مختلف داشته باشد . به هر بسته اطلاعات Annotation متصل شده به Canvas اصطلاحا Annotation Page گفته ميشود. در قسمت مثالها و Cookbook ها اين موضوع در چندين مثال متنوع نشان داده شده است.
 
 
-
-<pre dir="ltr"><code>Manifest
+<div dir="ltr">
+<pre><code>Manifest
 └── Canvas
 	└── Annotation Page
 		├── Annotation
 		├── Annotation
 		└── Annotation
-</code></pre>
+</code></pre></div>
 
 ## مفهوم Range
 
@@ -255,7 +256,8 @@ Canvas  را ميتوان یک سطح یا ظرف خالی بدون محتوا �
 اينکه يک  Range بزرگتر شامل Range های کوجکتری هستند اشاره به ويزگی سلسله مراتبی بودن Range هاست که اين وضعيت تا چندين سطح می تواند ديده شود .
 همه مانيفست ها دارای Range نيستند و به عبارت ساده تر Range در Manifest الزامی نيست اما پيش بينی Range و Range ها مخصوصا اگر توسط تهيه کننده و يا منتشر کننده Manifest با دقت و سليقه مرتب شده باشند نشاندهنده نظم و احترام به سليقه مخاطب استو Manifest مذکور از ارزش کيفی بالايی برخوردار است.
 
-<pre dir="ltr"><code>Manifest
+<div dir="ltr">
+<pre><code>Manifest
 Manifest (Root)
 │
 ├── Metadata Sub-Branch
@@ -274,7 +276,7 @@ Manifest (Root)
         └── AnnotationPage (Overlay/Transcriptions)
             └── Annotation (Leaf)
                 └── Resource / Body (OCR Text / Subtitles / Comments)
-</code></pre>				
+</code></pre>></div>				
 
 ## مفهوم Collection به عنوان مجموعه ای از پرونده‌ها
 
@@ -286,19 +288,20 @@ Manifest (Root)
 در IIIFDexir ساختار اصلی مجموعه ها بر اساس Collection ها طراحی شده که يک Collection در بالاترين سطح قرار دارد و همه Collection های ديگر مستقيما در سطح اول و يا غير مستقيم در ساير سطوح قرار دارند که مجددا می توان آن را به يگ ساختار درختی بزرگ تشبيه کرد . اگر اين درخت را با درخت Manifest و آرايش اطلاعات Manifest اقدام کنيم درخت پر شاخ و برگ و تنومندی از اطلاعات متصل به منابع خواهيم داشت که هم به صورت فيزيکی و هم به صورت منطقی طبقه بندی شده اند. 
 
 
-
-<pre dir="ltr"><code>Collection: نسخه‌های خطی فارسی
+<div dir="ltr">
+<pre><code>Collection: نسخه‌های خطی فارسی
 ├── Manifest: نسخهٔ الف
 ├── Manifest: نسخهٔ ب
 ├── Manifest: نسخهٔ ج
 └── Collection: مجموعهٔ نسخ خطی قرن دهم
 	├── Manifest: …
 	└── Manifest: …
-</code></pre>
+</code></pre></div>
 
 در مجموع اگر يک گالری يا موزه بزرگ را در نظر بگيريم برآيند ی از آنچه گفته شد بويژه با نظر داشت تصوير ذهنی درختواره شايد بتوان شماتيک کلی تری از آنچه به عنوان مدل اطلاعات ناميده ميشود به صورت زير در نظر گرفت :
 
-<pre dir="ltr"><code>Collection: نسخه‌های خطی فارسی
+<div dir="ltr">
+<pre><code>Collection: نسخه‌های خطی فارسی
 Institute Root Collection (e.g., National Library Archive)
 │
 ├── Department Collection (e.g., Special Collections & Manuscripts)
@@ -319,7 +322,7 @@ Institute Root Collection (e.g., National Library Archive)
 └── Department Collection (e.g., Photographic Archives)
     └── Collection (e.g., Historical Glass Plate Negatives)
         └── Manifest (Photo Album 1910) ──> [Canvases...]
-</code></pre>
+</code></pre></div>
 
 ## فرمت JSON-LD و داده‌های پیوندپذیر و قابل تعامل
 
@@ -328,10 +331,6 @@ Institute Root Collection (e.g., National Library Archive)
 
 به این ترتیب، یک شیء يا پرونده دیجیتال IIIF صرفاً یک فایل JSON منفرد و مستقل نیست؛ بلکه می‌تواند جزيی از شبکه‌ای از منابع مرتبط در وب باشد. با بازگشت و مرور مطالب، تصور يک شبکه عظيم معنی دار يا Semantic Web از منظر IIIF مجموعه ای از  اطلاعات و داده ها ايست که با بهره از مفاهيمی مثل مجموعه (Collection)، پرونده (Manifest) ، بوم (Canvas) ، Structure  و Range همچنين داده های Annotation  ضمن تقسيم وظايف، ساز و کار منظم و کارآمدی را جهت ساماندهی اطلاعات و ارائه دانش صريح فراهم می کند.
 در آرشيو ديجيتال از Linked Data به عنوان يک هدف کلی ياد می کنند. همچنين مفهوم Linked Open Usable Data انشعابی از Linked Data محسوب ميشود و به اختصار LOUD ناميده ميشود. در LOUD اهداف کاملا مشخصی وجود دارند که IIIF برای تحقق آن نقش کليدی ايفا می کند اما بايد توجه داشت که IIIF به تنهايی برای تحقق LOUD کافی نيست.
-
-
-
-
 
 
 ## کاربرد IIIF و نسخه‌های دستنويس
@@ -395,10 +394,15 @@ Presentation API 3.0 می‌تواند ساختارهایی را توصیف کن
 
 از جمله مهمترين و رايجترين نرم‌افزارهای شناخته‌شده در اکوسیستم IIIF می‌توان به موارد زیر اشاره کرد:
 
-- **OpenSeadragon**
+
 - **Mirador**
+- **OpenSeadragon**
+- **Glycerin**
 - **Universal Viewer**
 - **Theseus**
+- **Clover**
+- **Triiiceratops**
+- **Annona**
 
 ## بررسی IIIF در  مقایسهٔ بین‌مؤسسه‌ای
 
@@ -532,7 +536,8 @@ Manifestای ساخت که برگ‌های موجود در چند مؤسسه ر�
 
 می‌توان معماری اصلی را به شکل زیر خلاصه کرد:
 
-<pre dir="ltr"><code>IIIF
+<div dir="ltr">
+<pre><code>IIIF
 ├── Image API
 ├── Presentation API
 ├── Image Manifest
@@ -540,7 +545,7 @@ Manifestای ساخت که برگ‌های موجود در چند مؤسسه ر�
 ├── Annotation Page
 ├── Annotation
 └── Content
-</code></pre>
+</code></pre></div>
 
 این تفکيک در تقسيم وظايف یکی از بهترین روش‌ها برای يادگيری و فهم IIIF است:
 
