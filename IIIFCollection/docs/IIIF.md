@@ -495,7 +495,8 @@ Manifestای ساخت که برگ‌های موجود در چند مؤسسه ر�
 نمونهٔ زیر صرفاً برای نشان دادن ایدهٔ
 کلی است و یک Manifest کامل و معتبر برای استفادهٔ عملی محسوب نمی‌شود:
 
-<pre dir="ltr"><code>{
+<div dir="ltr">
+<pre><code>{
 	"@context": "https://iiif.io/api/presentation/3/context.json",
 	"id": "https://example.org/iiif/manifest/book1",
 	"type": "Manifest",
@@ -526,7 +527,7 @@ Manifestای ساخت که برگ‌های موجود در چند مؤسسه ر�
 	}]
 }
 </code></pre>
-
+</div>
 ## رابطهٔ اجزای اصلی
 
 می‌توان معماری اصلی را به شکل زیر خلاصه کرد:
@@ -591,7 +592,7 @@ API در نسخهٔ ۱٫۰٫۰ قرار دارند.
 
 ## ساده ترين Manifest
 
- در <a href="https://iiif.io/api/cookbook/recipe/0001-mvm-image/#version-4" alt="IIIF Cookbooks references" target="_blank">سناريوی ساده ترين مانيفست</a> هدف بررسی ساختار يک مانيفست ساده است که فقط يک: Canvas دارد و اين Canvas مجهز به يک: Annotation Page از نوع painting است .
+ در <a href="https://iiif.io/api/cookbook/recipe/0001-mvm-image/#version-4" alt="IIIF Cookbooks references" target="_blank">سناريوی ساده ترين مانيفست</a> هدف بررسی ساختار يک مانيفست ساده است که فقط يک Canvas دارد و اين Canvas مجهز به يک Annotation Page از نوع painting است .
  به زبان ساده تر و با توجه به تعريفی که از Vanvas ارائه کرديم، چيزی نيست جز يک سطح دو بعدی با ابعاد مشخص که محتوای مورد نظظر در آن قرار ميگرد . در اين مثال محتوا يک تصوير با فرمت png و با ابعاد 1200 در 1800 پيکسل است و ميتوان بوضوح مشاهده کرد که Canvas نيز با ابعاد يکسان جهت ارائه اين تصوير وجود دارد .
  پيش فرض يکسان بودن ابعاد Canvas و محتوای Canvas هميشه درست نيست  اما آنچه در اين مانيفست مشهود است اينکه نوع Annotation Page که با فيلد  motivation و با مقدار painting مشخص شده همه اطلاعات لازم برای نمايشگر اين مانيفست را فراهم می کند و نمايشگر استاندارد IIIIF تصوير مورد نظر را در روی Canvas قرار داده و آن را نمايش خواهد داد .
 
