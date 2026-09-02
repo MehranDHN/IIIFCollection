@@ -585,20 +585,7 @@ API در نسخهٔ ۱٫۰٫۰ قرار دارند.
 
 بنابراین، **IIIF** همچنان یک استاندارد پويا و در حال توسعه است و نباید آن را پروژه‌ای متوقف‌شده یا صرفاً مربوط به نمایش تصاویر دانست.
 
-## مفاهيم و عناوين مرتبط
 
-- کتابخانه دیجیتال
-- علوم انسانی دیجیتال
-- میراث فرهنگی دیجیتال
-- داده‌های پیوندپذیر
-- [JSON-LD](https://json-ld.org/)
-- وب معنایی
-- حاشیه‌نویسی وب
-- فراداده
-- OCR
-- نسخه‌شناسی
-- [OpenSeadragon](https://openseadragon.github.io/)
-- [Mirador](https://projectmirador.org/)
 
 # ضميمه
 
@@ -608,9 +595,15 @@ API در نسخهٔ ۱٫۰٫۰ قرار دارند.
 - [مشخصات رسمی APIهای IIIF](https://iiif.io/api/)
 - [معرفی مفهومی «چگونه IIIF کار می‌کند»](https://iiif.io/get-started/how-iiif-works/)
 - [مقالهٔ IIIF در ویکی‌پدیای انگلیسی](https://en.wikipedia.org/wiki/International_Image_Interoperability_Framework)
+- [OpenSeadragon](https://openseadragon.github.io/)
+- [Mirador](https://projectmirador.org/)
+- [JSON-LD](https://json-ld.org/)
+- [Mirador Project](https://projectmirador.org/)
+- [Digirati](https://digirati.com/)
+- [IIIFDexir](https://github.com/MehranDHN/IIIFCollection)
 
 ## منابع آموزشی
-در سايت رسمی IIIF مطالب مفيدی در قالب آموزش و تشريح ساختار IIIF منتشر شده و يکی از مهمترين آنها به عنوان مجموعه‌ای از دستور العمل های مستقل مرتبط با سناريو های ساده ای هستند که Cookbooks ناميده ميشوند .
+در سايت رسمی **IIIF** مطالب مفيدی در قالب آموزش و تشريح ساختار **IIIF** منتشر شده و يکی از مهمترين آنها به عنوان مجموعه‌ای از دستور العمل های مستقل مرتبط با سناريو های ساده ای هستند که **Cookbooks** ناميده ميشوند .
 در اين قسمت به تشريح برخی از آنها با ذکر مرجع اصلی خواهيم پرداخت .<br/>
 <a href="https://iiif.io/api/cookbook/" alt="IIIF Cookbooks references" target="_blank">مرجع Cookbooks</a>
 ### ضميمه مثالها يا Cookbook های مرجع رسمی
@@ -621,8 +614,9 @@ API در نسخهٔ ۱٫۰٫۰ قرار دارند.
  به زبان ساده تر و با توجه به تعريفی که از **Canvas** ارائه کرديم، چيزی نيست جز يک سطح دو بعدی با ابعاد مشخص که محتوای مورد نظظر در آن قرار ميگرد . در اين مثال محتوا يک تصوير با فرمت **png** و با ابعاد 1200 در 1800 پيکسل است و ميتوان بوضوح مشاهده کرد که **Canvas** نيز با ابعاد يکسان جهت ارائه اين تصوير وجود دارد .
  پيش فرض يکسان بودن ابعاد **Canvas** و محتوای **Canvas** هميشه درست نيست  اما آنچه در اين مانيفست مشهود است اينکه نوع **Annotation Page** که با فيلد  **motivation** و با مقدار **painting** مشخص شده همه اطلاعات لازم برای نمايشگر اين مانيفست را فراهم می کند و نمايشگر استاندارد **IIIF** تصوير مورد نظر را در روی **Canvas** قرار داده و آن را نمايش خواهد داد .
 
-## برچسب‌ها
+## کلمات کليدی مرتبط
 
+- IIIF (International Image Interoperability Framework)
 - Contolled Vocabulary
 - Knowledge Base
 - Metadata (Data about Data)
