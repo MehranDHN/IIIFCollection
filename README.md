@@ -180,7 +180,7 @@ The visualization work is documented separately so that generated artefacts can 
 
 The proposal preserves the current flat script directory during migration. New names and locations should be introduced with compatibility wrappers until existing reports and workflows have been verified.
 
-#### Iconography & Narrative Episodes
+### Iconography & Narrative Episodes
 For iconographic description, the project draws directly from **Iconclass** and **IA**, creating custom entries tailored to Persian visual culture. These entries are carefully aligned with **WikiData**, **AAT** and **TGM** to avoid ambiguity.
 
 A particularly important extension is the concept of **Narrative Episodes** which is inherited from the `Iconography` base class. These are hierarchical and often interconnected, especially when documenting works related to Ferdowsi’s *Shahnameh*. For example:
@@ -189,13 +189,264 @@ A particularly important extension is the concept of **Narrative Episodes** whic
 
 This layered narrative model allows precise linking between visual resources and literary/historical context. Further details on alignment with scholarly editions (such as the critical text by the late Professor Jalal Khaleghi Mutlaq) will be provided in dedicated sections.
 
-#### Geographic Names & Built Heritage (TGN)
+### Geographic Names & Built Heritage (TGN)
 The **Getty's Thesaurus of Geographic Names (TGN)** serves as the primary reference for countries, cities, and villages. The same thesaurus has been extended to include buildings and architectural complexes (treated as a subclass). Examples include:
 - Grand Mosque of Isfahan
 - Golestan Palace
 - Chehel Sotun
 
 Hierarchical relationships are fully supported. For instance, while **Naqsh-e Jahan Square** is a child of Isfahan is simultaneously serving as a parent concept for the `Shah Mosque`, `Sheikh Lotfollah Mosque`, and the `Qeysariyeh Bazaar entrance`.
+
+## SPARQL Query Runner (`query_runner.py`)
+
+`IIIFCollection/tools/visualization/query_runner.py` is **Stage 1** of the dynamic visualisation pipeline. It runs a SPARQL `.rq` file against the local IIIFDexir Turtle graph (`Ontology/*.ttl`), then writes a JSON envelope that Stage 2 (`render_query_graph.py`) turns into DOT, Markmap, and statistical HTML.
+
+The runner does not scrape IIIF JSON collections. It queries the RDF already materialised from those collections (resources, vocabularies, persons, narrative episodes, iconography).
+
+### Pipeline
+
+```text
+Ontology/*.ttl  +  queries/*.rq
+        │
+        ▼
+ query_runner.py     (rdflib SPARQL + pickle cache)
+        │
+        ▼
+ reports/<query>.json
+   meta / SPARQL JSON Results / graph.nodes+edges / table / stats
+        │
+        ▼
+ render_query_graph.py   (optional, via --format)
+        │
+        ├── reports/<query>.dot
+        ├── reports/<query>.markmap.md
+        ├── reports/<query>.stats.json
+        └── reports/<query>.stats.html
+```
+
+Shared helpers live in `viz_common.py`: CURIE compact/expand, SPARQL binding serialisation, edge inference, and post-query enrichment of `rdfs:label` / `rdf:type` / `rdfs:comment` from the same graph.
+
+### Default paths
+
+| Role | Default |
+|---|---|
+| Script | `IIIFCollection/tools/visualization/query_runner.py` |
+| Ontology | `IIIFCollection/Ontology/*.ttl` |
+| Queries | `IIIFCollection/tools/visualization/queries/` |
+| Output | `IIIFCollection/tools/visualization/reports/` |
+| Shared prefixes | `queries/prefixes.rq` |
+| Graph cache | `reports/.ontology_graph.pkl` |
+
+Turtle files named in `SKIP_TTL_NAMES` (currently `LCTGM_RDF.migrated.ttl`) are ignored. The cache is reused when every loaded `.ttl` is older than the pickle; pass `--no-cache` after ontology edits.
+
+Loaded sources in current reports include: `aat_hierarchy.ttl`, `ctl_vocabs.ttl`, `iconclass_hierarchy.ttl`, `iconography_RDF.ttl`, `iiifCollectionOntology.ttl`, `lcsh_rdf_subset.ttl`, `LCTGM_RDF.ttl`, `narrative_episodes.ttl`, `PersonsRDFData.ttl`, `resources.ttl`, `tgn_subset_updated.ttl` (~180k triples).
+
+### CLI syntax
+
+```bash
+python query_runner.py [query] [options]
+```
+
+`query` may be a stem (`aat_hierarchy`), a file in `--query-dir` (`aat_hierarchy.rq`), or any filesystem path.
+
+| Argument | Meaning |
+|---|---|
+| `query` | Required unless `--list-queries`. |
+| `--list-queries` | Print `*.rq` names in the query directory (skips `prefixes.rq`) and exit. |
+| `--ontology-dir PATH` | Folder of Turtle files. Default: `IIIFCollection/Ontology`. |
+| `--query-dir PATH` | Folder of `.rq` files. Default: `tools/visualization/queries`. |
+| `--output-dir PATH` | Report directory and pickle cache location. Default: `tools/visualization/reports`. |
+| `--output PATH` | Explicit JSON path. Default: `<output-dir>/<query-stem>.json`. |
+| `--format LIST` | Comma-separated: `json`, `dot`, `markmap`, `stats`. Default: `json`. |
+| `--bind name=value` | Repeatable `$token` substitution (CURIE or IRI). |
+| `--no-cache` | Rebuild the rdflib graph instead of reading the pickle. |
+
+Examples:
+
+```bash
+cd IIIFCollection/tools/visualization
+
+python query_runner.py --list-queries
+
+python query_runner.py aat_hierarchy
+python query_runner.py queries/aat_hierarchy.rq --format json,dot,stats
+
+python query_runner.py narrative_hierarchy --format json,dot,markmap,stats
+python query_runner.py query23_content_element --format json,dot,markmap,stats
+python query_runner.py resource_type_stats --format json,stats
+python query_runner.py collection_membership --format json,stats
+
+python query_runner.py aat_hierarchy \
+  --bind seed=mdhn:aat300022464 \
+  --format json,dot \
+  --output reports/aat_hierarchy.json
+
+python query_runner.py iconography_skos --no-cache --ontology-dir ../../Ontology
+```
+
+Console line after a successful run:
+
+```text
+WROTE .../reports/aat_hierarchy.json
+kind=graph bindings=N nodes=N edges=N triples=N
+WROTE .../reports/aat_hierarchy.dot
+```
+
+`kind` is `graph` when at least one edge was inferred, otherwise `stats`.
+
+### Query file syntax
+
+1. Put SPARQL in `queries/<name>.rq`.
+2. If the file contains no `PREFIX` line, `prefixes.rq` is prepended automatically.
+3. Use local `mdhn:` CURIEs (`http://example.com/mdhn/`), not raw Getty/LOC IRIs, for instance data.
+4. Optional `$tokens` (not SPARQL `?vars`) are substituted from `--bind`.
+
+Binding rules:
+
+- Pattern: `$Name` where `Name` is `[A-Za-z_][A-Za-z0-9_]*`.
+- Value may be a CURIE (`mdhn:Halo`) or an IRI (`<http://...>` or bare URI). It is expanded and rewritten as `<expanded-iri>`.
+- If a token is present in the query but missing from `--bind`, **every line that contains that token is dropped**. The rest of the query still runs. This lets one `.rq` file carry optional FILTER/seed clauses.
+
+
+### Two result shapes the runner understands
+
+`viz_common.bindings_to_graph()` classifies a SELECT by variable names.
+
+#### 1. Edge queries → `kind: "graph"`
+
+Bind at least:
+
+| Variable | Role |
+|---|---|
+| `?source` or `?child` | Edge start |
+| `?target` or `?parent` | Edge end |
+| `?rel` | Predicate (CURIE or IRI) |
+| `?sourceLabel` / `?childLabel` | Optional label |
+| `?targetLabel` / `?parentLabel` | Optional label |
+| `?sourceType` / `?childType` | Optional `rdf:type` |
+| `?targetType` / `?parentType` | Optional `rdf:type` |
+| `?comment` | Tooltip text |
+| `?isGuideTerm` | AAT guide-term flag |
+| `?imgurl` | IIIF image URL; attached to the target when `rel` is `mdhn:hasCroppedDetails` |
+
+Hierarchy predicates in the data point **child → parent**:
+
+- `mdhn:hasAATBroader`
+- `mdhn:hasIconclassBroader`
+- `mdhn:hasTGMBroader`
+- `mdhn:isPartOf` / `mdhn:ispartOf`
+- `mdhn:subCollectionOf`
+
+Stage 2 inverts those edges so DOT/Markmap draw **parent → child**. Association predicates (`skos:*`, `mdhn:depicts`, `mdhn:classifiedAs`, `mdhn:charactersInvolved`, `mdhn:hasResource`, …) keep source → target.
+
+Do not hang many OPTIONAL label columns on a large `SELECT *` UNION. `query23_content_element.rq` shows the preferred pattern: emit one edge family per UNION branch (`?source ?target ?rel`), then let `enrich_nodes_from_graph()` fill English labels and types after the query.
+
+#### 2. Path queries (Query 23 style, `SELECT *`)
+
+If the result has no `source`/`target` pair, the runner still builds a graph when these column names co-occur:
+
+| Columns | Inferred edge |
+|---|---|
+| `collection` + `resource` | `mdhn:hasResource` |
+| `resource` + `s` or `canvas` | `mdhn:hasCanvas` |
+| `s`/`canvas` + `details` | `mdhn:hasCroppedDetails` |
+| `details` + `persona` | `mdhn:hasAgential` |
+
+Companion label columns: `collectionLabel`, `resourceLabel`, `canvasLabel`, `detailsLabel`, `personaLabel`. Image/URL columns: `imgurl`, `resurl`.
+
+#### 3. Stats queries → `kind: "stats"`
+
+No usable edges. Typical shape: grouped variables plus `COUNT` / `SAMPLE` aliases (`?type`, `?typeLabel`, `?count`). The JSON still contains `table` and `stats`; `--format stats` writes HTML.
+
+### JSON envelope
+
+Every run writes one document:
+
+```json
+{
+  "meta": {
+    "query": "aat_hierarchy.rq",
+    "query_path": ".../queries/aat_hierarchy.rq",
+    "sources": ["aat_hierarchy.ttl", "resources.ttl", "..."],
+    "triple_count": 180317,
+    "generated_at": "2026-09-03T18:25:52.503848+00:00",
+    "bindings": { "seed": "mdhn:aat300022464" },
+    "kind": "graph"
+  },
+  "head": { "vars": ["source", "sourceLabel", "target", "rel", "..."] },
+  "results": { "bindings": [ { "source": { "type": "uri", "value": "http://...", "curie": "mdhn:..." } } ] },
+  "graph": {
+    "nodes": [
+      { "id": "mdhn:aat300209285", "label": "headgear", "type": "mdhn:ResourceType", "attrs": { "isGuideTerm": "false", "comment": "..." } }
+    ],
+    "edges": [
+      { "source": "mdhn:aat300209285", "target": "mdhn:aat300211601", "rel": "mdhn:hasAATBroader" }
+    ]
+  },
+  "table": { "columns": ["source", "..."], "rows": [ { "source": "mdhn:aat300209285" } ] },
+  "stats": { "bindings": 123, "nodes": 80, "edges": 79, "by_type": { "mdhn:ResourceType": 70 } }
+}
+```
+
+URI bindings include both the full IRI (`value`) and a compact `curie`. Literals keep `xml:lang` and `datatype` when present. After the query, nodes missing labels/types are enriched from `rdfs:label@en` and project `rdf:type` (`mdhn:` / `fhkb:`).
+
+### Bundled queries and sample reports
+
+| Query | Shape | Sample artefacts under `reports/` |
+|---|---|---|
+| `aat_hierarchy.rq` | `?source --hasAATBroader--> ?target` plus guide-term / comment | `aat_hierarchy.json`, `.dot`, `.stats.html`, `.stats.json` |
+| `iconclass_hierarchy.rq` | Iconclass broader tree | `iconclass_hierarchy.json`, `.dot` |
+| `tgm_hierarchy.rq` | TGM broader tree | (run to generate) |
+| `narrative_hierarchy.rq` | `isPartOf` + `charactersInvolved` | `narrative_hierarchy.json`, `.dot`, `.markmap.md`, `.stats.*` |
+| `iconography_skos.rq` | SKOS alignments around local concepts | `iconography_skos.json`, `.dot` |
+| `collection_membership.rq` | `isInCollection` / `partOf` counts | `collection_membership.json`, `.stats.*` |
+| `resource_type_stats.rq` | `DigitalResource` counts by `classifiedAs` | `resource_type_stats.json`, `.stats.*` (`kind: stats`; e.g. Single Photograph 4418, miniatures 927) |
+| `query23_content_element.rq` | Multi-layer UNION from canvases depicting `mdhn:RostamStory` that also have a `Fragment_Cropped_Image` crop | `query23_content_element.json`, `.dot`, `.markmap.md`, `.stats.*` |
+
+`query23_content_element.rq` is the reference for hierarchical IIIFDexir structure. Shared seed:
+
+- canvas `a mdhn:ResourceCanvas`
+- `mdhn:depicts mdhn:RostamStory`
+- `FILTER EXISTS` a cropped detail that `elementDepicts mdhn:Fragment_Cropped_Image`
+
+UNION families (one edge type each, to avoid cartesian blow-up):
+
+1. **Structure** — Collection `hasResource` Resource `hasCanvas` Canvas `hasCroppedDetails` Element `hasAgential` Persona; also `hasParticipantInRoleReferredTo`
+2. **Narrative** — canvas `depicts` episode; episode `isPartOf` parent; episode `charactersInvolved` persona
+3. **Iconography** — canvas `depicts` concept; concept `skos:exactMatch|closeMatch|relatedMatch|broadMatch`
+4. **Vocabulary** — resource/canvas `classifiedAs`, resource `hasScriptStyle`, element `elementHasSubject`
+
+### Stage 2 formats (invoked by `--format`)
+
+Handled by `render_query_graph.py` from the JSON envelope:
+
+- **dot** — Graphviz `digraph`, type-coloured nodes, relation-styled edges, hierarchy inversion, `rdfs:comment` tooltips.
+- **markmap** — Markdown mind-map. Mixed structure graphs root at collections (or resources). Cropped details may embed IIIF thumbnails (`/full/` or `/max/` rewritten to width 200). Narrative / SKOS / persona facts become nested bullets rather than extra heading levels.
+- **stats** — `*.stats.json` plus a compact HTML table of binding counts, node/edge totals, and `by_type`.
+
+`json` is always written first.
+
+### Authoring a new visualisation query
+
+1. Add `queries/my_view.rq` following the edge or stats contract above.
+2. Prefer `GROUP BY ?source ?target ?rel` with `SAMPLE()` on labels when OPTIONAL labels would duplicate edges.
+3. For neighbourhood / canvas queries, seed first, then `UNION` one predicate family per branch. Use `FILTER EXISTS` instead of joining every crop into every branch.
+4. Run:
+
+```bash
+python query_runner.py my_view --format json,dot,markmap,stats
+```
+
+5. Inspect `reports/my_view.json` (`meta.kind`, `stats`, a few `graph.edges`) before committing the rendered files.
+
+### Dependencies
+
+- Python 3.9+
+- `rdflib`
+- Graphviz `dot` only if you render SVG/PNG from the generated `.dot` (separate from this script)
+```
+
+
 
 
 ## Spatial Navigation with navPlace Extension
