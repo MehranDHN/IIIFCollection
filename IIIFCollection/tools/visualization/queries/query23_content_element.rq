@@ -1,0 +1,154 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX mdhn: <http://example.com/mdhn/>
+
+# README Query 23 as graph edges (not SELECT *).
+# Seed is the canvas set; FILTER EXISTS keeps the Fragment_Cropped_Image
+# constraint without cartesian-multiplying every UNION by each crop.
+#
+# UNION families (one edge per visualization layer):
+#   structure     Collection -> Resource -> Canvas -> Element -> Persona
+#   narrative     canvas depicts NarrativeEpisode ; episode isPartOf / charactersInvolved
+#   iconography   canvas depicts other concepts ; concept SKOS alignments
+#   vocabulary    classifiedAs / hasScriptStyle / elementHasSubject
+
+# Labels and rdf:type are filled from the same graph after the query
+# (rdflib GROUP BY + OPTIONAL labels is too slow on this UNION).
+
+SELECT ?source ?target ?rel ?imgurl
+WHERE {
+  ?canvas a mdhn:ResourceCanvas ;
+          mdhn:depicts mdhn:RostamStory ;
+          mdhn:canvasOf ?resource .
+  ?resource mdhn:isInCollection ?collection .
+  FILTER EXISTS {
+    ?canvas mdhn:hasCroppedDetails ?seedElement .
+    ?seedElement mdhn:elementDepicts mdhn:Fragment_Cropped_Image .
+  }
+
+  {
+    ?resource mdhn:isInCollection ?collection .
+    BIND(?collection AS ?source)
+    BIND(?resource AS ?target)
+    BIND(mdhn:hasResource AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:canvasOf ?resource .
+    BIND(?resource AS ?source)
+    BIND(?canvas AS ?target)
+    BIND(mdhn:hasCanvas AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:hasCroppedDetails ?element .
+    ?element mdhn:elementDepicts mdhn:Fragment_Cropped_Image ;
+             mdhn:croppedImageURL ?imgurl .
+    BIND(?canvas AS ?source)
+    BIND(?element AS ?target)
+    BIND(mdhn:hasCroppedDetails AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:hasCroppedDetails ?element .
+    ?element mdhn:elementDepicts mdhn:Fragment_Cropped_Image ;
+             mdhn:hasAgential ?persona .
+    BIND(?element AS ?source)
+    BIND(?persona AS ?target)
+    BIND(mdhn:hasAgential AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:hasParticipantInRoleReferredTo ?persona .
+    BIND(?canvas AS ?source)
+    BIND(?persona AS ?target)
+    BIND(mdhn:hasParticipantInRoleReferredTo AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:depicts ?concept .
+    BIND(?canvas AS ?source)
+    BIND(?concept AS ?target)
+    BIND(mdhn:depicts AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:classifiedAs ?term .
+    BIND(?canvas AS ?source)
+    BIND(?term AS ?target)
+    BIND(mdhn:classifiedAs AS ?rel)
+  }
+  UNION
+  {
+    ?resource mdhn:classifiedAs ?term .
+    BIND(?resource AS ?source)
+    BIND(?term AS ?target)
+    BIND(mdhn:classifiedAs AS ?rel)
+  }
+  UNION
+  {
+    ?resource mdhn:hasScriptStyle ?term .
+    BIND(?resource AS ?source)
+    BIND(?term AS ?target)
+    BIND(mdhn:hasScriptStyle AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:hasCroppedDetails ?element .
+    ?element mdhn:elementDepicts mdhn:Fragment_Cropped_Image ;
+             mdhn:elementHasSubject ?term .
+    BIND(?element AS ?source)
+    BIND(?term AS ?target)
+    BIND(mdhn:elementHasSubject AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:depicts ?concept .
+    ?concept (mdhn:isPartOf|mdhn:ispartOf) ?parent .
+    BIND(?concept AS ?source)
+    BIND(?parent AS ?target)
+    BIND(mdhn:isPartOf AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:depicts ?concept .
+    ?concept mdhn:charactersInvolved ?persona .
+    BIND(?concept AS ?source)
+    BIND(?persona AS ?target)
+    BIND(mdhn:charactersInvolved AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:depicts ?concept .
+    ?concept skos:exactMatch ?match .
+    BIND(?concept AS ?source)
+    BIND(?match AS ?target)
+    BIND(skos:exactMatch AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:depicts ?concept .
+    ?concept skos:closeMatch ?match .
+    BIND(?concept AS ?source)
+    BIND(?match AS ?target)
+    BIND(skos:closeMatch AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:depicts ?concept .
+    ?concept skos:relatedMatch ?match .
+    BIND(?concept AS ?source)
+    BIND(?match AS ?target)
+    BIND(skos:relatedMatch AS ?rel)
+  }
+  UNION
+  {
+    ?canvas mdhn:depicts ?concept .
+    ?concept skos:broadMatch ?match .
+    BIND(?concept AS ?source)
+    BIND(?match AS ?target)
+    BIND(skos:broadMatch AS ?rel)
+  }
+
+}

@@ -1,0 +1,30 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+
+# AAT broader/narrower tree from Ontology/aat_hierarchy.ttl.
+# source = narrower term, target = broader term.
+
+SELECT
+  ?source
+  (SAMPLE(?sourceLabel) AS ?sourceLabel)
+  (SAMPLE(?sourceType) AS ?sourceType)
+  ?target
+  (SAMPLE(?targetLabel) AS ?targetLabel)
+  (SAMPLE(?targetType) AS ?targetType)
+  ?rel
+  (SAMPLE(?isGuideTerm) AS ?isGuideTerm)
+  (SAMPLE(?comment) AS ?comment)
+WHERE {
+  ?source mdhn:hasAATBroader ?target .
+  BIND(mdhn:hasAATBroader AS ?rel)
+  OPTIONAL { ?source rdfs:label ?sourceLabel FILTER(LANG(?sourceLabel) = "en") }
+  OPTIONAL { ?target rdfs:label ?targetLabel FILTER(LANG(?targetLabel) = "en") }
+  OPTIONAL { ?source a ?sourceType }
+  OPTIONAL { ?target a ?targetType }
+  OPTIONAL { ?source mdhn:isGuideTerm ?isGuideTerm }
+  OPTIONAL { ?source rdfs:comment ?comment FILTER(LANG(?comment) = "en") }
+}
+GROUP BY ?source ?target ?rel
+ORDER BY ?targetLabel ?sourceLabel

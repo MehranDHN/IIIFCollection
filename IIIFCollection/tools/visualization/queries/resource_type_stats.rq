@@ -1,0 +1,23 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+
+# DigitalResource counts grouped by classifiedAs (AAT and local types).
+# Labels come from aat_hierarchy.ttl (and other vocab files in Ontology/).
+
+SELECT
+  ?type
+  (SAMPLE(?typeLabel) AS ?typeLabel)
+  (SAMPLE(?typeClass) AS ?typeClass)
+  (COUNT(DISTINCT ?resource) AS ?count)
+WHERE {
+  ?resource a mdhn:DigitalResource ;
+            mdhn:classifiedAs ?type .
+  OPTIONAL {
+    ?type rdfs:label ?typeLabel .
+    FILTER(LANG(?typeLabel) = "en" || LANG(?typeLabel) = "")
+  }
+  OPTIONAL { ?type a ?typeClass }
+}
+GROUP BY ?type
+ORDER BY DESC(?count) ?typeLabel

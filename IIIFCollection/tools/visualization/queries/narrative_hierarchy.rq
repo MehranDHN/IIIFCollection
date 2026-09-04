@@ -1,0 +1,37 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX fhkb: <http://www.example.com/genealogy.owl#>
+
+# Narrative episode hierarchy and involved characters.
+# Turtle mixes mdhn:isPartOf and mdhn:ispartOf; both are treated as parent links.
+# charactersInvolved joins Ontology/narrative_episodes.ttl to PersonsRDFData.ttl.
+#
+#   episode --isPartOf--> parent episode
+#   episode --charactersInvolved--> person (e.g. mdhn:Garshasp)
+
+SELECT
+  ?source
+  (SAMPLE(?sourceLabel) AS ?sourceLabel)
+  (SAMPLE(?sourceType) AS ?sourceType)
+  ?target
+  (SAMPLE(?targetLabel) AS ?targetLabel)
+  (SAMPLE(?targetType) AS ?targetType)
+  ?rel
+WHERE {
+  {
+    ?source (mdhn:isPartOf|mdhn:ispartOf) ?target .
+    BIND(mdhn:isPartOf AS ?rel)
+  }
+  UNION
+  {
+    ?source mdhn:charactersInvolved ?target .
+    BIND(mdhn:charactersInvolved AS ?rel)
+  }
+  OPTIONAL { ?source rdfs:label ?sourceLabel FILTER(LANG(?sourceLabel) = "en") }
+  OPTIONAL { ?target rdfs:label ?targetLabel FILTER(LANG(?targetLabel) = "en") }
+  OPTIONAL { ?source a ?sourceType }
+  OPTIONAL { ?target a ?targetType }
+}
+GROUP BY ?source ?target ?rel
+ORDER BY ?rel ?sourceLabel ?targetLabel

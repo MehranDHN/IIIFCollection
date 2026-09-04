@@ -1,0 +1,37 @@
+# Shared PREFIX block for IIIFDexir SPARQL queries.
+# query_runner.py prepends this file when a .rq does not declare PREFIX itself.
+# Instance data uses mdhn: CURIEs (http://example.com/mdhn/), not Getty/LOC IRIs.
+
+PREFIX rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:        <http://www.w3.org/2002/07/owl#>
+PREFIX xsd:        <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos:       <http://www.w3.org/2004/02/skos/core#>
+PREFIX mdhn:       <http://example.com/mdhn/>
+PREFIX fhkb:       <http://www.example.com/genealogy.owl#>
+PREFIX schema:     <http://schema.org/>
+PREFIX aat:        <http://vocab.getty.edu/aat/>
+PREFIX tgm:        <http://id.loc.gov/vocabulary/graphicMaterials/>
+PREFIX tgn:        <http://vocab.getty.edu/tgn/>
+PREFIX lcsh:       <https://id.loc.gov/authorities/subjects/>
+PREFIX iconclass:  <https://iconclass.org/>
+PREFIX biblissima: <https://data.biblissima.fr/entity/>
+PREFIX wd:         <http://www.wikidata.org/entity/>
+
+# Graph queries should bind:
+#   ?source ?target ?rel
+#   OPTIONAL ?sourceLabel ?targetLabel ?sourceType ?targetType ?comment ?isGuideTerm
+# Hierarchy direction in the data is child --rel--> parent for:
+#   mdhn:hasAATBroader, mdhn:hasIconclassBroader, mdhn:hasTGMBroader,
+#   mdhn:isPartOf, mdhn:ispartOf, mdhn:subCollectionOf
+# Association direction is source --rel--> target for:
+#   mdhn:charactersInvolved, skos:*, mdhn:depicts, mdhn:classifiedAs
+#
+# Semantic layers for Markmap (use UNION edges off a DISTINCT seed, never extra
+# OPTIONAL columns on SELECT * — that cartesian-explodes rows):
+#   1. Structure:     hasResource / hasCanvas / hasCroppedDetails / hasAgential
+#   2. Narrative:     mdhn:depicts → mdhn:NarrativeEpisode, then isPartOf / charactersInvolved
+#   3. Iconography:   mdhn:depicts / elementDepicts → local concepts, then skos:*
+#   4. Vocabulary:    classifiedAs / hasScriptStyle / elementHasSubject → AAT, Iconclass, TGM, LCSH
+#
+# Stats queries should bind grouped variables plus COUNT / SAMPLE aliases.

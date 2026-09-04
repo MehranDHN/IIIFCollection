@@ -1,0 +1,17 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+
+# TGM broader/narrower tree from Ontology/LCTGM_RDF.ttl.
+# This graph is large; prefer --format json then subset in Stage 2 if DOT is too heavy.
+
+SELECT ?source ?sourceLabel ?sourceType ?target ?targetLabel ?targetType ?rel
+WHERE {
+  ?source mdhn:hasTGMBroader ?target .
+  BIND(mdhn:hasTGMBroader AS ?rel)
+  OPTIONAL { ?source rdfs:label ?sourceLabel FILTER(LANG(?sourceLabel) = "en") }
+  OPTIONAL { ?target rdfs:label ?targetLabel FILTER(LANG(?targetLabel) = "en") }
+  OPTIONAL { ?source a ?sourceType }
+  OPTIONAL { ?target a ?targetType }
+}
+ORDER BY ?targetLabel ?sourceLabel

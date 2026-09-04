@@ -1,0 +1,33 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX mdhn: <http://example.com/mdhn/>
+
+# SKOS alignments from local iconography concepts to AAT / Iconclass / TGM / LCSH.
+# Optional seed: --bind seed=mdhn:Halo
+# Lines containing $seed are removed when --bind seed is omitted.
+
+SELECT ?source ?sourceLabel ?sourceType ?target ?targetLabel ?targetType ?rel
+WHERE {
+  {
+    ?source skos:exactMatch ?target . BIND(skos:exactMatch AS ?rel)
+  } UNION {
+    ?source skos:closeMatch ?target . BIND(skos:closeMatch AS ?rel)
+  } UNION {
+    ?source skos:relatedMatch ?target . BIND(skos:relatedMatch AS ?rel)
+  } UNION {
+    ?source skos:broadMatch ?target . BIND(skos:broadMatch AS ?rel)
+  } UNION {
+    ?source skos:narrowMatch ?target . BIND(skos:narrowMatch AS ?rel)
+  } UNION {
+    ?source skos:broader ?target . BIND(skos:broader AS ?rel)
+  } UNION {
+    ?source skos:narrower ?target . BIND(skos:narrower AS ?rel)
+  }
+  FILTER(?source = $seed || ?target = $seed)
+  OPTIONAL { ?source rdfs:label ?sourceLabel FILTER(LANG(?sourceLabel) = "en") }
+  OPTIONAL { ?target rdfs:label ?targetLabel FILTER(LANG(?targetLabel) = "en") }
+  OPTIONAL { ?source a ?sourceType }
+  OPTIONAL { ?target a ?targetType }
+}
+ORDER BY ?rel ?sourceLabel ?targetLabel

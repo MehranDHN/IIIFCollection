@@ -1,0 +1,33 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+
+# Resource membership counts.
+# isInCollection points at ResourceCollection-like nodes (often untyped in resources.ttl).
+# partOf points at mdhn:DepartedCollection instances in ctl_vocabs.ttl.
+
+SELECT
+  ?collection
+  (SAMPLE(?collectionLabel) AS ?collectionLabel)
+  (SAMPLE(?collectionType) AS ?collectionType)
+  ?rel
+  (COUNT(DISTINCT ?resource) AS ?count)
+WHERE {
+  ?resource a mdhn:DigitalResource .
+  {
+    ?resource mdhn:isInCollection ?collection .
+    BIND(mdhn:isInCollection AS ?rel)
+  }
+  UNION
+  {
+    ?resource mdhn:partOf ?collection .
+    BIND(mdhn:partOf AS ?rel)
+  }
+  OPTIONAL {
+    ?collection rdfs:label ?collectionLabel .
+    FILTER(LANG(?collectionLabel) = "en" || LANG(?collectionLabel) = "")
+  }
+  OPTIONAL { ?collection a ?collectionType }
+}
+GROUP BY ?collection ?rel
+ORDER BY DESC(?count) ?collection

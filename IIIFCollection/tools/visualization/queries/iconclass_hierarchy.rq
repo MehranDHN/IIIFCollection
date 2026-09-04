@@ -1,0 +1,27 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+
+# Iconclass broader/narrower tree from Ontology/iconclass_hierarchy.ttl.
+# source = narrower notation, target = broader notation.
+
+SELECT
+  ?source
+  (SAMPLE(?sourceLabel) AS ?sourceLabel)
+  (SAMPLE(?sourceType) AS ?sourceType)
+  ?target
+  (SAMPLE(?targetLabel) AS ?targetLabel)
+  (SAMPLE(?targetType) AS ?targetType)
+  ?rel
+  (SAMPLE(?comment) AS ?comment)
+WHERE {
+  ?source mdhn:hasIconclassBroader ?target .
+  BIND(mdhn:hasIconclassBroader AS ?rel)
+  OPTIONAL { ?source rdfs:label ?sourceLabel FILTER(LANG(?sourceLabel) = "en") }
+  OPTIONAL { ?target rdfs:label ?targetLabel FILTER(LANG(?targetLabel) = "en") }
+  OPTIONAL { ?source a ?sourceType }
+  OPTIONAL { ?target a ?targetType }
+  OPTIONAL { ?source rdfs:comment ?comment FILTER(LANG(?comment) = "en") }
+}
+GROUP BY ?source ?target ?rel
+ORDER BY ?targetLabel ?sourceLabel

@@ -448,7 +448,7 @@
 ##### Garshaspnameh (see above)
 ##### Ṣāliḥ and the She-Camel from the Mountain `Story_of_Salih_and_the_She_Camel` (NarrativeEpisode)
 ###### Characters
-###### Camel Of Salih `Camel_o_Salih` (MaleCreature)
+###### Camel Of Salih `Camel_of_Salih` (MaleCreature)
 ###### Salih (Man)
 #### Shahnameh (see above)
 #### Siege_of_Al_Muqanna_Fortress (see above)
