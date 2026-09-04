@@ -444,9 +444,6 @@ python query_runner.py my_view --format json,dot,markmap,stats
 - Python 3.9+
 - `rdflib`
 - Graphviz `dot` only if you render SVG/PNG from the generated `.dot` (separate from this script)
-```
-
-
 
 
 ## Spatial Navigation with navPlace Extension
