@@ -690,8 +690,8 @@
 - **Iconography Tags (elementLOUD):** mdhn:Garshasp
 - **Styles:** aat:500011001
 
-### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 208r
-- ![ Rostam cropped figure from 208r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0925/1310,1618,1858,1394/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Dragon cropped figure from 208r
+- ![ Dragon cropped figure from 208r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0925/1310,1618,1858,1394/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Dragon
 - **Styles:** aat:500011001
 
@@ -1185,7 +1185,7 @@
 ## Manifest: Folio 20v The Court of Kayumars
 
 ## ResourceCanvas: f.20v — The Court of Kayumars
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012
 - **Contains:** HasPainting, HasText
 
 ---
@@ -1193,7 +1193,7 @@
 ## Manifest: Folio 23v Tahmuras Defeats the Divs
 
 ## ResourceCanvas: f.23v — Folio 23v Tahmuras Defeats the Divs
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from f23v
@@ -1234,7 +1234,7 @@
 ## Manifest: Folio 77v Mihrab Hears of Rudaba Folly
 
 ## ResourceCanvas: f.77v — Mihrab Hears of Rudaba Folly
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### mdhn:Fragment_Cropped_Image: Mihrab cropped figure from f77v
@@ -1294,7 +1294,7 @@
 ## Manifest: Folio 299r Bizhan Slaughters the Wild Boars of Irman
 
 ## ResourceCanvas: f.27v — Folio 229r Bizhan Slaughters the Wild Boars
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### mdhn:Fragment_Cropped_Image: Bizhan cropped figure from f299r
@@ -1325,7 +1325,7 @@
 ## Manifest: Folio 7r Firdausi Encounters the Court Poets of Ghazna
 
 ## ResourceCanvas: f.7r — Firdausi Encounters the Court Poets of Ghazna
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### mdhn:Fragment_Cropped_Image: Ferdowsi cropped figure from f7r
@@ -1353,7 +1353,7 @@
 ## Manifest: Folio 27v Zahhak Receives the Daughters of Jamshid
 
 ## ResourceCanvas: f.27v — Folio 27v Zahhak Receives the Daughters of Jamshid
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### mdhn:Fragment_Cropped_Image: Zahhak cropped figure from f27v
@@ -1385,7 +1385,7 @@
 ## Manifest: Folio 124r Rustam Seventh Course, He Kills the White Div
 
 ## ResourceCanvas: f.124r — Rostam Kills the White Div
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012
 - **Contains:** HasPainting, HasText
 
 ---
@@ -1393,7 +1393,7 @@
 ## Manifest: Folio 25v The Death of King Mirdas
 
 ## ResourceCanvas: f.25v — The Death of King Mirdas
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### mdhn:Fragment_Cropped_Image: Mirdas cropped figure from f25v
@@ -1416,7 +1416,7 @@
 ## Manifest: Folio 166r: The Fire Trail of Siyavush
 
 ## ResourceCanvas: f.166r — The Fire Trail of Siyavush
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 166r
@@ -1449,7 +1449,7 @@
 ## Manifest: Folio 168v: Siyavush and Rustam Captures Balkh
 
 ## ResourceCanvas: f.168v — Siyavush and Rustam Captures Balkh
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 168v
@@ -1478,7 +1478,7 @@
 ## Manifest: Folio 221r Kay Khusrau Takes the Castle of Bahman
 
 ## ResourceCanvas: f.221r — Kay Khusrau Takes the Castle of Bahman
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### mdhn:Fragment_Cropped_Image: Kay Khosrow cropped figure from 166r
@@ -2343,6 +2343,54 @@
 - ![ Textblock2 in FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/942,2631,1179,283/200,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** گران تاخت کرد دلير درآمد خروشان چو غرنده شير
+
+---
+
+## Manifest: The Fairy Queen Turktāz welcomes Turktāzī to her magical court
+
+## ResourceCanvas: f.182 — The Fairy Queen Turktaz
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### mdhn:Fragment_Cropped_Image: Queen Turktaz cropped figure from Per_182
+- ![ Queen Turktaz cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/950,3292,1163,1079/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Nobel Man cropped figure from Per_182
+- ![ Nobel Man cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/2126,3472,719,1480/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angels cropped figure from Per_182
+- ![ Angels cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/706,4164,896,1121/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angels cropped figure from Per_182
+- ![ Angels cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/2729,3625,922,740/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angels cropped figure from Per_182
+- ![ Angels cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/2984,4043,820,1546/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angels cropped figure from Per_182
+- ![ Angels cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/672,3429,371,1017/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in Per_182
+- ![ Textblock1 in Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/695,1792,3119,690/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** خيز و برگرد گرد اين پرگار هر که پيش آيدت به پيش من آر
+
+### mdhn:Text_or_Verses: Textblock2 in Per_182
+- ![ Textblock2 in Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/3088,2478,690,1081/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** پيش رفتم ز روی چالاکی خاک بوسيدمش من خاکی گفت برخيز جای جای تو نيست پايه بندگی سزای تو نيست
+
+### mdhn:Text_or_Verses: Textblock3 in Per_182
+- ![ Textblock3 in Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/690,5647,3139,1102/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** پيش چون ن حريف مهمان دوست جای مهمان ز مغز به نه ز پوست
 
 ---
 
