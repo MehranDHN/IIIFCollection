@@ -237,7 +237,7 @@ Shared helpers live in `viz_common.py`: CURIE compact/expand, SPARQL binding ser
 | Shared prefixes | `queries/prefixes.rq` |
 | Graph cache | `reports/.ontology_graph.pkl` |
 
-Turtle files named in `SKIP_TTL_NAMES` (currently `LCTGM_RDF.migrated.ttl`) are ignored. The cache is reused when every loaded `.ttl` is older than the pickle; pass `--no-cache` after ontology edits.
+Turtle files named in `SKIP_TTL_NAMES` (currently `LCTGM_RDF.ttl`) are ignored. The cache is reused when every loaded `.ttl` is older than the pickle; pass `--no-cache` after ontology edits.
 
 Loaded sources in current reports include: `aat_hierarchy.ttl`, `ctl_vocabs.ttl`, `iconclass_hierarchy.ttl`, `iconography_RDF.ttl`, `iiifCollectionOntology.ttl`, `lcsh_rdf_subset.ttl`, `LCTGM_RDF.ttl`, `narrative_episodes.ttl`, `PersonsRDFData.ttl`, `resources.ttl`, `tgn_subset_updated.ttl` (~180k triples).
 
@@ -270,17 +270,12 @@ python query_runner.py --list-queries
 
 python query_runner.py aat_hierarchy
 python query_runner.py queries/aat_hierarchy.rq --format json,dot,stats
-
 python query_runner.py narrative_hierarchy --format json,dot,markmap,stats
 python query_runner.py query23_content_element --format json,dot,markmap,stats
 python query_runner.py resource_type_stats --format json,stats
 python query_runner.py collection_membership --format json,stats
-
-python query_runner.py aat_hierarchy \
-  --bind seed=mdhn:aat300022464 \
-  --format json,dot \
-  --output reports/aat_hierarchy.json
-
+python query_runner.py aat_hierarchy_subset --bind seed=mdhn:aat300027267 --format json,dot,markmap,stats
+python query_runner.py aat_hierarchy --bind seed=mdhn:aat300022464 --format json,dot --output reports/aat_hierarchy.json
 python query_runner.py iconography_skos --no-cache --ontology-dir ../../Ontology
 ```
 
@@ -394,6 +389,7 @@ URI bindings include both the full IRI (`value`) and a compact `curie`. Literals
 
 | Query | Shape | Sample artefacts under `reports/` |
 |---|---|---|
+| `aat_hierarchy.rq` | `?source --hasAATBroader--> ?target` plus guide-term / comment | `aat_hierarchy.json`, `.dot`, `.stats.html`, `.stats.json` |
 | `aat_hierarchy.rq` | `?source --hasAATBroader--> ?target` plus guide-term / comment | `aat_hierarchy.json`, `.dot`, `.stats.html`, `.stats.json` |
 | `iconclass_hierarchy.rq` | Iconclass broader tree | `iconclass_hierarchy.json`, `.dot` |
 | `tgm_hierarchy.rq` | TGM broader tree | (run to generate) |
