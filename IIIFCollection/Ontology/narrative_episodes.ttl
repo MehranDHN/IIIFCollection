@@ -392,7 +392,7 @@ mdhn:Sharaf_Nama  a mdhn:NarrativeEpisode ;
 
 mdhn:Iskandar_visit_to_the_Kaba  a mdhn:NarrativeEpisode ;
    rdfs:label "Iskandar's visit to the Ka'ba"@en, "رفتن اسکندر به کعبه"@fa;
-   mdhn:isPartOf mdhn:Sharaf_Nama, mdhn:Shahnameh ;
+   mdhn:isPartOf mdhn:Sharaf_Nama, mdhn:Kingdom_of_Iskandar_Shahnameh ;
    mdhn:charactersInvolved mdhn:Iskandar_Dhul_Qarnayn;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/" .    
 
@@ -548,7 +548,7 @@ mdhn:Kingdom_of_Lohrasb a mdhn:NarrativeEpisode ;
 
 mdhn:Iskandar_Slays_a_Dragon a mdhn:NarrativeEpisode ;
    rdfs:label "Iskandar Slays a Dragon"@en, "کشتن اژدها توسط اسکندر"@fa;
-   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:isPartOf mdhn:Sharaf_Nama , mdhn:Kingdom_of_Iskandar_Shahnameh;
    mdhn:charactersInvolved mdhn:Iskandar_Dhul_Qarnayn, mdhn:Greedy_Dragon;
    mdhn:icWikiDataURL "" .   
 
@@ -587,14 +587,10 @@ mdhn:Hushang_Enthroned a mdhn:NarrativeEpisode;
 
 mdhn:Esfandiyar_Slays_Nowzar a mdhn:NarrativeEpisode;
    rdfs:label "Esfandiyar Slays Nowzar"@en, "کشته شدن نوذر به دست اسفنديار"@fa;
-   mdhn:isPartOf  mdhn:Shahnameh ;
+   mdhn:isPartOf  mdhn:KingdomOfNauzar ;
    mdhn:characterInvolved mdhn:Esfandiyar, mdhn:Nowzar;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140030291" .
-mdhn:Funeral_of_Isfandiyar a mdhn:NarrativeEpisode;
-   rdfs:label "Funeral of Isfandiyar"@en, "تشييع تابوت اسفنديار"@fa;
-   mdhn:isPartOf  mdhn:Shahnameh ;
-   mdhn:characterInvolved mdhn:Esfandiyar;
-   mdhn:icWikiDataURL "" .    
+
 
 mdhn:Kingdom_of_Kay_Qubad a mdhn:NarrativeEpisode ;
    rdfs:label "Kingdom Kay Qubad"@en, "پادشاهی کيقباد"@fa;
@@ -694,11 +690,7 @@ mdhn:Accusation_Against_Siyavush a mdhn:NarrativeEpisode;
    mdhn:characterInvolved mdhn:Siyavash , mdhn:Sudabeh;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140366903" . 
 
-mdhn:The_Fire_Trial_of_Siyavush a mdhn:NarrativeEpisode;
-   rdfs:label "The Fire Trial of Siyavush"@en, "سياوش در آتش"@fa;
-   mdhn:isPartOf  mdhn:Kingdom_of_Kay_Kavus, mdhn:Siyavash_Story;
-   mdhn:characterInvolved mdhn:Siyavash;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140366887" .  
+
 
    
 
@@ -708,11 +700,13 @@ mdhn:Siyavush_and_Rustem_Capture_Balkh a mdhn:NarrativeEpisode;
    mdhn:characterInvolved mdhn:Siyavash , mdhn:Rostam;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140367004" .        
 
+
 mdhn:The_Fire_Trial_of_Siyavush a mdhn:NarrativeEpisode;
    rdfs:label "The Fire Trial of Siyavush"@en, "سياوش در آتش"@fa;
-   mdhn:isPartOf  mdhn:Siyavash_Story ;
+   mdhn:isPartOf  mdhn:Kingdom_of_Kay_Kavus, mdhn:Siyavash_Story;
    mdhn:characterInvolved mdhn:Siyavash;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140366887" .     
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140366887" .  
+
 mdhn:Mourning_of_Siyavash a mdhn:NarrativeEpisode;
    rdfs:label "Mourning of Siyavash"@en, "سوگ سياوش"@fa;
    mdhn:isPartOf  mdhn:Siyavash_Story ;
@@ -1004,10 +998,7 @@ mdhn:RostamStory a mdhn:NarrativeEpisode;
    mdhn:isPartOf mdhn:Shahnameh ;
    mdhn:charactersInvolved  mdhn:Rostam ;
    mdhn:icWikiDataURL "" .
-mdhn:Rostam_Capture_The_Rakhsh_With_Lasso a mdhn:NarrativeEpisode;
-   rdfs:label "Rostam Capture The Rakhsh With Lasso"@en, "انتخاب رخش توسط رستم و کمد اندازی رستم"@fa;
-   mdhn:isPartOf mdhn:Kingdom_Of_Garshasp , mdhn:RostamStory ;
-   mdhn:icWikiDataURL "" .      
+  
 
 mdhn:Battle_Between_Rostam_and_AkvanDiv a mdhn:NarrativeEpisode;
    rdfs:label "Battle between Rostam and AkvanDiv"@en, "نبرد رستم و اکوان ديو"@fa;
@@ -1021,12 +1012,7 @@ mdhn:Kingdom_of_Manuchehr a mdhn:NarrativeEpisode ;
    mdhn:charactersInvolved  mdhn:Manuchehr;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .
 
-mdhn:KingdomOfFaridun a mdhn:NarrativeEpisode ;
-   rdfs:label "Kingdom of Fereydun"@en, "پادشاهی فريدون"@fa;
-   mdhn:isPartOf mdhn:Shahnameh ;
-   rdfs:comment "a mythical kingdom ruled by Fereydun in Persian mythology" ;
-   mdhn:charactersInvolved  mdhn:Fereydun;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .   
+ 
 
    
 
@@ -1038,11 +1024,12 @@ mdhn:Kingdom_of_KayKhosrow a mdhn:NarrativeEpisode ;
    mdhn:icWikiDataURL "" .   
 
 
+  
 
 mdhn:Rostam_Capture_The_Rakhsh_With_Lasso a mdhn:NarrativeEpisode;
    rdfs:label "Rostam Capture The Rakhsh With Lasso"@en, "انتخاب رخش توسط رستم و کمد اندازی رستم"@fa;
    mdhn:isPartOf mdhn:Kingdom_Of_Garshasp , mdhn:RostamStory ;
-   mdhn:icWikiDataURL "" .     
+   mdhn:icWikiDataURL "" .       
 mdhn:Kingdom_of_Fereydun a mdhn:NarrativeEpisode ;
    rdfs:label "Kingdom of Fereydun"@en, "پادشاهی فریدون"@fa;
    mdhn:isPartOf mdhn:Shahnameh ;
@@ -1323,7 +1310,7 @@ mdhn:Golestan_Debate_with_the_Claimant a mdhn:NarrativeEpisode ;
 #   Retract:  DavazdahRokh     isPartOf Shahnameh
 #   Retract:  KingdomOfZahhak  isPartOf ZahhakStory
 #   Retract:  Esfandiyar_Slays_Nowzar / Funeral_of_Isfandiyar  isPartOf Shahnameh
-# Prefer Kingdom_of_Fereydun over the duplicate KingdomOfFaridun.
+# Prefer Kingdom_of_Fereydun over the duplicate Kingdom_of_Fereydun.
 # =============================================================================
 
 
@@ -1546,7 +1533,7 @@ mdhn:Marriage_of_Fereydun_to_Jamshids_Daughters a mdhn:NarrativeEpisode ;
 
 mdhn:The_Court_of_Faridun a mdhn:NarrativeEpisode;
    rdfs:label "The Court of Faridun"@en, "بارگاه فريدون"@fa;
-   mdhn:isPartOf mdhn:KingdomOfFaridun, mdhn:Kingdom_of_Fereydun  ;
+   mdhn:isPartOf mdhn:Kingdom_of_Fereydun, mdhn:Kingdom_of_Fereydun  ;
    mdhn:charactersInvolved mdhn:Fereydun, mdhn:Faranak;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138821815".  
 
@@ -2016,8 +2003,11 @@ mdhn:Rostam_Shoots_Esfandiyar_in_the_Eyes a mdhn:NarrativeEpisode ;
     mdhn:charactersInvolved mdhn:Rostam , mdhn:Esfandiyar ;
     mdhn:icWikiDataURL "" .
 
-mdhn:Funeral_of_Isfandiyar mdhn:isPartOf mdhn:Story_of_Esfandiyar , mdhn:Kingdom_of_Goshtasp .
-
+mdhn:Funeral_of_Isfandiyar a mdhn:NarrativeEpisode;
+   rdfs:label "Funeral of Isfandiyar"@en, "تشييع تابوت اسفنديار"@fa;
+   mdhn:isPartOf  mdhn:Story_of_Esfandiyar , mdhn:Kingdom_of_Goshtasp ;
+   mdhn:characterInvolved mdhn:Esfandiyar;
+   mdhn:icWikiDataURL "" .    
 
 # --- 16. Bahman ------------------------------------------------------------
 
