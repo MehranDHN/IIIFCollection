@@ -3115,3 +3115,238 @@
 
 
 
+
+# Muraqqa (Calligraphy & Painting Collection)
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Diez-Album Diez A fol. 71
+
+## ResourceCanvas: f.139 — Lamentation at the bier of a Mongol ruler
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:500011092, aat:300033936
+- **Contains:** HasPainting
+
+### mdhn:Fragment_Cropped_Image: Coffin cropped figure from 139
+- ![ Coffin cropped figure from 139 ](https://content.staatsbibliothek-berlin.de/dc/635104741-0119/2497,910,3207,1954/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Coffin
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People in Grief 1 cropped figure from 139
+- ![ People in Grief 1 cropped figure from 139 ](https://content.staatsbibliothek-berlin.de/dc/635104741-0119/1036,2438,1562,2589/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Elephant
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People in Grief 2 cropped figure from 139
+- ![ People in Grief 2 cropped figure from 139 ](https://content.staatsbibliothek-berlin.de/dc/635104741-0119/2624,2658,2977,2366/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People in Grief 3 cropped figure from 105v
+- ![ People in Grief 3 cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/635104741-0119/5464,2658,1563,2366/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People in Grief 4 cropped figure from 105v
+- ![ People in Grief 4 cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/635104741-0119/5009,543,1953,2344/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+---
+
+## Manifest: Collection of Nasta'liq pieces Supplément persan 1949
+
+## ResourceCanvas: f.1r — Muraqqa btv1b84322466 folio 1r
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### mdhn:Calligraphic_Artwork: Segment1 in 1r
+- ![ Segment1 in 1r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f7/1441,1802,2202,3708/200,/90/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Eshagh_Khoshnevis
+- **Styles:** aat:300265532
+- **Persian Text:** اللهم صل علی محمد و آل محمد
+
+### mdhn:Seal_or_Toghra: Ragham1 in 296b
+- ![ Ragham1 in 296b ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f7/2732,1802,910,1126/200,/90/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Eshagh_Khoshnevis
+- **Styles:** aat:300265532
+- **Persian Text:** حرر اسحق
+
+---
+
+## ResourceCanvas: f.1r — Muraqqa btv1b84322466 folio 2r
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### mdhn:Calligraphic_Artwork: Segment1 in 2r
+- ![ Segment1 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f9/909,739,3290,2442/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mohammad_Taher_Sahhaf
+- **Styles:** aat:300265532
+- **Persian Text:** هنوز خوانده نشده
+
+### mdhn:Calligraphic_Artwork: Segment2 in 2r
+- ![ Segment2 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f9/863,3904,3360,2519/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mohammad_Taher_Sahhaf
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** هنوز خوانده نشده
+
+### mdhn:Seal_or_Toghra: Ragham1 in 2r
+- ![ Ragham1 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f9/2448,6005,680,311/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mohammad_Taher_Sahhaf
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** کتبه الخاسر محمد طاهر
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 2r
+- ![ Marginal/Side note in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f9/268,6601,4408,510/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.3r — Muraqqa btv1b84322466 folio 3r
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### mdhn:Calligraphic_Artwork: Segment1 in 3r
+- ![ Segment1 in 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f11/1853,1987,1707,3341/200,/90/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Malek_Mohammad_Qazvini
+- **Styles:** aat:300265532, aat:300055931
+- **Persian Text:** گلچهره همنفسم را
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 3r
+- ![ Marginal/Side note in 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f11/4068,4444,753,2231/200,/90/default.jpg)
+- **Persian Text:** حاشيه نويسی کتابخانه ملی فرانسه
+- **English Text:** pour donner carrière à son talent Le premier est gol chehreh (?) (gol, fleur, chehreh visage) Beau spécimen attribution. de l’écriture du maître Melek Mohammad de Ghazvin est.
+
+---
+
+## ResourceCanvas: f.4r — Muraqqa btv1b84322466 folio 4r
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### mdhn:Calligraphic_Artwork: Segment1 in 4r
+- ![ Segment1 in 4r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f13/1186,1504,2776,4289/200,/90/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Molana_Mohammad_Hossein
+- **Styles:** aat:300265532, aat:300055931
+- **Persian Text:** در رفع حجب کوش نه در جمع کتب کز جمع کتب نمی‌شود رفع حجب
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 4r
+- ![ Marginal/Side note in 4r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f13/4128,2955,487,3204/200,/90/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.5r — Muraqqa btv1b84322466 folio 5r
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### mdhn:Calligraphic_Artwork: Segment1 in 5r
+- ![ Segment1 in 5r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f13/1186,1504,2776,4289/200,/90/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Molana_Mohammad_Hossein
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** همه از تو ترسند و عبدالله از خود زیرا که از تو همه نیک آید و از عبدالله بد
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 5r
+- ![ Marginal/Side note in 5r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f15/113,6611,2885,624/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.6r — Muraqqa btv1b84322466 folio 6r
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### mdhn:Calligraphic_Artwork: Segment1 in 6r
+- ![ Segment1 in 6r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f17/1266,1906,2587,3531/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Emad_ol_Molk, mdhn:Nur_ad_Dīn_Abd_ar_Rahman_Jami
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** ای در دل تو هزار مشکل ز همه
+
+### mdhn:Seal_or_Toghra: Ragham1 in 6r
+- ![ Ragham1 in 6r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f17/3389,4459,340,354/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Emad_ol_Molk
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** خط عماد الملک حسينعلی 1200
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 6r
+- ![ Marginal/Side note in 6r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f17/475,5889,1242,776/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.7r — Muraqqa btv1b84322466 folio 7r
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### mdhn:Calligraphic_Artwork: Segment1 in 7r
+- ![ Segment1 in 7r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f19/2129,2044,1358,3290/200,/90/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Shahverdi
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** رفيق اهل توکل کسی که بيند راهست
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 7r
+- ![ Marginal/Side note in 7r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f19/4012,2416,807,4416/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.8r — Muraqqa btv1b84322466 folio 8r
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### mdhn:Calligraphic_Artwork: Segment1 in 8r
+- ![ Segment1 in 8r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f21/1296,1914,2554,3348/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** دوستی علی به حق خدا
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 6r
+- ![ Marginal/Side note in 6r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f21/1378,5678,1750,513/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.9r — Muraqqa btv1b84322466 folio 9r
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156, aat:500011066, aat:300010002
+
+### mdhn:Calligraphic_Artwork: Segment1 in 9r
+- ![ Segment1 in 9r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f23/1061,2048,2990,3951/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Shahverdi
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** خوانده نشده
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 9r
+- ![ Marginal/Side note in 9r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f23/4519,4225,432,1703/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.10r — Muraqqa btv1b84322466 folio 10r
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156, aat:300010003
+
+### mdhn:Calligraphic_Artwork: Segment1 in 10r
+- ![ Segment1 in 10r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f25/885,884,3352,2271/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mir_Azim
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** چه گويم کز غمت چون ميطپد دل
+
+### mdhn:Seal_or_Toghra: Ragham1 in 10r
+- ![ Ragham1 in 10r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f25/3462,1868,217,304/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mir_Azim
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** مشقه مير عظيم
+
+### mdhn:Calligraphic_Artwork: Segment2 in 10r
+- ![ Segment2 in 10r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f25/883,3956,3329,1890/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Esamt_ol_allah_Monshi
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** ز ما در هر که دولتمند آيد
+
+### mdhn:Seal_or_Toghra: Ragham1 in 10r
+- ![ Ragham1 in 10r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f25/3566,5154,478,460/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Esamt_ol_allah_Monshi
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** عصمت الله المنش 1151
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 10r
+- ![ Marginal/Side note in 10r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f25/4136,3993,927,2676/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+
+
