@@ -50,6 +50,112 @@
 
 ---
 
+## Manifest: Shāhnāmah Ms. W.602
+
+## ResourceCanvas: f.12a — Keyumars Enthroned
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000, aat:500011090
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Keyumars cropped figure from 12a
+- ![ Keyumars cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1863,2416,536,506/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Keyumars
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 12a
+- ![ Siamak cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/2319,2828,335,483/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Siamak
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Hushang cropped figure from 12a
+- ![ Hushang cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1911,3016,426,403/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Hushang
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Musician cropped figure from 12a
+- ![ Musician cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1123,2745,465,496/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People Standing cropped figure from 12a
+- ![ People Standing cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1131,2224,584,562/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unknown Man cropped figure from 12a
+- ![ Unknown Man cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1547,2615,380,533/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Hushang cropped figure from 12a
+- ![ Hushang cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/2483,2211,205,595/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angle cropped figure from 12a
+- ![ Angle cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/2245,2097,355,576/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Angles_From_Heaven
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 12a
+- ![ Textblock1 in 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1170,1030,1495,657/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Keyumars
+- **Styles:** aat:300265532
+- **Persian Text:** جهان بی سر و تاج خسرو مباد چنين هم بماند و جاويد شاد
+
+### mdhn:Text_or_Verses: Textblock2 in 12a
+- ![ Textblock2 in 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1114,3197,1542,446/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** چنين گفت کاين تخت
+
+---
+
+## ResourceCanvas: f.15a — Hushang fighting with Divs
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000, aat:500011090
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Hushang cropped figure from 15a
+- ![ Hushang cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1780,1908,867,1070/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Hushang
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Kharozan Div cropped figure from 15a
+- ![ Kharozan Div cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1308,2119,523,992/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Kharozan_Div
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 15a
+- ![ Div1 cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/843,2217,667,992/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Wounded Divs cropped figure from 15a
+- ![ Wounded Divs cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1613,2830,1051,656/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Hidded Divs Standing cropped figure from 15a
+- ![ Hidded Divs Standing cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1930,1531,603,429/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unknown Man cropped figure from 15a
+- ![ Unknown Man cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1547,2615,380,533/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Wounded Div cropped figure from 15a
+- ![ Wounded Div cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1359,3001,369,347/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 15a
+- ![ Textblock1 in 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1185,1048,1506,342/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** دمنده سيه ديوشان پيش رو
+
+### mdhn:Text_or_Verses: Textblock2 in 15a
+- ![ Textblock2 in 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1152,3342,1516,287/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** از ايشان دو بهره بافيون ببست دگرشان بگرز گران کرد پست
+
+---
+
 
 
 
