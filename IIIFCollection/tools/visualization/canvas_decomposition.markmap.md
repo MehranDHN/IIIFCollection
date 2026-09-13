@@ -135,8 +135,9 @@
 - **Iconography Tags (elementLOUD):** mdhn:Divs
 - **Styles:** aat:500011001
 
-### mdhn:Fragment_Cropped_Image: Unknown Man cropped figure from 15a
-- ![ Unknown Man cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/2000,1539,519,406/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Hidded Div cropped figure from 15a
+- ![ Hidded Div cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1430,1612,345,518/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Divs
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Wounded Div cropped figure from 15a
