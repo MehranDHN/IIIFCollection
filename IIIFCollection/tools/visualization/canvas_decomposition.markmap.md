@@ -136,7 +136,7 @@
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Unknown Man cropped figure from 15a
-- ![ Unknown Man cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1547,2615,380,533/200,/0/default.jpg)
+- ![ Unknown Man cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/2000,1539,519,406/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Wounded Div cropped figure from 15a
