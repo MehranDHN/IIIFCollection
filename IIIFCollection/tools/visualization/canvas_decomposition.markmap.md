@@ -1,5 +1,58 @@
 اين گزارش بوسيله ماشين تهيه شده و به منظور تست صحت اطلاعات و ساختار مدل اطلاعات ساختار يافته و رابطه های سلسله مراتبی اجزای يک صفحه از نسخه دستنويس يا نگاره طراحی شده . 
 ---
+# Shahnama Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Shāhnāmah Supplément persan 2113
+
+## ResourceCanvas: f.139r — Mourning of Siyavash
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
+- **Contains:** HasPainting, HasHalkari, HasText
+
+### mdhn:Fragment_Cropped_Image: Farangis cropped figure from 139r
+- ![ Farangis cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/2248,4089,1124,846/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Farangis
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Mourning Women1 cropped figure from 139r
+- ![ Mourning Women1 cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/862,3284,980,1187/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rudaba
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Mourning Women2 cropped figure from 139r
+- ![ Mourning Women2 cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/1759,3429,939,1269/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Mourning Women3 cropped figure from 139r
+- ![ Mourning Women3 cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/3050,3080,1332,2100/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Waching Man1 cropped figure from 139r
+- ![ Waching Man1 cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/1415,2439,637,1117/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Watching Man2 cropped figure from 139r
+- ![ Watching Man2 cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/3136,2481,637,1117/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 139r
+- ![ Textblock1 in 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/2171,1504,2142,555/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Farangis
+- **Styles:** aat:300265532
+- **Persian Text:** ز خان سیاوش برآمد خروش
+
+### mdhn:Text_or_Verses: Textblock2 in 139r
+- ![ Textblock2 in 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/2135,5169,2229,580/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Afrasiab, mdhn:Garsivaz
+- **Styles:** aat:300265532
+- **Persian Text:** به آواز بر جان افراسیاب
+
+---
+
+
+
+
 # Peck Shahnama Collection
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
@@ -3355,11 +3408,87 @@
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
 
+## Manifest: Ajāyib al-Makhlūqāt Persian MS 3
+
+## ResourceCanvas: f.f182b — Strange Ritual
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: A man preparing for Wudu cropped figure from f182b
+- ![ A man preparing for Wudu cropped figure from f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/1208,2329,1021,1191/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Wudu
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Standing man cropped figure from f182b
+- ![ Standing man cropped figure from f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/498,2399,528,1385/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Standing man2 cropped figure from f182b
+- ![ Standing man2 cropped figure from f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/747,2101,589,1378/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Two man standing cropped figure from f182b
+- ![ Two man standing cropped figure from f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/2098,2147,625,1494/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in f182b
+- ![ Textblock1 in f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/474,601,2309,1420/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** و با ايشان صندوقی بود و در آنجا شياب ملک بود که در آن نماز گزارد و شيخی آيد و با وی ظشتی و ابريقی زرين مرصع و ملک جامه زرين پوشيده بود
+
+### mdhn:Text_or_Verses: Textblock2 in f182b
+- ![ Textblock2 in f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/451,3915,2345,1680/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** حوضها بود اما بيست صورت آنجا ترکيب کرده باشند از ده
+
+---
+
+## ResourceCanvas: f.f219a — Jin and Divs
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+
+### mdhn:Fragment_Cropped_Image: Jin cropped figure from f219a
+- ![ Jin cropped figure from f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/847,879,1206,1195/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Jin, mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from f219a
+- ![ Div1 cropped figure from f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/846,2493,2278,784/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Jin, mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div2 cropped figure from f219a
+- ![ Div2 cropped figure from f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/1717,3967,1363,1405/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Jin, mdhn:Divs
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in f219a
+- ![ Textblock1 in f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/846,641,2305,241/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** فايدوم علی حال تکون بها کان فی اقواتها الغول و چنين گويند کسانی که غول ديده اند و چنين
+
+### mdhn:Text_or_Verses: Textblock2 in f219a
+- ![ Textblock2 in f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/2057,838,1077,1246/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** گفته اند که از سر ناف بر شکل انسان و از ناف تا آخر بر شکل اسب و بعضی از صحابه رسول صلی الله عليه و آله و سلم چنين گفتند که غول را ديديم در سفر به جانب شام
+
+### mdhn:Text_or_Verses: Textblock3 in f219a
+- ![ Textblock3 in f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/848,2074,2270,423/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** مشهور است السعلات او ديويست بر شکل زنان در بيشه ا از آن بسيار باشد اگر بر کسی ظفر يابد با او بازی کند
+
+### mdhn:Text_or_Verses: Textblock4 in f219a
+- ![ Textblock4 in f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/836,3275,2274,686/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** و او را زحمت بسيار دهد و چنين گويند که عمروبن يرفوع روح السعلات و او لدها زمانی دراز با السعلات با هم بودند
+
+---
+
 ## Manifest: Ajāʼib al-makhlūqāt
 
 ## ResourceCanvas: f.f66r — Sagsar Island
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
-- **Contains:** HasPainting, HasOnvan, HasText
+- **Contains:** HasPainting, HasText
 
 ### mdhn:Fragment_Cropped_Image: Sagsar creatures cropped figure from f66r
 - ![ Sagsar creatures cropped figure from f66r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00133.jp2/4518,2979,1139,2211/200,/0/default.jpg)
@@ -3393,9 +3522,53 @@
 - **Persian Text:** شاد می بودم تا يکی از ايشان دست بر گردن من نهاد که مرا  خبر بود که بر گردن من نشست
 
 ### mdhn:Text_or_Verses: Textblock2 in 66r
-- ![ Textblock2 in 66r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f143/1261,3662,2506,1128/200,/0/default.jpg)
+- ![ Textblock2 in 66r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00133.jp2/2543,7500,3103,334/200,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** ميگردانيدم و ثمره آن درختها ميچيد و ميخورد و به اصحاب خود ميداد و ايشان می خنديدند
+
+---
+
+## ResourceCanvas: f.f94v — Opening Illuminated Unwan Page  
+- **Canvas Types:** aat:300189604, aat:500181051, aat:500011065, aat:300266660
+- **Contains:** HasIlluminating, HasOnvan
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in f94v
+- ![ Headpiece1 in f94v ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00190.jp2/918,848,3163,2601/200,/0/default.jpg)
+- **Styles:** aat:300265540
+- **Persian Text:** النطر الاول فی المعدنيات
+
+---
+
+## ResourceCanvas: f.f107v — Opening Illuminated Unwan Page
+- **Canvas Types:** aat:300189604, aat:500181051, aat:500011065, aat:300266660
+- **Contains:** HasIlluminating, HasOnvan
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in f216v
+- ![ Headpiece1 in f216v ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00216.jp2/1006,1257,3083,2474/200,/0/default.jpg)
+- **Styles:** aat:300265540
+- **Persian Text:** النطر الثالث فی النبتات(از نظر ترتيبی ظاهرا بايد الثانی باشد)
+
+---
+
+## ResourceCanvas: f.f133r — Opening Illuminated Unwan Page
+- **Canvas Types:** aat:300189604, aat:500181051, aat:500011065, aat:300266660
+- **Contains:** HasIlluminating, HasOnvan
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in f133r
+- ![ Headpiece1 in f133r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00267.jp2/2326,2257,3054,1320/200,/0/default.jpg)
+- **Styles:** aat:300265540
+- **Persian Text:** النطر الثالث فی الحيوان
+
+---
+
+## ResourceCanvas: f.f141r — Opening Illuminated Unwan Page
+- **Canvas Types:** aat:300189604, aat:500181051, aat:500011065, aat:300266660
+- **Contains:** HasIlluminating, HasOnvan
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in f141r
+- ![ Headpiece1 in f141r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00283.jp2/2293,4824,3073,676/200,/0/default.jpg)
+- **Styles:** aat:300265540
+- **Persian Text:** فصل فی تشريح اعضاء الانسان
 
 ---
 
