@@ -612,10 +612,17 @@ API در نسخهٔ ۱٫۰٫۰ قرار دارند.
 - [مقالهٔ IIIF در ویکی‌پدیای انگلیسی](https://en.wikipedia.org/wiki/International_Image_Interoperability_Framework)
 - [OpenSeadragon](https://openseadragon.github.io/)
 - [Mirador](https://projectmirador.org/)
-- [JSON-LD](https://json-ld.org/)
 - [Mirador Project](https://projectmirador.org/)
 - [Digirati](https://digirati.com/)
+- [Cogapp](https://www.cogapp.com/)
+- [Triiiceratops](https://triiiceratops.org/)
 - [IIIFDexir](https://github.com/MehranDHN/IIIFCollection)
+- پيوندهايی برای مطالعه و ارتقای سطح مهارتهای مرتبط
+  - [JSON-LD](https://json-ld.org/)
+  - [OWL 2.0](https://www.w3.org/TR/owl2-primer/)
+  - [LinkedArt](https://linked.art/)  
+  - [CIDOC CRM](https://cidoc-crm.org/)    
+  - [Getty Training Materials](https://www.getty.edu/research/tools/vocabularies/training.html)   
 
 ## منابع آموزشی
 در سايت رسمی **IIIF** مطالب مفيدی در قالب آموزش و تشريح ساختار **IIIF** منتشر شده و يکی از مهمترين آنها به عنوان مجموعه‌ای از دستور العمل های مستقل مرتبط با سناريو های ساده ای هستند که **Cookbooks** ناميده ميشوند .
