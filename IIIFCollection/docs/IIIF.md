@@ -639,9 +639,9 @@ API در نسخهٔ ۱٫۰٫۰ قرار دارند.
 
 ## مرور با کمک اسلايدهای جمينای
 
-### در حال تهيه
 
-## Contents
+
+### Contents
 
 1. [Title: A coordinate system for heritage](#slide-01)
 2. [Shattering the silos](#slide-02)
@@ -661,20 +661,22 @@ API در نسخهٔ ۱٫۰٫۰ قرار دارند.
 
 ---
 
-## Slide 01 — Title: a coordinate system for heritage {#slide-01}
+<a id="slide-01"></a>
+
+### Slide 01 — Title: a coordinate system for heritage 
 
 <img src="/IIIFCollection/images/docs/slides/slide-01.jpg" alt="Slide 1: IIIF title slide with a Persian illuminated page mapped onto X/Y coordinates"/><br/>
 
 **On-slide title.** *IIIF: A Blueprint for the Future of Digital Cultural Heritage*  
 **On-slide subtitle.** Demystifying the International Image Interoperability Framework and the radical decoupling of digital archives.
 
-### Caption (English)
+#### Caption (English)
 
 The opening slide does not begin with a logo or a consortium slogan. It places a Persian illuminated folio on a measured X/Y plane and draws three rectangular regions, each labelled with pixel geometry (`x`, `y`, `w`, `h`). That single diagram is the thesis of the whole deck: a cultural object, once digitized, is no longer only a picture. It is an addressable surface. Any region — a heading in nastaʿlīq, a central miniature, a corner medallion — can be named, cropped, annotated, searched, and reused without moving the master file.
 
 The coordinates shown on the slide are illustrative, not a real IIIF request, but they preview the Image API’s region syntax and the Presentation API’s canvas geometry. Heritage here is treated as *space*, not as a download. Everything that follows — Manifests, Canvases, painting annotations, virtual reunification — is a way of talking about that space in a language every compliant viewer already understands.
 
-### شرح فارسی
+#### شرح فارسی
 
 اسلاید نخست به‌جای لوگو یا شعار کنسرسیوم، یک برگهٔ مذهّب فارسی را روی دستگاه مختصات X/Y می‌گذارد و سه ناحیه را با هندسهٔ پیکسلی (`x`، `y`، `w`، `h`) مشخص می‌کند. همین تصویر تزِ کل مجموعه است: اثر فرهنگی پس از رقمی‌سازی فقط «یک عکس» نیست؛ یک سطح آدرس‌پذیر است. هر ناحیه — یک سطر نستعلیق، مجلس مرکزی، یا ترنج گوشه — می‌تواند نام‌گذاری، برش، حاشیه‌نویسی، جست‌وجو و بازاستفاده شود، بی‌آنکه فایل مادر جابه‌جا شود.
 
@@ -682,14 +684,16 @@ The coordinates shown on the slide are illustrative, not a real IIIF request, bu
 
 ---
 
-## Slide 02 — Shattering the silos of digital heritage {#slide-02}
+<a id="slide-02"></a>
+
+### Slide 02 — Shattering the silos of digital heritage 
 
 
 <img src="/IIIFCollection/images/docs/slides/slide-02.jpg" alt="Slide 2: two institutions piping 100MB files into proprietary viewers that explode"/><br/>
 
 **On-slide title.** Shattering the Silos of Digital Heritage
 
-### Caption (English)
+#### Caption (English)
 
 Two classical façades — Museum A and Library B — each hold a “100MB+ High-Res Image File.” Copper pipes carry those monoliths toward three proprietary web viewers. The pipes burst. The callouts name the failure mode with unusual bluntness:
 
@@ -699,7 +703,7 @@ Two classical façades — Museum A and Library B — each hold a “100MB+ High
 
 This is the problem IIIF was designed to dissolve. Before a shared protocol existed, every repository invented its own zoom viewer, its own URL scheme, and its own metadata envelope. A scholar who wanted page 17 of a manuscript in London next to page 17 of a related copy in Paris had to open two websites, wait for two full-resolution downloads, and hope the interfaces were even comparable. The slide’s exploding pipes are a cartoon of that cost: you cannot build a shared research layer on top of private plumbing.
 
-### شرح فارسی
+#### شرح فارسی
 
 دو بنای کلاسیک — موزهٔ A و کتابخانهٔ B — هر کدام یک «فایل تصویری پرحجم بیش از ۱۰۰ مگابایت» نگه می‌دارند. لوله‌هایی مسی این فایل‌های یکپارچه را به‌سوی سه نمایشگر اختصاصی می‌برند و می‌ترکند. سه قاب متن، الگوی شکست را بی‌تعارف نام می‌گذارند:
 
@@ -711,14 +715,16 @@ This is the problem IIIF was designed to dissolve. Before a shared protocol exis
 
 ---
 
-## Slide 03 — The radical decoupling of content and structure {#slide-03}
+<a id="slide-03"></a>
+
+### Slide 03 — The radical decoupling of content and structure
 
 <img src="/IIIFCollection/images/docs/slides/slide-03.jpg" alt="Slide 3: repositories below an IIIF API gateway feeding universal viewers above"/><br/>
 
 **On-slide title.** The Radical Decoupling of Content and Structure  
 **On-slide claim.** IIIF is *not an image format*. It is an ecosystem of APIs that severs the hard link between media files, structural metadata, and viewing software.
 
-### Caption (English)
+#### Caption (English)
 
 The architecture is drawn as a sandwich. At the bottom sit independent digital repositories — museums, libraries, archives — each keeping its own files. In the middle runs a single dark bar labelled **The IIIF API Gateway**. Above it, three generic “universal viewers” request the same objects through that gateway. The paradigm shift is printed on the bar itself: *content and presentation are fully independent.*
 
@@ -730,7 +736,7 @@ This is the decoupling the title promised. The repository no longer ships a cust
 
 Any viewer that speaks those APIs can assemble the object. Institutions stop competing on viewer lock-in and start competing on the quality of their scans, metadata, and annotations. Researchers stop learning a new interface per silo.
 
-### شرح فارسی
+#### شرح فارسی
 
 معماری مثل یک ساندویچ کشیده شده است. پایین، مخازن مستقل — موزه، کتابخانه، آرشیو — فایل‌های خود را نگه می‌دارند. وسط، نواری تیره با عنوان **دروازهٔ API چارچوب IIIF**. بالا، سه «نمایشگر جهانی» همان اشیاء را از طریق این دروازه می‌خواهند. چرخش پارادایم روی خود نوار نوشته شده: *محتوا و نمایش کاملاً مستقل‌اند.*
 
@@ -744,7 +750,9 @@ Any viewer that speaks those APIs can assemble the object. Institutions stop com
 
 ---
 
-## Slide 04 — The IIIF information hierarchy {#slide-04}
+<a id="slide-04"></a>
+
+### Slide 04 — The IIIF information hierarchy 
 
 
 <img src="/IIIFCollection/images/docs/slides/slide-04.jpg" alt="Slide 4: tree from Collection through Manifest, Range, Canvas, Annotation, to content"/><br/>
@@ -752,7 +760,7 @@ Any viewer that speaks those APIs can assemble the object. Institutions stop com
 
 **On-slide title.** The IIIF Information Hierarchy
 
-### Caption (English)
+#### Caption (English)
 
 The model is a tree, not a file. From left to right:
 
@@ -768,7 +776,7 @@ Content never sits *inside* the Manifest. It hangs off the Canvas through annota
 
 Think of a printed codex: the collection is the shelf, the Manifest is the book, ranges are the chapters, canvases are the blank pages, and annotations are the ink — and also the later marginalia.
 
-### شرح فارسی
+#### شرح فارسی
 
 مدل یک درخت است، نه یک فایل. از چپ به راست:
 
@@ -786,7 +794,9 @@ Think of a printed codex: the collection is the shelf, the Manifest is the book,
 
 ---
 
-## Slide 05 — The Manifest: the digital dossier {#slide-05}
+<a id="slide-05"></a>
+
+### Slide 05 — The Manifest: the digital dossier 
 
 
 <img src="/IIIFCollection/images/docs/slides/slide-05.jpg" alt="Slide 5: a folder-like Manifest holding metadata, rights, and canvas sequence, with image files crossed out"/><br/>
@@ -794,7 +804,7 @@ Think of a printed codex: the collection is the shelf, the Manifest is the book,
 **On-slide title.** The Manifest: The Digital Dossier  
 **On-slide line.** The Manifest contains structural logic and URIs pointing to media — but never holds the image files themselves.
 
-### Caption (English)
+#### Caption (English)
 
 The Manifest is drawn as a circuit-board folder. Inside it sit three cards that *do* belong there:
 
@@ -806,7 +816,7 @@ Beside the folder, JPG and TIFF icons are crossed out in red: “Images are stru
 
 The footer restates the Manifest’s job: it is the primary unit of a complex digital object. It tells software what the object is, who created it, and in what order its parts should be displayed. If you share only one URL with a colleague, that URL should be the Manifest.
 
-### شرح فارسی
+#### شرح فارسی
 
 مانیفست مثل پوشه‌ای مدارمانند کشیده شده است. درون آن سه کارت هست که *حق حضور* دارند:
 
@@ -820,7 +830,9 @@ The footer restates the Manifest’s job: it is the primary unit of a complex di
 
 ---
 
-## Slide 06 — The Canvas: a virtual spatial container {#slide-06}
+<a id="slide-06"></a>
+
+### Slide 06 — The Canvas: a virtual spatial container 
 
 
 <img src="/IIIFCollection/images/docs/slides/slide-06.jpg" alt="Slide 6: empty grid canvas with X/Y rulers and a book labelled item 1 of 50"/><br/>
@@ -828,7 +840,7 @@ The footer restates the Manifest’s job: it is the primary unit of a complex di
 **On-slide title.** The Canvas: A Virtual Spatial Container  
 **On-slide line.** A book with 50 pages is represented by a Manifest containing 50 empty Canvases. The Canvases dictate spatial geometry, not visual content.
 
-### Caption (English)
+#### Caption (English)
 
 The slide insists on a distinction that newcomers almost always miss: **a Canvas is not an image.** It is a blank two-dimensional surface — “a virtual wall or page — waiting to be populated by annotations.” The drawing is an empty graph-paper sheet with rulers: width “e.g. 2500px,” height “e.g. 3000px.” A small book icon is captioned “Item 1 of 50.”
 
@@ -836,7 +848,7 @@ Why invent an empty rectangle at all? Because geometry must be stable even when 
 
 In Presentation API 3, canvases can also carry duration, so the same abstraction covers AV. The slide stays with the still page because that is the heritage case most readers will meet first.
 
-### شرح فارسی
+#### شرح فارسی
 
 اسلاید روی تمایزی پا می‌فشارد که تازه‌وارد تقریباً همیشه از دست می‌دهد: **کانواس تصویر نیست.** یک سطح دوبعدی خالی است — «دیوار یا صفحهٔ مجازی که منتظر پر شدن با حاشیه‌نویسی است.» نقاشی اسلاید یک برگ شطرنجی خالی با خط‌کش است: پهنا مثلاً ۲۵۰۰ پیکسل، بلندا مثلاً ۳۰۰۰ پیکسل. آیکون کوچک کتاب با برچسب «مورد ۱ از ۵۰» دیده می‌شود.
 
@@ -846,14 +858,16 @@ In Presentation API 3, canvases can also carry duration, so the same abstraction
 
 ---
 
-## Slide 07 — Annotations: binding content to space {#slide-07}
+<a id="slide-07"></a>
+
+### Slide 07 — Annotations: binding content to space
 
 <img src="/IIIFCollection/images/docs/slides/slide-07.jpg" alt="Slide 7: antique map of Europe with a painting annotation filling the canvas and a commenting annotation on Italy"/><br/>
 
 **On-slide title.** Annotations: Binding Content to Space  
 **On-slide question.** How does a Canvas get its visual content? Through the Web Annotation model.
 
-### Caption (English)
+#### Caption (English)
 
 Two JSON fragments sit on either side of an antique map of Europe.
 
@@ -865,7 +879,7 @@ The target is not the whole Canvas but a fragment: `canvas#xywh=1200,1400,300,20
 
 This is the Web Annotation Data Model, not a home-grown IIIF invention. Because the target is a URI with a media-fragment, the note travels with the object: another viewer, another institution, even a later annotation store can point at the same box. The slide’s pedagogical split — paint the page, then write on it — is the whole content layer of IIIF in two motivations.
 
-### شرح فارسی
+#### شرح فارسی
 
 دو قطعه JSON دو سوی نقشه‌ای کهن از اروپا نشسته‌اند.
 
@@ -879,14 +893,16 @@ This is the Web Annotation Data Model, not a home-grown IIIF invention. Because 
 
 ---
 
-## Slide 08 — Managing scale: Collections and Ranges {#slide-08}
+<a id="slide-08"></a>
+
+### Slide 08 — Managing scale: Collections and Ranges 
 
 
 <img src="/IIIFCollection/images/docs/slides/slide-08.jpg" alt="Slide 8: institutional collection pyramid next to a document table of contents made of ranges"/><br/>
 
 **On-slide title.** Managing Scale: Collections & Ranges
 
-### Caption (English)
+#### Caption (English)
 
 IIIF has to work at two very different scales, and the slide gives each its own instrument.
 
@@ -898,7 +914,7 @@ On the right, a table-of-contents pane lists “Chapter 1 (Range)” pointing at
 
 The two constructs look similar in JSON (`type: Collection` vs `type: Range`) but answer different questions: “Where does this object sit in the institution?” versus “Where does this page sit in the object?”
 
-### شرح فارسی
+#### شرح فارسی
 
 IIIF باید در دو مقیاس بسیار متفاوت کار کند و اسلاید برای هر کدام ابزاری جدا می‌گذارد.
 
@@ -912,14 +928,16 @@ IIIF باید در دو مقیاس بسیار متفاوت کار کند و اس
 
 ---
 
-## Slide 09 — The IIIF API ecosystem {#slide-09}
+<a id="slide-09"></a>
+
+### Slide 09 — The IIIF API ecosystem 
 
 
 <img src="/IIIFCollection/images/docs/slides/slide-09.jpg" alt="Slide 9: table of six IIIF APIs with versions, functions, and user actions"/><br/>
 
 **On-slide title.** The IIIF API Ecosystem
 
-### Caption (English)
+#### Caption (English)
 
 Six complementary specifications, not one. The table on the slide (with the official name of the authorization spec restored) is:
 
@@ -934,7 +952,7 @@ Six complementary specifications, not one. The table on the slide (with the offi
 
 Image + Presentation are the pair almost every implementation starts with. The other four are how the ecosystem scales to rights, full-text, union catalogues, and citable views. Presentation API 4 is in release-candidate status as of 2026; the slide correctly lists 3.0.0 as the current stable line.
 
-### شرح فارسی
+#### شرح فارسی
 
 شش مشخصات مکمل، نه یکی. جدول اسلاید (با نام رسمی مشخصات احراز هویت) چنین است:
 
@@ -951,7 +969,9 @@ Image و Presentation زوجی هستند که تقریباً هر پیاده‌
 
 ---
 
-## Slide 10 — Precision on demand: the Image API in action {#slide-10}
+<a id="slide-10"></a>
+
+### Slide 10 — Precision on demand: the Image API in action 
 
 
 <img src="/IIIFCollection/images/docs/slides/slide-10.jpg" alt="Slide 10: Persian miniature requested as cropped region, scaled size, and rotated crop"/><br/>
@@ -959,7 +979,7 @@ Image و Presentation زوجی هستند که تقریباً هر پیاده‌
 **On-slide title.** Precision on Demand: The Image API in Action  
 **On-slide line.** Instead of downloading a massive 100MB file, the viewer requests only the exact pixels it needs. The URL itself contains all parameters for cropping, scaling, and formatting.
 
-### Caption (English)
+#### Caption (English)
 
 The Image API is a sentence written as a path:
 
@@ -977,7 +997,7 @@ The slide takes one Persian miniature and derives three requests from that gramm
 
 This is the technical answer to slide 2’s bursting pipes.
 
-### شرح فارسی
+#### شرح فارسی
 
 Image API جمله‌ای است که به صورت مسیر نوشته شده:
 
@@ -997,7 +1017,9 @@ Image API جمله‌ای است که به صورت مسیر نوشته شده:
 
 ---
 
-## Slide 11 — JSON-LD: the language of interoperability {#slide-11}
+<a id="slide-11"></a>
+
+### Slide 11 — JSON-LD: the language of interoperability 
 
 
 <img src="/IIIFCollection/images/docs/slides/slide-11.jpg" alt="Slide 11: JSON-LD Manifest snippet linked to Wikidata, CIDOC CRM, and authority files"/><br/>
@@ -1005,7 +1027,7 @@ Image API جمله‌ای است که به صورت مسیر نوشته شده:
 **On-slide title.** JSON-LD: The Language of Interoperability  
 **On-slide line.** Every entity in IIIF has a unique URI, meaning cultural artifacts can be definitively linked to global datasets, ensuring they are Findable, Accessible, Interoperable, and Reusable (FAIR).
 
-### Caption (English)
+#### Caption (English)
 
 A fifteen-line Manifest is enough to show the contract:
 
@@ -1031,7 +1053,7 @@ A fifteen-line Manifest is enough to show the contract:
 
 The right-hand diagram places “The IIIF Canvas” at the centre of a star linked to **Wikidata**, **CIDOC CRM**, and **authority files**. The speech bubble states the LOUD principle: Linked Open Usable Data. A Manifest is not an isolated file; it is a node in the semantic web. That is how a folio can be the same resource in a viewer, in a SPARQL graph, and in a citation.
 
-### شرح فارسی
+#### شرح فارسی
 
 پانزده خط مانیفست برای نشان دادن قرارداد کافی است:
 
@@ -1059,7 +1081,9 @@ The right-hand diagram places “The IIIF Canvas” at the centre of a star link
 
 ---
 
-## Slide 12 — The magic trick: virtual reunification {#slide-12}
+<a id="slide-12"></a>
+
+### Slide 12 — The magic trick: virtual reunification 
 
 
 <img src="/IIIFCollection/images/docs/slides/slide-12.jpg" alt="Slide 12: a local manifest pulling canvases from London, Paris, and Tehran into one open book"/><br/>
@@ -1067,7 +1091,7 @@ The right-hand diagram places “The IIIF Canvas” at the centre of a star link
 **On-slide title.** The Magic Trick: Virtual Reunification  
 **On-slide line.** Scattered historical manuscripts, torn apart by history, can be seamlessly reconstructed in a single viewer without the physical files ever leaving their home servers.
 
-### Caption (English)
+#### Caption (English)
 
 A world map, three cities, one open codex. Speech bubbles say:
 
@@ -1079,7 +1103,7 @@ In the centre sits **The Local Manifest** — a JSON document that someone, some
 
 This is the payoff of slides 5–7. Because a Canvas is an address and a painting annotation is a URI, custody and display part company. Disbound Qurʾan leaves, albums split by dealers, maps cut at national borders, and “departed folios” of a Shahnameh can be read in order without a single file-transfer agreement. Legal and curatorial control remains with the holding institution; intellectual reconstruction becomes a Manifest anyone may publish.
 
-### شرح فارسی
+#### شرح فارسی
 
 نقشهٔ جهان، سه شهر، یک نسخهٔ گشوده. حباب‌ها می‌گویند:
 
@@ -1093,7 +1117,9 @@ This is the payoff of slides 5–7. Because a Canvas is an address and a paintin
 
 ---
 
-## Slide 13 — Fusing text and pixel: search and OCR {#slide-13}
+<a id="slide-13"></a>
+
+### Slide 13 — Fusing text and pixel: search and OCR 
 
 
 <img src="/IIIFCollection/images/docs/slides/slide-13.jpg" alt="Slide 13: newspaper viewer highlighting every occurrence of the word Empire on the page and in the OCR pane"/><br/>
@@ -1101,7 +1127,7 @@ This is the payoff of slides 5–7. Because a Canvas is an address and a paintin
 **On-slide title.** Fusing Text and Pixel: Search & OCR Integration  
 **On-slide line.** By combining the Presentation API with the Content Search API, institutions bind machine-readable OCR text directly to spatial coordinates.
 
-### Caption (English)
+#### Caption (English)
 
 A historical newspaper — *The Evening News, Empire Edition* — is open in a viewer. The search box contains the word **Empire**. Three yellow boxes light up on the page; the same three hits are highlighted in an “OCR Text Transcription” sidebar. Connecting lines make the claim visible: a search result is not a row in a database, it is a rectangle on the artifact.
 
@@ -1109,7 +1135,7 @@ That rectangle is again a fragment URI (`canvas#xywh=…`) produced by OCR and p
 
 For Persian, Arabic, and other right-to-left scripts the same machinery holds, provided the OCR layer stores correct boxes. Combined with slide 12, a scholar can search a word across reunited leaves that no single reading room possesses.
 
-### شرح فارسی
+#### شرح فارسی
 
 روزنامه‌ای تاریخی — *The Evening News, Empire Edition* — در نمایشگر باز است. جعبهٔ جست‌وجو واژهٔ **Empire** را دارد. سه قاب زرد روی صفحه روشن می‌شود؛ همان سه اصابت در نوار کناری «رونوشت متن OCR» هم برجسته است. خط‌های واصل ادعا را دیدنی می‌کنند: نتیجهٔ جست‌وجو ردیف پایگاه داده نیست، مستطیلی روی خود اثر است.
 
@@ -1119,7 +1145,9 @@ For Persian, Arabic, and other right-to-left scripts the same machinery holds, p
 
 ---
 
-## Slide 14 — Freedom of choice: the viewer ecosystem {#slide-14}
+<a id="slide-14"></a>
+
+### Slide 14 — Freedom of choice: the viewer ecosystem 
 
 
 <img src="/IIIFCollection/images/docs/slides/slide-14.jpg" alt="Slide 14: the same Persian map-manuscript opened in Mirador and in Universal Viewer"/><br/>
@@ -1127,7 +1155,7 @@ For Persian, Arabic, and other right-to-left scripts the same machinery holds, p
 **On-slide title.** Freedom of Choice: The Viewer Ecosystem  
 **On-slide line.** Because the data is strictly standardized, the choice of interface is liberated. Researchers optimize for their specific needs using the exact same Manifest URL.
 
-### Caption (English)
+#### Caption (English)
 
 One object, two windows.
 
@@ -1136,7 +1164,7 @@ One object, two windows.
 
 The scholarly point is not that these two programs exist. It is that they consume **the same Manifest URL**. The institution publishes structure once. The reader picks the instrument. Other clients — Theseus, TIFY, Clover, custom museum skins, even a command-line harvester — can join without a new export. Slide 3’s “universal viewers” are no longer a diagram; they are a market.
 
-### شرح فارسی
+#### شرح فارسی
 
 یک شیء، دو پنجره.
 
@@ -1147,7 +1175,9 @@ The scholarly point is not that these two programs exist. It is that they consum
 
 ---
 
-## Slide 15 — Driving the future: regional heritage and the global community {#slide-15}
+<a id="slide-15"></a>
+
+### Slide 15 — Driving the future: regional heritage and the global community 
 
 
 <img src="/IIIFCollection/images/docs/slides/slide-15.jpg" alt="Slide 15: Persian painting, map of Persia, and Qurʾanic folio linked to humanists, developers, curators, and scholars"/><br/>
@@ -1155,7 +1185,7 @@ The scholarly point is not that these two programs exist. It is that they consum
 **On-slide title.** Driving the Future: Regional Heritage & The Global Community  
 **On-slide line.** IIIF is more than a technical specification. It is a living, global ecosystem of museums, universities, and developers actively building the future of digital memory.
 
-### Caption (English)
+#### Caption (English)
 
 The last slide pulls the argument back to people and to a region. Three objects — a Persian narrative painting, an early map of Persia, a Qurʾanic opening — are tied by thin arcs to four roles: **Digital Humanists**, **Software Developers**, **Museum Curators**, **Global Scholars**. Blue pins on the pages mark annotation points: the same binding-of-content-to-space taught in slide 7, now imagined as a shared workspace.
 
@@ -1163,7 +1193,7 @@ The callout names a concrete platform: *“Platforms like IIIFDexir demonstrate 
 
 The closing claim of the deck is therefore not “adopt an API.” It is that a regional tradition can enter the global IIIF mesh without surrendering custody of its files, and that the mesh is already populated by the four communities drawn around the page.
 
-### شرح فارسی
+#### شرح فارسی
 
 اسلاید آخر استدلال را به آدم‌ها و به یک منطقه برمی‌گرداند. سه اثر — مجلس روایی ایرانی، نقشهٔ کهن پارس، صفحه‌گشای قرآن — با کمان‌های نازک به چهار نقش بسته‌اند: **علوم انسانی رقمی**، **توسعه‌دهندگان نرم‌افزار**، **موزه‌داران**، **پژوهشگران جهانی**. سنجاق‌های آبی روی صفحات نقاط حاشیه‌نویسی‌اند: همان بستنِ محتوا به فضا که اسلاید ۷ آموخت، حالا به‌صورت فضای کار مشترک.
 
