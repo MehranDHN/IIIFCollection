@@ -1,1057 +1,1057 @@
 {
-  "@context": [
-    "http://iiif.io/api/presentation/2/context.json",
-    {
-      "aat": "http://vocab.getty.edu/aat/",
-      "schema": "https://schema.org/",
-      "wd": "https://www.wikidata.org/wiki/",
-      "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
-    }
-  ],
-  "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/FriedrichSarreCollection.json",
-  "@type": "sc:Collection",
-  "label": "Friedrich Sarre Collection",
-  "metadata": [
-    {
-      "label": "Physical description",
-      "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "wd": "https://www.wikidata.org/wiki/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/FriedrichSarreCollection.json",
+    "@type": "sc:Collection",
+    "label": "Friedrich Sarre Collection",
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 90 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "summary": {
+        "en": [
+            "Friedrich Paul Theodor Sarre (22 June 1865, in Berlin – 31 May 1945, in Neubabelsberg) was a German Orientalist, archaeologist and art historian who amassed a collection of Islamic art. In 1895-96, inspired by Carl Humann, he conducted archaeological research in Phrygia, Lycaonia, and Pisidia, investigating architectural monuments and collecting epigraphic material. During two archaeological field seasons from 1911 to 1913 he excavated at Samarra, the 9th-century capital of the Abbasid dynasty, with Ernst Herzfeld. The two men published their findings in \"Archäologische Reise im Euphrat-und Tigris Gebeit\" (\"Archaeological journey in the Euphrates and Tigris region\")",
+            "Created by : MehranDHN"
+        ]
     },
-    {
-      "label": "Contributors",
-      "value": "MehranDHN"
-    },
-    {
-      "label": "Notes",
-      "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 90 international GLAM institutions.<br/> Key technical aspects:"
-    },
-    {
-      "label": "Structure",
-      "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
-    },
-    {
-      "label": "Semantic Enrichment",
-      "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
-    },
-    {
-      "label": "Folio and Content Decomposition",
-      "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
-    },
-    {
-      "label": "Focus",
-      "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
-    },
-    {
-      "label": "Queryable",
-      "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
-    },
-    {
-      "label": "Data Visualization",
-      "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
-    },
-    {
-      "label": "Source",
-      "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
-    }
-  ],
-  "summary": {
-    "en": [
-      "Friedrich Paul Theodor Sarre (22 June 1865, in Berlin – 31 May 1945, in Neubabelsberg) was a German Orientalist, archaeologist and art historian who amassed a collection of Islamic art. In 1895-96, inspired by Carl Humann, he conducted archaeological research in Phrygia, Lycaonia, and Pisidia, investigating architectural monuments and collecting epigraphic material. During two archaeological field seasons from 1911 to 1913 he excavated at Samarra, the 9th-century capital of the Abbasid dynasty, with Ernst Herzfeld. The two men published their findings in \"Archäologische Reise im Euphrat-und Tigris Gebeit\" (\"Archaeological journey in the Euphrates and Tigris region\")",
-      "Created by : MehranDHN"
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://digi.ub.uni-heidelberg.de/iiif/2/sarre1910text%3A042.jpg/full/1156,/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 1589,
+            "width": 1156,
+            "service": [
+                {
+                    "id": "https://digi.ub.uni-heidelberg.de/iiif/2/sarre1910text%3A042.jpg",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 1589,
+                    "width": 1156,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json",
+    "manifests": [
+        {
+            "id": "https://iiif.archive.org/iiif/3/denkmlerpersis01sarr/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Monuments of Persian architecture"
+                ],
+                "de": [
+                    "Denkmäler persischer Baukunst"
+                ],
+                "fa": [
+                    "آثار معماری ايرانی"
+                ],
+                "fr": [
+                    "Monuments de l'architecture persane"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Monuments of Persian architecture",
+                        "fr": "monuments de l'architecture persane",
+                        "fa": "آثار معماری ايرانی",
+                        "de": "Denkmäler persischer Baukunst"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Friedrich Sarre",
+                            "WD:Q84873"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Friedrich_Sarre"
+                        ],
+                        "Writer": [
+                            "mdhn:Friedrich_Sarre"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "184"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "denkmlerpersis01sarr"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1867 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/denkmlerpersis00sarr/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Monuments of Persian architecture II"
+                ],
+                "de": [
+                    "Denkmäler persischer Baukunst II"
+                ],
+                "fa": [
+                    "آثار معماری ايرانی - رنگی"
+                ],
+                "fr": [
+                    "Monuments de l'architecture persane II"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Monuments of Persian architecture II",
+                        "fr": "monuments de l'architecture persane II",
+                        "fa": "آثار معماری ايرانی - رنگی",
+                        "de": "Denkmäler persischer Baukunst II"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Friedrich Sarre",
+                            "WD:Q84873"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Friedrich_Sarre"
+                        ],
+                        "Writer": [
+                            "mdhn:Friedrich_Sarre"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "90"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:800190000"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "denkmlerpersis00sarr"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1901 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/lartdelapersean00sarr/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "The art of ancient Persia"
+                ],
+                "fa": [
+                    "هنر ايران کهن"
+                ],
+                "fr": [
+                    "L'art de la Perse ancienne"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "The art of ancient Persia",
+                        "fr": "L'art de la Perse ancienne",
+                        "fa": "هنر ايران کهن"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Friedrich Sarre",
+                            "WD:Q84873"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Friedrich_Sarre"
+                        ],
+                        "Writer": [
+                            "mdhn:Friedrich_Sarre"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "242"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "French"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "lartdelapersean00sarr"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1921 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/erzeugnisseisla1sarr/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Products of Islamic art"
+                ],
+                "fa": [
+                    "محصولات هنر اسلامی"
+                ],
+                "de": [
+                    "Erzeugnisse islamischer Kunst"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Products of Islamic art",
+                        "de": "Erzeugnisse islamischer Kunst",
+                        "fa": "محصولات هنر اسلامی"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Friedrich Sarre",
+                            "WD:Q84873"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Friedrich_Sarre"
+                        ],
+                        "Writer": [
+                            "mdhn:Friedrich_Sarre"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "120"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "German"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "erzeugnisseisla1sarr"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1906 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/erzeugnisseislam00sarr/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Products of Islamic art"
+                ],
+                "fa": [
+                    "محصولات هنر اسلامی"
+                ],
+                "de": [
+                    "Erzeugnisse islamischer Kunst"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Products of Islamic art",
+                        "de": "Erzeugnisse islamischer Kunst",
+                        "fa": "محصولات هنر اسلامی"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Friedrich Sarre",
+                            "WD:Q84873"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Friedrich_Sarre"
+                        ],
+                        "Writer": [
+                            "mdhn:Friedrich_Sarre"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "120"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "German"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "erzeugnisseislam00sarr"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1906 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/in.gov.ignca.39012/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "The Art of Ancient Persia"
+                ],
+                "fa": [
+                    "هنر ایران باستان"
+                ],
+                "de": [
+                    "Die Kunst des Alten Persien"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "The Art of Ancient Persia",
+                        "de": "Die Kunst des Alten Persien",
+                        "fa": "هنر ایران باستان"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Friedrich Sarre",
+                            "WD:Q84873"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Friedrich_Sarre"
+                        ],
+                        "Writer": [
+                            "mdhn:Friedrich_Sarre"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "243"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "German"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "in.gov.ignca.39012"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1923 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://digi.ub.uni-heidelberg.de/diglit/iiif3/sarre1910text/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "diglit.5515"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "diglit.5515"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Friedrich Sarre",
+                            "WD:Q84873"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Friedrich_Sarre"
+                        ],
+                        "Writer": [
+                            "mdhn:Friedrich_Sarre"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "178"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "German"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Heidelberg"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "sarre1910text"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1910 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/bub_gb_cChLAAAAYAAJ/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Journey in Asia Minor"
+                ],
+                "de": [
+                    "Reise in Kleinasien"
+                ],
+                "fa": [
+                    "سفر در آسیای صغیر"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Journey in Asia Minor",
+                        "fa": "سفر در آسیای صغیر",
+                        "de": "Reise in Kleinasien"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Friedrich Sarre",
+                            "WD:Q84873"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Friedrich_Sarre"
+                        ],
+                        "Writer": [
+                            "mdhn:Friedrich_Sarre"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "321"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "bub_gb_cChLAAAAYAAJ"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1896 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/zeichnungenvonr00sarr/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "DRAWINGS BY RIZA ABBASI"
+                ],
+                "de": [
+                    "Zeichnungen von Riza Abbasi"
+                ],
+                "fa": [
+                    "نقاشی های رضا عباسی"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "DRAWINGS BY RIZA ABBASI",
+                        "fa": "نقاشی های رضا عباسی",
+                        "de": "Zeichnungen von Riza Abbasi"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Friedrich Sarre",
+                            "WD:Q84873"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Friedrich_Sarre"
+                        ],
+                        "Writer": [
+                            "mdhn:Friedrich_Sarre"
+                        ],
+                        "ReferredTo": [
+                            "mdhn:Reza_Abbasi"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "145"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "zeichnungenvonr00sarr"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1914 AD"
+                        ]
+                    }
+                }
+            ]
+        }
     ]
-  },
-  "license": "http://creativecommons.org/licenses/by-nc/4.0/",
-  "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
-  "thumbnail": [
-    {
-      "id": "https://digi.ub.uni-heidelberg.de/iiif/2/sarre1910text%3A042.jpg/full/1156,/0/default.jpg",
-      "type": "Image",
-      "format": "image/jpeg",
-      "height": 1589,
-      "width": 1156,
-      "service": [
-        {
-          "id": "https://digi.ub.uni-heidelberg.de/iiif/2/sarre1910text%3A042.jpg",
-          "type": "ImageService3",
-          "profile": "level1",
-          "height": 1589,
-          "width": 1156,
-          "extraFormats": [
-            "png"
-          ],
-          "extraQualities": [
-            "default",
-            "color",
-            "gray"
-          ],
-          "protocol": "http://iiif.io/api/image",
-          "tiles": [
-            {
-              "height": 512,
-              "scaleFactors": [
-                1,
-                2,
-                4,
-                8
-              ],
-              "width": 512
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "viewingHint": "multi-part",
-  "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json",
-  "manifests": [
-    {
-      "id": "https://iiif.archive.org/iiif/3/denkmlerpersis01sarr/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Monuments of Persian architecture"
-        ],
-        "de": [
-          "Denkmäler persischer Baukunst"
-        ],
-        "fa": [
-          "آثار معماری ايرانی"
-        ],
-        "fr": [
-          "Monuments de l'architecture persane"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Monuments of Persian architecture",
-            "fr": "monuments de l'architecture persane",
-            "fa": "آثار معماری ايرانی",
-            "de": "Denkmäler persischer Baukunst"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Friedrich Sarre",
-              "WD:Q84873"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Photographer": [
-              "mdhn:Friedrich_Sarre"
-            ],
-            "Writer": [
-              "mdhn:Friedrich_Sarre"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "184"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "denkmlerpersis01sarr"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1867 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/denkmlerpersis00sarr/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Monuments of Persian architecture II"
-        ],
-        "de": [
-          "Denkmäler persischer Baukunst II"
-        ],
-        "fa": [
-          "آثار معماری ايرانی - رنگی"
-        ],
-        "fr": [
-          "Monuments de l'architecture persane II"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Monuments of Persian architecture II",
-            "fr": "monuments de l'architecture persane II",
-            "fa": "آثار معماری ايرانی - رنگی",
-            "de": "Denkmäler persischer Baukunst II"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Friedrich Sarre",
-              "WD:Q84873"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Photographer": [
-              "mdhn:Friedrich_Sarre"
-            ],
-            "Writer": [
-              "mdhn:Friedrich_Sarre"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "90"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:800190000"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "denkmlerpersis00sarr"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1901 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/lartdelapersean00sarr/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "The art of ancient Persia"
-        ],
-        "fa": [
-          "هنر ايران کهن"
-        ],
-        "fr": [
-          "L'art de la Perse ancienne"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "The art of ancient Persia",
-            "fr": "L'art de la Perse ancienne",
-            "fa": "هنر ايران کهن"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Friedrich Sarre",
-              "WD:Q84873"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Photographer": [
-              "mdhn:Friedrich_Sarre"
-            ],
-            "Writer": [
-              "mdhn:Friedrich_Sarre"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "242"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Language"
-          },
-          "value": {
-            "en": "French"
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "lartdelapersean00sarr"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1921 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/erzeugnisseisla1sarr/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Products of Islamic art"
-        ],
-        "fa": [
-          "محصولات هنر اسلامی"
-        ],
-        "de": [
-          "Erzeugnisse islamischer Kunst"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Products of Islamic art",
-            "de": "Erzeugnisse islamischer Kunst",
-            "fa": "محصولات هنر اسلامی"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Friedrich Sarre",
-              "WD:Q84873"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Photographer": [
-              "mdhn:Friedrich_Sarre"
-            ],
-            "Writer": [
-              "mdhn:Friedrich_Sarre"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "120"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Language"
-          },
-          "value": {
-            "en": "German"
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "erzeugnisseisla1sarr"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1906 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/erzeugnisseislam00sarr/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Products of Islamic art"
-        ],
-        "fa": [
-          "محصولات هنر اسلامی"
-        ],
-        "de": [
-          "Erzeugnisse islamischer Kunst"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Products of Islamic art",
-            "de": "Erzeugnisse islamischer Kunst",
-            "fa": "محصولات هنر اسلامی"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Friedrich Sarre",
-              "WD:Q84873"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Photographer": [
-              "mdhn:Friedrich_Sarre"
-            ],
-            "Writer": [
-              "mdhn:Friedrich_Sarre"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "120"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Language"
-          },
-          "value": {
-            "en": "German"
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "erzeugnisseislam00sarr"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1906 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/in.gov.ignca.39012/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "The Art of Ancient Persia"
-        ],
-        "fa": [
-          "هنر ایران باستان"
-        ],
-        "de": [
-          "Die Kunst des Alten Persien"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "The Art of Ancient Persia",
-            "de": "Die Kunst des Alten Persien",
-            "fa": "هنر ایران باستان"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Friedrich Sarre",
-              "WD:Q84873"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Photographer": [
-              "mdhn:Friedrich_Sarre"
-            ],
-            "Writer": [
-              "mdhn:Friedrich_Sarre"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "243"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Language"
-          },
-          "value": {
-            "en": "German"
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "in.gov.ignca.39012"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1923 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://digi.ub.uni-heidelberg.de/diglit/iiif3/sarre1910text/manifest",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "diglit.5515"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "diglit.5515"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Friedrich Sarre",
-              "WD:Q84873"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Photographer": [
-              "mdhn:Friedrich_Sarre"
-            ],
-            "Writer": [
-              "mdhn:Friedrich_Sarre"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "178"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Language"
-          },
-          "value": {
-            "en": "German"
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Heidelberg"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "sarre1910text"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1910 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/bub_gb_cChLAAAAYAAJ/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Journey in Asia Minor"
-        ],
-        "de": [
-          "Reise in Kleinasien"
-        ],
-        "fa": [
-          "سفر در آسیای صغیر"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Journey in Asia Minor",
-            "fa": "سفر در آسیای صغیر",
-            "de": "Reise in Kleinasien"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Friedrich Sarre",
-              "WD:Q84873"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Photographer": [
-              "mdhn:Friedrich_Sarre"
-            ],
-            "Writer": [
-              "mdhn:Friedrich_Sarre"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "321"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "bub_gb_cChLAAAAYAAJ"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1896 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/zeichnungenvonr00sarr/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "DRAWINGS BY RIZA ABBASI"
-        ],
-        "de": [
-          "Zeichnungen von Riza Abbasi"
-        ],
-        "fa": [
-          "نقاشی های رضا عباسی"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "DRAWINGS BY RIZA ABBASI",
-            "fa": "نقاشی های رضا عباسی",
-            "de": "Zeichnungen von Riza Abbasi"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Friedrich Sarre",
-              "WD:Q84873"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Photographer": [
-              "mdhn:Friedrich_Sarre"
-            ],
-            "Writer": [
-              "mdhn:Friedrich_Sarre"
-            ],
-            "ReferredTo": [
-              "mdhn:Reza_Abbasi"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "145"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "zeichnungenvonr00sarr"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1914 AD"
-            ]
-          }
-        }
-      ]
-    }
-  ]
 }

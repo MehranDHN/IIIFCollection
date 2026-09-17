@@ -1,671 +1,671 @@
 {
-  "@context": [
-    "http://iiif.io/api/presentation/2/context.json",
-    {
-      "aat": "http://vocab.getty.edu/aat/",
-      "schema": "https://schema.org/",
-      "wd": "https://www.wikidata.org/wiki/",
-      "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
-    }
-  ],
-  "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/CornelisDeBruynCollection.json",
-  "@type": "sc:Collection",
-  "label": "Cornelis de Bruyn Collection",
-  "metadata": [
-    {
-      "label": "Physical description",
-      "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "wd": "https://www.wikidata.org/wiki/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/CornelisDeBruynCollection.json",
+    "@type": "sc:Collection",
+    "label": "Cornelis de Bruyn Collection",
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 90 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "summary": {
+        "en": [
+            "Cornelis de Bruijn or Cornelius de Bruyn (pronounced [də ˈbrœyn]; 1652 – 1726/7), also formerly known in English by his French name Corneille Le Brun, was a Dutch artist and traveler. He made two large tours and published illustrated books with his observations of people, buildings, plants and animals.",
+            "Created by : MehranDHN"
+        ]
     },
-    {
-      "label": "Contributors",
-      "value": "MehranDHN"
-    },
-    {
-      "label": "Notes",
-      "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 90 international GLAM institutions.<br/> Key technical aspects:"
-    },
-    {
-      "label": "Structure",
-      "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
-    },
-    {
-      "label": "Semantic Enrichment",
-      "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
-    },
-    {
-      "label": "Folio and Content Decomposition",
-      "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
-    },
-    {
-      "label": "Focus",
-      "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
-    },
-    {
-      "label": "Queryable",
-      "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
-    },
-    {
-      "label": "Data Visualization",
-      "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
-    },
-    {
-      "label": "Source",
-      "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
-    }
-  ],
-  "summary": {
-    "en": [
-      "Cornelis de Bruijn or Cornelius de Bruyn (pronounced [də ˈbrœyn]; 1652 – 1726/7), also formerly known in English by his French name Corneille Le Brun, was a Dutch artist and traveler. He made two large tours and published illustrated books with his observations of people, buildings, plants and animals.",
-      "Created by : MehranDHN"
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://iiif.archive.org/image/iiif/3/gri_33125008232130%2Fgri_33125008232130_jp2.zip%2Fgri_33125008232130_jp2%2Fgri_33125008232130_0013.jp2/full/904,/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 1500,
+            "width": 904,
+            "service": [
+                {
+                    "id": "https://iiif.archive.org/image/iiif/3/gri_33125008232130%2Fgri_33125008232130_jp2.zip%2Fgri_33125008232130_jp2%2Fgri_33125008232130_0013.jp2",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 1500,
+                    "width": 904,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json",
+    "manifests": [
+        {
+            "id": "https://iiif.archive.org/iiif/3/gri_33125008232130/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Travels of Corneille Le Brun through Muscovy, Persia, and the East Indies"
+                ],
+                "fr": [
+                    "Voyages de Corneille Le Brun par la Moscovie, en Perse, et aux Indes Orientales"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Travels of Corneille Le Brun through Muscovy, Persia, and the East Indies",
+                        "fr": "Voyages de Corneille Le Brun par la Moscovie, en Perse, et aux Indes Orientales"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Cornelis de Bruyn",
+                            "WD:Q46998502"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Cornelis_de_Bruyn"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "871"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "gri_33125008232130"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1718 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1519328j/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Voyages de Corneille Le Brun par la Moscovie, en Perse, et aux Indes Orientales. Tome 1"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Voyages de Corneille Le Brun par la Moscovie, en Perse, et aux Indes Orientales. Tome 1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Cornelis de Bruyn",
+                            "WD:Q46998502"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Cornelis_de_Bruyn"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "434"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Gallica"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "bpt6k1519328j"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1718 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1040601r/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Journey to the Levant, that is to say to the principal places of Asia Minor, to the islands of Chios, Rhodes, Cyprus"
+                ],
+                "fr": [
+                    "Voyage au Levant, c'est-à-dire, dans les principaux endroits de l'Asie Mineure, dans les isles de Chio, Rhodes, & Chypre"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Journey to the Levant, that is to say to the principal places of Asia Minor, to the islands of Chios, Rhodes, Cyprus",
+                        "fr": "Voyage au Levant, c'est-à-dire dans les principaux endroits de l'Asie Mineure, dans les isles de Chio, Rhodes, Chypre"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Cornelis de Bruyn",
+                            "WD:Q46998502"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Cornelis_de_Bruyn"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "683"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Gallica"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "bpt6k1040601r"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1728 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/gri_33125012277303/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Travels of Cornelis de Bruyn, through the most famous parts of Asia Minor"
+                ],
+                "fr": [
+                    "Voyages de Cornelis de Bruyn, à travers les régions les plus célèbres de l'Asie Mineure"
+                ],
+                "nl": [
+                    "Reizen van Cornelis de Bruyn, door de vermaardste deelen van Klein Asia"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Travels of Cornelis de Bruyn, through the most famous parts of Asia Minor",
+                        "fr": "Voyages de Cornelis de Bruyn, à travers les régions les plus célèbres de l'Asie Mineure",
+                        "nl": "Reizen van Cornelis de Bruyn, door de vermaardste deelen van Klein Asia"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Cornelis de Bruyn",
+                            "WD:Q46998502"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Cornelis_de_Bruyn"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "734"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "gri_33125012277303"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Dutch"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1698 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/travelsintomusco01bruy/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Travels into Muscovy, Persia, and part of the East Indies vol.1"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Travels into Muscovy, Persia, and part of the East Indies vol.1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Cornelis de Bruyn",
+                            "WD:Q46998502"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Cornelis_de_Bruyn"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "456"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Gallica"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "travelsintomusco01bruy"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1737 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/travelsintomusco02bruy/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Travels into Muscovy, Persia, and part of the East Indies vol.2"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Travels into Muscovy, Persia, and part of the East Indies vol.2"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Cornelis de Bruyn",
+                            "WD:Q46998502"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Cornelis_de_Bruyn"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "366"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300028051",
+                            "aat:300254810",
+                            "aat:300417767"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "travelsintomusco02bruy"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1737 AD"
+                        ]
+                    }
+                }
+            ]
+        }
     ]
-  },
-  "license": "http://creativecommons.org/licenses/by-nc/4.0/",
-  "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
-  "thumbnail": [
-    {
-      "id": "https://iiif.archive.org/image/iiif/3/gri_33125008232130%2Fgri_33125008232130_jp2.zip%2Fgri_33125008232130_jp2%2Fgri_33125008232130_0013.jp2/full/904,/0/default.jpg",
-      "type": "Image",
-      "format": "image/jpeg",
-      "height": 1500,
-      "width": 904,
-      "service": [
-        {
-          "id": "https://iiif.archive.org/image/iiif/3/gri_33125008232130%2Fgri_33125008232130_jp2.zip%2Fgri_33125008232130_jp2%2Fgri_33125008232130_0013.jp2",
-          "type": "ImageService3",
-          "profile": "level1",
-          "height": 1500,
-          "width": 904,
-          "extraFormats": [
-            "png"
-          ],
-          "extraQualities": [
-            "default",
-            "color",
-            "gray"
-          ],
-          "protocol": "http://iiif.io/api/image",
-          "tiles": [
-            {
-              "height": 512,
-              "scaleFactors": [
-                1,
-                2,
-                4,
-                8
-              ],
-              "width": 512
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "viewingHint": "multi-part",
-  "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json",
-  "manifests": [
-    {
-      "id": "https://iiif.archive.org/iiif/3/gri_33125008232130/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Travels of Corneille Le Brun through Muscovy, Persia, and the East Indies"
-        ],
-        "fr": [
-          "Voyages de Corneille Le Brun par la Moscovie, en Perse, et aux Indes Orientales"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Travels of Corneille Le Brun through Muscovy, Persia, and the East Indies",
-            "fr": "Voyages de Corneille Le Brun par la Moscovie, en Perse, et aux Indes Orientales"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Cornelis de Bruyn",
-              "WD:Q46998502"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Writer": [
-              "mdhn:Cornelis_de_Bruyn"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "871"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "gri_33125008232130"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1718 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1519328j/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Voyages de Corneille Le Brun par la Moscovie, en Perse, et aux Indes Orientales. Tome 1"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Voyages de Corneille Le Brun par la Moscovie, en Perse, et aux Indes Orientales. Tome 1"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Cornelis de Bruyn",
-              "WD:Q46998502"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Writer": [
-              "mdhn:Cornelis_de_Bruyn"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "434"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Gallica"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "bpt6k1519328j"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1718 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1040601r/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Journey to the Levant, that is to say to the principal places of Asia Minor, to the islands of Chios, Rhodes, Cyprus"
-        ],
-        "fr": [
-          "Voyage au Levant, c'est-à-dire, dans les principaux endroits de l'Asie Mineure, dans les isles de Chio, Rhodes, & Chypre"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Journey to the Levant, that is to say to the principal places of Asia Minor, to the islands of Chios, Rhodes, Cyprus",
-            "fr": "Voyage au Levant, c'est-à-dire dans les principaux endroits de l'Asie Mineure, dans les isles de Chio, Rhodes, Chypre"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Cornelis de Bruyn",
-              "WD:Q46998502"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Writer": [
-              "mdhn:Cornelis_de_Bruyn"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "683"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Gallica"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "bpt6k1040601r"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1728 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/gri_33125012277303/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Travels of Cornelis de Bruyn, through the most famous parts of Asia Minor"
-        ],
-        "fr": [
-          "Voyages de Cornelis de Bruyn, à travers les régions les plus célèbres de l'Asie Mineure"
-        ],
-        "nl": [
-          "Reizen van Cornelis de Bruyn, door de vermaardste deelen van Klein Asia"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Travels of Cornelis de Bruyn, through the most famous parts of Asia Minor",
-            "fr": "Voyages de Cornelis de Bruyn, à travers les régions les plus célèbres de l'Asie Mineure",
-            "nl": "Reizen van Cornelis de Bruyn, door de vermaardste deelen van Klein Asia"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Cornelis de Bruyn",
-              "WD:Q46998502"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Writer": [
-              "mdhn:Cornelis_de_Bruyn"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "734"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "gri_33125012277303"
-          }
-        },
-        {
-          "label": {
-            "en": "Language"
-          },
-          "value": {
-            "en": "Dutch"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1698 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/travelsintomusco01bruy/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Travels into Muscovy, Persia, and part of the East Indies vol.1"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Travels into Muscovy, Persia, and part of the East Indies vol.1"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Cornelis de Bruyn",
-              "WD:Q46998502"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Writer": [
-              "mdhn:Cornelis_de_Bruyn"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "456"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Gallica"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "travelsintomusco01bruy"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1737 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/travelsintomusco02bruy/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Travels into Muscovy, Persia, and part of the East Indies vol.2"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Travels into Muscovy, Persia, and part of the East Indies vol.2"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Cornelis de Bruyn",
-              "WD:Q46998502"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Writer": [
-              "mdhn:Cornelis_de_Bruyn"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "366"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300028051",
-              "aat:300254810",
-              "aat:300417767"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "travelsintomusco02bruy"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1737 AD"
-            ]
-          }
-        }
-      ]
-    }
-  ]
 }

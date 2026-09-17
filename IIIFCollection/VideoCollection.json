@@ -1,3775 +1,3775 @@
 {
-  "@context": [
-    "http://iiif.io/api/presentation/2/context.json",
-    {
-      "aat": "http://vocab.getty.edu/aat/",
-      "schema": "https://schema.org/",
-      "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
-    }
-  ],
-  "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/VideoCollection.json",
-  "@type": "sc:Collection",
-  "label": "Comentary Videos Collection",
-  "viewingHint": "multi-part",
-  "navDate": "1963-09-15T12:00:00.0000000Z",
-  "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json",
-  "summary": {
-    "en": [
-      "Comentary Videos. Some of the videos may not play properly because of Video formats compabilities. In that case use the Metadata panel to directly navigate to source items."
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/VideoCollection.json",
+    "@type": "sc:Collection",
+    "label": "Comentary Videos Collection",
+    "viewingHint": "multi-part",
+    "navDate": "1963-09-15T12:00:00.0000000Z",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json",
+    "summary": {
+        "en": [
+            "Comentary Videos. Some of the videos may not play properly because of Video formats compabilities. In that case use the Metadata panel to directly navigate to source items."
+        ]
+    },
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 90 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 4823,
+            "width": 3497,
+            "service": [
+                {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 4823,
+                    "width": 3497,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "manifests": [
+        {
+            "id": "https://iiif.archive.org/iiif/eye-filmmuseums-instagram-video-zo-wordt-een-perzisch-kleed-gemaakt-met-een-nieu/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Persian carpet"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Persian carpet"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Unknown",
+                            "wd:Q000000"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "eye-filmmuseums-instagram-video-zo-wordt-een-perzisch-kleed-gemaakt-met-een-nieu"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1920 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0227_1963_1_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #1 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #1 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0227_1963_1_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0228_1963_2_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #2 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #2 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0228_1963_2_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0229_1963_3_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #3 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #3 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0229_1963_3_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0230_1963_4_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #4 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #4 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0230_1963_4_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0231_1963_5_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #5 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #5 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0231_1963_5_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0232_1963_6_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #6 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #6 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0232_1963_6_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0233_1963_7_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #7 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #7 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0233_1963_7_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0234_1963_8_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #8 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #8 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0234_1963_8_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0235_1963_9_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #9 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #9 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0235_1963_9_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0236_1963_10_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #10 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #10 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0236_1963_10_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0237_1963_11_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #11 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #11 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0237_1963_11_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0238_1963_12_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #12 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #12 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0238_1963_12_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0239_1963_13_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #13 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #13 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0239_1963_13_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0240_1963_14_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #14 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #14 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0240_1963_14_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0241_1963_15_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #15 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #15 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0241_1963_15_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0242_1963_16_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #16 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #16 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0242_1963_16_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0243_1963_17_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #17 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #17 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0243_1963_17_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0244_1963_18_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #18 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #18 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0244_1963_18_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0245_1963_19_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #19 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #19 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0245_1963_19_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0246_1963_20_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #20 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #20 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0246_1963_20_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0247_1963_21_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #21 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #21 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0247_1963_21_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0248_1963_22_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #22 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #22 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0248_1963_22_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0249_1963_23_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #23 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #23 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0249_1963_23_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7029806"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0250_1963_24_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #24 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #24 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0250_1963_24_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7029806"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/upenn-f16-0251_1963_25_Iran/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1963 #25 Iran"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1963 #25 Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Watson Kintner",
+                            "WD:QNE303090"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Watson_Kintner"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000112"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "upenn-f16-0251_1963_25_Iran"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1963 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7029806"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/111-adc-7727/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "SHAH OF IRAN, MOHAMMED REZA PAHLEVI, VISITS WEST POINT MILITARY ACADEMY"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "SHAH OF IRAN, MOHAMMED REZA PAHLEVI, VISITS WEST POINT MILITARY ACADEMY"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "National Archives",
+                            "WD:QNE000099"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "111-adc-7727"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1949 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/the-lovers-wind-english/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "The Lovers Wind English"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "The Lovers Wind English"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Albert Lamorisse",
+                            "WD:Q727562 "
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Director": [
+                            "mdhn:Albert_Lamorisse"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "the-lovers-wind-english"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1971 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/the-lovers-wind-persian/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "The Lovers Wind Persian"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "The Lovers Wind Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Albert Lamorisse",
+                            "WD:Q727562 "
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Director": [
+                            "mdhn:Albert_Lamorisse"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "the-lovers-wind-persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1971 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/the-lovers-wind-extension/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "The Lovers Wind Extension"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "The Lovers Wind Extension"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Albert Lamorisse",
+                            "WD:Q727562 "
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Director": [
+                            "mdhn:Albert_Lamorisse"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "the-lovers-wind-extension"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1978 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/Iran1971/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Iran 1971"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Iran 1971"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Claude Lelouch",
+                            "WD:Q295093"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Director": [
+                            "mdhn:Claude_Lelouch"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "Iran1971"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1971 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/turkiye_202108/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Turkey 1977"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Turkey 1977"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Claude Lelouch",
+                            "WD:Q295093"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Director": [
+                            "mdhn:Claude_Lelouch"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "turkiye_202108"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1977 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/The_Queen_Visit_to_Iran_1961/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "The Queen's State Visit to Iran 1961"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "The Queen's State Visit to Iran 1961"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Central Office of Information",
+                            "WD:QNE116611"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "The_Queen_Visit_to_Iran_1961"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1961 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/Hier_Teheran_bitte_sprechen_1961/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "This is Tehran, please speak."
+                ],
+                "gr": [
+                    "Hier Teheran bitte sprechen"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "This is Tehran, please speak.",
+                        "gr": "Hier Teheran bitte sprechen"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Bundesarchiv",
+                            "WD:QNE116633"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "Hier_Teheran_bitte_sprechen_1961"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1960 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/Besuch_beim_Pfauenthron_1957/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Visit to the Peacock Throne in 1957"
+                ],
+                "gr": [
+                    "Besuch beim Pfauenthron 1957"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Visit to the Peacock Throne in 1957",
+                        "gr": "Besuch beim Pfauenthron 1957"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Bundesarchiv",
+                            "WD:QNE116633"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Internet Archive"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "Besuch_beim_Pfauenthron_1957"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1957 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/Parviz_Goes_to_College/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Parviz Goes to College"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Parviz Goes to College"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Presbyterian Historical Society",
+                            "WD:Q7240776"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "ReferredTo": [
+                            "mdhn:Samuel_Martin_Jordan",
+                            "mdhn:Mary_Park_Jordan"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Presbyterian Historical Society"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "Parviz_Goes_to_College"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn0000500",
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1932 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/my-flight-to-persia-1925/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "My Flight To Persia 1925"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "My Flight To Persia 1925"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Walter Mittelholzer",
+                            "WD:Q562310"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "CameraMan": [
+                            "mdhn:Walter_Mittelholzer"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Presbyterian Historical Society"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "my-flight-to-persia-1925"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn0000500",
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1925 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.archive.org/iiif/3/111_adc_2643_202602/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "MISC SCENES IN TEHERAN, IRAN"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "MISC SCENES IN TEHERAN, IRAN"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "National Archives",
+                            "WD:Q518155"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300435424",
+                            "schema:VideoObject",
+                            "aat:300375156"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "National Archives"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "111_adc_2643_202602"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1944 AD"
+                        ]
+                    }
+                }
+            ]
+        }
     ]
-  },
-  "metadata": [
-    {
-      "label": "Physical description",
-      "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
-    },
-    {
-      "label": "Contributors",
-      "value": "MehranDHN"
-    },
-    {
-      "label": "Notes",
-      "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 90 international GLAM institutions.<br/> Key technical aspects:"
-    },
-    {
-      "label": "Structure",
-      "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
-    },
-    {
-      "label": "Semantic Enrichment",
-      "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
-    },
-    {
-      "label": "Folio and Content Decomposition",
-      "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
-    },
-    {
-      "label": "Focus",
-      "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
-    },
-    {
-      "label": "Queryable",
-      "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
-    },
-    {
-      "label": "Data Visualization",
-      "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
-    },
-    {
-      "label": "Source",
-      "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
-    }
-  ],
-  "thumbnail": [
-    {
-      "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
-      "type": "Image",
-      "format": "image/jpeg",
-      "height": 4823,
-      "width": 3497,
-      "service": [
-        {
-          "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
-          "type": "ImageService3",
-          "profile": "level1",
-          "height": 4823,
-          "width": 3497,
-          "extraFormats": [
-            "png"
-          ],
-          "extraQualities": [
-            "default",
-            "color",
-            "gray"
-          ],
-          "protocol": "http://iiif.io/api/image",
-          "tiles": [
-            {
-              "height": 512,
-              "scaleFactors": [
-                1,
-                2,
-                4,
-                8
-              ],
-              "width": 512
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "manifests": [
-    {
-      "id": "https://iiif.archive.org/iiif/eye-filmmuseums-instagram-video-zo-wordt-een-perzisch-kleed-gemaakt-met-een-nieu/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Persian carpet"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Persian carpet"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Unknown",
-              "wd:Q000000"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "eye-filmmuseums-instagram-video-zo-wordt-een-perzisch-kleed-gemaakt-met-een-nieu"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1920 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0227_1963_1_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #1 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #1 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0227_1963_1_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0228_1963_2_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #2 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #2 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0228_1963_2_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0229_1963_3_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #3 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #3 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0229_1963_3_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0230_1963_4_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #4 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #4 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0230_1963_4_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0231_1963_5_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #5 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #5 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0231_1963_5_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0232_1963_6_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #6 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #6 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0232_1963_6_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0233_1963_7_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #7 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #7 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0233_1963_7_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0234_1963_8_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #8 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #8 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0234_1963_8_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0235_1963_9_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #9 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #9 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0235_1963_9_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0236_1963_10_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #10 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #10 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0236_1963_10_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0237_1963_11_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #11 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #11 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0237_1963_11_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0238_1963_12_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #12 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #12 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0238_1963_12_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0239_1963_13_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #13 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #13 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0239_1963_13_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0240_1963_14_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #14 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #14 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0240_1963_14_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0241_1963_15_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #15 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #15 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0241_1963_15_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0242_1963_16_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #16 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #16 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0242_1963_16_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0243_1963_17_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #17 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #17 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0243_1963_17_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0244_1963_18_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #18 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #18 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0244_1963_18_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0245_1963_19_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #19 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #19 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0245_1963_19_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0246_1963_20_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #20 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #20 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0246_1963_20_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0247_1963_21_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #21 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #21 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0247_1963_21_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0248_1963_22_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #22 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #22 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0248_1963_22_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0249_1963_23_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #23 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #23 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0249_1963_23_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Subject Place"
-          },
-          "value": {
-            "en": [
-              "tgn:tgn7029806"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0250_1963_24_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #24 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #24 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0250_1963_24_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Subject Place"
-          },
-          "value": {
-            "en": [
-              "tgn:tgn7029806"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/upenn-f16-0251_1963_25_Iran/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "1963 #25 Iran"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "1963 #25 Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Watson Kintner",
-              "WD:QNE303090"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Watson_Kintner"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "PartOf"
-          },
-          "value": {
-            "en": [
-              "vcol:1000112"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "upenn-f16-0251_1963_25_Iran"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1963 AD"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Subject Place"
-          },
-          "value": {
-            "en": [
-              "tgn:tgn7029806"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/111-adc-7727/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "SHAH OF IRAN, MOHAMMED REZA PAHLEVI, VISITS WEST POINT MILITARY ACADEMY"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "SHAH OF IRAN, MOHAMMED REZA PAHLEVI, VISITS WEST POINT MILITARY ACADEMY"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "National Archives",
-              "WD:QNE000099"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "111-adc-7727"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1949 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/the-lovers-wind-english/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "The Lovers Wind English"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "The Lovers Wind English"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Albert Lamorisse",
-              "WD:Q727562 "
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Director": [
-              "mdhn:Albert_Lamorisse"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "the-lovers-wind-english"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1971 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/the-lovers-wind-persian/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "The Lovers Wind Persian"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "The Lovers Wind Persian"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Albert Lamorisse",
-              "WD:Q727562 "
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Director": [
-              "mdhn:Albert_Lamorisse"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "the-lovers-wind-persian"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1971 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/the-lovers-wind-extension/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "The Lovers Wind Extension"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "The Lovers Wind Extension"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Albert Lamorisse",
-              "WD:Q727562 "
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Director": [
-              "mdhn:Albert_Lamorisse"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "the-lovers-wind-extension"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1978 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/Iran1971/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Iran 1971"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Iran 1971"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Claude Lelouch",
-              "WD:Q295093"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Director": [
-              "mdhn:Claude_Lelouch"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "Iran1971"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1971 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/turkiye_202108/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Turkey 1977"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Turkey 1977"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Claude Lelouch",
-              "WD:Q295093"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "Director": [
-              "mdhn:Claude_Lelouch"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "turkiye_202108"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1977 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/The_Queen_Visit_to_Iran_1961/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "The Queen's State Visit to Iran 1961"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "The Queen's State Visit to Iran 1961"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Central Office of Information",
-              "WD:QNE116611"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "The_Queen_Visit_to_Iran_1961"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1961 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/Hier_Teheran_bitte_sprechen_1961/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "This is Tehran, please speak."
-        ],
-        "gr": [
-          "Hier Teheran bitte sprechen"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "This is Tehran, please speak.",
-            "gr": "Hier Teheran bitte sprechen"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Bundesarchiv",
-              "WD:QNE116633"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "Hier_Teheran_bitte_sprechen_1961"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1960 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/Besuch_beim_Pfauenthron_1957/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Visit to the Peacock Throne in 1957"
-        ],
-        "gr": [
-          "Besuch beim Pfauenthron 1957"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Visit to the Peacock Throne in 1957",
-            "gr": "Besuch beim Pfauenthron 1957"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Bundesarchiv",
-              "WD:QNE116633"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Internet Archive"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "Besuch_beim_Pfauenthron_1957"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1957 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/Parviz_Goes_to_College/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Parviz Goes to College"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "Parviz Goes to College"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Presbyterian Historical Society",
-              "WD:Q7240776"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "ReferredTo": [
-              "mdhn:Samuel_Martin_Jordan",
-              "mdhn:Mary_Park_Jordan"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Presbyterian Historical Society"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "Parviz_Goes_to_College"
-          }
-        },
-        {
-          "label": {
-            "en": "Subject Place"
-          },
-          "value": {
-            "en": [
-              "tgn:tgn0000500",
-              "tgn:tgn7002004"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1932 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/my-flight-to-persia-1925/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "My Flight To Persia 1925"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "My Flight To Persia 1925"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "Walter Mittelholzer",
-              "WD:Q562310"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Agents"
-          },
-          "value": {
-            "CameraMan": [
-              "mdhn:Walter_Mittelholzer"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "Presbyterian Historical Society"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "my-flight-to-persia-1925"
-          }
-        },
-        {
-          "label": {
-            "en": "Subject Place"
-          },
-          "value": {
-            "en": [
-              "tgn:tgn0000500",
-              "tgn:tgn7002004"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1925 AD"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "https://iiif.archive.org/iiif/3/111_adc_2643_202602/manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "MISC SCENES IN TEHERAN, IRAN"
-        ]
-      },
-      "metadata": [
-        {
-          "label": {
-            "en": "Title"
-          },
-          "value": {
-            "en": "MISC SCENES IN TEHERAN, IRAN"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Author"
-            ]
-          },
-          "value": {
-            "en": [
-              "National Archives",
-              "WD:Q518155"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "CanvasCount"
-          },
-          "value": {
-            "en": "1"
-          }
-        },
-        {
-          "label": {
-            "en": "Content Type"
-          },
-          "value": {
-            "en": [
-              "aat:300435424",
-              "schema:VideoObject",
-              "aat:300375156"
-            ]
-          }
-        },
-        {
-          "label": {
-            "en": "Hosted By"
-          },
-          "value": {
-            "en": "National Archives"
-          }
-        },
-        {
-          "label": {
-            "en": "Unique ID"
-          },
-          "value": {
-            "en": "111_adc_2643_202602"
-          }
-        },
-        {
-          "label": {
-            "en": [
-              "Date"
-            ]
-          },
-          "value": {
-            "en": [
-              "1944 AD"
-            ]
-          }
-        }
-      ]
-    }
-  ]
 }
