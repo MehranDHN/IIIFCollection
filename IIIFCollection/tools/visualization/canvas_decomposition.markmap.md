@@ -3705,7 +3705,7 @@
 ### mdhn:Text_or_Verses: Onvan2 in 3b
 - ![ Onvan2 in 3b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00012.jp2/1201,2421,1495,2039/200,/0/default.jpg)
 - **Styles:** aat:300265532
-- **Persian Text:** بسم الله الرحمن الرحيم هست کليد در گمج حکيم فاتجه فکرت و ختم سخن نام خداييست به من رحم کن
+- **Persian Text:** بسم الله الرحمن الرحيم هست کليد در گنج حکيم فاتحه فکرت و ختم سخن نام خداييست به من رحم کن
 
 ---
 
