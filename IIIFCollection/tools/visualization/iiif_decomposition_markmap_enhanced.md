@@ -8,31 +8,515 @@ markmap:
 
 ---
 Testing Canvas decomposition to Multiple type of ContentElement **Machine generated report**
+# Shahnama Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Shāhnāmah Supplément persan 2113
+
+## ResourceCanvas: f.139r — Mourning of Siyavash ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
+- **Contains:** HasPainting, HasHalkari, HasText
+
+### Depicts
+
+#### mdhn:Kingdom_of_Kay_Kavus
+- Q40466974
+- mdhn:isPartOf: mdhn:Shahnameh
+
+##### mdhn:Siyavash_Story
+- mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus
+
+###### mdhn:Mourning_of_Siyavash
+- Q5963952
+- mdhn:isPartOf: mdhn:Siyavash_Story
+
+#### mdhn:Mourning
+- Q750652
+- skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
+
+#### mdhn:Braid_Hair
+- Q31930755
+- skos:exactMatch: mdhn:tgm001287_Braids_Hairdressing
+
+#### mdhn:Window
+- Q35473
+- skos:exactMatch: mdhn:aat300002944
+
+#### mdhn:Glazed_Tile
+- Q76827920
+- skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
+
+#### mdhn:Architectural_Structure
+- Q811979
+
+#### mdhn:Clothing
+- Q26690120
+- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:headscarf
+- Q2002752
+- skos:exactMatch: mdhn:aat300256716
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Curtain
+- Q49005
+- skos:exactMatch: mdhn:aat300037564, mdhn:tgm002819_Curtain_walls
+
+#### mdhn:Building_Ornament
+- Q12043387
+- skos:exactMatch: mdhn:aat300378995
+
+#### mdhn:Persian_Architecture
+- Q137133192
+- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
+
+
+### mdhn:Fragment_Cropped_Image: Farangis cropped figure from 139r
+#### **Farangis cropped figure from 139r** ![ Farangis cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/2248,4089,1124,846/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Farangis
+
+
+### mdhn:Fragment_Cropped_Image: Mourning Women1 cropped figure from 139r
+#### **Mourning Women1 cropped figure from 139r** ![ Mourning Women1 cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/862,3284,980,1187/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Rudaba
+
+
+### mdhn:Fragment_Cropped_Image: Mourning Women2 cropped figure from 139r
+#### **Mourning Women2 cropped figure from 139r** ![ Mourning Women2 cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/1759,3429,939,1269/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Mourning Women3 cropped figure from 139r
+#### **Mourning Women3 cropped figure from 139r** ![ Mourning Women3 cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/3050,3080,1332,2100/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Waching Man1 cropped figure from 139r
+#### **Waching Man1 cropped figure from 139r** ![ Waching Man1 cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/1415,2439,637,1117/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Watching Man2 cropped figure from 139r
+#### **Watching Man2 cropped figure from 139r** ![ Watching Man2 cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/3136,2481,637,1117/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 139r
+#### **Textblock1 in 139r** ![ Textblock1 in 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/2171,1504,2142,555/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** ز خان سیاوش برآمد خروش
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Farangis
+
+
+### mdhn:Text_or_Verses: Textblock2 in 139r
+#### **Textblock2 in 139r** ![ Textblock2 in 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/2135,5169,2229,580/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** به آواز بر جان افراسیاب
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Afrasiab
+
+##### mdhn:Garsivaz
+
+
+---
+
+## Manifest: Shāhnāmah Ms. W.602
+
+## ResourceCanvas: f.12a — Keyumars Enthroned ![Canvas thumbnail](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000, aat:500011090
+- **Contains:** HasPainting, HasText
+
+### Depicts
+
+#### mdhn:Kingdom_of_Keyumars
+- Q138719971
+- mdhn:isPartOf: mdhn:Shahnameh
+
+##### mdhn:KeyumarsEnthroned
+- Q139923350
+- mdhn:isPartOf: mdhn:Kingdom_of_Keyumars
+- skos:exactMatch: mdhn:aat300185692
+
+#### mdhn:Keyumars
+
+#### mdhn:Siamak
+
+#### mdhn:Hushang
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+#### mdhn:Lion
+- Q140
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Throne
+- Q189233
+- skos:exactMatch: mdhn:aat300038141
+
+#### mdhn:Architectural_Structure
+- Q811979
+
+#### mdhn:Clothing
+- Q26690120
+- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:headscarf
+- Q2002752
+- skos:exactMatch: mdhn:aat300256716
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:LeopardSkinDress
+- Q3564428
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Pomegranate
+- Q13188
+- skos:exactMatch: mdhn:aat300400483
+
+#### mdhn:Lion
+- Q140
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:LongNeckedJar
+- Q2413314
+- skos:exactMatch: mdhn:aat300045685
+
+#### mdhn:WineCup
+- Q95684968
+- skos:exactMatch: mdhn:aat300218966
+
+#### mdhn:Plantanus_Orientalis
+- Q161105
+- skos:exactMatch: mdhn:aat300375194
+- skos:relatedMatch: mdhn:aat300132410
+
+#### mdhn:Simurgh
+- Q548119
+- skos:exactMatch: mdhn:aat300379749
+
+#### mdhn:Feasting
+- Q200538
+- skos:relatedMatch: mdhn:aat300073261
+
+#### mdhn:Rocks
+- Q8063
+
+
+### mdhn:Fragment_Cropped_Image: Keyumars cropped figure from 12a
+#### **Keyumars cropped figure from 12a** ![ Keyumars cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1863,2416,536,506/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Keyumars
+
+
+### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 12a
+#### **Siamak cropped figure from 12a** ![ Siamak cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/2319,2828,335,483/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Siamak
+
+
+### mdhn:Fragment_Cropped_Image: Hushang cropped figure from 12a
+#### **Hushang cropped figure from 12a** ![ Hushang cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1911,3016,426,403/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Hushang
+
+
+### mdhn:Fragment_Cropped_Image: Musician cropped figure from 12a
+#### **Musician cropped figure from 12a** ![ Musician cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1123,2745,465,496/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People Standing cropped figure from 12a
+#### **People Standing cropped figure from 12a** ![ People Standing cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1131,2224,584,562/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unknown Man cropped figure from 12a
+#### **Unknown Man cropped figure from 12a** ![ Unknown Man cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1547,2615,380,533/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Hushang cropped figure from 12a
+#### **Hushang cropped figure from 12a** ![ Hushang cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/2483,2211,205,595/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Angle cropped figure from 12a
+#### **Angle cropped figure from 12a** ![ Angle cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/2245,2097,355,576/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Text_or_Verses: Textblock1 in 12a
+#### **Textblock1 in 12a** ![ Textblock1 in 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1170,1030,1495,657/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** جهان بی سر و تاج خسرو مباد چنين هم بماند و جاويد شاد
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Keyumars
+
+
+### mdhn:Text_or_Verses: Textblock2 in 12a
+#### **Textblock2 in 12a** ![ Textblock2 in 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1114,3197,1542,446/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** چنين گفت کاين تخت
+
+---
+
+## ResourceCanvas: f.15a — Hushang fighting with Divs ![Canvas thumbnail](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000, aat:500011090
+- **Contains:** HasPainting, HasText
+
+### Depicts
+
+#### mdhn:Kingdom_of_Keyumars
+- Q138719971
+- mdhn:isPartOf: mdhn:Shahnameh
+
+##### mdhn:Hushang_Fight_Black_Div
+- Q138757163
+- mdhn:isPartOf: mdhn:Kingdom_of_Keyumars
+- skos:exactMatch: mdhn:aat300185692
+
+#### mdhn:Hushang
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Bow_and_Arrow
+- Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
+
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Horse_Spur
+- Q740732
+
+#### mdhn:Horse_Tack
+- Q950799
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
+- skos:exactMatch: mdhn:aat300420191, mdhn:iconclass46C1316, mdhn:tgm010511_Tacks
+
+#### mdhn:Mace
+- Q272990
+- skos:broadMatch: mdhn:Weopen
+- skos:exactMatch: mdhn:aat300037214
+
+#### mdhn:Combat_Helmet
+- Q3579211
+- skos:exactMatch: mdhn:aat300391023
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Pomegranate
+- Q13188
+- skos:exactMatch: mdhn:aat300400483
+
+#### mdhn:Plantanus_Orientalis
+- Q161105
+- skos:exactMatch: mdhn:aat300375194
+- skos:relatedMatch: mdhn:aat300132410
+
+#### mdhn:Rocks
+- Q8063
+
+
+### mdhn:Fragment_Cropped_Image: Hushang cropped figure from 15a
+#### **Hushang cropped figure from 15a** ![ Hushang cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1780,1908,867,1070/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Hushang
+
+
+### mdhn:Fragment_Cropped_Image: Kharozan Div cropped figure from 15a
+#### **Kharozan Div cropped figure from 15a** ![ Kharozan Div cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1308,2119,523,992/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Kharozan_Div
+- skos:closeMatch: mdhn:Divs
+
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 15a
+#### **Div1 cropped figure from 15a** ![ Div1 cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/843,2217,667,992/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Wounded Divs cropped figure from 15a
+#### **Wounded Divs cropped figure from 15a** ![ Wounded Divs cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1613,2830,1051,656/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Hidded Divs Standing cropped figure from 15a
+#### **Hidded Divs Standing cropped figure from 15a** ![ Hidded Divs Standing cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1930,1531,603,429/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Hidded Div cropped figure from 15a
+#### **Hidded Div cropped figure from 15a** ![ Hidded Div cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1430,1612,345,518/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Wounded Div cropped figure from 15a
+#### **Wounded Div cropped figure from 15a** ![ Wounded Div cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1359,3001,369,347/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Text_or_Verses: Textblock1 in 15a
+#### **Textblock1 in 15a** ![ Textblock1 in 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1185,1048,1506,342/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** دمنده سيه ديوشان پيش رو
+
+### mdhn:Text_or_Verses: Textblock2 in 15a
+#### **Textblock2 in 15a** ![ Textblock2 in 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1152,3342,1516,287/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** از ايشان دو بهره بافيون ببست دگرشان بگرز گران کرد پست
+
+---
+
+
+
+
 # Peck Shahnama Collection
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
 
 ## Manifest: Kitāb-i Shāhnāmah Peck Shahnamah
-
-## ResourceCanvas: f.f.1a — Peck Shahnamah, Binding, Front Cover ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500011063
-- **Contains:** IsFlyLeaf
-
-### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f1a
-#### **Pattern cropped from f1a** ![ Pattern cropped from f1a ](https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/230,226,8400,12683/200,/0/default.jpg)
-- **Styles:** aat:500011063
-
----
-
-## ResourceCanvas: f.Cover — Peck Shahnamah, Binding, Back Cover ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:300417741
-- **Contains:** IsCover
-
-### mdhn:Fragment_Cropped_Pattern: Pattern cropped from Cover
-#### **Pattern cropped from Cover** ![ Pattern cropped from Cover ](https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/327,194,7668,11845/200,/0/default.jpg)
-- **Styles:** aat:300417741
-
----
 
 ## ResourceCanvas: f.1b — Peck Shahnamah, Sulaiman is enthroned amidst angels, demons, humans, and animals. ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300220539
@@ -65,7 +549,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Dragon
 - Q7559
-- skos:exactMatch: mdhn:aat300375726
+- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 #### mdhn:Bird
 - Q5113
@@ -133,7 +617,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:broadMatch: mdhn:Animal
 
 #### mdhn:Flaming_Nimbus
-- Q123456
+- Q3341893
+- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Simurgh
 - Q548119
@@ -149,7 +634,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Mace
 - Q272990
@@ -158,6 +644,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -242,6 +729,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -254,7 +742,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Simurgh cropped figure from f1b
@@ -276,7 +765,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Dragon
 - Q7559
-- skos:exactMatch: mdhn:aat300375726
+- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 
 ### mdhn:Fragment_Cropped_Image: Harpy cropped figure from f1b
@@ -335,6 +824,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -380,7 +870,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Feasting
 - Q200538
@@ -420,7 +911,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angels cropped figure from f2a
@@ -430,7 +922,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angels cropped figure from f2a
@@ -440,7 +933,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Musicians cropped figure from f2a
@@ -519,9 +1013,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - Q139923562
 - mdhn:isPartOf: mdhn:Shahnameh
 
-#### mdhn:Fereydun_Strikes_Down_Zahhak
+##### mdhn:Fereydun_Strikes_Down_Zahhak
 - Q138713256
-- mdhn:isPartOf: mdhn:KingdomOfZahhak
+- mdhn:isPartOf: mdhn:KingdomOfZahhak, mdhn:Kingdom_of_Fereydun, mdhn:Story_of_the_Rise_of_Fereydun, mdhn:ZahhakStory
 
 #### mdhn:Throne
 - Q189233
@@ -566,7 +1060,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Persian_Architecture
 - Q137133192
@@ -755,7 +1249,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Fereydun_Strikes_Down_Zahhak
 - Q138713256
-- mdhn:isPartOf: mdhn:KingdomOfZahhak
+- mdhn:isPartOf: mdhn:KingdomOfZahhak, mdhn:Kingdom_of_Fereydun, mdhn:Story_of_the_Rise_of_Fereydun, mdhn:ZahhakStory
 
 #### mdhn:Pavilion
 - Q57661959
@@ -803,7 +1297,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Persian_Architecture
 - Q137133192
@@ -1124,6 +1618,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1152,6 +1647,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:broadMatch: mdhn:Murder
 
 #### mdhn:Cave
+- Q35509
+- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
 
 #### mdhn:Tree
 - Q10884
@@ -1179,6 +1676,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Olad_Div
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: White Div cropped figure from 62b
@@ -1188,6 +1686,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Injured Div cropped figure from 62b
@@ -1198,6 +1697,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1220,6 +1720,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1233,6 +1734,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1246,6 +1748,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1259,6 +1762,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1272,6 +1776,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1285,6 +1790,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1300,6 +1806,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Text_or_Verses: Textblock2 in 62b
@@ -1312,6 +1819,210 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
+
+
+---
+
+## ResourceCanvas: f.f.1a — Peck Shahnamah, Binding, Front Cover ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500011063
+- **Contains:** IsFlyLeaf
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f1a
+#### **Pattern cropped from f1a** ![ Pattern cropped from f1a ](https://iiif-cloud.princeton.edu/iiif/2/4d%2F69%2F44%2F4d69447e44f349938ec6c61b12090995%2Fintermediate_file/230,226,8400,12683/200,/0/default.jpg)
+- **Styles:** aat:500011063
+
+---
+
+## ResourceCanvas: f.Cover — Peck Shahnamah, Binding, Back Cover ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:300417741
+- **Contains:** IsCover
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from Cover
+#### **Pattern cropped from Cover** ![ Pattern cropped from Cover ](https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F8b%2Fca2e8ba0588f4dbea315ee02f03d3926%2Fintermediate_file/327,194,7668,11845/200,/0/default.jpg)
+- **Styles:** aat:300417741
+
+---
+
+## ResourceCanvas: f.296b — Peck Shahnamah, Iskandar Slays a Dragon ![Canvas thumbnail](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
+- **Contains:** HasPainting, HasHalkari, HasText
+
+### Depicts
+
+#### mdhn:Iskandar_Slays_a_Dragon
+- mdhn:isPartOf: mdhn:Kingdom_of_Iskandar_Shahnameh, mdhn:Sharaf_Nama
+
+#### mdhn:Iskandar_Dhul_Qarnayn
+- Q8409
+- skos:closeMatch: mdhn:iconclass98B_Alexander
+- skos:exactMatch: wd:Q8409
+- skos:relatedMatch: mdhn:Eghbal_Nama, mdhn:Iskandarnama, mdhn:Sharaf_Nama, mdhn:iconclass_DhulQarnayn, mdhn:iconclass_GogMagogWall
+
+#### mdhn:Greedy_Dragon
+
+#### mdhn:Rock
+
+#### mdhn:Cow
+- Q11748378
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Dragon
+- Q7559
+- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
+
+#### mdhn:Combat_Helmet
+- Q3579211
+- skos:exactMatch: mdhn:aat300391023
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Horse_Saddle
+- Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+
+#### mdhn:Horse_Tack
+- Q950799
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
+- skos:exactMatch: mdhn:aat300420191, mdhn:iconclass46C1316, mdhn:tgm010511_Tacks
+
+#### mdhn:HorseStirrup
+- Q191657
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
+- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
+- skos:relatedMatch: mdhn:Horse_Saddle
+
+#### mdhn:Sword
+- Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
+
+#### mdhn:Bow_and_Arrow
+- Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+
+### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 296b
+#### **Rostam cropped figure from 296b** ![ Rostam cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/6386,5718,1373,1721/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Iskandar_Dhul_Qarnayn
+- Q8409
+- skos:closeMatch: mdhn:iconclass98B_Alexander
+- skos:exactMatch: wd:Q8409
+- skos:relatedMatch: mdhn:Eghbal_Nama, mdhn:Iskandarnama, mdhn:Sharaf_Nama, mdhn:iconclass_DhulQarnayn, mdhn:iconclass_GogMagogWall
+
+
+### mdhn:Fragment_Cropped_Image: Dragon cropped figure from 296b
+#### **Dragon cropped figure from 296b** ![ Dragon cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/2141,3862,5241,5912/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Greedy_Dragon
+
+
+### mdhn:Fragment_Cropped_Image: People of Village cropped figure from 296b
+#### **People of Village cropped figure from 296b** ![ People of Village cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/6164,2583,1896,2699/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Cow cropped figure from 296b
+#### **Cow cropped figure from 296b** ![ Cow cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/6113,3370,1390,1906/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Cow
+- Q11748378
+- skos:broadMatch: mdhn:Animal
+
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from 296b
+#### **People cropped figure from 296b** ![ People cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/7253,4925,804,3318/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Soldier cropped figure from 296b
+#### **Soldier cropped figure from 296b** ![ Soldier cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/5481,6232,1260,1227/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Cow into the mouth of the dragon cropped figure from 296b
+#### **Cow into the mouth of the dragon cropped figure from 296b** ![ Cow into the mouth of the dragon cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/4824,7202,2542,2156/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Greedy_Dragon
+
+##### mdhn:Cow
+- Q11748378
+- skos:broadMatch: mdhn:Animal
+
+
+### mdhn:Fragment_Cropped_Image: Cows cropped figure from 296b
+#### **Cows cropped figure from 296b** ![ Cows cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/4838,8618,3207,2496/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Cow
+- Q11748378
+- skos:broadMatch: mdhn:Animal
+
+
+### mdhn:Text_or_Verses: Textblock1 in 296b
+#### **Textblock1 in 296b** ![ Textblock1 in 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/2082,2944,4404,1047/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** جوان اژدها را خورش بود گاو
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Greedy_Dragon
+
+##### mdhn:Iskandar_Dhul_Qarnayn
+- Q8409
+- skos:closeMatch: mdhn:iconclass98B_Alexander
+- skos:exactMatch: wd:Q8409
+- skos:relatedMatch: mdhn:Eghbal_Nama, mdhn:Iskandarnama, mdhn:Sharaf_Nama, mdhn:iconclass_DhulQarnayn, mdhn:iconclass_GogMagogWall
+
+
+### mdhn:Text_or_Verses: Textblock2 in 296b
+#### **Textblock2 in 296b** ![ Textblock2 in 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/2055,10143,4405,1002/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** چو نزديک آن اژدها رفت شاه
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Greedy_Dragon
+
+##### mdhn:Iskandar_Dhul_Qarnayn
+- Q8409
+- skos:closeMatch: mdhn:iconclass98B_Alexander
+- skos:exactMatch: wd:Q8409
+- skos:relatedMatch: mdhn:Eghbal_Nama, mdhn:Iskandarnama, mdhn:Sharaf_Nama, mdhn:iconclass_DhulQarnayn, mdhn:iconclass_GogMagogWall
 
 
 ---
@@ -1605,6 +2316,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -1630,6 +2342,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1672,6 +2385,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1741,6 +2455,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -1768,6 +2483,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1806,6 +2522,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Sorna
 - Q825246
+- skos:exactMatch: mdhn:aat300222119
 
 
 ### mdhn:Fragment_Cropped_Image: Kaykavus cropped figure from 202v
@@ -1824,6 +2541,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Arzhang_Div
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: div1 cropped figure from 202v
@@ -1834,6 +2552,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1847,6 +2566,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1869,6 +2589,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1882,6 +2603,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1895,6 +2617,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1945,6 +2668,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -1959,6 +2683,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -1971,6 +2696,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Cave
+- Q35509
+- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
 
 #### mdhn:Tree
 - Q10884
@@ -2011,6 +2738,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Olad_Div
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 208r
@@ -2029,6 +2757,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Divs cropped figure from 208r
@@ -2039,6 +2768,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2054,6 +2784,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Text_or_Verses: Textblock2 in 208r
@@ -2066,6 +2797,116 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
+
+
+---
+
+## ResourceCanvas: f.208r — SH 4251, Garshasp Kills the Dragon ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/731525744-0925/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
+- **Contains:** HasPainting, HasText
+
+### Depicts
+
+#### mdhn:Garshaspnameh
+- Q6391136
+- mdhn:isPartOf: mdhn:Persian_Epic_and_Mythology
+- skos:closeMatch: mdhn:aat300404209
+
+#### mdhn:Rock
+
+#### mdhn:Cloude
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Dragon
+- Q7559
+- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
+
+#### mdhn:Bow_and_Arrow
+- Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
+
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:mdhn:Horse_Tack
+
+#### mdhn:Sword
+- Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
+
+#### mdhn:Dagger
+- Q182780
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Misbaha
+- Q1141821
+- skos:exactMatch: mdhn:aat300264661
+
+#### mdhn:Flower
+- Q506
+
+
+### mdhn:Fragment_Cropped_Image: Garshasp cropped figure from 208r
+#### **Garshasp cropped figure from 208r** ![ Garshasp cropped figure from 208r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0925/1832,2754,1194,1208/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Garshasp
+
+
+### mdhn:Fragment_Cropped_Image: Dragon cropped figure from 208r
+#### **Dragon cropped figure from 208r** ![ Dragon cropped figure from 208r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0925/1310,1618,1858,1394/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Dragon
+- Q7559
+- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
+
+
+### mdhn:Text_or_Verses: Textblock1 in 208r
+#### **Textblock1 in 208r** ![ Textblock1 in 208r ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/1946,2852,4392,966/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بدانگه تو پیروز باشی مگر
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Rostam
+
+##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
+
+
+### mdhn:Text_or_Verses: Textblock2 in 208r
+#### **Textblock2 in 208r** ![ Textblock2 in 208r ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/1946,2852,4392,966/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** ناستاد کس پیش او در به جنگ
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Rostam
+
+##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
 
 
 ---
@@ -2173,7 +3014,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:broadMatch: mdhn:Animal
 
 #### mdhn:Flaming_Nimbus
-- Q123456
+- Q3341893
+- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Simurgh
 - Q548119
@@ -2189,7 +3031,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Mace
 - Q272990
@@ -2198,6 +3041,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2270,6 +3114,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Jibril
+- skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
 
 
 ### mdhn:Fragment_Cropped_Image: Angel cropped figure from 2v
@@ -2279,7 +3124,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Ange2 cropped figure from 2v
@@ -2289,7 +3135,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 2v
@@ -2300,6 +3147,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2313,6 +3161,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2490,7 +3339,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - Q1364
 
 #### mdhn:Flaming_Nimbus
-- Q123456
+- Q3341893
+- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Simurgh
 - Q548119
@@ -2506,7 +3356,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Feasting
 - Q200538
@@ -2546,7 +3397,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angel2 cropped figure from 3r
@@ -2556,7 +3408,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angel3 cropped figure from 3r
@@ -2566,7 +3419,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angel4 cropped figure from 3r
@@ -2576,7 +3430,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angel5 cropped figure from 3r
@@ -2586,7 +3441,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Musicians cropped figure from 3r
@@ -2597,6 +3453,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2610,6 +3467,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2730,6 +3588,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2771,6 +3630,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -2830,6 +3690,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -2860,7 +3721,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - mdhn:isPartOf: mdhn:Shahnameh
 
 ##### mdhn:Beheading_Iraj_By_His_Brothers
-- mdhn:isPartOf: mdhn:Kingdom_of_Fereydun
+- mdhn:isPartOf: mdhn:Kingdom_of_Fereydun, mdhn:Story_of_Iraj
 
 #### mdhn:Persian_Architecture
 - Q137133192
@@ -2868,7 +3729,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Feasting
 - Q200538
@@ -3032,7 +3893,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Bolster
 - Q3057620
@@ -3282,6 +4143,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -3317,6 +4179,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Cave
+- Q35509
+- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
 
 #### mdhn:Tree
 - Q10884
@@ -3344,6 +4208,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Olad Div cropped figure from 44r
@@ -3353,6 +4218,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Olad_Div
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 44r
@@ -3374,6 +4240,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
 
 
 ---
@@ -3388,7 +4255,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: Folio 20v The Court of Kayumars
 
 ## ResourceCanvas: f.20v — The Court of Kayumars
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012
 - **Contains:** HasPainting, HasText
 
 ### Depicts
@@ -3449,7 +4316,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: Folio 23v Tahmuras Defeats the Divs
 
 ## ResourceCanvas: f.23v — Folio 23v Tahmuras Defeats the Divs ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### Depicts
@@ -3470,6 +4337,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -3551,6 +4419,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -3564,6 +4433,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -3577,6 +4447,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -3590,6 +4461,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -3608,14 +4480,14 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: Folio 77v Mihrab Hears of Rudaba Folly
 
 ## ResourceCanvas: f.77v — Mihrab Hears of Rudaba Folly ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### Depicts
 
 #### mdhn:ZalAndRudaba
 - Q5960418
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_Manuchehr
 
 #### mdhn:Architectural_Structure
 - Q811979
@@ -3665,6 +4537,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Calligraphy_Inscription
 - Q1640824
 - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
+- skos:relatedMatch: mdhn:aat300208615
 
 #### mdhn:Sea_River_Pool
 - Q4022
@@ -3791,14 +4664,14 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: Folio 299r Bizhan Slaughters the Wild Boars of Irman
 
 ## ResourceCanvas: f.27v — Folio 229r Bizhan Slaughters the Wild Boars ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp--299r%2FFolio299r.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### Depicts
 
 #### mdhn:Bizhan_Slaughters_the_Wild_Boars_of_Irman
 - Q138863131
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_KayKhosrow, mdhn:Story_of_Bizhan_and_Manizheh
 
 #### mdhn:ZahhakStory
 - Q139923562
@@ -3817,6 +4690,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -3907,7 +4781,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: Folio 7r Firdausi Encounters the Court Poets of Ghazna
 
 ## ResourceCanvas: f.7r — Firdausi Encounters the Court Poets of Ghazna ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-7r%2FFolio7r.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### Depicts
@@ -3964,6 +4838,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Calligraphy_Inscription
 - Q1640824
 - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
+- skos:relatedMatch: mdhn:aat300208615
 
 #### mdhn:Sea_River_Pool
 - Q4022
@@ -4040,7 +4915,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: Folio 27v Zahhak Receives the Daughters of Jamshid
 
 ## ResourceCanvas: f.27v — Folio 27v Zahhak Receives the Daughters of Jamshid ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-27v%2FFolio27v.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### Depicts
@@ -4070,11 +4945,12 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Minaret
 - Q48356
-- skos:exactMatch: mdhn:aat300007535, mdhn:tgm006608_Minarets
+- skos:exactMatch: mdhn:aat300007535
 
 #### mdhn:Calligraphy_Inscription
 - Q1640824
 - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
+- skos:relatedMatch: mdhn:aat300208615
 
 #### mdhn:Dagger
 - Q182780
@@ -4183,7 +5059,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: Folio 124r Rustam Seventh Course, He Kills the White Div
 
 ## ResourceCanvas: f.124r — Rostam Kills the White Div
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012
 - **Contains:** HasPainting, HasText
 
 ### Depicts
@@ -4208,6 +5084,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -4221,6 +5098,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -4237,6 +5115,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Cave
+- Q35509
+- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
 
 #### mdhn:Tree
 - Q10884
@@ -4253,7 +5133,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: Folio 25v The Death of King Mirdas
 
 ## ResourceCanvas: f.25v — The Death of King Mirdas ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-25v%2F25v.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### Depicts
@@ -4350,13 +5230,13 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: Folio 166r: The Fire Trail of Siyavush
 
 ## ResourceCanvas: f.166r — The Fire Trail of Siyavush ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### Depicts
 
 #### mdhn:Siyavash_Story
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus
 
 ##### mdhn:The_Fire_Trial_of_Siyavush
 - Q140366887
@@ -4373,7 +5253,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Horse
 - Q726
@@ -4405,6 +5285,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -4413,6 +5294,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Fire
 - Q3196
+- skos:exactMatch: biblissima:Q294901, mdhn:aat300068986, mdhn:sh85048449_Fire, mdhn:tgm003993_Fire
 
 #### mdhn:Curtain
 - Q49005
@@ -4433,6 +5315,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:HorseStirrup
 - Q191657
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
 - skos:relatedMatch: mdhn:Horse_Saddle
 
@@ -4449,6 +5332,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Calligraphy_Inscription
 - Q1640824
 - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
+- skos:relatedMatch: mdhn:aat300208615
 
 
 ### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 166r
@@ -4495,13 +5379,13 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: Folio 168v: Siyavush and Rustam Captures Balkh
 
 ## ResourceCanvas: f.168v — Siyavush and Rustam Captures Balkh ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-168v%2Ffolio168v.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### Depicts
 
 #### mdhn:Siyavash_Story
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus
 
 ##### mdhn:Siyavush_and_Rustem_Capture_Balkh
 - Q140367004
@@ -4509,7 +5393,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Fortress
 - Q57831
-- skos:exactMatch: mdhn:aat300006894, mdhn:tgm004239_Forts__fortifications
+- skos:exactMatch: mdhn:aat300006894
 
 #### mdhn:Sword
 - Q12791
@@ -4523,7 +5407,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Horse
 - Q726
@@ -4555,6 +5439,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -4605,6 +5490,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:HorseStirrup
 - Q191657
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
 - skos:relatedMatch: mdhn:Horse_Saddle
 
@@ -4614,9 +5500,11 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Tamborim
 - Q1751598
+- skos:broadMatch: mdhn:aat300041661
 
 #### mdhn:Sorna
 - Q825246
+- skos:exactMatch: mdhn:aat300222119
 
 #### mdhn:Korna
 
@@ -4639,6 +5527,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Calligraphy_Inscription
 - Q1640824
 - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
+- skos:relatedMatch: mdhn:aat300208615
 
 #### mdhn:Bridge
 - Q12280
@@ -4685,7 +5574,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: Folio 221r Kay Khusrau Takes the Castle of Bahman
 
 ## ResourceCanvas: f.221r — Kay Khusrau Takes the Castle of Bahman ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
 
 ### Depicts
@@ -4709,7 +5598,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Horse
 - Q726
@@ -4731,7 +5620,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995, mdhn:sh85036229_Decoration_and_ornament, mdhn:tgm000453_Architectural_decorations__ornaments
+- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Balcony
 - Q170552
@@ -4745,6 +5634,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -4753,6 +5643,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:HorseStirrup
 - Q191657
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
 - skos:relatedMatch: mdhn:Horse_Saddle
 
@@ -4779,11 +5670,13 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:HorseStirrup
 - Q191657
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
 - skos:relatedMatch: mdhn:Horse_Saddle
 
 #### mdhn:Sorna
 - Q825246
+- skos:exactMatch: mdhn:aat300222119
 
 #### mdhn:Flower
 - Q506
@@ -4801,6 +5694,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Calligraphy_Inscription
 - Q1640824
 - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
+- skos:relatedMatch: mdhn:aat300208615
 
 
 ### mdhn:Fragment_Cropped_Image: Kay Khosrow cropped figure from 166r
@@ -4824,6 +5718,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -4837,6 +5732,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -4850,6 +5746,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -4863,6 +5760,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -4876,6 +5774,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -4889,6 +5788,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -4902,6 +5802,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -4915,6 +5816,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -4928,6 +5830,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -4977,6 +5880,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -5002,6 +5906,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Cave
+- Q35509
+- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
 
 #### mdhn:Tree
 - Q10884
@@ -5029,6 +5935,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Olad Div cropped figure from 71a
@@ -5038,6 +5945,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Olad_Div
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 71a
@@ -5050,6 +5958,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Text_or_Verses: Textblock2 in 71a
@@ -5062,6 +5971,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
 
 
 ---
@@ -5120,6 +6030,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -5221,7 +6132,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - mdhn:isPartOf: mdhn:Shahnameh
 
 ##### mdhn:Beheading_Iraj_By_His_Brothers
-- mdhn:isPartOf: mdhn:Kingdom_of_Fereydun
+- mdhn:isPartOf: mdhn:Kingdom_of_Fereydun, mdhn:Story_of_Iraj
 
 #### mdhn:Dagger
 - Q182780
@@ -5249,6 +6160,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -5358,6 +6270,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -5397,6 +6310,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
 - skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
 - skos:exactMatch: mdhn:aat500011098
 - skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
@@ -5409,6 +6323,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Kharozan_Div
+- skos:closeMatch: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Keyumars cropped figure from 1r
@@ -5516,6 +6431,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -5588,6 +6504,1746 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Fereydun
 
+
+---
+
+
+
+
+# Departed Folios
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Ṭahmūras defeats the demon army
+
+## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasHalkari, HasPainting
+
+### Depicts
+
+#### mdhn:Tahmuras_Defeating_the_Divs
+- Q138676508
+- mdhn:isPartOf: mdhn:KingdomOfTahmuras
+
+#### mdhn:TahmurasDefeatsDivs
+
+#### mdhn:Mace
+- Q272990
+- skos:broadMatch: mdhn:Weopen
+- skos:exactMatch: mdhn:aat300037214
+
+#### mdhn:Shield
+- Q131559
+- skos:broadMatch: mdhn:Weopen
+- skos:exactMatch: mdhn:aat300222454
+
+#### mdhn:Body_Armour
+- Q485027
+- skos:exactMatch: mdhn:aat300036746
+
+#### mdhn:Horse_Spur
+- Q740732
+
+#### mdhn:Horse_Saddle
+- Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+
+#### mdhn:Horse_Riding
+- Q179226
+
+#### mdhn:Sword
+- Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
+
+#### mdhn:Bow_and_Arrow
+- Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
+
+#### mdhn:Soldier
+- Q4991371
+- skos:exactMatch: mdhn:aat300185678
+
+#### mdhn:Battle
+- Q198
+- skos:exactMatch: mdhn:aat300185692
+
+#### mdhn:Wind
+- Q8094
+- skos:exactMatch: mdhn:aat300055395
+
+#### mdhn:Cloud
+- Q8074
+
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Lasso
+- Q840507
+- skos:exactMatch: mdhn:aat300255575
+
+#### mdhn:Dagger
+- Q182780
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Flower
+- Q506
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Blossom
+- Q2047589
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Bird_Nest
+- Q1137226
+- skos:relatedMatch: mdhn:aat300429524, mdhn:tgm007038_Nests
+
+#### mdhn:Gazzele
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Combat_Helmet
+- Q3579211
+- skos:exactMatch: mdhn:aat300391023
+
+
+### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from 1r
+#### **Tahmuras cropped figure from 1r** ![ Tahmuras cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1842,4617,1505,1454/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Tahmuras
+
+
+### mdhn:Fragment_Cropped_Image: Rider1 cropped figure from 1r
+#### **Rider1 cropped figure from 1r** ![ Rider1 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/3847,4430,1005,1218/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Rider2 cropped figure from 1r
+#### **Rider2 cropped figure from 1r** ![ Rider2 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/3252,5119,1717,1684/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Fighter cropped figure from 1r
+#### **Fighter cropped figure from 1r** ![ Fighter cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/3775,2997,1224,1440/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 1r
+#### **Div1 cropped figure from 1r** ![ Div1 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/593,5246,1453,1017/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1r
+#### **Div2 cropped figure from 1r** ![ Div2 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/2121,5963,1687,577/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div3 cropped figure from 1r
+#### **Div3 cropped figure from 1r** ![ Div3 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/3073,4101,985,1441/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div4 cropped figure from 1r
+#### **Div4 cropped figure from 1r** ![ Div4 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1772,3974,890,1026/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div5 cropped figure from 1r
+#### **Div5 cropped figure from 1r** ![ Div5 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1197,3582,796,1877/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Divs cropped figure from 1r
+#### **Divs cropped figure from 1r** ![ Divs cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/604,4003,818,1550/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Marginal_Side_Note: Marginal/Side 1 note in 1r
+#### **Marginal/Side 1 note in 1r** ![ Marginal/Side 1 note in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/5052,1660,498,437/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** ماکيان مرغ خانگی
+
+### mdhn:Marginal_Side_Note: Marginal/Side 2 note in 1r
+#### **Marginal/Side 2 note in 1r** ![ Marginal/Side 2 note in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/5045,2078,498,437/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** دستور وزير
+
+### mdhn:Marginal_Side_Note: Marginal/Side 3 note in 1r
+#### **Marginal/Side 3 note in 1r** ![ Marginal/Side 3 note in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/5028,2557,464,423/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** خنيده بمعنی مشهور و معروف و آوازه
+
+### mdhn:Marginal_Side_Note: Marginal/Side 4 note in 1r
+#### **Marginal/Side 4 note in 1r** ![ Marginal/Side 4 note in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/5021,3014,492,536/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** پالوده پاک کرده از غش راد
+
+### mdhn:Marginal_Side_Note: Marginal/Side 5 note in 1r
+#### **Marginal/Side 5 note in 1r** ![ Marginal/Side 5 note in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/5025,3851,479,384/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** غو آواز و صدای بلند
+
+### mdhn:Marginal_Side_Note: Marginal/Side 5 note in 1r
+#### **Marginal/Side 5 note in 1r** ![ Marginal/Side 5 note in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/5015,6053,479,384/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** درنگ ثبات و آرام
+
+### mdhn:Text_or_Verses: Textblock1 in 1r
+#### **Textblock1 in 1r** ![ Textblock1 in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/622,1347,3299,3008/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** ز مرغان مر آنها که بد نيک ساز چو با و چو شاهين گردن فراز
+
+### mdhn:Text_or_Verses: Textblock1 in 1r
+#### **Textblock1 in 1r** ![ Textblock1 in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/672,6240,3235,574/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** هوا تيره فام و زمين تيره گشت دو ديده بخشم اندرون خيره گشت
+
+---
+
+## Manifest: Ṭahmūras defeats the demon army
+
+## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasHalkari, HasPainting
+
+### Depicts
+
+#### mdhn:Tahmuras_Defeating_the_Divs
+- Q138676508
+- mdhn:isPartOf: mdhn:KingdomOfTahmuras
+
+#### mdhn:TahmurasDefeatsDivs
+
+#### mdhn:Mace
+- Q272990
+- skos:broadMatch: mdhn:Weopen
+- skos:exactMatch: mdhn:aat300037214
+
+#### mdhn:Spear
+- Q44475
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
+
+#### mdhn:Shield
+- Q131559
+- skos:broadMatch: mdhn:Weopen
+- skos:exactMatch: mdhn:aat300222454
+
+#### mdhn:Jingle
+- Q264922
+- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
+
+#### mdhn:Body_Armour
+- Q485027
+- skos:exactMatch: mdhn:aat300036746
+
+#### mdhn:Horse_Spur
+- Q740732
+
+#### mdhn:Horse_Saddle
+- Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+
+#### mdhn:Horse_Riding
+- Q179226
+
+#### mdhn:Sword
+- Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
+
+#### mdhn:Bow_and_Arrow
+- Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
+
+#### mdhn:Soldier
+- Q4991371
+- skos:exactMatch: mdhn:aat300185678
+
+#### mdhn:Battle
+- Q198
+- skos:exactMatch: mdhn:aat300185692
+
+#### mdhn:Sorna
+- Q825246
+- skos:exactMatch: mdhn:aat300222119
+
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Lasso
+- Q840507
+- skos:exactMatch: mdhn:aat300255575
+
+#### mdhn:Dagger
+- Q182780
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Flower
+- Q506
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Blossom
+- Q2047589
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Gazzele
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Combat_Helmet
+- Q3579211
+- skos:exactMatch: mdhn:aat300391023
+
+
+### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from 1v
+#### **Tahmuras cropped figure from 1v** ![ Tahmuras cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/2468,3539,1259,1337/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Tahmuras
+
+
+### mdhn:Fragment_Cropped_Image: Rider cropped figure from 1v
+#### **Rider cropped figure from 1v** ![ Rider cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/1390,3355,804,1017/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Fighter cropped figure from 1v
+#### **Fighter cropped figure from 1v** ![ Fighter cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/856,2469,853,1031/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 1v
+#### **Div1 cropped figure from 1v** ![ Div1 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/1714,4058,867,945/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1v
+#### **Div2 cropped figure from 1v** ![ Div2 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/662,3872,1161,861/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div3 cropped figure from 1v
+#### **Div3 cropped figure from 1v** ![ Div3 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/917,4625,858,729/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div4 cropped figure from 1v
+#### **Div4 cropped figure from 1v** ![ Div4 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/2441,4973,792,919/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div5 cropped figure from 1v
+#### **Div5 cropped figure from 1v** ![ Div5 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/524,1598,880,1143/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Text_or_Verses: Textblock1 in 1v
+#### **Textblock1 in 1v** ![ Textblock1 in 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/1669,1514,2397,1891/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بفرمودشان تا نوازند کرم نخوانندشان جز به آوای نرم
+
+### mdhn:Text_or_Verses: Textblock1 in 1v
+#### **Textblock1 in 1v** ![ Textblock1 in 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/1712,5349,1144,398/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** يکايک برآراست بر ديو جنگ نبد جنگشانرا فراوان درنگ
+
+---
+
+## Manifest: The White Dīv captures and blinds Kay Kāvus
+
+## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasHalkari, HasPainting
+
+### Depicts
+
+#### mdhn:RostamStory
+- mdhn:isPartOf: mdhn:Shahnameh
+
+#### mdhn:Kingdom_of_Kay_Kavus
+- Q40466974
+- mdhn:isPartOf: mdhn:Shahnameh
+
+##### mdhn:KayKavus_Captured_and_Blinded_in_Cave
+- mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus
+
+##### mdhn:Rostams_Seven_Labours
+- Q4119480
+- mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus, mdhn:RostamStory
+
+#### mdhn:Mace
+- Q272990
+- skos:broadMatch: mdhn:Weopen
+- skos:exactMatch: mdhn:aat300037214
+
+##### mdhn:StoneMace
+- skos:broadMatch: mdhn:Mace, mdhn:Weopen
+
+#### mdhn:Cave
+- Q35509
+- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
+
+#### mdhn:Shield
+- Q131559
+- skos:broadMatch: mdhn:Weopen
+- skos:exactMatch: mdhn:aat300222454
+
+#### mdhn:Jingle
+- Q264922
+- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Flower
+- Q506
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+
+### mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 1v
+#### **Kay Kavus cropped figure from 1v** ![ Kay Kavus cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1055,4046,765,1338/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Kay_Kavus
+
+
+### mdhn:Fragment_Cropped_Image: White Div cropped figure from 1v
+#### **White Div cropped figure from 1v** ![ White Div cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/2271,4114,1384,2374/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:White_Div_7th_Course
+- skos:closeMatch: mdhn:Divs
+
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 1v
+#### **Div1 cropped figure from 1v** ![ Div1 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/2332,1909,1028,924/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1v
+#### **Div2 cropped figure from 1v** ![ Div2 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/614,1992,1028,924/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Unknown man 1 in captive cropped figure from 1v
+#### **Unknown man 1 in captive cropped figure from 1v** ![ Unknown man 1 in captive cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/599,4271,685,1138/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unknown man 2 in captive  cropped figure from 1v
+#### **Unknown man 2 in captive  cropped figure from 1v** ![ Unknown man 2 in captive  cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1639,4393,685,1138/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 1v
+#### **Textblock1 in 1v** ![ Textblock1 in 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1874,1536,1075,360/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** سختی يکی هفته اندر کشيد نيامد همی روشنايی بديد
+
+### mdhn:Text_or_Verses: Textblock1 in 1v
+#### **Textblock1 in 1v** ![ Textblock1 in 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/612,5373,1122,318/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** همی برتری را بياراستی چرا گاه مازندران خواستی
+
+---
+
+## Manifest: Siyavush Trial
+
+## ResourceCanvas: f.1v — Folio of Siyavush Trial ![Canvas thumbnail](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasNote, HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Siyavash
+
+#### mdhn:Sudabeh
+
+#### mdhn:Kay_Kavus
+
+#### mdhn:Behzad_Horse
+
+
+### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 1v
+#### **Siyavush cropped figure from 1v** ![ Siyavush cropped figure from 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/414,3145,1850,1731/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Siyavash
+
+##### mdhn:Behzad_Horse
+
+
+### mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 1v
+#### **Kay Kavus cropped figure from 1v** ![ Kay Kavus cropped figure from 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/2268,3105,644,706/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Kay_Kavus
+
+
+### mdhn:Fragment_Cropped_Image: Sudabeh cropped figure from 1v
+#### **Sudabeh cropped figure from 1v** ![ Sudabeh cropped figure from 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/2287,2328,575,774/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Sudabeh
+
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from 1v
+#### **People cropped figure from 1v** ![ People cropped figure from 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/2052,3100,1289,1886/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 1v
+#### **Marginal/Side note in 1v** ![ Marginal/Side note in 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/2338,1249,1022,1215/200,/0/default.jpg)
+- **Styles:** aat:500011057, aat:300265532
+- **Persian Text:** 'گذشتن سياوش از آتش بجهت سوگند
+- **English Text:** Fire trial for passing Purity test
+
+---
+
+## Manifest: Album page in the Style of Muhammad Siyah Qalam 1
+
+## ResourceCanvas: f.1v — Muhammad Siyah Qalam 1 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Cow
+- Q11748378
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Jingle
+- Q264922
+- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
+
+##### mdhn:Brass_Metal_Jingle
+- skos:broadMatch: mdhn:Jingle
+
+#### mdhn:Clothing
+- Q26690120
+- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
+- skos:relatedMatch: mdhn:aat300212133
+
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1065
+#### **Div cropped figure from MSS_1065** ![ Div cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/616,669,1373,1642/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Men hangging cropped figure from MSS_1065
+#### **Men hangging cropped figure from MSS_1065** ![ Men hangging cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/141,1934,1291,1347/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Cow cropped figure from MSS_1065
+#### **Cow cropped figure from MSS_1065** ![ Cow cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/1548,913,841,1957/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in MSS_1065
+#### **Textblock1 in MSS_1065** ![ Textblock1 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/1542,349,860,175/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بهینِ همه جانور آدمیست که گوينده و پادشاه زميست
+
+### mdhn:Text_or_Verses: Textblock2 in MSS_1065
+#### **Textblock2 in MSS_1065** ![ Textblock2 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/87,323,860,175/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:**  و گر سوی کسری بود رای تو درافتد بديوان بد جای تو
+
+### mdhn:Text_or_Verses: Textblock3 in MSS_1065
+#### **Textblock3 in MSS_1065** ![ Textblock3 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/110,3405,873,166/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بجز آدمی جانور نيست نيز که درد است یزدانش این هر سه نیز
+
+### mdhn:Text_or_Verses: Textblock4 in MSS_1065
+#### **Textblock4 in MSS_1065** ![ Textblock4 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/129,477,384,943/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** نرگس آن ترک جگر خواره را نيست خدنگی که جگر دوز نيست
+
+---
+
+## Manifest: Album page in the Style of Muhammad Siyah Qalam 2
+
+## ResourceCanvas: f.1v — Muhammad Siyah Qalam 2 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Camel
+- Q106695054
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Jingle
+- Q264922
+- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
+
+#### mdhn:Clothing
+- Q26690120
+- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
+- skos:relatedMatch: mdhn:aat300212133
+
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1075
+#### **Div cropped figure from MSS_1075** ![ Div cropped figure from MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/541,1153,1111,2432/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Camel cropped figure from MSS_1075
+#### **Camel cropped figure from MSS_1075** ![ Camel cropped figure from MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/208,1009,1424,1230/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in MSS_1075
+#### **Textblock1 in MSS_1075** ![ Textblock1 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/137,136,2295,484/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** لَوْلَا الْهَوَى لَمْ تُرِقْ دَمْعًا عَلَى طَلَلٍ / وَلَا أَرِقْتَ لِذِكْرِ الْبَانِ وَالْعَلَمِ
+
+### mdhn:Text_or_Verses: Textblock2 in MSS_1075
+#### **Textblock2 in MSS_1075** ![ Textblock2 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/298,752,1442,239/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300195198
+- **Persian Text:** شیر مردانه بگویم  پندی روبهی باشی اگر نپذيری بر کس آن به که نگيری آهو که سگی باشد آهوگيری الله لا اله الا هو
+
+### mdhn:Text_or_Verses: Textblock3 in MSS_1075
+#### **Textblock3 in MSS_1075** ![ Textblock3 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/1769,2149,616,1522/200,/0/default.jpg)
+- **Styles:** aat:300265530
+- **Persian Text:** گر ترا بودی غم من شاد میکردی مرا ور بخاطر می رسیدم یاد می کردی مرا کرده ای گویا فراموش از گرفتاران غم ورنه از زندان غم آزاد می کردی مرا وه کجا شد ز انکه بر دیگران گل می زدی زان ميان گاهی بسنگی شاه ميکردی مرا بود قصد کشتنم با صد فريب آخر ترا ای که صيد غمزه صياد ميکردی مرا عاقبت کشتی بصد بيداد و کين چون حیدر بس که دايم وعده ديدار ميکردی مرا
+
+### mdhn:Text_or_Verses: Textblock4 in MSS_1075
+#### **Textblock4 in MSS_1075** ![ Textblock4 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/178,2493,238,1129/200,/0/default.jpg)
+- **Styles:** aat:300265530
+- **Persian Text:** الحق الحق بعد ازین مضمون جمع کردن ... دنیا، کمال جهالت و احمقی است فی سنه
+
+---
+
+## Manifest: Akvan Div prepares to heave the sleeping Rustam into the sea
+
+## ResourceCanvas: f.1v — Akvan Div and Rostam ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-6781_01/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasOnvan, HasPainting
+
+### Depicts
+
+#### mdhn:Battle_Between_Rostam_and_AkvanDiv
+- mdhn:isPartOf: mdhn:RostamStory, mdhn:Story_of_Akvan_Div
+
+#### mdhn:Rostam
+
+#### mdhn:Akvan_Div
+- skos:closeMatch: mdhn:Divs
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Rakhsh
+
+#### mdhn:Sword
+- Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Sun
+
+#### mdhn:Cloud
+- Q8074
+
+#### mdhn:Rocks
+- Q8063
+
+
+### mdhn:Fragment_Cropped_Image: Rostam cropped figure from FS-6781_01
+#### **Rostam cropped figure from FS-6781_01** ![ Rostam cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/916,1588,806,635/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Rostam
+
+
+### mdhn:Fragment_Cropped_Image: Akvan Div cropped figure from FS-6781_01
+#### **Akvan Div cropped figure from FS-6781_01** ![ Akvan Div cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/916,1588,806,635/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Akvan_Div
+- skos:closeMatch: mdhn:Divs
+
+
+### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from FS-6781_01
+#### **Rakhsh cropped figure from FS-6781_01** ![ Rakhsh cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/1285,1588,614,637/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Rakhsh
+
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in 6781_01
+#### **Headpiece1 in 6781_01** ![ Headpiece1 in 6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/980,604,489,133/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** آغاز داستان
+- **English Text:** Begining Of The Story
+
+### mdhn:Text_or_Verses: Textblock1 in FS-6781_01
+#### **Textblock1 in FS-6781_01** ![ Textblock1 in FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/523,570,1407,1031/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** سخن گوی دهقان چنين کرد ياد که يکروز کيخسرو از بامداد
+
+### mdhn:Text_or_Verses: Textblock2 in FS-6781_01
+#### **Textblock2 in FS-6781_01** ![ Textblock2 in FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/490,2223,1431,129/200,/0/default.jpg)
+- **Styles:** aat:300195195
+- **Persian Text:** که دانم کنون در يکی چاره نيست که خود کرده ام و ستمکاره نيست
+
+---
+
+## Manifest: Ascension of Solomon
+
+## ResourceCanvas: f.50 — Ascension of Solomon ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-F1950.1_001/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783
+- **Contains:** HasPainting
+
+### Depicts
+
+#### mdhn:Solomon_and_Queen_of_Sheba
+- mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
+- skos:closeMatch: iconclass:71I
+
+#### mdhn:Solomon
+
+#### mdhn:iconclass71I6
+- skos:exactMatch: iconclass:71I6
+- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
+
+#### mdhn:iconclass71I_PersianCourt
+- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
+
+#### mdhn:God
+- Q190
+- skos:exactMatch: mdhn:sh85055517_God
+
+#### mdhn:Simurgh
+- Q548119
+- skos:exactMatch: mdhn:aat300379749
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Eurasian_Hoopoe
+- Q25247
+- skos:broadMatch: mdhn:Animal
+- skos:exactMatch: mdhn:aat5300250068
+
+#### mdhn:Throne
+- Q189233
+- skos:exactMatch: mdhn:aat300038141
+
+#### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+#### mdhn:LongNeckedJar
+- Q2413314
+- skos:exactMatch: mdhn:aat300045685
+
+#### mdhn:CopperTray
+
+#### mdhn:SunShade
+- Q1762975
+- skos:exactMatch: mdhn:aat300428884
+
+#### mdhn:Tambourine
+- Q193666
+- skos:exactMatch: mdhn:aat300041759
+
+#### mdhn:Sorna
+- Q825246
+- skos:exactMatch: mdhn:aat300222119
+
+#### mdhn:Flute
+- Q11405
+- skos:exactMatch: mdhn:aat300160680, mdhn:aat300235053
+
+#### mdhn:Oud
+- Q191000
+- skos:exactMatch: mdhn:aat300217935
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Peacock
+- Q2083405
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Duck
+- Q3736439
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Feasting
+- Q200538
+- skos:relatedMatch: mdhn:aat300073261
+
+#### mdhn:Royal_Court
+- Q1134237
+
+
+### mdhn:Fragment_Cropped_Image: Solomon cropped figure from FS-F1950.1_001
+#### **Solomon cropped figure from FS-F1950.1_001** ![ Solomon cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/1321,2097,907,831/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Solomon
+
+
+### mdhn:Fragment_Cropped_Image: Simurgh cropped figure from FS-F1950.1_001
+#### **Simurgh cropped figure from FS-F1950.1_001** ![ Simurgh cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/347,337,1033,428/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Simurgh
+- Q548119
+- skos:exactMatch: mdhn:aat300379749
+
+
+### mdhn:Fragment_Cropped_Image: Angles1 cropped figure from FS-F1950.1_001
+#### **Angles1 cropped figure from FS-F1950.1_001** ![ Angles1 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/1026,704,719,575/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Fragment_Cropped_Image: Angles2 cropped figure from FS-F1950.1_001
+#### **Angles2 cropped figure from FS-F1950.1_001** ![ Angles2 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/725,1132,931,765/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Fragment_Cropped_Image: Angles3 cropped figure from FS-F1950.1_001
+#### **Angles3 cropped figure from FS-F1950.1_001** ![ Angles3 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/1646,988,974,602/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Fragment_Cropped_Image: Angles4 cropped figure from FS-F1950.1_001
+#### **Angles4 cropped figure from FS-F1950.1_001** ![ Angles4 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/2365,1125,773,778/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Fragment_Cropped_Image: Angles5 cropped figure from FS-F1950.1_001
+#### **Angles5 cropped figure from FS-F1950.1_001** ![ Angles5 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/2253,1736,798,637/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Fragment_Cropped_Image: Angles6 cropped figure from FS-F1950.1_001
+#### **Angles6 cropped figure from FS-F1950.1_001** ![ Angles6 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/2194,2958,997,965/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Fragment_Cropped_Image: Angles7 cropped figure from FS-F1950.1_001
+#### **Angles7 cropped figure from FS-F1950.1_001** ![ Angles7 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/333,2301,1220,921/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angles8 cropped figure from FS-F1950.1_001
+#### **Angles8 cropped figure from FS-F1950.1_001** ![ Angles8 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/320,2974,2870,972/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angles9 cropped figure from FS-F1950.1_001
+#### **Angles9 cropped figure from FS-F1950.1_001** ![ Angles9 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/367,3747,1232,727/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from FS-F1950.1_001
+#### **Div1 cropped figure from FS-F1950.1_001** ![ Div1 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/2146,3798,1005,811/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-F1950.1_001
+#### **Div2 cropped figure from FS-F1950.1_001** ![ Div2 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/316,3668,294,659/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div3 cropped figure from FS-F1950.1_001
+#### **Div3 cropped figure from FS-F1950.1_001** ![ Div3 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/480,790,842,683/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div4 cropped figure from FS-F1950.1_001
+#### **Div4 cropped figure from FS-F1950.1_001** ![ Div4 cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/2456,2318,746,709/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+---
+
+## Manifest: Two Demons Attacked by Four Flying Angels
+
+## ResourceCanvas: f.26 — Ascension of Solomon ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-7358_26/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783
+- **Contains:** HasPainting, HasOnvan
+
+### Depicts
+
+#### mdhn:Yusuf_and_Zulaikha
+- Q3350827
+- mdhn:isPartOf: mdhn:Haft_Awrang
+- skos:closeMatch: mdhn:iconclass71D
+- skos:relatedMatch: mdhn:iconclass71D2
+
+#### mdhn:Yusuf
+
+#### mdhn:Zulaikha
+
+#### mdhn:iconclass71D
+- skos:closeMatch: wd:Q8423
+- skos:exactMatch: <https://iconclass.org/71D>, iconclass:71D
+- skos:relatedMatch: mdhn:Yusuf_and_Zulaikha, wd:Q3350827
+
+#### mdhn:God
+- Q190
+- skos:exactMatch: mdhn:sh85055517_God
+
+#### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Angle1 cropped figure from FS-7358_26
+#### **Angle1 cropped figure from FS-7358_26** ![ Angle1 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/365,864,672,681/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Fragment_Cropped_Image: Angle2 cropped figure from FS-7358_26
+#### **Angle2 cropped figure from FS-7358_26** ![ Angle2 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/946,859,585,752/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Fragment_Cropped_Image: Angle3 cropped figure from FS-7358_26
+#### **Angle3 cropped figure from FS-7358_26** ![ Angle3 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/957,1356,643,949/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Fragment_Cropped_Image: Angle4 cropped figure from FS-7358_26
+#### **Angle4 cropped figure from FS-7358_26** ![ Angle4 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/371,1730,562,644/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from FS-7358_26
+#### **Div1 cropped figure from FS-7358_26** ![ Div1 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/563,1374,434,695/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-7358_26
+#### **Div2 cropped figure from FS-7358_26** ![ Div2 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/712,2044,879,504/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Illuminated_Headpiece: Textblock1 in FS-7358_26
+#### **Textblock1 in FS-7358_26** ![ Textblock1 in FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/353,604,1255,241/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** ذکر الطواعين و المويان الحاديثه فی الازمان
+
+### mdhn:Illuminated_Headpiece: Textblock2 in FS-7358_26
+#### **Textblock2 in FS-7358_26** ![ Textblock2 in FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/367,2547,1265,275/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** چنان پهن خوان کرم گسترد
+
+---
+
+## Manifest: Battle between a demon and two men
+
+## ResourceCanvas: f.48 — Battle between a demon and two men ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-7421_48/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Garshaspnameh
+- Q6391136
+- mdhn:isPartOf: mdhn:Persian_Epic_and_Mythology
+- skos:closeMatch: mdhn:aat300404209
+
+#### mdhn:Garshasp
+
+#### mdhn:Sorna
+- Q825246
+- skos:exactMatch: mdhn:aat300222119
+
+#### mdhn:Tamborim
+- Q1751598
+- skos:broadMatch: mdhn:aat300041661
+
+#### mdhn:Flag
+- Q14660
+- skos:exactMatch: mdhn:aat300195678
+
+#### mdhn:Body_Armour
+- Q485027
+- skos:exactMatch: mdhn:aat300036746
+
+#### mdhn:Horse_Spur
+- Q740732
+
+#### mdhn:Horse_Saddle
+- Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+
+#### mdhn:Horse_Riding
+- Q179226
+
+#### mdhn:Sword
+- Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
+
+#### mdhn:Bow_and_Arrow
+- Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
+
+#### mdhn:Soldier
+- Q4991371
+- skos:exactMatch: mdhn:aat300185678
+
+#### mdhn:Battle
+- Q198
+- skos:exactMatch: mdhn:aat300185692
+
+#### mdhn:Murder
+- Q132821
+
+#### mdhn:Cloud
+- Q8074
+
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Camel
+- Q106695054
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Combat_Helmet
+- Q3579211
+- skos:exactMatch: mdhn:aat300391023
+
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from FS-7421_48
+#### **Div cropped figure from FS-7421_48** ![ Div cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/662,1892,679,835/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Garshasp cropped figure from FS-7421_48
+#### **Garshasp cropped figure from FS-7421_48** ![ Garshasp cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/1229,1447,698,902/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Garshasp
+
+
+### mdhn:Fragment_Cropped_Image: Riders cropped figure from FS-7421_48
+#### **Riders cropped figure from FS-7421_48** ![ Riders cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/289,1225,666,1120/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People Observing cropped figure from FS-7421_48
+#### **People Observing cropped figure from FS-7421_48** ![ People Observing cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/289,554,453,439/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Soldiers with raised flag cropped figure from FS-7421_48
+#### **Soldiers with raised flag cropped figure from FS-7421_48** ![ Soldiers with raised flag cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/956,586,782,416/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Soldiers with raised flag cropped figure from FS-7421_48
+#### **Soldiers with raised flag cropped figure from FS-7421_48** ![ Soldiers with raised flag cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/1439,600,853,956/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in FS-7421_48
+#### **Textblock1 in FS-7421_48** ![ Textblock1 in FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/282,993,1164,262/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** به خيل عدو چون تن اندر فکند پراکنده هر سو تن و سر فکند
+
+### mdhn:Text_or_Verses: Textblock2 in FS-7421_48
+#### **Textblock2 in FS-7421_48** ![ Textblock2 in FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/271,2819,1184,191/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** نريمان جنگی و زابل گروه رسيدند آنجا گروه ها گروه
+
+---
+
+## Manifest: Garshasp slays a dragon
+
+## ResourceCanvas: f.44 — Garshasp slays a dragon ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-7357_44/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Garshaspnameh
+- Q6391136
+- mdhn:isPartOf: mdhn:Persian_Epic_and_Mythology
+- skos:closeMatch: mdhn:aat300404209
+
+#### mdhn:Garshasp
+
+#### mdhn:Spear
+- Q44475
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
+
+#### mdhn:Mace
+- Q272990
+- skos:broadMatch: mdhn:Weopen
+- skos:exactMatch: mdhn:aat300037214
+
+##### mdhn:OxHeadMace
+- skos:broadMatch: mdhn:Mace, mdhn:Weopen
+
+#### mdhn:Flag
+- Q14660
+- skos:exactMatch: mdhn:aat300195678
+
+#### mdhn:Body_Armour
+- Q485027
+- skos:exactMatch: mdhn:aat300036746
+
+#### mdhn:Horse_Spur
+- Q740732
+
+#### mdhn:Horse_Saddle
+- Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
+- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
+- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+
+#### mdhn:Horse_Riding
+- Q179226
+
+#### mdhn:Sword
+- Q12791
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
+
+#### mdhn:Bow_and_Arrow
+- Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
+
+#### mdhn:Soldier
+- Q4991371
+- skos:exactMatch: mdhn:aat300185678
+
+#### mdhn:Battle
+- Q198
+- skos:exactMatch: mdhn:aat300185692
+
+#### mdhn:Dragon
+- Q7559
+- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
+
+#### mdhn:Cypress
+- Q14169641
+- skos:exactMatch: mdhn:aat300343641
+- skos:relatedMatch: mdhn:aat300132410
+
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Fire
+- Q3196
+- skos:exactMatch: biblissima:Q294901, mdhn:aat300068986, mdhn:sh85048449_Fire, mdhn:tgm003993_Fire
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+#### mdhn:Combat_Helmet
+- Q3579211
+- skos:exactMatch: mdhn:aat300391023
+
+
+### mdhn:Fragment_Cropped_Image: Garshasp cropped figure from FS-7357_44
+#### **Garshasp cropped figure from FS-7357_44** ![ Garshasp cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/1445,1877,639,597/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Garshasp
+
+
+### mdhn:Fragment_Cropped_Image: Garshasp cropped figure from FS-7357_44
+#### **Garshasp cropped figure from FS-7357_44** ![ Garshasp cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/585,1933,872,637/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Dragon
+- Q7559
+- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
+
+
+### mdhn:Fragment_Cropped_Image: Man with fire cropped figure from FS-7357_44
+#### **Man with fire cropped figure from FS-7357_44** ![ Man with fire cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/1512,450,626,529/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People Chating cropped figure from FS-7357_44
+#### **People Chating cropped figure from FS-7357_44** ![ People Chating cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/1207,1351,478,516/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Soldiers with raised flag cropped figure from FS-7357_44
+#### **Soldiers with raised flag cropped figure from FS-7357_44** ![ Soldiers with raised flag cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/494,931,575,1094/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Soldiers with raised flag cropped figure from FS-7357_44
+#### **Soldiers with raised flag cropped figure from FS-7357_44** ![ Soldiers with raised flag cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/1411,1215,709,674/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in FS-7357_44
+#### **Textblock1 in FS-7357_44** ![ Textblock1 in FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/958,973,1175,228/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** به سينه بدريد هامون ز هم سپر در ربود آن دلاور به هم
+
+### mdhn:Text_or_Verses: Textblock2 in FS-7357_44
+#### **Textblock2 in FS-7357_44** ![ Textblock2 in FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/942,2631,1179,283/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** گران تاخت کرد دلير درآمد خروشان چو غرنده شير
+
+---
+
+## Manifest: The Fairy Queen Turktāz welcomes Turktāzī to her magical court
+
+## ResourceCanvas: f.182 — The Fairy Queen Turktaz ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Khamsa_of_Nizami
+- Q3196058
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
+
+##### mdhn:The_Seven_Beauties
+- Q4679100
+- mdhn:isPartOf: mdhn:Khamsa_of_Nizami
+
+###### mdhn:Saturday_Black_The_Unfulfilled_Love
+- mdhn:isPartOf: mdhn:The_Seven_Beauties
+
+###### mdhn:The_Unfulfilled_Love
+- mdhn:isPartOf: mdhn:Saturday_Black_The_Unfulfilled_Love
+
+#### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+#### mdhn:Throne
+- Q189233
+- skos:exactMatch: mdhn:aat300038141
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Sea_River_Pool
+- Q4022
+
+#### mdhn:Fountain
+- Q483453
+- skos:exactMatch: mdhn:aat300006179
+
+#### mdhn:Harp
+- Q47369
+- skos:exactMatch: mdhn:aat300042047, mdhn:tgm004889_Harps
+
+#### mdhn:Tambourine
+- Q193666
+- skos:exactMatch: mdhn:aat300041759
+
+#### mdhn:IncenseBurner
+
+#### mdhn:Pomegranate
+- Q13188
+- skos:exactMatch: mdhn:aat300400483
+
+#### mdhn:HandledJug
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Cypress
+- Q14169641
+- skos:exactMatch: mdhn:aat300343641
+- skos:relatedMatch: mdhn:aat300132410
+
+#### mdhn:Blossom
+- Q2047589
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
+
+
+### mdhn:Fragment_Cropped_Image: Queen Turktaz cropped figure from Per_182
+#### **Queen Turktaz cropped figure from Per_182** ![ Queen Turktaz cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/950,3292,1163,1079/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+
+### mdhn:Fragment_Cropped_Image: Nobel Man cropped figure from Per_182
+#### **Nobel Man cropped figure from Per_182** ![ Nobel Man cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/2126,3472,719,1480/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angels cropped figure from Per_182
+#### **Angels cropped figure from Per_182** ![ Angels cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/706,4164,896,1121/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angels cropped figure from Per_182
+#### **Angels cropped figure from Per_182** ![ Angels cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/2729,3625,922,740/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angels cropped figure from Per_182
+#### **Angels cropped figure from Per_182** ![ Angels cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/2984,4043,820,1546/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Angels cropped figure from Per_182
+#### **Angels cropped figure from Per_182** ![ Angels cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/672,3429,371,1017/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in Per_182
+#### **Textblock1 in Per_182** ![ Textblock1 in Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/695,1792,3119,690/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** خيز و برگرد گرد اين پرگار هر که پيش آيدت به پيش من آر
+
+### mdhn:Text_or_Verses: Textblock2 in Per_182
+#### **Textblock2 in Per_182** ![ Textblock2 in Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/3088,2478,690,1081/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** پيش رفتم ز روی چالاکی خاک بوسيدمش من خاکی گفت برخيز جای جای تو نيست پايه بندگی سزای تو نيست
+
+### mdhn:Text_or_Verses: Textblock3 in Per_182
+#### **Textblock3 in Per_182** ![ Textblock3 in Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/690,5647,3139,1102/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** پيش چون ن حريف مهمان دوست جای مهمان ز مغز به نه ز پوست
 
 ---
 
@@ -5923,7 +8579,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:exactMatch: mdhn:aat300263692
 
 #### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Bowl
 - Q153988
@@ -6014,18 +8671,21 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
 #### mdhn:Flaming_Nimbus
-- Q123456
+- Q3341893
+- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Tent
 - Q170544
 - skos:exactMatch: mdhn:aat300263692
 
 #### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Bowl
 - Q153988
@@ -6227,6 +8887,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Calligraphy_Inscription
 - Q1640824
 - skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
+- skos:relatedMatch: mdhn:aat300208615
 
 #### mdhn:Feasting
 - Q200538
@@ -6287,918 +8948,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
+## Manifest: Solomon and Bilqis sit together and converse frankly
 
-
-
-# Departed Folios
-
-**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
-
-## Manifest: Ṭahmūras defeats the demon army
-
-## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
-- **Contains:** HasText, HasHalkari, HasPainting
-
-### Depicts
-
-#### mdhn:Tahmuras_Defeating_the_Divs
-- Q138676508
-- mdhn:isPartOf: mdhn:KingdomOfTahmuras
-
-#### mdhn:TahmurasDefeatsDivs
-
-#### mdhn:Mace
-- Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
-
-#### mdhn:Shield
-- Q131559
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300222454
-
-#### mdhn:Body_Armour
-- Q485027
-- skos:exactMatch: mdhn:aat300036746
-
-#### mdhn:Horse_Spur
-- Q740732
-
-#### mdhn:Horse_Saddle
-- Q192249
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
-
-#### mdhn:Horse_Riding
-- Q179226
-
-#### mdhn:Sword
-- Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
-
-#### mdhn:Bow_and_Arrow
-- Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
-
-#### mdhn:Soldier
-- Q4991371
-- skos:exactMatch: mdhn:aat300185678
-
-#### mdhn:Battle
-- Q198
-- skos:exactMatch: mdhn:aat300185692
-
-#### mdhn:Wind
-- Q8094
-- skos:exactMatch: mdhn:aat300055395
-
-#### mdhn:Cloud
-- Q8074
-
-#### mdhn:Horse
-- Q726
-- skos:broadMatch: mdhn:Animal
-
-#### mdhn:Lasso
-- Q840507
-- skos:exactMatch: mdhn:aat300255575
-
-#### mdhn:Dagger
-- Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
-
-#### mdhn:Turban
-- Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
-
-#### mdhn:Flower
-- Q506
-
-#### mdhn:Tree
-- Q10884
-- skos:exactMatch: mdhn:aat300132410
-
-#### mdhn:Rocks
-- Q8063
-
-#### mdhn:Blossom
-- Q2047589
-
-#### mdhn:Bird
-- Q5113
-- skos:broadMatch: mdhn:Animal
-
-#### mdhn:Bird_Nest
-- Q1137226
-- skos:relatedMatch: mdhn:aat300429524, mdhn:tgm007038_Nests
-
-#### mdhn:Gazzele
-
-#### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-#### mdhn:Plant
-- Q756
-- skos:exactMatch: mdhn:aat300132360
-
-#### mdhn:Combat_Helmet
-- Q3579211
-- skos:exactMatch: mdhn:aat300391023
-
-
-### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from 1r
-#### **Tahmuras cropped figure from 1r** ![ Tahmuras cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1842,4617,1505,1454/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Tahmuras
-
-
-### mdhn:Fragment_Cropped_Image: Rider1 cropped figure from 1r
-#### **Rider1 cropped figure from 1r** ![ Rider1 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/3847,4430,1005,1218/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-### mdhn:Fragment_Cropped_Image: Rider2 cropped figure from 1r
-#### **Rider2 cropped figure from 1r** ![ Rider2 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/3252,5119,1717,1684/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-### mdhn:Fragment_Cropped_Image: Fighter cropped figure from 1r
-#### **Fighter cropped figure from 1r** ![ Fighter cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/3775,2997,1224,1440/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 1r
-#### **Div1 cropped figure from 1r** ![ Div1 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/593,5246,1453,1017/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1r
-#### **Div2 cropped figure from 1r** ![ Div2 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/2121,5963,1687,577/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Div3 cropped figure from 1r
-#### **Div3 cropped figure from 1r** ![ Div3 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/3073,4101,985,1441/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Div4 cropped figure from 1r
-#### **Div4 cropped figure from 1r** ![ Div4 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1772,3974,890,1026/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Div5 cropped figure from 1r
-#### **Div5 cropped figure from 1r** ![ Div5 cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1197,3582,796,1877/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Divس cropped figure from 1r
-#### **Divس cropped figure from 1r** ![ Divس cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/604,4003,818,1550/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Marginal_Side_Note: Marginal/Side 1 note in 1r
-#### **Marginal/Side 1 note in 1r** ![ Marginal/Side 1 note in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/5052,1660,498,437/200,/0/default.jpg)
-- **Styles:** aat:500011057, aat:300265532
-- **Persian Text:** ماکيان مرغ خانگی
-
-### mdhn:Marginal_Side_Note: Marginal/Side 2 note in 1r
-#### **Marginal/Side 2 note in 1r** ![ Marginal/Side 2 note in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/5045,2078,498,437/200,/0/default.jpg)
-- **Styles:** aat:500011057, aat:300265532
-- **Persian Text:** دستور وزير
-
-### mdhn:Marginal_Side_Note: Marginal/Side 3 note in 1r
-#### **Marginal/Side 3 note in 1r** ![ Marginal/Side 3 note in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/5028,2557,464,423/200,/0/default.jpg)
-- **Styles:** aat:500011057, aat:300265532
-- **Persian Text:** خنيده بمعنی مشهور و معروف و آوازه
-
-### mdhn:Marginal_Side_Note: Marginal/Side 4 note in 1r
-#### **Marginal/Side 4 note in 1r** ![ Marginal/Side 4 note in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/5021,3014,492,536/200,/0/default.jpg)
-- **Styles:** aat:500011057, aat:300265532
-- **Persian Text:** پالوده پاک کرده از غش راد
-
-### mdhn:Marginal_Side_Note: Marginal/Side 5 note in 1r
-#### **Marginal/Side 5 note in 1r** ![ Marginal/Side 5 note in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/5025,3851,479,384/200,/0/default.jpg)
-- **Styles:** aat:500011057, aat:300265532
-- **Persian Text:** غو آواز و صدای بلند
-
-### mdhn:Marginal_Side_Note: Marginal/Side 5 note in 1r
-#### **Marginal/Side 5 note in 1r** ![ Marginal/Side 5 note in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/5015,6053,479,384/200,/0/default.jpg)
-- **Styles:** aat:500011057, aat:300265532
-- **Persian Text:** درنگ ثبات و آرام
-
-### mdhn:Text_or_Verses: Textblock1 in 1r
-#### **Textblock1 in 1r** ![ Textblock1 in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/622,1347,3299,3008/200,/0/default.jpg)
-- **Styles:** aat:300265532
-- **Persian Text:** ز مرغان مر آنها که بد نيک ساز چو با و چو شاهين گردن فراز
-
-### mdhn:Text_or_Verses: Textblock1 in 1r
-#### **Textblock1 in 1r** ![ Textblock1 in 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/672,6240,3235,574/200,/0/default.jpg)
-- **Styles:** aat:300265532
-- **Persian Text:** هوا تيره فام و زمين تيره گشت دو ديده بخشم اندرون خيره گشت
-
----
-
-## Manifest: Ṭahmūras defeats the demon army
-
-## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
-- **Contains:** HasText, HasHalkari, HasPainting
-
-### Depicts
-
-#### mdhn:Tahmuras_Defeating_the_Divs
-- Q138676508
-- mdhn:isPartOf: mdhn:KingdomOfTahmuras
-
-#### mdhn:TahmurasDefeatsDivs
-
-#### mdhn:Mace
-- Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
-
-#### mdhn:Spear
-- Q44475
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
-
-#### mdhn:Shield
-- Q131559
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300222454
-
-#### mdhn:Jingle
-- Q264922
-- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
-
-#### mdhn:Body_Armour
-- Q485027
-- skos:exactMatch: mdhn:aat300036746
-
-#### mdhn:Horse_Spur
-- Q740732
-
-#### mdhn:Horse_Saddle
-- Q192249
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
-
-#### mdhn:Horse_Riding
-- Q179226
-
-#### mdhn:Sword
-- Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
-
-#### mdhn:Bow_and_Arrow
-- Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
-
-#### mdhn:Soldier
-- Q4991371
-- skos:exactMatch: mdhn:aat300185678
-
-#### mdhn:Battle
-- Q198
-- skos:exactMatch: mdhn:aat300185692
-
-#### mdhn:Sorna
-- Q825246
-
-#### mdhn:Horse
-- Q726
-- skos:broadMatch: mdhn:Animal
-
-#### mdhn:Lasso
-- Q840507
-- skos:exactMatch: mdhn:aat300255575
-
-#### mdhn:Dagger
-- Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
-
-#### mdhn:Turban
-- Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
-
-#### mdhn:Flower
-- Q506
-
-#### mdhn:Tree
-- Q10884
-- skos:exactMatch: mdhn:aat300132410
-
-#### mdhn:Rocks
-- Q8063
-
-#### mdhn:Blossom
-- Q2047589
-
-#### mdhn:Bird
-- Q5113
-- skos:broadMatch: mdhn:Animal
-
-#### mdhn:Gazzele
-
-#### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-#### mdhn:Plant
-- Q756
-- skos:exactMatch: mdhn:aat300132360
-
-#### mdhn:Combat_Helmet
-- Q3579211
-- skos:exactMatch: mdhn:aat300391023
-
-
-### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from 1v
-#### **Tahmuras cropped figure from 1v** ![ Tahmuras cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/2468,3539,1259,1337/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Tahmuras
-
-
-### mdhn:Fragment_Cropped_Image: Rider cropped figure from 1v
-#### **Rider cropped figure from 1v** ![ Rider cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/1390,3355,804,1017/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-### mdhn:Fragment_Cropped_Image: Fighter cropped figure from 1v
-#### **Fighter cropped figure from 1v** ![ Fighter cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/856,2469,853,1031/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 1v
-#### **Div1 cropped figure from 1v** ![ Div1 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/1714,4058,867,945/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1v
-#### **Div2 cropped figure from 1v** ![ Div2 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/662,3872,1161,861/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Div3 cropped figure from 1v
-#### **Div3 cropped figure from 1v** ![ Div3 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/917,4625,858,729/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Div4 cropped figure from 1v
-#### **Div4 cropped figure from 1v** ![ Div4 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/2441,4973,792,919/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Div5 cropped figure from 1v
-#### **Div5 cropped figure from 1v** ![ Div5 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/524,1598,880,1143/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Text_or_Verses: Textblock1 in 1v
-#### **Textblock1 in 1v** ![ Textblock1 in 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/1669,1514,2397,1891/200,/0/default.jpg)
-- **Styles:** aat:300265532
-- **Persian Text:** بفرمودشان تا نوازند کرم نخوانندشان جز به آوای نرم
-
-### mdhn:Text_or_Verses: Textblock1 in 1v
-#### **Textblock1 in 1v** ![ Textblock1 in 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/1712,5349,1144,398/200,/0/default.jpg)
-- **Styles:** aat:300265532
-- **Persian Text:** يکايک برآراست بر ديو جنگ نبد جنگشانرا فراوان درنگ
-
----
-
-## Manifest: The White Dīv captures and blinds Kay Kāvus
-
-## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
-- **Contains:** HasText, HasHalkari, HasPainting
-
-### Depicts
-
-#### mdhn:RostamStory
-- mdhn:isPartOf: mdhn:Shahnameh
-
-#### mdhn:Kingdom_of_Kay_Kavus
-- Q40466974
-- mdhn:isPartOf: mdhn:Shahnameh
-
-##### mdhn:KayKavus_Captured_and_Blinded_in_Cave
-- mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus
-
-##### mdhn:Rostams_Seven_Labours
-- Q4119480
-- mdhn:isPartOf: mdhn:Kingdom_of_Kay_Kavus, mdhn:RostamStory
-
-#### mdhn:Mace
-- Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
-
-##### mdhn:StoneMace
-- skos:broadMatch: mdhn:Mace, mdhn:Weopen
-
-#### mdhn:Cave
-
-#### mdhn:Shield
-- Q131559
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300222454
-
-#### mdhn:Jingle
-- Q264922
-- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
-
-#### mdhn:Robe
-- Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
-
-#### mdhn:Rocks
-- Q8063
-
-#### mdhn:Tree
-- Q10884
-- skos:exactMatch: mdhn:aat300132410
-
-#### mdhn:Flower
-- Q506
-
-#### mdhn:Headgear
-- Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
-
-#### mdhn:Turban
-- Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
-
-#### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-#### mdhn:Plant
-- Q756
-- skos:exactMatch: mdhn:aat300132360
-
-
-### mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 1v
-#### **Kay Kavus cropped figure from 1v** ![ Kay Kavus cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1055,4046,765,1338/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Kay_Kavus
-
-
-### mdhn:Fragment_Cropped_Image: White Div cropped figure from 1v
-#### **White Div cropped figure from 1v** ![ White Div cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/2271,4114,1384,2374/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:White_Div_7th_Course
-
-
-### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 1v
-#### **Div1 cropped figure from 1v** ![ Div1 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/2332,1909,1028,924/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1v
-#### **Div2 cropped figure from 1v** ![ Div2 cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/614,1992,1028,924/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Unknown man 1 in captive cropped figure from 1v
-#### **Unknown man 1 in captive cropped figure from 1v** ![ Unknown man 1 in captive cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/599,4271,685,1138/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-### mdhn:Fragment_Cropped_Image: Unknown man 2 in captive  cropped figure from 1v
-#### **Unknown man 2 in captive  cropped figure from 1v** ![ Unknown man 2 in captive  cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1639,4393,685,1138/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-### mdhn:Text_or_Verses: Textblock1 in 1v
-#### **Textblock1 in 1v** ![ Textblock1 in 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1874,1536,1075,360/200,/0/default.jpg)
-- **Styles:** aat:300265532
-- **Persian Text:** سختی يکی هفته اندر کشيد نيامد همی روشنايی بديد
-
-### mdhn:Text_or_Verses: Textblock1 in 1v
-#### **Textblock1 in 1v** ![ Textblock1 in 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/612,5373,1122,318/200,/0/default.jpg)
-- **Styles:** aat:300265532
-- **Persian Text:** همی برتری را بياراستی چرا گاه مازندران خواستی
-
----
-
-## Manifest: Siyavush Trial
-
-## ResourceCanvas: f.1v — Folio of Siyavush Trial ![Canvas thumbnail](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
-- **Contains:** HasNote, HasText, HasPainting
-
-### Depicts
-
-#### mdhn:Siyavash
-
-#### mdhn:Sudabeh
-
-#### mdhn:Kay_Kavus
-
-#### mdhn:Behzad_Horse
-
-
-### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 1v
-#### **Siyavush cropped figure from 1v** ![ Siyavush cropped figure from 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/414,3145,1850,1731/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Siyavash
-
-##### mdhn:Behzad_Horse
-
-
-### mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 1v
-#### **Kay Kavus cropped figure from 1v** ![ Kay Kavus cropped figure from 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/2268,3105,644,706/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Kay_Kavus
-
-
-### mdhn:Fragment_Cropped_Image: Sudabeh cropped figure from 1v
-#### **Sudabeh cropped figure from 1v** ![ Sudabeh cropped figure from 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/2287,2328,575,774/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Sudabeh
-
-
-### mdhn:Fragment_Cropped_Image: People cropped figure from 1v
-#### **People cropped figure from 1v** ![ People cropped figure from 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/2052,3100,1289,1886/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-### mdhn:Marginal_Side_Note: Marginal/Side note in 1v
-#### **Marginal/Side note in 1v** ![ Marginal/Side note in 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/2338,1249,1022,1215/200,/0/default.jpg)
-- **Styles:** aat:500011057, aat:300265532
-- **Persian Text:** 'گذشتن سياوش از آتش بجهت سوگند
-- **English Text:** Fire trial for passing Purity test
-
----
-
-## Manifest: Album page in the Style of Muhammad Siyah Qalam 1
-
-## ResourceCanvas: f.1v — Muhammad Siyah Qalam 1 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
-- **Contains:** HasText, HasPainting
-
-### Depicts
-
-#### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-#### mdhn:Cow
-- Q11748378
-- skos:broadMatch: mdhn:Animal
-
-#### mdhn:Jingle
-- Q264922
-- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
-
-##### mdhn:Brass_Metal_Jingle
-- skos:broadMatch: mdhn:Jingle
-
-#### mdhn:Clothing
-- Q26690120
-- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
-- skos:relatedMatch: mdhn:aat300212133
-
-
-### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1065
-#### **Div cropped figure from MSS_1065** ![ Div cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/616,669,1373,1642/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Men hangging cropped figure from MSS_1065
-#### **Men hangging cropped figure from MSS_1065** ![ Men hangging cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/141,1934,1291,1347/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-### mdhn:Fragment_Cropped_Image: Cow cropped figure from MSS_1065
-#### **Cow cropped figure from MSS_1065** ![ Cow cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/1548,913,841,1957/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-### mdhn:Text_or_Verses: Textblock1 in MSS_1065
-#### **Textblock1 in MSS_1065** ![ Textblock1 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/1542,349,860,175/200,/0/default.jpg)
-- **Styles:** aat:300265532
-- **Persian Text:** بهینِ همه جانور آدمیست که گوينده و پادشاه زميست
-
-### mdhn:Text_or_Verses: Textblock2 in MSS_1065
-#### **Textblock2 in MSS_1065** ![ Textblock2 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/87,323,860,175/200,/0/default.jpg)
-- **Styles:** aat:300265532
-- **Persian Text:**  و گر سوی کسری بود رای تو درافتد بديوان بد جای تو
-
-### mdhn:Text_or_Verses: Textblock3 in MSS_1065
-#### **Textblock3 in MSS_1065** ![ Textblock3 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/110,3405,873,166/200,/0/default.jpg)
-- **Styles:** aat:300265532
-- **Persian Text:** بجز آدمی جانور نيست نيز که درد است یزدانش این هر سه نیز
-
-### mdhn:Text_or_Verses: Textblock4 in MSS_1065
-#### **Textblock4 in MSS_1065** ![ Textblock4 in MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/129,477,384,943/200,/0/default.jpg)
-- **Styles:** aat:300265532
-- **Persian Text:** نرگس آن ترک جگر خواره را نيست خدنگی که جگر دوز نيست
-
----
-
-## Manifest: Album page in the Style of Muhammad Siyah Qalam 2
-
-## ResourceCanvas: f.1v — Muhammad Siyah Qalam 2 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
-- **Contains:** HasText, HasPainting
-
-### Depicts
-
-#### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-#### mdhn:Camel
-- Q106695054
-- skos:broadMatch: mdhn:Animal
-
-#### mdhn:Jingle
-- Q264922
-- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
-
-#### mdhn:Clothing
-- Q26690120
-- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
-- skos:relatedMatch: mdhn:aat300212133
-
-
-### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1075
-#### **Div cropped figure from MSS_1075** ![ Div cropped figure from MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/541,1153,1111,2432/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
-
-
-### mdhn:Fragment_Cropped_Image: Camel cropped figure from MSS_1075
-#### **Camel cropped figure from MSS_1075** ![ Camel cropped figure from MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/208,1009,1424,1230/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-### mdhn:Text_or_Verses: Textblock1 in MSS_1075
-#### **Textblock1 in MSS_1075** ![ Textblock1 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/137,136,2295,484/200,/0/default.jpg)
-- **Styles:** aat:300195198
-- **Persian Text:** لَوْلَا الْهَوَى لَمْ تُرِقْ دَمْعًا عَلَى طَلَلٍ / وَلَا أَرِقْتَ لِذِكْرِ الْبَانِ وَالْعَلَمِ
-
-### mdhn:Text_or_Verses: Textblock2 in MSS_1075
-#### **Textblock2 in MSS_1075** ![ Textblock2 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/298,752,1442,239/200,/0/default.jpg)
-- **Styles:** aat:300265532, aat:300195198
-- **Persian Text:** شیر مردانه بگویم  پندی روبهی باشی اگر نپذيری بر کس آن به که نگيری آهو که سگی باشد آهوگيری الله لا اله الا هو
-
-### mdhn:Text_or_Verses: Textblock3 in MSS_1075
-#### **Textblock3 in MSS_1075** ![ Textblock3 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/1769,2149,616,1522/200,/0/default.jpg)
-- **Styles:** aat:300265530
-- **Persian Text:** گر ترا بودی غم من شاد میکردی مرا ور بخاطر می رسیدم یاد می کردی مرا کرده ای گویا فراموش از گرفتاران غم ورنه از زندان غم آزاد می کردی مرا وه کجا شد ز انکه بر دیگران گل می زدی زان ميان گاهی بسنگی شاه ميکردی مرا بود قصد کشتنم با صد فريب آخر ترا ای که صيد غمزه صياد ميکردی مرا عاقبت کشتی بصد بيداد و کين چون حیدر بس که دايم وعده ديدار ميکردی مرا
-
-### mdhn:Text_or_Verses: Textblock4 in MSS_1075
-#### **Textblock4 in MSS_1075** ![ Textblock4 in MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/178,2493,238,1129/200,/0/default.jpg)
-- **Styles:** aat:300265530
-- **Persian Text:** الحق الحق بعد ازین مضمون جمع کردن ... دنیا، کمال جهالت و احمقی است فی سنه
-
----
-
-## Manifest: Akvan Div prepares to heave the sleeping Rustam into the sea
-
-## ResourceCanvas: f.1v — Akvan Div and Rostam ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-6781_01/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
-- **Contains:** HasText, HasOnvan, HasPainting
-
-### Depicts
-
-#### mdhn:Battle_Between_Rostam_and_AkvanDiv
-- mdhn:isPartOf: mdhn:RostamStory, mdhn:Story_of_Akvan_Div
-
-#### mdhn:Rostam
-
-#### mdhn:Akvan_Div
-
-#### mdhn:Rakhsh
-
-#### mdhn:Sword
-- Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
-
-#### mdhn:Plant
-- Q756
-- skos:exactMatch: mdhn:aat300132360
-
-#### mdhn:Sun
-
-#### mdhn:Cloud
-- Q8074
-
-#### mdhn:Rocks
-- Q8063
-
-
-### mdhn:Fragment_Cropped_Image: Rostam cropped figure from FS-6781_01
-#### **Rostam cropped figure from FS-6781_01** ![ Rostam cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/916,1588,806,635/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Rostam
-
-
-### mdhn:Fragment_Cropped_Image: Akvan Div cropped figure from FS-6781_01
-#### **Akvan Div cropped figure from FS-6781_01** ![ Akvan Div cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/916,1588,806,635/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Akvan_Div
-
-
-### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from FS-6781_01
-#### **Rakhsh cropped figure from FS-6781_01** ![ Rakhsh cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/1285,1588,614,637/200,/0/default.jpg)
-- **Styles:** aat:500011001
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Rakhsh
-
-
-### mdhn:Illuminated_Headpiece: Headpiece1 in 6781_01
-#### **Headpiece1 in 6781_01** ![ Headpiece1 in 6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/980,604,489,133/200,/0/default.jpg)
-- **Styles:** aat:300195195
-- **Persian Text:** آغاز داستان
-- **English Text:** Begining Of The Story
-
-### mdhn:Text_or_Verses: Textblock1 in FS-6781_01
-#### **Textblock1 in FS-6781_01** ![ Textblock1 in FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/523,570,1407,1031/200,/0/default.jpg)
-- **Styles:** aat:300195195
-- **Persian Text:** سخن گوی دهقان چنين کرد ياد که يکروز کيخسرو از بامداد
-
-### mdhn:Text_or_Verses: Textblock2 in FS-6781_01
-#### **Textblock2 in FS-6781_01** ![ Textblock2 in FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/490,2223,1431,129/200,/0/default.jpg)
-- **Styles:** aat:300195195
-- **Persian Text:** که دانم کنون در يکی چاره نيست که خود کرده ام و ستمکاره نيست
-
----
-
-
-
-
-# Tarikhnama by Balami
-
-**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
-
-## Manifest: Tarikhname by Balami FS-6504_06
-
-## ResourceCanvas: f.6v — Solomon and Sheba ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-6504_06/full/200,/0/default.jpg)
+## ResourceCanvas: f.19 — Solomon and Bilqis ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-8474_19/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
@@ -7208,12 +8960,103 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
 - skos:closeMatch: iconclass:71I
 
+#### mdhn:Solomon
+
+#### mdhn:Queen_of_Sheba
+
+#### mdhn:Asfi_bin_Barkhiya
+
 #### mdhn:iconclass71I6
 - skos:exactMatch: iconclass:71I6
 - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
 
 #### mdhn:iconclass71I_PersianCourt
 - skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
+
+#### mdhn:Flaming_Nimbus
+- Q3341893
+- skos:broadMatch: mdhn:Halo
+
+#### mdhn:God
+- Q190
+- skos:exactMatch: mdhn:sh85055517_God
+
+#### mdhn:Simurgh
+- Q548119
+- skos:exactMatch: mdhn:aat300379749
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Eurasian_Hoopoe
+- Q25247
+- skos:broadMatch: mdhn:Animal
+- skos:exactMatch: mdhn:aat5300250068
+
+#### mdhn:Throne
+- Q189233
+- skos:exactMatch: mdhn:aat300038141
+
+#### mdhn:Angles_From_Heaven
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
+
+#### mdhn:Persian_Architecture
+- Q137133192
+- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
+
+#### mdhn:Calligraphy_Inscription
+- Q1640824
+- skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
+- skos:relatedMatch: mdhn:aat300208615
+
+#### mdhn:Building_Ornament
+- Q12043387
+- skos:exactMatch: mdhn:aat300378995
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Daraygah
+
+#### mdhn:Sea_River_Pool
+- Q4022
+
+#### mdhn:Feasting
+- Q200538
+- skos:relatedMatch: mdhn:aat300073261
+
+#### mdhn:Architectural_Structure
+- Q811979
+
+#### mdhn:Balcony
+- Q170552
+- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
+
+#### mdhn:Pool
+- Q1501
+- skos:exactMatch: mdhn:aat300008692
+
+#### mdhn:Glazed_Tile
+- Q76827920
+- skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
+
+#### mdhn:Cypress
+- Q14169641
+- skos:exactMatch: mdhn:aat300343641
+- skos:relatedMatch: mdhn:aat300132410
+
+#### mdhn:Royal_Court
+- Q1134237
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Turban
 - Q2460567
@@ -7225,30 +9068,67 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:exactMatch: mdhn:aat300209852
 - skos:relatedMatch: mdhn:aat300212133
 
-#### mdhn:Divs
-- Q177413
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+#### mdhn:Cloud
+- Q8074
 
-#### mdhn:Throne
-- Q189233
-- skos:exactMatch: mdhn:aat300038141
+#### mdhn:Flower
+- Q506
 
-#### mdhn:Headgear
-- Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+#### mdhn:Blossom
+- Q2047589
 
-#### mdhn:Royal_Court
-- Q1134237
+#### mdhn:Plant
+- Q756
+- skos:exactMatch: mdhn:aat300132360
 
-#### mdhn:Bird
-- Q5113
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Duck
+- Q3736439
 - skos:broadMatch: mdhn:Animal
 
+#### mdhn:Horse
+- Q726
+- skos:broadMatch: mdhn:Animal
 
-### mdhn:Fragment_Cropped_Image: Solomon and Sheba
-#### **Solomon and Sheba** ![ Solomon and Sheba ](https://ids.si.edu/ids/iiif/FS-6504_06/134,1523,1792,1392/200,/0/default.jpg)
+#### mdhn:Fountain
+- Q483453
+- skos:exactMatch: mdhn:aat300006179
+
+#### mdhn:Veiled_Face
+
+#### mdhn:Dagger
+- Q182780
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
+
+#### mdhn:SunShade
+- Q1762975
+- skos:exactMatch: mdhn:aat300428884
+
+
+### mdhn:Fragment_Cropped_Image: Solomon cropped figure from FS-8474_19
+#### **Solomon cropped figure from FS-8474_19** ![ Solomon cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2573,2461,445,1034/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Solomon
+
+
+### mdhn:Fragment_Cropped_Image: Queen_of_Sheba cropped figure from FS-8474_19
+#### **Queen_of_Sheba cropped figure from FS-8474_19** ![ Queen_of_Sheba cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2942,2741,395,744/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Queen_of_Sheba
+
+
+### mdhn:Fragment_Cropped_Image: Solomon and Bilqis cropped figure from FS-8474_19
+#### **Solomon and Bilqis cropped figure from FS-8474_19** ![ Solomon and Bilqis cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2555,1949,796,1643/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
 #### Iconography Tags (elementLOUD)
@@ -7258,136 +9138,103 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Queen_of_Sheba
 
 
----
-
-## Manifest: Tarikhname by Balami FS-6240_03
-
-## ResourceCanvas: f.1v — The fortress of Al-Muqanna ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-6240_03/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
-- **Contains:** HasText, HasPainting
-
-### Depicts
-
-#### mdhn:Siege_of_Al_Muqanna_Fortress
-
-#### mdhn:Khaydhar_ibn_Kawus_al_Afshin
-
-#### mdhn:Abu_Muslim_al_Khorasani
-
-#### mdhn:Al_Muqanna
-
-#### mdhn:Battle_Field
-- Q4895508
-- skos:exactMatch: mdhn:aat300000835
-
-#### mdhn:Bow_and_Arrow
-- Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
-
-#### mdhn:AlamandKotalandKotal
-- Q140502385
-- skos:exactMatch: mdhn:aat500011096
-
-#### mdhn:Sheild
-
-#### mdhn:Combat_Helmet
-- Q3579211
-- skos:exactMatch: mdhn:aat300391023
-
-#### mdhn:Dome
-- Q12493
-- skos:exactMatch: mdhn:aat300001280, mdhn:tgm003212_Domes
-
-#### mdhn:Bricks
-- Q40089
-- skos:exactMatch: mdhn:aat300010463, mdhn:tgm001324_Bricks
-
-#### mdhn:Fortress
-- Q57831
-- skos:exactMatch: mdhn:aat300006894, mdhn:tgm004239_Forts__fortifications
-
-#### mdhn:Cloud
-- Q8074
-
-#### mdhn:Horse
-- Q726
-- skos:broadMatch: mdhn:Animal
-
-#### mdhn:Horse_Spur
-- Q740732
-
-#### mdhn:Horse_Saddle
-- Q192249
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
-
-#### mdhn:Horse_Riding
-- Q179226
-
-#### mdhn:HorseStirrup
-- Q191657
-- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
-- skos:relatedMatch: mdhn:Horse_Saddle
-
-
-### mdhn:Fragment_Cropped_Image: Afshin cropped figure from 93v
-#### **Afshin cropped figure from 93v** ![ Afshin cropped figure from 93v ](https://ids.si.edu/ids/iiif/FS-6240_03/672,839,438,649/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Asfi Barkhiya cropped figure from FS-8474_19
+#### **Asfi Barkhiya cropped figure from FS-8474_19** ![ Asfi Barkhiya cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/1568,3454,472,1199/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
 #### Iconography Tags (elementLOUD)
 
-##### mdhn:Khaydhar_ibn_Kawus_al_Afshin
+##### mdhn:Asfi_bin_Barkhiya
 
 
-### mdhn:Fragment_Cropped_Image: Al_Muqanna cropped figure from 93v
-#### **Al_Muqanna cropped figure from 93v** ![ Al_Muqanna cropped figure from 93v ](https://ids.si.edu/ids/iiif/FS-6240_03/837,573,306,246/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Angel(Probably Jibril) cropped figure from FS-8474_19
+#### **Angel(Probably Jibril) cropped figure from FS-8474_19** ![ Angel(Probably Jibril) cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/1696,2919,858,932/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
 #### Iconography Tags (elementLOUD)
 
-##### mdhn:Al_Muqanna
+##### mdhn:Jibril
+- skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
 
 
-### mdhn:Text_or_Verses: Textblock1 in 93v
-#### **Textblock1 in 93v** ![ Textblock1 in 93v ](https://ids.si.edu/ids/iiif/FS-6240_03/277,276,1309,435/200,/0/default.jpg)
-- **Styles:** aat:300195195
-- **Persian Text:** وقت چاشتگاه ميافتد از ... و خبر به افشين رسيد. افشين جعفر را بفرستاد کی بحرب فراز شو
+### mdhn:Fragment_Cropped_Image: Worker Div cropped figure from FS-8474_19
+#### **Worker Div cropped figure from FS-8474_19** ![ Worker Div cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2135,2047,445,1004/200,/0/default.jpg)
+- **Styles:** aat:500011001
 
----
-
-
-
-
-# Report And Letter Collections
-
-**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
-
-## Manifest: Firman of the Emperor Aurangzeb FS-7375_24
-
-## ResourceCanvas: f.1 — Firman of the Emperor Aurangzeb ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-7375_24/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300027806, aat:500011012
-- **Contains:** HasText, HasSeal
-
-### mdhn:Seal_or_Toghra: Seal in Letter
-#### **Seal in Letter** ![ Seal in Letter ](https://ids.si.edu/ids/iiif/FS-7375_24/822,845,248,269/200,/0/default.jpg)
-- **Styles:** aat:500011052, aat:300265532
-- **Persian Text:** پادشاه غازی زيب بهادر هالم گير
+### mdhn:Fragment_Cropped_Image: Begger cropped figure from FS-8474_19
+#### **Begger cropped figure from FS-8474_19** ![ Begger cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/129,3621,1457,1442/200,/0/default.jpg)
+- **Styles:** aat:500011001
 
 #### Iconography Tags (elementLOUD)
 
-##### mdhn:Aurangzeb
+##### mdhn:Begger
 
 
-### mdhn:Seal_or_Toghra: Seal2 in Letter
-#### **Seal2 in Letter** ![ Seal2 in Letter ](https://ids.si.edu/ids/iiif/FS-7375_24/447,859,313,254/200,/0/default.jpg)
-- **Styles:** aat:500011052, aat:300195198
-- **Persian Text:** پادشاه غازی زيب بهادر هالم گير
+### mdhn:Fragment_Cropped_Image: Scene cropped figure from FS-8474_19
+#### **Scene cropped figure from FS-8474_19** ![ Scene cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/129,3118,1451,1945/200,/0/default.jpg)
+- **Styles:** aat:500011001
 
 #### Iconography Tags (elementLOUD)
 
-##### mdhn:Aurangzeb
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
 
+
+### mdhn:Fragment_Cropped_Image: Observers cropped figure from FS-8474_19
+#### **Observers cropped figure from FS-8474_19** ![ Observers cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/410,1494,904,1250/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Observers cropped figure from FS-8474_19
+#### **Observers cropped figure from FS-8474_19** ![ Observers cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/1575,1345,578,1215/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Pool cropped figure from FS-8474_19
+#### **Pool cropped figure from FS-8474_19** ![ Pool cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2227,3960,898,1167/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Sea_River_Pool
+- Q4022
+
+
+### mdhn:Fragment_Cropped_Image: A Mother with her Baby cropped figure from FS-8474_19
+#### **A Mother with her Baby cropped figure from FS-8474_19** ![ A Mother with her Baby cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/1784,4368,644,759/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from FS-8474_19
+#### **People cropped figure from FS-8474_19** ![ People cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2938,3445,821,1629/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Daraygah cropped figure from FS-8474_19
+#### **Daraygah cropped figure from FS-8474_19** ![ Daraygah cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/679,799,902,572/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Daraygah
+
+
+### mdhn:Calligraphy_Inscription: Inscription1 in FS-8474_19
+#### **Inscription1 in FS-8474_19** ![ Inscription1 in FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/709,2912,865,225/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** ملک سلیمان مطلب کان کجاست  ملک همانست سلیمان کجاست
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Quran
+- Q428
+- skos:exactMatch: mdhn:aat300265128
+
+
+### mdhn:Text_or_Verses: Textblock1 in FS-8474_19
+#### **Textblock1 in FS-8474_19** ![ Textblock1 in FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/3100,1204,624,226/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بود بلقيس و سليمان را سخن روزی اندر کشف سر خويشتن
 
 ---
 
@@ -7420,7 +9267,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Dragon
 - Q7559
-- skos:exactMatch: mdhn:aat300375726
+- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 #### mdhn:Headgear
 - Q14952
@@ -7431,6 +9278,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
+- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
 - skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
 - skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
 
@@ -7449,7 +9297,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flaming_Nimbus
-- Q123456
+- Q3341893
+- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Veiled_Face
 
@@ -7483,7 +9332,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Dragon
 - Q7559
-- skos:exactMatch: mdhn:aat300375726
+- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 
 ### mdhn:Fragment_Cropped_Image: Pharaoh cropped figure from 107v
@@ -7547,7 +9396,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flaming_Nimbus
-- Q123456
+- Q3341893
+- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Veiled_Face
 
@@ -7642,7 +9492,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Flaming_Nimbus
-- Q123456
+- Q3341893
+- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Plant
 - Q756
@@ -7734,13 +9585,15 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Eve
 
 #### mdhn:Jibril
+- skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
 
 #### mdhn:Iblis
 - skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
 - skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
 
 #### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Cloud
 - Q8074
@@ -7776,7 +9629,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:exactMatch: mdhn:sh85055517_God
 
 #### mdhn:Flaming_Nimbus
-- Q123456
+- Q3341893
+- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Robe
 - Q345127
@@ -7809,6 +9663,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Jibril
+- skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
 
 
 ### mdhn:Fragment_Cropped_Image: Angles 1 cropped figure from 9r
@@ -7837,6 +9692,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Jibril
+- skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
 
 
 ---
@@ -8068,6 +9924,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Ship
 - Q11446
+- skos:exactMatch: mdhn:aat300082981, mdhn:iconclass46C21, mdhn:sh85121591_Ships, mdhn:tgm009516_Ships
 
 #### mdhn:Horse
 - Q726
@@ -8075,19 +9932,23 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Sail
 - Q25999
+- skos:exactMatch: mdhn:aat300185694, mdhn:iconclass46C24111, mdhn:sh85116544_Sails
+- skos:relatedMatch: mdhn:tgm009109_Sailing_ships
 
 #### mdhn:Sea_River_Pool
 - Q4022
 
 #### mdhn:Drowning
+- Q506616
+- skos:exactMatch: biblissima:Q295517, mdhn:sh85039668_Drowning
 
 #### mdhn:Minaret
 - Q48356
-- skos:exactMatch: mdhn:aat300007535, mdhn:tgm006608_Minarets
+- skos:exactMatch: mdhn:aat300007535
 
 #### mdhn:Dome
 - Q12493
-- skos:exactMatch: mdhn:aat300001280, mdhn:tgm003212_Domes
+- skos:exactMatch: mdhn:aat300001280
 
 #### mdhn:Cow
 - Q11748378
@@ -8245,7 +10106,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
 
 #### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Peacock
 - Q2083405
@@ -8274,7 +10136,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - skos:exactMatch: mdhn:sh85055517_God
 
 #### mdhn:Flaming_Nimbus
-- Q123456
+- Q3341893
+- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Cloud
 - Q8074
@@ -8334,7 +10197,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Angles_From_Heaven
-- Q123456
+- Q235113
+- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Cow cropped from 8v
@@ -8392,206 +10256,1355 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 
 
-# Asarol Baghie Or.Ms.161 Collection
+# The Ramayana V1
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
 
-## Manifest: Chronology of Ancient Nations, f.48v
+## Manifest: FS-6987_03
 
-## ResourceCanvas: f.48v — Adam and Eve ![Canvas thumbnail](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/full/200,/0/default.jpg)
+## ResourceCanvas: f.3r — Folio 3 ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-6987_03/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
 ### Depicts
 
-#### mdhn:Adam
+#### mdhn:Story_of_Ramayana
+- Q37293
 
-#### mdhn:Eve
+#### mdhn:Fortress
+- Q57831
+- skos:exactMatch: mdhn:aat300006894
 
-#### mdhn:Iblis
-- skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
-- skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
+#### mdhn:Architectural_Structure
+- Q811979
 
-#### mdhn:iconclass71A
-- skos:closeMatch: wd:Q70899
-- skos:exactMatch: iconclass:71A
-- skos:relatedMatch: mdhn:Story_of_Adam_and_Eve, wd:Q70899
+#### mdhn:Brass_Metal_Jingle
+- skos:broadMatch: mdhn:Jingle
 
-#### mdhn:iconclass71A33
-- skos:exactMatch: <https://iconclass.org/71A33>
-- skos:relatedMatch: mdhn:Adam_and_Eve_Iden_Paradise
+#### mdhn:Spear
+- Q44475
+- skos:broadMatch: mdhn:SharpEdgedWeopen
+- skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
 
-#### mdhn:Adam_and_Eve_Iden_Paradise
-- mdhn:isPartOf: mdhn:Qisas_al_Anbiya, mdhn:Story_of_Adam_and_Eve
+#### mdhn:Column
+- Q4817
+- skos:exactMatch: biblissima:Q295903, mdhn:aat300001571, mdhn:aat300001650, mdhn:iconclass48C161, mdhn:tgm002319_Columns
+- skos:relatedMatch: mdhn:aat300001650
 
-#### mdhn:iconclass71A4
-- skos:exactMatch: <https://iconclass.org/71A4>
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
 
-#### mdhn:iconclass71A421
-- skos:exactMatch: <https://iconclass.org/71A421>
-- skos:relatedMatch: mdhn:Adam_and_Eve_Eat_Forbidden_Fruit
-
-#### mdhn:Flaming_Nimbus
-- Q123456
-
-#### mdhn:Garden_of_Eden
-- Q19014
-- skos:exactMatch: mdhn:sh85040949_Eden
-
-#### mdhn:God
-- Q190
-- skos:exactMatch: mdhn:sh85055517_God
-
-#### mdhn:Plant
-- Q756
-- skos:exactMatch: mdhn:aat300132360
+#### mdhn:Minaret
+- Q48356
+- skos:exactMatch: mdhn:aat300007535
 
 #### mdhn:Tree
 - Q10884
 - skos:exactMatch: mdhn:aat300132410
 
-#### mdhn:Pomegranate
-- Q13188
-- skos:exactMatch: mdhn:aat300400483
+#### mdhn:Gazelle
+- Q29001815
+- skos:broadMatch: mdhn:Animal
 
-#### mdhn:Fruits
-- Q1364
+#### mdhn:Monkey
+- Q1367
+- skos:broadMatch: mdhn:Animal
+- skos:exactMatch: mdhn:aat300250028
 
 
-### mdhn:Fragment_Cropped_Image: Adam cropped figure from 48v
-#### **Adam cropped figure from 48v** ![ Adam cropped figure from 48v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/831,2547,718,1751/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Female Div cropped figure from 3r
+#### **Female Div cropped figure from 3r** ![ Female Div cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/1410,1630,429,570/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Adam
-
-
-### mdhn:Fragment_Cropped_Image: Eve cropped figure from 48v
-#### **Eve cropped figure from 48v** ![ Eve cropped figure from 48v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/1520,2535,718,1751/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Yoda like Div cropped figure from 3r
+#### **Yoda like Div cropped figure from 3r** ![ Yoda like Div cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/1220,2180,450,429/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Eve
-
-
-### mdhn:Fragment_Cropped_Image: Iblis cropped figure from 48v
-#### **Iblis cropped figure from 48v** ![ Iblis cropped figure from 48v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/2266,2654,1108,1661/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Horned Div cropped figure from 3r
+#### **Horned Div cropped figure from 3r** ![ Horned Div cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/944,1825,413,468/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
-#### Iconography Tags (elementLOUD)
+### mdhn:Fragment_Cropped_Image: Pink Fox like Div cropped figure from 3r
+#### **Pink Fox like Div cropped figure from 3r** ![ Pink Fox like Div cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/71,2432,578,935/200,/0/default.jpg)
+- **Styles:** aat:500011001
 
-##### mdhn:Iblis
-- skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
-- skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
+### mdhn:Fragment_Cropped_Image: Female Divs cropped figure from 3r
+#### **Female Divs cropped figure from 3r** ![ Female Divs cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/114,1014,720,1164/200,/0/default.jpg)
+- **Styles:** aat:500011001
 
+### mdhn:Fragment_Cropped_Image: Unknown Figure cropped figure from 3r
+#### **Unknown Figure cropped figure from 3r** ![ Unknown Figure cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/832,1186,415,699/200,/0/default.jpg)
+- **Styles:** aat:500011001
 
-### mdhn:Text_or_Verses: Textblock1 in 48v
-#### **Textblock1 in 48v** ![ Textblock1 in 48v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/591,864,3330,945/200,/0/default.jpg)
-- **Styles:** aat:300195195
-- **Persian Text:** فی صورة شيخ محملها علی تناوک فواکه الاشجار
+### mdhn:Fragment_Cropped_Image: Monkey Figure cropped figure from 3r
+#### **Monkey Figure cropped figure from 3r** ![ Monkey Figure cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/1118,767,348,376/200,/0/default.jpg)
+- **Styles:** aat:500011001
 
-### mdhn:Text_or_Verses: Textblock2 in 48v
-#### **Textblock2 in 48v** ![ Textblock2 in 48v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63778~102953/544,4335,3379,2419/200,/0/default.jpg)
-- **Styles:** aat:300195195
-- **Persian Text:** فی کتاب ابستا کعلومه ثم کان البطن السابع
+### mdhn:Text_or_Verses: Textblock1 note in 3r
+#### **Textblock1 note in 3r** ![ Textblock1 note in 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/626,526,1217,157/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** درختان اسوک بن و ويران کردن قلعه را
+
+### mdhn:Text_or_Verses: Textblock1 note in 3r
+#### **Textblock1 note in 3r** ![ Textblock1 note in 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/643,2761,1212,271/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** برام گفتن و روان شدن رام و انجمن و سگريو با لشگر بسيار به جانب جنوب و در کناره دريا
 
 ---
 
-## Manifest: Chronology of Ancient Nations, f.93v
+## Manifest: FS-6988_06
 
-## ResourceCanvas: f.93v — The storming of the fortress of Al-Muqanna ![Canvas thumbnail](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/full/200,/0/default.jpg)
+## ResourceCanvas: f.6r — Folio 6 ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-6988_06/full/200,/0/default.jpg)
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
 
 ### Depicts
 
-#### mdhn:Siege_of_Al_Muqanna_Fortress
+#### mdhn:Story_of_Ramayana
+- Q37293
 
-#### mdhn:Khaydhar_ibn_Kawus_al_Afshin
-
-#### mdhn:Abu_Muslim_al_Khorasani
-
-#### mdhn:Al_Muqanna
-
-#### mdhn:Battle_Field
-- Q4895508
-- skos:exactMatch: mdhn:aat300000835
+#### mdhn:Rocks
+- Q8063
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
 - skos:broadMatch: mdhn:Weopen
 - skos:closeMatch: mdhn:aat300037000
 
-#### mdhn:Bricks
-- Q40089
-- skos:exactMatch: mdhn:aat300010463, mdhn:tgm001324_Bricks
+#### mdhn:Brass_Metal_Jingle
+- skos:broadMatch: mdhn:Jingle
 
-#### mdhn:Fortress
-- Q57831
-- skos:exactMatch: mdhn:aat300006894, mdhn:tgm004239_Forts__fortifications
+#### mdhn:Misbaha
+- Q1141821
+- skos:exactMatch: mdhn:aat300264661
 
-#### mdhn:Cloud
-- Q8074
+#### mdhn:GemEncrustedCrown
+- Q170984
 
-#### mdhn:Horse
-- Q726
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Ring
+- Q46847
+- skos:exactMatch: mdhn:aat300046012, mdhn:iconclass41D2664, mdhn:sh85114133_Rings, mdhn:tgm008926_Rings
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+
+### mdhn:Fragment_Cropped_Image: Female Div cropped figure from 6r
+#### **Female Div cropped figure from 6r** ![ Female Div cropped figure from 6r ](https://ids.si.edu/ids/iiif/FS-6988_06/360,888,925,1859/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Rama Shooting cropped figure from 6r
+#### **Rama Shooting cropped figure from 6r** ![ Rama Shooting cropped figure from 6r ](https://ids.si.edu/ids/iiif/FS-6988_06/1166,1328,926,1319/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 note in 6r
+#### **Textblock1 note in 6r** ![ Textblock1 note in 6r ](https://ids.si.edu/ids/iiif/FS-6988_06/363,524,1177,371/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** رام آمد و نفامنی هولناک که سر بفلک کشطده بود صورتی کريه و چشمان سرخ و زرد خود را به رام نمود
+
+### mdhn:Text_or_Verses: Textblock1 note in 6r
+#### **Textblock1 note in 6r** ![ Textblock1 note in 6r ](https://ids.si.edu/ids/iiif/FS-6988_06/352,2738,1215,354/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** تو واقف باش و ببين که من او را چگونه ميکشم
+
+---
+
+## Manifest: FS-6988_09
+
+## ResourceCanvas: f.9r — Folio 9 ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-6988_09/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Story_of_Ramayana
+- Q37293
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Bow_and_Arrow
+- Q19827042
+- skos:broadMatch: mdhn:Weopen
+- skos:closeMatch: mdhn:aat300037000
+
+#### mdhn:Brass_Metal_Jingle
+- skos:broadMatch: mdhn:Jingle
+
+#### mdhn:Earing
+- Q168456
+- skos:exactMatch: mdhn:aat300045998, mdhn:iconclass41D2663, mdhn:sh85040426_Earrings, mdhn:tgm003432_Earrings
+
+#### mdhn:GemEncrustedCrown
+- Q170984
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Sea_River_Pool
+- Q4022
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+
+### mdhn:Fragment_Cropped_Image: Marich Div cropped figure from 9r
+#### **Marich Div cropped figure from 9r** ![ Marich Div cropped figure from 9r ](https://ids.si.edu/ids/iiif/FS-6988_09/204,1732,1798,1794/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Syiah(Black) Div Orange color cropped figure from 9r
+#### **Syiah(Black) Div Orange color cropped figure from 9r** ![ Syiah(Black) Div Orange color cropped figure from 9r ](https://ids.si.edu/ids/iiif/FS-6988_09/1336,125,700,2491/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Rama Shooting cropped figure from 9r
+#### **Rama Shooting cropped figure from 9r** ![ Rama Shooting cropped figure from 9r ](https://ids.si.edu/ids/iiif/FS-6988_09/225,865,1021,1157/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 note in 6r
+#### **Textblock1 note in 6r** ![ Textblock1 note in 6r ](https://ids.si.edu/ids/iiif/FS-6988_09/251,507,1201,195/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** لروه را عرضداشت بی شعور در دريا افتاد اما نمرد رامچند چون او را ديد که بيهوش شده است
+
+### mdhn:Text_or_Verses: Textblock1 note in 6r
+#### **Textblock1 note in 6r** ![ Textblock1 note in 6r ](https://ids.si.edu/ids/iiif/FS-6988_09/164,3231,207,242/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** تبسمی کرد
+
+---
+
+
+
+
+# The Ramayana V2
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: FS-6997_08
+
+## ResourceCanvas: f.8v — Folio 8 ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-6997_08/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Story_of_Ramayana
+- Q37293
+
+#### mdhn:Throne
+- Q189233
+- skos:exactMatch: mdhn:aat300038141
+
+#### mdhn:LongNeckedJar
+- Q2413314
+- skos:exactMatch: mdhn:aat300045685
+
+#### mdhn:Stick
+- Q10971443
+- skos:exactMatch: mdhn:aat300014681
+
+#### mdhn:GemEncrustedCrown
+- Q170984
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Building_Ornament
+- Q12043387
+- skos:exactMatch: mdhn:aat300378995
+
+#### mdhn:Architectural_Structure
+- Q811979
+
+#### mdhn:Column
+- Q4817
+- skos:exactMatch: biblissima:Q295903, mdhn:aat300001571, mdhn:aat300001650, mdhn:iconclass48C161, mdhn:tgm002319_Columns
+- skos:relatedMatch: mdhn:aat300001650
+
+
+### mdhn:Fragment_Cropped_Image: two figures cropped figure from 8
+#### **two figures cropped figure from 8** ![ two figures cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/282,919,729,784/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Teo Divs cropped figure from 8
+#### **Teo Divs cropped figure from 8** ![ Teo Divs cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/259,1613,623,1219/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from 8
+#### **Div cropped figure from 8** ![ Div cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/290,2527,507,802/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Figures cropped figure from 8
+#### **Figures cropped figure from 8** ![ Figures cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/991,1955,1028,683/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Throned King cropped figure from 8
+#### **Throned King cropped figure from 8** ![ Throned King cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/1012,377,993,1328/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 note in 8
+#### **Textblock1 note in 8** ![ Textblock1 note in 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/842,2617,1184,402/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** آنزمان همه ميمونان و راجهسان باقی مانده بر رام آفرين گفتند و خوشحال شدند
+
+---
+
+## Manifest: FS-6998_03
+
+## ResourceCanvas: f.3v — Folio 3 ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-6998_03/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
+- **Contains:** HasText, HasPainting
+
+### Depicts
+
+#### mdhn:Story_of_Ramayana
+- Q37293
+
+#### mdhn:Bolster
+- Q3057620
+- skos:exactMatch: mdhn:aat300236072
+
+#### mdhn:Brass_Metal_Jingle
+- skos:broadMatch: mdhn:Jingle
+
+#### mdhn:Misbaha
+- Q1141821
+- skos:exactMatch: mdhn:aat300264661
+
+#### mdhn:Column
+- Q4817
+- skos:exactMatch: biblissima:Q295903, mdhn:aat300001571, mdhn:aat300001650, mdhn:iconclass48C161, mdhn:tgm002319_Columns
+- skos:relatedMatch: mdhn:aat300001650
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div cropped figure from 3v
+#### **Div cropped figure from 3v** ![ Div cropped figure from 3v ](https://ids.si.edu/ids/iiif/FS-6998_03/233,846,1742,1238/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 note in 3v
+#### **Textblock1 note in 3v** ![ Textblock1 note in 3v ](https://ids.si.edu/ids/iiif/FS-6998_03/751,509,1186,362/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** ارش طول آن خانه بود و آن خانه از برای خواب او مهيا شد
+
+### mdhn:Text_or_Verses: Textblock1 note in 3v
+#### **Textblock1 note in 3v** ![ Textblock1 note in 3v ](https://ids.si.edu/ids/iiif/FS-6998_03/751,509,1186,362/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** و دربندان خانه از دندان فيل بر صفهای آن جواهر و لعل تعبيه کرده بودند کنبه کرن در اينچنين خانه رفته خواب کرد و تا هزار سال برو چنان گذشت
+
+---
+
+
+
+
+# Muraqqa (Calligraphy & Painting Collection)
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Diez-Album Diez A fol. 71
+
+## ResourceCanvas: f.139 — Lamentation at the bier of a Mongol ruler ![Canvas thumbnail](https://content.staatsbibliothek-berlin.de/dc/635104741-0119/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:500011092, aat:300033936
+- **Contains:** HasPainting
+
+### Depicts
+
+#### mdhn:Mourning
+- Q750652
+- skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
+
+#### mdhn:Braid_Hair
+- Q31930755
+- skos:exactMatch: mdhn:tgm001287_Braids_Hairdressing
+
+#### mdhn:Coffin
+- Q184418
+- skos:exactMatch: mdhn:aat300197585, mdhn:tgm002250_Coffins
+
+#### mdhn:Clothing
+- Q26690120
+- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
+- skos:relatedMatch: mdhn:aat300212133
+
+
+### mdhn:Fragment_Cropped_Image: Coffin cropped figure from 139
+#### **Coffin cropped figure from 139** ![ Coffin cropped figure from 139 ](https://content.staatsbibliothek-berlin.de/dc/635104741-0119/2497,910,3207,1954/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Coffin
+- Q184418
+- skos:exactMatch: mdhn:aat300197585, mdhn:tgm002250_Coffins
+
+
+### mdhn:Fragment_Cropped_Image: People in Grief 1 cropped figure from 139
+#### **People in Grief 1 cropped figure from 139** ![ People in Grief 1 cropped figure from 139 ](https://content.staatsbibliothek-berlin.de/dc/635104741-0119/1036,2438,1562,2589/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Elephant
+- Q7378
 - skos:broadMatch: mdhn:Animal
-
-#### mdhn:Horse_Spur
-- Q740732
-
-#### mdhn:Horse_Saddle
-- Q192249
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
-
-#### mdhn:Horse_Riding
-- Q179226
-
-#### mdhn:HorseStirrup
-- Q191657
-- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
-- skos:relatedMatch: mdhn:Horse_Saddle
-
-#### mdhn:DoorKnocker
-- Q12180
-- skos:exactMatch: mdhn:aat300080114
+- skos:exactMatch: mdhn:aat:300250160
 
 
-### mdhn:Fragment_Cropped_Image: Soldiers cropped figure from 93v
-#### **Soldiers cropped figure from 93v** ![ Soldiers cropped figure from 93v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/903,1738,1815,637/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: People in Grief 2 cropped figure from 139
+#### **People in Grief 2 cropped figure from 139** ![ People in Grief 2 cropped figure from 139 ](https://content.staatsbibliothek-berlin.de/dc/635104741-0119/2624,2658,2977,2366/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People in Grief 3 cropped figure from 105v
+#### **People in Grief 3 cropped figure from 105v** ![ People in Grief 3 cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/635104741-0119/5464,2658,1563,2366/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People in Grief 4 cropped figure from 105v
+#### **People in Grief 4 cropped figure from 105v** ![ People in Grief 4 cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/635104741-0119/5009,543,1953,2344/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+---
+
+## Manifest: Collection of Nasta'liq pieces Supplément persan 1949
+
+## ResourceCanvas: f.1r — Muraqqa btv1b84322466 folio 1r ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f7/full/200,/90/default.jpg)
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### Depicts
+
+#### mdhn:Prayer
+- Q879046
+- skos:exactMatch: biblissima:Q294924, iconclass:11Q2, mdhn:sh85106123_Prayer_Islam
+
+
+### mdhn:Calligraphic_Artwork: Segment1 in 1r
+#### **Segment1 in 1r** ![ Segment1 in 1r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f7/1441,1802,2202,3708/200,/90/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** اللهم صل علی محمد و آل محمد
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Eshagh_Khoshnevis
+
+
+### mdhn:Seal_or_Toghra: Ragham1 in 296b
+#### **Ragham1 in 296b** ![ Ragham1 in 296b ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f7/2732,1802,910,1126/200,/90/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** حرر اسحق
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Eshagh_Khoshnevis
+
+
+---
+
+## ResourceCanvas: f.1r — Muraqqa btv1b84322466 folio 2r ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f9/full/200,/0/default.jpg)
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### Depicts
+
+#### mdhn:Prayer
+- Q879046
+- skos:exactMatch: biblissima:Q294924, iconclass:11Q2, mdhn:sh85106123_Prayer_Islam
+
+
+### mdhn:Calligraphic_Artwork: Segment1 in 2r
+#### **Segment1 in 2r** ![ Segment1 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f9/909,739,3290,2442/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** هنوز خوانده نشده
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Mohammad_Taher_Sahhaf
+
+
+### mdhn:Calligraphic_Artwork: Segment2 in 2r
+#### **Segment2 in 2r** ![ Segment2 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f9/863,3904,3360,2519/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** هنوز خوانده نشده
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Mohammad_Taher_Sahhaf
+
+
+### mdhn:Seal_or_Toghra: Ragham1 in 2r
+#### **Ragham1 in 2r** ![ Ragham1 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f9/2448,6005,680,311/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** کتبه الخاسر محمد طاهر
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Mohammad_Taher_Sahhaf
+
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 2r
+#### **Marginal/Side note in 2r** ![ Marginal/Side note in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f9/268,6601,4408,510/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.3r — Muraqqa btv1b84322466 folio 3r ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f11/full/200,/90/default.jpg)
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### Depicts
+
+#### mdhn:Paper_Marbling
+- Q614541
+- skos:exactMatch: mdhn:aat300053812
+
+#### mdhn:Text_or_Verses
+- skos:exactMatch: mdhn:aat500011065
+
+
+### mdhn:Calligraphic_Artwork: Segment1 in 3r
+#### **Segment1 in 3r** ![ Segment1 in 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f11/1853,1987,1707,3341/200,/90/default.jpg)
+- **Styles:** aat:300265532, aat:300055931
+- **Persian Text:** گلچهره همنفسم را
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Malek_Mohammad_Qazvini
+
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 3r
+#### **Marginal/Side note in 3r** ![ Marginal/Side note in 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f11/4068,4444,753,2231/200,/90/default.jpg)
+- **Persian Text:** حاشيه نويسی کتابخانه ملی فرانسه
+- **English Text:** pour donner carrière à son talent Le premier est gol chehreh (?) (gol, fleur, chehreh visage) Beau spécimen attribution. de l’écriture du maître Melek Mohammad de Ghazvin est.
+
+---
+
+## ResourceCanvas: f.4r — Muraqqa btv1b84322466 folio 4r ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f13/full/200,/90/default.jpg)
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### Depicts
+
+#### mdhn:Paper_Marbling
+- Q614541
+- skos:exactMatch: mdhn:aat300053812
+
+#### mdhn:Text_or_Verses
+- skos:exactMatch: mdhn:aat500011065
+
+
+### mdhn:Calligraphic_Artwork: Segment1 in 4r
+#### **Segment1 in 4r** ![ Segment1 in 4r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f13/1186,1504,2776,4289/200,/90/default.jpg)
+- **Styles:** aat:300265532, aat:300055931
+- **Persian Text:** در رفع حجب کوش نه در جمع کتب کز جمع کتب نمی‌شود رفع حجب
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Molana_Mohammad_Hossein
+
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 4r
+#### **Marginal/Side note in 4r** ![ Marginal/Side note in 4r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f13/4128,2955,487,3204/200,/90/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.5r — Muraqqa btv1b84322466 folio 5r ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f13/full/200,/90/default.jpg)
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### Depicts
+
+#### mdhn:Prayer
+- Q879046
+- skos:exactMatch: biblissima:Q294924, iconclass:11Q2, mdhn:sh85106123_Prayer_Islam
+
+#### mdhn:Text_or_Verses
+- skos:exactMatch: mdhn:aat500011065
+
+
+### mdhn:Calligraphic_Artwork: Segment1 in 5r
+#### **Segment1 in 5r** ![ Segment1 in 5r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f13/1186,1504,2776,4289/200,/90/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** همه از تو ترسند و عبدالله از خود زیرا که از تو همه نیک آید و از عبدالله بد
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Molana_Mohammad_Hossein
+
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 5r
+#### **Marginal/Side note in 5r** ![ Marginal/Side note in 5r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f15/113,6611,2885,624/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.6r — Muraqqa btv1b84322466 folio 6r ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f17/full/200,/0/default.jpg)
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### Depicts
+
+#### mdhn:Fatih_al_Shabab
+- mdhn:isPartOf: mdhn:Haft_Awrang
+
+#### mdhn:Text_or_Verses
+- skos:exactMatch: mdhn:aat500011065
+
+
+### mdhn:Calligraphic_Artwork: Segment1 in 6r
+#### **Segment1 in 6r** ![ Segment1 in 6r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f17/1266,1906,2587,3531/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** ای در دل تو هزار مشکل ز همه
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Emad_ol_Molk
+
+##### mdhn:Nur_ad_Dīn_Abd_ar_Rahman_Jami
+
+
+### mdhn:Seal_or_Toghra: Ragham1 in 6r
+#### **Ragham1 in 6r** ![ Ragham1 in 6r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f17/3389,4459,340,354/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** خط عماد الملک حسينعلی 1200
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Emad_ol_Molk
+
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 6r
+#### **Marginal/Side note in 6r** ![ Marginal/Side note in 6r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f17/475,5889,1242,776/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.7r — Muraqqa btv1b84322466 folio 7r ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f19/full/200,/90/default.jpg)
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### Depicts
+
+#### mdhn:Paper_Marbling
+- Q614541
+- skos:exactMatch: mdhn:aat300053812
+
+#### mdhn:Text_or_Verses
+- skos:exactMatch: mdhn:aat500011065
+
+
+### mdhn:Calligraphic_Artwork: Segment1 in 7r
+#### **Segment1 in 7r** ![ Segment1 in 7r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f19/2129,2044,1358,3290/200,/90/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** رفيق اهل توکل کسی که بيند راهست
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Shahverdi
+
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 7r
+#### **Marginal/Side note in 7r** ![ Marginal/Side note in 7r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f19/4012,2416,807,4416/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.8r — Muraqqa btv1b84322466 folio 8r ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f21/full/200,/0/default.jpg)
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+
+### Depicts
+
+#### mdhn:Paper_Marbling
+- Q614541
+- skos:exactMatch: mdhn:aat300053812
+
+#### mdhn:Text_or_Verses
+- skos:exactMatch: mdhn:aat500011065
+
+
+### mdhn:Calligraphic_Artwork: Segment1 in 8r
+#### **Segment1 in 8r** ![ Segment1 in 8r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f21/1296,1914,2554,3348/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** دوستی علی به حق خدا
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 6r
+#### **Marginal/Side note in 6r** ![ Marginal/Side note in 6r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f21/1378,5678,1750,513/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.9r — Muraqqa btv1b84322466 folio 9r ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f23/full/200,/0/default.jpg)
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156, aat:500011066, aat:300010002
+
+### Depicts
+
+#### mdhn:Text_or_Verses
+- skos:exactMatch: mdhn:aat500011065
+
+
+### mdhn:Calligraphic_Artwork: Segment1 in 9r
+#### **Segment1 in 9r** ![ Segment1 in 9r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f23/1061,2048,2990,3951/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** خوانده نشده
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Shahverdi
+
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 9r
+#### **Marginal/Side note in 9r** ![ Marginal/Side note in 9r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f23/4519,4225,432,1703/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+## ResourceCanvas: f.10r — Muraqqa btv1b84322466 folio 10r ![Canvas thumbnail](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f25/full/200,/0/default.jpg)
+- **Canvas Types:** aat:900100100, aat:500011000, aat:900010156, aat:300010003
+
+### Depicts
+
+#### mdhn:Text_or_Verses
+- skos:exactMatch: mdhn:aat500011065
+
+
+### mdhn:Calligraphic_Artwork: Segment1 in 10r
+#### **Segment1 in 10r** ![ Segment1 in 10r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f25/885,884,3352,2271/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** چه گويم کز غمت چون ميطپد دل
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Mir_Azim
+
+
+### mdhn:Seal_or_Toghra: Ragham1 in 10r
+#### **Ragham1 in 10r** ![ Ragham1 in 10r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f25/3462,1868,217,304/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** مشقه مير عظيم
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Mir_Azim
+
+
+### mdhn:Calligraphic_Artwork: Segment2 in 10r
+#### **Segment2 in 10r** ![ Segment2 in 10r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f25/883,3956,3329,1890/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** ز ما در هر که دولتمند آيد
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Esamt_ol_allah_Monshi
+
+
+### mdhn:Seal_or_Toghra: Ragham1 in 10r
+#### **Ragham1 in 10r** ![ Ragham1 in 10r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f25/3566,5154,478,460/200,/0/default.jpg)
+- **Styles:** aat:300265532, aat:300010002
+- **Persian Text:** عصمت الله المنش 1151
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Esamt_ol_allah_Monshi
+
+
+### mdhn:Marginal_Side_Note: Marginal/Side note in 10r
+#### **Marginal/Side note in 10r** ![ Marginal/Side note in 10r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f25/4136,3993,927,2676/200,/0/default.jpg)
+- **Persian Text:** خوانده نشده
+- **English Text:** Original French Annotation
+
+---
+
+
+
+
+# Zakariya al-Qazwini Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Ajāyib al-Makhlūqāt Persian MS 3
+
+## ResourceCanvas: f.f182b — Strange Ritual ![Canvas thumbnail](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+
+### Depicts
+
+#### mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat
+- Q8083964
+- mdhn:isPartOf: mdhn:Ajayeb_Name_And_Cosmography
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Wudu
+- Q219466
+- skos:exactMatch: mdhn:aat300251246
+
+#### mdhn:Plants
+
+#### mdhn:LongNeckedJar
+- Q2413314
+- skos:exactMatch: mdhn:aat300045685
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:GoldVessel
+- Q96952903
+- skos:exactMatch: mdhn:aat300193015
+
+
+### mdhn:Fragment_Cropped_Image: A man preparing for Wudu cropped figure from f182b
+#### **A man preparing for Wudu cropped figure from f182b** ![ A man preparing for Wudu cropped figure from f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/1208,2329,1021,1191/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
 #### Iconography Tags (elementLOUD)
 
-##### mdhn:Adam
+##### mdhn:Wudu
+- Q219466
+- skos:exactMatch: mdhn:aat300251246
 
 
-### mdhn:Fragment_Cropped_Image: Soldiers cropped figure from 93v
-#### **Soldiers cropped figure from 93v** ![ Soldiers cropped figure from 93v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/2489,2345,1338,1791/200,/0/default.jpg)
+### mdhn:Fragment_Cropped_Image: Standing man cropped figure from f182b
+#### **Standing man cropped figure from f182b** ![ Standing man cropped figure from f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/498,2399,528,1385/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Standing man2 cropped figure from f182b
+#### **Standing man2 cropped figure from f182b** ![ Standing man2 cropped figure from f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/747,2101,589,1378/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Two man standing cropped figure from f182b
+#### **Two man standing cropped figure from f182b** ![ Two man standing cropped figure from f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/2098,2147,625,1494/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in f182b
+#### **Textblock1 in f182b** ![ Textblock1 in f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/474,601,2309,1420/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** و با ايشان صندوقی بود و در آنجا شياب ملک بود که در آن نماز گزارد و شيخی آيد و با وی ظشتی و ابريقی زرين مرصع و ملک جامه زرين پوشيده بود
+
+### mdhn:Text_or_Verses: Textblock2 in f182b
+#### **Textblock2 in f182b** ![ Textblock2 in f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/451,3915,2345,1680/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** حوضها بود اما بيست صورت آنجا ترکيب کرده باشند از ده
+
+---
+
+## ResourceCanvas: f.f219a — Jin and Divs ![Canvas thumbnail](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+
+### Depicts
+
+#### mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat
+- Q8083964
+- mdhn:isPartOf: mdhn:Ajayeb_Name_And_Cosmography
+
+#### mdhn:jin
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Jin cropped figure from f219a
+#### **Jin cropped figure from f219a** ![ Jin cropped figure from f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/847,879,1206,1195/200,/0/default.jpg)
 - **Styles:** aat:500011001
 
 #### Iconography Tags (elementLOUD)
 
-##### mdhn:Eve
+##### mdhn:Jin
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
 
 
-### mdhn:Text_or_Verses: Textblock1 in 93v
-#### **Textblock1 in 93v** ![ Textblock1 in 93v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/548,913,3321,772/200,/0/default.jpg)
-- **Styles:** aat:300195195
-- **Persian Text:** و مثل من خالف و شرع لهم حميع ما اتی به مزدک
+### mdhn:Fragment_Cropped_Image: Div1 cropped figure from f219a
+#### **Div1 cropped figure from f219a** ![ Div1 cropped figure from f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/846,2493,2278,784/200,/0/default.jpg)
+- **Styles:** aat:500011001
 
-### mdhn:Text_or_Verses: Textblock2 in 93v
-#### **Textblock2 in 93v** ![ Textblock2 in 93v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/571,4244,3351,1104/200,/0/default.jpg)
-- **Styles:** aat:300195195
-- **Persian Text:** احيط به ليلا شی جسده فتحقق اصحابه قوله
+#### Iconography Tags (elementLOUD)
 
-### mdhn:Illuminated_Headpiece: Headpiece1 in 93v
-#### **Headpiece1 in 93v** ![ Headpiece1 in 93v ](https://images.is.ed.ac.uk/luna/servlet/iiif/UoEsha~4~4~63855~102959/572,5275,3352,1496/200,/0/default.jpg)
-- **Styles:** aat:300194434, aat:300195195
-- **Persian Text:** ثم کلهر رجل محتوما فی اهل فارس يعرف بالحسين منصور حلاج
+##### mdhn:Jin
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Div2 cropped figure from f219a
+#### **Div2 cropped figure from f219a** ![ Div2 cropped figure from f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/1717,3967,1363,1405/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Jin
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Text_or_Verses: Textblock1 in f219a
+#### **Textblock1 in f219a** ![ Textblock1 in f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/846,641,2305,241/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** فايدوم علی حال تکون بها کان فی اقواتها الغول و چنين گويند کسانی که غول ديده اند و چنين
+
+### mdhn:Text_or_Verses: Textblock2 in f219a
+#### **Textblock2 in f219a** ![ Textblock2 in f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/2057,838,1077,1246/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** گفته اند که از سر ناف بر شکل انسان و از ناف تا آخر بر شکل اسب و بعضی از صحابه رسول صلی الله عليه و آله و سلم چنين گفتند که غول را ديديم در سفر به جانب شام
+
+### mdhn:Text_or_Verses: Textblock3 in f219a
+#### **Textblock3 in f219a** ![ Textblock3 in f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/848,2074,2270,423/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** مشهور است السعلات او ديويست بر شکل زنان در بيشه ا از آن بسيار باشد اگر بر کسی ظفر يابد با او بازی کند
+
+### mdhn:Text_or_Verses: Textblock4 in f219a
+#### **Textblock4 in f219a** ![ Textblock4 in f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/836,3275,2274,686/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** و او را زحمت بسيار دهد و چنين گويند که عمروبن يرفوع روح السعلات و او لدها زمانی دراز با السعلات با هم بودند
+
+---
+
+## Manifest: Ajāʼib al-makhlūqāt
+
+## ResourceCanvas: f.f66r — Sagsar Island ![Canvas thumbnail](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00133.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+
+### Depicts
+
+#### mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat
+- Q8083964
+- mdhn:isPartOf: mdhn:Ajayeb_Name_And_Cosmography
+
+##### mdhn:Sagsar_Island
+- mdhn:isPartOf: mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat
+
+#### mdhn:Building_Ornament
+- Q12043387
+- skos:exactMatch: mdhn:aat300378995
+
+#### mdhn:Persian_Architecture
+- Q137133192
+- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
+
+#### mdhn:Door
+- Q36794
+- skos:exactMatch: mdhn:aat300002803, mdhn:tgm003230_Doors__doorways
+
+#### mdhn:Dome
+- Q12493
+- skos:exactMatch: mdhn:aat300001280
+
+#### mdhn:Flower
+- Q506
+
+#### mdhn:Blossom
+- Q2047589
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+#### mdhn:Sagsar
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:Divs, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Sagsar creatures cropped figure from f66r
+#### **Sagsar creatures cropped figure from f66r** ![ Sagsar creatures cropped figure from f66r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00133.jp2/4518,2979,1139,2211/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: Sagsar cropped figure from f66r
+#### **Sagsar cropped figure from f66r** ![ Sagsar cropped figure from f66r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00133.jp2/2541,4121,682,1176/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Divs
+- Q177413
+- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
+- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
+- skos:exactMatch: mdhn:aat500011098
+- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+
+
+### mdhn:Fragment_Cropped_Image: People captured cropped figure from f66r
+#### **People captured cropped figure from f66r** ![ People captured cropped figure from f66r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00133.jp2/3351,3186,1243,1908/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: A Child sitted cropped figure from f66r
+#### **A Child sitted cropped figure from f66r** ![ A Child sitted cropped figure from f66r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00133.jp2/2576,6148,870,1336/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Children sitted cropped figure from f66r
+#### **Children sitted cropped figure from f66r** ![ Children sitted cropped figure from f66r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00133.jp2/3436,6137,955,1371/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Two standing figures cropped figure from f66r
+#### **Two standing figures cropped figure from f66r** ![ Two standing figures cropped figure from f66r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00133.jp2/4361,5556,1143,1959/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Textblock1 in 66r
+#### **Textblock1 in 66r** ![ Textblock1 in 66r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00133.jp2/2442,2250,3211,778/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** شاد می بودم تا يکی از ايشان دست بر گردن من نهاد که مرا  خبر بود که بر گردن من نشست
+
+### mdhn:Text_or_Verses: Textblock2 in 66r
+#### **Textblock2 in 66r** ![ Textblock2 in 66r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00133.jp2/2543,7500,3103,334/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** ميگردانيدم و ثمره آن درختها ميچيد و ميخورد و به اصحاب خود ميداد و ايشان می خنديدند
+
+---
+
+## ResourceCanvas: f.f94v — Opening Illuminated Unwan Page   ![Canvas thumbnail](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00190.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:500011065, aat:300266660
+- **Contains:** HasIlluminating, HasOnvan
+
+### Depicts
+
+#### mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat
+- Q8083964
+- mdhn:isPartOf: mdhn:Ajayeb_Name_And_Cosmography
+
+#### mdhn:Bab1_Chapter1_Madaniat
+- mdhn:isPartOf: mdhn:Bab1_Dar_Alviat
+
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in f94v
+#### **Headpiece1 in f94v** ![ Headpiece1 in f94v ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00190.jp2/918,848,3163,2601/200,/0/default.jpg)
+- **Styles:** aat:300265540
+- **Persian Text:** النطر الاول فی المعدنيات
+
+---
+
+## ResourceCanvas: f.f107v — Opening Illuminated Unwan Page ![Canvas thumbnail](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00216.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:500011065, aat:300266660
+- **Contains:** HasIlluminating, HasOnvan
+
+### Depicts
+
+#### mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat
+- Q8083964
+- mdhn:isPartOf: mdhn:Ajayeb_Name_And_Cosmography
+
+#### mdhn:Bab1_Chapter2_Nabatat
+- mdhn:isPartOf: mdhn:Bab1_Dar_Alviat
+
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in f216v
+#### **Headpiece1 in f216v** ![ Headpiece1 in f216v ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00216.jp2/1006,1257,3083,2474/200,/0/default.jpg)
+- **Styles:** aat:300265540
+- **Persian Text:** النطر الثالث فی النبتات(از نظر ترتيبی ظاهرا بايد الثانی باشد)
+
+---
+
+## ResourceCanvas: f.f133r — Opening Illuminated Unwan Page ![Canvas thumbnail](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00267.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:500011065, aat:300266660
+- **Contains:** HasIlluminating, HasOnvan
+
+### Depicts
+
+#### mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat
+- Q8083964
+- mdhn:isPartOf: mdhn:Ajayeb_Name_And_Cosmography
+
+#### mdhn:Bab1_Chapter3_Hayavan
+- mdhn:isPartOf: mdhn:Bab1_Dar_Alviat
+
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in f133r
+#### **Headpiece1 in f133r** ![ Headpiece1 in f133r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00267.jp2/2326,2257,3054,1320/200,/0/default.jpg)
+- **Styles:** aat:300265540
+- **Persian Text:** النطر الثالث فی الحيوان
+
+---
+
+## ResourceCanvas: f.f141r — Opening Illuminated Unwan Page ![Canvas thumbnail](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00283.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:500011065, aat:300266660
+- **Contains:** HasIlluminating, HasOnvan
+
+### Depicts
+
+#### mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat
+- Q8083964
+- mdhn:isPartOf: mdhn:Ajayeb_Name_And_Cosmography
+
+#### mdhn:Bab1_Chapter4_Tashrih_Fi_Aza_al_Ensan
+- mdhn:isPartOf: mdhn:Bab1_Dar_Alviat
+
+
+### mdhn:Illuminated_Headpiece: Headpiece1 in f141r
+#### **Headpiece1 in f141r** ![ Headpiece1 in f141r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00283.jp2/2293,4824,3073,676/200,/0/default.jpg)
+- **Styles:** aat:300265540
+- **Persian Text:** فصل فی تشريح اعضاء الانسان
+
+---
+
+
+
+
+# Nizami Ganjavi Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Khamseh. Nezâmi Persian MS 36
+
+## ResourceCanvas: f.3b — Khamse Illuminated Headpiece ![Canvas thumbnail](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00012.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### Depicts
+
+#### mdhn:Khamsa_of_Nizami
+- Q3196058
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
+
+#### mdhn:Illuminated_Headpiece
+- Q3071780
+- skos:exactMatch: mdhn:aat500011053
+
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 3b
+#### **Onvan1 in 3b** ![ Onvan1 in 3b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00012.jp2/787,1520,2292,914/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** بسم الله الرحمن الرحيم
+
+### mdhn:Illuminated_Headpiece: Onvan2 in 3b
+#### **Onvan2 in 3b** ![ Onvan2 in 3b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00012.jp2/814,4417,2294,904/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** والصلوة و السلام علی نبيه
+
+### mdhn:Text_or_Verses: Onvan2 in 3b
+#### **Onvan2 in 3b** ![ Onvan2 in 3b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00012.jp2/1201,2421,1495,2039/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بسم الله الرحمن الرحيم هست کليد در گنج حکيم فاتحه فکرت و ختم سخن نام خداييست به من رحم کن
+
+---
+
+## ResourceCanvas: f.4a — Khamse Illuminated Headpiece ![Canvas thumbnail](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00013.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### Depicts
+
+#### mdhn:Khamsa_of_Nizami
+- Q3196058
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
+
+#### mdhn:Illuminated_Headpiece
+- Q3071780
+- skos:exactMatch: mdhn:aat500011053
+
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 4a
+#### **Onvan1 in 4a** ![ Onvan1 in 4a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00013.jp2/1198,1520,2298,895/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** الحمدالله رب العالمين
+
+### mdhn:Illuminated_Headpiece: Onvan2 in 4a
+#### **Onvan2 in 4a** ![ Onvan2 in 4a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00013.jp2/1193,4423,2338,930/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** محمد و علی آله اجمعين
+
+### mdhn:Text_or_Verses: Onvan2 in 4a
+#### **Onvan2 in 4a** ![ Onvan2 in 4a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00013.jp2/1615,2402,1483,2061/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** داغ نه ناصيه داران پاک باج ده تخت نشينان خاک خام کن پخته تدبيرها عذر پذيرنده تقصيرها
+
+---
+
+## ResourceCanvas: f.29b — Khamse Illuminated Headpiece ![Canvas thumbnail](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00064.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### Depicts
+
+#### mdhn:Khamsa_of_Nizami
+- Q3196058
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
+
+##### mdhn:Khosrow_and_Shirin
+- Q61076
+- mdhn:isPartOf: mdhn:Khamsa_of_Nizami
+
+#### mdhn:Illuminated_Headpiece
+- Q3071780
+- skos:exactMatch: mdhn:aat500011053
+
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 29b
+#### **Onvan1 in 29b** ![ Onvan1 in 29b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00064.jp2/296,971,2888,1434/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** کتاب خسرو شيرين
+
+---
+
+## ResourceCanvas: f.98b — Khamse Illuminated Headpiece ![Canvas thumbnail](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00202.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### Depicts
+
+#### mdhn:Khamsa_of_Nizami
+- Q3196058
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
+
+##### mdhn:Layla_and_Majnun
+- Q673156
+- mdhn:isPartOf: mdhn:Khamsa_of_Nizami
+
+#### mdhn:Illuminated_Headpiece
+- Q3071780
+- skos:exactMatch: mdhn:aat500011053
+
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 98b
+#### **Onvan1 in 98b** ![ Onvan1 in 98b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00202.jp2/308,699,3019,1762/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** کتاب ليلی و مجنون
+
+---
+
+## ResourceCanvas: f.147b — Khamse Illuminated Headpiece ![Canvas thumbnail](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00300.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### Depicts
+
+#### mdhn:Khamsa_of_Nizami
+- Q3196058
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
+
+##### mdhn:The_Seven_Beauties
+- Q4679100
+- mdhn:isPartOf: mdhn:Khamsa_of_Nizami
+
+#### mdhn:Illuminated_Headpiece
+- Q3071780
+- skos:exactMatch: mdhn:aat500011053
+
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 147b
+#### **Onvan1 in 147b** ![ Onvan1 in 147b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00300.jp2/443,1093,2895,1369/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** کتاب هفت پيکر
+
+---
+
+## ResourceCanvas: f.203b — Khamse Illuminated Headpiece ![Canvas thumbnail](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00412.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### Depicts
+
+#### mdhn:Khamsa_of_Nizami
+- Q3196058
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
+
+##### mdhn:Iskandarnama
+- Q4679088
+- mdhn:isPartOf: mdhn:Khamsa_of_Nizami
+
+#### mdhn:Illuminated_Headpiece
+- Q3071780
+- skos:exactMatch: mdhn:aat500011053
+
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 203b
+#### **Onvan1 in 203b** ![ Onvan1 in 203b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00412.jp2/517,1099,2882,1347/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** کتاب اسکندرنامه
+
+---
+
+## ResourceCanvas: f.275b — Khamse Illuminated Headpiece ![Canvas thumbnail](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00556.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### Depicts
+
+#### mdhn:Khamsa_of_Nizami
+- Q3196058
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
+
+#### mdhn:Kherad_Nama
+- mdhn:isPartOf: mdhn:Iskandarnama
+
+#### mdhn:Illuminated_Headpiece
+- Q3071780
+- skos:exactMatch: mdhn:aat500011053
+
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 275b
+#### **Onvan1 in 275b** ![ Onvan1 in 275b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00556.jp2/367,972,2948,1306/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** کتاب خردنامه
 
 ---
 
