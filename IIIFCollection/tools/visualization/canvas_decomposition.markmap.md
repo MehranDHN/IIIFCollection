@@ -9,6 +9,7 @@
 ## ResourceCanvas: f.139r — Mourning of Siyavash
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasHalkari, HasText
+- **Depicts:** mdhn:Kingdom_of_Kay_Kavus, mdhn:Mourning_of_Siyavash, mdhn:Siyavash_Story, mdhn:Mourning, mdhn:Braid_Hair, mdhn:Window, mdhn:Glazed_Tile, mdhn:Architectural_Structure, mdhn:Clothing, mdhn:headscarf, mdhn:Headgear, mdhn:Turban, mdhn:Robe, mdhn:Curtain, mdhn:Building_Ornament, mdhn:Persian_Architecture
 
 ### mdhn:Fragment_Cropped_Image: Farangis cropped figure from 139r
 - ![ Farangis cropped figure from 139r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427205j/f279/2248,4089,1124,846/200,/0/default.jpg)
@@ -55,6 +56,7 @@
 ## ResourceCanvas: f.12a — Keyumars Enthroned
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000, aat:500011090
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Kingdom_of_Keyumars, mdhn:KeyumarsEnthroned, mdhn:Keyumars, mdhn:Siamak, mdhn:Hushang, mdhn:Divs, mdhn:Angles_From_Heaven, mdhn:Lion, mdhn:Throne, mdhn:Architectural_Structure, mdhn:Clothing, mdhn:headscarf, mdhn:Headgear, mdhn:Turban, mdhn:Robe, mdhn:LeopardSkinDress, mdhn:Tree, mdhn:Bird, mdhn:Pomegranate, mdhn:Lion, mdhn:LongNeckedJar, mdhn:WineCup, mdhn:Plantanus_Orientalis, mdhn:Simurgh, mdhn:Feasting, mdhn:Rocks
 
 ### mdhn:Fragment_Cropped_Image: Keyumars cropped figure from 12a
 - ![ Keyumars cropped figure from 12a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000027_300/1863,2416,536,506/200,/0/default.jpg)
@@ -109,6 +111,7 @@
 ## ResourceCanvas: f.15a — Hushang fighting with Divs
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000, aat:500011090
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Kingdom_of_Keyumars, mdhn:Hushang_Fight_Black_Div, mdhn:Hushang, mdhn:Divs, mdhn:Bow_and_Arrow, mdhn:Horse, mdhn:Horse_Spur, mdhn:Horse_Tack, mdhn:Mace, mdhn:Combat_Helmet, mdhn:Tree, mdhn:Bird, mdhn:Pomegranate, mdhn:Plantanus_Orientalis, mdhn:Rocks
 
 ### mdhn:Fragment_Cropped_Image: Hushang cropped figure from 15a
 - ![ Hushang cropped figure from 15a ](https://stacks.stanford.edu/image/iiif/mw601rm1212/W602_000033_300/1780,1908,867,1070/200,/0/default.jpg)
@@ -169,6 +172,7 @@
 ## ResourceCanvas: f.1b — Peck Shahnamah, Sulaiman is enthroned amidst angels, demons, humans, and animals.
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
+- **Depicts:** mdhn:Solomon_and_Queen_of_Sheba, mdhn:Solomon, mdhn:iconclass71I6, mdhn:iconclass71I_PersianCourt, mdhn:Asfi_bin_Barkhiya, mdhn:Throne, mdhn:Donkey, mdhn:Dragon, mdhn:Bird, mdhn:Turtle, mdhn:Mouse, mdhn:Jingle, mdhn:Lizard, mdhn:Scorpion, mdhn:Snake, mdhn:Leopard, mdhn:Lion, mdhn:Elepahant, mdhn:Monkey, mdhn:Cow, mdhn:harpy, mdhn:Horse, mdhn:Rabbit, mdhn:Camel, mdhn:Flaming_Nimbus, mdhn:Simurgh, mdhn:Eurasian_Hoopoe, mdhn:Throne, mdhn:Angles_From_Heaven, mdhn:Mace, mdhn:Divs, mdhn:Feasting, mdhn:Peacock, mdhn:Royal_Court, mdhn:Headgear, mdhn:Turban, mdhn:Robe, mdhn:Cloud, mdhn:Flower, mdhn:Tree, mdhn:Wind, mdhn:Blossom, mdhn:Plant, mdhn:Duck, mdhn:Sea_River_Pool
 
 ### mdhn:Fragment_Cropped_Image: Solomon cropped figure from f1b
 - ![ Solomon cropped figure from f1b ](https://iiif-cloud.princeton.edu/iiif/2/25%2F6a%2Fd5%2F256ad5ad21d140598eda5ef259e110cb%2Fintermediate_file/4396,4476,1014,1902/200,/0/default.jpg)
@@ -215,6 +219,7 @@
 ## ResourceCanvas: f.2a — Peck Shahnamah, Bilqis, Queen of Saba, is enthroned amidst Peris and handmaidens.
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
+- **Depicts:** mdhn:Solomon_and_Queen_of_Sheba, mdhn:Queen_of_Sheba, mdhn:Throne, mdhn:Tambourine, mdhn:kamancheh, mdhn:Sea_River_Pool, mdhn:Fountain, mdhn:Divs, mdhn:Sitar, mdhn:Harp, mdhn:LongNeckedBottle, mdhn:LongNeckedJar, mdhn:Vessel, mdhn:WineCup, mdhn:CopperDish, mdhn:CopperTray, mdhn:Pomegranate, mdhn:Fruits, mdhn:headscarf, mdhn:Throne, mdhn:Angles_From_Heaven, mdhn:Feasting, mdhn:Royal_Court, mdhn:Headgear, mdhn:Turban, mdhn:Robe
 
 ### mdhn:Fragment_Cropped_Image: Bilqis cropped figure from f2a
 - ![ Bilqis cropped figure from f2a ](https://iiif-cloud.princeton.edu/iiif/2/e8%2F8e%2F13%2Fe88e13bf8b9b45a582de4f856d613a66%2Fintermediate_file/4819,4858,1112,1878/200,/0/default.jpg)
@@ -299,6 +304,7 @@
 ## ResourceCanvas: f.22a — Peck Shahnamah, The tyrant Zahhak brought before Faridun
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:ZahhakStory, mdhn:Fereydun_Strikes_Down_Zahhak, mdhn:Throne, mdhn:Tambourine, mdhn:Flute, mdhn:Harp, mdhn:Pool, mdhn:Fountain, mdhn:Glazed_Tile, mdhn:Fruits, mdhn:Sword, mdhn:Dagger, mdhn:Building_Ornament, mdhn:Persian_Architecture, mdhn:Architectural_Structure, mdhn:Balcony, mdhn:Iwan, mdhn:Plantanus_Orientalis, mdhn:Tree, mdhn:LongNeckedBottle, mdhn:LongNeckedJar, mdhn:Vessel, mdhn:WineCup, mdhn:CopperDish, mdhn:CopperTray, mdhn:Pomegranate, mdhn:Club, mdhn:headscarf, mdhn:Window, mdhn:Flower, mdhn:Feasting, mdhn:Royal_Court, mdhn:Headgear, mdhn:Turban, mdhn:Robe, mdhn:Bolster, mdhn:Blossom, mdhn:Fence, mdhn:Door, mdhn:Book, mdhn:GemEncrustedBelt, mdhn:Cypress, mdhn:Snake
 
 ### mdhn:Fragment_Cropped_Image: Fereydun cropped figure from f22a
 - ![ Fereydun cropped figure from f22a ](https://iiif-cloud.princeton.edu/iiif/2/c0%2Fe7%2Ff8%2Fc0e7f8f78358453a82da209c93369e46%2Fintermediate_file/4595,5228,875,1495/200,/0/default.jpg)
@@ -347,6 +353,7 @@
 ## ResourceCanvas: f.38a — Peck Shahnamah, Zal visits Rudaba in her castle
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Kingdom_of_Manuchehr, mdhn:Fereydun_Strikes_Down_Zahhak, mdhn:Pavilion, mdhn:Pinus, mdhn:Torches, mdhn:Rifle, mdhn:Pool, mdhn:Fountain, mdhn:Glazed_Tile, mdhn:Fruits, mdhn:Sword, mdhn:Dagger, mdhn:Building_Ornament, mdhn:Persian_Architecture, mdhn:Architectural_Structure, mdhn:Balcony, mdhn:Iwan, mdhn:Plantanus_Orientalis, mdhn:Tree, mdhn:LongNeckedBottle, mdhn:LongNeckedJar, mdhn:Vessel, mdhn:WineCup, mdhn:CopperDish, mdhn:CopperTray, mdhn:Pomegranate, mdhn:Club, mdhn:headscarf, mdhn:Window, mdhn:Flower, mdhn:Feasting, mdhn:Royal_Court, mdhn:Headgear, mdhn:Turban, mdhn:Robe, mdhn:Bolster, mdhn:Blossom, mdhn:Fence, mdhn:Door, mdhn:Book, mdhn:GemEncrustedBelt, mdhn:Cypress, mdhn:Snake
 
 ### mdhn:Fragment_Cropped_Image: Zal cropped figure from 38a
 - ![ Zal cropped figure from 38a ](https://iiif-cloud.princeton.edu/iiif/2/c8%2F4e%2F2a%2Fc84e2a0ad7bf407cafc6f0c04d31bd88%2Fintermediate_file/4053,7504,1232,2548/200,/0/default.jpg)
@@ -391,6 +398,7 @@
 ## ResourceCanvas: f.54a — Peck Shahnamah, Rostam chooses his horse, Rakhsh
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasHalkari, HasText
+- **Depicts:** mdhn:Kingdom_Of_Garshasp, mdhn:RostamStory, mdhn:Rostam_Capture_The_Rakhsh_With_Lasso, mdhn:Rock, mdhn:Cloude, mdhn:Plant, mdhn:Lasso, mdhn:Headgear, mdhn:Horse, mdhn:Combat_Helmet, mdhn:Flower, mdhn:Bird, mdhn:Tree, mdhn:Turban
 
 ### mdhn:Fragment_Cropped_Image: Young Rostam cropped figure from 54a
 - ![ Young Rostam cropped figure from 54a ](https://iiif-cloud.princeton.edu/iiif/2/70%2F3d%2F24%2F703d249a3c914c61a027424f2f33878c%2Fintermediate_file/2485,8421,1622,2598/200,/0/default.jpg)
@@ -439,6 +447,7 @@
 ## ResourceCanvas: f.62b — Peck Shahnamah, Rostam kills white Div
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasHalkari, HasText
+- **Depicts:** mdhn:Rostams_Seventh_Labour, mdhn:RostamStory, mdhn:Rock, mdhn:Cloude, mdhn:Plant, mdhn:Divs, mdhn:Jingle, mdhn:Headgear, mdhn:Horse, mdhn:Babr_e_Bayan, mdhn:Sword, mdhn:TearingApart, mdhn:Cave, mdhn:Tree, mdhn:Robe
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 62b
 - ![ Rostam cropped figure from 62b ](https://iiif-cloud.princeton.edu/iiif/2/0e%2Fa6%2F9f%2F0ea69ff3cdaa4dd49042515e7e803d36%2Fintermediate_file/4205,7420,2760,2724/200,/0/default.jpg)
@@ -532,6 +541,7 @@
 ## ResourceCanvas: f.296b — Peck Shahnamah, Iskandar Slays a Dragon
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasHalkari, HasText
+- **Depicts:** mdhn:Iskandar_Slays_a_Dragon, mdhn:Iskandar_Dhul_Qarnayn, mdhn:Greedy_Dragon, mdhn:Rock, mdhn:Cow, mdhn:Plant, mdhn:Dragon, mdhn:Combat_Helmet, mdhn:Headgear, mdhn:Horse, mdhn:Horse_Saddle, mdhn:Horse_Tack, mdhn:HorseStirrup, mdhn:Sword, mdhn:Bow_and_Arrow, mdhn:Tree, mdhn:Robe
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 296b
 - ![ Rostam cropped figure from 296b ](https://iiif-cloud.princeton.edu/iiif/2/6e%2Fbf%2F65%2F6ebf65a954a047b590a4fec64cfdd22d%2Fintermediate_file/6386,5718,1373,1721/200,/0/default.jpg)
@@ -682,6 +692,7 @@
 ## ResourceCanvas: f.13r — Kayumarṯ amidst his entourage
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Kingdom_of_Keyumars, mdhn:mdhn:KeyumarsEnthroned, mdhn:Rocks, mdhn:Plant, mdhn:Tree, mdhn:Flower, mdhn:Cloud, mdhn:Pomegranate, mdhn:Tiger, mdhn:Deer, mdhn:Headgear, mdhn:Feasting, mdhn:Fruits, mdhn:Throne, mdhn:Club, mdhn:Tambourine, mdhn:Oud, mdhn:Goat, mdhn:LeopardSkinDress, mdhn:Turban, mdhn:LongNeckedBottle, mdhn:Vessel, mdhn:WineCup, mdhn:WineBowl
 
 ### mdhn:Fragment_Cropped_Image: Keyumars cropped figure from 13r
 - ![ Keyumars cropped figure from 13r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0031/2121,2040,702,1337/200,/0/default.jpg)
@@ -714,6 +725,7 @@
 ## ResourceCanvas: f.13v — Dīv Tears Siyamak Apart
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Kingdom_of_Keyumars, mdhn:Siamak_Was_Slayin_By_Div, mdhn:Jingle, mdhn:Rocks, mdhn:Plant, mdhn:Tree, mdhn:Flower, mdhn:TearingApart, mdhn:Mace, mdhn:Sword, mdhn:Lion, mdhn:Horse_Spur, mdhn:Headgear, mdhn:Combat_Helmet, mdhn:Horse_Saddle, mdhn:Fox, mdhn:Battle, mdhn:Bird, mdhn:Leopard, mdhn:Deer, mdhn:Divs, mdhn:Flag, mdhn:GemEncrustedBelt, mdhn:Horse
 
 ### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 13v
 - ![ Siamak cropped figure from 13v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0032/1071,2944,576,1035/200,/0/default.jpg)
@@ -743,6 +755,7 @@
 ## ResourceCanvas: f.202v — Keykavus and Arzhang Div
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:KayKavus_Encounters_Arzhang_Div_In_Mazandaran, mdhn:AlamandKotalandKotal, mdhn:Rocks, mdhn:Plant, mdhn:Tree, mdhn:Flower, mdhn:Mace, mdhn:Sword, mdhn:SunShade, mdhn:Horse_Spur, mdhn:Headgear, mdhn:Combat_Helmet, mdhn:Horse_Saddle, mdhn:Horse_Head_Defence, mdhn:Horse_Riding, mdhn:Battle, mdhn:Bow_and_Arrow, mdhn:Body_Armour, mdhn:Battle_Field, mdhn:Divs, mdhn:Flag, mdhn:Shield, mdhn:Horse, mdhn:Club, mdhn:Dagger, mdhn:GemEncrustedArmBand, mdhn:GemEncrustedBracelet, mdhn:Jingle, mdhn:Sorna
 
 ### mdhn:Fragment_Cropped_Image: Kaykavus cropped figure from 202v
 - ![ Kaykavus cropped figure from 202v ](https://content.staatsbibliothek-berlin.de/dc/731525744-0410/1174,1828,769,1221/200,/0/default.jpg)
@@ -801,6 +814,7 @@
 ## ResourceCanvas: f.208r — SH 4251, Rostam Kills the White Div
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasHalkari, HasText
+- **Depicts:** mdhn:Rostams_Seventh_Labour, mdhn:RostamStory, mdhn:Rock, mdhn:Cloude, mdhn:Plant, mdhn:Divs, mdhn:Headgear, mdhn:Horse, mdhn:Horse_Saddle, mdhn:Babr_e_Bayan, mdhn:Sword, mdhn:Cave, mdhn:Tree, mdhn:Robe, mdhn:Birds, mdhn:Mace, mdhn:TearingApart, mdhn:Flower
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 208r
 - ![ Rostam cropped figure from 208r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0421/1632,2534,1111,1115/200,/0/default.jpg)
@@ -844,6 +858,7 @@
 ## ResourceCanvas: f.208r — SH 4251, Garshasp Kills the Dragon
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012, aat:500011000
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Garshaspnameh, mdhn:Rock, mdhn:Cloude, mdhn:Plant, mdhn:Dragon, mdhn:Bow_and_Arrow, mdhn:Horse, mdhn:mdhn:Horse_Tack, mdhn:Sword, mdhn:Dagger, mdhn:Tree, mdhn:Robe, mdhn:Misbaha, mdhn:Flower
 
 ### mdhn:Fragment_Cropped_Image: Garshasp cropped figure from 208r
 - ![ Garshasp cropped figure from 208r ](https://content.staatsbibliothek-berlin.de/dc/731525744-0925/1832,2754,1194,1208/200,/0/default.jpg)
@@ -901,6 +916,7 @@
 ## ResourceCanvas: f.2v — Sulaiman is enthroned amidst angels, demons, humans, and animals.
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
+- **Depicts:** mdhn:Solomon_and_Queen_of_Sheba, mdhn:Solomon, mdhn:iconclass71I6, mdhn:iconclass71I_PersianCourt, mdhn:Turtle, mdhn:Mouse, mdhn:Lizard, mdhn:Scorpion, mdhn:Snake, mdhn:Leopard, mdhn:Lion, mdhn:Elepahant, mdhn:Monkey, mdhn:Cow, mdhn:Horse, mdhn:Rabbit, mdhn:Camel, mdhn:Flaming_Nimbus, mdhn:Simurgh, mdhn:Eurasian_Hoopoe, mdhn:Throne, mdhn:Angles_From_Heaven, mdhn:Mace, mdhn:Divs, mdhn:Feasting, mdhn:Peacock, mdhn:Royal_Court, mdhn:Headgear, mdhn:Turban, mdhn:Robe, mdhn:Cloud, mdhn:Flower, mdhn:Blossom, mdhn:Plant, mdhn:Duck
 
 ### mdhn:Fragment_Cropped_Image: Solomon cropped figure from 2v
 - ![ Solomon cropped figure from 2v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0006/1593,1951,872,1158/200,/0/default.jpg)
@@ -999,6 +1015,7 @@
 ## ResourceCanvas: f.3r — Bilqīs, Queen of Saba, is enthroned amidst Peris and handmaidens.
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300220539
 - **Contains:** HasPainting, HasIllumination
+- **Depicts:** mdhn:Solomon_and_Queen_of_Sheba, mdhn:Queen_of_Sheba, mdhn:Tambourine, mdhn:Sea_River_Pool, mdhn:Fountain, mdhn:Sitar, mdhn:Tanbur, mdhn:LongNeckedBottle, mdhn:LongNeckedJar, mdhn:Vessel, mdhn:WineCup, mdhn:CopperDish, mdhn:CopperTray, mdhn:Pomegranate, mdhn:Fruits, mdhn:Flaming_Nimbus, mdhn:Simurgh, mdhn:Eurasian_Hoopoe, mdhn:Throne, mdhn:Angles_From_Heaven, mdhn:Feasting, mdhn:Royal_Court, mdhn:Headgear, mdhn:Turban, mdhn:Robe
 
 ### mdhn:Fragment_Cropped_Image: Solomon cropped figure from 3r
 - ![ Solomon cropped figure from 3r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0007/1895,2395,607,818/200,/0/default.jpg)
@@ -1141,6 +1158,7 @@
 ## ResourceCanvas: f.12v — Dīv Tears Siyamak Apart
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300033936
 - **Contains:** HasPainting, HasHalkari, HasText
+- **Depicts:** mdhn:Kingdom_of_Keyumars, mdhn:Siamak_Was_Slayin_By_Div, mdhn:Divs, mdhn:Rocks, mdhn:Plant, mdhn:Tree, mdhn:Dagger, mdhn:Sword, mdhn:Bow_and_Arrow, mdhn:Horse_Spur, mdhn:Headgear, mdhn:Horse_Head_Defence, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:Battle, mdhn:Axe, mdhn:Sheild, mdhn:Flower, mdhn:GemEncrustedBelt, mdhn:Robe, mdhn:Horse
 
 ### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 12v
 - ![ Siamak cropped figure from 12v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0026/1786,2982,758,948/200,/0/default.jpg)
@@ -1174,6 +1192,7 @@
 ## ResourceCanvas: f.42r — Salm and Tur beheaded Iraj
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:500011092, aat:300033936
 - **Contains:** HasPainting, HasHalkari, HasText
+- **Depicts:** mdhn:Kingdom_of_Fereydun, mdhn:Beheading_Iraj_By_His_Brothers, mdhn:Persian_Architecture, mdhn:Building_Ornament, mdhn:Feasting, mdhn:Architectural_Structure, mdhn:Dagger, mdhn:Balcony, mdhn:Pavilion, mdhn:Glazed_Tile, mdhn:Headgear, mdhn:Fruits, mdhn:Decapitation, mdhn:Clothing, mdhn:headscarf, mdhn:GemEncrustedBelt, mdhn:Turban, mdhn:Robe, mdhn:GemEncrustedBelt, mdhn:Pomegranate, mdhn:LongNeckedJar, mdhn:HandledJug, mdhn:WineCup, mdhn:CopperTray, mdhn:Curtain, mdhn:Window
 
 ### mdhn:Fragment_Cropped_Image: Iraj cropped figure from 42r
 - ![ Iraj cropped figure from 42r ](https://content.staatsbibliothek-berlin.de/dc/731527356-0085/2510,3343,592,787/200,/0/default.jpg)
@@ -1225,6 +1244,7 @@
 ## ResourceCanvas: f.105v — Rostam Kills White Elephant
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:500011092, aat:300033936
 - **Contains:** HasPainting, HasHalkari, HasText
+- **Depicts:** mdhn:Rustam_Slays_White_Elephant, mdhn:RostamStory, mdhn:Persian_Architecture, mdhn:Building_Ornament, mdhn:Bolster, mdhn:Architectural_Structure, mdhn:Elephant, mdhn:Balcony, mdhn:Pavilion, mdhn:Glazed_Tile, mdhn:Headgear, mdhn:OxHeadMace, mdhn:Clothing, mdhn:headscarf, mdhn:Turban, mdhn:Robe, mdhn:Curtain, mdhn:Window, mdhn:Babr_e_Bayan
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 105v
 - ![ Rostam cropped figure from 105v ](https://content.staatsbibliothek-berlin.de/dc/731527356-0212/1052,3227,495,905/200,/0/default.jpg)
@@ -1280,6 +1300,7 @@
 ## ResourceCanvas: f.7r — Firdawsī encounters the court poets of Ghaznī
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Bird, mdhn:Duck, mdhn:Rocks, mdhn:Plant, mdhn:Tree, mdhn:Flower, mdhn:Sea_River_Pool, mdhn:Book, mdhn:Headgear, mdhn:Blossom, mdhn:Flower, mdhn:Headgear, mdhn:Vessel, mdhn:Robe
 
 ### mdhn:Fragment_Cropped_Image: Ferdowsi cropped figure from f7r
 - ![ Ferdowsi cropped figure from f7r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00013.jp2/3171,5833,582,782/200,/0/default.jpg)
@@ -1306,6 +1327,7 @@
 ## ResourceCanvas: f.44r — Juki Shahnamah, Rostam kills white Div
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Rostams_Seventh_Labour, mdhn:RostamStory, mdhn:TearingApart, mdhn:Rock, mdhn:Plant, mdhn:Cloud, mdhn:Divs, mdhn:Flower, mdhn:Headgear, mdhn:Horse, mdhn:Combat_Helmet, mdhn:Sword, mdhn:Dagger, mdhn:Bow_and_Arrow, mdhn:Cave, mdhn:Tree, mdhn:Robe
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 44r
 - ![ Rostam cropped figure from 44r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/2600,5794,933,1205/200,/0/default.jpg)
@@ -1347,6 +1369,7 @@
 ## ResourceCanvas: f.20v — The Court of Kayumars
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:KeyumarsEnthroned, mdhn:Royal_Court, mdhn:LeopardSkinDress, mdhn:Throne, mdhn:Enthronement, mdhn:Turban, mdhn:Rocks, mdhn:Tree, mdhn:Plant, mdhn:Cloud, mdhn:Bird, mdhn:Leopard, mdhn:Lion
 
 ---
 
@@ -1355,6 +1378,7 @@
 ## ResourceCanvas: f.23v — Folio 23v Tahmuras Defeats the Divs
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Tahmuras_Defeating_the_Divs, mdhn:TahmurasDefeatsDivs, mdhn:OxHeadMace, mdhn:Mace, mdhn:Divs, mdhn:Body_Armour, mdhn:Soldier, mdhn:Battle, mdhn:Wind, mdhn:Cloud, mdhn:Horse, mdhn:Lasso, mdhn:Turban, mdhn:Flower, mdhn:Tree, mdhn:Rocks, mdhn:Blossom, mdhn:Bird, mdhn:Gazzele, mdhn:Plant, mdhn:Combat_Helmet
 
 ### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from f23v
 - ![ Tahmuras cropped figure from f23v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-23v%2F23v.jpg/897,1368,553,534/200,/0/default.jpg)
@@ -1396,6 +1420,7 @@
 ## ResourceCanvas: f.77v — Mihrab Hears of Rudaba Folly
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:ZalAndRudaba, mdhn:Architectural_Structure, mdhn:Turban, mdhn:Robe, mdhn:WineBowl, mdhn:Flower, mdhn:Tree, mdhn:Blossom, mdhn:Plant, mdhn:Headgear, mdhn:Persian_Architecture, mdhn:Balcony, mdhn:Iwan, mdhn:Calligraphy_Inscription, mdhn:Sea_River_Pool, mdhn:Duck, mdhn:Pool, mdhn:Fountain, mdhn:Fence, mdhn:Cypress, mdhn:AgriculturalAndFarming, mdhn:Persian_Garden, mdhn:headscarf
 
 ### mdhn:Fragment_Cropped_Image: Mihrab cropped figure from f77v
 - ![ Mihrab cropped figure from f77v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-77v%2FFolio77v.jpg/843,2340,286,706/200,/0/default.jpg)
@@ -1456,6 +1481,7 @@
 ## ResourceCanvas: f.27v — Folio 229r Bizhan Slaughters the Wild Boars
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Bizhan_Slaughters_the_Wild_Boars_of_Irman, mdhn:KingdomOfZahhak, mdhn:ZahhakStory, mdhn:Horse, mdhn:Horse_Spur, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:Bow_and_Arrow, mdhn:Sword, mdhn:Turban, mdhn:Flower, mdhn:Tree, mdhn:Blossom, mdhn:Plant, mdhn:Headgear, mdhn:Cloud
 
 ### mdhn:Fragment_Cropped_Image: Bizhan cropped figure from f299r
 - ![ Bizhan cropped figure from f299r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp--299r%2FFolio299r.jpg/3828,4710,914,1208/200,/0/default.jpg)
@@ -1487,6 +1513,7 @@
 ## ResourceCanvas: f.7r — Firdausi Encounters the Court Poets of Ghazna
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Feasting, mdhn:Architectural_Structure, mdhn:Turban, mdhn:Robe, mdhn:WineBowl, mdhn:Flower, mdhn:Tree, mdhn:Blossom, mdhn:Plant, mdhn:Headgear, mdhn:Persian_Architecture, mdhn:Balcony, mdhn:Iwan, mdhn:Calligraphy_Inscription, mdhn:Sea_River_Pool, mdhn:Duck, mdhn:Pool, mdhn:Fountain, mdhn:Fence, mdhn:Cypress, mdhn:AgriculturalAndFarming, mdhn:Persian_Garden, mdhn:headscarf
 
 ### mdhn:Fragment_Cropped_Image: Ferdowsi cropped figure from f7r
 - ![ Ferdowsi cropped figure from f7r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-7r%2FFolio7r.jpg/314,802,118,236/200,/0/default.jpg)
@@ -1515,6 +1542,7 @@
 ## ResourceCanvas: f.27v — Folio 27v Zahhak Receives the Daughters of Jamshid
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Zahhak_and_Daughters_of_Jamshid, mdhn:KingdomOfZahhak, mdhn:ZahhakStory, mdhn:Architectural_Structure, mdhn:Balcony, mdhn:Snake, mdhn:Minaret, mdhn:Calligraphy_Inscription, mdhn:Dagger, mdhn:Turban, mdhn:Flower, mdhn:Tree, mdhn:Blossom, mdhn:Plant, mdhn:Headgear, mdhn:Horse, mdhn:Donkey, mdhn:Bow_and_Arrow, mdhn:LongNeckedBottle, mdhn:LongNeckedJar, mdhn:GoldVessel, mdhn:Bowl, mdhn:Fence
 
 ### mdhn:Fragment_Cropped_Image: Zahhak cropped figure from f27v
 - ![ Zahhak cropped figure from f27v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-27v%2FFolio27v.jpg/978,1511,354,459/200,/0/default.jpg)
@@ -1547,6 +1575,7 @@
 ## ResourceCanvas: f.124r — Rostam Kills the White Div
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Rostams_Seventh_Labour, mdhn:RostamStory, mdhn:TearingApart, mdhn:Rock, mdhn:Cloude, mdhn:Plant, mdhn:Divs, mdhn:Headgear, mdhn:Blossom, mdhn:Horse_Saddle, mdhn:Horse, mdhn:Babr_e_Bayan, mdhn:Dagger, mdhn:Cave, mdhn:Tree, mdhn:Turban
 
 ---
 
@@ -1555,6 +1584,7 @@
 ## ResourceCanvas: f.25v — The Death of King Mirdas
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:ZahhakKillsHisOwnFather, mdhn:ZahhakStory, mdhn:Iblis, mdhn:Sword, mdhn:Turban, mdhn:Flower, mdhn:Tree, mdhn:Blossom, mdhn:Plant, mdhn:Headgear, mdhn:Architectural_Structure, mdhn:Balcony, mdhn:Duck, mdhn:Sea_River_Pool, mdhn:Pit
 
 ### mdhn:Fragment_Cropped_Image: Mirdas cropped figure from f25v
 - ![ Mirdas cropped figure from f25v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-25v%2F25v.jpg/490,2078,403,359/200,/0/default.jpg)
@@ -1578,6 +1608,7 @@
 ## ResourceCanvas: f.166r — The Fire Trail of Siyavush
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Siyavash_Story, mdhn:The_Fire_Trial_of_Siyavush, mdhn:SunShade, mdhn:Turban, mdhn:Building_Ornament, mdhn:Horse, mdhn:Blossom, mdhn:Plant, mdhn:Headgear, mdhn:Architectural_Structure, mdhn:Balcony, mdhn:Rocks, mdhn:Horse_Spur, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:Fire, mdhn:Curtain, mdhn:Cypress, mdhn:Window, mdhn:Door, mdhn:HorseStirrup, mdhn:Blossom, mdhn:Flower, mdhn:Plant, Calligraphy_Inscription
 
 ### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 166r
 - ![ Siyavush cropped figure from 166r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-166r%2Ffolio166r.jpg/1126,2504,731,947/200,/0/default.jpg)
@@ -1611,6 +1642,7 @@
 ## ResourceCanvas: f.168v — Siyavush and Rustam Captures Balkh
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Siyavash_Story, mdhn:Siyavush_and_Rustem_Capture_Balkh, mdhn:Fortress, mdhn:Sword, mdhn:Turban, mdhn:Building_Ornament, mdhn:Horse, mdhn:Blossom, mdhn:Plant, mdhn:Headgear, mdhn:Architectural_Structure, mdhn:Balcony, mdhn:Rocks, mdhn:Horse_Spur, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:Bow_and_Arrow, mdhn:OxHeadMace, mdhn:Soldier, mdhn:Battle, mdhn:Body_Armour, mdhn:Combat_Helmet, mdhn:Battle_Field, mdhn:Spear, mdhn:Shield, mdhn:Flag, mdhn:HorseStirrup, mdhn:Blowing_Horn, mdhn:Tamborim, mdhn:Sorna, mdhn:Korna, mdhn:ShortOboe, mdhn:CurvedSorna, mdhn:GemEncrustedBelt, mdhn:BlueSky, mdhn:Cloud, mdhn:AlamandKotal, Calligraphy_Inscription, mdhn:Bridge
 
 ### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 168v
 - ![ Siyavush cropped figure from 168v ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-168v%2Ffolio168v.jpg/1965,1905,316,613/200,/0/default.jpg)
@@ -1640,6 +1672,7 @@
 ## ResourceCanvas: f.221r — Kay Khusrau Takes the Castle of Bahman
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Kingdom_of_Kay_Kavus, mdhn:Capturing_the_Bahman_Castle, mdhn:Sword, mdhn:Turban, mdhn:Building_Ornament, mdhn:Horse, mdhn:Blossom, mdhn:Plant, mdhn:Headgear, mdhn:Architectural_Structure, mdhn:Building_Ornament, mdhn:Balcony, mdhn:Rocks, mdhn:Horse_Spur, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:HorseStirrup, mdhn:Bridge, mdhn:Sea_River_Pool, mdhn:Rope, mdhn:Brick, mdhn:Window, mdhn:Door, mdhn:HorseStirrup, mdhn:Sorna, mdhn:Flower, mdhn:Shield, mdhn:Bow_and_Arrow, Calligraphy_Inscription
 
 ### mdhn:Fragment_Cropped_Image: Kay Khosrow cropped figure from 166r
 - ![ Kay Khosrow cropped figure from 166r ](https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-221r_alt%2Ffolio221r_alt.jpg/1282,1772,524,555/200,/0/default.jpg)
@@ -1724,6 +1757,7 @@
 ## ResourceCanvas: f.71a — Ibrahim Sultan Shahnamah, Rostam kills white Div
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Rostams_Seventh_Labour, mdhn:Rock, mdhn:Plant, mdhn:Divs, mdhn:Headgear, mdhn:Babr_e_Bayan, mdhn:TearingApart, mdhn:Dagger, mdhn:Bow_and_Arrow, mdhn:Cave, mdhn:Tree, mdhn:Robe
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 71a
 - ![ Rostam cropped figure from 71a ](https://iiif.bodleian.ox.ac.uk/iiif/image/c9e7bd58-e3cb-48f0-b51a-fd26aabed0aa/2263,2371,2254,1695/200,/0/default.jpg)
@@ -1766,6 +1800,7 @@
 ## ResourceCanvas: f.90v — Smith-Lesouëf 224, Nariman and Sam Mourning Garshasb
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:300033936
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Garshaspnameh, mdhn:Coffin, mdhn:Mourning, mdhn:Headgear, mdhn:Turban, mdhn:Robe, mdhn:Cloud, mdhn:Horse, mdhn:Horse_Spur, mdhn:Horse_Saddle, mdhn:Rock, mdhn:Book, mdhn:Bow_and_Arrow
 
 ### mdhn:Fragment_Cropped_Image: Nariman cropped figure from 90v
 - ![ Nariman cropped figure from 90v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f204/545,2301,621,1072/200,/0/default.jpg)
@@ -1807,6 +1842,7 @@
 ## ResourceCanvas: f.119r — Smith-Lesouëf 224, Salm and Tur beheaded Iraj
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:500011092, aat:300033936
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Kingdom_of_Fereydun, mdhn:Beheading_Iraj_By_His_Brothers, mdhn:Dagger, mdhn:Combat_Helmet, mdhn:Rock, mdhn:Decapitation, mdhn:Clothing, mdhn:Horse, mdhn:Horse_Saddle, mdhn:Horse_Spur, mdhn:Bow_and_Arrow, mdhn:Plant, mdhn:Body_Armour, mdhn:Flower
 
 ### mdhn:Fragment_Cropped_Image: Iraj cropped figure from 119r
 - ![ Iraj cropped figure from 119r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8427192c/f263/1324,3521,1709,948/200,/0/default.jpg)
@@ -1855,6 +1891,7 @@
 ## ResourceCanvas: f.1r — Hushang kills the Black Div
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasOnvan, HasText
+- **Depicts:** mdhn:Kingdom_of_Keyumars, mdhn:Hushang_Fight_Black_Div, mdhn:Mace, mdhn:LeopardSkinDress, mdhn:Wolf, mdhn:Divs, mdhn:Rocks, mdhn:Cat, mdhn:Corvus, mdhn:Bird, mdhn:Leopard, mdhn:Lion
 
 ### mdhn:Fragment_Cropped_Image: Hushang cropped figure from 1r
 - ![ Hushang cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/1509,3903,1467,1300/200,/0/default.jpg)
@@ -1915,6 +1952,7 @@
 ## ResourceCanvas: f.3v — Zahhak is imprisoned under Mount Damavand
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
 - **Contains:** HasText, HasOnvan, HasPainting
+- **Depicts:** mdhn:Kingdom_of_Fereydun, mdhn:ZahhakStory, mdhn:Horse, mdhn:Horse_Spur, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:Bow_and_Arrow, mdhn:mdhn:OxHeadMace, mdhn:Turban, mdhn:Hammer, mdhn:Sun, mdhn:Nail, mdhn:Rocks, mdhn:Cloud, mdhn:Plants, mdhn:Flower, mdhn:Snake
 
 ### mdhn:Fragment_Cropped_Image: Zahhak cropped figure from f3v
 - ![ Zahhak cropped figure from f3v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/files/images/Per104_3_09034.jpg/2777,2442,1224,1324/200,/0/default.jpg)
@@ -1947,6 +1985,7 @@
 ## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasHalkari, HasPainting
+- **Depicts:** mdhn:Tahmuras_Defeating_the_Divs, mdhn:TahmurasDefeatsDivs, mdhn:Mace, mdhn:Shield, mdhn:Body_Armour, mdhn:Horse_Spur, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:Sword, mdhn:Bow_and_Arrow, mdhn:Soldier, mdhn:Battle, mdhn:Wind, mdhn:Cloud, mdhn:Horse, mdhn:Lasso, mdhn:Dagger, mdhn:Turban, mdhn:Flower, mdhn:Tree, mdhn:Rocks, mdhn:Blossom, mdhn:Bird, mdhn:Bird_Nest, mdhn:Gazzele, mdhn:Divs, mdhn:Plant, mdhn:Combat_Helmet
 
 ### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from 1r
 - ![ Tahmuras cropped figure from 1r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_256_1/files/images/Per256_1_06530.jpg/1842,4617,1505,1454/200,/0/default.jpg)
@@ -2042,6 +2081,7 @@
 ## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasHalkari, HasPainting
+- **Depicts:** mdhn:Tahmuras_Defeating_the_Divs, mdhn:TahmurasDefeatsDivs, mdhn:Mace, mdhn:Spear, mdhn:Shield, mdhn:Jingle, mdhn:Body_Armour, mdhn:Horse_Spur, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:Sword, mdhn:Bow_and_Arrow, mdhn:Soldier, mdhn:Battle, mdhn:Sorna, mdhn:Horse, mdhn:Lasso, mdhn:Dagger, mdhn:Turban, mdhn:Flower, mdhn:Tree, mdhn:Rocks, mdhn:Blossom, mdhn:Bird, mdhn:Gazzele, mdhn:Divs, mdhn:Plant, mdhn:Combat_Helmet
 
 ### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from 1v
 - ![ Tahmuras cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_17/files/images/Per277_17_07537.jpg/2468,3539,1259,1337/200,/0/default.jpg)
@@ -2098,6 +2138,7 @@
 ## ResourceCanvas: f.1v — Ṭahmūras defeats the demon army
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasHalkari, HasPainting
+- **Depicts:** mdhn:RostamStory, mdhn:KayKavus_Captured_and_Blinded_in_Cave, mdhn:Kingdom_of_Kay_Kavus, mdhn:Rostams_Seven_Labours, mdhn:Mace, mdhn:StoneMace, mdhn:Cave, mdhn:Shield, mdhn:Jingle, mdhn:Robe, mdhn:Rocks, mdhn:Tree, mdhn:Flower, mdhn:Headgear, mdhn:Turban, mdhn:Divs, mdhn:Plant
 
 ### mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 1v
 - ![ Kay Kavus cropped figure from 1v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_277_9/files/images/Per277_9_07523.jpg/1055,4046,765,1338/200,/0/default.jpg)
@@ -2144,6 +2185,7 @@
 ## ResourceCanvas: f.1v — Folio of Siyavush Trial
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasNote, HasText, HasPainting
+- **Depicts:** mdhn:Siyavash, mdhn:Sudabeh, mdhn:Kay_Kavus, mdhn:Behzad_Horse
 
 ### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 1v
 - ![ Siyavush cropped figure from 1v ](https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-2134358823/414,3145,1850,1731/200,/0/default.jpg)
@@ -2177,6 +2219,7 @@
 ## ResourceCanvas: f.1v — Muhammad Siyah Qalam 1
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Divs, mdhn:Cow, mdhn:Jingle, mdhn:Brass_Metal_Jingle, mdhn:Clothing
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1065
 - ![ Div cropped figure from MSS_1065 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1065%2FSiyah%20Qalam_01.jpg/616,669,1373,1642/200,/0/default.jpg)
@@ -2218,6 +2261,7 @@
 ## ResourceCanvas: f.1v — Muhammad Siyah Qalam 2
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Divs, mdhn:Camel, mdhn:Jingle, mdhn:Clothing
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1075
 - ![ Div cropped figure from MSS_1075 ](https://iiif.archive.org/image/iiif/3/KhaliliCollection_MSS_1075%2FSiyah%20Qalam_02.jpg/541,1153,1111,2432/200,/0/default.jpg)
@@ -2255,6 +2299,7 @@
 ## ResourceCanvas: f.1v — Akvan Div and Rostam
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasOnvan, HasPainting
+- **Depicts:** mdhn:Battle_Between_Rostam_and_AkvanDiv, mdhn:Rostam, mdhn:Akvan_Div, mdhn:Divs, mdhn:Rakhsh, mdhn:Sword, mdhn:Plant, mdhn:Sun, mdhn:Cloud, mdhn:Rocks
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from FS-6781_01
 - ![ Rostam cropped figure from FS-6781_01 ](https://ids.si.edu/ids/iiif/FS-6781_01/916,1588,806,635/200,/0/default.jpg)
@@ -2294,6 +2339,7 @@
 ## ResourceCanvas: f.50 — Ascension of Solomon
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783
 - **Contains:** HasPainting
+- **Depicts:** mdhn:Solomon_and_Queen_of_Sheba, mdhn:Solomon, mdhn:iconclass71I6, mdhn:iconclass71I_PersianCourt, mdhn:God, mdhn:Simurgh, mdhn:Bird, mdhn:Eurasian_Hoopoe, mdhn:Throne, mdhn:Angles_From_Heaven, mdhn:LongNeckedJar, mdhn:CopperTray, mdhn:SunShade, mdhn:Tambourine, mdhn:Sorna, mdhn:Flute, mdhn:Oud, mdhn:Divs, mdhn:Peacock, mdhn:Duck, mdhn:Feasting, mdhn:Royal_Court
 
 ### mdhn:Fragment_Cropped_Image: Solomon cropped figure from FS-F1950.1_001
 - ![ Solomon cropped figure from FS-F1950.1_001 ](https://ids.si.edu/ids/iiif/FS-F1950.1_001/1321,2097,907,831/200,/0/default.jpg)
@@ -2375,6 +2421,7 @@
 ## ResourceCanvas: f.26 — Ascension of Solomon
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783
 - **Contains:** HasPainting, HasOnvan
+- **Depicts:** mdhn:Yusuf_and_Zulaikha, mdhn:Yusuf, mdhn:Zulaikha, mdhn:iconclass71D, mdhn:God, mdhn:Angles_From_Heaven, mdhn:Divs
 
 ### mdhn:Fragment_Cropped_Image: Angle1 cropped figure from FS-7358_26
 - ![ Angle1 cropped figure from FS-7358_26 ](https://ids.si.edu/ids/iiif/FS-7358_26/365,864,672,681/200,/0/default.jpg)
@@ -2423,6 +2470,7 @@
 ## ResourceCanvas: f.48 — Battle between a demon and two men
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Garshaspnameh, mdhn:Garshasp, mdhn:Sorna, mdhn:Tamborim, mdhn:Flag, mdhn:Body_Armour, mdhn:Horse_Spur, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:Sword, mdhn:Bow_and_Arrow, mdhn:Soldier, mdhn:Battle, mdhn:Murder, mdhn:Cloud, mdhn:Horse, mdhn:Camel, mdhn:Tree, mdhn:Rocks, mdhn:Divs, mdhn:Plant, mdhn:Combat_Helmet
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from FS-7421_48
 - ![ Div cropped figure from FS-7421_48 ](https://ids.si.edu/ids/iiif/FS-7421_48/662,1892,679,835/200,/0/default.jpg)
@@ -2467,6 +2515,7 @@
 ## ResourceCanvas: f.44 — Garshasp slays a dragon
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Garshaspnameh, mdhn:Garshasp, mdhn:Spear, mdhn:Mace, mdhn:OxHeadMace, mdhn:Flag, mdhn:Body_Armour, mdhn:Horse_Spur, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:Sword, mdhn:Bow_and_Arrow, mdhn:Soldier, mdhn:Battle, mdhn:Dragon, mdhn:Cypress, mdhn:Horse, mdhn:Fire, mdhn:Tree, mdhn:Rocks, mdhn:Plant, mdhn:Combat_Helmet
 
 ### mdhn:Fragment_Cropped_Image: Garshasp cropped figure from FS-7357_44
 - ![ Garshasp cropped figure from FS-7357_44 ](https://ids.si.edu/ids/iiif/FS-7357_44/1445,1877,639,597/200,/0/default.jpg)
@@ -2511,6 +2560,7 @@
 ## ResourceCanvas: f.182 — The Fairy Queen Turktaz
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:The_Seven_Beauties, mdhn:Saturday_Black_The_Unfulfilled_Love, mdhn:The_Unfulfilled_Love, mdhn:Angles_From_Heaven, mdhn:Throne, mdhn:Robe, mdhn:Sea_River_Pool, mdhn:Fountain, mdhn:Harp, mdhn:Tambourine, mdhn:IncenseBurner, mdhn:Pomegranate, mdhn:HandledJug, mdhn:Tree, mdhn:Cypress, mdhn:Blossom, mdhn:Rocks, mdhn:Plant
 
 ### mdhn:Fragment_Cropped_Image: Queen Turktaz cropped figure from Per_182
 - ![ Queen Turktaz cropped figure from Per_182 ](https://viewer.cbl.ie/viewer/api/v1/records/Per_182_182/files/images/Per182_182_v.jpg/950,3292,1163,1079/200,/0/default.jpg)
@@ -2566,6 +2616,7 @@
 ## ResourceCanvas: f.182v — Folio of Salaman and Absal
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:300220539
 - **Contains:** HasOnvan, HasText, IsOpening, HasIllumination
+- **Depicts:** mdhn:Salaman_and_Absal, mdhn:Haft_Awrang
 
 ---
 
@@ -2574,6 +2625,7 @@
 ## ResourceCanvas: f.4r — Colophon folio from the Silsilat al-dhahab
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710
 - **Contains:** HasText, IsColophon, HasIllumination
+- **Depicts:** mdhn:Silsilat_al_Dhahab, mdhn:Haft_Awrang
 
 ---
 
@@ -2582,6 +2634,7 @@
 ## ResourceCanvas: f.37v — Colophon folio from the Silsilat al-dhahab
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:300220539, aat:300028710
 - **Contains:** HasText, IsColophon, HasIllumination
+- **Depicts:** mdhn:Silsilat_al_Dhahab, mdhn:Haft_Awrang
 
 ---
 
@@ -2590,6 +2643,7 @@
 ## ResourceCanvas: f.7v — Colophon of Yusuf u Zulaykha
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:300220539, aat:300028710
 - **Contains:** HasText, IsColophon, HasIllumination
+- **Depicts:** mdhn:Yusuf_and_Zulaikha, mdhn:Haft_Awrang
 
 ---
 
@@ -2598,6 +2652,7 @@
 ## ResourceCanvas: f.19r — Colophon of Yusuf u Zulaykha
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710
 - **Contains:** HasText, IsColophon, HasIllumination
+- **Depicts:** mdhn:Salaman_and_Absal, mdhn:Haft_Awrang
 
 ---
 
@@ -2606,6 +2661,7 @@
 ## ResourceCanvas: f.43r — Majnun comes before Layli disguised as a sheep
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
 - **Contains:** HasText, HasPainting, HasHalkari
+- **Depicts:** mdhn:Haft_Awrang, mdhn:Leyli_and_Majnun_Jami, mdhn:Tree, mdhn:Tent, mdhn:Dog, mdhn:Rocks, mdhn:Turban, mdhn:Headgear, mdhn:Robe, mdhn:Flower, mdhn:Blossom, mdhn:Plant, mdhn:Bird, mdhn:Goat, mdhn:Sheep
 
 ---
 
@@ -2614,6 +2670,7 @@
 ## ResourceCanvas: f.37r — The Townsman Robs the Villager's Orchard
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
 - **Contains:** HasText, HasPainting, HasHalkari
+- **Depicts:** mdhn:Haft_Awrang, mdhn:Subhat_al_Abrar, mdhn:Pomegranate, mdhn:Tree, mdhn:Pine_Tree, mdhn:Cypress, mdhn:Persian_garden, mdhn:Rocks, mdhn:Turban, mdhn:Headgear, mdhn:Robe, mdhn:Flower, mdhn:Blossom, mdhn:Plant, mdhn:Bird, mdhn:Wind, mdhn:Horse, mdhn:Persian_Architecture, mdhn:beggar, mdhn:Architectural_Structure, mdhn:Tanbur
 
 ### mdhn:Fragment_Cropped_Image: Townsman cropped figure from FS-7258_37
 - ![ Townsman cropped figure from FS-7258_37 ](https://ids.si.edu/ids/iiif/FS-7258_37/1373,2600,498,665/200,/0/default.jpg)
@@ -2657,6 +2714,7 @@
 ## ResourceCanvas: f.29r — Qays(Majnun) first Glimpses Layla
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
 - **Contains:** HasText, HasPainting, HasHalkari
+- **Depicts:** mdhn:Haft_Awrang, mdhn:Leyli_and_Majnun_Jami, mdhn:SunShade, mdhn:Book, mdhn:Tree, mdhn:Tent, mdhn:Angles_From_Heaven, mdhn:Bowl, mdhn:Rocks, mdhn:Turban, mdhn:Headgear, mdhn:Robe, mdhn:Flower, mdhn:Blossom, mdhn:Plant, mdhn:Bird, mdhn:Goat, mdhn:Cow
 
 ---
 
@@ -2665,6 +2723,7 @@
 ## ResourceCanvas: f.47r — Yusuf Is rescued from the well
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
 - **Contains:** HasText, HasPainting, HasHalkari
+- **Depicts:** mdhn:Haft_Awrang, mdhn:Yusuf_and_Zulaikha, mdhn:Water_well, mdhn:SunShade, mdhn:Book, mdhn:Tree, mdhn:Arecaceae, mdhn:Horse, mdhn:Horse_Saddle, mdhn:Flaming_Nimbus, mdhn:Tent, mdhn:Angles_From_Heaven, mdhn:Bowl, mdhn:Rocks, mdhn:Turban, mdhn:Headgear, mdhn:Robe, mdhn:Flower, mdhn:Blossom, mdhn:Plant, mdhn:Bird, mdhn:Cow, mdhn:HandledJug, mdhn:Cauldron
 
 ---
 
@@ -2673,6 +2732,7 @@
 ## ResourceCanvas: f.2r — Yusuf tends his flocks
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
 - **Contains:** HasText, HasPainting, HasHalkari
+- **Depicts:** mdhn:Haft_Awrang, mdhn:Yusuf_and_Zulaikha, mdhn:Wind, mdhn:SunShade, mdhn:Tent, mdhn:Tree, mdhn:Pine_Tree, mdhn:Bird_Nest, mdhn:Horse, mdhn:Goat, mdhn:headscarf, mdhn:Dog, mdhn:Sheep, mdhn:Rocks, mdhn:Turban, mdhn:Headgear, mdhn:Robe, mdhn:Flower, mdhn:Blossom, mdhn:Plant, mdhn:Bird, mdhn:Cow
 
 ---
 
@@ -2681,6 +2741,7 @@
 ## ResourceCanvas: f.2r — Yusuf gives a royal banquet in honor of his marriage
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:300220539, aat:300028710, aat:500011000
 - **Contains:** HasText, HasPainting, HasHalkari
+- **Depicts:** mdhn:Haft_Awrang, mdhn:Yusuf_and_Zulaikha, mdhn:Wind, mdhn:SunShade, mdhn:Cypress, mdhn:Tree, mdhn:Sword, mdhn:Carpet, mdhn:CopperTray, mdhn:Persian_Architecture, mdhn:Calligraphy_Inscription, mdhn:Feasting, mdhn:Architectural_Structure, mdhn:Rocks, mdhn:Turban, mdhn:Headgear, mdhn:Robe, mdhn:Iwan, mdhn:Blossom, mdhn:Plant, mdhn:Bird, mdhn:Glazed_Tile, mdhn:WineBowl
 
 ### mdhn:Calligraphy_Inscription: Unnamed
 - ![ Unnamed ](https://ids.si.edu/ids/iiif/FS-7238_47/1608,1015,316,116/200,/0/default.jpg)
@@ -2696,6 +2757,7 @@
 ## ResourceCanvas: f.19 — Solomon and Bilqis
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Solomon_and_Queen_of_Sheba, mdhn:Solomon, mdhn:Queen_of_Sheba, mdhn:Asfi_bin_Barkhiya, mdhn:iconclass71I6, mdhn:iconclass71I_PersianCourt, mdhn:Flaming_Nimbus, mdhn:God, mdhn:Simurgh, mdhn:Bird, mdhn:Eurasian_Hoopoe, mdhn:Throne, mdhn:Angles_From_Heaven, mdhn:Persian_Architecture, mdhn:Calligraphy_Inscription, mdhn:Building_Ornament, mdhn:Divs, mdhn:Daraygah, mdhn:Sea_River_Pool, mdhn:Feasting, mdhn:Architectural_Structure, mdhn:Balcony, mdhn:Pool, mdhn:Glazed_Tile, mdhn:Cypress, mdhn:Royal_Court, mdhn:Headgear, mdhn:Turban, mdhn:Robe, mdhn:Cloud, mdhn:Flower, mdhn:Blossom, mdhn:Plant, mdhn:Tree, mdhn:Duck, mdhn:Horse, mdhn:Fountain, mdhn:Veiled_Face, mdhn:Dagger, mdhn:SunShade
 
 ### mdhn:Fragment_Cropped_Image: Solomon cropped figure from FS-8474_19
 - ![ Solomon cropped figure from FS-8474_19 ](https://ids.si.edu/ids/iiif/FS-8474_19/2573,2461,445,1034/200,/0/default.jpg)
@@ -2787,6 +2849,7 @@
 ## ResourceCanvas: f.107v — Qisas al-anbiya Per 231, Moses staff becomes a snake
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Story_of_Moses, mdhn:Staff_becomes_Serpent, mdhn:iconclass71E11641, mdhn:Dragon, mdhn:Headgear, mdhn:Cloud, mdhn:Horse_Saddle, mdhn:Horse, mdhn:Bow_and_Arrow, mdhn:Robe, mdhn:Flaming_Nimbus, mdhn:Veiled_Face, mdhn:Horse_Riding
 
 ### mdhn:Fragment_Cropped_Image: Moses cropped figure from 107v
 - ![ Moses cropped figure from 107v ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_224.jpg/2121,2525,742,1616/200,/0/default.jpg)
@@ -2825,6 +2888,7 @@
 ## ResourceCanvas: f.134r — Qisas al-anbiya Per 231, Qarun swallowed by the earth
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Story_of_Moses, mdhn:Qarun_swallowed_by_the_earth, mdhn:Headgear, mdhn:Horse, mdhn:Robe, mdhn:Flaming_Nimbus, mdhn:Veiled_Face
 
 ### mdhn:Fragment_Cropped_Image: Moses cropped figure from 134r
 - ![ Moses cropped figure from 134r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_277.jpg/2999,1641,818,1933/200,/0/default.jpg)
@@ -2863,6 +2927,7 @@
 ## ResourceCanvas: f.156r — Qisas al-anbiya Per 231, God sent a great fish to swallow Jonah
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Jonah_under_the_Gourd, mdhn:iconclass71V42, mdhn:Sea_River_Pool, mdhn:Rock, mdhn:Tree, mdhn:Flaming_Nimbus, mdhn:Plant, mdhn:Cloud
 
 ### mdhn:Fragment_Cropped_Image: Jonah cropped figure from 156r
 - ![ Jonah cropped figure from 156r ](https://viewer.cbl.ie/viewer/api/v1/records/Per_231/files/images/Per231_321.jpg/2085,3427,1679,1474/200,/0/default.jpg)
@@ -2900,6 +2965,7 @@
 ## ResourceCanvas: f.9r — Âdam and Hawwâ wearing crowns and royal robes enthroned in Paradise
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:iconclass71A3, mdhn:iconclass71A_PersianParadise, mdhn:iconclass71A32, mdhn:iconclass71A421, mdhn:iconclass71A33, mdhn:Adam_and_Eve_Iden_Paradise, mdhn:Adam, mdhn:Eve, mdhn:Jibril, mdhn:Iblis, mdhn:Angles_From_Heaven, mdhn:Cloud, mdhn:Blossom, mdhn:Plant, mdhn:Sea_River_Pool, mdhn:Throne, mdhn:Fruit, mdhn:Sea_River_Pool, mdhn:Flower, mdhn:Garden_of_Eden, mdhn:God, mdhn:Flaming_Nimbus, mdhn:Robe
 
 ### mdhn:Fragment_Cropped_Image: Adam cropped figure from 9r
 - ![ Adam cropped figure from 9r ](https://iiif.nypl.org/iiif/3/psnypl_spn_617/2111,3674,978,1798/200,/0/default.jpg)
@@ -2943,6 +3009,7 @@
 ## ResourceCanvas: f.15r — Ghabil (Cain) carries his dead brother Hâbîl (Abel) on his back
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:iconclass71A8, mdhn:iconclass71A82, mdhn:iconclass71A821, mdhn:iconclass71A822, mdhn:Story_of_Cain_and_Abel, mdhn:Cain_buries_Abel, mdhn:Abel, mdhn:Cain, mdhn:Cow, mdhn:Blossom, mdhn:Plant, mdhn:Flower, mdhn:Cloud, mdhn:Leopard, mdhn:Gazelle, mdhn:Burial, mdhn:Robe, mdhn:Headgear, mdhn:Grave, mdhn:Burial
 
 ### mdhn:Fragment_Cropped_Image: Adam cropped figure from 15r
 - ![ Adam cropped figure from 15r ](https://iiif.nypl.org/iiif/3/57463913/3578,4066,342,340/200,/0/default.jpg)
@@ -2983,6 +3050,7 @@
 ## ResourceCanvas: f.19r — Nuh (Noah) and his family on deck in the ark
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:iconclass71B3, mdhn:iconclass71B33, mdhn:iconclass71B331, mdhn:iconclass71B34, mdhn:Story_of_Noah, mdhn:Noah_and_Family_on_the_Ark, mdhn:Noah, mdhn:Kanan, mdhn:Ship, mdhn:Horse, mdhn:Sail, mdhn:Sea_River_Pool, mdhn:Drowning, mdhn:Minaret, mdhn:Dome, mdhn:Cow, mdhn:Sheep, mdhn:Lino, mdhn:Camel, mdhn:Leopard, mdhn:Goat, mdhn:Gazelle, mdhn:Donkey, mdhn:Robe, mdhn:Headgear, mdhn:Veil
 
 ### mdhn:Fragment_Cropped_Image: Noah cropped figure from 19r
 - ![ Noah cropped figure from 19r ](https://iiif.nypl.org/iiif/3/psnypl_spn_575/2596,2873,866,1673/200,/0/default.jpg)
@@ -3053,6 +3121,7 @@
 ## ResourceCanvas: f.8v — The expulsion of Âdam and Hawwâ from Paradise
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:iconclass71A5, mdhn:iconclass71A6, mdhn:iconclass71A61, mdhn:Expulsion_of_Adam_and_Eve, mdhn:Iblis, mdhn:Angles_From_Heaven, mdhn:Peacock, mdhn:Snake, mdhn:Adam, mdhn:Eve, mdhn:Sea_River_Pool, mdhn:Flower, mdhn:Garden_of_Eden, mdhn:God, mdhn:Flaming_Nimbus, mdhn:Cloud, mdhn:Robe, mdhn:Headgear, mdhn:Balcony, mdhn:Sword
 
 ### mdhn:Fragment_Cropped_Image: Adam cropped figure from 8v
 - ![ Adam cropped figure from 8v ](https://iiif.nypl.org/iiif/3/1658025/1569,3981,1045,1939/200,/0/default.jpg)
@@ -3114,6 +3183,7 @@
 ## ResourceCanvas: f.3r — Folio 3
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Story_of_Ramayana, mdhn:Fortress, mdhn:Architectural_Structure, mdhn:Brass_Metal_Jingle, mdhn:Spear, mdhn:Column, mdhn:Divs, mdhn:Minaret, mdhn:Tree, mdhn:Gazelle, mdhn:Monkey
 
 ### mdhn:Fragment_Cropped_Image: Female Div cropped figure from 3r
 - ![ Female Div cropped figure from 3r ](https://ids.si.edu/ids/iiif/FS-6987_03/1410,1630,429,570/200,/0/default.jpg)
@@ -3160,6 +3230,7 @@
 ## ResourceCanvas: f.6r — Folio 6
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Story_of_Ramayana, mdhn:Rocks, mdhn:Bow_and_Arrow, mdhn:Brass_Metal_Jingle, mdhn:Misbaha, mdhn:GemEncrustedCrown, mdhn:Divs, mdhn:Ring, mdhn:Tree
 
 ### mdhn:Fragment_Cropped_Image: Female Div cropped figure from 6r
 - ![ Female Div cropped figure from 6r ](https://ids.si.edu/ids/iiif/FS-6988_06/360,888,925,1859/200,/0/default.jpg)
@@ -3186,6 +3257,7 @@
 ## ResourceCanvas: f.9r — Folio 9
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Story_of_Ramayana, mdhn:Rocks, mdhn:Bow_and_Arrow, mdhn:Brass_Metal_Jingle, mdhn:Earing, mdhn:GemEncrustedCrown, mdhn:Divs, mdhn:Sea_River_Pool, mdhn:Tree
 
 ### mdhn:Fragment_Cropped_Image: Marich Div cropped figure from 9r
 - ![ Marich Div cropped figure from 9r ](https://ids.si.edu/ids/iiif/FS-6988_09/204,1732,1798,1794/200,/0/default.jpg)
@@ -3223,6 +3295,7 @@
 ## ResourceCanvas: f.8v — Folio 8
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Story_of_Ramayana, mdhn:Throne, mdhn:LongNeckedJar, mdhn:Stick, mdhn:GemEncrustedCrown, mdhn:Divs, mdhn:Building_Ornament, mdhn:Architectural_Structure, mdhn:Column
 
 ### mdhn:Fragment_Cropped_Image: two figures cropped figure from 8
 - ![ two figures cropped figure from 8 ](https://ids.si.edu/ids/iiif/FS-6997_08/282,919,729,784/200,/0/default.jpg)
@@ -3256,6 +3329,7 @@
 ## ResourceCanvas: f.3v — Folio 3
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012
 - **Contains:** HasText, HasPainting
+- **Depicts:** mdhn:Story_of_Ramayana, mdhn:Bolster, mdhn:Brass_Metal_Jingle, mdhn:Misbaha, mdhn:Column, mdhn:Divs
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from 3v
 - ![ Div cropped figure from 3v ](https://ids.si.edu/ids/iiif/FS-6998_03/233,846,1742,1238/200,/0/default.jpg)
@@ -3285,6 +3359,7 @@
 ## ResourceCanvas: f.139 — Lamentation at the bier of a Mongol ruler
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660, aat:500011092, aat:300033936
 - **Contains:** HasPainting
+- **Depicts:** mdhn:Mourning, mdhn:Braid_Hair, mdhn:Coffin, mdhn:Clothing
 
 ### mdhn:Fragment_Cropped_Image: Coffin cropped figure from 139
 - ![ Coffin cropped figure from 139 ](https://content.staatsbibliothek-berlin.de/dc/635104741-0119/2497,910,3207,1954/200,/0/default.jpg)
@@ -3314,6 +3389,7 @@
 
 ## ResourceCanvas: f.1r — Muraqqa btv1b84322466 folio 1r
 - **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+- **Depicts:** mdhn:Prayer
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 1r
 - ![ Segment1 in 1r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f7/1441,1802,2202,3708/200,/90/default.jpg)
@@ -3331,6 +3407,7 @@
 
 ## ResourceCanvas: f.1r — Muraqqa btv1b84322466 folio 2r
 - **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+- **Depicts:** mdhn:Prayer
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 2r
 - ![ Segment1 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f9/909,739,3290,2442/200,/0/default.jpg)
@@ -3359,6 +3436,7 @@
 
 ## ResourceCanvas: f.3r — Muraqqa btv1b84322466 folio 3r
 - **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+- **Depicts:** mdhn:Paper_Marbling, mdhn:Text_or_Verses
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 3r
 - ![ Segment1 in 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f11/1853,1987,1707,3341/200,/90/default.jpg)
@@ -3375,6 +3453,7 @@
 
 ## ResourceCanvas: f.4r — Muraqqa btv1b84322466 folio 4r
 - **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+- **Depicts:** mdhn:Paper_Marbling, mdhn:Text_or_Verses
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 4r
 - ![ Segment1 in 4r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f13/1186,1504,2776,4289/200,/90/default.jpg)
@@ -3391,6 +3470,7 @@
 
 ## ResourceCanvas: f.5r — Muraqqa btv1b84322466 folio 5r
 - **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+- **Depicts:** mdhn:Prayer, mdhn:Text_or_Verses
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 5r
 - ![ Segment1 in 5r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f13/1186,1504,2776,4289/200,/90/default.jpg)
@@ -3407,6 +3487,7 @@
 
 ## ResourceCanvas: f.6r — Muraqqa btv1b84322466 folio 6r
 - **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+- **Depicts:** mdhn:Fatih_al_Shabab, mdhn:Text_or_Verses
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 6r
 - ![ Segment1 in 6r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f17/1266,1906,2587,3531/200,/0/default.jpg)
@@ -3429,6 +3510,7 @@
 
 ## ResourceCanvas: f.7r — Muraqqa btv1b84322466 folio 7r
 - **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+- **Depicts:** mdhn:Paper_Marbling, mdhn:Text_or_Verses
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 7r
 - ![ Segment1 in 7r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f19/2129,2044,1358,3290/200,/90/default.jpg)
@@ -3445,6 +3527,7 @@
 
 ## ResourceCanvas: f.8r — Muraqqa btv1b84322466 folio 8r
 - **Canvas Types:** aat:900100100, aat:500011000, aat:900010156
+- **Depicts:** mdhn:Paper_Marbling, mdhn:Text_or_Verses
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 8r
 - ![ Segment1 in 8r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f21/1296,1914,2554,3348/200,/0/default.jpg)
@@ -3460,6 +3543,7 @@
 
 ## ResourceCanvas: f.9r — Muraqqa btv1b84322466 folio 9r
 - **Canvas Types:** aat:900100100, aat:500011000, aat:900010156, aat:500011066, aat:300010002
+- **Depicts:** mdhn:Text_or_Verses
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 9r
 - ![ Segment1 in 9r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f23/1061,2048,2990,3951/200,/0/default.jpg)
@@ -3476,6 +3560,7 @@
 
 ## ResourceCanvas: f.10r — Muraqqa btv1b84322466 folio 10r
 - **Canvas Types:** aat:900100100, aat:500011000, aat:900010156, aat:300010003
+- **Depicts:** mdhn:Text_or_Verses
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 10r
 - ![ Segment1 in 10r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84322466/f25/885,884,3352,2271/200,/0/default.jpg)
@@ -3520,6 +3605,7 @@
 ## ResourceCanvas: f.f182b — Strange Ritual
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat, mdhn:Robe, mdhn:Wudu, mdhn:Plants, mdhn:LongNeckedJar, mdhn:Headgear, mdhn:GoldVessel
 
 ### mdhn:Fragment_Cropped_Image: A man preparing for Wudu cropped figure from f182b
 - ![ A man preparing for Wudu cropped figure from f182b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00368.jp2/1208,2329,1021,1191/200,/0/default.jpg)
@@ -3553,6 +3639,7 @@
 ## ResourceCanvas: f.f219a — Jin and Divs
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat, mdhn:jin, mdhn:Divs
 
 ### mdhn:Fragment_Cropped_Image: Jin cropped figure from f219a
 - ![ Jin cropped figure from f219a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00003-000-00441.jp2/847,879,1206,1195/200,/0/default.jpg)
@@ -3596,6 +3683,7 @@
 ## ResourceCanvas: f.f66r — Sagsar Island
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
 - **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat, mdhn:Sagsar_Island, mdhn:Building_Ornament, mdhn:Persian_Architecture, mdhn:Door, mdhn:Dome, mdhn:Flower, mdhn:Blossom, mdhn:Headgear, mdhn:Rocks, mdhn:Divs, mdhn:Sagsar
 
 ### mdhn:Fragment_Cropped_Image: Sagsar creatures cropped figure from f66r
 - ![ Sagsar creatures cropped figure from f66r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00133.jp2/4518,2979,1139,2211/200,/0/default.jpg)
@@ -3638,6 +3726,7 @@
 ## ResourceCanvas: f.f94v — Opening Illuminated Unwan Page  
 - **Canvas Types:** aat:300189604, aat:500181051, aat:500011065, aat:300266660
 - **Contains:** HasIlluminating, HasOnvan
+- **Depicts:** mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat, mdhn:Bab1_Chapter1_Madaniat
 
 ### mdhn:Illuminated_Headpiece: Headpiece1 in f94v
 - ![ Headpiece1 in f94v ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00190.jp2/918,848,3163,2601/200,/0/default.jpg)
@@ -3649,6 +3738,7 @@
 ## ResourceCanvas: f.f107v — Opening Illuminated Unwan Page
 - **Canvas Types:** aat:300189604, aat:500181051, aat:500011065, aat:300266660
 - **Contains:** HasIlluminating, HasOnvan
+- **Depicts:** mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat, mdhn:Bab1_Chapter2_Nabatat
 
 ### mdhn:Illuminated_Headpiece: Headpiece1 in f216v
 - ![ Headpiece1 in f216v ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00216.jp2/1006,1257,3083,2474/200,/0/default.jpg)
@@ -3660,6 +3750,7 @@
 ## ResourceCanvas: f.f133r — Opening Illuminated Unwan Page
 - **Canvas Types:** aat:300189604, aat:500181051, aat:500011065, aat:300266660
 - **Contains:** HasIlluminating, HasOnvan
+- **Depicts:** mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat, mdhn:Bab1_Chapter3_Hayavan
 
 ### mdhn:Illuminated_Headpiece: Headpiece1 in f133r
 - ![ Headpiece1 in f133r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00267.jp2/2326,2257,3054,1320/200,/0/default.jpg)
@@ -3671,6 +3762,7 @@
 ## ResourceCanvas: f.f141r — Opening Illuminated Unwan Page
 - **Canvas Types:** aat:300189604, aat:500181051, aat:500011065, aat:300266660
 - **Contains:** HasIlluminating, HasOnvan
+- **Depicts:** mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat, mdhn:Bab1_Chapter4_Tashrih_Fi_Aza_al_Ensan
 
 ### mdhn:Illuminated_Headpiece: Headpiece1 in f141r
 - ![ Headpiece1 in f141r ](https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00283.jp2/2293,4824,3073,676/200,/0/default.jpg)
@@ -3691,6 +3783,7 @@
 ## ResourceCanvas: f.3b — Khamse Illuminated Headpiece
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
 - **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Illuminated_Headpiece
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 3b
 - ![ Onvan1 in 3b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00012.jp2/787,1520,2292,914/200,/0/default.jpg)
@@ -3712,6 +3805,7 @@
 ## ResourceCanvas: f.4a — Khamse Illuminated Headpiece
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
 - **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Illuminated_Headpiece
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 4a
 - ![ Onvan1 in 4a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00013.jp2/1198,1520,2298,895/200,/0/default.jpg)
@@ -3733,6 +3827,7 @@
 ## ResourceCanvas: f.29b — Khamse Illuminated Headpiece
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
 - **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Khosrow_and_Shirin, mdhn:Illuminated_Headpiece
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 29b
 - ![ Onvan1 in 29b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00064.jp2/296,971,2888,1434/200,/0/default.jpg)
@@ -3744,6 +3839,7 @@
 ## ResourceCanvas: f.98b — Khamse Illuminated Headpiece
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
 - **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Layla_and_Majnun, mdhn:Illuminated_Headpiece
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 98b
 - ![ Onvan1 in 98b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00202.jp2/308,699,3019,1762/200,/0/default.jpg)
@@ -3755,6 +3851,7 @@
 ## ResourceCanvas: f.147b — Khamse Illuminated Headpiece
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
 - **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:The_Seven_Beauties, mdhn:Illuminated_Headpiece
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 147b
 - ![ Onvan1 in 147b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00300.jp2/443,1093,2895,1369/200,/0/default.jpg)
@@ -3766,6 +3863,7 @@
 ## ResourceCanvas: f.203b — Khamse Illuminated Headpiece
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
 - **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Iskandarnama, mdhn:Illuminated_Headpiece
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 203b
 - ![ Onvan1 in 203b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00412.jp2/517,1099,2882,1347/200,/0/default.jpg)
@@ -3777,6 +3875,7 @@
 ## ResourceCanvas: f.275b — Khamse Illuminated Headpiece
 - **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
 - **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Kherad_Nama, mdhn:Illuminated_Headpiece
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 275b
 - ![ Onvan1 in 275b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00556.jp2/367,972,2948,1306/200,/0/default.jpg)
