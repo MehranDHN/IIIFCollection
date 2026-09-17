@@ -197,6 +197,25 @@ The **Getty's Thesaurus of Geographic Names (TGN)** serves as the primary refere
 
 Hierarchical relationships are fully supported. For instance, while **Naqsh-e Jahan Square** is a child of Isfahan is simultaneously serving as a parent concept for the `Shah Mosque`, `Sheikh Lotfollah Mosque`, and the `Qeysariyeh Bazaar entrance`.
 
+Yes — it is finished now. The first write never landed; the script is in the repo and both Shahnameh trees have been generated.
+
+**Script:** `IIIFCollection/tools/visualization/generate_narrative_episode_tree.py`
+
+It starts from a term such as `mdhn:Shahnameh`, walks narrower episodes through `isPartOf` / `ispartOf`, and matches resources from top-level `*Collection.json` files (`depicts` on canvases and the metadata Depicts field). Each hit is listed with the resource label and the collection it belongs to.
+
+```bash
+python IIIFCollection/tools/visualization/generate_narrative_episode_tree.py --root mdhn:Shahnameh --scope all
+python IIIFCollection/tools/visualization/generate_narrative_episode_tree.py --root mdhn:Shahnameh --scope with-resources
+```
+
+| Scope | Output | Result |
+|---|---|---|
+| `all` | `tools/visualization/reports/narrative_episode_tree_Shahnameh_all.md` | Full narrower tree (179 unique episodes under Shahnameh; 402 tree nodes because dual parents such as dastan + reign are shown in both places) |
+| `with-resources` | `tools/visualization/reports/narrative_episode_tree_Shahnameh_with-resources.md` | Only branches that have at least one resource (49 tagged terms, 114 tree nodes, 258 resource listings) |
+
+Shahnameh itself currently has 4 associated resources. Empty Sasanian stubs drop out in `with-resources`; they stay in `all`.
+
+
 ## SPARQL Query Runner (`query_runner.py`)
 
 `IIIFCollection/tools/visualization/query_runner.py` is **Stage 1** of the dynamic visualisation pipeline. It runs a SPARQL `.rq` file against the local IIIFDexir Turtle graph (`Ontology/*.ttl`), then writes a JSON envelope that Stage 2 (`render_query_graph.py`) turns into DOT, Markmap, and statistical HTML.
