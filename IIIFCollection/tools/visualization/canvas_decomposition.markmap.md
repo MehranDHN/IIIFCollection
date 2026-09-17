@@ -3681,3 +3681,109 @@
 
 
 
+
+# Nizami Ganjavi Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Khamseh. Nezâmi Persian MS 36
+
+## ResourceCanvas: f.3b — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 3b
+- ![ Onvan1 in 3b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00012.jp2/787,1520,2292,914/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** بسم الله الرحمن الرحيم
+
+### mdhn:Illuminated_Headpiece: Onvan2 in 3b
+- ![ Onvan2 in 3b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00012.jp2/814,4417,2294,904/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** والصلوة و السلام علی نبيه
+
+### mdhn:Text_or_Verses: Onvan2 in 3b
+- ![ Onvan2 in 3b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00012.jp2/1201,2421,1495,2039/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بسم الله الرحمن الرحيم هست کليد در گمج حکيم فاتجه فکرت و ختم سخن نام خداييست به من رحم کن
+
+---
+
+## ResourceCanvas: f.4a — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 4a
+- ![ Onvan1 in 4a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00013.jp2/1198,1520,2298,895/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** الحمدالله رب العالمين
+
+### mdhn:Illuminated_Headpiece: Onvan2 in 4a
+- ![ Onvan2 in 4a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00013.jp2/1193,4423,2338,930/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** محمد و علی آله اجمعين
+
+### mdhn:Text_or_Verses: Onvan2 in 4a
+- ![ Onvan2 in 4a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00013.jp2/1615,2402,1483,2061/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** داغ نه ناصيه داران پاک باج ده تخت نشينان خاک خام کن پخته تدبيرها عذر پذيرنده تقصيرها
+
+---
+
+## ResourceCanvas: f.29b — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 29b
+- ![ Onvan1 in 29b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00064.jp2/296,971,2888,1434/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** کتاب خسرو شيرين
+
+---
+
+## ResourceCanvas: f.98b — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 98b
+- ![ Onvan1 in 98b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00202.jp2/308,699,3019,1762/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** کتاب ليلی و مجنون
+
+---
+
+## ResourceCanvas: f.147b — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 147b
+- ![ Onvan1 in 147b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00300.jp2/443,1093,2895,1369/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** کتاب هفت پيکر
+
+---
+
+## ResourceCanvas: f.203b — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 203b
+- ![ Onvan1 in 203b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00412.jp2/517,1099,2882,1347/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** کتاب اسکندرنامه
+
+---
+
+## ResourceCanvas: f.275b — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 275b
+- ![ Onvan1 in 275b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00556.jp2/367,972,2948,1306/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** کتاب خردنامه
+
+---
+
+
+
