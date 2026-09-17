@@ -670,18 +670,20 @@ API در نسخهٔ ۱٫۰٫۰ قرار دارند.
 **On-slide title.** *IIIF: A Blueprint for the Future of Digital Cultural Heritage*  
 **On-slide subtitle.** Demystifying the International Image Interoperability Framework and the radical decoupling of digital archives.
 
-#### Caption (English)
+<div style="dir:rtl">
+#### شرح اسلايد
 
-The opening slide does not begin with a logo or a consortium slogan. It places a Persian illuminated folio on a measured X/Y plane and draws three rectangular regions, each labelled with pixel geometry (`x`, `y`, `w`, `h`). That single diagram is the thesis of the whole deck: a cultural object, once digitized, is no longer only a picture. It is an addressable surface. Any region — a heading in nastaʿlīq, a central miniature, a corner medallion — can be named, cropped, annotated, searched, and reused without moving the master file.
-
-The coordinates shown on the slide are illustrative, not a real IIIF request, but they preview the Image API’s region syntax and the Presentation API’s canvas geometry. Heritage here is treated as *space*, not as a download. Everything that follows — Manifests, Canvases, painting annotations, virtual reunification — is a way of talking about that space in a language every compliant viewer already understands.
-
-#### شرح فارسی
-
-اسلاید نخست به‌جای لوگو یا شعار کنسرسیوم، یک برگهٔ مذهّب فارسی را روی دستگاه مختصات X/Y می‌گذارد و سه ناحیه را با هندسهٔ پیکسلی (`x`، `y`، `w`، `h`) مشخص می‌کند. همین تصویر تزِ کل مجموعه است: اثر فرهنگی پس از رقمی‌سازی فقط «یک عکس» نیست؛ یک سطح آدرس‌پذیر است. هر ناحیه — یک سطر نستعلیق، مجلس مرکزی، یا ترنج گوشه — می‌تواند نام‌گذاری، برش، حاشیه‌نویسی، جست‌وجو و بازاستفاده شود، بی‌آنکه فایل مادر جابه‌جا شود.
-
-مختصات روی اسلاید جنبهٔ آموزشی دارند، اما پیش‌نمایشی از نحو ناحیه در Image API و هندسهٔ کانواس در Presentation API هستند. میراث در اینجا به‌مثابه **فضا** فهمیده می‌شود، نه به‌مثابه یک فایل برای دانلود. مانیفست، کانواس، حاشیه‌نویسیِ نقاشی، و وحدت مجازی، همگی زبان مشترکی برای همین فضا هستند.
-
+در اين اسلايد ارائه گويايی از وضعيت يک کانواس را مشاهده می کنيم. محورهای مدرج افقی و عمودی پيام مهمی را منتقل می کنند و آن اينکه IIIF Canvas يک صفحه دو بعدی است که هر نقطه بر روی آن مختصات مشخصی دارد . اين فضای دو بعدی می تواند يک مدل سه بعدی را نيز ارائه کند که از مباحث جديدتر در IIIF هستند.
+در حالت عادی اين فضای خالی هيچ محتوايی ندارد و انواع محتوا از جمله تصاوير بر روی Canvas قرار می گيرند.
+در اين اسلايد يک صفحه فرضی از يک مرقع (با ابعاد تقريبی 600 پيکسل طول و 400 پيکسل عرض) بر روی Canvas قرار گرفته است. در اين مثال ابعاد تصوير و ابعاد Canvas تقريبا بر هم منطبق هستند اما اين هميشه درست نيست .
+در قسمت Annotation شرح داده شد که محتوايی که بر روی Canvas ارائه ميشود به واسطه Annotation تامين ميشود که انواع محتلفی نيز دارد.
+رابطه يک Canvas با Annotation يک رابطه يک به يک يا يک به چند است. به عبارت ساده تر يک Canvas می تواند بيش از يک Annotation داشته باشد که در اين اسلايد اتفاقا شاهد چنين وضعيتی هستيم.
+به طور دقيقتر اين Canvas شامل چهار Annotation است .
+اولين Annotation کل تصوير را شامل ميشود.
+سه Annotation بعدی از يک نوع هستند و نواحی مشخصی را بر اساس مختصات کارتزين بر روی تصوير متايز می کنند. مختصات هر کدام از اين نواحی با x و y و اندازه طول و عرض آنها با w و h مشخص شده که جفت اول مختصات گوشه بالا و سمت چپ ناحيه (Region) و جفت دوم اندازه طول و عرض ناحيه هستند.
+نکته بسيار مهمی که در اين مثال بايد به آن توجه داشت اين است که چرا اين سه ناحيه متمايز شده ؟
+در پاسخ بايد گفت که اگر مجددا به تعريف و کاربرد Annotation توجه کنيم خواهيم ديد که مهمترين کاربرد Annotation امکان اتصال داده ها و محتوا به نواحی تعيين شده يک تصوير است. در اين مثال به صورت نمادين ناحيه اول ي: بيت شعر تذهيب شده ، ناحيه دوم يک نگاره و ناحيه سوم يک شمسه کوجک در گوشه پايين و سمت راست تصوير ا ست. IIIF به واسطه Annotation امکان اتصال متاديتا و شناسنامه در توصيف نواحی انتخاب شده  شامل کاربرد، سبک، تکنيک، متريال، موضوع و ... را فراهم می کند. اين اطلاعات يا خود به صورت بسته اطلاعات منظم، يا متن تشريحی و يا حتی پيوند به يک مرجع خارجی است که Annotation ها را بسيار انعطاف پذير و قدرتمند ميسازد.
+</div>
 ---
 
 <a id="slide-02"></a>
