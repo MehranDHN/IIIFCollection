@@ -887,6 +887,351 @@
 
 
 
+# Shahnama Supplement persan 489
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Shāhnāmah Supplément persan 489
+
+## ResourceCanvas: f.f2 — Marble Page
+- **Canvas Types:** aat:300189604, aat:500181050, aat:500011070
+- **Contains:** IsMarblePage
+- **Depicts:** mdhn:Paper_Marbling
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f2
+- ![ Pattern cropped from f2 ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f2/246,266,3586,1808/200,/0/default.jpg)
+- **Styles:** aat:500011070
+
+---
+
+## ResourceCanvas: f.f3 — Marble Page
+- **Canvas Types:** aat:300189604, aat:500181050, aat:500011070
+- **Contains:** IsMarblePage
+- **Depicts:** mdhn:Paper_Marbling
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f2
+- ![ Pattern cropped from f2 ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f3/274,436,3556,2015/200,/0/default.jpg)
+- **Styles:** aat:500011070
+
+---
+
+## ResourceCanvas: f.2r — Rosette
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasShamse, HasIllumination
+- **Depicts:** mdhn:Rosette
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 2r
+- ![ Pattern cropped from 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f15/1022,2060,2564,1810/200,/0/default.jpg)
+- **Styles:** aat:300009972
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 2r
+- ![ Pattern cropped from 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f15/2130,896,483,787/200,/0/default.jpg)
+- **Styles:** aat:500011066, aat:500011085
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 2r
+- ![ Pattern cropped from 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f15/2113,4257,426,840/200,/0/default.jpg)
+- **Styles:** aat:500011066, aat:500011085
+
+### mdhn:Seal_or_Toghra: Seal in Shamsa Page 2r
+- ![ Seal in Shamsa Page 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f15/1517,4522,306,270/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:God, mshn:Muhammad, mdhn:Ali_ibn_Abi_Talib
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** الله محمد علی 1030
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 2r
+- ![ Onvan1 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f15/2017,1666,677,490/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** لصاحبة السعاد و السلامة
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 2r
+- ![ Onvan1 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f15/2017,1666,677,490/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** و طول العمر ماناحت حمامة
+
+---
+
+## ResourceCanvas: f.2v — Right part of Outdoor scene
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300220539
+- **Contains:** HasPainting, HasIllumination
+- **Depicts:** mdhn:BlueSky, mdhn:Feasting, mdhn:Rocks, mdhn:Plant, mdhn:Tree, mdhn:Flower, mdhn:Water, mdhn:Sea_River_Pool, mdhn:Cypress, mdhn:Fruits, mdhn:WineCup, mdhn:LongNeckedBottle, mdhn:LongNeckedJar, mdhn:GoldVessel, mdhn:Bowl, mdhn:WineBowl, mdhn:Blossom, mdhn:Flower, mdhn:Duck, mdhn:Headgear, mdhn:GemEncrustedBelt, mdhn:Robe, mdhn:Throne
+
+### mdhn:Fragment_Cropped_Image: Sitted king cropped figure from 2v
+- ![ Sitted king cropped figure from 2v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f16/1075,2390,809,1327/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Service to the king cropped figure from 2v
+- ![ Service to the king cropped figure from 2v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f16/278,2234,890,1691/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Guests in Feasting cropped figure from 2v
+- ![ Guests in Feasting cropped figure from 2v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f16/1906,2216,789,1543/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Guests in Feasting cropped figure from 2v
+- ![ Guests in Feasting cropped figure from 2v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f16/292,3742,540,910/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 2v
+- ![ Pattern cropped from 2v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f16/272,824,2916,481/200,/0/default.jpg)
+- **Styles:** aat:500011066
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 2v
+- ![ Pattern cropped from 2v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f16/267,4755,2949,480/200,/0/default.jpg)
+- **Styles:** aat:500011066
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 2v
+- ![ Pattern cropped from 2v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f16/2734,1790,808,2413/200,/0/default.jpg)
+- **Styles:** aat:500011066
+
+---
+
+## ResourceCanvas: f.3r — Left part of Outdoor scene
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300220539
+- **Contains:** HasPainting, HasIllumination
+- **Depicts:** mdhn:BlueSky, mdhn:Rocks, mdhn:Plant, mdhn:Tree, mdhn:Flower, mdhn:Water, mdhn:Cypress, mdhn:Fruits, mdhn:WineCup, mdhn:LongNeckedBottle, mdhn:LongNeckedJar, mdhn:GoldVessel, mdhn:Bowl, mdhn:WineBowl, mdhn:Blossom, mdhn:Flower, mdhn:Headgear, mdhn:GemEncrustedBelt, mdhn:Robe, mdhn:Horse, mdhn:Horse_Saddle
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from 3r
+- ![ People cropped figure from 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f17/1802,2390,529,855/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from 3r
+- ![ People cropped figure from 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f17/1152,2017,784,996/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from 3r
+- ![ People cropped figure from 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f16/1906,2216,789,1543/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Peopke cropped figure from 3r
+- ![ Peopke cropped figure from 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f17/2625,2067,841,1498/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: People cropped figure from 3r
+- ![ People cropped figure from 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f17/2456,3492,994,1101/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Horse cropped figure from 3r
+- ![ Horse cropped figure from 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f17/1245,3378,1249,1136/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 3r
+- ![ Pattern cropped from 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f17/600,842,2913,489/200,/0/default.jpg)
+- **Styles:** aat:500011066
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 3r
+- ![ Pattern cropped from 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f17/629,4728,2936,528/200,/0/default.jpg)
+- **Styles:** aat:500011066
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 3r
+- ![ Pattern cropped from 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f17/302,1748,799,2135/200,/0/default.jpg)
+- **Styles:** aat:500011066
+
+---
+
+## ResourceCanvas: f.3v — Right part of Double sided carpet illuminated page
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539
+- **Contains:** IsCarpetIlluminatedPage, HasIllumination
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 3v
+- ![ Pattern cropped from 3v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f18/539,803,2638,349/200,/0/default.jpg)
+- **Styles:** aat:500011066
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 3v
+- ![ Pattern cropped from 3v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f18/536,4895,2657,368/200,/0/default.jpg)
+- **Styles:** aat:500011066
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 3v
+- ![ Pattern cropped from 3v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f18/2369,2156,1320,1794/200,/0/default.jpg)
+- **Styles:** aat:500011066
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 3v
+- ![ Onvan1 in 3v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f18/621,1294,2065,786/200,/0/default.jpg)
+- **Styles:** aat:300265540
+- **Persian Text:** ای در صف اهل نظم استاد سخن
+
+### mdhn:Illuminated_Headpiece: Onvan2 in 3r
+- ![ Onvan2 in 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f18/639,4047,2063,701/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** شد تازه و محکم از تو بنياد سخن
+
+### mdhn:Text_or_Verses: Textblock in 3v
+- ![ Textblock in 3v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f18/977,2215,1371,1676/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** افتتاح سخن آن به که کنند اهل کمال به ثنای ملک الملک خدای متعال
+
+---
+
+## ResourceCanvas: f.4r — Left part of Double sided carpet illuminated page
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:300220539, aat:500011053, aat:500011064
+- **Contains:** IsCarpetIlluminatedPage, HasIllumination
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 4r
+- ![ Pattern cropped from 4r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f19/808,821,2699,406/200,/0/default.jpg)
+- **Styles:** aat:500011066
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 4r
+- ![ Pattern cropped from 4r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f19/823,4868,2652,414/200,/0/default.jpg)
+- **Styles:** aat:500011066
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 4r
+- ![ Pattern cropped from 4r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f19/416,2072,1179,1949/200,/0/default.jpg)
+- **Styles:** aat:500011066
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 4r
+- ![ Onvan1 in 4r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f19/1309,1320,2079,769/200,/0/default.jpg)
+- **Styles:** aat:300265540
+- **Persian Text:** فردوس مقام بادت ای فردوسی
+
+### mdhn:Illuminated_Headpiece: Onvan2 in 4r
+- ![ Onvan2 in 4r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f19/1325,4017,2038,764/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** انصاف که نيک داده‌ای داد سخن
+
+### mdhn:Text_or_Verses: Textblock in 4r
+- ![ Textblock in 4r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f19/1665,2216,1360,1692/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** کمينه مرقاة آستان جلال اوست و قنديل جهانتاب آفتاب و فانوس شمع ماه کمترينه مسکوت درگاه کبريايی او
+
+---
+
+## ResourceCanvas: f.14v — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Shahnameh, mdhn:Illuminated_Headpiece
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 14v
+- ![ Onvan1 in 14v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f40/224,310,2482,1752/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** کتاب شاهنامه فردوسی طوسی علي الرحمة
+
+---
+
+## ResourceCanvas: f.16v — Court Of Keyumars
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:300220539, aat:500011053, aat:500011064
+- **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Kingdom_of_Keyumars, mdhn:LeopardSkinDress, mdhn:Rocks, mdhn:Plant, mdhn:Tree, mdhn:Flower, mdhn:Cat, mdhn:Leopard, mdhn:Fox, mdhn:Deer, mdhn:Headgear, mdhn:Lion, mdhn:LongNeckedJar, mdhn:GoldVessel, mdhn:Bowl, mdhn:WineBowl, mdhn:Blossom, mdhn:Flower, mdhn:Headgear, mdhn:GemEncrustedBelt, mdhn:Robe, mdhn:Vessel
+
+### mdhn:Fragment_Cropped_Image: Keyumars cropped figure from 16v
+- ![ Keyumars cropped figure from 16v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f44/1057,2300,979,1207/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Keyumars
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 16v
+- ![ Siamak cropped figure from 16v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f44/1887,2356,577,940/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Siamak
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unknown Figure cropped figure from 16v
+- ![ Unknown Figure cropped figure from 16v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f44/522,2907,633,1071/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+---
+
+## ResourceCanvas: f.26r — Kingdom of Fereydun
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasOnvan, HasText
+- **Depicts:** mdhn:Kingdom_of_Fereydun, mdhn:Cypress, mdhn:Rocks, mdhn:Plant, mdhn:Tree, mdhn:Flower, mdhn:Sea_River_Pool, mdhn:LongNeckedBottle, mdhn:Vessel, mdhn:HandledJug, mdhn:Headgear, mdhn:WineCup, mdhn:LongNeckedJar, mdhn:GoldVessel, mdhn:Bowl, mdhn:WineBowl, mdhn:Blossom, mdhn:Flower, mdhn:Headgear, mdhn:GemEncrustedBelt, mdhn:Robe, mdhn:Fruits, mdhn:Throne
+
+### mdhn:Fragment_Cropped_Image: Fereydun cropped figure from 26r
+- ![ Fereydun cropped figure from 26r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f63/1977,2036,863,1481/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Fereydun
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Fereydun's sons cropped figure from 26r
+- ![ Fereydun's sons cropped figure from 26r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f63/1311,2489,844,1480/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Salm, mdhn:Tur, mdhn:Iraj
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Unknown Figure cropped figure from 26r
+- ![ Unknown Figure cropped figure from 26r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f63/2885,2250,839,1980/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+---
+
+## ResourceCanvas: f.66r — Battle of Rostam and Afrasiab
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasOnvan, HasText
+- **Depicts:** mdhn:Battle_Of_Rostam_and_Afrasiab, mdhn:Kingdom_of_Kay_Qubad, mdhn:RostamStory, mdhn:Horse, mdhn:Rocks, mdhn:Plant, mdhn:Tree, mdhn:Bow_and_Arrow, mdhn:Combat_Helmet, mdhn:Babr_e_Bayan, mdhn:Horse_Saddle, mdhn:Sword
+
+### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 66r
+- ![ Rostam cropped figure from 66r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f143/1686,2197,844,1234/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Afrasiab cropped figure from 66r
+- ![ Afrasiab cropped figure from 66r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f143/2010,1874,1007,1076/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Afrasiab
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 66r
+- ![ Rakhsh cropped figure from 66r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f143/1225,2833,1476,828/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rakhsh
+- **Styles:** aat:500011001
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 66r
+- ![ Onvan1 in 66r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f143/2133,1834,872,187/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam, mdhn:Afrasiab
+- **Styles:** aat:300195198
+- **Persian Text:** جمگ رستم با افراسياب بارآور
+- **English Text:** Battle of Rostam and Afrasiab
+
+### mdhn:Text_or_Verses: Textblock1 in 66r
+- ![ Textblock1 in 66r ](https://images.lib.cam.ac.uk/iiif/MS-RAS-00239-00001-000-00087.jp2/1944,2349,3102,2099/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam, mdhn:Afrasiab
+- **Styles:** aat:300265532
+- **Persian Text:** من امروز بند کمرگاه اوی
+
+### mdhn:Text_or_Verses: Textblock2 in 66r
+- ![ Textblock2 in 66r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f143/1261,3662,2506,1128/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam, mdhn:Afrasiab
+- **Styles:** aat:300265532
+- **Persian Text:** همی خواست بردنش پیش قباد
+
+---
+
+## ResourceCanvas: f.75r — Sh 489, Seventh Labour. Rostam kills the white Div
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasOnvan, HasText
+- **Depicts:** mdhn:RostamStory, mdhn:Rostams_Seventh_Labour, mdhn:Rock, mdhn:Plant, mdhn:Divs, mdhn:Horse, mdhn:Combat_Helmet, mdhn:Babr_e_Bayan, mdhn:Dagger, mdhn:TearingApart, mdhn:Cave, mdhn:Tree, mdhn:Robe
+
+### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 75r
+- ![ Rostam cropped figure from 75r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/2730,3295,651,1318/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: White Div cropped figure from 75r
+- ![ White Div cropped figure from 75r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/2235,3655,1456,1074/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:White_Div_7th_Course
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Olad Div cropped figure from 75r
+- ![ Olad Div cropped figure from 75r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/1186,3198,549,1317/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Olad_Div
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 75r
+- ![ Rakhsh cropped figure from 75r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/1772,3325,575,613/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rakhsh
+- **Styles:** aat:500011001
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 75r
+- ![ Onvan1 in 75r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/1930,1604,1172,296/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam
+- **Styles:** aat:300195198
+- **Persian Text:** خوان هفتم
+- **English Text:** Rostam's Seventh Labour
+
+### mdhn:Text_or_Verses: Textblock1 in 75r
+- ![ Textblock1 in 75r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f161/1293,1178,2457,431/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Rostam, mdhn:White_Div_7th_Course
+- **Styles:** aat:300265532
+- **Persian Text:** ز دیوان نبینی نشسته یکی
+
+---
+
+
+
+
 # Shahnama Ms. or. fol. 359
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
@@ -3795,8 +4140,8 @@
 - **Styles:** aat:300194434
 - **Persian Text:** والصلوة و السلام علی نبيه
 
-### mdhn:Text_or_Verses: Onvan2 in 3b
-- ![ Onvan2 in 3b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00012.jp2/1201,2421,1495,2039/200,/0/default.jpg)
+### mdhn:Text_or_Verses: Textblock in 3b
+- ![ Textblock in 3b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00012.jp2/1201,2421,1495,2039/200,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** بسم الله الرحمن الرحيم هست کليد در گنج حکيم فاتحه فکرت و ختم سخن نام خداييست به من رحم کن
 
@@ -3817,8 +4162,8 @@
 - **Styles:** aat:300194434
 - **Persian Text:** محمد و علی آله اجمعين
 
-### mdhn:Text_or_Verses: Onvan2 in 4a
-- ![ Onvan2 in 4a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00013.jp2/1615,2402,1483,2061/200,/0/default.jpg)
+### mdhn:Text_or_Verses: Textblock in 4a
+- ![ Textblock in 4a ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00013.jp2/1615,2402,1483,2061/200,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** داغ نه ناصيه داران پاک باج ده تخت نشينان خاک خام کن پخته تدبيرها عذر پذيرنده تقصيرها
 
@@ -3901,8 +4246,8 @@
 - **Styles:** aat:300194434
 - **Persian Text:** عليه الرحمه
 
-### mdhn:Text_or_Verses: Onvan2 in 2v
-- ![ Onvan2 in 2v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f6/349,1111,679,701/200,/0/default.jpg)
+### mdhn:Text_or_Verses: Textblock in 2v
+- ![ Textblock in 2v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f6/349,1111,679,701/200,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** بسم الله الرحمن الرحيم هست کليد در گنج حکيم فاتحه فکرت و ختم سخن نام خداييست برو ختم کن
 
@@ -3923,8 +4268,8 @@
 - **Styles:** aat:300194434
 - **Persian Text:** والغفران
 
-### mdhn:Text_or_Verses: Onvan2 in 4a
-- ![ Onvan2 in 4a ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f7/690,1076,664,749/200,/0/default.jpg)
+### mdhn:Text_or_Verses: Textblock in 4a
+- ![ Textblock in 4a ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f7/690,1076,664,749/200,/0/default.jpg)
 - **Styles:** aat:300265532
 - **Persian Text:** پرورش آموز درون پروران روزبرآرنده روزی خوران مهره کش رشته يکتای عقل روشنی ديده بينای عقل
 
