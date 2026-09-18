@@ -3781,7 +3781,7 @@
 ## Manifest: Khamseh. Nezâmi Persian MS 36
 
 ## ResourceCanvas: f.3b — Khamse Illuminated Headpiece
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053, aat:500011064
 - **Contains:** HasText, HasIllumination
 - **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Illuminated_Headpiece
 
@@ -3803,7 +3803,7 @@
 ---
 
 ## ResourceCanvas: f.4a — Khamse Illuminated Headpiece
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053, aat:500011064
 - **Contains:** HasText, HasIllumination
 - **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Illuminated_Headpiece
 
@@ -3881,6 +3881,112 @@
 - ![ Onvan1 in 275b ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00556.jp2/367,972,2948,1306/200,/0/default.jpg)
 - **Styles:** aat:300194434
 - **Persian Text:** کتاب خردنامه
+
+---
+
+## Manifest: Bibliothèque nationale et universitaire de Strasbourg
+
+## ResourceCanvas: f.2v — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053, aat:500011064
+- **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Illuminated_Headpiece
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 2v
+- ![ Onvan1 in 2v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f6/90,632,1238,480/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** هذه کتاب
+
+### mdhn:Illuminated_Headpiece: Onvan2 in 2v
+- ![ Onvan2 in 2v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f6/101,1811,1238,480/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** عليه الرحمه
+
+### mdhn:Text_or_Verses: Onvan2 in 2v
+- ![ Onvan2 in 2v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f6/349,1111,679,701/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** بسم الله الرحمن الرحيم هست کليد در گنج حکيم فاتحه فکرت و ختم سخن نام خداييست برو ختم کن
+
+---
+
+## ResourceCanvas: f.3r — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053, aat:500011064
+- **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Illuminated_Headpiece
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 3r
+- ![ Onvan1 in 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f7/408,604,1272,495/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** خمسه نظامی
+
+### mdhn:Illuminated_Headpiece: Onvan2 in 3r
+- ![ Onvan2 in 3r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f7/399,1788,1272,495/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** والغفران
+
+### mdhn:Text_or_Verses: Onvan2 in 4a
+- ![ Onvan2 in 4a ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f7/690,1076,664,749/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** پرورش آموز درون پروران روزبرآرنده روزی خوران مهره کش رشته يکتای عقل روشنی ديده بينای عقل
+
+---
+
+## ResourceCanvas: f.30v — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Khosrow_and_Shirin, mdhn:Illuminated_Headpiece
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 30v
+- ![ Onvan1 in 30v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f62/72,351,1311,598/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** خسرو شيرين
+
+---
+
+## ResourceCanvas: f.107v — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Layla_and_Majnun, mdhn:Illuminated_Headpiece
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 107v
+- ![ Onvan1 in 107v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f216/62,341,1364,588/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** ليلی  مجنون
+
+---
+
+## ResourceCanvas: f.163v — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:The_Seven_Beauties, mdhn:Illuminated_Headpiece
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 163v
+- ![ Onvan1 in 163v ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b102352370/f328/102,342,1335,562/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** هفت پيکر
+
+---
+
+## ResourceCanvas: f.223v — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Iskandarnama, mdhn:Illuminated_Headpiece
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 223v
+- ![ Onvan1 in 223v ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00412.jp2/517,1099,2882,1347/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** اسکندرنامه
+
+---
+
+## ResourceCanvas: f.307v — Khamse Illuminated Headpiece
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300266660, aat:500011053
+- **Contains:** HasText, HasIllumination
+- **Depicts:** mdhn:Khamsa_of_Nizami, mdhn:Eghbal_Nama, mdhn:Illuminated_Headpiece
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 307v
+- ![ Onvan1 in 307v ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00556.jp2/367,972,2948,1306/200,/0/default.jpg)
+- **Styles:** aat:300194434
+- **Persian Text:** اقبال‌نامه
 
 ---
 
