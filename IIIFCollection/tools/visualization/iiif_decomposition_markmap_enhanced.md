@@ -2999,7 +2999,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - **Persian Text:** لصاحبة السعاد و السلامة
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 2r
-#### **Onvan1 in 2r** ![ Onvan1 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f15/2017,1666,677,490/200,/0/default.jpg)
+#### **Onvan1 in 2r** ![ Onvan1 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f15/1945,3777,747,540/200,/0/default.jpg)
 - **Styles:** aat:300195198
 - **Persian Text:** و طول العمر ماناحت حمامة
 
@@ -12692,6 +12692,445 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### **Onvan1 in 307v** ![ Onvan1 in 307v ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00556.jp2/367,972,2948,1306/200,/0/default.jpg)
 - **Styles:** aat:300194434
 - **Persian Text:** اقبال‌نامه
+
+---
+
+
+
+
+# Persian Manuscript Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Ḫulāṣat at-tawārīḫ
+
+## ResourceCanvas: f.Cover — Front Cover
+- **Canvas Types:** aat:300189604, aat:300417741
+- **Contains:** IsCover
+
+---
+
+## ResourceCanvas: f.Cover — Cover
+- **Canvas Types:** aat:300189604, aat:300417741
+- **Contains:** IsCover
+
+---
+
+## ResourceCanvas: f.1v — Opening Unwan Page
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522
+- **Contains:** IsOpeningPage, HasIllumination
+
+---
+
+## ResourceCanvas: f.67r — Ascension to the throne of Shah Tahmasp I.
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+
+### Depicts
+
+#### mdhn:Tahmasb_I_Safavid_Enthroned
+- mdhn:isPartOf: mdhn:Safavid_Iran
+
+#### mdhn:Royal_Court
+- Q1134237
+
+#### mdhn:Throne
+- Q189233
+- skos:exactMatch: mdhn:aat300038141
+
+#### mdhn:Enthronement
+- Q1671499
+- skos:exactMatch: mdhn:aat300054754
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Persian_Architecture
+- Q137133192
+- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
+
+#### mdhn:Feasting
+- Q200538
+- skos:relatedMatch: mdhn:aat300073261
+
+#### mdhn:Architectural_Structure
+- Q811979
+
+#### mdhn:Cloud
+- Q8074
+
+#### mdhn:Wind
+- Q8094
+- skos:exactMatch: mdhn:aat300055395
+
+#### mdhn:Balcony
+- Q170552
+- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
+
+#### mdhn:Fruits
+- Q1364
+
+#### mdhn:Club
+- Q392326
+- skos:broadMatch: mdhn:Weopen
+
+#### mdhn:Oud
+- Q191000
+- skos:exactMatch: mdhn:aat300217935
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:GemEncrustedBelt
+- Q134560
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+
+---
+
+## ResourceCanvas: f.256r — Shah Ismail II Entronment
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+
+### Depicts
+
+#### mdhn:Ismail_Safavid_II_Enthroned
+- mdhn:isPartOf: mdhn:Safavid_Iran
+
+#### mdhn:Royal_Court
+- Q1134237
+
+#### mdhn:Throne
+- Q189233
+- skos:exactMatch: mdhn:aat300038141
+
+#### mdhn:Enthronement
+- Q1671499
+- skos:exactMatch: mdhn:aat300054754
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Persian_Architecture
+- Q137133192
+- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
+
+#### mdhn:Feasting
+- Q200538
+- skos:relatedMatch: mdhn:aat300073261
+
+#### mdhn:Blossom
+- Q2047589
+
+#### mdhn:LongNeckedJar
+- Q2413314
+- skos:exactMatch: mdhn:aat300045685
+
+#### mdhn:WineBowl
+
+#### mdhn:Architectural_Structure
+- Q811979
+
+#### mdhn:Calligraphy_Inscription
+- Q1640824
+- skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
+- skos:relatedMatch: mdhn:aat300208615
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Cypress
+- Q14169641
+- skos:exactMatch: mdhn:aat300343641
+- skos:relatedMatch: mdhn:aat300132410
+
+#### mdhn:Pine_Tree
+- Q59668787
+- skos:relatedMatch: mdhn:aat300132410
+
+#### mdhn:Bird
+- Q5113
+- skos:broadMatch: mdhn:Animal
+
+#### mdhn:Bird_Nest
+- Q1137226
+- skos:relatedMatch: mdhn:aat300429524, mdhn:tgm007038_Nests
+
+#### mdhn:Balcony
+- Q170552
+- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
+
+#### mdhn:Club
+- Q392326
+- skos:broadMatch: mdhn:Weopen
+
+#### mdhn:Oud
+- Q191000
+- skos:exactMatch: mdhn:aat300217935
+
+#### mdhn:Tambourine
+- Q193666
+- skos:exactMatch: mdhn:aat300041759
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:GemEncrustedBelt
+- Q134560
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+
+---
+
+## ResourceCanvas: f.398v — Accession of Shah Abbas I to the throne of Qazwin
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+
+### Depicts
+
+#### mdhn:Abbas_the_Great_Safavid_Enthroned
+- mdhn:isPartOf: mdhn:Safavid_Iran
+
+#### mdhn:Royal_Court
+- Q1134237
+
+#### mdhn:Throne
+- Q189233
+- skos:exactMatch: mdhn:aat300038141
+
+#### mdhn:Enthronement
+- Q1671499
+- skos:exactMatch: mdhn:aat300054754
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Persian_Architecture
+- Q137133192
+- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
+
+#### mdhn:Feasting
+- Q200538
+- skos:relatedMatch: mdhn:aat300073261
+
+#### mdhn:LongNeckedJar
+- Q2413314
+- skos:exactMatch: mdhn:aat300045685
+
+#### mdhn:WineBowl
+
+#### mdhn:Architectural_Structure
+- Q811979
+
+#### mdhn:Tree
+- Q10884
+- skos:exactMatch: mdhn:aat300132410
+
+#### mdhn:Pine_Tree
+- Q59668787
+- skos:relatedMatch: mdhn:aat300132410
+
+#### mdhn:Club
+- Q392326
+- skos:broadMatch: mdhn:Weopen
+
+#### mdhn:Oud
+- Q191000
+- skos:exactMatch: mdhn:aat300217935
+
+#### mdhn:Tambourine
+- Q193666
+- skos:exactMatch: mdhn:aat300041759
+
+#### mdhn:Sitar
+
+#### mdhn:Headgear
+- Q14952
+- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
+
+#### mdhn:GemEncrustedBelt
+- Q134560
+
+#### mdhn:Turban
+- Q2460567
+- skos:exactMatch: mdhn:aat300046127
+- skos:relatedMatch: mdhn:aat300212133
+
+#### mdhn:Robe
+- Q345127
+- skos:exactMatch: mdhn:aat300209852
+- skos:relatedMatch: mdhn:aat300212133
+
+
+---
+
+## Manifest: Five poems W.624
+
+## ResourceCanvas: f.1a — Rosette ![Canvas thumbnail](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000055_300/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasShamse, HasIllumination
+
+### Depicts
+
+#### mdhn:Rosette
+- Q1277215
+- skos:exactMatch: mdhn:aat300009972
+
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 1a
+#### **Pattern cropped from 1a** ![ Pattern cropped from 1a ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000055_300/650,1275,1153,1185/200,/0/default.jpg)
+- **Styles:** aat:300009972
+
+### mdhn:Seal_or_Toghra: Seal in Shamsa Page 2r
+#### **Seal in Shamsa Page 2r** ![ Seal in Shamsa Page 2r ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000055_300/994,2820,411,292/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** خوانده نشد
+
+### mdhn:Seal_or_Toghra: Seal in Shamsa Page 2r
+#### **Seal in Shamsa Page 2r** ![ Seal in Shamsa Page 2r ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000055_300/383,2588,411,292/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** خوانده نشد
+
+### mdhn:Seal_or_Toghra: Seal in Shamsa Page 2r
+#### **Seal in Shamsa Page 2r** ![ Seal in Shamsa Page 2r ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000055_300/484,2131,212,168/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** محمد رنجی
+
+---
+
+## ResourceCanvas: f.1b — Headpiece 1 ![Canvas thumbnail](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000056_300/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasText, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 1a
+#### **Onvan1 in 1a** ![ Onvan1 in 1a ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000056_300/389,314,1325,1497/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** اين برج دقايق که مطلع انوار الهی است و اين درج حقايق که مجمع اسرار نا متناهی است
+
+---
+
+## ResourceCanvas: f.42a — Rosette ![Canvas thumbnail](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000061_300/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasShamse, HasIllumination
+
+### Depicts
+
+#### mdhn:Rosette
+- Q1277215
+- skos:exactMatch: mdhn:aat300009972
+
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 42a
+#### **Pattern cropped from 42a** ![ Pattern cropped from 42a ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000061_300/243,675,2006,2305/200,/0/default.jpg)
+- **Styles:** aat:300009972
+
+### mdhn:Seal_or_Toghra: Ragham in 42a
+#### **Ragham in 42a** ![ Ragham in 42a ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000061_300/1059,2972,380,167/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** عمل حسين نقاش
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Hossein_Nagghash
+
+
+---
+
+## ResourceCanvas: f.42b — Headpiece 1 ![Canvas thumbnail](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000062_300/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasText, HasHalkari, HasIllumination
+
+### mdhn:Fragment_Cropped_Image: Figure cropped figure from 42b
+#### **Figure cropped figure from 42b** ![ Figure cropped figure from 42b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000062_300/1883,1519,380,724/200,/0/default.jpg)
+- **Styles:** aat:500011000
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 42b
+#### **Onvan1 in 42b** ![ Onvan1 in 42b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000062_300/444,331,1360,1138/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** توحيد احدی که از ترکيب دو حرف کاف و نون تفسير حلقنا الزوجن الذکره و الاثنی واضح گرداند
+
+---
+
+## ResourceCanvas: f.90b — Headpiece 1 ![Canvas thumbnail](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000070_300/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasText, HasHalkari, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 90b
+#### **Onvan1 in 90b** ![ Onvan1 in 90b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000070_300/432,316,1323,1186/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** فاقد متن
+
+---
+
+## ResourceCanvas: f.173b — Rosette ![Canvas thumbnail](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000094_300/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasShamse, HasIllumination
+
+### Depicts
+
+#### mdhn:Rosette
+- Q1277215
+- skos:exactMatch: mdhn:aat300009972
+
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 173b
+#### **Pattern cropped from 173b** ![ Pattern cropped from 173b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000094_300/603,1106,1491,1491/200,/0/default.jpg)
+- **Styles:** aat:300009972
+
+---
+
+## ResourceCanvas: f.174b — Headpiece 1 ![Canvas thumbnail](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000032_300/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasText, HasHalkari, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 174b
+#### **Onvan1 in 174b** ![ Onvan1 in 174b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000032_300/446,332,1335,1193/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** فاقد متن
+
+---
+
+## ResourceCanvas: f.211b — Rosette ![Canvas thumbnail](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000046_300/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasShamse, HasIllumination
+
+### Depicts
+
+#### mdhn:Rosette
+- Q1277215
+- skos:exactMatch: mdhn:aat300009972
+
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 211b
+#### **Pattern cropped from 211b** ![ Pattern cropped from 211b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000046_300/641,1295,1269,1269/200,/0/default.jpg)
+- **Styles:** aat:300009972
 
 ---
 

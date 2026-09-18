@@ -944,7 +944,7 @@
 - **Persian Text:** لصاحبة السعاد و السلامة
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 2r
-- ![ Onvan1 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f15/2017,1666,677,490/200,/0/default.jpg)
+- ![ Onvan1 in 2r ](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422995t/f15/1945,3777,747,540/200,/0/default.jpg)
 - **Styles:** aat:300195198
 - **Persian Text:** و طول العمر ماناحت حمامة
 
@@ -4332,6 +4332,169 @@
 - ![ Onvan1 in 307v ](https://image.digitalcollections.manchester.ac.uk/iiif/MS-PERSIAN-00036-000-00556.jp2/367,972,2948,1306/200,/0/default.jpg)
 - **Styles:** aat:300194434
 - **Persian Text:** اقبال‌نامه
+
+---
+
+
+
+
+# Persian Manuscript Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Ḫulāṣat at-tawārīḫ
+
+## ResourceCanvas: f.Cover — Front Cover
+- **Canvas Types:** aat:300189604, aat:300417741
+- **Contains:** IsCover
+
+---
+
+## ResourceCanvas: f.Cover — Cover
+- **Canvas Types:** aat:300189604, aat:300417741
+- **Contains:** IsCover
+
+---
+
+## ResourceCanvas: f.1v — Opening Unwan Page
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300266660, aat:300220539, aat:300264522
+- **Contains:** IsOpeningPage, HasIllumination
+
+---
+
+## ResourceCanvas: f.67r — Ascension to the throne of Shah Tahmasp I.
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Tahmasb_I_Safavid_Enthroned, mdhn:Royal_Court, mdhn:Throne, mdhn:Enthronement, mdhn:Turban, mdhn:Persian_Architecture, mdhn:Feasting, mdhn:Architectural_Structure, mdhn:Cloud, mdhn:Wind, mdhn:Balcony, mdhn:Fruits, mdhn:Club, mdhn:Oud, mdhn:Headgear, mdhn:GemEncrustedBelt, mdhn:Turban, mdhn:Robe
+
+---
+
+## ResourceCanvas: f.256r — Shah Ismail II Entronment
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Ismail_Safavid_II_Enthroned, mdhn:Royal_Court, mdhn:Throne, mdhn:Enthronement, mdhn:Turban, mdhn:Persian_Architecture, mdhn:Feasting, mdhn:Blossom, mdhn:LongNeckedJar, mdhn:WineBowl, mdhn:Architectural_Structure, mdhn:Calligraphy_Inscription, mdhn:Tree, mdhn:Cypress, mdhn:Pine_Tree, mdhn:Bird, mdhn:Bird_Nest, mdhn:Balcony, mdhn:Club, mdhn:Oud, mdhn:Tambourine, mdhn:Headgear, mdhn:GemEncrustedBelt, mdhn:Turban, mdhn:Robe
+
+---
+
+## ResourceCanvas: f.398v — Accession of Shah Abbas I to the throne of Qazwin
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660
+- **Contains:** HasPainting, HasText
+- **Depicts:** mdhn:Abbas_the_Great_Safavid_Enthroned, mdhn:Royal_Court, mdhn:Throne, mdhn:Enthronement, mdhn:Turban, mdhn:Persian_Architecture, mdhn:Feasting, mdhn:LongNeckedJar, mdhn:WineBowl, mdhn:Architectural_Structure, mdhn:Tree, mdhn:Pine_Tree, mdhn:Club, mdhn:Oud, mdhn:Tambourine, mdhn:Sitar, mdhn:Headgear, mdhn:GemEncrustedBelt, mdhn:Turban, mdhn:Robe
+
+---
+
+## Manifest: Five poems W.624
+
+## ResourceCanvas: f.1a — Rosette
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasShamse, HasIllumination
+- **Depicts:** mdhn:Rosette
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 1a
+- ![ Pattern cropped from 1a ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000055_300/650,1275,1153,1185/200,/0/default.jpg)
+- **Styles:** aat:300009972
+
+### mdhn:Seal_or_Toghra: Seal in Shamsa Page 2r
+- ![ Seal in Shamsa Page 2r ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000055_300/994,2820,411,292/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** خوانده نشد
+
+### mdhn:Seal_or_Toghra: Seal in Shamsa Page 2r
+- ![ Seal in Shamsa Page 2r ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000055_300/383,2588,411,292/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** خوانده نشد
+
+### mdhn:Seal_or_Toghra: Seal in Shamsa Page 2r
+- ![ Seal in Shamsa Page 2r ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000055_300/484,2131,212,168/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** محمد رنجی
+
+---
+
+## ResourceCanvas: f.1b — Headpiece 1
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasText, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 1a
+- ![ Onvan1 in 1a ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000056_300/389,314,1325,1497/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** اين برج دقايق که مطلع انوار الهی است و اين درج حقايق که مجمع اسرار نا متناهی است
+
+---
+
+## ResourceCanvas: f.42a — Rosette
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasShamse, HasIllumination
+- **Depicts:** mdhn:Rosette
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 42a
+- ![ Pattern cropped from 42a ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000061_300/243,675,2006,2305/200,/0/default.jpg)
+- **Styles:** aat:300009972
+
+### mdhn:Seal_or_Toghra: Ragham in 42a
+- ![ Ragham in 42a ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000061_300/1059,2972,380,167/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Hossein_Nagghash
+- **Styles:** aat:300265532
+- **Persian Text:** عمل حسين نقاش
+
+---
+
+## ResourceCanvas: f.42b — Headpiece 1
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasText, HasHalkari, HasIllumination
+
+### mdhn:Fragment_Cropped_Image: Figure cropped figure from 42b
+- ![ Figure cropped figure from 42b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000062_300/1883,1519,380,724/200,/0/default.jpg)
+- **Styles:** aat:500011000
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 42b
+- ![ Onvan1 in 42b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000062_300/444,331,1360,1138/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** توحيد احدی که از ترکيب دو حرف کاف و نون تفسير حلقنا الزوجن الذکره و الاثنی واضح گرداند
+
+---
+
+## ResourceCanvas: f.90b — Headpiece 1
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasText, HasHalkari, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 90b
+- ![ Onvan1 in 90b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000070_300/432,316,1323,1186/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** فاقد متن
+
+---
+
+## ResourceCanvas: f.173b — Rosette
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasShamse, HasIllumination
+- **Depicts:** mdhn:Rosette
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 173b
+- ![ Pattern cropped from 173b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000094_300/603,1106,1491,1491/200,/0/default.jpg)
+- **Styles:** aat:300009972
+
+---
+
+## ResourceCanvas: f.174b — Headpiece 1
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasText, HasHalkari, HasIllumination
+
+### mdhn:Illuminated_Headpiece: Onvan1 in 174b
+- ![ Onvan1 in 174b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000032_300/446,332,1335,1193/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** فاقد متن
+
+---
+
+## ResourceCanvas: f.211b — Rosette
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300220539, aat:300009972, aat:500011066
+- **Contains:** HasShamse, HasIllumination
+- **Depicts:** mdhn:Rosette
+
+### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 211b
+- ![ Pattern cropped from 211b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000046_300/641,1295,1269,1269/200,/0/default.jpg)
+- **Styles:** aat:300009972
 
 ---
 
