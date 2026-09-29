@@ -115,31 +115,82 @@ mdhn:Calligraphy_Inscription a mdhn:ArchitecturalConceptOrElement ;
    rdfs:comment "a calligraphic inscription in a work of art" ;
    skos:exactMatch mdhn:aat300028702, mdhn:tgm005411_Inscriptions;
    skos:relatedMatch mdhn:aat300208615;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1640824" .  
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1640824" . 
 
-mdhn:Text_or_Verses a mdhn:ArchitecturalConceptOrElement ;
+
+ 
+
+mdhn:literature a mdhn:Arts_Form ;
+   rdfs:label "literature"@en, "ادبيات"@fa;
+   rdfs:comment "polysemous term referring to a written art form, and the set of all literary works" ;
+   skos:exactMatch mdhn:aat300180362, mdhn:sh2003003668_Literatures;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q8242" . 
+
+mdhn:Text_or_Verses a mdhn:Arts_Form ;
    rdfs:label "Text block in folio"@en, "متن نظم يا نثر"@fa;
-   rdfs:comment "a calligraphic inscription in a work of art" ;
-   skos:exactMatch mdhn:aat500011065;
+   skos:broadMatch mdhn:literature;
    mdhn:icWikiDataURL "" . 
 
-mdhn:Seal_or_Toghra a mdhn:ArchitecturalConceptOrElement ;
+mdhn:Iran_Literatures a mdhn:Arts_Form ;
+   rdfs:label "Iran Literatures"@en, "ادبيات ايران"@fa;
+   skos:broadMatch mdhn:literature;
+   skos:exactMatch  mdhn:sh90004624_Iran_Literatures;   
+   mdhn:icWikiDataURL "" . 
+
+mdhn:Persian_Literatures a mdhn:Arts_Form ;
+   rdfs:label "Persian Literatures"@en, "ادبيات فارسی"@fa;
+   skos:broadMatch mdhn:literature;
+   skos:exactMatch  mdhn:sh85100075_Persian_literature;   
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q365585" .      
+
+mdhn:Epic_Literatures a mdhn:Arts_Form ;
+   rdfs:label "Epic Literatures"@en, "ادبيات حماسی"@fa;
+   skos:broadMatch mdhn:literature;
+   skos:exactMatch mdhn:aat300404209 , mdhn:sh85044293_Epic_literature;
+   mdhn:icWikiDataURL "" .
+
+mdhn:Islamic_Literatures a mdhn:Arts_Form ;
+   rdfs:label "Islamic Literatures"@en, "ادبيات اسلامی"@fa;
+   skos:broadMatch mdhn:literature;
+   skos:exactMatch mdhn:sh2004001806_Islamic_literature;
+   mdhn:icWikiDataURL "" .
+
+mdhn:Shiite_Literatures a mdhn:Arts_Form ;
+   rdfs:label "Shiite Literatures"@en, "ادبيات شيعه"@fa;
+   skos:broadMatch mdhn:Islamic_Literatures;
+   skos:exactMatch  mdhn:sh85121424_Shiite_literature;
+   mdhn:icWikiDataURL "" .               
+       
+
+mdhn:Calligraphic_Artwork a mdhn:Arts_Form ;
+   rdfs:label "Calligraphic_artwork in folio"@en, "قطعه خوشنويسی در مرقعات"@fa;
+   rdfs:comment "a calligraphic page in a manuscript or muraqqa" ;
+   mdhn:icWikiDataURL "" .    
+
+mdhn:Seal_or_Toghra a mdhn:Arts_Form ;
    rdfs:label "Seal"@en, "مهر يا ظغری"@fa;
    rdfs:comment "a calligraphic inscription in a work of art" ;
    skos:exactMatch mdhn:aat500011052 , mdhn:tgm009316_Seals_Insignia;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q162919" .      
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q162919" .  
+
+mdhn:Prayer a mdhn:Arts_Form ;
+   rdfs:label "Pray"@en, "دعا يا مناجات"@fa;
+   rdfs:comment "Context of a textblock or a calligraphic artwork" ;
+   skos:exactMatch mdhn:sh85106123_Prayer_Islam , biblissima:Q294924, iconclass:11Q2;
+   skos:broadMatch mdhn:literature;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q879046" .         
 
   
-
-mdhn:Illuminated_Headpiece a mdhn:Manuscript_Processing ;
+mdhn:Illuminated_Headpiece a mdhn:Arts_Form  ;
    rdfs:label "Illuminated Headpiece(Onvan)"@en, "عنوان"@fa;
    rdfs:comment "a calligraphic text in a folio" ;
    skos:exactMatch mdhn:aat500011053;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3071780" .  
 
-mdhn:Linguistic_Flag_or_Sign a mdhn:Manuscript_Processing ;
+mdhn:Linguistic_Flag_or_Sign a mdhn:Arts_Form  ;
    rdfs:label "Linguistic Content on Flag or Other surface"@en, "متن روی پرچم يا ساير سطوح"@fa;
    rdfs:comment "a calligraphic text in a Fkag or other type of surfaces" ;
+   skos:broadMatch mdhn:Iran_Literatures;   
    mdhn:icWikiDataURL "" .    
 
 mdhn:Dome a mdhn:ArchitecturalConceptOrElement ;
@@ -210,6 +261,15 @@ mdhn:Divs a mdhn:MythicalAnimalsOrMonsters ;
    rdfs:comment "Mythical creatures" ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q177413" . 
 
+mdhn:Sagsar a mdhn:MythicalAnimalsOrMonsters ;
+   rdfs:label "Sagsar"@en, "سگساز"@fa;
+   skos:exactMatch mdhn:aat500011098;
+   skos:relatedMatch mdhn:aat300379730, mdhn:tgm002979_Demons;
+   skos:closeMatch mdhn:Divs, mdhn:Devil, mdhn:IblisOrDeamons;
+   skos:broadMatch mdhn:aat300375725, mdhn:iconclass25FF1;
+   rdfs:comment "Mythical creatures" ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q177413" . 
+
 mdhn:Devil a mdhn:MythicalAnimalsOrMonsters ;
    rdfs:label "Devil"@en, "ابليس يا اهريمن"@fa;
    skos:broadMatch mdhn:aat300375725;
@@ -251,6 +311,11 @@ mdhn:Horse_Spur a mdhn:TravelsAndTransportation ;
    rdfs:comment "a pointed device attached to the heel of a rider's boot for directing a horse" ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q740732" . 
 
+mdhn:Horse_Tack a mdhn:TravelsAndTransportation ;
+   rdfs:label "Horse Tack"@en, "افسار اسب"@fa;
+   skos:exactMatch mdhn:aat300420191, mdhn:iconclass46C1316, mdhn:tgm010511_Tacks;
+   skos:broadMatch mdhn:sh93004493_Horses_Equipment_and_supplies;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q950799" .     
 mdhn:Horse_Head_Defence a mdhn:TravelsAndTransportation ;
    rdfs:label "Horse Head Defence"@en, "محافظ سر اسب"@fa;
    mdhn:icWikiDataURL "" .      #430r
@@ -259,6 +324,7 @@ mdhn:Horse_Saddle a mdhn:TravelsAndTransportation ;
    rdfs:label "Horse Saddle"@en, "زین اسب"@fa;
    skos:exactMatch mdhn:aat300212972, mdhn:tgm009095_Saddles;
    skos:relatedMatch mdhn:Horse , mdhn:HorseStirrup;
+   skos:broadMatch mdhn:sh93004493_Horses_Equipment_and_supplies;
    rdfs:comment "a supportive structure for a rider or other load, fastened to an animal's back by a girth" ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q192249" .
 
@@ -288,16 +354,20 @@ mdhn:Animal  a mdhn:TravelsAndTransportation ;
 mdhn:Ship a mdhn:TravelsAndTransportation ;
    rdfs:label "Ship"@en, "کشتی"@fa;
    rdfs:comment "a large watercraft that travels the world's oceans and other sufficiently deep waterways, carrying passengers or goods, or in support of specialized missions such as defense, research, and fishing" ;
+   skos:exactMatch mdhn:aat300082981, mdhn:iconclass46C21, mdhn:sh85121591_Ships, mdhn:tgm009516_Ships;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q11446" . 
 
 mdhn:Sail a mdhn:TravelsAndTransportation ;
    rdfs:label "sail"@en, "بادبان"@fa;
    rdfs:comment "a piece of material extended on a mast to catch the wind and propel a boat or ship" ;
+   skos:exactMatch mdhn:aat300185694, mdhn:iconclass46C24111,mdhn:sh85116544_Sails;
+   skos:relatedMatch mdhn:tgm009109_Sailing_ships;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q25999" . 
 
-mdhn:Flooding a mdhn:TravelsAndTransportation ;
-   rdfs:label "Flooding"@en, "غرق شدن"@fa;
-   mdhn:icWikiDataURL "" .           
+mdhn:Drowning a mdhn:CauseOfDeath ;
+   rdfs:label "Drowning"@en, "غرق شدن"@fa;
+   skos:exactMatch biblissima:Q295517,mdhn:sh85039668_Drowning ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q506616" .           
 
 mdhn:Sea_River_Pool a mdhn:NaturalElement ;
    rdfs:label "Sea/River/Pool"@en, "دریا/رودخانه/استخر"@fa;
@@ -319,7 +389,8 @@ mdhn:Water_well a mdhn:NaturalElement ;
 mdhn:Cave a mdhn:NaturalElement ;
    rdfs:label "Cave"@en, "غار"@fa;
    rdfs:comment "a hole or depression in the ground" ;
-   mdhn:icWikiDataURL "" . 
+   skos:exactMatch mdhn:aat300008746, mdhn:sh85021504_Caves, biblissima:Q26812, mdhn:tgm001809_Caves;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q35509" . 
 
 
 
@@ -327,6 +398,11 @@ mdhn:Feasting a mdhn:MonarchOrHistoricalCeremony ;
     rdfs:label "Feasting"@en , "بزم"@fa ;
     skos:relatedMatch mdhn:aat300073261;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q200538" .  
+
+mdhn:Sama a mdhn:MonarchOrHistoricalCeremony ;
+    rdfs:label "Sama"@en , "سماع"@fa ;
+    skos:relatedMatch mdhn:aat800178802;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q2513655" .      
 
 mdhn:Soldier a mdhn:BattleSignAndEquipment;
     rdfs:label "Soldier"@en , "جنگجو"@fa ;
@@ -450,7 +526,7 @@ mdhn:Battle a mdhn:BattleSignAndEquipment  ;
 
   
 
-mdhn:Duel a mdhn:BattleSignAndEquipment  ;
+mdhn:Duel a mdhn:BattleSignAndEquipment , mdhn:CauseOfDeath ;
     rdfs:label "Duel"@en , "دوئل"@fa ;
     skos:exactMatch mdhn:aat300230815 ;
     skos:broadMatch mdhn:Battle;   
@@ -461,17 +537,17 @@ mdhn:Battle_Field a mdhn:BattleSignAndEquipment ;
     skos:exactMatch mdhn:aat300000835 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4895508" . 
 
-mdhn:Decapitation a mdhn:BattleSignAndEquipment  ;
+mdhn:Decapitation a mdhn:CauseOfDeath  ;
     rdfs:label "Decapitation"@en , "بريدن سر"@fa ;
     skos:broadMatch mdhn:Murder;     
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q204933" .   
 
-mdhn:TearingApart a mdhn:BattleSignAndEquipment  ;
+mdhn:TearingApart a mdhn:CauseOfDeath  ;
     rdfs:label "TearingApart"@en , "دريدن"@fa ;
     skos:broadMatch mdhn:Murder; 
     mdhn:icWikiDataURL "" .       
      
-mdhn:Murder a mdhn:BattleSignAndEquipment  ;
+mdhn:Murder a mdhn:CauseOfDeath  ;
     rdfs:label "Murder"@en , "قتل"@fa ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q132821" .     
 
@@ -582,6 +658,7 @@ mdhn:HorseStirrup a mdhn:TravelsAndTransportation  ;
     rdfs:label "Horse Stirrup"@en , "رکاب"@fa ;
     skos:exactMatch mdhn:aat300255573, mdhn:sh94003288_Stirrups ;
     skos:relatedMatch mdhn:Horse_Saddle;
+    skos:broadMatch mdhn:sh93004493_Horses_Equipment_and_supplies;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q191657" .
        
 
@@ -1283,9 +1360,14 @@ mdhn:Paper_Burnishing a mdhn:SubjectiveConcepts ;
     skos:narrowMatch mdhn:aat300053869  ;
     mdhn:icWikiDataURL "" .    
 
+mdhn:Wudu a mdhn:SubjectiveConcepts ;
+    rdfs:label "Wudu"@en , "وضو"@fa ;
+    skos:exactMatch mdhn:aat300251246  ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q219466" .
+
 mdhn:Eram_Garden a mdhn:SubjectiveConcepts ;
     rdfs:label "Eram Garden"@en , "باغ ارم"@fa ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q127963" .
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q127963" .    
 
 mdhn:Garden_of_Eden a mdhn:SubjectiveConcepts ;
     rdfs:label "Garden of Eden"@en , "باغ عدن"@fa ;
@@ -1332,6 +1414,11 @@ mdhn:Fragment_Cropped_Image a mdhn:SubjectiveConcepts ;
     skos:exactMatch mdhn:aat500011001 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q785116" .  
 
+mdhn:Fragment_Cropped_Calligraphy a mdhn:SubjectiveConcepts ;
+    rdfs:label "fragment cropped calligraphy"@en , "جزئيات خوشنويسی بريده شده"@fa ;
+    skos:exactMatch mdhn:aat500011001 ;
+    mdhn:icWikiDataURL "" .      
+
 mdhn:Fragment_Cropped_Pattern a mdhn:SubjectiveConcepts ;
     rdfs:label "fragment cropped pattern"@en , "جزئيات طرح بريده شده"@fa ;
     skos:exactMatch mdhn:aat500011001 ;
@@ -1366,6 +1453,11 @@ mdhn:Muezzin  a mdhn:SubjectiveConcepts ;
     rdfs:label "muezzin "@en , "موذن"@fa ;
     skos:relatedMatch mdhn:aat300417898 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q239718" .       
+
+
+mdhn:Atarod a mdhn:MedievalCosmography  ;
+    rdfs:label "Atarod "@en , "عطارد"@fa ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q308" .     
         
 
        

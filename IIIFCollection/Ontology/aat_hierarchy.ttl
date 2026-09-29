@@ -250,7 +250,24 @@ mdhn:aat300209261 a mdhn:ResourceType ;
 mdhn:aat300210387 a mdhn:ResourceType ;
         rdfs:label "ceremonial costume"@en ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
-        mdhn:hasAATBroader mdhn:aat300234117.
+        mdhn:hasAATBroader mdhn:aat300234117, mdhn:aa300212133.
+
+mdhn:aa300212133 a mdhn:ResourceType ;
+        rdfs:label "<costume by function>"@en ;
+        mdhn:isGuideTerm "true"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300178802.     
+
+mdhn:aat800178802 a mdhn:ResourceType ;
+        rdfs:label "Sama (dervishes dance)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300210387.      
+
+
+
+
+
+        
+             
 
 
 mdhn:aat300265128 a mdhn:ResourceType ;
@@ -339,7 +356,38 @@ mdhn:aat300199635 a mdhn:ResourceType ;
 mdhn:aat300185289 a mdhn:ResourceType ;
         rdfs:label "<printing and printing processes and techniques>"@en ;
         mdhn:isGuideTerm "true"^^xsd:boolean ;
-        mdhn:hasAATBroader mdhn:aat300053159.             
+        mdhn:hasAATBroader mdhn:aat300053159.    
+
+mdhn:aat300251246 a mdhn:ResourceType ;
+        rdfs:label "wudu"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300249405.
+
+mdhn:aat300249405 a mdhn:ResourceType ;
+        rdfs:label "ablutions"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300065284.
+
+mdhn:aat300065284 a mdhn:ResourceType ;
+        rdfs:label "rituals (events)"@en ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300417518.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -358,8 +406,13 @@ mdhn:aat300172102 a mdhn:ResourceType ;
 mdhn:aat300189604 a mdhn:ResourceType ;
         rdfs:label "Manuscript Folio"@en, "برگی از يک نسخه دستنويس"@fa ;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
-        rdfs:comment "schema:ManuscriptFolio"@en;
         mdhn:hasAATBroader mdhn:aat300115833 .
+
+mdhn:aat900100100 a mdhn:ResourceType ;
+        rdfs:label "Muraqqa Folio"@en, "برگی از يک مرقع "@fa ;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:isInExtendedScope "true"^^xsd:boolean ;        
+        mdhn:hasAATBroader mdhn:aat300115833 .        
 
 mdhn:aat500181050 a mdhn:ResourceType ;
         rdfs:label "Recto"@en ;
@@ -520,6 +573,54 @@ mdhn:aat300185684 a mdhn:ResourceType ;
     rdfs:label "fairy tales"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300200882 .
+
+mdhn:aat800185684 a mdhn:ResourceType ;
+    rdfs:label "Ajayeb Cosmography"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    skos:related mdhn:aat300417791;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300185684 , mdhn:aat300054287 . 
+
+mdhn:aat300054287 a mdhn:ResourceType ;
+    rdfs:label "Cosmography"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300054532 .  
+
+mdhn:aat300054532 a mdhn:ResourceType ;
+    rdfs:label "Physical science"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300233656 . 
+
+mdhn:aat300233656 a mdhn:ResourceType ;
+    rdfs:label "nature science"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300054462 .  
+
+mdhn:aat300054462 a mdhn:ResourceType ;
+    rdfs:label "science (modern discipline)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300247257 .  
+
+mdhn:aat300247257 a mdhn:ResourceType ;
+    rdfs:label "<science and related discipline>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300054135 .  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 mdhn:aat300188783 a mdhn:ResourceType ;
     rdfs:label "proverbs"@en ;
@@ -784,6 +885,13 @@ mdhn:aat500011066 a mdhn:ResourceType ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300055027, mdhn:aat300010135.   
+
+mdhn:aat500011085 a mdhn:ResourceType ;
+    rdfs:label "Torang"@en , "نقش ترنج"@fa ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat500011066.
+    
 
 mdhn:aat500011091 a mdhn:ResourceType ;
     rdfs:label "Animal Illuminated decoration Content"@en , "نقوش جانوری/گير و گرفت"@fa;
@@ -1097,37 +1205,37 @@ mdhn:aat300252982 a mdhn:ResourceType ;
     mdhn:hasAATBroader mdhn:aat300200882 .
 
 mdhn:aat300253001 a mdhn:ResourceType ;
-    rdfs:label "aphorisms"@en ;
+    rdfs:label "aphorisms"@en, "کلمات قصار"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300200882 .
 
 mdhn:aat300253138 a mdhn:ResourceType ;
-    rdfs:label "utopian literature"@en ;
+    rdfs:label "utopian literature"@en, "آرمان شهر"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300200882 .
 
 mdhn:aat300254790 a mdhn:ResourceType ;
-    rdfs:label "adventure stories"@en ;
+    rdfs:label "adventure stories"@en, "ماجراجويی"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300200882 .
 
 mdhn:aat300254800 a mdhn:ResourceType ;
-    rdfs:label "animal stories"@en ;
+    rdfs:label "animal stories"@en, "داستان های حيوانات"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300200882 .
 
 mdhn:aat300254804 a mdhn:ResourceType ;
-    rdfs:label "burlesques (literary genre)"@en ;
+    rdfs:label "burlesques (literary genre)"@en, "هزليات و تمسخر  بدون مرز"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300200882 .
 
 mdhn:aat300254810 a mdhn:ResourceType ;
-    rdfs:label "travel literature"@en ;
+    rdfs:label "travel literature"@en, "َسفرنامه آموزش، تفريحی، پژوهشی"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300200882 .
 
 mdhn:aat300254815 a mdhn:ResourceType ;
-    rdfs:label "western (literary genre)"@en ;
+    rdfs:label "western (literary genre)"@en, "رمان، ادبيات و داستانهای مصور متمرکز بر غرب آمريکا"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300200882 .
 
@@ -3786,8 +3894,22 @@ mdhn:aat500011001 a mdhn:ResourceType;
         rdfs:label "fragment cropped image"@en;
         mdhn:isGuideTerm "false"^^xsd:boolean ;
         mdhn:isInExtendedScope "true"^^xsd:boolean ;
-        mdhn:hasAATBroader mdhn:aat300033974 .         
+        mdhn:hasAATBroader mdhn:aat300033974 .
 
+mdhn:aat300008746 a mdhn:ResourceType;
+        rdfs:label "caves"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300266060 .
+
+mdhn:aat300185694 a mdhn:ResourceType;
+        rdfs:label "sails"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300024600 .
+
+mdhn:aat300024600 a mdhn:ResourceType;
+        rdfs:label "power producing equipment"@en;
+        mdhn:isGuideTerm "false"^^xsd:boolean ;
+        mdhn:hasAATBroader mdhn:aat300024659 .    
 
 
 mdhn:aat300128366 a mdhn:ResourceType;
@@ -4481,6 +4603,23 @@ mdhn:aat300122241 a mdhn:ResourceType ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300022238 . 
 
+mdhn:aat300082981 a mdhn:ResourceType ;
+    rdfs:label "ships"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300219288 .    
+
+mdhn:aat300219288 a mdhn:ResourceType ;
+    rdfs:label "<watercraft by general type>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300042940 .  
+
+mdhn:aat300042940 a mdhn:ResourceType ;
+    rdfs:label "watercraft"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300219258 .         
+
+
+
 mdhn:aat300033565 a mdhn:ResourceType ;
     rdfs:label "nails (fasteners)"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
@@ -4522,7 +4661,13 @@ mdhn:aat300010002 a mdhn:ScriptStyleType ;
     rdfs:label "Siyah Mashq"@en, "سياه مشق"@fa ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
     mdhn:isInExtendedScope "true"^^xsd:boolean ;
-    mdhn:hasAATBroader mdhn:aat300266660 .  
+    mdhn:hasAATBroader mdhn:aat300266660 .
+
+mdhn:aat300010009 a mdhn:ScriptStyleType ;
+    rdfs:label "stencils (ghaleb for inscription)"@en, "قالب کتيبه"@fa ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300266660 .        
 
 mdhn:aat300010003 a mdhn:ScriptStyleType ;
     rdfs:label "Chalipa"@en, "چليپا"@fa ;
@@ -4567,6 +4712,146 @@ mdhn:aat300201815 a mdhn:ScriptStyleType ;
     rdfs:label "<scripts by form>"@en ;
     mdhn:isGuideTerm "true"^^xsd:boolean ;
     mdhn:hasAATBroader mdhn:aat300200824 .
+
+mdhn:aat300024969 a mdhn:ScriptStyleType ;
+    rdfs:label "nibs (pen points)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300024871 .
+
+mdhn:aat300024871 a mdhn:ScriptStyleType ;
+    rdfs:label "<tool and equipment components>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300241584, mdhn:aat300122241.
+
+mdhn:aat300022464 a mdhn:ScriptStyleType ;
+    rdfs:label "reed pens"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    skos:relatedMatch mdhn:aat300024871;
+    mdhn:hasAATBroader mdhn:aat300022452 .
+
+mdhn:aat300022452 a mdhn:ScriptStyleType ;
+    rdfs:label "pens (drawing and writing implements)"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300168215 .
+
+mdhn:aat300168215 a mdhn:ScriptStyleType ;
+    rdfs:label "<drafting, drawing and writing equipment by specific type>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300168214.
+
+mdhn:aat300168214 a mdhn:ScriptStyleType ;
+    rdfs:label "<equipment for drafting, drawing, and writing>"@en ;
+    mdhn:isGuideTerm "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300162803.
+
+mdhn:aat300162803 a mdhn:ScriptStyleType ;
+    rdfs:label "image-making equipment"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300024659 .
+
+mdhn:aat900010150 a mdhn:ScriptStyleType ;
+    rdfs:label "Persian reed pens"@en, "قلم خوشنويسی ايرانی"@fa ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat300022464 .     
+
+mdhn:aat900010151 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e ghubar"@en, "قلم غبار"@fa ;
+    rdfs:comment "≤ 0.5 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010150 . 
+
+mdhn:aat900010152 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e khafi"@en, "قلم خفی"@fa ;
+    rdfs:comment "0.5–0.75 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010150 .     
+
+mdhn:aat900010153 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e ketabat"@en, "قلم کتابت"@fa ;
+    rdfs:comment "0.75–1.5 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010150 . 
+
+mdhn:aat900010154 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e sar-fasli"@en, "قلم سرفصلی"@fa ;
+    rdfs:comment "1.5–2 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010150 .  
+
+mdhn:aat900010155 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e masqi"@en, "قلم مشقی"@fa ;
+    rdfs:comment "1.5–2 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010150 .  
+
+mdhn:aat900010156 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e Jali"@en, "قلم جلی"@fa ;
+    skos:altLabel "qalam-e jalī-safha"@en;
+    rdfs:comment "6–20 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010150 .          
+
+mdhn:aat900010157 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e katiba"@en, "قلم کتيبه"@fa ;
+    rdfs:comment "> 20 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010150 .
+
+mdhn:aat900010158 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e yek-dang-e masqi"@en, "قلم يک دانگ مشقی"@fa ;
+    rdfs:comment "≈ 2–2.5 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010155 .    
+
+mdhn:aat900010159 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e do-dang-e masqi"@en, "قلم دو دانگ مشقی"@fa ;
+    rdfs:comment "≈ 2.5–3 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010155 .   
+
+mdhn:aat900010160 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e do-nim-dang-e masqi"@en, "قلم دو و نيم دانگ مشقی"@fa ;
+    rdfs:comment "≈ 3–3.5 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010155 .       
+
+mdhn:aat900010161 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e se-dang-e masqi"@en, "قلم سه دانگ مشقی"@fa ;
+    rdfs:comment "≈ 3.5–4 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010155 .   
+
+mdhn:aat900010162 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e char-dang-e masqi"@en, "قلم چهار دانگ مشقی"@fa ;
+    rdfs:comment "≈ 4–4.5 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010155 .  
+
+mdhn:aat900010163 a mdhn:ScriptStyleType ;
+    rdfs:label "qalam-e panj-dang-e masqi"@en, "قلم پنج دانگ مشقی"@fa ;
+    rdfs:comment "≈ 4.5–5 mm"@en ;
+    mdhn:isGuideTerm "false"^^xsd:boolean ;
+    mdhn:isInExtendedScope "true"^^xsd:boolean ;
+    mdhn:hasAATBroader mdhn:aat900010155 .             
+
+
+
+
+
+
 
 mdhn:aat300208615 a mdhn:ScriptStyleType ;
     rdfs:label "Arabic scripts"@en ;
@@ -6242,4 +6527,5 @@ mdhn:aat300310427 a mdhn:AATSubject ;
 mdhn:aat300310321 a mdhn:AATSubject ;
     rdfs:label "Artiodactyla (order)"@en ;
     mdhn:isGuideTerm "false"^^xsd:boolean ;
-    mdhn:hasAATBroader mdhn:aat300265707.       
+    mdhn:hasAATBroader mdhn:aat300265707.   
+

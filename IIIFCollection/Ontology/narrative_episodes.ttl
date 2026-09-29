@@ -14,7 +14,7 @@
 @prefix iconclass: <https://iconclass.org/> .
 
 mdhn:Narrative_Episodes a mdhn:NarrativeEpisode ;
-    mdhn:aatConcept mdhn:aat300404209 ;
+    skos:relatedMatch mdhn:aat300404209 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3328821" ;
     rdfs:comment "Root entry for Narrative/Literary Works"@en ;
     rdfs:label "Narrative Episodes"@en , "روايت‌های اساطيری/نظم و نثر"@fa .
@@ -59,6 +59,21 @@ mdhn:Indian_Epic_and_Mythology a mdhn:NarrativeEpisode;
    mdhn:ispartOf mdhn:Folklore_Epic_or_Mythology, mdhn:Indian_Mythology;
    mdhn:icWikiDataURL "" .  
 
+mdhn:Anvar_Soheily a mdhn:NarrativeEpisode;
+   rdfs:label "Anvar Soheily"@en, "انوار سهيلی"@fa;
+   mdhn:ispartOf mdhn:Persian_Epic_and_Mythology;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q24639968" .    
+
+mdhn:Anvar_Soheily_Chapter01 a mdhn:NarrativeEpisode;
+   rdfs:label "Anvar Soheily CH01"@en, "باب اول انوار سهيلی"@fa;
+   mdhn:ispartOf mdhn:Anvar_Soheily;
+   mdhn:icWikiDataURL "" .   
+
+mdhn:Anvar_Soheily_Chapter14 a mdhn:NarrativeEpisode;
+   rdfs:label "Anvar Soheily CH14"@en, "باب چهاردهم انوار سهيلی"@fa;
+   mdhn:ispartOf mdhn:Anvar_Soheily;
+   mdhn:icWikiDataURL "" .       
+
 mdhn:Story_of_Ramayana a mdhn:NarrativeEpisode;
    rdfs:label "Story of Ramayana"@en, "افسانه رامايانا"@fa;
    mdhn:ispartOf mdhn:Indian_Epic_and_Mythology;
@@ -98,7 +113,11 @@ mdhn:Safavid_Empire a mdhn:NarrativeEpisode ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q18234383" ;     
     mdhn:isPartOf mdhn:Political_or_Regional_Era_as_Narrative .                          
 
-
+mdhn:Shiroye_Namdar a mdhn:NarrativeEpisode ;    
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Indian_Epic_and_Mythology ;
+    rdfs:label "Shiroye Namdar"@en , "شيرويه نامدار"@fa .  
+    
 mdhn:Garshaspnameh a mdhn:NarrativeEpisode ;
     skos:closeMatch mdhn:aat300404209 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q6391136" ;
@@ -117,7 +136,49 @@ mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat a mdhn:NarrativeEpisode ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q8083964" ;
     mdhn:charactersInvolved mdhn:Solomon, mdhn:Iskandar_Dhul_Qarnayn;
     mdhn:isPartOf  mdhn:Ajayeb_Name_And_Cosmography ;
-    rdfs:label "Ajayeb al-makhluqat wa gharayeb al-mawjudat"@en , "عجايب المخلوقات و غرايب الموجودات"@fa .   
+    rdfs:label "Ajayeb al-makhluqat wa gharayeb al-mawjudat"@en , "عجايب المخلوقات و غرايب الموجودات"@fa .  
+
+mdhn:Bab1_Dar_Alviat a mdhn:NarrativeEpisode ;    
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat ;
+    rdfs:label "Bab1 Dar Alviat"@en , "باب اول در علويات"@fa .  
+
+mdhn:Bab3_Dar_Telesmat a mdhn:NarrativeEpisode ;    
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat ;
+    rdfs:label "Bab3 Dar Telesmat"@en , "باب سوم در طلسمات"@fa .  
+mdhn:Bab4_Dar_Ketabat a mdhn:NarrativeEpisode ;    
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat ;
+    rdfs:label "Bab4 Dar Ketabat"@en , "باب چهارم در کتابت"@fa .   
+
+mdhn:Bab4_Chapter1_Oza_ol_Khotoot a mdhn:NarrativeEpisode ;    
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Bab4_Dar_Ketabat ;
+    rdfs:label "Bab4 Chapter1 Oza ol Khotoot"@en , "باب چهارم فصل اول در اوضاع خطوط"@fa .       
+mdhn:Bab1_Chapter1_Madaniat a mdhn:NarrativeEpisode ;    
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Bab1_Dar_Alviat ;
+    rdfs:label "Bab1 Chapter 1 Madaniat"@en , "المعدنيات"@fa .  
+
+mdhn:Bab1_Chapter2_Nabatat a mdhn:NarrativeEpisode ;    
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Bab1_Dar_Alviat ;
+    rdfs:label "Bab1 Chapter 2 Nabatat"@en , "النباتات"@fa .     
+
+mdhn:Bab1_Chapter3_Hayavan a mdhn:NarrativeEpisode ;    
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Bab1_Dar_Alviat ;
+    rdfs:label "Bab1 Chapter 3 Hayavan"@en , "الحيوان"@fa .      
+
+mdhn:Bab1_Chapter4_Tashrih_Fi_Aza_al_Ensan a mdhn:NarrativeEpisode ;    
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Bab1_Dar_Alviat ;
+    rdfs:label "Bab1 Chapter 4 Tashrih Fi Aza al Ensan"@en , "تشريح فی اعضاء الانسان"@fa .     
+mdhn:Sagsar_Island a mdhn:NarrativeEpisode ;    
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat ;
+    rdfs:label "Sagsar Island"@en , "جزيره سگساز"@fa .      
 
 mdhn:AjayebName a mdhn:NarrativeEpisode ;    
     mdhn:icWikiDataURL "" ;
@@ -274,7 +335,7 @@ mdhn:Story_of_Salih_and_the_She_Camel a mdhn:NarrativeEpisode ;
     skos:relatedMatch wd:Q326189 .    
 
 mdhn:Qisas_al_Anbiya a mdhn:NarrativeEpisode ;
-    mdhn:aatConcept mdhn:aat300404209 ;
+    skos:relatedMatch mdhn:aat300404209 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1087563" ;
     mdhn:isPartOf  mdhn:Islamic_Mythology ;
     rdfs:comment """The Qiṣaṣ al-anbiyā (Arabic: قِصَص الْأَنـۢبِيَاء, lit. 'Stories of the Prophets') is any of various collections of stories about figures recognised as prophets and messengers in Islam, closely related to tafsīr (exegesis of the Qur'an)."""@en ;
@@ -306,13 +367,42 @@ mdhn:Adam_and_Eve_Eat_Forbidden_Fruit a mdhn:NarrativeEpisode ;
    mdhn:charactersInvolved mdhn:Adam , mdhn:Eve ;
    mdhn:icWikiDataURL "" .            
 
+mdhn:Khamsa_of_Amir_Khosro_Dehlavi a mdhn:NarrativeEpisode ;
+    skos:relatedMatch mdhn:aat300404746 ;
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Folklore_Epic_or_Mythology ;
+    rdfs:label "Khamsa of Amir Khosro Dehlavi"@en , "خمسه امير خسرو دهلوی"@fa .  
+
+mdhn:Shirin_Va_Khosro a mdhn:NarrativeEpisode ;
+   rdfs:label "Shirin Va Khosro"@en, "شيرين و خسرو دهلوی"@fa;
+   mdhn:isPartOf  mdhn:Khamsa_of_Amir_Khosro_Dehlavi ;
+   mdhn:charactersInvolved mdhn:Khosrow_II, mdhn:Shirin , mdhn:Farhad;        
+   mdhn:icWikiDataURL "" .    
+
+mdhn:Majnun_va_Layla a mdhn:NarrativeEpisode ;
+   rdfs:label "Majnun va Layla"@en, "مجنون و ليلا دهلوی"@fa;
+   mdhn:charactersInvolved mdhn:Majnun, mdhn:Layli;     
+   mdhn:isPartOf  mdhn:Khamsa_of_Amir_Khosro_Dehlavi ;
+   mdhn:icWikiDataURL "" .     
+
+mdhn:Hasht_Bihisht a mdhn:NarrativeEpisode ;
+   rdfs:label "Hasht bihisht"@en, "هشت بهشت دهلوی"@fa;   
+   mdhn:isPartOf  mdhn:Khamsa_of_Amir_Khosro_Dehlavi ;
+   mdhn:icWikiDataURL "" .  
+
+mdhn:Ayeneye_Iskandari a mdhn:NarrativeEpisode ;
+   rdfs:label "Ayeneye Iskandari"@en, "آئينه اسکندری دهلوی"@fa;   
+   mdhn:charactersInvolved mdhn:Iskandar_Dhul_Qarnayn;   
+   mdhn:isPartOf  mdhn:Khamsa_of_Amir_Khosro_Dehlavi ;
+   mdhn:icWikiDataURL "" .         
+
 mdhn:Khamsa_of_Nizami a mdhn:NarrativeEpisode ;
-    mdhn:aatConcept mdhn:aat300404746 ;
+    skos:relatedMatch mdhn:aat300404746 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3196058" ;
     dcterms:created "c. 1010" ;
     mdhn:isPartOf  mdhn:Folklore_Epic_or_Mythology ;
     rdfs:comment """The Khamsa (Persian: خمسه, 'Quintet' or 'Quinary', from Arabic) or Panj Ganj (Persian: پنج گنج, 'Five Treasures') is the main and best known work of Nizami Ganjavi. """@en ;
-    rdfs:label "Khamsa_of_Nizami"@en , "خمسه نظامی"@fa .   
+    rdfs:label "Khamsa of Nizami"@en , "خمسه نظامی"@fa .   
 
 mdhn:Shah_and_Darvish a mdhn:NarrativeEpisode ;
    rdfs:label "Shah and Darvish"@en, "منظومه شاه و درويش"@fa;
@@ -376,7 +466,7 @@ mdhn:Friday_White_Tribulations_of_the_Lovers a mdhn:NarrativeEpisode ;
    rdfs:label "Friday, Tribulations of the Lovers"@en, "روز جمعه: شاهدخت (درستی): اقلیم ایران:  با نشان سیاره زهره یا ناهید، خنیاگر فلک: رنگ گنبد سفید: داستان جوان پاکدامن"@fa;
    mdhn:isPartOf mdhn:The_Seven_Beauties ;
    mdhn:charactersInvolved mdhn:Bahram_V;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/" .                        
+   mdhn:icWikiDataURL "" .                        
 
 mdhn:Iskandarnama  a mdhn:NarrativeEpisode ;
    rdfs:label "Iskandarnama "@en, "اسکندرنامه"@fa;
@@ -388,7 +478,13 @@ mdhn:Sharaf_Nama  a mdhn:NarrativeEpisode ;
    rdfs:label "Sharaf nama"@en, "شرفنامه"@fa;
    mdhn:isPartOf mdhn:Iskandarnama ;
    mdhn:charactersInvolved mdhn:Iskandar_Dhul_Qarnayn;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/" . 
+   mdhn:icWikiDataURL "" . 
+
+mdhn:Kherad_Nama  a mdhn:NarrativeEpisode ;
+   rdfs:label "Kherad nama"@en, "خردنامه"@fa;
+   mdhn:isPartOf mdhn:Iskandarnama ;
+   mdhn:charactersInvolved mdhn:Iskandar_Dhul_Qarnayn;
+   mdhn:icWikiDataURL "" .    
 
 mdhn:Iskandar_visit_to_the_Kaba  a mdhn:NarrativeEpisode ;
    rdfs:label "Iskandar's visit to the Ka'ba"@en, "رفتن اسکندر به کعبه"@fa;
@@ -454,7 +550,7 @@ mdhn:Marriage_of_Layli a mdhn:NarrativeEpisode ;
    mdhn:icWikiDataURL "" .                              
 
 mdhn:Haft_Awrang a mdhn:NarrativeEpisode ;
-    mdhn:aatConcept mdhn:aat300404746 ;
+    skos:relatedMatch mdhn:aat300404746 ;
     mdhn:isPartOf  mdhn:Folklore_Epic_or_Mythology ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5638440" ;
     dcterms:created "c. 1010" ;
@@ -486,14 +582,19 @@ mdhn:Leyli_and_Majnun_Jami a mdhn:NarrativeEpisode ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140301003" .  
 
 mdhn:Silsilat_al_Dhahab a mdhn:NarrativeEpisode ;
-   rdfs:label "Silsilat_al_Dhahab"@en, "سلسلة الذهب"@fa;
+   rdfs:label "Silsilat al Dhahab"@en, "سلسلة الذهب"@fa;
    mdhn:isPartOf mdhn:Haft_Awrang ;
    mdhn:icWikiDataURL "" .    
 
 mdhn:Tuhfat_al_Ahrar a mdhn:NarrativeEpisode ;
-   rdfs:label "Tuhfat_al_Ahrar"@en, "تحفة الاحرار"@fa;
+   rdfs:label "Tuhfat al Ahrar"@en, "تحفة الاحرار"@fa;
    mdhn:isPartOf mdhn:Haft_Awrang ;
    mdhn:icWikiDataURL "" .  
+
+mdhn:Fatih_al_Shabab a mdhn:NarrativeEpisode ;
+   rdfs:label "Fatih al Shabab"@en, "فاتحة الشباب"@fa;
+   mdhn:isPartOf mdhn:Haft_Awrang ;
+   mdhn:icWikiDataURL "" .     
 
 mdhn:Subhat_al_Abrar a mdhn:NarrativeEpisode ;
    rdfs:label "Subhat_al_Abrar"@en, "سبحة الابرار"@fa;
@@ -585,11 +686,18 @@ mdhn:Hushang_Enthroned a mdhn:NarrativeEpisode;
    mdhn:characterInvolved mdhn:Hushang;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923413" . 
 
+mdhn:Feast_of_Sada a mdhn:NarrativeEpisode;
+   rdfs:label "Feast of Sada"@en, "جشن سده"@fa;
+   mdhn:isPartOf mdhn:Kingdom_of_Hushang ;
+   mdhn:characterInvolved mdhn:Hushang;
+   mdhn:icWikiDataURL "" .    
+
 mdhn:Esfandiyar_Slays_Nowzar a mdhn:NarrativeEpisode;
    rdfs:label "Esfandiyar Slays Nowzar"@en, "کشته شدن نوذر به دست اسفنديار"@fa;
    mdhn:isPartOf  mdhn:KingdomOfNauzar ;
    mdhn:characterInvolved mdhn:Esfandiyar, mdhn:Nowzar;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140030291" .
+
 
 
 mdhn:Kingdom_of_Kay_Qubad a mdhn:NarrativeEpisode ;
@@ -602,13 +710,13 @@ mdhn:Kingdom_of_Kay_Qubad a mdhn:NarrativeEpisode ;
 mdhn:First_Battle_Of_Rostam_and_Afrasiab a mdhn:NarrativeEpisode;
    rdfs:label "First Battle Of Rostam and Afrasiab"@en, "نبرد اول رستم و افراسياب"@fa;
    mdhn:isPartOf  mdhn:RostamStory , mdhn:Kingdom_of_Kay_Qubad ;
-   mdhn:characterInvolved mdhn:Esfandiyar;
+   mdhn:characterInvolved mdhn:Rostam,mdhn:Afrasiab;
    mdhn:icWikiDataURL "" . 
 
 mdhn:Battle_Of_Rostam_and_Afrasiab a mdhn:NarrativeEpisode;
    rdfs:label "Second Battle Of Rostam and Afrasiab"@en, "نبرد رستم و افراسياب"@fa;
    mdhn:isPartOf  mdhn:RostamStory , mdhn:Kingdom_of_Kay_Qubad ;
-   mdhn:characterInvolved mdhn:Esfandiyar;
+   mdhn:characterInvolved mdhn:Rostam,mdhn:Afrasiab;
    mdhn:icWikiDataURL "" .       
 mdhn:Kingdom_of_Kay_Kavus a mdhn:NarrativeEpisode ;
    rdfs:label "Kingdom Kay Kāvus"@en, "پادشاهی کيکاوس"@fa;
@@ -616,6 +724,12 @@ mdhn:Kingdom_of_Kay_Kavus a mdhn:NarrativeEpisode ;
    mdhn:isPartOf mdhn:Shahnameh ;
    mdhn:charactersInvolved  mdhn:Kay_Kavus, mdhn:Rostam, mdhn:Siyavash, mdhn:Arzhang_Div ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466974" . 
+
+mdhn:Kay_Kavus_And_KayKhosrow a mdhn:NarrativeEpisode ;
+   rdfs:label "Kay Kavus And KayKhosrow"@en, "کيکاووس و کيخسرو"@fa;
+   mdhn:isPartOf mdhn:Kingdom_of_Kay_Kavus ;
+   mdhn:charactersInvolved  mdhn:Kay_Kavus, mdhn:KayKhosrow;
+   mdhn:icWikiDataURL "" .    
 mdhn:KayKavus_Encounters_Arzhang_Div_In_Mazandaran a mdhn:NarrativeEpisode ;
    rdfs:label "KayKavus Encounters Arzhang Div In Mazandaran"@en, "رويارويی کيکاوس و ارژنگ ديو در مازندران"@fa;
    mdhn:isPartOf mdhn:Kingdom_of_Kay_Kavus ;
@@ -701,6 +815,12 @@ mdhn:Siyavush_and_Rustem_Capture_Balkh a mdhn:NarrativeEpisode;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140367004" .        
 
 
+mdhn:Siyavush_in_Hunting a mdhn:NarrativeEpisode;
+   rdfs:label "Siyavush in Hunting"@en, "سياوش در شکار "@fa;
+   mdhn:isPartOf  mdhn:Kingdom_of_Kay_Kavus, mdhn:Siyavash_Story;
+   mdhn:characterInvolved mdhn:Siyavash, mdhn:Afrasiab;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140366887" .  
+
 mdhn:The_Fire_Trial_of_Siyavush a mdhn:NarrativeEpisode;
    rdfs:label "The Fire Trial of Siyavush"@en, "سياوش در آتش"@fa;
    mdhn:isPartOf  mdhn:Kingdom_of_Kay_Kavus, mdhn:Siyavash_Story;
@@ -712,6 +832,12 @@ mdhn:Mourning_of_Siyavash a mdhn:NarrativeEpisode;
    mdhn:isPartOf  mdhn:Siyavash_Story ;
    mdhn:characterInvolved mdhn:Siyavash;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5963952" .    
+
+mdhn:Rostam_and_Pilsam a mdhn:NarrativeEpisode;
+   rdfs:label "Rostam_and_Pilsam"@en, "داستان رستم و پيلسم"@fa;
+   mdhn:isPartOf  mdhn:Kingdom_of_Kay_Kavus, mdhn:Siyavash_Story, mdhn:RostamStory ;
+   mdhn:characterInvolved mdhn:Rostam, mdhn:Pilsam, mdhn:Afrasiab;
+   mdhn:icWikiDataURL "" .     
 
    
 
@@ -917,154 +1043,294 @@ mdhn:Story_of_Samson a mdhn:NarrativeEpisode ;
    mdhn:icWikiDataURL "" .            
         
 
-mdhn:Kingdom_of_Zu_Tahmasb a mdhn:NarrativeEpisode ;
-   rdfs:label "Kingdom of Zu Tahmasb"@en, "پادشاهی زو طهماسب"@fa;
-   rdfs:comment "a mythical kingdom ruled by Zu Tahmasb in Persian mythology" ;
-   mdhn:charactersInvolved  mdhn:Zu_Tahmasb;
-   mdhn:isPartOf mdhn:Shahnameh ;
-   mdhn:icWikiDataURL "" .   
-
-mdhn:KingdomOfTahmuras a mdhn:NarrativeEpisode;
-   rdfs:label "The Kingdom of Tahmuras"@en, "پادشاهی طهمورث"@fa;
-   mdhn:isPartOf mdhn:Shahnameh ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138676359" .
-
-mdhn:Tahmuras_Enthroned a mdhn:NarrativeEpisode ;
-   rdfs:label "Tahmuras Enthroned"@en, "بر تخت نشستن طهمورث"@fa;
-   mdhn:isPartOf mdhn:KingdomOfTahmuras ;
-   mdhn:charactersInvolved mdhn:Tahmuras;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138676359" .    
-
-mdhn:Tahmuras_Defeating_the_Divs a mdhn:NarrativeEpisode ;
-   rdfs:label "Tahmuras Defeating the Divs"@en, "طهمورث شکستن دیو ها"@fa;
-   rdfs:comment "a scene depicting Tahmuras defeating the divs" ;
-   mdhn:isPartOf mdhn:KingdomOfTahmuras ;
-   mdhn:charactersInvolved mdhn:Tahmuras;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138676508" .          
-
-
-mdhn:ZahhakKillsHisOwnFather a mdhn:NarrativeEpisode;
-   rdfs:label "Zahhak Kills His Own Father Mardas"@en, "کشته شدن مرداس با حيله ضحاک"@fa;
-   mdhn:isPartOf mdhn:ZahhakStory ;
-   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Mirdas, mdhn:Iblis;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138841520" . 
-
-mdhn:Ahriman_kiss_Zahhak_on_his_shoulders a mdhn:NarrativeEpisode;
-   rdfs:label "Ahriman asks to kiss Zahhak on his two shoulders"@en, "بوسه اهريمن بر شانه‌های ضحاک"@fa;
-   mdhn:isPartOf mdhn:ZahhakStory ;
-   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Iblis;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925586" .    
-
-mdhn:Zahhak_Enthroned a mdhn:NarrativeEpisode;
-   rdfs:label "Zahhak Enthroned"@en, "بر تخت نشستن ضحاک"@fa;
-   mdhn:isPartOf mdhn:ZahhakStory ;
-   mdhn:charactersInvolved mdhn:Zahhak;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925814" .     
- 
-
-mdhn:Zahhak_and_Daughters_of_Jamshid a mdhn:NarrativeEpisode;
-   rdfs:label "Zahhak Receives the Daughters of Jamshid"@en, "دختران جمشيد در بارگاه ضحاک"@fa;
-   mdhn:isPartOf mdhn:KingdomOfZahhak ;
-   mdhn:charactersInvolved mdhn:Jamshid, mdhn:Zahhak, mdhn:Shahrnaz, mdhn:Arnavaz;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138841381" . 
 
 
 
-  
-
-  
- 
-mdhn:ZahhakStory a mdhn:NarrativeEpisode;
-   rdfs:label "The Story of Zahhak"@en, "داستان ضحاک"@fa;
-   mdhn:isPartOf mdhn:Shahnameh ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923562" .
-
-mdhn:KingdomOfZahhak a mdhn:NarrativeEpisode;
-   rdfs:label "The Kingdom of Zahhak"@en, "پادشاهی ضحاک"@fa;
-   mdhn:isPartOf mdhn:ZahhakStory ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466998" .   
 
 
-mdhn:Kingdom_Of_Garshasp a mdhn:NarrativeEpisode ;
-   rdfs:label "Kingdom Of Garshasp"@en, "پادشاهی گرشاسپ"@fa;
-   mdhn:isPartOf mdhn:Shahnameh ;
-   rdfs:comment "a mythical kingdom ruled by Garshasp in Persian mythology" ;
-   mdhn:charactersInvolved  mdhn:Garshasp ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140479595" .
-
-
-mdhn:RostamStory a mdhn:NarrativeEpisode;
-   rdfs:label "The Story of Rostam"@en, "داستان رستم"@fa;
-   mdhn:isPartOf mdhn:Shahnameh ;
-   mdhn:charactersInvolved  mdhn:Rostam ;
-   mdhn:icWikiDataURL "" .
-  
-
-mdhn:Battle_Between_Rostam_and_AkvanDiv a mdhn:NarrativeEpisode;
-   rdfs:label "Battle between Rostam and AkvanDiv"@en, "نبرد رستم و اکوان ديو"@fa;
-   mdhn:isPartOf mdhn:Story_of_Akvan_Div , mdhn:RostamStory ;
-   mdhn:icWikiDataURL "" .  
-   
-mdhn:Kingdom_of_Manuchehr a mdhn:NarrativeEpisode ;
-   rdfs:label "Kingdom of Manuchehr"@en, "پادشاهی منوچهر"@fa;
-   mdhn:isPartOf mdhn:Shahnameh ;
-   rdfs:comment "a mythical kingdom ruled by Manuchehr in Persian mythology" ;
-   mdhn:charactersInvolved  mdhn:Manuchehr;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .
-
- 
-
-   
-
-mdhn:Kingdom_of_KayKhosrow a mdhn:NarrativeEpisode ;
-   rdfs:label "Kingdom of KayKhosrow"@en, "پادشاهی کيخسرو"@fa;
-   mdhn:isPartOf mdhn:Shahnameh ;
-   rdfs:comment "a mythical kingdom ruled by KayKhosrow in Persian mythology" ;
-   mdhn:charactersInvolved  mdhn:KayKhosrow;
-   mdhn:icWikiDataURL "" .   
-
-
-  
-
-mdhn:Rostam_Capture_The_Rakhsh_With_Lasso a mdhn:NarrativeEpisode;
-   rdfs:label "Rostam Capture The Rakhsh With Lasso"@en, "انتخاب رخش توسط رستم و کمد اندازی رستم"@fa;
-   mdhn:isPartOf mdhn:Kingdom_Of_Garshasp , mdhn:RostamStory ;
-   mdhn:icWikiDataURL "" .       
-mdhn:Kingdom_of_Fereydun a mdhn:NarrativeEpisode ;
-   rdfs:label "Kingdom of Fereydun"@en, "پادشاهی فریدون"@fa;
-   mdhn:isPartOf mdhn:Shahnameh ;
-   rdfs:comment "a mythical kingdom ruled by Fereydun in Persian mythology" ;
-   mdhn:charactersInvolved  mdhn:Fereydun, mdhn:Salm, mdhn:Tur, mdhn:Zahhak, mdhn:Iraj, mdhn:Manuchehr, mdhn:Farangis, mdhn:Arnavaz, mdhn:Shahrnaz;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .
-
-
-mdhn:KingdomOfNauzar a mdhn:NarrativeEpisode;
-   rdfs:label "The Kingdom of Nauzar"@en, "پادشاهی نوذر"@fa;
-   mdhn:isPartOf mdhn:Shahnameh ;
-   mdhn:charactersInvolved mdhn:Nauzar, mdhn:Qaran, mdhn:Qubad, mdhn:Barman;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466986" .
-
-mdhn:Qaran_Slays_Barman a mdhn:NarrativeEpisode;
-   rdfs:label "Qaran Slays Barman"@en, "کشته شدن بارمان به دست قاران"@fa;
-   mdhn:isPartOf mdhn:KingdomOfNauzar ;
-   mdhn:charactersInvolved mdhn:Qaran, mdhn:Barman, mdhn:Qubad;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138847591" .  
-
-
-
-mdhn:RudabaConfesses a mdhn:NarrativeEpisode;
-   rdfs:label "Rudaba Coشnfesses to Sindukht"@en, "رودابه در مورد زال در نزد مادر خود اعتراف می کند"@fa;
-   mdhn:isPartOf mdhn:ZalAndRudaba ;
-   mdhn:charactersInvolved mdhn:Rudaba, mdhn:Sindukht;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138800292" .     
-
-   
-
-mdhn:Golestan_of_Saadi a mdhn:NarrativeEpisode ;
-    mdhn:aatConcept mdhn:aat300404746 ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q404191" ;
+mdhn:Kolliat_of_Saadi a mdhn:NarrativeEpisode ;
+    skos:relatedMatch mdhn:aat300404746 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q16052478" ;
     dcterms:created "656 AH / 1258 CE" ;
     mdhn:isPartOf mdhn:Folklore_Epic_or_Mythology ;
+    mdhn:charactersInvolved mdhn:Saadi_Shirazi ;
+    rdfs:label "Kolliyat-e Saadi"@en , "کليات سعدی"@fa .
+
+
+
+
+
+mdhn:Bustan_of_Saadi a mdhn:NarrativeEpisode ;
+    skos:relatedMatch mdhn:aat300404746 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q446972" ;
+    dcterms:created "655 AH / 1257 CE" ;
+    mdhn:isPartOf mdhn:Folklore_Epic_or_Mythology, mdhn:Kolliat_of_Saadi ;
+    mdhn:charactersInvolved mdhn:Saadi_Shirazi ;
+    rdfs:comment """The Bustan (Bostan, 'Orchard'), also called Saadi-nama in early sources, is the moral mathnawi of Saadi of Shiraz, completed in 655/1257 and dedicated to the Salghurid Atabeg Abu Bakr b. Sa'd of Fars. About 4,100 couplets in mutaqarib metre. After a long preamble the poem is arranged in ten chapters (bab) named by Saadi himself in the preface. Each bab mixes counsel with independent hikayat. Composed one year before the Golestan."""@en ;
+    rdfs:label "Bustan of Saadi"@en , "بوستان سعدی"@fa .
+
+
+
+### Preface (دیباچه)
+
+mdhn:Bustan_Preface a mdhn:NarrativeEpisode ;
+    rdfs:label "Preface of the Bustan"@en , "دیباچه بوستان"@fa ;
+    rdfs:comment """Opening of the Bustan: praise of God, praise of the Prophet, panegyric of Atabeg Abu Bakr b. Sa'd, and Saadi's account of why he planted an 'orchard' of ten gates of instruction."""@en ;
+    mdhn:charactersInvolved mdhn:Saadi_Shirazi ;
+    mdhn:isPartOf mdhn:Bustan_of_Saadi ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Cause_of_Composing_Bustan a mdhn:NarrativeEpisode ;
+    rdfs:label "The Cause of Composing the Orchard"@en , "سبب تصنیف بوستان"@fa ;
+    rdfs:comment """In the preamble Saadi says that on returning from travel he built a palace of speech and opened in it ten doors of counsel, so that the fruit of his orchard would not wither."""@en ;
+    mdhn:charactersInvolved mdhn:Saadi_Shirazi ;
+    mdhn:isPartOf mdhn:Bustan_Preface ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Dedication_to_Abu_Bakr a mdhn:NarrativeEpisode ;
+    rdfs:label "Dedication to Atabeg Abu Bakr"@en , "مدح اتابک ابوبکر بن سعد"@fa ;
+    rdfs:comment """Preface panegyric of Atabeg Muzaffar al-Din Abu Bakr b. Sa'd b. Zangi, with praise also of his son Sa'd and grandson Muhammad."""@en ;
+    mdhn:charactersInvolved mdhn:Saadi_Shirazi ;
+    mdhn:isPartOf mdhn:Bustan_Preface ;
+    mdhn:icWikiDataURL "" .
+
+
+### Bab 1 — Justice, Counsel, Government
+### باب اول: در عدل و تدبیر و رای
+
+mdhn:Bustan_Bab_1_Justice_Counsel_Government a mdhn:NarrativeEpisode ;
+    rdfs:label "Bustan Chapter 1: Justice, Counsel and Government"@en , "بوستان باب اول: در عدل و تدبیر و رای"@fa ;
+    rdfs:comment "First bab. Counsel on justice, protection of the weak, and the manners of kings."@en ;
+    mdhn:isPartOf mdhn:Bustan_of_Saadi ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Nushirvan_Counsel_to_His_Son a mdhn:NarrativeEpisode ;
+    rdfs:label "Nushirvan's Counsel to his Son"@en , "اندرز انوشیروان به پسر"@fa ;
+    rdfs:comment """Bab 1. Khosrow Anushirvan warns his heir that the throne stands on justice and that the cry of the oppressed reaches God."""@en ;
+    mdhn:charactersInvolved mdhn:Khosrow_I ;
+    mdhn:isPartOf mdhn:Bustan_Bab_1_Justice_Counsel_Government ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_King_Whose_Coat_Was_Coarse a mdhn:NarrativeEpisode ;
+    rdfs:label "The King whose Coat was Coarse"@en , "پادشاهی که جامه‌اش درشت بود"@fa ;
+    rdfs:comment """Bab 1. A just king wears a coarse coat so that he will not forget the poor."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_1_Justice_Counsel_Government ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Darius_and_the_Herdsman a mdhn:NarrativeEpisode ;
+    rdfs:label "Darius and the Herdsman"@en , "دارا و شبان"@fa ;
+    rdfs:comment """Bab 1. A herdsman rebukes Darius for neglecting the flock; the king accepts the rustic counsel."""@en ;
+    mdhn:charactersInvolved mdhn:Dara ;
+    mdhn:isPartOf mdhn:Bustan_Bab_1_Justice_Counsel_Government ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Abdul_Aziz_and_the_Pearl a mdhn:NarrativeEpisode ;
+    rdfs:label "Abd al-Aziz and the Pearl"@en , "عبدالعزیز و مروارید"@fa ;
+    rdfs:comment """Bab 1. The caliph refuses a priceless pearl bought with the treasury, lest the people starve for an ornament."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_1_Justice_Counsel_Government ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Devotee_Rebukes_the_King a mdhn:NarrativeEpisode ;
+    rdfs:label "A Devotee Rebukes the King"@en , "زاهد و پادشاه"@fa ;
+    rdfs:comment """Bab 1 (Tughril / Tukla cycle). A recluse rebukes a prince who hunts while the country suffers."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_1_Justice_Counsel_Government ;
+    mdhn:icWikiDataURL "" .
+
+
+### Bab 2 — Benevolence
+### باب دوم: در احسان
+
+mdhn:Bustan_Bab_2_Benevolence a mdhn:NarrativeEpisode ;
+    rdfs:label "Bustan Chapter 2: Benevolence"@en , "بوستان باب دوم: در احسان"@fa ;
+    rdfs:comment "Second bab. Charity beyond duty, kindness to the weak, and the fame of Hatim Tai."@en ;
+    mdhn:isPartOf mdhn:Bustan_of_Saadi ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Man_and_the_Thirsty_Dog a mdhn:NarrativeEpisode ;
+    rdfs:label "The Man and the Thirsty Dog"@en , "مرد و سگ تشنه"@fa ;
+    rdfs:comment """Bab 2. A sinner is forgiven because he drew water for a dying dog in the desert."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_2_Benevolence ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Hatim_Tai a mdhn:NarrativeEpisode ;
+    rdfs:label "The Story of Hatim Tai"@en , "حکایت حاتم طائی"@fa ;
+    rdfs:comment """Bab 2. The proverbial generosity of Hatim of Tayy; guests and rivals are fed even when the house is empty."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_2_Benevolence ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Hatim_and_the_Messenger a mdhn:NarrativeEpisode ;
+    rdfs:label "Hatim and the Messenger sent to kill him"@en , "حاتم و فرستادهٔ قاتل"@fa ;
+    rdfs:comment """Bab 2. A rival king sends a man to take Hatim's head; Hatim feeds the assassin and offers himself."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Hatim_Tai ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Abraham_and_the_Fire_Worshipper a mdhn:NarrativeEpisode ;
+    rdfs:label "Abraham and the Fire-Worshipper"@en , "ابراهیم و آتش‌پرست"@fa ;
+    rdfs:comment """Bab 2. Ibrahim drives a Magian guest from his board for unbelief; God rebukes him: He has fed the man for a lifetime, why will you not feed him for a night? Frequently illustrated (e.g. Metropolitan Bustan folio)."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_2_Benevolence ;
+    mdhn:icWikiDataURL "" .
+
+
+### Bab 3 — Love
+### باب سوم: در عشق و مستی و شور
+
+mdhn:Bustan_Bab_3_Love a mdhn:NarrativeEpisode ;
+    rdfs:label "Bustan Chapter 3: Love, Intoxication and Passion"@en , "بوستان باب سوم: در عشق و مستی و شور"@fa ;
+    rdfs:comment "Third bab. Divine and human love; constancy; the moth and the candle."@en ;
+    mdhn:isPartOf mdhn:Bustan_of_Saadi ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Mahmud_and_Ayaz a mdhn:NarrativeEpisode ;
+    rdfs:label "Sultan Mahmud and Ayaz"@en , "سلطان محمود و ایاز"@fa ;
+    rdfs:comment """Bab 3. Mahmud of Ghazna and the slave Ayaz as a figure of selfless love."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_3_Love ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Moth_and_Candle a mdhn:NarrativeEpisode ;
+    rdfs:label "The Moth and the Candle"@en , "پروانه‌ و شمع"@fa ;
+    rdfs:comment """Bab 3. The moth throws itself on the flame; a stock image of fana in the Bustan."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_3_Love ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Yusuf_and_Zulaikha a mdhn:NarrativeEpisode ;
+    rdfs:label "Yusuf and Zulaikha in the Bustan"@en , "یوسف و زلیخا در بوستان"@fa ;
+    rdfs:comment """Bab 3 hikayat of Yusuf, famously painted by Bihzad in the 1488 Cairo Bustan (Egyptian National Library). Shared motif with the independent Yusuf cycle; this IRI is the Bustan telling."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_3_Love ;
+    mdhn:icWikiDataURL "" .
+
+
+### Bab 4 — Humility
+### باب چهارم: در تواضع
+
+mdhn:Bustan_Bab_4_Humility a mdhn:NarrativeEpisode ;
+    rdfs:label "Bustan Chapter 4: Humility"@en , "بوستان باب چهارم: در تواضع"@fa ;
+    rdfs:comment "Fourth bab. Against pride of piety and rank."@en ;
+    mdhn:isPartOf mdhn:Bustan_of_Saadi ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Raindrop a mdhn:NarrativeEpisode ;
+    rdfs:label "The Story of the Raindrop"@en , "حکایت قطرهٔ باران"@fa ;
+    rdfs:comment """Bab 4. A raindrop, ashamed before the sea, is raised into a pearl — humility exalted."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_4_Humility ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Bayazid_Bastami a mdhn:NarrativeEpisode ;
+    rdfs:label "Bayazid Bastami"@en , "بایزید بسطامی"@fa ;
+    rdfs:comment """Bab 4. The Sufi Bayazid treats himself as the least of creatures."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_4_Humility ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Dervish_and_the_Proud_Qadi a mdhn:NarrativeEpisode ;
+    rdfs:label "The Dervish and the Proud Qadi"@en , "درویش و قاضی متکبر"@fa ;
+    rdfs:comment """Bab 4. A ragged dervish puts a proud judge to shame."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_4_Humility ;
+    mdhn:icWikiDataURL "" .
+
+
+### Bab 5 — Resignation
+### باب پنجم: در رضا
+
+mdhn:Bustan_Bab_5_Resignation a mdhn:NarrativeEpisode ;
+    rdfs:label "Bustan Chapter 5: Resignation"@en , "بوستان باب پنجم: در رضا"@fa ;
+    rdfs:comment "Fifth bab. Acceptance of the divine decree."@en ;
+    mdhn:isPartOf mdhn:Bustan_of_Saadi ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Saadi_at_the_Indian_Temple a mdhn:NarrativeEpisode ;
+    rdfs:label "Saadi at an Indian Temple"@en , "سعدی در بتکدهٔ هند"@fa ;
+    rdfs:comment """Travel hikayat often placed with the later ethical babs and frequently catalogued from illustrated Bustan copies (e.g. Brooklyn Museum folio). Saadi watches a temple rite and draws a lesson on sincerity versus idolatry."""@en ;
+    mdhn:charactersInvolved mdhn:Saadi_Shirazi ;
+    mdhn:isPartOf mdhn:Bustan_Bab_5_Resignation ;
+    mdhn:icWikiDataURL "" .
+
+
+### Bab 6 — Contentment
+### باب ششم: در قناعت
+
+mdhn:Bustan_Bab_6_Contentment a mdhn:NarrativeEpisode ;
+    rdfs:label "Bustan Chapter 6: Contentment"@en , "بوستان باب ششم: در قناعت"@fa ;
+    rdfs:comment "Sixth bab. Qana'at: living with little and refusing greedy office."@en ;
+    mdhn:isPartOf mdhn:Bustan_of_Saadi ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Poor_Man_Refuses_Office a mdhn:NarrativeEpisode ;
+    rdfs:label "The Poor Man who Refused Office"@en , "قناعت‌پیشه که شغل نپذیرفت"@fa ;
+    rdfs:comment """Bab 6. A contented man declines a lucrative post rather than sell his freedom."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_6_Contentment ;
+    mdhn:icWikiDataURL "" .
+
+
+### Bab 7 — Education
+### باب هفتم: در عالم تربیت
+
+mdhn:Bustan_Bab_7_Education a mdhn:NarrativeEpisode ;
+    rdfs:label "Bustan Chapter 7: Education"@en , "بوستان باب هفتم: در عالم تربیت"@fa ;
+    rdfs:comment "Seventh bab. Discipline, self-control, and the training of the young."@en ;
+    mdhn:isPartOf mdhn:Bustan_of_Saadi ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Father_and_Unruly_Son a mdhn:NarrativeEpisode ;
+    rdfs:label "The Father and the Unruly Son"@en , "پدر و پسر نافرمان"@fa ;
+    rdfs:comment """Bab 7. A father who spoils a son reaps the fruit of neglected tarbiyat."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_7_Education ;
+    mdhn:icWikiDataURL "" .
+
+
+### Bab 8 — Gratitude
+### باب هشتم: در شکر بر عافیت
+
+mdhn:Bustan_Bab_8_Gratitude a mdhn:NarrativeEpisode ;
+    rdfs:label "Bustan Chapter 8: Gratitude"@en , "بوستان باب هشتم: در شکر بر عافیت"@fa ;
+    rdfs:comment "Eighth bab. Thanksgiving in health and in affliction."@en ;
+    mdhn:isPartOf mdhn:Bustan_of_Saadi ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Blind_Man_Gives_Thanks a mdhn:NarrativeEpisode ;
+    rdfs:label "The Blind Man who Gave Thanks"@en , "نابینایی که شکر می‌گفت"@fa ;
+    rdfs:comment """Bab 8. A blind man thanks God for the gifts that remain."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_8_Gratitude ;
+    mdhn:icWikiDataURL "" .
+
+
+### Bab 9 — Repentance
+### باب نهم: در توبه و راه صواب
+
+mdhn:Bustan_Bab_9_Repentance a mdhn:NarrativeEpisode ;
+    rdfs:label "Bustan Chapter 9: Repentance"@en , "بوستان باب نهم: در توبه و راه صواب"@fa ;
+    rdfs:comment "Ninth bab. Turning back from sin before the door is shut."@en ;
+    mdhn:isPartOf mdhn:Bustan_of_Saadi ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Sinner_at_the_Kaaba a mdhn:NarrativeEpisode ;
+    rdfs:label "The Sinner at the Kaaba"@en , "گناهکار در کعبه"@fa ;
+    rdfs:comment """Bab 9. A notorious sinner weeps at the House and is accepted."""@en ;
+    mdhn:isPartOf mdhn:Bustan_Bab_9_Repentance ;
+    mdhn:icWikiDataURL "" .
+
+
+### Bab 10 — Prayer
+### باب دهم: در مناجات و ختم کتاب
+
+mdhn:Bustan_Bab_10_Prayer a mdhn:NarrativeEpisode ;
+    rdfs:label "Bustan Chapter 10: Prayer and the Close of the Book"@en , "بوستان باب دهم: در مناجات و ختم کتاب"@fa ;
+    rdfs:comment "Tenth bab. Munajat: Saadi's closing prayers and the seal of the mathnawi."@en ;
+    mdhn:isPartOf mdhn:Bustan_of_Saadi ;
+    mdhn:icWikiDataURL "" .
+
+mdhn:Bustan_Closing_Munajat a mdhn:NarrativeEpisode ;
+    rdfs:label "The Closing Munajat"@en , "مناجات پایانی بوستان"@fa ;
+    rdfs:comment """Bab 10. Saadi asks pardon for the book and for himself, and commends the Orchard to God."""@en ;
+    mdhn:charactersInvolved mdhn:Saadi_Shirazi ;
+    mdhn:isPartOf mdhn:Bustan_Bab_10_Prayer ;
+    mdhn:icWikiDataURL "" .
+
+
+
+mdhn:Golestan_of_Saadi a mdhn:NarrativeEpisode ;
+    skos:relatedMatch mdhn:aat300404746 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q404191" ;
+    dcterms:created "656 AH / 1258 CE" ;
+    mdhn:isPartOf mdhn:Folklore_Epic_or_Mythology,mdhn:Kolliat_of_Saadi ;
     mdhn:charactersInvolved mdhn:Saadi_Shirazi ;
     rdfs:comment """The Golestan (Gulistan, 'Rose Garden') is the prose-and-verse masterpiece of Saadi of Shiraz, completed in 656/1258 and dedicated to the Salghurid Atabeg of Fars. After a preface it is arranged in eight chapters (bab), likened by the author to the eight gates of paradise. Each bab gathers independent hikayat (anecdotes) interspersed with short poems. The work is one of the most frequently copied and illustrated books of Persian literature."""@en ;
     rdfs:label "Golestan of Saadi"@en , "گلستان سعدی"@fa .
@@ -1340,6 +1606,11 @@ mdhn:Shahnameh a mdhn:NarrativeEpisode ;
     rdfs:comment """The Shahnameh, or Book of Kings, is an epic poem written by the Persian poet Ferdowsi around 1010 CE. It is one of the most important works of Persian literature and tells the mythical and historical past of Persia from the creation of the world until the Islamic conquest in the 7th century."""@en ;
     rdfs:label "Shahnameh"@en , "شاهنامه"@fa .
 
+mdhn:Shahnama_Preface a mdhn:NarrativeEpisode ;
+    rdfs:label "Kingdom of Jamshid"@en , "مقدمه شاهنامه"@fa ;
+    mdhn:isPartOf mdhn:Shahnameh ;
+    mdhn:icWikiDataURL "" .
+
 mdhn:Kingdom_of_Jamshid a mdhn:NarrativeEpisode ;
     rdfs:label "Kingdom of Jamshid"@en , "پادشاهی جمشید"@fa ;
     mdhn:isPartOf mdhn:Shahnameh ;
@@ -1365,11 +1636,154 @@ mdhn:Pride_and_Fall_of_Jamshid a mdhn:NarrativeEpisode ;
     mdhn:charactersInvolved mdhn:Jamshid , mdhn:Zahhak ;
     mdhn:icWikiDataURL "" .
 
+# Tahmuras
+mdhn:KingdomOfTahmuras a mdhn:NarrativeEpisode;
+   rdfs:label "The Kingdom of Tahmuras"@en, "پادشاهی طهمورث"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138676359" .
+
+mdhn:Tahmuras_Enthroned a mdhn:NarrativeEpisode ;
+   rdfs:label "Tahmuras Enthroned"@en, "بر تخت نشستن طهمورث"@fa;
+   mdhn:isPartOf mdhn:KingdomOfTahmuras ;
+   mdhn:charactersInvolved mdhn:Tahmuras;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138676359" .    
+
+mdhn:Tahmuras_Defeating_the_Divs a mdhn:NarrativeEpisode ;
+   rdfs:label "Tahmuras Defeating the Divs"@en, "طهمورث شکستن دیو ها"@fa;
+   rdfs:comment "a scene depicting Tahmuras defeating the divs" ;
+   mdhn:isPartOf mdhn:KingdomOfTahmuras ;
+   mdhn:charactersInvolved mdhn:Tahmuras;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138676508" .        
+
 # Existing live-file scenes: they are ZahhakStory, but they happen BEFORE
 # Zahhak sits on the Iranian throne, so their reign parent is Jamshid.
-mdhn:ZahhakKillsHisOwnFather
-    mdhn:isPartOf mdhn:Kingdom_of_Jamshid ;
-    rdfs:comment "ZahhakStory scene inside Kingdom_of_Jamshid. Mardas is killed in Arabia while Jamshid is still shah of Iran."@en .
+
+mdhn:Kingdom_of_Zu_Tahmasb a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom of Zu Tahmasb"@en, "پادشاهی زو طهماسب"@fa;
+   rdfs:comment "a mythical kingdom ruled by Zu Tahmasb in Persian mythology" ;
+   mdhn:charactersInvolved  mdhn:Zu_Tahmasb;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:icWikiDataURL "" .   
+
+      
+
+
+mdhn:ZahhakKillsHisOwnFather a mdhn:NarrativeEpisode;
+   rdfs:label "Zahhak Kills His Own Father Mardas"@en, "کشته شدن مرداس با حيله ضحاک"@fa;
+   mdhn:isPartOf mdhn:ZahhakStory, mdhn:Kingdom_of_Jamshid ;
+   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Mirdas, mdhn:Iblis;
+    rdfs:comment "Mardas is killed in Arabia while Jamshid is still shah of Iran."@en ;     
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138841520" . 
+
+ 
+
+mdhn:Ahriman_kiss_Zahhak_on_his_shoulders a mdhn:NarrativeEpisode;
+   rdfs:label "Ahriman asks to kiss Zahhak on his two shoulders"@en, "بوسه اهريمن بر شانه‌های ضحاک"@fa;
+   mdhn:isPartOf mdhn:ZahhakStory ;
+   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Iblis;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925586" .    
+
+mdhn:Zahhak_Enthroned a mdhn:NarrativeEpisode;
+   rdfs:label "Zahhak Enthroned"@en, "بر تخت نشستن ضحاک"@fa;
+   mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory ;
+   mdhn:charactersInvolved mdhn:Zahhak;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925814" .     
+ 
+
+mdhn:Zahhak_and_Daughters_of_Jamshid a mdhn:NarrativeEpisode;
+   rdfs:label "Zahhak Receives the Daughters of Jamshid"@en, "دختران جمشيد در بارگاه ضحاک"@fa;
+   mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory ;
+   mdhn:charactersInvolved mdhn:Jamshid, mdhn:Zahhak, mdhn:Shahrnaz, mdhn:Arnavaz;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138841381" . 
+  
+ 
+mdhn:ZahhakStory a mdhn:NarrativeEpisode;
+   rdfs:label "The Story of Zahhak"@en, "داستان ضحاک"@fa;
+   mdhn:isPartOf mdhn:Kingdom_of_Jamshid, mdhn:KingdomOfZahhak ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923562" .
+
+mdhn:KingdomOfZahhak a mdhn:NarrativeEpisode;
+   rdfs:label "The Kingdom of Zahhak"@en, "پادشاهی ضحاک"@fa;
+   mdhn:isPartOf mdhn:ZahhakStory ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466998" .   
+
+
+mdhn:Kingdom_Of_Garshasp a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom Of Garshasp"@en, "پادشاهی گرشاسپ"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   rdfs:comment "a mythical kingdom ruled by Garshasp in Persian mythology" ;
+   mdhn:charactersInvolved  mdhn:Garshasp ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140479595" .
+
+
+mdhn:RostamStory a mdhn:NarrativeEpisode;
+   rdfs:label "The Story of Rostam"@en, "داستان رستم"@fa;
+   mdhn:isPartOf mdhn:Kingdom_of_Manuchehr ,
+                               mdhn:Kingdom_Of_Garshasp ,
+                               mdhn:Kingdom_of_Kay_Qubad ,
+                               mdhn:Kingdom_of_Kay_Kavus ,
+                               mdhn:Kingdom_of_KayKhosrow ,
+                               mdhn:Kingdom_of_Goshtasp ,
+                               mdhn:Kingdom_of_Bahman ;
+   mdhn:charactersInvolved  mdhn:Rostam ;
+   mdhn:icWikiDataURL "" .
+  
+
+mdhn:Battle_Between_Rostam_and_AkvanDiv a mdhn:NarrativeEpisode;
+   rdfs:label "Battle between Rostam and AkvanDiv"@en, "نبرد رستم و اکوان ديو"@fa;
+   mdhn:isPartOf mdhn:Story_of_Akvan_Div , mdhn:RostamStory ;
+   mdhn:icWikiDataURL "" .  
+   
+mdhn:Kingdom_of_Manuchehr a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom of Manuchehr"@en, "پادشاهی منوچهر"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   rdfs:comment "a mythical kingdom ruled by Manuchehr in Persian mythology" ;
+   mdhn:charactersInvolved  mdhn:Manuchehr;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .
+
+ 
+
+   
+
+mdhn:Kingdom_of_KayKhosrow a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom of KayKhosrow"@en, "پادشاهی کيخسرو"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   rdfs:comment "a mythical kingdom ruled by KayKhosrow in Persian mythology" ;
+   mdhn:charactersInvolved  mdhn:KayKhosrow;
+   mdhn:icWikiDataURL "" .   
+
+
+  
+
+mdhn:Rostam_Capture_The_Rakhsh_With_Lasso a mdhn:NarrativeEpisode;
+   rdfs:label "Rostam Capture The Rakhsh With Lasso"@en, "انتخاب رخش توسط رستم و کمد اندازی رستم"@fa;
+   mdhn:isPartOf mdhn:Kingdom_Of_Garshasp , mdhn:RostamStory ;
+   mdhn:icWikiDataURL "" .       
+mdhn:Kingdom_of_Fereydun a mdhn:NarrativeEpisode ;
+   rdfs:label "Kingdom of Fereydun"@en, "پادشاهی فریدون"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   rdfs:comment "a mythical kingdom ruled by Fereydun in Persian mythology" ;
+   mdhn:charactersInvolved  mdhn:Fereydun, mdhn:Salm, mdhn:Tur, mdhn:Zahhak, mdhn:Iraj, mdhn:Manuchehr, mdhn:Farangis, mdhn:Arnavaz, mdhn:Shahrnaz;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .
+
+
+mdhn:KingdomOfNauzar a mdhn:NarrativeEpisode;
+   rdfs:label "The Kingdom of Nauzar"@en, "پادشاهی نوذر"@fa;
+   mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:charactersInvolved mdhn:Nauzar, mdhn:Qaran, mdhn:Qubad, mdhn:Barman;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466986" .
+
+mdhn:Qaran_Slays_Barman a mdhn:NarrativeEpisode;
+   rdfs:label "Qaran Slays Barman"@en, "کشته شدن بارمان به دست قاران"@fa;
+   mdhn:isPartOf mdhn:KingdomOfNauzar ;
+   mdhn:charactersInvolved mdhn:Qaran, mdhn:Barman;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138847591" .  
+
+mdhn:Barman_Slays_Qubad a mdhn:NarrativeEpisode;
+   rdfs:label "Barman Slays Qubad"@en, "کشته شدن قباد به دست بارمان"@fa;
+   mdhn:isPartOf mdhn:KingdomOfNauzar ;
+   mdhn:charactersInvolved mdhn:Barman, mdhn:Qubad;
+   mdhn:icWikiDataURL "" .  
 
 mdhn:Ahriman_kiss_Zahhak_on_his_shoulders
     mdhn:isPartOf mdhn:Kingdom_of_Jamshid ;
@@ -1381,30 +1795,6 @@ mdhn:Sawing_of_Jamshid a mdhn:NarrativeEpisode ;
     mdhn:isPartOf mdhn:Kingdom_of_Jamshid , mdhn:ZahhakStory ;
     mdhn:charactersInvolved mdhn:Jamshid , mdhn:Zahhak ;
     mdhn:icWikiDataURL "" .
-
-
-# --- 5. Zahhak -------------------------------------------------------------
-# Reign begins at the enthronement. ZahhakStory CONTINUES here; it does not start here.
-
-mdhn:KingdomOfZahhak mdhn:isPartOf mdhn:Shahnameh .
-
-mdhn:ZahhakStory
-    mdhn:isPartOf mdhn:Kingdom_of_Jamshid , mdhn:KingdomOfZahhak ;
-    rdfs:comment "Plot arc spanning two padshahi. Opening scenes sit under Kingdom_of_Jamshid; from Zahhak_Enthroned onward they sit under KingdomOfZahhak."@en .
-
-mdhn:Zahhak_Enthroned mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory .
-
-mdhn:Zahhak_and_Daughters_of_Jamshid mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory .
-
-mdhn:The_Nightmare_of_Zahhak mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory .
-
-mdhn:The_Mobad_interprets_Zahhak_Nightmare mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory .
-
-mdhn:Zahhak_slays_the_sacred_cow_Barmayah mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory .
-
-
-
-
 
 
 
@@ -1445,37 +1835,41 @@ mdhn:Birth_and_Hiding_of_Fereydun a mdhn:NarrativeEpisode ;
     mdhn:charactersInvolved mdhn:Fereydun , mdhn:Zahhak ;
     mdhn:icWikiDataURL "" .
 
-
-
-
    
 
 
 mdhn:The_Nightmare_of_Zahhak a mdhn:NarrativeEpisode;
    rdfs:label "The Nightmare of Zahhak"@en, "کابوس شبانه ضحاک"@fa;
-   mdhn:isPartOf mdhn:KingdomOfZahhak ;
+   mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory;
    mdhn:charactersInvolved mdhn:Zahhak;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925865" .
 
 
 mdhn:Zahhak_slays_the_sacred_cow_Barmayah a mdhn:NarrativeEpisode;
    rdfs:label "Zahhak slays the sacred cow Barmayah"@en, "کشته شدن برمايه به دست ضحاک"@fa;
-   mdhn:isPartOf mdhn:KingdomOfZahhak, mdhn:Story_of_the_Rise_of_Fereydun;
-   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Fereydun, mdhn:Barmayeh;
+   mdhn:isPartOf mdhn:ZahhakStory, mdhn:Story_of_the_Rise_of_Fereydun;
+   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Barmayeh;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925920" . 
 
 mdhn:The_Mobad_interprets_Zahhak_Nightmare a mdhn:NarrativeEpisode;
    rdfs:label "The Mobad interprets Zahhak's Nightmare"@en, "مباد کابوس ضحاک را تعبير می کند"@fa;
-   mdhn:isPartOf mdhn:KingdomOfZahhak ;
-   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Fereydun, mdhn:Barmayeh;
+   mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory ;
+   mdhn:charactersInvolved mdhn:Zahhak, mdhn:Fereydun;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139926288" .  
 
-mdhn:Kaveh_the_Blacksmith a mdhn:NarrativeEpisode ;
+mdhn:Story_Of_The_Kaveh_the_Blacksmith a mdhn:NarrativeEpisode ;
     rdfs:label "Kaveh the Blacksmith before Zahhak"@en , "کاوه آهنگر در برابر ضحاک"@fa ;
     rdfs:comment "ZahhakStory scene inside KingdomOfZahhak. Also the hinge into Fereydun's rising."@en ;
     mdhn:isPartOf mdhn:ZahhakStory , mdhn:KingdomOfZahhak , mdhn:Kingdom_of_Fereydun, mdhn:Story_of_the_Rise_of_Fereydun  ;
-    mdhn:charactersInvolved mdhn:Zahhak , mdhn:Fereydun ;
+    mdhn:charactersInvolved mdhn:Zahhak , mdhn:Fereydun, mdhn:Kaveh_the_Blacksmith ;
     mdhn:icWikiDataURL "" .
+
+mdhn:Kaveh_Tears_Zahhak_Scroll a mdhn:NarrativeEpisode ;
+    rdfs:label "Kaveh Tears Zahhak’s Scroll"@en , "پاره کردن نامه ضحاک"@fa ;
+    mdhn:isPartOf mdhn:ZahhakStory , mdhn:KingdomOfZahhak , mdhn:Story_Of_The_Kaveh_the_Blacksmith, mdhn:Story_of_the_Rise_of_Fereydun  ;
+    mdhn:charactersInvolved mdhn:Zahhak , mdhn:Kaveh_the_Blacksmith ;
+    mdhn:icWikiDataURL "" .
+    
 
 mdhn:Fereydun_Crosses_the_River_Dijla a mdhn:NarrativeEpisode ;
    rdfs:label "Fereydun Crosses the River Dijla"@en, "فریدون از رود دجله عبور می‌کند"@fa;
@@ -1493,7 +1887,7 @@ mdhn:Fereydun_Strikes_Down_Zahhak a mdhn:NarrativeEpisode;
 
 
 mdhn:Chaining_Zahhak_on_Mount_Damavand a mdhn:NarrativeEpisode;
-   rdfs:label "Chaining Zahhak on Mount Damavand"@en, "به بند کشطدن ضحاک در دماوند"@fa;
+   rdfs:label "Chaining Zahhak on Mount Damavand"@en, "به بند کشيدن ضحاک در دماوند"@fa;
    mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory , mdhn:Kingdom_of_Fereydun, mdhn:Story_of_the_Rise_of_Fereydun  ;
    mdhn:charactersInvolved mdhn:Zahhak, mdhn:Fereydun;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138715711" .  
@@ -1542,26 +1936,35 @@ mdhn:The_Court_of_Faridun a mdhn:NarrativeEpisode;
 mdhn:Birth_of_Salm_Tur_and_Iraj a mdhn:NarrativeEpisode ;
     rdfs:label "Birth of Salm, Tur and Iraj"@en , "زاده‌شدن سلم و تور و ایرج"@fa ;
     rdfs:comment "Salm and Tur from Shahrnaz; Iraj from Arnavaz."@en ;
-    mdhn:isPartOf mdhn:Story_of_Iraj , mdhn:Kingdom_of_Fereydun ;
+    mdhn:isPartOf mdhn:Kingdom_of_Fereydun ;
     mdhn:charactersInvolved mdhn:Fereydun , mdhn:Salm , mdhn:Tur , mdhn:Iraj , mdhn:Shahrnaz , mdhn:Arnavaz ;
     mdhn:icWikiDataURL "" .
 
+
+
 mdhn:Sons_of_Fereydun_Go_to_Yemen a mdhn:NarrativeEpisode ;
     rdfs:label "The Sons of Fereydun Woo the Daughters of the King of Yemen"@en , "رفتن پسران فریدون به یمن"@fa ;
-    mdhn:isPartOf mdhn:Story_of_Iraj , mdhn:Kingdom_of_Fereydun ;
+    mdhn:isPartOf mdhn:Marriage_of_Fereyduns_Son , mdhn:Kingdom_of_Fereydun ;
     mdhn:charactersInvolved mdhn:Fereydun , mdhn:Salm , mdhn:Tur , mdhn:Iraj ;
     mdhn:icWikiDataURL "" .
+
+mdhn:Marriage_of_Fereyduns_Son a mdhn:NarrativeEpisode ;
+    rdfs:label "Marriage_of_Fereyduns_Son"@en , "ازدواج پسران فريدون"@fa ;
+    mdhn:isPartOf mdhn:Story_of_Iraj , mdhn:Kingdom_of_Fereydun ;
+    mdhn:charactersInvolved mdhn:Fereydun , mdhn:Salm , mdhn:Tur , mdhn:Iraj, mdhn:King_Sarv ;
+    mdhn:icWikiDataURL "" .    
 
 mdhn:Fereydun_Tests_His_Sons_as_a_Dragon a mdhn:NarrativeEpisode ;
     rdfs:label "Fereydun Tests His Sons in the Shape of a Dragon"@en , "آزمون اژدها: فریدون پسران را می‌آزماید"@fa ;
     rdfs:comment "Salm flees, Tur attacks, Iraj holds the middle course. Names are given after this test."@en ;
-    mdhn:isPartOf mdhn:Story_of_Iraj , mdhn:Kingdom_of_Fereydun ;
+    mdhn:isPartOf mdhn:Kingdom_of_Fereydun ;
     mdhn:charactersInvolved mdhn:Fereydun , mdhn:Salm , mdhn:Tur , mdhn:Iraj ;
     mdhn:icWikiDataURL "" .
 
+
 mdhn:Naming_of_Salm_Tur_and_Iraj a mdhn:NarrativeEpisode ;
     rdfs:label "Fereydun Names Salm, Tur and Iraj"@en , "نام‌گذاری سلم و تور و ایرج"@fa ;
-    mdhn:isPartOf mdhn:Story_of_Iraj , mdhn:Kingdom_of_Fereydun ;
+    mdhn:isPartOf mdhn:Kingdom_of_Fereydun ;
     mdhn:charactersInvolved mdhn:Fereydun , mdhn:Salm , mdhn:Tur , mdhn:Iraj ;
     mdhn:icWikiDataURL "" .
 
@@ -1570,6 +1973,13 @@ mdhn:Jealousy_of_Salm_and_Tur a mdhn:NarrativeEpisode ;
     mdhn:isPartOf mdhn:Story_of_Iraj , mdhn:Kingdom_of_Fereydun ;
     mdhn:charactersInvolved mdhn:Salm , mdhn:Tur , mdhn:Iraj , mdhn:Fereydun ;
     mdhn:icWikiDataURL "" .
+
+mdhn:Message_From_Salm_and_Tur a mdhn:NarrativeEpisode ;
+    rdfs:label "Message from Salm and Tur"@en , "پیام از سلم و تور"@fa ;
+    mdhn:isPartOf mdhn:Story_of_Iraj , mdhn:Kingdom_of_Fereydun ;
+    mdhn:charactersInvolved mdhn:Salm , mdhn:Tur , mdhn:Iraj , mdhn:Fereydun ;
+    mdhn:icWikiDataURL "" .
+    
 
 mdhn:Iraj_Goes_Unarmed_to_His_Brothers a mdhn:NarrativeEpisode ;
     rdfs:label "Iraj Goes Unarmed to Salm and Tur"@en , "رفتن ایرج بی‌سلاح نزد برادران"@fa ;
@@ -1638,7 +2048,7 @@ mdhn:Story_of_Iraj a mdhn:NarrativeEpisode ;
 
 mdhn:Division_of_the_World_by_Fereydun a mdhn:NarrativeEpisode ;
     rdfs:label "Fereydun Divides the World among Salm, Tur and Iraj"@en , "تقسیم جهان میان سلم و تور و ایرج"@fa ;
-    mdhn:isPartOf mdhn:Story_of_Iraj , mdhn:Kingdom_of_Fereydun ;
+    mdhn:isPartOf mdhn:Kingdom_of_Fereydun ;
     mdhn:charactersInvolved mdhn:Fereydun , mdhn:Salm , mdhn:Tur , mdhn:Iraj ;
     mdhn:icWikiDataURL "" .
 
@@ -1654,41 +2064,65 @@ mdhn:Beheading_Iraj_By_His_Brothers a mdhn:NarrativeEpisode ;
 # Zal–Rudaba is told entirely inside this reign.
 
 
+mdhn:Story_of_Zal a mdhn:NarrativeEpisode ;
+    rdfs:label "Strory of the Zal"@en , "بازگشت سام به کوه البرز"@fa ;
+    mdhn:isPartOf mdhn:Kingdom_of_Manuchehr ;
+    mdhn:charactersInvolved mdhn:Zal , mdhn:Sam, mdhn:Simurgh ;
+    mdhn:icWikiDataURL "" .   
 
 mdhn:ZalAndRudaba a mdhn:NarrativeEpisode;
    rdfs:label "Zal and Rudaba"@en, "زال و رودابه"@fa;
-   mdhn:isPartOf mdhn:Kingdom_of_Manuchehr ;
+   mdhn:isPartOf mdhn:Story_of_Zal ;
    mdhn:charactersInvolved mdhn:Zal, mdhn:Rudaba, mdhn:Sam, mdhn:Sindukht, mdhn:Mihrab, mdhn:Manuchihr;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5960418" .
 
 mdhn:Zal_Exposed_on_Mount_Alborz a mdhn:NarrativeEpisode ;
     rdfs:label "The Infant Zal Exposed on Mount Alborz"@en , "رها کردن زال در البرز"@fa ;
-    mdhn:isPartOf mdhn:ZalAndRudaba , mdhn:Kingdom_of_Manuchehr ;
-    mdhn:charactersInvolved mdhn:Zal , mdhn:Sam ;
+    mdhn:isPartOf mdhn:Story_of_Zal ;
+    mdhn:charactersInvolved mdhn:Zal , mdhn:Sam, mdhn:Simurgh;
     mdhn:icWikiDataURL "" .
+
+mdhn:Sam_Returns_To_Mount_Alborz a mdhn:NarrativeEpisode ;
+    rdfs:label "Zal Returns to Mount Alborz"@en , "بازگشت سام به کوه البرز"@fa ;
+    mdhn:isPartOf mdhn:Story_of_Zal ;
+    mdhn:charactersInvolved mdhn:Zal , mdhn:Sam, mdhn:Simurgh ;
+    mdhn:icWikiDataURL "" .    
+
+mdhn:Zal_Returns_To_Home a mdhn:NarrativeEpisode ;
+    rdfs:label "Zal Returns to Mount Alborz"@en , "بازگشت زال به خانه "@fa ;
+    mdhn:isPartOf mdhn:Story_of_Zal ;
+    mdhn:charactersInvolved mdhn:Zal , mdhn:Sam;
+    mdhn:icWikiDataURL "" .       
 
 mdhn:Simurgh_Nurses_Zal a mdhn:NarrativeEpisode ;
     rdfs:label "The Simurgh Nurses Zal"@en , "پرورش زال نزد سیمرغ"@fa ;
-    mdhn:isPartOf mdhn:ZalAndRudaba , mdhn:Kingdom_of_Manuchehr ;
+    mdhn:isPartOf mdhn:Story_of_Zal ;
     mdhn:charactersInvolved mdhn:Zal ;
     mdhn:icWikiDataURL "" .
 
 mdhn:Zal_Sees_Rudaba a mdhn:NarrativeEpisode ;
     rdfs:label "Zal Sees Rudaba on the Battlements of Kabul"@en , "دیدار زال و رودابه بر باره کابل"@fa ;
-    mdhn:isPartOf mdhn:ZalAndRudaba , mdhn:Kingdom_of_Manuchehr ;
+    mdhn:isPartOf mdhn:ZalAndRudaba , mdhn:Story_of_Zal ;
     mdhn:charactersInvolved mdhn:Zal , mdhn:Rudaba ;
     mdhn:icWikiDataURL "" .
 
+
+mdhn:RudabaConfesses a mdhn:NarrativeEpisode;
+   rdfs:label "Rudaba Coشnfesses to Sindukht"@en, "رودابه در مورد زال در نزد مادر خود اعتراف می کند"@fa;
+   mdhn:isPartOf mdhn:ZalAndRudaba ;
+   mdhn:charactersInvolved mdhn:Rudaba, mdhn:Sindukht;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138800292" .     
+
 mdhn:Marriage_of_Zal_and_Rudaba a mdhn:NarrativeEpisode ;
     rdfs:label "Marriage of Zal and Rudaba"@en , "ازدواج زال و رودابه"@fa ;
-    mdhn:isPartOf mdhn:ZalAndRudaba , mdhn:Kingdom_of_Manuchehr ;
+    mdhn:isPartOf mdhn:ZalAndRudaba , mdhn:Story_of_Zal ;
     mdhn:charactersInvolved mdhn:Zal , mdhn:Rudaba , mdhn:Sam , mdhn:Sindukht , mdhn:Mihrab ;
     mdhn:icWikiDataURL "" .
 
 mdhn:Birth_of_Rostam a mdhn:NarrativeEpisode ;
     rdfs:label "Birth of Rostam"@en , "زاده‌شدن رستم"@fa ;
     rdfs:comment "Last scene of ZalAndRudaba. Also the opening of Rostam's life; RostamStory is attached as a second parent so a Rostam query still finds it."@en ;
-    mdhn:isPartOf mdhn:ZalAndRudaba , mdhn:RostamStory , mdhn:Kingdom_of_Manuchehr ;
+    mdhn:isPartOf mdhn:Story_of_Zal , mdhn:RostamStory , mdhn:Kingdom_of_Manuchehr ;
     mdhn:charactersInvolved mdhn:Rostam , mdhn:Zal , mdhn:Rudaba ;
     mdhn:icWikiDataURL "" .
 
@@ -1750,6 +2184,12 @@ mdhn:KayKavus_Flying_Machine a mdhn:NarrativeEpisode ;
     mdhn:charactersInvolved mdhn:Kay_Kavus ;
     mdhn:icWikiDataURL "" .
 
+mdhn:Clash_Between_Iran_and_Turan a mdhn:NarrativeEpisode ;
+    rdfs:label "Clash between Iran and Turn"@en , "رويارويی ايرانيان و تورانيان"@fa ;
+    mdhn:isPartOf mdhn:Kingdom_of_Kay_Kavus ;
+    mdhn:charactersInvolved mdhn:Rostam, mdhn:Afrasiab ;
+    mdhn:icWikiDataURL "" .
+
 mdhn:Story_of_Sohrab a mdhn:NarrativeEpisode ;
     rdfs:label "Story of Sohrab"@en , "داستان سهراب"@fa ;
     mdhn:isPartOf mdhn:Kingdom_of_Kay_Kavus ;
@@ -1789,8 +2229,14 @@ mdhn:Siyavash_Story a mdhn:NarrativeEpisode;
    mdhn:characterInvolved mdhn:Siyavash;
    mdhn:icWikiDataURL "" .     
 
+mdhn:Farangis_and_Siyavash a mdhn:NarrativeEpisode ;
+    rdfs:label "Sudabeh Attempts to Seduce Siyavash"@en , "فرنگيس و سیاوش"@fa ;
+    mdhn:isPartOf mdhn:Siyavash_Story , mdhn:Kingdom_of_Kay_Kavus ;
+    mdhn:charactersInvolved mdhn:Siyavash , mdhn:Farangis , mdhn:Kay_Kavus ;
+    mdhn:icWikiDataURL "" .   
+
 mdhn:Sudabeh_Seduces_Siyavash a mdhn:NarrativeEpisode ;
-    rdfs:label "Sudabeh Attempts to Seduce Siyavash"@en , "سودابه و سیاوش"@fa ;
+    rdfs:label "Sudabeh Attempts to Seduce Siyavash"@en , "وسوسه سودابه"@fa ;
     mdhn:isPartOf mdhn:Siyavash_Story , mdhn:Kingdom_of_Kay_Kavus ;
     mdhn:charactersInvolved mdhn:Siyavash , mdhn:Sudabeh , mdhn:Kay_Kavus ;
     mdhn:icWikiDataURL "" .
@@ -1801,16 +2247,21 @@ mdhn:Siyavash_Goes_to_Turan a mdhn:NarrativeEpisode ;
     mdhn:charactersInvolved mdhn:Siyavash , mdhn:Afrasiab ;
     mdhn:icWikiDataURL "" .
 
+mdhn:Sudabeh_Accusation a mdhn:NarrativeEpisode ;
+    rdfs:label "Sudabeh Accusation"@en , "تهمت سودابه"@fa ;
+    mdhn:isPartOf mdhn:Siyavash_Story , mdhn:Kingdom_of_Kay_Kavus ;
+    mdhn:charactersInvolved mdhn:Siyavash , mdhn:Sudabeh ;
+    mdhn:icWikiDataURL "" .
 mdhn:Marriage_of_Siyavash_and_Farangis a mdhn:NarrativeEpisode ;
     rdfs:label "Marriage of Siyavash and Farangis"@en , "ازدواج سیاوش و فرنگیس"@fa ;
     mdhn:isPartOf mdhn:Siyavash_Story , mdhn:Kingdom_of_Kay_Kavus ;
     mdhn:charactersInvolved mdhn:Siyavash ;
     mdhn:icWikiDataURL "" .
 
-mdhn:Founding_of_Siyavashgerd a mdhn:NarrativeEpisode ;
-    rdfs:label "Founding of Siyavashgerd"@en , "بنیاد سیاوشگرد"@fa ;
+mdhn:Kay_Kavus_Upbraids_Siyavush a mdhn:NarrativeEpisode ;
+    rdfs:label "Kay Kavus Upbraids Siyavush"@en , "سرزنش کردن سياوش توسط کيکاووس"@fa ;
     mdhn:isPartOf mdhn:Siyavash_Story , mdhn:Kingdom_of_Kay_Kavus ;
-    mdhn:charactersInvolved mdhn:Siyavash ;
+    mdhn:charactersInvolved mdhn:Kay_Kavus, mdhn:Siyavash ;
     mdhn:icWikiDataURL "" .
 
 mdhn:Murder_of_Siyavash a mdhn:NarrativeEpisode ;
@@ -1962,8 +2413,7 @@ mdhn:Kay_Khosrow_Disappears a mdhn:NarrativeEpisode ;
     mdhn:icWikiDataURL "" .
 
 
-# --- 14. Lohrasp -----------------------------------------------------------
-# existing: Kingdom_of_Lohrasb  (thin in this draft)
+
 
 # --- 15. Goshtasp ----------------------------------------------------------
 
@@ -1983,7 +2433,48 @@ mdhn:Haft_Khan_of_Esfandiyar a mdhn:NarrativeEpisode ;
     rdfs:comment "Nested under Goshtasp. Do not merge with Rostams_Seven_Labours (Kavus)."@en ;
     mdhn:isPartOf mdhn:Story_of_Esfandiyar , mdhn:Kingdom_of_Goshtasp ;
     mdhn:charactersInvolved mdhn:Esfandiyar ;
-    mdhn:icWikiDataURL "" .
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q28712571" .
+
+mdhn:Esfandiyar_1st_Labor a mdhn:NarrativeEpisode ;
+    rdfs:label "Esfandiyar 1st Labor"@en , "خوان اول اسفنديار"@fa ;
+    rdfs:comment "پيروزی بر گرگها"@fa ;
+    mdhn:isPartOf mdhn:Haft_Khan_of_Esfandiyar ;
+    mdhn:icWikiDataURL "" .    
+mdhn:Esfandiyar_2nd_Labor a mdhn:NarrativeEpisode ;
+    rdfs:label "Esfandiyar 2nd Labor"@en , "خوان دوم اسفنديار"@fa ;
+    rdfs:comment "کشتن شيرها"@fa ;
+    mdhn:isPartOf mdhn:Haft_Khan_of_Esfandiyar ;
+    mdhn:icWikiDataURL "" .   
+
+mdhn:Esfandiyar_3rd_Labor a mdhn:NarrativeEpisode ;
+    rdfs:label "Esfandiyar 3rd Labor"@en , "خوان سوم اسفنديار"@fa ;
+    rdfs:comment "کشتن اژدها"@fa ;
+    mdhn:isPartOf mdhn:Haft_Khan_of_Esfandiyar ;
+    mdhn:icWikiDataURL "" .   
+
+mdhn:Esfandiyar_4th_Labor a mdhn:NarrativeEpisode ;
+    rdfs:label "Esfandiyar 4th Labor"@en , "خوان چهارم اسفنديار"@fa ;
+    rdfs:comment "پيرزن جادوگر"@fa ;
+    mdhn:isPartOf mdhn:Haft_Khan_of_Esfandiyar ;
+    mdhn:icWikiDataURL "" .  
+
+mdhn:Esfandiyar_5th_Labor a mdhn:NarrativeEpisode ;
+    rdfs:label "Esfandiyar 5th Labor"@en , "خوان پنجم اسفنديار"@fa ;
+    rdfs:comment "کشتن سيمرغ"@fa ;
+    mdhn:isPartOf mdhn:Haft_Khan_of_Esfandiyar ;
+    mdhn:icWikiDataURL "" .   
+
+mdhn:Esfandiyar_6th_Labor a mdhn:NarrativeEpisode ;
+    rdfs:label "Esfandiyar 6th Labor"@en , "خوان ششم اسفنديار"@fa ;
+    rdfs:comment "کولاک"@fa ;
+    mdhn:isPartOf mdhn:Haft_Khan_of_Esfandiyar ;
+    mdhn:icWikiDataURL "" . 
+
+mdhn:Esfandiyar_7th_Labor a mdhn:NarrativeEpisode ;
+    rdfs:label "Esfandiyar 7th Labor"@en , "خوان هفتم اسفنديار"@fa ;
+    rdfs:comment "قتل گرگسار"@fa ;
+    mdhn:isPartOf mdhn:Haft_Khan_of_Esfandiyar ;
+    mdhn:icWikiDataURL "" .                        
 
 mdhn:Goshtasp_Sends_Esfandiyar_against_Rostam a mdhn:NarrativeEpisode ;
     rdfs:label "Goshtasp Sends Esfandiyar against Rostam"@en , "فرستادن اسفندیار به جنگ رستم"@fa ;
@@ -2019,7 +2510,7 @@ mdhn:Kingdom_of_Bahman a mdhn:NarrativeEpisode ;
 mdhn:Death_of_Rostam a mdhn:NarrativeEpisode ;
     rdfs:label "Death of Rostam in the Pit of Shaghad"@en , "مرگ رستم در چاه شغاد"@fa ;
     mdhn:isPartOf mdhn:RostamStory , mdhn:Kingdom_of_Bahman ;
-    mdhn:charactersInvolved mdhn:Rostam ;
+    mdhn:charactersInvolved mdhn:Rostam, mdhn:Shaghad, mdhn:Rakhsh ;
     mdhn:icWikiDataURL "" .
 
 
@@ -2048,15 +2539,7 @@ mdhn:Kingdom_of_Iskandar_Shahnameh a mdhn:NarrativeEpisode ;
     mdhn:icWikiDataURL "" .
 
 
-# RostamStory is NOT a top-level child of Shahnameh.
-# It is a cross-reign dastan nested under every padshahi that tells a Rostam episode.
-mdhn:RostamStory mdhn:isPartOf mdhn:Kingdom_of_Manuchehr ,
-                               mdhn:Kingdom_Of_Garshasp ,
-                               mdhn:Kingdom_of_Kay_Qubad ,
-                               mdhn:Kingdom_of_Kay_Kavus ,
-                               mdhn:Kingdom_of_KayKhosrow ,
-                               mdhn:Kingdom_of_Goshtasp ,
-                               mdhn:Kingdom_of_Bahman .
+
 
 
 # ===========================================================================
@@ -2083,6 +2566,12 @@ mdhn:Kingdom_of_Ardashir a mdhn:NarrativeEpisode ;
     rdfs:label "Kingdom of Ardashir Babakan"@en , "پادشاهی اردشیر بابکان"@fa ;
     mdhn:isPartOf mdhn:Shahnameh ;
     mdhn:icWikiDataURL "" .
+
+mdhn:Battle_Of_Bahman_and_Faramarz a mdhn:NarrativeEpisode ;
+    rdfs:label "Battle_Of_Bahman_and_Faramarz"@en , "نبرد بهمن و فرامرز"@fa ;
+    mdhn:isPartOf mdhn:Kingdom_of_Ardashir ;
+    mdhn:charactersInvolved mdhn:Kay_Bahman, mdhn:Faramarz ;    
+    mdhn:icWikiDataURL "" .    
 
 mdhn:Ardashir_and_the_Worm_of_Kerman a mdhn:NarrativeEpisode ;
     rdfs:label "Ardashir and the Worm of Kerman"@en , "اردشیر و کرم هفتواد"@fa ;
@@ -2161,14 +2650,21 @@ mdhn:Bahram_Gur_Hunting a mdhn:NarrativeEpisode ;
     mdhn:charactersInvolved mdhn:Bahram_V ;
     mdhn:icWikiDataURL "" .
 
+mdhn:Bahram_Gur_Captives_Khaqan a mdhn:NarrativeEpisode ;
+    rdfs:label "Bahram Gur Captives Khaqan"@en , "اسارت خاقان چين به دست بهرام گور"@fa ;
+    mdhn:isPartOf mdhn:Kingdom_of_Bahram_Gur ;
+    mdhn:charactersInvolved mdhn:Bahram_V ;
+    mdhn:icWikiDataURL "" .    
+
 mdhn:Kingdom_of_Yazdegerd_II a mdhn:NarrativeEpisode ;
-    rdfs:label "Kingdom of Yazdegerd son of Bahram Gur"@en , "پادشاهی یزدگرد بهرام گور"@fa ;
+    rdfs:label "Kingdom of Yazdegerd son of Bahram Gur"@en , "پادشاهی یزدگرد پسر بهرام گور"@fa ;
     mdhn:isPartOf mdhn:Shahnameh ;
     mdhn:icWikiDataURL "" .
 
 mdhn:Kingdom_of_Hormozd_III a mdhn:NarrativeEpisode ;
     rdfs:label "Kingdom of Hormozd son of Bahram Gur"@en , "پادشاهی هرمز بهرام گور"@fa ;
     mdhn:isPartOf mdhn:Shahnameh ;
+    mdhn:charactersInvolved mdhn:Hormizd_III ;
     mdhn:icWikiDataURL "" .
 
 mdhn:Kingdom_of_Piruz a mdhn:NarrativeEpisode ;

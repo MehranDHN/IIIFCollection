@@ -1,7 +1,6 @@
-@prefix : <http://api.stardog.com/> .
+@prefix : <http://example.com/mdhn/> .
 @prefix aat: <https://vocab.getty.edu/aat/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix fhkb: <http://www.example.com/genealogy.owl#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
@@ -17,7 +16,16 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix iconclass: <https://iconclass.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix fihrist: <https://www.fihrist.org.uk/catalog/> .
 @prefix biblissima: <https://data.biblissima.fr/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 mdhn:IIIFDexirOntology a owl:Ontology ;
     rdfs:label "IIIFDexir Project Ontology"@en ;
@@ -39,7 +47,13 @@ mdhn:DigitalResource a owl:Class ;
     rdfs:comment "A IIIF manifest representing a digital resource such as a book, photograph, or video." ;
     rdfs:label "Digital Resource" .
 
+mdhn:Manuscript a owl:Class ;
+    rdfs:comment "A Manuscript based on record in Fihrist" ;
+    rdfs:subClassOf  mdhn:DigitalResource;
+    rdfs:label "Manuscript" .    
+
 mdhn:DigitalResource owl:disjointWith mdhn:ResourceCanvas ,
+                                      mdhn:Manuscript, 
                                       mdhn:DepartedCollection .    
 
 mdhn:ResourceCanvas a owl:Class ;
@@ -55,6 +69,11 @@ mdhn:LinguisticElement a owl:Class ;
     rdfs:comment "Linguistic Object in each canvas" ;
     rdfs:label "LinguisticElement";
     rdfs:subClassOf  mdhn:CanvasContentElemet. 
+
+mdhn:CalligraphyLinguisticElement a owl:Class ;
+    rdfs:comment "Artistic Caligraphy Object in each canvas" ;
+    rdfs:label "CalligraphyLinguisticElement";
+    rdfs:subClassOf  mdhn:LinguisticElement.     
 
 mdhn:LinguisticElement owl:disjointWith mdhn:PhotographElement ,
                                         mdhn:Cropped_Details .    
@@ -148,6 +167,21 @@ mdhn:IconclassTerm a owl:Class ;
 # Optional: keep it disjoint from the pure AAT / TGM / LCSH branches
 mdhn:IconclassTerm owl:disjointWith mdhn:AATTerm , mdhn:LCTGMSubject , mdhn:LCSHSubject .
 
+
+    
+mdhn:hasFihristCatalog a owl:ObjectProperty ; 
+    rdfs:domain mdhn:DigitalResource;
+    rdfs:range  mdhn:Manuscript ;
+    rdfs:label  "hasFihristCatalog"@en ;
+    rdfs:comment "Resource has Fihrist Catalog" . 
+
+mdhn:hasIIFDexirRecord a owl:ObjectProperty ; 
+    rdfs:domain mdhn:Manuscript ;
+    rdfs:range  mdhn:DigitalResource ;
+    rdfs:label  "Associates Manuscript with Digital Resource"@en ;
+    owl:inverseOf mdhn:hasFihristCatalog .     
+
+
 mdhn:hasIconclassBroader a owl:ObjectProperty ;
     rdfs:label "has Iconclass broader"@en ;
     rdfs:comment "Local hierarchical link parallel to mdhn:hasAATBroader. Used inside iconclass_hierarchy.ttl."@en ;
@@ -161,6 +195,11 @@ mdhn:iconclassNotation a owl:DatatypeProperty ;
     rdfs:comment "The official alphanumeric Iconclass notation (e.g. '71A8')."@en .
          
 
+
+mdhn:MedievalCosmography a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to Medieval Cosmography" ;
+    rdfs:label "MedievalCosmography" . 
 mdhn:BattleSignAndEquipment a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
     rdfs:comment "SubClass of Iconography related to War and Battle." ;
@@ -176,7 +215,9 @@ mdhn:BattleSignAndEquipment owl:disjointWith mdhn:ArchitecturalConceptOrElement 
                                              mdhn:Events ,
                                              mdhn:Animals ,
                                              mdhn:Tableware ,
+                                             mdhn:MedievalCosmography,
                                              mdhn:TravelsAndTransportation ,
+                                             mdhn:CauseOfDeath,
                                              mdhn:JobsAndCreativity ,
                                              mdhn:MythicalCharacters,
                                              mdhn:MythicalHumanoid ,
@@ -205,6 +246,10 @@ mdhn:Manuscript_Processing a owl:Class ;
     rdfs:comment "SubClass of Iconography related to Manuscript processing" ;
     rdfs:label "Manuscript Processing" .
 
+mdhn:Arts_Form a owl:Class ;
+    rdfs:subClassOf mdhn:Art ;
+    rdfs:comment "SubClass of Art to distinguish between art forms" ;
+    rdfs:label "Arts Form" .
    
 mdhn:Entertainment_Events a owl:Class ;
     rdfs:subClassOf mdhn:Art ;
@@ -265,7 +310,12 @@ mdhn:Tableware a owl:Class ;
 mdhn:TravelsAndTransportation a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
     rdfs:comment "SubClass of Iconography related to Travels/Ridding and Transportation" ;
-    rdfs:label "TravelsAndTransportation" . 
+    rdfs:label "TravelsAndTransportation" .
+
+mdhn:CauseOfDeath a owl:Class ;
+    rdfs:subClassOf mdhn:Iconography ;
+    rdfs:comment "SubClass of Iconography related to Cause of Death" ;
+    rdfs:label "CauseOfDeath" .      
 
 mdhn:JobsAndCreativity a owl:Class ;
     rdfs:subClassOf mdhn:Iconography ;
@@ -782,6 +832,36 @@ mdhn:poetOf a owl:ObjectProperty ;
     rdfs:label "poet of" ;
     rdfs:range mdhn:AgentialInfo ;
     owl:inverseOf mdhn:hasParticipantInRoleِPoet . 
+
+mdhn:hasParticipantInRoleِLithographer a owl:ObjectProperty ;
+    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleِLithographer" ;
+    rdfs:range mdhn:AgentialInfo . 
+
+mdhn:lithographerOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a lithographer to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "lithographer of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleِLithographer .     
+
+mdhn:hasParticipantInRoleِResearcher a owl:ObjectProperty ;
+    rdfs:subPropertyOf mdhn:hasParticipantInRole ;
+    rdfs:comment "Links a Resource to participants";
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "hasParticipantInRoleِResearcher" ;
+    rdfs:range mdhn:AgentialInfo . 
+
+mdhn:researcherOf a owl:ObjectProperty ;
+    rdfs:comment "Associates a researcher to its associated resources" ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:label "researcher of" ;
+    rdfs:range mdhn:AgentialInfo ;
+    owl:inverseOf mdhn:hasParticipantInRoleِResearcher .     
+
+    
 
 mdhn:hasParticipantInRoleِIssuedBy a owl:ObjectProperty ;
     rdfs:subPropertyOf mdhn:hasParticipantInRole ;
@@ -1354,6 +1434,119 @@ mdhn:hasRoleInResource a owl:ObjectProperty ;
 mdhn:SubjectSource a owl:Class ;
     rdfs:comment "Root class of all Subject Sources" ;
     rdfs:label "SubjectSource" .
+
+
+mdhn:ManuscriptItem a owl:Class ;
+    rdfs:label "Manuscript item" ;
+    rdfs:subClassOf frbr:Expression ;
+    rdfs:comment "A content item (msItem), possibly nested." .
+
+mdhn:Person a owl:Class ;
+    rdfs:label "Person" ;
+    rdfs:subClassOf crm:E21_Person .
+
+mdhn:GLAM a owl:Class ;
+    rdfs:label "GLAM institution" ;
+    rdfs:subClassOf crm:E74_Group ;
+    rdfs:comment "Gallery, library, archive, or museum: holding institution, repository, or digital publisher." .
+
+mdhn:Work a owl:Class ;
+    rdfs:label "Work" ;
+    rdfs:subClassOf frbr:Work .
+
+mdhn:Heading a owl:Class ;
+    rdfs:label "Catalogue heading" ;
+    rdfs:subClassOf skos:Concept ;
+    rdfs:comment "The indexing term as used in Fihrist. May denote a place, agent, period, event, topic, genre, or technique." .
+
+mdhn:Contribution a owl:Class ;
+    rdfs:label "Contribution" ;
+    rdfs:comment "A person or organisation in a specific role relative to a manuscript or item." .
+
+mdhn:Facet a owl:Class ;
+    rdfs:label "Heading facet" .
+
+mdhn:Spatial a owl:Class ; rdfs:subClassOf mdhn:Facet ; rdfs:label "Spatial" .
+mdhn:Agential a owl:Class ; rdfs:subClassOf mdhn:Facet ; rdfs:label "Agential" .
+mdhn:Temporal a owl:Class ; rdfs:subClassOf mdhn:Facet ; rdfs:label "Temporal" .
+mdhn:Event a owl:Class ; rdfs:subClassOf mdhn:Facet ; rdfs:label "Event" .
+mdhn:Topical a owl:Class ; rdfs:subClassOf mdhn:Facet ; rdfs:label "Topical" .
+mdhn:Genre a owl:Class ; rdfs:subClassOf mdhn:Facet ; rdfs:label "Genre" .
+mdhn:Technique a owl:Class ; rdfs:subClassOf mdhn:Facet ; rdfs:label "Technique" .
+mdhn:Unknown a owl:Class ; rdfs:subClassOf mdhn:Facet ; rdfs:label "Unknown facet" .
+
+# --- Object properties ---
+
+mdhn:hasItem a owl:ObjectProperty ;
+    rdfs:domain mdhn:Manuscript ; rdfs:range mdhn:ManuscriptItem .
+
+mdhn:hasPartItem a owl:ObjectProperty ;
+    rdfs:domain mdhn:ManuscriptItem ; rdfs:range mdhn:ManuscriptItem .
+
+mdhn:heldBy a owl:ObjectProperty ;
+    rdfs:domain mdhn:Manuscript ; rdfs:range mdhn:GLAM ;
+    rdfs:comment "Institution that keeps the manuscript." .
+
+mdhn:heldAt a owl:ObjectProperty ;
+    rdfs:domain mdhn:Manuscript ; rdfs:range mdhn:GLAM ;
+    rdfs:comment "Repository / library within the institution." .
+
+mdhn:inCollection a owl:ObjectProperty ;
+    rdfs:domain mdhn:Manuscript .
+
+mdhn:digitallyPublishedBy a owl:ObjectProperty ;
+    rdfs:domain mdhn:Manuscript ; rdfs:range mdhn:GLAM ;
+    rdfs:comment "GLAM that published the digital catalogue record." .
+
+mdhn:hasContribution a owl:ObjectProperty ;
+    rdfs:range mdhn:Contribution .
+
+mdhn:contributor a owl:ObjectProperty ;
+    rdfs:domain mdhn:Contribution .
+
+mdhn:role a owl:ObjectProperty ;
+    rdfs:domain mdhn:Contribution ;
+    rdfs:comment "Typically a MARC relator, e.g. http://id.loc.gov/vocabulary/relators/aut" .
+
+mdhn:onItem a owl:ObjectProperty ;
+    rdfs:domain mdhn:Contribution ; rdfs:range mdhn:ManuscriptItem .
+
+mdhn:referencesWork a owl:ObjectProperty ;
+    rdfs:range mdhn:Work .
+
+mdhn:hasSubject a owl:ObjectProperty ;
+    rdfs:domain mdhn:Manuscript ; rdfs:range mdhn:Heading .
+
+mdhn:denotes a owl:ObjectProperty ;
+    rdfs:domain mdhn:Heading ;
+    rdfs:comment "Real-world object or typed concept this heading is about (MADS RWO / foaf:focus)." ;
+    owl:equivalentProperty foaf:focus .
+
+mdhn:facet a owl:ObjectProperty ;
+    rdfs:domain mdhn:Heading ; rdfs:range mdhn:Facet .
+
+mdhn:hasComponent a owl:ObjectProperty ;
+    rdfs:domain mdhn:Heading ; rdfs:range mdhn:Heading ;
+    rdfs:comment "Component of a pre-coordinated (complex) LC heading." .
+
+mdhn:extractedFrom a owl:ObjectProperty ;
+    rdfs:comment "TEI file this statement set was harvested from." .
+
+mdhn:htmlWitness a owl:ObjectProperty ;
+    rdfs:comment "HTML page used as a verification witness." .
+
+# --- Datatype properties ---
+
+mdhn:shelfmark a owl:DatatypeProperty ; rdfs:range xsd:string .
+mdhn:xmlId a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Original TEI xml:id or Fihrist @key, preserved exactly. The entity IRI is a slug of this value." .
+mdhn:teiPath a owl:DatatypeProperty ; rdfs:range xsd:string .
+mdhn:roleCode a owl:DatatypeProperty ; rdfs:range xsd:string .
+mdhn:facetEvidence a owl:DatatypeProperty ;
+    rdfs:comment "Provenance of a facet assertion: tei-element | lc-mads | aat | wikidata | human." .
+mdhn:matchConfidence a owl:DatatypeProperty ; rdfs:range xsd:decimal .
+
 
 
 fhkb:DomainEntity a owl:Class .
