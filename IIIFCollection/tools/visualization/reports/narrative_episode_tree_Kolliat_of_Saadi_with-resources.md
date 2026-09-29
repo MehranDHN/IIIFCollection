@@ -1,0 +1,68 @@
+# Narrative episode tree: `mdhn:Kolliat_of_Saadi`
+
+- scope: `with-resources`
+- episodes in this tree: 7
+- resource listings: 48
+- counts: **direct** = resources tagged with that episode; **including narrower** = unique resources tagged with it or any descendant
+
+- **Kolliyat-e Saadi / کليات سعدی** (`mdhn:Kolliat_of_Saadi`, Q16052478) — 27 direct, 44 including narrower
+  - *Resources*
+    - Kulliyyat, f.106r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.126r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.145v — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.181r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.199r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.199v — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.219r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.227r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.238r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.246v — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.254r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.270r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.275r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.276v — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.302r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.318v — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.37r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.387v — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.3v — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.431r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.445v — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.473r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.4r — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.4v — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Kulliyyat, f.5v — Kulliat Saadi (`KulliatSaadiCollection.json`)
+    - Khulāṣat Saadi Per_123 — Saadi Collection (`SaadiCollection.json`)
+    - Saʿdī Cod. Trübner 54 — Saadi Collection (`SaadiCollection.json`)
+  - **Bustan of Saadi / بوستان سعدی** (`mdhn:Bustan_of_Saadi`, Q446972) — 11 resources
+    - *Resources*
+      - Ascension of the Prophet (Mi`raj) — Departed Folios (`DepartedFolioCollection.json`)
+      - Jamshīd writes on the rockface — Departed Folios (`DepartedFolioCollection.json`)
+      - Preparing the palace feast — Departed Folios (`DepartedFolioCollection.json`)
+      - The beggar at the mosque doorway — Departed Folios (`DepartedFolioCollection.json`)
+      - The poet with his friends in the orchard at night — Departed Folios (`DepartedFolioCollection.json`)
+      - 4 works by 4 authors on the subjects of Persian poetry and love poetry MS. Elliott 239 — Saadi Collection (`SaadiCollection.json`)
+      - Bustan — Saadi Collection (`SaadiCollection.json`)
+      - Bustan Supplément Persan 1187 — Saadi Collection (`SaadiCollection.json`)
+      - Khulāṣat al-ash‘ār Persian MS 55 — Saadi Collection (`SaadiCollection.json`)
+      - MUNTAH̱AB-i BŪSTĀN — Saadi Collection (`SaadiCollection.json`)
+      - Prince Baysunghur's Rose Garden — Saadi Collection (`SaadiCollection.json`)
+  - **Golestan of Saadi / گلستان سعدی** (`mdhn:Golestan_of_Saadi`, Q404191) — 7 direct, 9 including narrower
+    - *Resources*
+      - Sa’di and the two Indian robbers — Departed Folios (`DepartedFolioCollection.json`)
+      - Smith-Lesouëf 247 — Muraqqa (Calligraphy & Painting Collection) (`MuraqqaCollection.json`)
+      - 4 works by 4 authors on the subjects of Persian poetry and love poetry MS. Elliott 239 — Saadi Collection (`SaadiCollection.json`)
+      - Golestan Saadi — Saadi Collection (`SaadiCollection.json`)
+      - Gulistan of Sa‘di (RAS Persian 258) — Saadi Collection (`SaadiCollection.json`)
+      - Khulāṣat al-ash‘ār Persian MS 55 — Saadi Collection (`SaadiCollection.json`)
+      - Sa'di. Golestan — Saadi Collection (`SaadiCollection.json`)
+    - **Preface of the Golestan / دیباچه گلستان** (`mdhn:Golestan_Preface`) — 0 direct, 1 including narrower
+      - **Saadi converses by night with a young friend in a garden / گفتگوی شبانه سعدی با دوست در باغ** (`mdhn:Saadi_and_Friend_in_the_Garden`) — 1 resource
+        - *Resources*
+          - The poet with his friends in the orchard at night — Departed Folios (`DepartedFolioCollection.json`)
+    - **Golestan Chapter 5: On Love and Youth / گلستان باب پنجم: در عشق و جوانی** (`mdhn:Golestan_Bab_5_Love_and_Youth`) — 1 resource
+      - *Resources*
+        - Sa'di and the Youth of Kashgar — Departed Folios (`DepartedFolioCollection.json`)
+    - **Golestan Chapter 7: On the Effects of Education / گلستان باب هفتم: در تأثیر تربیت** (`mdhn:Golestan_Bab_7_Effects_of_Education`) — 1 resource
+      - *Resources*
+        - Sa’di and the two Indian robbers — Departed Folios (`DepartedFolioCollection.json`)

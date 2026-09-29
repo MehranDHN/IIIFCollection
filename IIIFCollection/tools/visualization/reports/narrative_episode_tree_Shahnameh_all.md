@@ -1,10 +1,11 @@
 # Narrative episode tree: `mdhn:Shahnameh`
 
 - scope: `all`
-- episodes in this tree: 411
-- resource listings: 579
+- episodes in this tree: 410
+- resource listings: 581
+- counts: **direct** = resources tagged with that episode; **including narrower** = unique resources tagged with it or any descendant
 
-- **Shahnameh / شاهنامه** (`mdhn:Shahnameh`, Q8279) — 44 resources
+- **Shahnameh / شاهنامه** (`mdhn:Shahnameh`, Q8279) — 44 direct, 222 including narrower
   - *Resources*
     - Iskandar's Mother Weeping Over his Bier — Departed Folios (`DepartedFolioCollection.json`)
     - Bahram Gur Sends his Brother Narsi as Viceroy to Khurasan f212r — Great Ilkhanid Shahnameh (`GreatIlkhanidShahnamehCollection.json`)
@@ -50,7 +51,7 @@
     - Folio 18v Firdausis Parable of the Ship of Shiism — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
     - Folio 236r The Iranians Mourn Farud and Jarira — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
     - Folio 248r Giv Avenges Bahram by Slaying Tazhav — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-  - **Kingdom of Iskandar in the Shahnameh / پادشاهی اسکندر در شاهنامه** (`mdhn:Kingdom_of_Iskandar_Shahnameh`) — 5 resources
+  - **Kingdom of Iskandar in the Shahnameh / پادشاهی اسکندر در شاهنامه** (`mdhn:Kingdom_of_Iskandar_Shahnameh`) — 5 direct, 7 including narrower
     - *Resources*
       - Iskandar consults the talking tree — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - Iskandar kills Fur, king of Kanuj, in battle f.45 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
@@ -68,7 +69,7 @@
       - Jami' al-Tawarikh f.12v — Details Of Jami' al-Tawarikh OR.MS.20 (`DetailsOfJamiAlTawarikhCollection.json`)
       - Arjasp's horsemen kill Luhrasp f.32 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - Luhrasp enthroned f.29 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
-  - **Kingdom of Keyumars / پادشاهی کيومرث** (`mdhn:Kingdom_of_Keyumars`, Q138719971) — 5 resources
+  - **Kingdom of Keyumars / پادشاهی کيومرث** (`mdhn:Kingdom_of_Keyumars`, Q138719971) — 5 direct, 6 including narrower
     - *Resources*
       - Shāhnāmah Ms. W.602 — Shahnama Collection (`ShahnamaCollection.json`)
       - Firdausī: Šāhnāma Ms. or. fol. 359 — Shahnama Ms. or. fol. 359 (`ShahnamaMsorfol359Collection.json`)
@@ -87,7 +88,7 @@
       - *Resources*
         - Shāhnāmah Ms. W.602 — Shahnama Collection (`ShahnamaCollection.json`)
         - Folio 20v The Court of Kayumars — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-  - **Kingdom of Hushang / پادشاهی هوشنگ** (`mdhn:Kingdom_of_Hushang`, Q138720021) — 1 resource
+  - **Kingdom of Hushang / پادشاهی هوشنگ** (`mdhn:Kingdom_of_Hushang`, Q138720021) — 1 direct, 2 including narrower
     - *Resources*
       - Folio 22v The Feast of Sada — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
     - **Hushang enthroned / بر تخت نشستن هوشنگ** (`mdhn:Hushang_Enthroned`, Q139923413)
@@ -97,7 +98,7 @@
     - **The Feast of Sada / جشن سده** (`mdhn:Hushang_In_Feast_Of_Sada`, Q138757360) — 1 resource
       - *Resources*
         - Folio 22v The Feast of Sada — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-  - **The Kingdom of Nauzar / پادشاهی نوذر** (`mdhn:KingdomOfNauzar`, Q40466986)
+  - **The Kingdom of Nauzar / پادشاهی نوذر** (`mdhn:KingdomOfNauzar`, Q40466986) — 0 direct, 2 including narrower
     - **Esfandiyar Slays Nowzar / کشته شدن نوذر به دست اسفنديار** (`mdhn:Esfandiyar_Slays_Nowzar`, Q140030291) — 1 resource
       - *Resources*
         - Esfandiyar Slays Nowzar — Great Ilkhanid Shahnameh (`GreatIlkhanidShahnamehCollection.json`)
@@ -105,7 +106,7 @@
       - *Resources*
         - Folio 102v Qaran Slays Barman — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
     - **Afrasiab Slays Nowzar / کشته شدن نوذر به دست افراسیاب** (`mdhn:Afrasiab_Slays_Nowzar`)
-  - **Kingdom Kay Qubad / پادشاهی کيقباد** (`mdhn:Kingdom_of_Kay_Qubad`) — 2 resources
+  - **Kingdom Kay Qubad / پادشاهی کيقباد** (`mdhn:Kingdom_of_Kay_Qubad`) — 2 direct, 3 including narrower
     - *Resources*
       - Shāhnāmah Supplément persan 489 — Shahnama Supplement persan 489 (`ShahnamaSupplementpersan489Collection.json`)
       - Rustam grabs Afrasiyab — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
@@ -116,7 +117,7 @@
     - **Second Battle Of Rostam and Afrasiab / نبرد رستم و افراسياب** (`mdhn:Battle_Of_Rostam_and_Afrasiab`) — 1 resource
       - *Resources*
         - Shāhnāmah Supplément persan 489 — Shahnama Supplement persan 489 (`ShahnamaSupplementpersan489Collection.json`)
-  - **The Story of Rostam / داستان رستم** (`mdhn:RostamStory`) — 45 resources
+  - **The Story of Rostam / داستان رستم** (`mdhn:RostamStory`) — 45 direct, 52 including narrower
     - *Resources*
       - The White Dīv captures and blinds Kay Kāvus — Departed Folios (`DepartedFolioCollection.json`)
       - Shāhnāmah MS MS-RAS-00239 (Juki) — Juki Shahnama (`JukiShahnamaCollection.json`)
@@ -175,7 +176,7 @@
         - Firdausī: Šāhnāma Ms. or. fol. 359 — Shahnama Ms. or. fol. 359 (`ShahnamaMsorfol359Collection.json`)
         - Folio 124v Rustam Seventh Course, He Kills the White Div — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
         - Folio 92v Rustam Slays the White Elephant — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-    - **Rostam's Seven Labours / هفت خوان رستم** (`mdhn:Rostams_Seven_Labours`, Q4119480) — 4 resources
+    - **Rostam's Seven Labours / هفت خوان رستم** (`mdhn:Rostams_Seven_Labours`, Q4119480) — 4 direct, 13 including narrower
       - *Resources*
         - The White Dīv captures and blinds Kay Kāvus — Departed Folios (`DepartedFolioCollection.json`)
         - Folio 118r: Rustam First Course: Rakhsb Slays a Lion — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -242,7 +243,7 @@
       - *Resources*
         - Folio 472r Rustam Avenges His Own Impending Death — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
         - Fatally wounded with Rakhsh in a spiked pit, Rustam shoots his betrayer Shaghad f.43 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
-  - **Kingdom Kay Kāvus / پادشاهی کيکاوس** (`mdhn:Kingdom_of_Kay_Kavus`, Q40466974) — 8 resources
+  - **Kingdom Kay Kāvus / پادشاهی کيکاوس** (`mdhn:Kingdom_of_Kay_Kavus`, Q40466974) — 8 direct, 32 including narrower
     - *Resources*
       - The White Dīv captures and blinds Kay Kāvus — Departed Folios (`DepartedFolioCollection.json`)
       - Shāhnāmah Supplément persan 2113 — Shahnama Collection (`ShahnamaCollection.json`)
@@ -264,7 +265,7 @@
     - **Capturing the_Bahman Castle / فتح بهمن دژ** (`mdhn:Capturing_the_Bahman_Castle`) — 1 resource
       - *Resources*
         - Folio 221r Kay Khusrau Takes the Castle of Bahman — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-    - **Rostam's Seven Labours / هفت خوان رستم** (`mdhn:Rostams_Seven_Labours`, Q4119480) — 4 resources
+    - **Rostam's Seven Labours / هفت خوان رستم** (`mdhn:Rostams_Seven_Labours`, Q4119480) — 4 direct, 13 including narrower
       - *Resources*
         - The White Dīv captures and blinds Kay Kāvus — Departed Folios (`DepartedFolioCollection.json`)
         - Folio 118r: Rustam First Course: Rakhsb Slays a Lion — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -296,7 +297,7 @@
           - Shāhnāmah Supplément persan 489 — Shahnama Supplement persan 489 (`ShahnamaSupplementpersan489Collection.json`)
           - Folio 124r Rustam Seventh Course, He Kills the White Div — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
     - **Accusation Against Siyavush / تهمت خيانت به سياوش** (`mdhn:Accusation_Against_Siyavush`, Q140366903)
-    - **Siyavash Story / داستان سياوش** (`mdhn:Siyavash_Story`) — 8 resources
+    - **Siyavash Story / داستان سياوش** (`mdhn:Siyavash_Story`) — 8 direct, 13 including narrower
       - *Resources*
         - Shāhnāmah Supplément persan 2113 — Shahnama Collection (`ShahnamaCollection.json`)
         - Folio 166r: The Fire Trail of Siyavush — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -310,6 +311,9 @@
       - **Siyavush and Rustem Capture Balkh / تصرف بلخ توسط سياوش و رستم** (`mdhn:Siyavush_and_Rustem_Capture_Balkh`, Q140367004) — 1 resource
         - *Resources*
           - Folio 168v: Siyavush and Rustam Captures Balkh — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
+      - **Siyavush in Hunting / سياوش در شکار** (`mdhn:Siyavush_in_Hunting`, Q140366887) — 1 resource
+        - *Resources*
+          - Folio 182v Siyavush and Afrasivab in the Hunting Field — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
       - **The Fire Trial of Siyavush / سياوش در آتش** (`mdhn:The_Fire_Trial_of_Siyavush`, Q140366887) — 1 resource
         - *Resources*
           - Folio 166r: The Fire Trail of Siyavush — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -339,6 +343,9 @@
       - **Giv Brings Kay Khosrow from Turan / آوردن کیخسرو از توران توسط گیو** (`mdhn:Giv_Brings_Kay_Khosrow_from_Turan`) — 1 resource
         - *Resources*
           - Giv finds Kay Khusraw in Turan — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
+    - **Siyavush in Hunting / سياوش در شکار** (`mdhn:Siyavush_in_Hunting`, Q140366887) — 1 resource
+      - *Resources*
+        - Folio 182v Siyavush and Afrasivab in the Hunting Field — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
     - **The Fire Trial of Siyavush / سياوش در آتش** (`mdhn:The_Fire_Trial_of_Siyavush`, Q140366887) — 1 resource
       - *Resources*
         - Folio 166r: The Fire Trail of Siyavush — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -348,7 +355,7 @@
     - **Kay Kavus Invades Mazandaran / لشکرکشی کاووس به مازندران** (`mdhn:KayKavus_War_in_Mazandaran`)
     - **Kay Kavus Imprisoned in Hamavaran / اسارت کاووس در هاماوران** (`mdhn:KayKavus_in_Hamavaran`)
     - **Kay Kavus Attempts to Fly to Heaven / پرواز کاووس به آسمان** (`mdhn:KayKavus_Flying_Machine`)
-    - **Story of Sohrab / داستان سهراب** (`mdhn:Story_of_Sohrab`, Q4348644) — 1 resource
+    - **Story of Sohrab / داستان سهراب** (`mdhn:Story_of_Sohrab`, Q4348644) — 1 direct, 3 including narrower
       - *Resources*
         - Rustam fights his son Suhrab — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - **Rostam and Tahmineh / رستم و تهمینه** (`mdhn:Rostam_and_Tahmineh`)
@@ -390,11 +397,11 @@
     - *Resources*
       - Folio 18v Firdausis Parable of the Ship of Shiism — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
       - Folio 7v from Shahnameh Preface — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-  - **Kingdom of Jamshid / پادشاهی جمشید** (`mdhn:Kingdom_of_Jamshid`, Q40466996)
+  - **Kingdom of Jamshid / پادشاهی جمشید** (`mdhn:Kingdom_of_Jamshid`, Q40466996) — 0 direct, 12 including narrower
     - **Jamshid Enthroned / بر تخت نشستن جمشید** (`mdhn:Jamshid_Enthroned`)
     - **Jamshid Divides Society into Classes / طبقه‌بندی مردم توسط جمشید** (`mdhn:Jamshid_Divides_the_Classes`)
     - **Pride and Fall of Jamshid / غرور و سقوط جمشید** (`mdhn:Pride_and_Fall_of_Jamshid`)
-    - **The Story of Zahhak / داستان ضحاک** (`mdhn:ZahhakStory`, Q139923562) — 8 resources
+    - **The Story of Zahhak / داستان ضحاک** (`mdhn:ZahhakStory`, Q139923562) — 8 direct, 12 including narrower
       - *Resources*
         - Jami' al-Tawarikh f.3r — Details Of Jami' al-Tawarikh OR.MS.20 (`DetailsOfJamiAlTawarikhCollection.json`)
         - Kitāb-i Shāhnāmah Peck Shahnamah — Peck Shahnama Collection (`PeckShahnamaCollection.json`)
@@ -415,7 +422,7 @@
       - **Zahhak Receives the Daughters of Jamshid / دختران جمشيد در بارگاه ضحاک** (`mdhn:Zahhak_and_Daughters_of_Jamshid`, Q138841381) — 1 resource
         - *Resources*
           - Folio 27v Zahhak Receives the Daughters of Jamshid — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-      - **The Kingdom of Zahhak / پادشاهی ضحاک** (`mdhn:KingdomOfZahhak`, Q40466998) — 2 resources
+      - **The Kingdom of Zahhak / پادشاهی ضحاک** (`mdhn:KingdomOfZahhak`, Q40466998) — 2 direct, 12 including narrower
         - *Resources*
           - Folio 27v Zahhak Receives the Daughters of Jamshid — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
           - Folio 299r Bizhan Slaughters the Wild Boars of Irman — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -429,12 +436,12 @@
         - **Zahhak slays the sacred cow Barmayah / کشته شدن برمايه به دست ضحاک** (`mdhn:Zahhak_slays_the_sacred_cow_Barmayah`, Q139925920) — 1 resource
           - *Resources*
             - Folio 30v Zahhak slays the sacred cow Barmayah — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-        - **The Rise of Fereydun / برآمدن فریدون** (`mdhn:Story_of_the_Rise_of_Fereydun`)
+        - **The Rise of Fereydun / برآمدن فریدون** (`mdhn:Story_of_the_Rise_of_Fereydun`) — 0 direct, 6 including narrower
           - **Zahhak slays the sacred cow Barmayah / کشته شدن برمايه به دست ضحاک** (`mdhn:Zahhak_slays_the_sacred_cow_Barmayah`, Q139925920) — 1 resource
             - *Resources*
               - Folio 30v Zahhak slays the sacred cow Barmayah — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
           - **Birth and Hiding of Fereydun / زاد و پنهان‌کردن فریدون** (`mdhn:Birth_and_Hiding_of_Fereydun`)
-          - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`)
+          - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`) — 0 direct, 1 including narrower
             - **Kaveh Tears Zahhak’s Scroll / پاره کردن نامه ضحاک** (`mdhn:Kaveh_Tears_Zahhak_Scroll`) — 1 resource
               - *Resources*
                 - Folio 31v Kava Tears Zahhak’s Scroll — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -455,7 +462,7 @@
           - **Fereydun Descends from Mount Alborz / فرود آمدن فریدون از البرز** (`mdhn:Fereydun_Descends_from_Alborz`)
           - **Fereydun Rescues Shahrnaz and Arnavaz / رهایی شهرناز و ارنواز** (`mdhn:Rescue_of_Shahrnaz_and_Arnavaz`)
         - **Birth and Hiding of Fereydun / زاد و پنهان‌کردن فریدون** (`mdhn:Birth_and_Hiding_of_Fereydun`)
-        - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`)
+        - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`) — 0 direct, 1 including narrower
           - **Kaveh Tears Zahhak’s Scroll / پاره کردن نامه ضحاک** (`mdhn:Kaveh_Tears_Zahhak_Scroll`) — 1 resource
             - *Resources*
               - Folio 31v Kava Tears Zahhak’s Scroll — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -479,7 +486,7 @@
         - *Resources*
           - Folio 30v Zahhak slays the sacred cow Barmayah — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
       - **Birth and Hiding of Fereydun / زاد و پنهان‌کردن فریدون** (`mdhn:Birth_and_Hiding_of_Fereydun`)
-      - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`)
+      - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`) — 0 direct, 1 including narrower
         - **Kaveh Tears Zahhak’s Scroll / پاره کردن نامه ضحاک** (`mdhn:Kaveh_Tears_Zahhak_Scroll`) — 1 resource
           - *Resources*
             - Folio 31v Kava Tears Zahhak’s Scroll — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -500,7 +507,7 @@
       - *Resources*
         - Folio 26v The Snakes of King Zahhak — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
     - **Zahhak Has Jamshid Sawn in Two / اره‌کردن جمشید به فرمان ضحاک** (`mdhn:Sawing_of_Jamshid`)
-  - **The Story of Zahhak / داستان ضحاک** (`mdhn:ZahhakStory`, Q139923562) — 8 resources
+  - **The Story of Zahhak / داستان ضحاک** (`mdhn:ZahhakStory`, Q139923562) — 8 direct, 12 including narrower
     - *Resources*
       - Jami' al-Tawarikh f.3r — Details Of Jami' al-Tawarikh OR.MS.20 (`DetailsOfJamiAlTawarikhCollection.json`)
       - Kitāb-i Shāhnāmah Peck Shahnamah — Peck Shahnama Collection (`PeckShahnamaCollection.json`)
@@ -521,7 +528,7 @@
     - **Zahhak Receives the Daughters of Jamshid / دختران جمشيد در بارگاه ضحاک** (`mdhn:Zahhak_and_Daughters_of_Jamshid`, Q138841381) — 1 resource
       - *Resources*
         - Folio 27v Zahhak Receives the Daughters of Jamshid — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-    - **The Kingdom of Zahhak / پادشاهی ضحاک** (`mdhn:KingdomOfZahhak`, Q40466998) — 2 resources
+    - **The Kingdom of Zahhak / پادشاهی ضحاک** (`mdhn:KingdomOfZahhak`, Q40466998) — 2 direct, 12 including narrower
       - *Resources*
         - Folio 27v Zahhak Receives the Daughters of Jamshid — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
         - Folio 299r Bizhan Slaughters the Wild Boars of Irman — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -535,12 +542,12 @@
       - **Zahhak slays the sacred cow Barmayah / کشته شدن برمايه به دست ضحاک** (`mdhn:Zahhak_slays_the_sacred_cow_Barmayah`, Q139925920) — 1 resource
         - *Resources*
           - Folio 30v Zahhak slays the sacred cow Barmayah — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-      - **The Rise of Fereydun / برآمدن فریدون** (`mdhn:Story_of_the_Rise_of_Fereydun`)
+      - **The Rise of Fereydun / برآمدن فریدون** (`mdhn:Story_of_the_Rise_of_Fereydun`) — 0 direct, 6 including narrower
         - **Zahhak slays the sacred cow Barmayah / کشته شدن برمايه به دست ضحاک** (`mdhn:Zahhak_slays_the_sacred_cow_Barmayah`, Q139925920) — 1 resource
           - *Resources*
             - Folio 30v Zahhak slays the sacred cow Barmayah — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
         - **Birth and Hiding of Fereydun / زاد و پنهان‌کردن فریدون** (`mdhn:Birth_and_Hiding_of_Fereydun`)
-        - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`)
+        - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`) — 0 direct, 1 including narrower
           - **Kaveh Tears Zahhak’s Scroll / پاره کردن نامه ضحاک** (`mdhn:Kaveh_Tears_Zahhak_Scroll`) — 1 resource
             - *Resources*
               - Folio 31v Kava Tears Zahhak’s Scroll — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -561,7 +568,7 @@
         - **Fereydun Descends from Mount Alborz / فرود آمدن فریدون از البرز** (`mdhn:Fereydun_Descends_from_Alborz`)
         - **Fereydun Rescues Shahrnaz and Arnavaz / رهایی شهرناز و ارنواز** (`mdhn:Rescue_of_Shahrnaz_and_Arnavaz`)
       - **Birth and Hiding of Fereydun / زاد و پنهان‌کردن فریدون** (`mdhn:Birth_and_Hiding_of_Fereydun`)
-      - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`)
+      - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`) — 0 direct, 1 including narrower
         - **Kaveh Tears Zahhak’s Scroll / پاره کردن نامه ضحاک** (`mdhn:Kaveh_Tears_Zahhak_Scroll`) — 1 resource
           - *Resources*
             - Folio 31v Kava Tears Zahhak’s Scroll — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -585,7 +592,7 @@
       - *Resources*
         - Folio 30v Zahhak slays the sacred cow Barmayah — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
     - **Birth and Hiding of Fereydun / زاد و پنهان‌کردن فریدون** (`mdhn:Birth_and_Hiding_of_Fereydun`)
-    - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`)
+    - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`) — 0 direct, 1 including narrower
       - **Kaveh Tears Zahhak’s Scroll / پاره کردن نامه ضحاک** (`mdhn:Kaveh_Tears_Zahhak_Scroll`) — 1 resource
         - *Resources*
           - Folio 31v Kava Tears Zahhak’s Scroll — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -599,7 +606,7 @@
     - **Chaining Zahhak on Mount Damavand / به بند کشيدن ضحاک در دماوند** (`mdhn:Chaining_Zahhak_on_Mount_Damavand`, Q138715711) — 1 resource
       - *Resources*
         - Folio 37v The Death of Zahhak — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-  - **The Kingdom of Tahmuras / پادشاهی طهمورث** (`mdhn:KingdomOfTahmuras`, Q138676359) — 1 resource
+  - **The Kingdom of Tahmuras / پادشاهی طهمورث** (`mdhn:KingdomOfTahmuras`, Q138676359) — 1 direct, 4 including narrower
     - *Resources*
       - Jami' al-Tawarikh f.2v — Details Of Jami' al-Tawarikh OR.MS.20 (`DetailsOfJamiAlTawarikhCollection.json`)
     - **Tahmuras Enthroned / بر تخت نشستن طهمورث** (`mdhn:Tahmuras_Enthroned`, Q138676359) — 1 resource
@@ -611,7 +618,7 @@
         - Ṭahmūras defeats the demon army — Departed Folios (`DepartedFolioCollection.json`)
         - Folio 23v Tahmuras Defeats the Divs — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
   - **Kingdom of Zu Tahmasb / پادشاهی زو طهماسب** (`mdhn:Kingdom_of_Zu_Tahmasb`)
-  - **Kingdom Of Garshasp / پادشاهی گرشاسپ** (`mdhn:Kingdom_Of_Garshasp`, Q140479595) — 2 resources
+  - **Kingdom Of Garshasp / پادشاهی گرشاسپ** (`mdhn:Kingdom_Of_Garshasp`, Q140479595) — 2 direct, 6 including narrower
     - *Resources*
       - Kitāb-i Shāhnāmah Peck Shahnamah — Peck Shahnama Collection (`PeckShahnamaCollection.json`)
       - Rustam catches Rakhsh — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
@@ -623,13 +630,13 @@
         - Folio 268v The Combat of Rustam and Ashkabus — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
         - Folio 461v Rustam and Isfandiyar Begin Their Combat — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
         - Rustam catches Rakhsh — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
-  - **Kingdom of Manuchehr / پادشاهی منوچهر** (`mdhn:Kingdom_of_Manuchehr`, Q40466994) — 4 resources
+  - **Kingdom of Manuchehr / پادشاهی منوچهر** (`mdhn:Kingdom_of_Manuchehr`, Q40466994) — 4 direct, 63 including narrower
     - *Resources*
       - Jami' al-Tawarikh f.6v — Details Of Jami' al-Tawarikh OR.MS.20 (`DetailsOfJamiAlTawarikhCollection.json`)
       - Kitāb-i Shāhnāmah Peck Shahnamah — Peck Shahnama Collection (`PeckShahnamaCollection.json`)
       - Sam meets his grandson Rustam f.6 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - Zal with Rudaba in her chamber f.5 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
-    - **The Story of Rostam / داستان رستم** (`mdhn:RostamStory`) — 45 resources
+    - **The Story of Rostam / داستان رستم** (`mdhn:RostamStory`) — 45 direct, 52 including narrower
       - *Resources*
         - The White Dīv captures and blinds Kay Kāvus — Departed Folios (`DepartedFolioCollection.json`)
         - Shāhnāmah MS MS-RAS-00239 (Juki) — Juki Shahnama (`JukiShahnamaCollection.json`)
@@ -688,7 +695,7 @@
           - Firdausī: Šāhnāma Ms. or. fol. 359 — Shahnama Ms. or. fol. 359 (`ShahnamaMsorfol359Collection.json`)
           - Folio 124v Rustam Seventh Course, He Kills the White Div — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
           - Folio 92v Rustam Slays the White Elephant — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-      - **Rostam's Seven Labours / هفت خوان رستم** (`mdhn:Rostams_Seven_Labours`, Q4119480) — 4 resources
+      - **Rostam's Seven Labours / هفت خوان رستم** (`mdhn:Rostams_Seven_Labours`, Q4119480) — 4 direct, 13 including narrower
         - *Resources*
           - The White Dīv captures and blinds Kay Kāvus — Departed Folios (`DepartedFolioCollection.json`)
           - Folio 118r: Rustam First Course: Rakhsb Slays a Lion — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -770,14 +777,23 @@
         - Manuchihr kills Tur in battle — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
     - **Manuchehr Slays Salm / کشته شدن سلم به دست منوچهر** (`mdhn:Manuchehr_Slays_Salm`)
     - **Fereydun Crowns Manuchehr and Dies / تاج نهادن فریدون بر منوچهر و مرگ فریدون** (`mdhn:Fereydun_Crowns_Manuchehr`)
-    - **Zal and Rudaba / زال و رودابه** (`mdhn:ZalAndRudaba`, Q5960418) — 6 resources
+    - **Strory of the Zal / بازگشت سام به کوه البرز** (`mdhn:Story_of_Zal`) — 2 direct, 9 including narrower
       - *Resources*
-        - Folio 67v Zal Receives Mihrabs Homage at Kabul — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
+        - Folio 66v Sam Takes Leave of Zal — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
         - Folio 71v Rudabas Maids Return to the Palace — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-        - Folio 77v Mihrab Hears of Rudaba Folly — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-        - Folio 84v Sindukht Comes to Sam Bearing Gifts — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-        - Folio 86v The Shahs Wise Men Approve of Zals Marriage — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-        - Zal with Rudaba in her chamber f.5 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
+      - **Zal and Rudaba / زال و رودابه** (`mdhn:ZalAndRudaba`, Q5960418) — 6 resources
+        - *Resources*
+          - Folio 67v Zal Receives Mihrabs Homage at Kabul — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
+          - Folio 71v Rudabas Maids Return to the Palace — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
+          - Folio 77v Mihrab Hears of Rudaba Folly — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
+          - Folio 84v Sindukht Comes to Sam Bearing Gifts — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
+          - Folio 86v The Shahs Wise Men Approve of Zals Marriage — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
+          - Zal with Rudaba in her chamber f.5 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
+        - **Zal Sees Rudaba on the Battlements of Kabul / دیدار زال و رودابه بر باره کابل** (`mdhn:Zal_Sees_Rudaba`)
+        - **Rudaba Coشnfesses to Sindukht / رودابه در مورد زال در نزد مادر خود اعتراف می کند** (`mdhn:RudabaConfesses`, Q138800292)
+        - **Marriage of Zal and Rudaba / ازدواج زال و رودابه** (`mdhn:Marriage_of_Zal_and_Rudaba`) — 1 resource
+          - *Resources*
+            - Folio 86v The Shahs Wise Men Approve of Zals Marriage — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
       - **The Infant Zal Exposed on Mount Alborz / رها کردن زال در البرز** (`mdhn:Zal_Exposed_on_Mount_Alborz`)
       - **Zal Returns to Mount Alborz / بازگشت سام به کوه البرز** (`mdhn:Sam_Returns_To_Mount_Alborz`) — 1 resource
         - *Resources*
@@ -787,25 +803,12 @@
           - Folio 64v Sam Returns with Zal — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
       - **The Simurgh Nurses Zal / پرورش زال نزد سیمرغ** (`mdhn:Simurgh_Nurses_Zal`)
       - **Zal Sees Rudaba on the Battlements of Kabul / دیدار زال و رودابه بر باره کابل** (`mdhn:Zal_Sees_Rudaba`)
-      - **Rudaba Coشnfesses to Sindukht / رودابه در مورد زال در نزد مادر خود اعتراف می کند** (`mdhn:RudabaConfesses`, Q138800292)
       - **Marriage of Zal and Rudaba / ازدواج زال و رودابه** (`mdhn:Marriage_of_Zal_and_Rudaba`) — 1 resource
         - *Resources*
           - Folio 86v The Shahs Wise Men Approve of Zals Marriage — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
       - **Birth of Rostam / زاده‌شدن رستم** (`mdhn:Birth_of_Rostam`)
-    - **The Infant Zal Exposed on Mount Alborz / رها کردن زال در البرز** (`mdhn:Zal_Exposed_on_Mount_Alborz`)
-    - **Zal Returns to Mount Alborz / بازگشت سام به کوه البرز** (`mdhn:Sam_Returns_To_Mount_Alborz`) — 1 resource
-      - *Resources*
-        - Folio 63v Sam Comes to Mount Alburs — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-    - **Zal Returns to Mount Alborz / بازگشت زال به خانه** (`mdhn:Zal_Returns_To_Home`) — 1 resource
-      - *Resources*
-        - Folio 64v Sam Returns with Zal — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
-    - **The Simurgh Nurses Zal / پرورش زال نزد سیمرغ** (`mdhn:Simurgh_Nurses_Zal`)
-    - **Zal Sees Rudaba on the Battlements of Kabul / دیدار زال و رودابه بر باره کابل** (`mdhn:Zal_Sees_Rudaba`)
-    - **Marriage of Zal and Rudaba / ازدواج زال و رودابه** (`mdhn:Marriage_of_Zal_and_Rudaba`) — 1 resource
-      - *Resources*
-        - Folio 86v The Shahs Wise Men Approve of Zals Marriage — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
     - **Birth of Rostam / زاده‌شدن رستم** (`mdhn:Birth_of_Rostam`)
-  - **Kingdom of KayKhosrow / پادشاهی کيخسرو** (`mdhn:Kingdom_of_KayKhosrow`) — 14 resources
+  - **Kingdom of KayKhosrow / پادشاهی کيخسرو** (`mdhn:Kingdom_of_KayKhosrow`) — 14 direct, 23 including narrower
     - *Resources*
       - Bizhan kills the Turanian warrior Human f.27 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - Bizhan pursues Tazhav and his slavegirl Ispanwi — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
@@ -821,7 +824,7 @@
       - Rustam unhorses Changus — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - Rustam wrestles and defeats Puladvand f.26 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - The hero Ruhham chops off the hand of the Turanian wizard Bazur, thus cancelling his weather-spell — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
-    - **Story of Akvan Div / داستان اکوان ديو** (`mdhn:Story_of_Akvan_Div`)
+    - **Story of Akvan Div / داستان اکوان ديو** (`mdhn:Story_of_Akvan_Div`) — 0 direct, 1 including narrower
       - **Battle between Rostam and AkvanDiv / نبرد رستم و اکوان ديو** (`mdhn:Battle_Between_Rostam_and_AkvanDiv`) — 1 resource
         - *Resources*
           - Akvan Div prepares to heave the sleeping Rustam into the sea — Departed Folios (`DepartedFolioCollection.json`)
@@ -829,7 +832,7 @@
     - **Giv Brings Kay Khosrow from Turan / آوردن کیخسرو از توران توسط گیو** (`mdhn:Giv_Brings_Kay_Khosrow_from_Turan`) — 1 resource
       - *Resources*
         - Giv finds Kay Khusraw in Turan — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
-    - **Story of Bizhan and Manizheh / داستان بیژن و منیژه** (`mdhn:Story_of_Bizhan_and_Manizheh`, Q5959876) — 1 resource
+    - **Story of Bizhan and Manizheh / داستان بیژن و منیژه** (`mdhn:Story_of_Bizhan_and_Manizheh`, Q5959876) — 1 direct, 2 including narrower
       - *Resources*
         - Bizhan pursues Tazhav and his slavegirl Ispanwi — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - **Bizhan Slaughters the Wild Boars of Irman / کشته شدن گرازهای وحشی ایرمن به دست بیژان** (`mdhn:Bizhan_Slaughters_the_Wild_Boars_of_Irman`, Q138863131) — 1 resource
@@ -844,7 +847,7 @@
     - **Bizhan Meets Manizheh / دیدار بیژن و منیژه** (`mdhn:Bizhan_Meets_Manizheh`)
     - **Bizhan Thrown into the Pit / بیژن در چاه** (`mdhn:Bizhan_Thrown_into_the_Pit`)
     - **Rostam Rescues Bizhan from the Pit / رهایی بیژن از چاه به دست رستم** (`mdhn:Rostam_Rescues_Bizhan`)
-    - **Davazdah Rokh / دوازده رخ** (`mdhn:DavazdahRokh`, Q5935469) — 5 resources
+    - **Davazdah Rokh / دوازده رخ** (`mdhn:DavazdahRokh`, Q5935469) — 5 direct, 8 including narrower
       - *Resources*
         - Folio 339r Planning for the Joust of the Twelve Rooks — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
         - Folio 339r Planning for the Joust of the Twelve Rooks — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -895,7 +898,7 @@
     - **Twelfth Rokh. Combat of Goudarz and Piran / رخ دوازدهم. نبرد گودرز و پیران** (`mdhn:TwelfthRokh`)
     - **Death of Afrasiab / کشته شدن افراسیاب** (`mdhn:Death_of_Afrasiab`)
     - **Kay Khosrow Disappears into the Snow / غایب شدن کیخسرو در برف** (`mdhn:Kay_Khosrow_Disappears`)
-  - **Kingdom of Fereydun / پادشاهی فریدون** (`mdhn:Kingdom_of_Fereydun`, Q40466994) — 10 resources
+  - **Kingdom of Fereydun / پادشاهی فریدون** (`mdhn:Kingdom_of_Fereydun`, Q40466994) — 10 direct, 27 including narrower
     - *Resources*
       - Farīdūn crosses the Tigris on his way to fight the tyrant Ẓaḥḥāk — Departed Folios (`DepartedFolioCollection.json`)
       - Firdausī: Šāhnāma Ms. or. fol. 359 — Shahnama Ms. or. fol. 359 (`ShahnamaMsorfol359Collection.json`)
@@ -907,12 +910,12 @@
       - Folio alt38v The Court of Faridun, his mother Faranak sends gifts to her son (Cropped) — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
       - Manuchihr kills Tur in battle — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - The tyrant Zahhak is imprisoned under Mount Damavand f.3 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
-    - **The Rise of Fereydun / برآمدن فریدون** (`mdhn:Story_of_the_Rise_of_Fereydun`)
+    - **The Rise of Fereydun / برآمدن فریدون** (`mdhn:Story_of_the_Rise_of_Fereydun`) — 0 direct, 6 including narrower
       - **Zahhak slays the sacred cow Barmayah / کشته شدن برمايه به دست ضحاک** (`mdhn:Zahhak_slays_the_sacred_cow_Barmayah`, Q139925920) — 1 resource
         - *Resources*
           - Folio 30v Zahhak slays the sacred cow Barmayah — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
       - **Birth and Hiding of Fereydun / زاد و پنهان‌کردن فریدون** (`mdhn:Birth_and_Hiding_of_Fereydun`)
-      - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`)
+      - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`) — 0 direct, 1 including narrower
         - **Kaveh Tears Zahhak’s Scroll / پاره کردن نامه ضحاک** (`mdhn:Kaveh_Tears_Zahhak_Scroll`) — 1 resource
           - *Resources*
             - Folio 31v Kava Tears Zahhak’s Scroll — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -932,7 +935,7 @@
       - **Fereydun Orders the Cow-Headed Mace / گرز گاوسر فریدون** (`mdhn:Fereydun_and_the_Cow_Headed_Mace`)
       - **Fereydun Descends from Mount Alborz / فرود آمدن فریدون از البرز** (`mdhn:Fereydun_Descends_from_Alborz`)
       - **Fereydun Rescues Shahrnaz and Arnavaz / رهایی شهرناز و ارنواز** (`mdhn:Rescue_of_Shahrnaz_and_Arnavaz`)
-    - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`)
+    - **Kaveh the Blacksmith before Zahhak / کاوه آهنگر در برابر ضحاک** (`mdhn:Story_Of_The_Kaveh_the_Blacksmith`) — 0 direct, 1 including narrower
       - **Kaveh Tears Zahhak’s Scroll / پاره کردن نامه ضحاک** (`mdhn:Kaveh_Tears_Zahhak_Scroll`) — 1 resource
         - *Resources*
           - Folio 31v Kava Tears Zahhak’s Scroll — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -965,7 +968,7 @@
         - Folio 40v Fariduns Envoy to King Sarv Second Interview — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
         - Folio 41v Fariduns Sons with the Daughters of King Sarv — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
       - **The Sons of Fereydun Woo the Daughters of the King of Yemen / رفتن پسران فریدون به یمن** (`mdhn:Sons_of_Fereydun_Go_to_Yemen`)
-    - **Story of Iraj / داستان ایرج** (`mdhn:Story_of_Iraj`) — 2 resources
+    - **Story of Iraj / داستان ایرج** (`mdhn:Story_of_Iraj`) — 2 direct, 13 including narrower
       - *Resources*
         - Folio 54v Tur Taunts Qubad — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
         - Folio 57v Qaran Captures tbe Castle of the Alans — Shahname Shah Tahmasb (`ShahnameShahTahmasbCollection.json`)
@@ -1031,7 +1034,7 @@
         - Faridun mourns Iraj FS-S1986.100_003 — Great Ilkhanid Shahnameh (`GreatIlkhanidShahnamehCollection.json`)
         - Firdausī: Šāhnāma Ms. or. fol. 359 — Shahnama Ms. or. fol. 359 (`ShahnamaMsorfol359Collection.json`)
         - Garšasp-nāma, Šāh-nāma Abū al-Qāsim Firdawsī Smith-Lesouëf 224 — Shahnama Smith-Lesouëf 224 (`ShahnamaSmithLesouef224Collection.json`)
-  - **Kingdom of Goshtasp / پادشاهی گشتاسپ** (`mdhn:Kingdom_of_Goshtasp`) — 10 resources
+  - **Kingdom of Goshtasp / پادشاهی گشتاسپ** (`mdhn:Kingdom_of_Goshtasp`) — 10 direct, 12 including narrower
     - *Resources*
       - Both wounded from battling Isfandiyar, Rustam pauses while his horse Rakhsh flees f.40 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - Gurgsar rides a camel across the bottomless lake, leading Isfandiyar to the brass fortress, f.38 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
@@ -1043,7 +1046,7 @@
       - Isfandiyar lassoes Gurgsar and takes him prisoner f.33 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - Isfandiyar slays the horned wolves (kargs) f.34 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - Rustam shoots Isfandiyar with a forked arrow f.41 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
-    - **Story of Esfandiyar / داستان اسفندیار** (`mdhn:Story_of_Esfandiyar`) — 8 resources
+    - **Story of Esfandiyar / داستان اسفندیار** (`mdhn:Story_of_Esfandiyar`) — 8 direct, 10 including narrower
       - *Resources*
         - Both wounded from battling Isfandiyar, Rustam pauses while his horse Rakhsh flees f.40 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
         - Gurgsar rides a camel across the bottomless lake, leading Isfandiyar to the brass fortress, f.38 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
@@ -1109,7 +1112,7 @@
       - *Resources*
         - The Funeral of Isfandiyar f.153r — Great Ilkhanid Shahnameh (`GreatIlkhanidShahnamehCollection.json`)
         - Gushtasp and his family mourn over the coffin of his son Isfandiyar f.42 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
-  - **Kingdom of Bahman / پادشاهی بهمن** (`mdhn:Kingdom_of_Bahman`) — 1 resource
+  - **Kingdom of Bahman / پادشاهی بهمن** (`mdhn:Kingdom_of_Bahman`) — 1 direct, 2 including narrower
     - *Resources*
       - Fatally wounded with Rakhsh in a spiked pit, Rustam shoots his betrayer Shaghad f.43 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
     - **Death of Rostam in the Pit of Shaghad / مرگ رستم در چاه شغاد** (`mdhn:Death_of_Rostam`) — 2 resources
@@ -1123,7 +1126,7 @@
   - **Kingdom of Ardavan / پادشاهی اردوان** (`mdhn:Kingdom_of_Ardavan`) — 1 resource
     - *Resources*
       - Ardashir hunting together with Parthian king Ardavan and his sons f.51 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
-  - **Kingdom of Ardashir Babakan / پادشاهی اردشیر بابکان** (`mdhn:Kingdom_of_Ardashir`) — 4 resources
+  - **Kingdom of Ardashir Babakan / پادشاهی اردشیر بابکان** (`mdhn:Kingdom_of_Ardashir`) — 4 direct, 5 including narrower
     - *Resources*
       - Ardashir hunting together with Parthian king Ardavan and his sons f.51 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)
       - Ardashir pours molten lead down the throat of Haftvad's giant worm f.52 — Small Ilkhanid Shahname (`SmallIlkhanidShahnameCollection.json`)

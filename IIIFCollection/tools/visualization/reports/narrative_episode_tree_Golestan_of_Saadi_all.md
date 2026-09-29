@@ -1,0 +1,51 @@
+# Narrative episode tree: `mdhn:Golestan_of_Saadi`
+
+- scope: `all`
+- episodes in this tree: 30
+- resource listings: 10
+- counts: **direct** = resources tagged with that episode; **including narrower** = unique resources tagged with it or any descendant
+
+- **Golestan of Saadi / گلستان سعدی** (`mdhn:Golestan_of_Saadi`, Q404191) — 7 direct, 9 including narrower
+  - *Resources*
+    - Sa’di and the two Indian robbers — Departed Folios (`DepartedFolioCollection.json`)
+    - Smith-Lesouëf 247 — Muraqqa (Calligraphy & Painting Collection) (`MuraqqaCollection.json`)
+    - 4 works by 4 authors on the subjects of Persian poetry and love poetry MS. Elliott 239 — Saadi Collection (`SaadiCollection.json`)
+    - Golestan Saadi — Saadi Collection (`SaadiCollection.json`)
+    - Gulistan of Sa‘di (RAS Persian 258) — Saadi Collection (`SaadiCollection.json`)
+    - Khulāṣat al-ash‘ār Persian MS 55 — Saadi Collection (`SaadiCollection.json`)
+    - Sa'di. Golestan — Saadi Collection (`SaadiCollection.json`)
+  - **Preface of the Golestan / دیباچه گلستان** (`mdhn:Golestan_Preface`) — 0 direct, 1 including narrower
+    - **The Cause of Composing the Rose Garden / سبب تصنیف گلستان** (`mdhn:Cause_of_Composing_Golestan`)
+    - **Saadi converses by night with a young friend in a garden / گفتگوی شبانه سعدی با دوست در باغ** (`mdhn:Saadi_and_Friend_in_the_Garden`) — 1 resource
+      - *Resources*
+        - The poet with his friends in the orchard at night — Departed Folios (`DepartedFolioCollection.json`)
+  - **Golestan Chapter 1: The Manners of Kings / گلستان باب اول: در سیرت پادشاهان** (`mdhn:Golestan_Bab_1_Manners_of_Kings`)
+    - **The King and the Prisoner / پادشاه و اسیر** (`mdhn:Golestan_King_and_the_Prisoner`)
+    - **The Slave and the Ship / غلام و کشتی** (`mdhn:Golestan_Slave_and_the_Ship`)
+    - **Hajjaj and the Dervish / حجاج و درویش مستجاب‌الدعوه** (`mdhn:Golestan_Hajjaj_and_the_Dervish`)
+    - **The Hypocritical Ascetic at the King's Table / زاهد ریاکار مهمان پادشاه** (`mdhn:Golestan_Hypocritical_Ascetic_at_Court`)
+    - **The King and the Chinese Slave Girl / ملک و کنیزک چینی** (`mdhn:Golestan_Chinese_Slave_Girl`)
+    - **Alexander Asked How He Conquered East and West / پرسش از اسکندر رومی در فتح مشرق و مغرب** (`mdhn:Golestan_Alexander_Asked_About_Conquest`)
+  - **Golestan Chapter 2: The Morals of Dervishes / گلستان باب دوم: در اخلاق درویشان** (`mdhn:Golestan_Bab_2_Morals_of_Dervishes`)
+    - **Child Saadi Keeps Vigil with the Quran / سعدی کودک و شب‌زنده‌داری با قرآن** (`mdhn:Golestan_Child_Saadi_Keeps_Vigil`)
+    - **Saadi Captured by the Franks / اسارت سعدی به دست فرنگیان** (`mdhn:Golestan_Saadi_Captured_by_Franks`)
+    - **The Dervish Who Stole a Blanket / درویش و گلیم دزدیده‌شده** (`mdhn:Golestan_Dervish_Steals_a_Blanket`)
+  - **Golestan Chapter 3: The Excellence of Contentment / گلستان باب سوم: در فضیلت قناعت** (`mdhn:Golestan_Bab_3_Excellence_of_Contentment`)
+    - **Two Brothers, the Vizier and the Dervish / دو برادر وزیر و درویش** (`mdhn:Golestan_Two_Brothers_Vizier_and_Dervish`)
+    - **The Unprepared Traveller / ورزشکار سفرنادیده** (`mdhn:Golestan_Unprepared_Traveller`)
+  - **Golestan Chapter 4: The Advantages of Silence / گلستان باب چهارم: در فواید خاموشی** (`mdhn:Golestan_Bab_4_Advantages_of_Silence`)
+    - **The Silence of the Wise / خاموشی دانا** (`mdhn:Golestan_Silence_of_the_Wise`)
+  - **Golestan Chapter 5: On Love and Youth / گلستان باب پنجم: در عشق و جوانی** (`mdhn:Golestan_Bab_5_Love_and_Youth`) — 1 resource
+    - *Resources*
+      - Sa'di and the Youth of Kashgar — Departed Folios (`DepartedFolioCollection.json`)
+    - **Night Conversation of the Lovers in a Garden / مناجات و گفتگوی عاشقانه در باغ** (`mdhn:Golestan_Night_Conversation_in_the_Garden`)
+    - **The Qazi of Hamadan / قاضی همدان** (`mdhn:Golestan_Qazi_of_Hamadan`)
+  - **Golestan Chapter 6: On Weakness and Old Age / گلستان باب ششم: در ضعف و پیری** (`mdhn:Golestan_Bab_6_Weakness_and_Old_Age`)
+    - **The Old Man and the Young Bride / پیر و عروس جوان** (`mdhn:Golestan_Old_Man_and_Young_Bride`)
+  - **Golestan Chapter 7: On the Effects of Education / گلستان باب هفتم: در تأثیر تربیت** (`mdhn:Golestan_Bab_7_Effects_of_Education`) — 1 resource
+    - *Resources*
+      - Sa’di and the two Indian robbers — Departed Folios (`DepartedFolioCollection.json`)
+    - **The Young Wrestler and the Old Master / جوان کشتی‌گیر و پهلوان پیر** (`mdhn:Golestan_Young_Wrestler_and_Old_Master`)
+    - **The Prince and the Slave Educated Together / شاهزاده و غلام همدرس** (`mdhn:Golestan_Prince_and_Slave_Educated_Together`)
+  - **Golestan Chapter 8: On Rules for Conduct in Life / گلستان باب هشتم: در آداب صحبت** (`mdhn:Golestan_Bab_8_Rules_of_Conduct`)
+    - **Saadi's Debate with the Claimant / جدال سعدی با مدعی** (`mdhn:Golestan_Debate_with_the_Claimant`)
