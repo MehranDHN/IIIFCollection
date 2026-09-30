@@ -1,0 +1,211 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "wd": "https://www.wikidata.org/wiki/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LeTourDuMondeCollection.json",
+    "@type": "sc:Collection",
+    "label": " Le Tour du monde",
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 62 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Interoperability",
+            "value": "Supports seeAlso for external data sources; designed for knowledge graph extraction, SPARQL queries, and automated processing"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "summary": {
+        "en": [
+            "Le Tour du monde, nouveau journal des voyages (French pronunciation: [lə tuʁ dy mɔ̃d nuvo ʒuʁnal de vwajaʒ]) was a French weekly travel journal first published in January 1860.[1] It also bore the name of Le Tour du monde, journal des voyages et des voyageurs (1895–1914)."
+        ]
+    },
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k34418q/f4/full/1241,/0/native.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 1755,
+            "width": 1241,
+            "service": [
+                {
+                    "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k34418q",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 1755,
+                    "width": 1241,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/NewsMagazineCollection.json",
+    "manifests": [
+        {
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k34418q/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "1 January 1883"
+                ],
+                "fr": [
+                    "01 janvier 1883"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "1 January 1883",
+                        "fr": "1 janvier 1883"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Le Tour du monde",
+                            "WD:Q3227726"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Writer": [
+                            "mdhn:Jane_Dieulafoy"
+                        ],
+                        "Photographer": [
+                            "mdhn:Jane_Dieulafoy"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "436"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300215389"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Gallica"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "bpt6k34418q"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1884 AD"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
