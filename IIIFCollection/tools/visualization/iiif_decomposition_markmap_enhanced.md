@@ -33,57 +33,42 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Mourning
 - Q750652
-- skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
 
 #### mdhn:Braid_Hair
 - Q31930755
-- skos:exactMatch: mdhn:tgm001287_Braids_Hairdressing
 
 #### mdhn:Window
 - Q35473
-- skos:exactMatch: mdhn:aat300002944
 
 #### mdhn:Glazed_Tile
 - Q76827920
-- skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Clothing
 - Q26690120
-- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:headscarf
 - Q2002752
-- skos:exactMatch: mdhn:aat300256716
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Curtain
 - Q49005
-- skos:exactMatch: mdhn:aat300037564, mdhn:tgm002819_Curtain_walls
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 
 ### mdhn:Fragment_Cropped_Image: Farangis cropped figure from 139r
@@ -159,7 +144,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:KeyumarsEnthroned
 - Q139923350
 - mdhn:isPartOf: mdhn:Kingdom_of_Keyumars
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Keyumars
 
@@ -169,88 +153,64 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Lion
 - Q140
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Clothing
 - Q26690120
-- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:headscarf
 - Q2002752
-- skos:exactMatch: mdhn:aat300256716
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:LeopardSkinDress
 - Q3564428
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Pomegranate
 - Q13188
-- skos:exactMatch: mdhn:aat300400483
 
 #### mdhn:Lion
 - Q140
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:WineCup
 - Q95684968
-- skos:exactMatch: mdhn:aat300218966
 
 #### mdhn:Plantanus_Orientalis
 - Q161105
-- skos:exactMatch: mdhn:aat300375194
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Simurgh
 - Q548119
-- skos:exactMatch: mdhn:aat300379749
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Rocks
 - Q8063
@@ -303,10 +263,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Angle cropped figure from 12a
@@ -317,7 +274,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 12a
@@ -350,59 +306,42 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Hushang_Fight_Black_Div
 - Q138757163
 - mdhn:isPartOf: mdhn:Kingdom_of_Keyumars
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Hushang
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Spur
 - Q740732
 
 #### mdhn:Horse_Tack
 - Q950799
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300420191, mdhn:iconclass46C1316, mdhn:tgm010511_Tacks
 
 #### mdhn:Mace
 - Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Pomegranate
 - Q13188
-- skos:exactMatch: mdhn:aat300400483
 
 #### mdhn:Plantanus_Orientalis
 - Q161105
-- skos:exactMatch: mdhn:aat300375194
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Rocks
 - Q8063
@@ -424,7 +363,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Kharozan_Div
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 15a
@@ -435,10 +374,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Wounded Divs cropped figure from 15a
@@ -449,10 +385,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Hidded Divs Standing cropped figure from 15a
@@ -463,10 +396,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Hidded Div cropped figure from 15a
@@ -477,10 +407,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Wounded Div cropped figure from 15a
@@ -491,10 +418,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 15a
@@ -526,153 +450,113 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Solomon_and_Queen_of_Sheba
 - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
-- skos:closeMatch: iconclass:71I
 
 #### mdhn:Solomon
 
 #### mdhn:iconclass71I6
 - skos:exactMatch: iconclass:71I6
-- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
+- skos:related: mdhn:Solomon_and_Queen_of_Sheba
 
 #### mdhn:iconclass71I_PersianCourt
-- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
+- skos:related: mdhn:Solomon_and_Queen_of_Sheba
 
 #### mdhn:Asfi_bin_Barkhiya
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Donkey
 - Q3537778
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Dragon
 - Q7559
-- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Turtle
 - Q32945370
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Mouse
 - Q83310
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250251
 
 #### mdhn:Jingle
 - Q264922
-- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
 
 #### mdhn:Lizard
 - Q27532
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250251
 
 #### mdhn:Scorpion
 - Q3952762
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Snake
 - Q2102
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lion
 - Q140
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Elepahant
 
 #### mdhn:Monkey
 - Q1367
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250028
 
 #### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:harpy
 - Q113468247
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Rabbit
 - Q9394
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250218
 
 #### mdhn:Camel
 - Q106695054
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
-- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Simurgh
 - Q548119
-- skos:exactMatch: mdhn:aat300379749
 
 #### mdhn:Eurasian_Hoopoe
 - Q25247
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat5300250068
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Mace
 - Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Peacock
 - Q2083405
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Royal_Court
 - Q1134237
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Cloud
 - Q8074
@@ -682,22 +566,18 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Wind
 - Q8094
-- skos:exactMatch: mdhn:aat300055395
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Duck
 - Q3736439
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Sea_River_Pool
 - Q4022
@@ -729,10 +609,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Angel cropped figure from f1b
@@ -743,7 +620,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Simurgh cropped figure from f1b
@@ -754,7 +630,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Simurgh
 - Q548119
-- skos:exactMatch: mdhn:aat300379749
 
 
 ### mdhn:Fragment_Cropped_Image: Mythical Creatures cropped figure from f1b
@@ -765,7 +640,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Dragon
 - Q7559
-- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 
 ### mdhn:Fragment_Cropped_Image: Harpy cropped figure from f1b
@@ -786,7 +660,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Peacock
 - Q2083405
-- skos:broadMatch: mdhn:Animal
 
 
 ---
@@ -799,56 +672,44 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Solomon_and_Queen_of_Sheba
 - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
-- skos:closeMatch: iconclass:71I
 
 #### mdhn:Queen_of_Sheba
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Tambourine
 - Q193666
-- skos:exactMatch: mdhn:aat300041759
 
 #### mdhn:kamancheh
 - Q290951
-- skos:exactMatch: mdhn:aat300265852
 
 #### mdhn:Sea_River_Pool
 - Q4022
 
 #### mdhn:Fountain
 - Q483453
-- skos:exactMatch: mdhn:aat300006179
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Sitar
 
 #### mdhn:Harp
 - Q47369
-- skos:exactMatch: mdhn:aat300042047, mdhn:tgm004889_Harps
 
 #### mdhn:LongNeckedBottle
 - Q116274271
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:Vessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 #### mdhn:WineCup
 - Q95684968
-- skos:exactMatch: mdhn:aat300218966
 
 #### mdhn:CopperDish
 
@@ -856,43 +717,33 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Pomegranate
 - Q13188
-- skos:exactMatch: mdhn:aat300400483
 
 #### mdhn:Fruits
 - Q1364
 
 #### mdhn:headscarf
 - Q2002752
-- skos:exactMatch: mdhn:aat300256716
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Royal_Court
 - Q1134237
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Bilqis cropped figure from f2a
@@ -912,7 +763,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angels cropped figure from f2a
@@ -923,7 +773,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angels cropped figure from f2a
@@ -934,7 +783,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Musicians cropped figure from f2a
@@ -945,7 +793,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 
 ---
@@ -1011,7 +858,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:ZahhakStory
 - Q139923562
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:KingdomOfZahhak, mdhn:Kingdom_of_Jamshid
 
 ##### mdhn:Fereydun_Strikes_Down_Zahhak
 - Q138713256
@@ -1019,87 +866,66 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Tambourine
 - Q193666
-- skos:exactMatch: mdhn:aat300041759
 
 #### mdhn:Flute
 - Q11405
-- skos:exactMatch: mdhn:aat300160680, mdhn:aat300235053
 
 #### mdhn:Harp
 - Q47369
-- skos:exactMatch: mdhn:aat300042047, mdhn:tgm004889_Harps
 
 #### mdhn:Pool
 - Q1501
-- skos:exactMatch: mdhn:aat300008692
 
 #### mdhn:Fountain
 - Q483453
-- skos:exactMatch: mdhn:aat300006179
 
 #### mdhn:Glazed_Tile
 - Q76827920
-- skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
 
 #### mdhn:Fruits
 - Q1364
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Iwan
 - Q636232
-- skos:exactMatch: mdhn:aat300075830, mdhn:tgm110002_Iwan
 
 #### mdhn:Plantanus_Orientalis
 - Q161105
-- skos:exactMatch: mdhn:aat300375194
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:LongNeckedBottle
 - Q116274271
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:Vessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 #### mdhn:WineCup
 - Q95684968
-- skos:exactMatch: mdhn:aat300218966
 
 #### mdhn:CopperDish
 
@@ -1107,74 +933,57 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Pomegranate
 - Q13188
-- skos:exactMatch: mdhn:aat300400483
 
 #### mdhn:Club
 - Q392326
-- skos:broadMatch: mdhn:Weopen
 
 #### mdhn:headscarf
 - Q2002752
-- skos:exactMatch: mdhn:aat300256716
 
 #### mdhn:Window
 - Q35473
-- skos:exactMatch: mdhn:aat300002944
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Royal_Court
 - Q1134237
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Bolster
 - Q3057620
-- skos:exactMatch: mdhn:aat300236072
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Fence
 - Q148571
-- skos:exactMatch: mdhn:aat300005044, mdhn:tgm003920_Fences
 
 #### mdhn:Door
 - Q36794
-- skos:exactMatch: mdhn:aat300002803, mdhn:tgm003230_Doors__doorways
 
 #### mdhn:Book
 - Q571
-- skos:exactMatch: mdhn:aat300028051
 
 #### mdhn:GemEncrustedBelt
 - Q134560
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Snake
 - Q2102
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Fereydun cropped figure from f22a
@@ -1253,90 +1062,66 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Pavilion
 - Q57661959
-- skos:exactMatch: mdhn:aat300006819, mdhn:tgm007537_Pavilions_Facilities
 
 #### mdhn:Pinus
 - Q26782
-- skos:exactMatch: mdhn:aat300343658
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Torches
 - Q327954
-- skos:exactMatch: mdhn:aat300037652, mdhn:tgm010897_Torches_Lighting_devices
-- skos:relatedMatch: mdhn:aat300180425
 
 #### mdhn:Rifle
 - Q124072
-- skos:broadMatch: mdhn:Firearms_Weopen, mdhn:Weopen
-- skos:exactMatch: mdhn:aat300427534, mdhn:tgm008914_Rifles
 
 #### mdhn:Pool
 - Q1501
-- skos:exactMatch: mdhn:aat300008692
 
 #### mdhn:Fountain
 - Q483453
-- skos:exactMatch: mdhn:aat300006179
 
 #### mdhn:Glazed_Tile
 - Q76827920
-- skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
 
 #### mdhn:Fruits
 - Q1364
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Iwan
 - Q636232
-- skos:exactMatch: mdhn:aat300075830, mdhn:tgm110002_Iwan
 
 #### mdhn:Plantanus_Orientalis
 - Q161105
-- skos:exactMatch: mdhn:aat300375194
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:LongNeckedBottle
 - Q116274271
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:Vessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 #### mdhn:WineCup
 - Q95684968
-- skos:exactMatch: mdhn:aat300218966
 
 #### mdhn:CopperDish
 
@@ -1344,74 +1129,57 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Pomegranate
 - Q13188
-- skos:exactMatch: mdhn:aat300400483
 
 #### mdhn:Club
 - Q392326
-- skos:broadMatch: mdhn:Weopen
 
 #### mdhn:headscarf
 - Q2002752
-- skos:exactMatch: mdhn:aat300256716
 
 #### mdhn:Window
 - Q35473
-- skos:exactMatch: mdhn:aat300002944
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Royal_Court
 - Q1134237
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Bolster
 - Q3057620
-- skos:exactMatch: mdhn:aat300236072
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Fence
 - Q148571
-- skos:exactMatch: mdhn:aat300005044, mdhn:tgm003920_Fences
 
 #### mdhn:Door
 - Q36794
-- skos:exactMatch: mdhn:aat300002803, mdhn:tgm003230_Doors__doorways
 
 #### mdhn:Book
 - Q571
-- skos:exactMatch: mdhn:aat300028051
 
 #### mdhn:GemEncrustedBelt
 - Q134560
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Snake
 - Q2102
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Zal cropped figure from 38a
@@ -1488,7 +1256,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - mdhn:isPartOf: mdhn:Kingdom_Of_Garshasp, mdhn:RostamStory
 
 #### mdhn:RostamStory
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_Manuchehr
 
 #### mdhn:Rock
 
@@ -1496,39 +1264,30 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Lasso
 - Q840507
-- skos:exactMatch: mdhn:aat300255575
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Young Rostam cropped figure from 54a
@@ -1606,7 +1365,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
 
 #### mdhn:RostamStory
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_Manuchehr
 
 #### mdhn:Rock
 
@@ -1614,50 +1373,36 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Jingle
 - Q264922
-- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Babr_e_Bayan
 - Q23068742
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:TearingApart
-- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Cave
 - Q35509
-- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 62b
@@ -1676,7 +1421,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Olad_Div
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: White Div cropped figure from 62b
@@ -1686,7 +1431,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Injured Div cropped figure from 62b
@@ -1697,10 +1442,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 62b
@@ -1720,10 +1462,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Divs cropped figure from 62b
@@ -1734,10 +1473,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from 62b
@@ -1748,10 +1484,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from 62b
@@ -1762,10 +1495,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from 62b
@@ -1776,10 +1506,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from 62b
@@ -1790,10 +1517,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 62b
@@ -1806,7 +1530,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Text_or_Verses: Textblock2 in 62b
@@ -1819,7 +1543,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ---
@@ -1855,9 +1579,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Iskandar_Dhul_Qarnayn
 - Q8409
-- skos:closeMatch: mdhn:iconclass98B_Alexander
-- skos:exactMatch: wd:Q8409
-- skos:relatedMatch: mdhn:Eghbal_Nama, mdhn:Iskandarnama, mdhn:Sharaf_Nama, mdhn:iconclass_DhulQarnayn, mdhn:iconclass_GogMagogWall
+- skos:related: mdhn:Eghbal_Nama, mdhn:Iskandarnama, mdhn:Sharaf_Nama
 
 #### mdhn:Greedy_Dragon
 
@@ -1865,63 +1587,44 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Dragon
 - Q7559
-- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Tack
 - Q950799
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300420191, mdhn:iconclass46C1316, mdhn:tgm010511_Tacks
 
 #### mdhn:HorseStirrup
 - Q191657
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
-- skos:relatedMatch: mdhn:Horse_Saddle
+- skos:related: mdhn:Horse_Saddle
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 296b
@@ -1932,9 +1635,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Iskandar_Dhul_Qarnayn
 - Q8409
-- skos:closeMatch: mdhn:iconclass98B_Alexander
-- skos:exactMatch: wd:Q8409
-- skos:relatedMatch: mdhn:Eghbal_Nama, mdhn:Iskandarnama, mdhn:Sharaf_Nama, mdhn:iconclass_DhulQarnayn, mdhn:iconclass_GogMagogWall
+- skos:related: mdhn:Eghbal_Nama, mdhn:Iskandarnama, mdhn:Sharaf_Nama
 
 
 ### mdhn:Fragment_Cropped_Image: Dragon cropped figure from 296b
@@ -1958,7 +1659,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: People cropped figure from 296b
@@ -1979,7 +1679,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Cows cropped figure from 296b
@@ -1990,7 +1689,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 296b
@@ -2004,9 +1702,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Iskandar_Dhul_Qarnayn
 - Q8409
-- skos:closeMatch: mdhn:iconclass98B_Alexander
-- skos:exactMatch: wd:Q8409
-- skos:relatedMatch: mdhn:Eghbal_Nama, mdhn:Iskandarnama, mdhn:Sharaf_Nama, mdhn:iconclass_DhulQarnayn, mdhn:iconclass_GogMagogWall
+- skos:related: mdhn:Eghbal_Nama, mdhn:Iskandarnama, mdhn:Sharaf_Nama
 
 
 ### mdhn:Text_or_Verses: Textblock2 in 296b
@@ -2020,9 +1716,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Iskandar_Dhul_Qarnayn
 - Q8409
-- skos:closeMatch: mdhn:iconclass98B_Alexander
-- skos:exactMatch: wd:Q8409
-- skos:relatedMatch: mdhn:Eghbal_Nama, mdhn:Iskandarnama, mdhn:Sharaf_Nama, mdhn:iconclass_DhulQarnayn, mdhn:iconclass_GogMagogWall
+- skos:related: mdhn:Eghbal_Nama, mdhn:Iskandarnama, mdhn:Sharaf_Nama
 
 
 ---
@@ -2139,11 +1833,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Flower
 - Q506
@@ -2153,66 +1845,51 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Pomegranate
 - Q13188
-- skos:exactMatch: mdhn:aat300400483
 
 #### mdhn:Tiger
 - Q19939
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300310390
 
 #### mdhn:Deer
 - Q29838690
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Fruits
 - Q1364
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Club
 - Q392326
-- skos:broadMatch: mdhn:Weopen
 
 #### mdhn:Tambourine
 - Q193666
-- skos:exactMatch: mdhn:aat300041759
 
 #### mdhn:Oud
 - Q191000
-- skos:exactMatch: mdhn:aat300217935
 
 #### mdhn:Goat
 - Q2934
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:LeopardSkinDress
 - Q3564428
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:LongNeckedBottle
 - Q116274271
 
 #### mdhn:Vessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 #### mdhn:WineCup
 - Q95684968
-- skos:exactMatch: mdhn:aat300218966
 
 #### mdhn:WineBowl
 
@@ -2266,97 +1943,73 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Siamak_Was_Slayin_By_Div
 - Q139923384
 - mdhn:isPartOf: mdhn:Kingdom_of_Keyumars
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Jingle
 - Q264922
-- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:TearingApart
-- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Mace
 - Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Lion
 - Q140
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Spur
 - Q740732
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Fox
 - Q8331
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Battle
 - Q198
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Deer
 - Q29838690
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Flag
 - Q14660
-- skos:exactMatch: mdhn:aat300195678
 
 #### mdhn:GemEncrustedBelt
 - Q134560
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 13v
@@ -2385,10 +2038,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: People1 cropped figure from 13v
@@ -2412,52 +2062,40 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:AlamandKotalandKotal
 - Q140502385
-- skos:exactMatch: mdhn:aat500011096
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Mace
 - Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:SunShade
 - Q1762975
-- skos:exactMatch: mdhn:aat300428884
 
 #### mdhn:Horse_Spur
 - Q740732
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Head_Defence
 
@@ -2466,49 +2104,34 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Battle
 - Q198
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Body_Armour
 - Q485027
-- skos:exactMatch: mdhn:aat300036746
 
 #### mdhn:Battle_Field
 - Q4895508
-- skos:exactMatch: mdhn:aat300000835
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Flag
 - Q14660
-- skos:exactMatch: mdhn:aat300195678
 
 #### mdhn:Shield
 - Q131559
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300222454
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Club
 - Q392326
-- skos:broadMatch: mdhn:Weopen
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:GemEncrustedArmBand
 - Q680343
@@ -2518,11 +2141,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Jingle
 - Q264922
-- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
 
 #### mdhn:Sorna
 - Q825246
-- skos:exactMatch: mdhn:aat300222119
 
 
 ### mdhn:Fragment_Cropped_Image: Kaykavus cropped figure from 202v
@@ -2541,7 +2162,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Arzhang_Div
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: div1 cropped figure from 202v
@@ -2552,10 +2173,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: div2 cropped figure from 202v
@@ -2566,10 +2184,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: div3 cropped figure from 202v
@@ -2589,10 +2204,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: soldiers cropped figure from 202v
@@ -2603,10 +2215,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: soldiers cropped figure from 202v
@@ -2617,10 +2226,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 202v
@@ -2656,7 +2262,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
 
 #### mdhn:RostamStory
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_Manuchehr
 
 #### mdhn:Rock
 
@@ -2664,59 +2270,42 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Babr_e_Bayan
 - Q23068742
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Cave
 - Q35509
-- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Birds
 
 #### mdhn:Mace
 - Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:TearingApart
-- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Flower
 - Q506
@@ -2738,7 +2327,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Olad_Div
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 208r
@@ -2757,7 +2346,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Divs cropped figure from 208r
@@ -2768,10 +2357,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 208r
@@ -2784,7 +2370,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Text_or_Verses: Textblock2 in 208r
@@ -2797,7 +2383,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ---
@@ -2811,7 +2397,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Garshaspnameh
 - Q6391136
 - mdhn:isPartOf: mdhn:Persian_Epic_and_Mythology
-- skos:closeMatch: mdhn:aat300404209
 
 #### mdhn:Rock
 
@@ -2819,45 +2404,32 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Dragon
 - Q7559
-- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:mdhn:Horse_Tack
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Misbaha
 - Q1141821
-- skos:exactMatch: mdhn:aat300264661
 
 #### mdhn:Flower
 - Q506
@@ -2880,7 +2452,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Dragon
 - Q7559
-- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 208r
@@ -2893,7 +2464,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Text_or_Verses: Textblock2 in 208r
@@ -2906,7 +2477,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ---
@@ -2928,7 +2499,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Paper_Marbling
 - Q614541
-- skos:exactMatch: mdhn:aat300053812
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f2
@@ -2945,7 +2515,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Paper_Marbling
 - Q614541
-- skos:exactMatch: mdhn:aat300053812
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from f2
@@ -2962,7 +2531,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Rosette
 - Q1277215
-- skos:exactMatch: mdhn:aat300009972
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 2r
@@ -2986,7 +2554,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:God
 - Q190
-- skos:exactMatch: mdhn:sh85055517_God
 
 ##### mshn:Muhammad
 
@@ -3016,18 +2583,15 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Flower
 - Q506
@@ -3040,26 +2604,21 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Fruits
 - Q1364
 
 #### mdhn:WineCup
 - Q95684968
-- skos:exactMatch: mdhn:aat300218966
 
 #### mdhn:LongNeckedBottle
 - Q116274271
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:GoldVessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 #### mdhn:Bowl
 - Q153988
@@ -3074,23 +2633,18 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Duck
 - Q3736439
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:GemEncrustedBelt
 - Q134560
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 
 ### mdhn:Fragment_Cropped_Image: Sitted king cropped figure from 2v
@@ -3137,11 +2691,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Flower
 - Q506
@@ -3151,26 +2703,21 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Fruits
 - Q1364
 
 #### mdhn:WineCup
 - Q95684968
-- skos:exactMatch: mdhn:aat300218966
 
 #### mdhn:LongNeckedBottle
 - Q116274271
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:GoldVessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 #### mdhn:Bowl
 - Q153988
@@ -3185,25 +2732,19 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:GemEncrustedBelt
 - Q134560
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 
 ### mdhn:Fragment_Cropped_Image: People cropped figure from 3r
@@ -3319,11 +2860,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Shahnameh
 - Q8279
 - mdhn:isPartOf: mdhn:Islamic_Mythology, mdhn:Persian_Epic_and_Mythology
-- skos:closeMatch: mdhn:aat300404209
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 14v
@@ -3351,46 +2890,36 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Cat
 - Q146
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Fox
 - Q8331
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Deer
 - Q29838690
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Lion
 - Q140
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:GoldVessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 #### mdhn:Bowl
 - Q153988
@@ -3405,19 +2934,15 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:GemEncrustedBelt
 - Q134560
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Vessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 
 ### mdhn:Fragment_Cropped_Image: Keyumars cropped figure from 16v
@@ -3456,19 +2981,15 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Flower
 - Q506
@@ -3481,25 +3002,20 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Vessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 #### mdhn:HandledJug
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:WineCup
 - Q95684968
-- skos:exactMatch: mdhn:aat300218966
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:GoldVessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 #### mdhn:Bowl
 - Q153988
@@ -3514,22 +3030,18 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:GemEncrustedBelt
 - Q134560
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Fruits
 - Q1364
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 
 ### mdhn:Fragment_Cropped_Image: Fereydun cropped figure from 26r
@@ -3573,45 +3085,35 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - mdhn:isPartOf: mdhn:Kingdom_of_Kay_Qubad, mdhn:RostamStory
 
 #### mdhn:RostamStory
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_Manuchehr
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 #### mdhn:Babr_e_Bayan
 - Q23068742
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 66r
@@ -3687,7 +3189,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ### Depicts
 
 #### mdhn:RostamStory
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_Manuchehr
 
 #### mdhn:Rostams_Seventh_Labour
 - Q138585485
@@ -3697,46 +3199,33 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 #### mdhn:Babr_e_Bayan
 - Q23068742
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:TearingApart
-- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Cave
 - Q35509
-- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 75r
@@ -3755,7 +3244,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Olad Div cropped figure from 75r
@@ -3765,7 +3254,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Olad_Div
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 75r
@@ -3798,7 +3287,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ---
@@ -3840,128 +3329,93 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Solomon_and_Queen_of_Sheba
 - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
-- skos:closeMatch: iconclass:71I
 
 #### mdhn:Solomon
 
 #### mdhn:iconclass71I6
 - skos:exactMatch: iconclass:71I6
-- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
+- skos:related: mdhn:Solomon_and_Queen_of_Sheba
 
 #### mdhn:iconclass71I_PersianCourt
-- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
+- skos:related: mdhn:Solomon_and_Queen_of_Sheba
 
 #### mdhn:Turtle
 - Q32945370
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Mouse
 - Q83310
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250251
 
 #### mdhn:Lizard
 - Q27532
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250251
 
 #### mdhn:Scorpion
 - Q3952762
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Snake
 - Q2102
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lion
 - Q140
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Elepahant
 
 #### mdhn:Monkey
 - Q1367
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250028
 
 #### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Rabbit
 - Q9394
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250218
 
 #### mdhn:Camel
 - Q106695054
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
-- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Simurgh
 - Q548119
-- skos:exactMatch: mdhn:aat300379749
 
 #### mdhn:Eurasian_Hoopoe
 - Q25247
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat5300250068
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Mace
 - Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Peacock
 - Q2083405
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Royal_Court
 - Q1134237
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Cloud
 - Q8074
@@ -3974,11 +3428,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Duck
 - Q3736439
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Solomon cropped figure from 2v
@@ -4006,7 +3458,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Jibril
-- skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
 
 
 ### mdhn:Fragment_Cropped_Image: Angel cropped figure from 2v
@@ -4017,7 +3468,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Ange2 cropped figure from 2v
@@ -4028,7 +3478,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 2v
@@ -4039,10 +3488,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Divs cropped figure from 2v
@@ -4053,10 +3499,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Simurgh cropped figure from 2v
@@ -4067,7 +3510,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Simurgh
 - Q548119
-- skos:exactMatch: mdhn:aat300379749
 
 
 ### mdhn:Fragment_Cropped_Image: Peacock cropped figure from 2v
@@ -4078,7 +3520,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Peacock
 - Q2083405
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Snake cropped figure from 2v
@@ -4089,7 +3530,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Snake
 - Q2102
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Creature cropped figure from 2v
@@ -4104,8 +3544,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Lizard
 - Q27532
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250251
 
 
 ### mdhn:Fragment_Cropped_Image: Cow cropped figure from 2v
@@ -4116,7 +3554,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Boar cropped figure from 2v
@@ -4127,8 +3564,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Boar
 - Q266764
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250112
 
 
 ### mdhn:Fragment_Cropped_Image: Scorpion cropped figure from 2v
@@ -4139,7 +3574,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Scorpion
 - Q3952762
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Lion cropped figure from 2v
@@ -4150,7 +3584,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Lion
 - Q140
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Elephant cropped figure from 2v
@@ -4161,8 +3594,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Elephant
 - Q7378
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat:300250160
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 2v
@@ -4183,41 +3614,34 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Solomon_and_Queen_of_Sheba
 - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
-- skos:closeMatch: iconclass:71I
 
 #### mdhn:Queen_of_Sheba
 
 #### mdhn:Tambourine
 - Q193666
-- skos:exactMatch: mdhn:aat300041759
 
 #### mdhn:Sea_River_Pool
 - Q4022
 
 #### mdhn:Fountain
 - Q483453
-- skos:exactMatch: mdhn:aat300006179
 
 #### mdhn:Sitar
 
 #### mdhn:Tanbur
 - Q3424319
-- skos:exactMatch: mdhn:aat300042864
 
 #### mdhn:LongNeckedBottle
 - Q116274271
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:Vessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 #### mdhn:WineCup
 - Q95684968
-- skos:exactMatch: mdhn:aat300218966
 
 #### mdhn:CopperDish
 
@@ -4225,52 +3649,39 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Pomegranate
 - Q13188
-- skos:exactMatch: mdhn:aat300400483
 
 #### mdhn:Fruits
 - Q1364
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
-- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Simurgh
 - Q548119
-- skos:exactMatch: mdhn:aat300379749
 
 #### mdhn:Eurasian_Hoopoe
 - Q25247
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat5300250068
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Royal_Court
 - Q1134237
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Solomon cropped figure from 3r
@@ -4290,7 +3701,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angel2 cropped figure from 3r
@@ -4301,7 +3711,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angel3 cropped figure from 3r
@@ -4312,7 +3721,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angel4 cropped figure from 3r
@@ -4323,7 +3731,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angel5 cropped figure from 3r
@@ -4334,7 +3741,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Musicians cropped figure from 3r
@@ -4345,10 +3751,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Dancers cropped figure from 3r
@@ -4359,10 +3762,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern1 cropped from 3r
@@ -4476,67 +3876,49 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Siamak_Was_Slayin_By_Div
 - Q139923384
 - mdhn:isPartOf: mdhn:Kingdom_of_Keyumars
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Horse_Spur
 - Q740732
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Horse_Head_Defence
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
 
 #### mdhn:Battle
 - Q198
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Axe
 - Q39397
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: mdhn:aat300036982
 
 #### mdhn:Sheild
 
@@ -4548,12 +3930,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Siamak cropped figure from 12v
@@ -4582,10 +3961,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: People cropped figure from 12v
@@ -4617,95 +3993,73 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Pavilion
 - Q57661959
-- skos:exactMatch: mdhn:aat300006819, mdhn:tgm007537_Pavilions_Facilities
 
 #### mdhn:Glazed_Tile
 - Q76827920
-- skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Fruits
 - Q1364
 
 #### mdhn:Decapitation
 - Q204933
-- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Clothing
 - Q26690120
-- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:headscarf
 - Q2002752
-- skos:exactMatch: mdhn:aat300256716
 
 #### mdhn:GemEncrustedBelt
 - Q134560
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:GemEncrustedBelt
 - Q134560
 
 #### mdhn:Pomegranate
 - Q13188
-- skos:exactMatch: mdhn:aat300400483
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:HandledJug
 
 #### mdhn:WineCup
 - Q95684968
-- skos:exactMatch: mdhn:aat300218966
 
 #### mdhn:CopperTray
 
 #### mdhn:Curtain
 - Q49005
-- skos:exactMatch: mdhn:aat300037564, mdhn:tgm002819_Curtain_walls
 
 #### mdhn:Window
 - Q35473
-- skos:exactMatch: mdhn:aat300002944
 
 
 ### mdhn:Fragment_Cropped_Image: Iraj cropped figure from 42r
@@ -4774,76 +4128,57 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ### Depicts
 
 #### mdhn:RostamStory
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_Manuchehr
 
 ##### mdhn:Rustam_Slays_White_Elephant
 - mdhn:isPartOf: mdhn:RostamStory
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Bolster
 - Q3057620
-- skos:exactMatch: mdhn:aat300236072
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Elephant
 - Q7378
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat:300250160
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Pavilion
 - Q57661959
-- skos:exactMatch: mdhn:aat300006819, mdhn:tgm007537_Pavilions_Facilities
 
 #### mdhn:Glazed_Tile
 - Q76827920
-- skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:OxHeadMace
-- skos:broadMatch: mdhn:Mace, mdhn:Weopen
 
 #### mdhn:Clothing
 - Q26690120
-- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:headscarf
 - Q2002752
-- skos:exactMatch: mdhn:aat300256716
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Curtain
 - Q49005
-- skos:exactMatch: mdhn:aat300037564, mdhn:tgm002819_Curtain_walls
 
 #### mdhn:Window
 - Q35473
-- skos:exactMatch: mdhn:aat300002944
 
 #### mdhn:Babr_e_Bayan
 - Q23068742
@@ -4866,8 +4201,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Elephant
 - Q7378
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat:300250160
 
 
 ### mdhn:Fragment_Cropped_Image: Persona cropped figure from 105v
@@ -4919,22 +4252,18 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Duck
 - Q3736439
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Flower
 - Q506
@@ -4944,11 +4273,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Book
 - Q571
-- skos:exactMatch: mdhn:aat300028051
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Blossom
 - Q2047589
@@ -4958,16 +4285,12 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Vessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Ferdowsi cropped figure from f7r
@@ -5019,69 +4342,51 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
 
 #### mdhn:RostamStory
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_Manuchehr
 
 #### mdhn:TearingApart
-- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Rock
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Cloud
 - Q8074
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Cave
 - Q35509
-- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 44r
@@ -5100,7 +4405,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Olad Div cropped figure from 44r
@@ -5110,7 +4415,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Olad_Div
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from 44r
@@ -5132,7 +4437,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ---
@@ -5155,7 +4460,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:KeyumarsEnthroned
 - Q139923350
 - mdhn:isPartOf: mdhn:Kingdom_of_Keyumars
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Royal_Court
 - Q1134237
@@ -5165,42 +4469,33 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Enthronement
 - Q1671499
-- skos:exactMatch: mdhn:aat300054754
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Cloud
 - Q8074
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lion
 - Q140
-- skos:broadMatch: mdhn:Animal
 
 
 ---
@@ -5219,59 +4514,44 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:TahmurasDefeatsDivs
 
+#### mdhn:OxHeadMace
+
 #### mdhn:Mace
 - Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
-
-##### mdhn:OxHeadMace
-- skos:broadMatch: mdhn:Mace, mdhn:Weopen
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Body_Armour
 - Q485027
-- skos:exactMatch: mdhn:aat300036746
 
 #### mdhn:Soldier
 - Q4991371
-- skos:exactMatch: mdhn:aat300185678
 
 #### mdhn:Battle
 - Q198
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Wind
 - Q8094
-- skos:exactMatch: mdhn:aat300055395
 
 #### mdhn:Cloud
 - Q8074
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lasso
 - Q840507
-- skos:exactMatch: mdhn:aat300255575
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Rocks
 - Q8063
@@ -5281,17 +4561,14 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Gazzele
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 
 ### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from f23v
@@ -5311,10 +4588,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div2 cropped figure from f23v
@@ -5325,10 +4599,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div3 cropped figure from f23v
@@ -5339,10 +4610,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div4 cropped figure from f23v
@@ -5353,10 +4621,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Horse rider cropped figure from f23v
@@ -5379,20 +4644,16 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:ZalAndRudaba
 - Q5960418
-- mdhn:isPartOf: mdhn:Kingdom_of_Manuchehr
+- mdhn:isPartOf: mdhn:Story_of_Zal
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:WineBowl
 
@@ -5401,59 +4662,45 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Iwan
 - Q636232
-- skos:exactMatch: mdhn:aat300075830, mdhn:tgm110002_Iwan
 
 #### mdhn:Calligraphy_Inscription
 - Q1640824
-- skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
-- skos:relatedMatch: mdhn:aat300208615
 
 #### mdhn:Sea_River_Pool
 - Q4022
 
 #### mdhn:Duck
 - Q3736439
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Pool
 - Q1501
-- skos:exactMatch: mdhn:aat300008692
 
 #### mdhn:Fountain
 - Q483453
-- skos:exactMatch: mdhn:aat300006179
 
 #### mdhn:Fence
 - Q148571
-- skos:exactMatch: mdhn:aat300005044, mdhn:tgm003920_Fences
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:AgriculturalAndFarming
 
@@ -5462,7 +4709,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:headscarf
 - Q2002752
-- skos:exactMatch: mdhn:aat300256716
 
 
 ### mdhn:Fragment_Cropped_Image: Mihrab cropped figure from f77v
@@ -5493,7 +4739,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Quran
 - Q428
-- skos:exactMatch: mdhn:aat300265128
 
 
 ### mdhn:Calligraphy_Inscription: Inscription2 in Fig77v
@@ -5565,62 +4810,42 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - Q138863131
 - mdhn:isPartOf: mdhn:Kingdom_of_KayKhosrow, mdhn:Story_of_Bizhan_and_Manizheh
 
-#### mdhn:ZahhakStory
-- Q139923562
-- mdhn:isPartOf: mdhn:Shahnameh
-
-##### mdhn:KingdomOfZahhak
-- Q40466998
-- mdhn:isPartOf: mdhn:ZahhakStory
-
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Spur
 - Q740732
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Cloud
 - Q8074
@@ -5643,8 +4868,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Boar
 - Q266764
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250112
 
 
 ### mdhn:Calligraphy_Inscription: Inscription1 in 299r
@@ -5680,20 +4903,15 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:WineBowl
 
@@ -5702,59 +4920,45 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Iwan
 - Q636232
-- skos:exactMatch: mdhn:aat300075830, mdhn:tgm110002_Iwan
 
 #### mdhn:Calligraphy_Inscription
 - Q1640824
-- skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
-- skos:relatedMatch: mdhn:aat300208615
 
 #### mdhn:Sea_River_Pool
 - Q4022
 
 #### mdhn:Duck
 - Q3736439
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Pool
 - Q1501
-- skos:exactMatch: mdhn:aat300008692
 
 #### mdhn:Fountain
 - Q483453
-- skos:exactMatch: mdhn:aat300006179
 
 #### mdhn:Fence
 - Q148571
-- skos:exactMatch: mdhn:aat300005044, mdhn:tgm003920_Fences
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:AgriculturalAndFarming
 
@@ -5763,7 +4967,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:headscarf
 - Q2002752
-- skos:exactMatch: mdhn:aat300256716
 
 
 ### mdhn:Fragment_Cropped_Image: Ferdowsi cropped figure from f7r
@@ -5812,96 +5015,65 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ### Depicts
 
-#### mdhn:ZahhakStory
-- Q139923562
-- mdhn:isPartOf: mdhn:Shahnameh
-
-##### mdhn:KingdomOfZahhak
-- Q40466998
-- mdhn:isPartOf: mdhn:ZahhakStory
-
-###### mdhn:Zahhak_and_Daughters_of_Jamshid
-- Q138841381
-- mdhn:isPartOf: mdhn:KingdomOfZahhak
-
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Snake
 - Q2102
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Minaret
 - Q48356
-- skos:exactMatch: mdhn:aat300007535
 
 #### mdhn:Calligraphy_Inscription
 - Q1640824
-- skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
-- skos:relatedMatch: mdhn:aat300208615
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Donkey
 - Q3537778
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:LongNeckedBottle
 - Q116274271
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:GoldVessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 #### mdhn:Bowl
 - Q153988
 
 #### mdhn:Fence
 - Q148571
-- skos:exactMatch: mdhn:aat300005044, mdhn:tgm003920_Fences
 
 
 ### mdhn:Fragment_Cropped_Image: Zahhak cropped figure from f27v
@@ -5961,10 +5133,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - mdhn:isPartOf: mdhn:Rostams_Seven_Labours
 
 #### mdhn:RostamStory
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_Manuchehr
 
 #### mdhn:TearingApart
-- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Rock
 
@@ -5972,52 +5143,38 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Babr_e_Bayan
 - Q23068742
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Cave
 - Q35509
-- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ---
@@ -6032,54 +5189,43 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:ZahhakStory
 - Q139923562
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:KingdomOfZahhak, mdhn:Kingdom_of_Jamshid
 
 ##### mdhn:ZahhakKillsHisOwnFather
 - Q138841520
-- mdhn:isPartOf: mdhn:ZahhakStory
+- mdhn:isPartOf: mdhn:Kingdom_of_Jamshid, mdhn:ZahhakStory
 
 #### mdhn:Iblis
-- skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
-- skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Duck
 - Q3736439
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Sea_River_Pool
 - Q4022
@@ -6104,8 +5250,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Iblis
-- skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
-- skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
 
 
 ### mdhn:Fragment_Cropped_Image: Zahhak cropped figure from f25v
@@ -6136,38 +5280,30 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:SunShade
 - Q1762975
-- skos:exactMatch: mdhn:aat300428884
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Rocks
 - Q8063
@@ -6177,39 +5313,29 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
 
 #### mdhn:Fire
 - Q3196
-- skos:exactMatch: biblissima:Q294901, mdhn:aat300068986, mdhn:sh85048449_Fire, mdhn:tgm003993_Fire
 
 #### mdhn:Curtain
 - Q49005
-- skos:exactMatch: mdhn:aat300037564, mdhn:tgm002819_Curtain_walls
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Window
 - Q35473
-- skos:exactMatch: mdhn:aat300002944
 
 #### mdhn:Door
 - Q36794
-- skos:exactMatch: mdhn:aat300002803, mdhn:tgm003230_Doors__doorways
 
 #### mdhn:HorseStirrup
 - Q191657
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
-- skos:relatedMatch: mdhn:Horse_Saddle
+- skos:related: mdhn:Horse_Saddle
 
 #### mdhn:Blossom
 - Q2047589
@@ -6219,12 +5345,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### Calligraphy_Inscription
 - Q1640824
-- skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
-- skos:relatedMatch: mdhn:aat300208615
 
 
 ### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 166r
@@ -6285,43 +5408,33 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Fortress
 - Q57831
-- skos:exactMatch: mdhn:aat300006894
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Rocks
 - Q8063
@@ -6331,72 +5444,52 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:OxHeadMace
-- skos:broadMatch: mdhn:Mace, mdhn:Weopen
 
 #### mdhn:Soldier
 - Q4991371
-- skos:exactMatch: mdhn:aat300185678
 
 #### mdhn:Battle
 - Q198
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Body_Armour
 - Q485027
-- skos:exactMatch: mdhn:aat300036746
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 #### mdhn:Battle_Field
 - Q4895508
-- skos:exactMatch: mdhn:aat300000835
 
 #### mdhn:Spear
 - Q44475
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
 
 #### mdhn:Shield
 - Q131559
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300222454
 
 #### mdhn:Flag
 - Q14660
-- skos:exactMatch: mdhn:aat300195678
 
 #### mdhn:HorseStirrup
 - Q191657
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
-- skos:relatedMatch: mdhn:Horse_Saddle
+- skos:related: mdhn:Horse_Saddle
 
 #### mdhn:Blowing_Horn
 - Q2665724
-- skos:exactMatch: mdhn:aat300426074
 
 #### mdhn:Tamborim
 - Q1751598
-- skos:broadMatch: mdhn:aat300041661
 
 #### mdhn:Sorna
 - Q825246
-- skos:exactMatch: mdhn:aat300222119
 
 #### mdhn:Korna
 
@@ -6418,12 +5511,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### Calligraphy_Inscription
 - Q1640824
-- skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
-- skos:relatedMatch: mdhn:aat300208615
 
 #### mdhn:Bridge
 - Q12280
-- skos:exactMatch: mdhn:aat300007836, mdhn:tgm001333_Bridges
 
 
 ### mdhn:Fragment_Cropped_Image: Siyavush cropped figure from 168v
@@ -6480,43 +5570,33 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Rocks
 - Q8063
@@ -6526,67 +5606,50 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
 
 #### mdhn:HorseStirrup
 - Q191657
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
-- skos:relatedMatch: mdhn:Horse_Saddle
+- skos:related: mdhn:Horse_Saddle
 
 #### mdhn:Bridge
 - Q12280
-- skos:exactMatch: mdhn:aat300007836, mdhn:tgm001333_Bridges
 
 #### mdhn:Sea_River_Pool
 - Q4022
 
 #### mdhn:Rope
 - Q31029
-- skos:exactMatch: mdhn:aat300014248, mdhn:sh85115383_Rope
 
 #### mdhn:Brick
 
 #### mdhn:Window
 - Q35473
-- skos:exactMatch: mdhn:aat300002944
 
 #### mdhn:Door
 - Q36794
-- skos:exactMatch: mdhn:aat300002803, mdhn:tgm003230_Doors__doorways
 
 #### mdhn:HorseStirrup
 - Q191657
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300255573, mdhn:sh94003288_Stirrups
-- skos:relatedMatch: mdhn:Horse_Saddle
+- skos:related: mdhn:Horse_Saddle
 
 #### mdhn:Sorna
 - Q825246
-- skos:exactMatch: mdhn:aat300222119
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Shield
 - Q131559
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300222454
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### Calligraphy_Inscription
 - Q1640824
-- skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
-- skos:relatedMatch: mdhn:aat300208615
 
 
 ### mdhn:Fragment_Cropped_Image: Kay Khosrow cropped figure from 166r
@@ -6610,10 +5673,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div2 cropped figure from 221r
@@ -6624,10 +5684,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div3 cropped figure from 221r
@@ -6638,10 +5695,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div4 cropped figure from 221r
@@ -6652,10 +5706,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div5 cropped figure from 221r
@@ -6666,10 +5717,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div6 cropped figure from 221r
@@ -6680,10 +5728,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div7 cropped figure from 221r
@@ -6694,10 +5739,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div8 cropped figure from 221r
@@ -6708,10 +5750,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div9 cropped figure from 221r
@@ -6722,10 +5761,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Calligraphy_Inscription: Inscription1 in 221r
@@ -6768,47 +5804,33 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Babr_e_Bayan
 - Q23068742
 
 #### mdhn:TearingApart
-- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Cave
 - Q35509
-- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Rostam cropped figure from 71a
@@ -6827,7 +5849,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Olad Div cropped figure from 71a
@@ -6837,7 +5859,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Olad_Div
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 71a
@@ -6850,7 +5872,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Text_or_Verses: Textblock2 in 71a
@@ -6863,7 +5885,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Rostam
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ---
@@ -6886,56 +5908,42 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Garshaspnameh
 - Q6391136
 - mdhn:isPartOf: mdhn:Persian_Epic_and_Mythology
-- skos:closeMatch: mdhn:aat300404209
 
 #### mdhn:Coffin
 - Q184418
-- skos:exactMatch: mdhn:aat300197585, mdhn:tgm002250_Coffins
 
 #### mdhn:Mourning
 - Q750652
-- skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Cloud
 - Q8074
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Spur
 - Q740732
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Rock
 
 #### mdhn:Book
 - Q571
-- skos:exactMatch: mdhn:aat300028051
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 
 ### mdhn:Fragment_Cropped_Image: Nariman cropped figure from 90v
@@ -6964,7 +5972,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Coffin
 - Q184418
-- skos:exactMatch: mdhn:aat300197585, mdhn:tgm002250_Coffins
 
 
 ### mdhn:Fragment_Cropped_Image: Mourning People 1 cropped figure from 90v
@@ -6975,7 +5982,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Mourning
 - Q750652
-- skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
 
 
 ### mdhn:Fragment_Cropped_Image: Mourning People 2 cropped figure from 90v
@@ -6986,7 +5992,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Mourning
 - Q750652
-- skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
 
 
 ### mdhn:Fragment_Cropped_Image: Mourning People 3 cropped figure from 90v
@@ -6997,7 +6002,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Mourning
 - Q750652
-- skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
 
 
 ### mdhn:Fragment_Cropped_Image: Mourning People 4 cropped figure from 90v
@@ -7008,7 +6012,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Mourning
 - Q750652
-- skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
 
 
 ---
@@ -7028,49 +6031,36 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 #### mdhn:Rock
 
 #### mdhn:Decapitation
 - Q204933
-- skos:broadMatch: mdhn:Murder
 
 #### mdhn:Clothing
 - Q26690120
-- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Spur
 - Q740732
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Body_Armour
 - Q485027
-- skos:exactMatch: mdhn:aat300036746
 
 #### mdhn:Flower
 - Q506
@@ -7133,7 +6123,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: Hushang kills the Black Div (recto) and Hushang discovers fire while killing a dragon with a stone (verso) f.1
 
 ## ResourceCanvas: f.1r — Hushang kills the Black Div ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_104_1/files/images/Per104_1_09031.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:300266660
 - **Contains:** HasPainting, HasOnvan, HasText
 
 ### Depicts
@@ -7145,51 +6135,37 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Hushang_Fight_Black_Div
 - Q138757163
 - mdhn:isPartOf: mdhn:Kingdom_of_Keyumars
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Mace
 - Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:LeopardSkinDress
 - Q3564428
 
 #### mdhn:Wolf
 - Q1698992
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250132
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Cat
 - Q146
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Corvus
 - Q43365
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300310524
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lion
 - Q140
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Hushang cropped figure from 1r
@@ -7202,10 +6178,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Khazrevan Div cropped figure from 1r
@@ -7215,7 +6188,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Kharozan_Div
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Keyumars cropped figure from 1r
@@ -7235,8 +6208,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Corvus
 - Q43365
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300310524
 
 
 ### mdhn:Fragment_Cropped_Image: Wolf cropped from 1r
@@ -7247,8 +6218,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Wolf
 - Q1698992
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250132
 
 
 ### mdhn:Fragment_Cropped_Image: Leopard cropped from 1r
@@ -7259,7 +6228,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Leopard
 - Q34706
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Unknown cropped from 1r
@@ -7301,7 +6269,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ## Manifest: The tyrant Zahhak is imprisoned under Mount Damavand f.3
 
 ## ResourceCanvas: f.3v — Zahhak is imprisoned under Mount Damavand ![Canvas thumbnail](https://viewer.cbl.ie/viewer/api/v1/records/Per_104_3/files/images/Per104_3_09034.jpg/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasOnvan, HasPainting
 
 ### Depicts
@@ -7312,45 +6280,36 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:ZahhakStory
 - Q139923562
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:KingdomOfZahhak, mdhn:Kingdom_of_Jamshid
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Spur
 - Q740732
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:mdhn:OxHeadMace
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Hammer
 - Q25294
-- skos:exactMatch: mdhn:aat300024823, mdhn:tgm004844_Hammers
 
 #### mdhn:Sun
 
 #### mdhn:Nail
 - Q37077
-- skos:exactMatch: mdhn:aat300033565
 
 #### mdhn:Rocks
 - Q8063
@@ -7365,7 +6324,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Snake
 - Q2102
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Zahhak cropped figure from f3v
@@ -7422,79 +6380,58 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Mace
 - Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Shield
 - Q131559
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300222454
 
 #### mdhn:Body_Armour
 - Q485027
-- skos:exactMatch: mdhn:aat300036746
 
 #### mdhn:Horse_Spur
 - Q740732
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Soldier
 - Q4991371
-- skos:exactMatch: mdhn:aat300185678
 
 #### mdhn:Battle
 - Q198
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Wind
 - Q8094
-- skos:exactMatch: mdhn:aat300055395
 
 #### mdhn:Cloud
 - Q8074
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lasso
 - Q840507
-- skos:exactMatch: mdhn:aat300255575
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Rocks
 - Q8063
@@ -7504,28 +6441,21 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Bird_Nest
 - Q1137226
-- skos:relatedMatch: mdhn:aat300429524, mdhn:tgm007038_Nests
 
 #### mdhn:Gazzele
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 
 ### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from 1r
@@ -7557,10 +6487,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1r
@@ -7571,10 +6498,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div3 cropped figure from 1r
@@ -7585,10 +6509,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div4 cropped figure from 1r
@@ -7599,10 +6520,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div5 cropped figure from 1r
@@ -7613,10 +6531,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Divs cropped figure from 1r
@@ -7627,10 +6542,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Marginal_Side_Note: Marginal/Side 1 note in 1r
@@ -7691,85 +6603,61 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Mace
 - Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
 
 #### mdhn:Spear
 - Q44475
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
 
 #### mdhn:Shield
 - Q131559
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300222454
 
 #### mdhn:Jingle
 - Q264922
-- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
 
 #### mdhn:Body_Armour
 - Q485027
-- skos:exactMatch: mdhn:aat300036746
 
 #### mdhn:Horse_Spur
 - Q740732
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Soldier
 - Q4991371
-- skos:exactMatch: mdhn:aat300185678
 
 #### mdhn:Battle
 - Q198
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Sorna
 - Q825246
-- skos:exactMatch: mdhn:aat300222119
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lasso
 - Q840507
-- skos:exactMatch: mdhn:aat300255575
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Rocks
 - Q8063
@@ -7779,24 +6667,18 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Gazzele
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 
 ### mdhn:Fragment_Cropped_Image: Tahmuras cropped figure from 1v
@@ -7824,10 +6706,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1v
@@ -7838,10 +6717,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div3 cropped figure from 1v
@@ -7852,10 +6728,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div4 cropped figure from 1v
@@ -7866,10 +6739,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div5 cropped figure from 1v
@@ -7880,10 +6750,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 1v
@@ -7907,7 +6774,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ### Depicts
 
 #### mdhn:RostamStory
-- mdhn:isPartOf: mdhn:Shahnameh
+- mdhn:isPartOf: mdhn:Kingdom_of_Manuchehr
 
 #### mdhn:Kingdom_of_Kay_Kavus
 - Q40466974
@@ -7922,59 +6789,42 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Mace
 - Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
 
-##### mdhn:StoneMace
-- skos:broadMatch: mdhn:Mace, mdhn:Weopen
+#### mdhn:StoneMace
 
 #### mdhn:Cave
 - Q35509
-- skos:exactMatch: biblissima:Q26812, mdhn:aat300008746, mdhn:sh85021504_Caves, mdhn:tgm001809_Caves
 
 #### mdhn:Shield
 - Q131559
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300222454
 
 #### mdhn:Jingle
 - Q264922
-- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Flower
 - Q506
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 
 ### mdhn:Fragment_Cropped_Image: Kay Kavus cropped figure from 1v
@@ -7993,7 +6843,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:White_Div_7th_Course
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Div1 cropped figure from 1v
@@ -8004,10 +6854,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div2 cropped figure from 1v
@@ -8018,10 +6865,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Unknown man 1 in captive cropped figure from 1v
@@ -8112,26 +6956,18 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Jingle
 - Q264922
-- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
 
-##### mdhn:Brass_Metal_Jingle
-- skos:broadMatch: mdhn:Jingle
+#### mdhn:Brass_Metal_Jingle
 
 #### mdhn:Clothing
 - Q26690120
-- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1065
@@ -8142,10 +6978,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Men hangging cropped figure from MSS_1065
@@ -8188,23 +7021,16 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Camel
 - Q106695054
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Jingle
 - Q264922
-- skos:exactMatch: mdhn:aat300024823, mdhn:sh90002359_Jingles
 
 #### mdhn:Clothing
 - Q26690120
-- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1075
@@ -8215,10 +7041,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Camel cropped figure from MSS_1075
@@ -8261,25 +7084,19 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Rostam
 
 #### mdhn:Akvan_Div
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Rakhsh
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Sun
 
@@ -8306,7 +7123,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Akvan_Div
-- skos:closeMatch: mdhn:Divs
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Rakhsh cropped figure from FS-6781_01
@@ -8346,86 +7163,66 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Solomon_and_Queen_of_Sheba
 - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
-- skos:closeMatch: iconclass:71I
 
 #### mdhn:Solomon
 
 #### mdhn:iconclass71I6
 - skos:exactMatch: iconclass:71I6
-- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
+- skos:related: mdhn:Solomon_and_Queen_of_Sheba
 
 #### mdhn:iconclass71I_PersianCourt
-- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
+- skos:related: mdhn:Solomon_and_Queen_of_Sheba
 
 #### mdhn:God
 - Q190
-- skos:exactMatch: mdhn:sh85055517_God
 
 #### mdhn:Simurgh
 - Q548119
-- skos:exactMatch: mdhn:aat300379749
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Eurasian_Hoopoe
 - Q25247
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat5300250068
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:CopperTray
 
 #### mdhn:SunShade
 - Q1762975
-- skos:exactMatch: mdhn:aat300428884
 
 #### mdhn:Tambourine
 - Q193666
-- skos:exactMatch: mdhn:aat300041759
 
 #### mdhn:Sorna
 - Q825246
-- skos:exactMatch: mdhn:aat300222119
 
 #### mdhn:Flute
 - Q11405
-- skos:exactMatch: mdhn:aat300160680, mdhn:aat300235053
 
 #### mdhn:Oud
 - Q191000
-- skos:exactMatch: mdhn:aat300217935
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Peacock
 - Q2083405
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Duck
 - Q3736439
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Royal_Court
 - Q1134237
@@ -8448,7 +7245,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Simurgh
 - Q548119
-- skos:exactMatch: mdhn:aat300379749
 
 
 ### mdhn:Fragment_Cropped_Image: Angles1 cropped figure from FS-F1950.1_001
@@ -8459,7 +7255,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angles2 cropped figure from FS-F1950.1_001
@@ -8470,7 +7265,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angles3 cropped figure from FS-F1950.1_001
@@ -8481,7 +7275,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angles4 cropped figure from FS-F1950.1_001
@@ -8492,7 +7285,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angles5 cropped figure from FS-F1950.1_001
@@ -8503,7 +7295,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angles6 cropped figure from FS-F1950.1_001
@@ -8514,7 +7305,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angles7 cropped figure from FS-F1950.1_001
@@ -8533,7 +7323,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Div1 cropped figure from FS-F1950.1_001
@@ -8544,10 +7333,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-F1950.1_001
@@ -8558,10 +7344,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div3 cropped figure from FS-F1950.1_001
@@ -8572,10 +7355,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div4 cropped figure from FS-F1950.1_001
@@ -8586,10 +7366,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ---
@@ -8605,32 +7382,24 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Yusuf_and_Zulaikha
 - Q3350827
 - mdhn:isPartOf: mdhn:Haft_Awrang
-- skos:closeMatch: mdhn:iconclass71D
-- skos:relatedMatch: mdhn:iconclass71D2
 
 #### mdhn:Yusuf
 
 #### mdhn:Zulaikha
 
 #### mdhn:iconclass71D
-- skos:closeMatch: wd:Q8423
-- skos:exactMatch: <https://iconclass.org/71D>, iconclass:71D
-- skos:relatedMatch: mdhn:Yusuf_and_Zulaikha, wd:Q3350827
+- skos:exactMatch: iconclass:71D
+- skos:related: mdhn:Yusuf_and_Zulaikha
 
 #### mdhn:God
 - Q190
-- skos:exactMatch: mdhn:sh85055517_God
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Angle1 cropped figure from FS-7358_26
@@ -8641,7 +7410,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angle2 cropped figure from FS-7358_26
@@ -8652,7 +7420,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angle3 cropped figure from FS-7358_26
@@ -8663,7 +7430,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Angle4 cropped figure from FS-7358_26
@@ -8674,7 +7440,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Div1 cropped figure from FS-7358_26
@@ -8685,10 +7450,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div2 cropped figure from FS-7358_26
@@ -8699,10 +7461,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Illuminated_Headpiece: Textblock1 in FS-7358_26
@@ -8728,55 +7487,42 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Garshaspnameh
 - Q6391136
 - mdhn:isPartOf: mdhn:Persian_Epic_and_Mythology
-- skos:closeMatch: mdhn:aat300404209
 
 #### mdhn:Garshasp
 
 #### mdhn:Sorna
 - Q825246
-- skos:exactMatch: mdhn:aat300222119
 
 #### mdhn:Tamborim
 - Q1751598
-- skos:broadMatch: mdhn:aat300041661
 
 #### mdhn:Flag
 - Q14660
-- skos:exactMatch: mdhn:aat300195678
 
 #### mdhn:Body_Armour
 - Q485027
-- skos:exactMatch: mdhn:aat300036746
 
 #### mdhn:Horse_Spur
 - Q740732
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Soldier
 - Q4991371
-- skos:exactMatch: mdhn:aat300185678
 
 #### mdhn:Battle
 - Q198
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Murder
 - Q132821
@@ -8786,33 +7532,25 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Camel
 - Q106695054
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from FS-7421_48
@@ -8823,10 +7561,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Garshasp cropped figure from FS-7421_48
@@ -8877,92 +7612,68 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Garshaspnameh
 - Q6391136
 - mdhn:isPartOf: mdhn:Persian_Epic_and_Mythology
-- skos:closeMatch: mdhn:aat300404209
 
 #### mdhn:Garshasp
 
 #### mdhn:Spear
 - Q44475
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
 
 #### mdhn:Mace
 - Q272990
-- skos:broadMatch: mdhn:Weopen
-- skos:exactMatch: mdhn:aat300037214
 
-##### mdhn:OxHeadMace
-- skos:broadMatch: mdhn:Mace, mdhn:Weopen
+#### mdhn:OxHeadMace
 
 #### mdhn:Flag
 - Q14660
-- skos:exactMatch: mdhn:aat300195678
 
 #### mdhn:Body_Armour
 - Q485027
-- skos:exactMatch: mdhn:aat300036746
 
 #### mdhn:Horse_Spur
 - Q740732
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse_Riding
 - Q179226
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Soldier
 - Q4991371
-- skos:exactMatch: mdhn:aat300185678
 
 #### mdhn:Battle
 - Q198
-- skos:exactMatch: mdhn:aat300185692
 
 #### mdhn:Dragon
 - Q7559
-- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Fire
 - Q3196
-- skos:exactMatch: biblissima:Q294901, mdhn:aat300068986, mdhn:sh85048449_Fire, mdhn:tgm003993_Fire
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Combat_Helmet
 - Q3579211
-- skos:exactMatch: mdhn:aat300391023
 
 
 ### mdhn:Fragment_Cropped_Image: Garshasp cropped figure from FS-7357_44
@@ -8982,7 +7693,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Dragon
 - Q7559
-- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 
 ### mdhn:Fragment_Cropped_Image: Man with fire cropped figure from FS-7357_44
@@ -9037,48 +7747,37 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Sea_River_Pool
 - Q4022
 
 #### mdhn:Fountain
 - Q483453
-- skos:exactMatch: mdhn:aat300006179
 
 #### mdhn:Harp
 - Q47369
-- skos:exactMatch: mdhn:aat300042047, mdhn:tgm004889_Harps
 
 #### mdhn:Tambourine
 - Q193666
-- skos:exactMatch: mdhn:aat300041759
 
 #### mdhn:IncenseBurner
 
 #### mdhn:Pomegranate
 - Q13188
-- skos:exactMatch: mdhn:aat300400483
 
 #### mdhn:HandledJug
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Blossom
 - Q2047589
@@ -9088,7 +7787,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 
 ### mdhn:Fragment_Cropped_Image: Queen Turktaz cropped figure from Per_182
@@ -9099,7 +7797,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Nobel Man cropped figure from Per_182
@@ -9216,8 +7913,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Yusuf_and_Zulaikha
 - Q3350827
 - mdhn:isPartOf: mdhn:Haft_Awrang
-- skos:closeMatch: mdhn:iconclass71D
-- skos:relatedMatch: mdhn:iconclass71D2
 
 
 ---
@@ -9259,32 +7954,24 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Tent
 - Q170544
-- skos:exactMatch: mdhn:aat300263692
 
 #### mdhn:Dog
 - Q144
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flower
 - Q506
@@ -9294,19 +7981,15 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Goat
 - Q2934
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Sheep
 - Q7368
-- skos:broadMatch: mdhn:Animal
 
 
 ---
@@ -9328,20 +8011,15 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Pomegranate
 - Q13188
-- skos:exactMatch: mdhn:aat300400483
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Pine_Tree
 - Q59668787
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Persian_garden
 - Q4460
@@ -9351,17 +8029,12 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flower
 - Q506
@@ -9371,34 +8044,27 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Wind
 - Q8094
-- skos:exactMatch: mdhn:aat300055395
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:beggar
 - Q273283
-- skos:exactMatch: mdhn:aat300188618, mdhn:tgm000938_Beggars
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Tanbur
 - Q3424319
-- skos:exactMatch: mdhn:aat300042864
 
 
 ### mdhn:Fragment_Cropped_Image: Townsman cropped figure from FS-7258_37
@@ -9456,23 +8122,18 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:SunShade
 - Q1762975
-- skos:exactMatch: mdhn:aat300428884
 
 #### mdhn:Book
 - Q571
-- skos:exactMatch: mdhn:aat300028051
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Tent
 - Q170544
-- skos:exactMatch: mdhn:aat300263692
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Bowl
 - Q153988
@@ -9482,17 +8143,12 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flower
 - Q506
@@ -9502,19 +8158,15 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Goat
 - Q2934
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 
 ---
@@ -9534,50 +8186,37 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Yusuf_and_Zulaikha
 - Q3350827
 - mdhn:isPartOf: mdhn:Haft_Awrang
-- skos:closeMatch: mdhn:iconclass71D
-- skos:relatedMatch: mdhn:iconclass71D2
 
 #### mdhn:Water_well
 - Q43483
-- skos:exactMatch: mdhn:aat300152327
 
 #### mdhn:SunShade
 - Q1762975
-- skos:exactMatch: mdhn:aat300428884
 
 #### mdhn:Book
 - Q571
-- skos:exactMatch: mdhn:aat300028051
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Arecaceae
 - Q14080
-- skos:exactMatch: mdhn:aat300375395
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
-- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Tent
 - Q170544
-- skos:exactMatch: mdhn:aat300263692
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Bowl
 - Q153988
@@ -9587,17 +8226,12 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flower
 - Q506
@@ -9607,21 +8241,17 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:HandledJug
 
 #### mdhn:Cauldron
 - Q1317634
-- skos:exactMatch: mdhn:aat300196395, mdhn:tgm001798_Cauldrons
 
 
 ---
@@ -9641,69 +8271,51 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Yusuf_and_Zulaikha
 - Q3350827
 - mdhn:isPartOf: mdhn:Haft_Awrang
-- skos:closeMatch: mdhn:iconclass71D
-- skos:relatedMatch: mdhn:iconclass71D2
 
 #### mdhn:Wind
 - Q8094
-- skos:exactMatch: mdhn:aat300055395
 
 #### mdhn:SunShade
 - Q1762975
-- skos:exactMatch: mdhn:aat300428884
 
 #### mdhn:Tent
 - Q170544
-- skos:exactMatch: mdhn:aat300263692
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Pine_Tree
 - Q59668787
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Bird_Nest
 - Q1137226
-- skos:relatedMatch: mdhn:aat300429524, mdhn:tgm007038_Nests
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Goat
 - Q2934
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:headscarf
 - Q2002752
-- skos:exactMatch: mdhn:aat300256716
 
 #### mdhn:Dog
 - Q144
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Sheep
 - Q7368
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flower
 - Q506
@@ -9713,15 +8325,12 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 
 ---
@@ -9741,49 +8350,35 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Yusuf_and_Zulaikha
 - Q3350827
 - mdhn:isPartOf: mdhn:Haft_Awrang
-- skos:closeMatch: mdhn:iconclass71D
-- skos:relatedMatch: mdhn:iconclass71D2
 
 #### mdhn:Wind
 - Q8094
-- skos:exactMatch: mdhn:aat300055395
 
 #### mdhn:SunShade
 - Q1762975
-- skos:exactMatch: mdhn:aat300428884
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 #### mdhn:Carpet
 - Q163446
-- skos:exactMatch: mdhn:aat300185756, mdhn:sh85020445_Carpets, mdhn:tgm009055_Rugs
 
 #### mdhn:CopperTray
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:Calligraphy_Inscription
 - Q1640824
-- skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
-- skos:relatedMatch: mdhn:aat300208615
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Architectural_Structure
 - Q811979
@@ -9793,36 +8388,27 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Iwan
 - Q636232
-- skos:exactMatch: mdhn:aat300075830, mdhn:tgm110002_Iwan
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Glazed_Tile
 - Q76827920
-- skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
 
 #### mdhn:WineBowl
 
@@ -9850,7 +8436,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Solomon_and_Queen_of_Sheba
 - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology
-- skos:closeMatch: iconclass:71I
 
 #### mdhn:Solomon
 
@@ -9860,59 +8445,44 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:iconclass71I6
 - skos:exactMatch: iconclass:71I6
-- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba, wd:Q44204
+- skos:related: mdhn:Solomon_and_Queen_of_Sheba
 
 #### mdhn:iconclass71I_PersianCourt
-- skos:relatedMatch: mdhn:Solomon_and_Queen_of_Sheba
+- skos:related: mdhn:Solomon_and_Queen_of_Sheba
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
-- skos:broadMatch: mdhn:Halo
 
 #### mdhn:God
 - Q190
-- skos:exactMatch: mdhn:sh85055517_God
 
 #### mdhn:Simurgh
 - Q548119
-- skos:exactMatch: mdhn:aat300379749
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Eurasian_Hoopoe
 - Q25247
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat5300250068
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:Calligraphy_Inscription
 - Q1640824
-- skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
-- skos:relatedMatch: mdhn:aat300208615
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Daraygah
 
@@ -9921,44 +8491,33 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Pool
 - Q1501
-- skos:exactMatch: mdhn:aat300008692
 
 #### mdhn:Glazed_Tile
 - Q76827920
-- skos:exactMatch: mdhn:aat300457833, mdhn:tgm010817_Tiles
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Royal_Court
 - Q1134237
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Cloud
 - Q8074
@@ -9971,34 +8530,26 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Duck
 - Q3736439
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Fountain
 - Q483453
-- skos:exactMatch: mdhn:aat300006179
 
 #### mdhn:Veiled_Face
 
 #### mdhn:Dagger
 - Q182780
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q320290, mdhn:aat300037058, mdhn:sh85035397_Daggers
 
 #### mdhn:SunShade
 - Q1762975
-- skos:exactMatch: mdhn:aat300428884
 
 
 ### mdhn:Fragment_Cropped_Image: Solomon cropped figure from FS-8474_19
@@ -10046,7 +8597,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Jibril
-- skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
 
 
 ### mdhn:Fragment_Cropped_Image: Worker Div cropped figure from FS-8474_19
@@ -10070,10 +8620,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Observers cropped figure from FS-8474_19
@@ -10120,7 +8667,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Quran
 - Q428
-- skos:exactMatch: mdhn:aat300265128
 
 
 ### mdhn:Text_or_Verses: Textblock1 in FS-8474_19
@@ -10150,47 +8696,35 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Staff_becomes_Serpent
 - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Jewish_Mythology, mdhn:Qisas_al_Anbiya, mdhn:Story_of_Moses
-- skos:exactMatch: mdhn:iconclass71E1164
-- skos:relatedMatch: mdhn:iconclass71E11641, wd:Q9077
 
 #### mdhn:iconclass71E11641
-- skos:exactMatch: <https://iconclass.org/71E11641>
-- skos:relatedMatch: mdhn:Staff_becomes_Serpent
+- skos:exactMatch: iconclass:71E11641
+- skos:related: mdhn:Staff_becomes_Serpent
 
 #### mdhn:Dragon
 - Q7559
-- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Cloud
 - Q8074
 
 #### mdhn:Horse_Saddle
 - Q192249
-- skos:broadMatch: mdhn:sh93004493_Horses_Equipment_and_supplies
-- skos:exactMatch: mdhn:aat300212972, mdhn:tgm009095_Saddles
-- skos:relatedMatch: mdhn:Horse, mdhn:HorseStirrup
+- skos:related: mdhn:Horse
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
-- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Veiled_Face
 
@@ -10224,7 +8758,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Dragon
 - Q7559
-- skos:exactMatch: biblissima:Q291430, mdhn:aat300375726, mdhn:iconclass25FF411, mdhn:iconclass25FF422, mdhn:sh85039287_Dragons, mdhn:tgm003267_Dragons
 
 
 ### mdhn:Fragment_Cropped_Image: Pharaoh cropped figure from 107v
@@ -10276,20 +8809,15 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
-- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Veiled_Face
 
@@ -10320,7 +8848,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: People cropped figure from 134r
@@ -10367,12 +8894,10 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Jonah_under_the_Gourd
 - Q2468262
 - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Qisas_al_Anbiya
-- skos:exactMatch: mdhn:iconclass71V42
-- skos:relatedMatch: mdhn:iconclass71V, wd:Q2468262
 
 #### mdhn:iconclass71V42
-- skos:exactMatch: <https://iconclass.org/71V42>
-- skos:relatedMatch: mdhn:Jonah_under_the_Gourd, wd:Q2468262
+- skos:exactMatch: iconclass:71V42
+- skos:related: mdhn:Jonah_under_the_Gourd
 
 #### mdhn:Sea_River_Pool
 - Q4022
@@ -10381,15 +8906,12 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
-- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Cloud
 - Q8074
@@ -10453,21 +8975,21 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ### Depicts
 
 #### mdhn:iconclass71A3
-- skos:exactMatch: <https://iconclass.org/71A3>
+- skos:exactMatch: iconclass:71A3
 
 #### mdhn:iconclass71A_PersianParadise
-- skos:relatedMatch: mdhn:Adam_and_Eve_Iden_Paradise, wd:Q70899
+- skos:related: mdhn:Adam_and_Eve_Iden_Paradise
 
 #### mdhn:iconclass71A32
-- skos:exactMatch: <https://iconclass.org/71A32>
+- skos:exactMatch: iconclass:71A32
 
 #### mdhn:iconclass71A421
-- skos:exactMatch: <https://iconclass.org/71A421>
-- skos:relatedMatch: mdhn:Adam_and_Eve_Eat_Forbidden_Fruit
+- skos:exactMatch: iconclass:71A421
+- skos:related: mdhn:Adam_and_Eve_Eat_Forbidden_Fruit
 
 #### mdhn:iconclass71A33
-- skos:exactMatch: <https://iconclass.org/71A33>
-- skos:relatedMatch: mdhn:Adam_and_Eve_Iden_Paradise
+- skos:exactMatch: iconclass:71A33
+- skos:related: mdhn:Adam_and_Eve_Iden_Paradise
 
 #### mdhn:Adam_and_Eve_Iden_Paradise
 - mdhn:isPartOf: mdhn:Qisas_al_Anbiya, mdhn:Story_of_Adam_and_Eve
@@ -10477,15 +8999,11 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Eve
 
 #### mdhn:Jibril
-- skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
 
 #### mdhn:Iblis
-- skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
-- skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Cloud
 - Q8074
@@ -10495,14 +9013,12 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Sea_River_Pool
 - Q4022
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Fruit
 
@@ -10514,20 +9030,15 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Garden_of_Eden
 - Q19014
-- skos:exactMatch: mdhn:sh85040949_Eden
 
 #### mdhn:God
 - Q190
-- skos:exactMatch: mdhn:sh85055517_God
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
-- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Adam cropped figure from 9r
@@ -10555,7 +9066,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Jibril
-- skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
 
 
 ### mdhn:Fragment_Cropped_Image: Angles 1 cropped figure from 9r
@@ -10584,7 +9094,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Jibril
-- skos:exactMatch: biblissima:Q295437, mdhn:n2014010191_Gabriel
 
 
 ---
@@ -10599,48 +9108,40 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:iconclass71A8
 - skos:exactMatch: iconclass:71A8
-- skos:relatedMatch: mdhn:Story_of_Cain_and_Abel
+- skos:related: mdhn:Story_of_Cain_and_Abel
 
 #### mdhn:iconclass71A82
-- skos:exactMatch: <https://iconclass.org/71A82>, iconclass:71A82
+- skos:exactMatch: iconclass:71A82
 
 #### mdhn:iconclass71A821
-- skos:exactMatch: <https://iconclass.org/71A821>
+- skos:exactMatch: iconclass:71A821
 
 #### mdhn:iconclass71A822
-- skos:exactMatch: <https://iconclass.org/71A822>
+- skos:exactMatch: iconclass:71A822
 
 #### mdhn:Story_of_Cain_and_Abel
 - Q717996
 - mdhn:isPartOf: mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology, mdhn:Qisas_al_Anbiya, mdhn:Story_of_Adam_and_Eve
-- skos:closeMatch: mdhn:iconclass71A8
-- skos:exactMatch: mdhn:iconclass71A8
-- skos:relatedMatch: mdhn:iconclass71A81, mdhn:iconclass71A82, mdhn:iconclass71A83, wd:Q717996
 
 ##### mdhn:Cain_buries_Abel
 - mdhn:isPartOf: mdhn:Story_of_Cain_and_Abel
-- skos:exactMatch: mdhn:iconclass71A822
 
 #### mdhn:Abel
 - Q162767
-- skos:exactMatch: wd:Q162767
-- skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A81
+- skos:related: mdhn:Story_of_Cain_and_Abel
 
 #### mdhn:Cain
 - Q162766
-- skos:exactMatch: wd:Q162766
-- skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A82
+- skos:related: mdhn:Story_of_Cain_and_Abel
 
 #### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:Plant
 - Q756
-- skos:exactMatch: mdhn:aat300132360
 
 #### mdhn:Flower
 - Q506
@@ -10650,32 +9151,24 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Leopard
 - Q34706
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Gazelle
 - Q29001815
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Burial
 - Q331055
-- skos:exactMatch: mdhn:aat300263485, mdhn:sh85018080_Burial
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Grave
 - Q173387
-- skos:exactMatch: mdhn:aat300005907, mdhn:tgm004713_Graves
 
 #### mdhn:Burial
 - Q331055
-- skos:exactMatch: mdhn:aat300263485, mdhn:sh85018080_Burial
 
 
 ### mdhn:Fragment_Cropped_Image: Adam cropped figure from 15r
@@ -10686,8 +9179,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Abel
 - Q162767
-- skos:exactMatch: wd:Q162767
-- skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A81
+- skos:related: mdhn:Story_of_Cain_and_Abel
 
 
 ### mdhn:Fragment_Cropped_Image: Abel cropped figure from 15r
@@ -10698,8 +9190,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Cain
 - Q162766
-- skos:exactMatch: wd:Q162766
-- skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A82
+- skos:related: mdhn:Story_of_Cain_and_Abel
 
 
 ### mdhn:Fragment_Cropped_Image: Jibril cropped figure from 15r
@@ -10710,17 +9201,14 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Abel
 - Q162767
-- skos:exactMatch: wd:Q162767
-- skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A81
+- skos:related: mdhn:Story_of_Cain_and_Abel
 
 ##### mdhn:Cain
 - Q162766
-- skos:exactMatch: wd:Q162766
-- skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A82
+- skos:related: mdhn:Story_of_Cain_and_Abel
 
 ##### mdhn:Burial
 - Q331055
-- skos:exactMatch: mdhn:aat300263485, mdhn:sh85018080_Burial
 
 
 ### mdhn:Fragment_Cropped_Image: Cow cropped teaching burial to cane from 15r
@@ -10731,7 +9219,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 15r
@@ -10743,17 +9230,14 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Abel
 - Q162767
-- skos:exactMatch: wd:Q162767
-- skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A81
+- skos:related: mdhn:Story_of_Cain_and_Abel
 
 ##### mdhn:Cain
 - Q162766
-- skos:exactMatch: wd:Q162766
-- skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A82
+- skos:related: mdhn:Story_of_Cain_and_Abel
 
 ##### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Text_or_Verses: Textblock2 in 15r
@@ -10765,17 +9249,14 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Abel
 - Q162767
-- skos:exactMatch: wd:Q162767
-- skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A81
+- skos:related: mdhn:Story_of_Cain_and_Abel
 
 ##### mdhn:Cain
 - Q162766
-- skos:exactMatch: wd:Q162766
-- skos:relatedMatch: mdhn:Story_of_Cain_and_Abel, mdhn:iconclass71A8, mdhn:iconclass71A82
+- skos:related: mdhn:Story_of_Cain_and_Abel
 
 ##### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 
 ---
@@ -10790,13 +9271,12 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:iconclass71B3
 - skos:exactMatch: iconclass:71B3
-- skos:relatedMatch: wd:Q81422
 
 #### mdhn:iconclass71B33
 - skos:exactMatch: iconclass:71B33
 
 #### mdhn:iconclass71B331
-- skos:relatedMatch: mdhn:Noah_and_Family_on_the_Ark
+- skos:related: mdhn:Noah_and_Family_on_the_Ark
 
 #### mdhn:iconclass71B34
 - skos:exactMatch: iconclass:71B34
@@ -10806,84 +9286,63 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Noah_and_Family_on_the_Ark
 - mdhn:isPartOf: mdhn:Story_of_Noah
-- skos:exactMatch: mdhn:iconclass71B331
-- skos:relatedMatch: <http://www.wikidata.org/entity/Q126553>, <http://www.wikidata.org/entity/Q81422>
 
 #### mdhn:Noah
-- skos:exactMatch: biblissima:Q113387
 
 #### mdhn:Kanan
 
 #### mdhn:Ship
 - Q11446
-- skos:exactMatch: mdhn:aat300082981, mdhn:iconclass46C21, mdhn:sh85121591_Ships, mdhn:tgm009516_Ships
 
 #### mdhn:Horse
 - Q726
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Sail
 - Q25999
-- skos:exactMatch: mdhn:aat300185694, mdhn:iconclass46C24111, mdhn:sh85116544_Sails
-- skos:relatedMatch: mdhn:tgm009109_Sailing_ships
 
 #### mdhn:Sea_River_Pool
 - Q4022
 
 #### mdhn:Drowning
 - Q506616
-- skos:exactMatch: biblissima:Q295517, mdhn:sh85039668_Drowning
 
 #### mdhn:Minaret
 - Q48356
-- skos:exactMatch: mdhn:aat300007535
 
 #### mdhn:Dome
 - Q12493
-- skos:exactMatch: mdhn:aat300001280
 
 #### mdhn:Cow
 - Q11748378
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Sheep
 - Q7368
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Lino
 
 #### mdhn:Camel
 - Q106695054
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Leopard
 - Q34706
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Goat
 - Q2934
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Gazelle
 - Q29001815
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Donkey
 - Q3537778
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Veil
 - Q6497446
-- skos:exactMatch: mdhn:aat300266885
 
 
 ### mdhn:Fragment_Cropped_Image: Noah cropped figure from 19r
@@ -10893,7 +9352,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Noah
-- skos:exactMatch: biblissima:Q113387
 
 
 ### mdhn:Fragment_Cropped_Image: Kanan cropped figure from 19r
@@ -10941,7 +9399,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Noah
-- skos:exactMatch: biblissima:Q113387
 
 ##### mdhn:Kanan
 
@@ -10954,7 +9411,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Noah
-- skos:exactMatch: biblissima:Q113387
 
 ##### mdhn:Kanan
 
@@ -10982,32 +9438,27 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ### Depicts
 
 #### mdhn:iconclass71A5
-- skos:exactMatch: <https://iconclass.org/71A5>
+- skos:exactMatch: iconclass:71A5
 
 #### mdhn:iconclass71A6
-- skos:exactMatch: <https://iconclass.org/71A6>
+- skos:exactMatch: iconclass:71A6
 
 #### mdhn:iconclass71A61
-- skos:exactMatch: <https://iconclass.org/71A61>
+- skos:exactMatch: iconclass:71A61
 
 #### mdhn:Expulsion_of_Adam_and_Eve
 - mdhn:isPartOf: mdhn:Qisas_al_Anbiya, mdhn:Story_of_Adam_and_Eve
 
 #### mdhn:Iblis
-- skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
-- skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
 
 #### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 #### mdhn:Peacock
 - Q2083405
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Snake
 - Q2102
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Adam
 
@@ -11021,36 +9472,27 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Garden_of_Eden
 - Q19014
-- skos:exactMatch: mdhn:sh85040949_Eden
 
 #### mdhn:God
 - Q190
-- skos:exactMatch: mdhn:sh85055517_God
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
-- skos:broadMatch: mdhn:Halo
 
 #### mdhn:Cloud
 - Q8074
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Sword
 - Q12791
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: biblissima:Q294911, mdhn:aat300037048, mdhn:sh85131359_Swords
 
 
 ### mdhn:Fragment_Cropped_Image: Adam cropped figure from 8v
@@ -11078,8 +9520,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Iblis
-- skos:exactMatch: biblissima:Q291817, mdhn:sh85037376_Devil, mdhn:sh85037378_Devil__Islam
-- skos:relatedMatch: mdhn:aat300379005, mdhn:aat300379730
 
 
 ### mdhn:Fragment_Cropped_Image: Angles cropped figure from 8v
@@ -11090,7 +9530,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Angles_From_Heaven
 - Q235113
-- skos:exactMatch: biblissima:Q295891, mdhn:aat300379004, mdhn:iconclass11G, mdhn:sh85005001_Angels, mdhn:tgm000323_Angels
 
 
 ### mdhn:Fragment_Cropped_Image: Cow cropped from 8v
@@ -11101,7 +9540,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Peacock
 - Q2083405
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Snake cropped from 8v
@@ -11112,7 +9550,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Snake
 - Q2102
-- skos:broadMatch: mdhn:Animal
 
 
 ### mdhn:Fragment_Cropped_Image: Unknown cropped from 8v
@@ -11165,47 +9602,33 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Fortress
 - Q57831
-- skos:exactMatch: mdhn:aat300006894
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Brass_Metal_Jingle
-- skos:broadMatch: mdhn:Jingle
 
 #### mdhn:Spear
 - Q44475
-- skos:broadMatch: mdhn:SharpEdgedWeopen
-- skos:exactMatch: mdhn:aat300037033, mdhn:aat300037038, mdhn:tgm009912_Spears
 
 #### mdhn:Column
 - Q4817
-- skos:exactMatch: biblissima:Q295903, mdhn:aat300001571, mdhn:aat300001650, mdhn:iconclass48C161, mdhn:tgm002319_Columns
-- skos:relatedMatch: mdhn:aat300001650
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Minaret
 - Q48356
-- skos:exactMatch: mdhn:aat300007535
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Gazelle
 - Q29001815
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Monkey
 - Q1367
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat300250028
 
 
 ### mdhn:Fragment_Cropped_Image: Female Div cropped figure from 3r
@@ -11264,33 +9687,24 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Brass_Metal_Jingle
-- skos:broadMatch: mdhn:Jingle
 
 #### mdhn:Misbaha
 - Q1141821
-- skos:exactMatch: mdhn:aat300264661
 
 #### mdhn:GemEncrustedCrown
 - Q170984
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Ring
 - Q46847
-- skos:exactMatch: mdhn:aat300046012, mdhn:iconclass41D2664, mdhn:sh85114133_Rings, mdhn:tgm008926_Rings
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 
 ### mdhn:Fragment_Cropped_Image: Female Div cropped figure from 6r
@@ -11329,32 +9743,24 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Bow_and_Arrow
 - Q19827042
-- skos:broadMatch: mdhn:Weopen
-- skos:closeMatch: mdhn:aat300037000
 
 #### mdhn:Brass_Metal_Jingle
-- skos:broadMatch: mdhn:Jingle
 
 #### mdhn:Earing
 - Q168456
-- skos:exactMatch: mdhn:aat300045998, mdhn:iconclass41D2663, mdhn:sh85040426_Earrings, mdhn:tgm003432_Earrings
 
 #### mdhn:GemEncrustedCrown
 - Q170984
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Sea_River_Pool
 - Q4022
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 
 ### mdhn:Fragment_Cropped_Image: Marich Div cropped figure from 9r
@@ -11401,37 +9807,28 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:Stick
 - Q10971443
-- skos:exactMatch: mdhn:aat300014681
 
 #### mdhn:GemEncrustedCrown
 - Q170984
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Architectural_Structure
 - Q811979
 
 #### mdhn:Column
 - Q4817
-- skos:exactMatch: biblissima:Q295903, mdhn:aat300001571, mdhn:aat300001650, mdhn:iconclass48C161, mdhn:tgm002319_Columns
-- skos:relatedMatch: mdhn:aat300001650
 
 
 ### mdhn:Fragment_Cropped_Image: two figures cropped figure from 8
@@ -11474,26 +9871,18 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Bolster
 - Q3057620
-- skos:exactMatch: mdhn:aat300236072
 
 #### mdhn:Brass_Metal_Jingle
-- skos:broadMatch: mdhn:Jingle
 
 #### mdhn:Misbaha
 - Q1141821
-- skos:exactMatch: mdhn:aat300264661
 
 #### mdhn:Column
 - Q4817
-- skos:exactMatch: biblissima:Q295903, mdhn:aat300001571, mdhn:aat300001650, mdhn:iconclass48C161, mdhn:tgm002319_Columns
-- skos:relatedMatch: mdhn:aat300001650
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from 3v
@@ -11529,20 +9918,15 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Mourning
 - Q750652
-- skos:exactMatch: mdhn:aat300238450, mdhn:tgm004732_Grief
 
 #### mdhn:Braid_Hair
 - Q31930755
-- skos:exactMatch: mdhn:tgm001287_Braids_Hairdressing
 
 #### mdhn:Coffin
 - Q184418
-- skos:exactMatch: mdhn:aat300197585, mdhn:tgm002250_Coffins
 
 #### mdhn:Clothing
 - Q26690120
-- skos:exactMatch: mdhn:aat300266639, mdhn:tgm002198_Clothing__dress
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ### mdhn:Fragment_Cropped_Image: Coffin cropped figure from 139
@@ -11553,7 +9937,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Coffin
 - Q184418
-- skos:exactMatch: mdhn:aat300197585, mdhn:tgm002250_Coffins
 
 
 ### mdhn:Fragment_Cropped_Image: People in Grief 1 cropped figure from 139
@@ -11564,8 +9947,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Elephant
 - Q7378
-- skos:broadMatch: mdhn:Animal
-- skos:exactMatch: mdhn:aat:300250160
 
 
 ### mdhn:Fragment_Cropped_Image: People in Grief 2 cropped figure from 139
@@ -11591,7 +9972,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Prayer
 - Q879046
-- skos:exactMatch: biblissima:Q294924, iconclass:11Q2, mdhn:sh85106123_Prayer_Islam
 
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 1r
@@ -11623,7 +10003,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Prayer
 - Q879046
-- skos:exactMatch: biblissima:Q294924, iconclass:11Q2, mdhn:sh85106123_Prayer_Islam
 
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 2r
@@ -11670,10 +10049,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Paper_Marbling
 - Q614541
-- skos:exactMatch: mdhn:aat300053812
 
 #### mdhn:Text_or_Verses
-- skos:exactMatch: mdhn:aat500011065
 
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 3r
@@ -11700,10 +10077,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Paper_Marbling
 - Q614541
-- skos:exactMatch: mdhn:aat300053812
 
 #### mdhn:Text_or_Verses
-- skos:exactMatch: mdhn:aat500011065
 
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 4r
@@ -11730,10 +10105,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Prayer
 - Q879046
-- skos:exactMatch: biblissima:Q294924, iconclass:11Q2, mdhn:sh85106123_Prayer_Islam
 
 #### mdhn:Text_or_Verses
-- skos:exactMatch: mdhn:aat500011065
 
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 5r
@@ -11762,7 +10135,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - mdhn:isPartOf: mdhn:Haft_Awrang
 
 #### mdhn:Text_or_Verses
-- skos:exactMatch: mdhn:aat500011065
 
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 6r
@@ -11801,10 +10173,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Paper_Marbling
 - Q614541
-- skos:exactMatch: mdhn:aat300053812
 
 #### mdhn:Text_or_Verses
-- skos:exactMatch: mdhn:aat500011065
 
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 7r
@@ -11831,10 +10201,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Paper_Marbling
 - Q614541
-- skos:exactMatch: mdhn:aat300053812
 
 #### mdhn:Text_or_Verses
-- skos:exactMatch: mdhn:aat500011065
 
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 8r
@@ -11855,7 +10223,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ### Depicts
 
 #### mdhn:Text_or_Verses
-- skos:exactMatch: mdhn:aat500011065
 
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 9r
@@ -11881,7 +10248,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ### Depicts
 
 #### mdhn:Text_or_Verses
-- skos:exactMatch: mdhn:aat500011065
 
 
 ### mdhn:Calligraphic_Artwork: Segment1 in 10r
@@ -11952,26 +10318,20 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Wudu
 - Q219466
-- skos:exactMatch: mdhn:aat300251246
 
 #### mdhn:Plants
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:GoldVessel
 - Q96952903
-- skos:exactMatch: mdhn:aat300193015
 
 
 ### mdhn:Fragment_Cropped_Image: A man preparing for Wudu cropped figure from f182b
@@ -11982,7 +10342,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Wudu
 - Q219466
-- skos:exactMatch: mdhn:aat300251246
 
 
 ### mdhn:Fragment_Cropped_Image: Standing man cropped figure from f182b
@@ -12023,10 +10382,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Jin cropped figure from f219a
@@ -12039,10 +10395,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div1 cropped figure from f219a
@@ -12055,10 +10408,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Div2 cropped figure from f219a
@@ -12071,10 +10421,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Text_or_Verses: Textblock1 in f219a
@@ -12116,19 +10463,15 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Building_Ornament
 - Q12043387
-- skos:exactMatch: mdhn:aat300378995
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:Door
 - Q36794
-- skos:exactMatch: mdhn:aat300002803, mdhn:tgm003230_Doors__doorways
 
 #### mdhn:Dome
 - Q12493
-- skos:exactMatch: mdhn:aat300001280
 
 #### mdhn:Flower
 - Q506
@@ -12138,24 +10481,17 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:Rocks
 - Q8063
 
 #### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 #### mdhn:Sagsar
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:Divs, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Divs
 
 
 ### mdhn:Fragment_Cropped_Image: Sagsar creatures cropped figure from f66r
@@ -12166,10 +10502,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Sagsar cropped figure from f66r
@@ -12180,10 +10513,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Divs
 - Q177413
-- skos:broadMatch: mdhn:aat300375725, mdhn:iconclass25FF1
-- skos:closeMatch: mdhn:Devil, mdhn:IblisOrDeamons
-- skos:exactMatch: mdhn:aat500011098
-- skos:relatedMatch: mdhn:aat300379730, mdhn:tgm002979_Demons
+- skos:related: mdhn:Devil
 
 
 ### mdhn:Fragment_Cropped_Image: People captured cropped figure from f66r
@@ -12319,7 +10649,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 3b
@@ -12351,7 +10680,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 4a
@@ -12387,7 +10715,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 29b
@@ -12413,7 +10740,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 98b
@@ -12439,7 +10765,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 147b
@@ -12465,7 +10790,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 203b
@@ -12490,7 +10814,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 275b
@@ -12514,7 +10837,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 2v
@@ -12546,7 +10868,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 3r
@@ -12582,7 +10903,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 30v
@@ -12608,7 +10928,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 107v
@@ -12634,7 +10953,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 163v
@@ -12660,7 +10978,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 223v
@@ -12685,7 +11002,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Illuminated_Headpiece
 - Q3071780
-- skos:exactMatch: mdhn:aat500011053
 
 
 ### mdhn:Illuminated_Headpiece: Onvan1 in 307v
@@ -12736,24 +11052,18 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Enthronement
 - Q1671499
-- skos:exactMatch: mdhn:aat300054754
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Architectural_Structure
 - Q811979
@@ -12763,39 +11073,30 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Wind
 - Q8094
-- skos:exactMatch: mdhn:aat300055395
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Fruits
 - Q1364
 
 #### mdhn:Club
 - Q392326
-- skos:broadMatch: mdhn:Weopen
 
 #### mdhn:Oud
 - Q191000
-- skos:exactMatch: mdhn:aat300217935
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:GemEncrustedBelt
 - Q134560
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ---
@@ -12814,31 +11115,24 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Enthronement
 - Q1671499
-- skos:exactMatch: mdhn:aat300054754
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:Blossom
 - Q2047589
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:WineBowl
 
@@ -12847,62 +11141,45 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Calligraphy_Inscription
 - Q1640824
-- skos:exactMatch: mdhn:aat300028702, mdhn:tgm005411_Inscriptions
-- skos:relatedMatch: mdhn:aat300208615
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Cypress
 - Q14169641
-- skos:exactMatch: mdhn:aat300343641
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Pine_Tree
 - Q59668787
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Bird
 - Q5113
-- skos:broadMatch: mdhn:Animal
 
 #### mdhn:Bird_Nest
 - Q1137226
-- skos:relatedMatch: mdhn:aat300429524, mdhn:tgm007038_Nests
 
 #### mdhn:Balcony
 - Q170552
-- skos:exactMatch: mdhn:aat300002588, mdhn:tgm000725_Balconies
 
 #### mdhn:Club
 - Q392326
-- skos:broadMatch: mdhn:Weopen
 
 #### mdhn:Oud
 - Q191000
-- skos:exactMatch: mdhn:aat300217935
 
 #### mdhn:Tambourine
 - Q193666
-- skos:exactMatch: mdhn:aat300041759
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:GemEncrustedBelt
 - Q134560
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ---
@@ -12921,28 +11198,21 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Throne
 - Q189233
-- skos:exactMatch: mdhn:aat300038141
 
 #### mdhn:Enthronement
 - Q1671499
-- skos:exactMatch: mdhn:aat300054754
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Persian_Architecture
 - Q137133192
-- skos:exactMatch: mdhn:aat500011068, mdhn:tgm000469_Architecture
 
 #### mdhn:Feasting
 - Q200538
-- skos:relatedMatch: mdhn:aat300073261
 
 #### mdhn:LongNeckedJar
 - Q2413314
-- skos:exactMatch: mdhn:aat300045685
 
 #### mdhn:WineBowl
 
@@ -12951,42 +11221,32 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Tree
 - Q10884
-- skos:exactMatch: mdhn:aat300132410
 
 #### mdhn:Pine_Tree
 - Q59668787
-- skos:relatedMatch: mdhn:aat300132410
 
 #### mdhn:Club
 - Q392326
-- skos:broadMatch: mdhn:Weopen
 
 #### mdhn:Oud
 - Q191000
-- skos:exactMatch: mdhn:aat300217935
 
 #### mdhn:Tambourine
 - Q193666
-- skos:exactMatch: mdhn:aat300041759
 
 #### mdhn:Sitar
 
 #### mdhn:Headgear
 - Q14952
-- skos:exactMatch: mdhn:aat300209285, mdhn:tgm004921_Headgear
 
 #### mdhn:GemEncrustedBelt
 - Q134560
 
 #### mdhn:Turban
 - Q2460567
-- skos:exactMatch: mdhn:aat300046127
-- skos:relatedMatch: mdhn:aat300212133
 
 #### mdhn:Robe
 - Q345127
-- skos:exactMatch: mdhn:aat300209852
-- skos:relatedMatch: mdhn:aat300212133
 
 
 ---
@@ -13001,7 +11261,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Rosette
 - Q1277215
-- skos:exactMatch: mdhn:aat300009972
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 1a
@@ -13044,7 +11303,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Rosette
 - Q1277215
-- skos:exactMatch: mdhn:aat300009972
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 42a
@@ -13097,7 +11355,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Rosette
 - Q1277215
-- skos:exactMatch: mdhn:aat300009972
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 173b
@@ -13125,12 +11382,566 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Rosette
 - Q1277215
-- skos:exactMatch: mdhn:aat300009972
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 211b
 #### **Pattern cropped from 211b** ![ Pattern cropped from 211b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000046_300/641,1295,1269,1269/200,/0/default.jpg)
 - **Styles:** aat:300009972
+
+---
+
+
+
+
+# Willim Morgan Shuster Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: The strangling of Persia
+
+## ResourceCanvas: f.8 — Mr W. Morgan Shuster Late Treasurer General Of Persia ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0008.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300046300
+
+### Depicts
+
+#### mdhn:Portrait_Photograph
+- Q182956
+
+
+### mdhn:Fragment_Cropped_Photo: Morgan Shuster cropped photo from page 8 of The strangling of Persia
+#### **Morgan Shuster cropped photo from page 8 of The strangling of Persia** ![ Morgan Shuster cropped photo from page 8 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0008.jp2/189,287,1584,2194/200,/0/default.jpg)
+- **Styles:** aat:500011081
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:William_Morgan_Shuster
+
+
+---
+
+## ResourceCanvas: f.25 — Nasiruddin Shah(with overcoat) and group of his Ministers and attendants. ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0025.jp2/full/200,/270/default.jpg)
+- **Canvas Types:** aat:300046300
+
+### Depicts
+
+#### mdhn:Photography
+- Q11633
+
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 25 of The strangling of Persia
+#### **cropped photo from Page 25 of The strangling of Persia** ![ cropped photo from Page 25 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0025.jp2/26,158,1600,2436/200,/270/default.jpg)
+- **Styles:** aat:500011081
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Naser_al_Din_Shah_Qajar
+
+##### mdhn:Mehdi_Gholi_Khan_Majd_Ol_Dawleh
+
+
+---
+
+## ResourceCanvas: f.32 — Mirza Ali Asghar Khan Amin Ol Soltan and Mohammad Ali Shah Qajar ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0032.jp2/full/200,/90/default.jpg)
+- **Canvas Types:** aat:300046300
+
+### Depicts
+
+#### mdhn:Photography
+- Q11633
+
+#### mdhn:Horse
+- Q726
+
+#### mdhn:Horse_Spur
+- Q740732
+
+#### mdhn:Horse_Tack
+- Q950799
+
+#### mdhn:Horse_Saddle
+- Q192249
+- skos:related: mdhn:Horse
+
+#### mdhn:Horse_Riding
+- Q179226
+
+#### mdhn:HorseStirrup
+- Q191657
+- skos:related: mdhn:Horse_Saddle
+
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 32 of The strangling of Persia
+#### **cropped photo from Page 32 of The strangling of Persia** ![ cropped photo from Page 32 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0032.jp2/239,298,1615,1060/200,/90/default.jpg)
+- **Styles:** aat:500011081
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Mirza_Ali_Asghar_Khan_Amin_Ol_Soltan
+
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 32 of The strangling of Persia
+#### **cropped photo from Page 32 of The strangling of Persia** ![ cropped photo from Page 32 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0032.jp2/225,1577,1521,1240/200,/90/default.jpg)
+- **Styles:** aat:500011081
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Mohammad_Ali_Shah_Qajar
+
+
+---
+
+## ResourceCanvas: f.36 — Mushirud Dawla and Aynud Dawla ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0037.jp2/full/200,/270/default.jpg)
+- **Canvas Types:** aat:300046300
+
+### Depicts
+
+#### mdhn:Portrait_Photograph
+- Q182956
+
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
+#### **cropped photo from Page 36 of The strangling of Persia** ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0037.jp2/54,275,1619,1194/200,/270/default.jpg)
+- **Styles:** aat:500011081
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Hassan_Pirnia
+
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
+#### **cropped photo from Page 36 of The strangling of Persia** ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0037.jp2/20,1644,1658,1200/200,/270/default.jpg)
+- **Styles:** aat:500011081
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Abdol_Majid_Mirza
+
+
+---
+
+## ResourceCanvas: f.44 — Russian and Persian Officers of The Notorious Cossack Brigard. This has been one of the chief instruments of sussian influence and oppression in Persia ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0044.jp2/full/200,/90/default.jpg)
+- **Canvas Types:** aat:300046300
+
+### Depicts
+
+#### mdhn:Photography
+- Q11633
+
+#### mdhn:Cossack_Brigard
+- Q47805
+
+#### mdhn:tgn7002004
+
+#### mdhn:Firearms_Weopen
+- Q12796
+
+#### mdhn:Sword
+- Q12791
+
+#### mdhn:Dagger
+- Q182780
+
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
+#### **cropped photo from Page 36 of The strangling of Persia** ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0044.jp2/307,192,1584,2402/200,/90/default.jpg)
+- **Styles:** aat:500011081
+
+---
+
+## ResourceCanvas: f.50 — Muhammad Ali Shah (now ex-Shah) and his Suite. At the Bagh-i Shah near Tehran. ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0050.jp2/full/200,/90/default.jpg)
+- **Canvas Types:** aat:300046300
+
+### Depicts
+
+#### mdhn:Photography
+- Q11633
+
+#### mdhn:tgn7002004
+
+#### mdhn:Sword
+- Q12791
+
+#### mdhn:Dagger
+- Q182780
+
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
+#### **cropped photo from Page 36 of The strangling of Persia** ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0050.jp2/256,349,1601,1892/200,/90/default.jpg)
+- **Styles:** aat:500011081
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Mohammad_Ali_Shah_Qajar
+
+##### mdhn:Ahmad_Shah_Qajar
+
+##### mdhn:Mehdi_Gholi_Khan_Majd_Ol_Dawleh
+
+
+---
+
+
+
+
+# Sharaf Magazine Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Sharaf from 1300AH to 1309AH
+
+## ResourceCanvas: f.5 — Page 5 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0041.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting, HasHeadedPaper, HasLogo
+
+### mdhn:Lithography: Drawing1 cropped Sharaf no:1
+#### **Drawing1 cropped Sharaf no:1** ![ Drawing1 cropped Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0041.jp2/549,2312,1876,2536/200,/0/default.jpg)
+- **Styles:** aat:300053271
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Naser_al_Din_Shah_Qajar
+
+
+### mdhn:Headed_Paper: Headed Paper in Sharaf no:1
+#### **Headed Paper in Sharaf no:1** ![ Headed Paper in Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0005.jp2/377,1569,2079,754/200,/0/default.jpg)
+- **Styles:** aat:300028715
+- **Persian Text:** شرف نمره 1 محرم 1300
+
+### mdhn:Seal_or_Toghra: Owner Seal in Sharaf no:1
+#### **Owner Seal in Sharaf no:1** ![ Owner Seal in Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0005.jp2/377,1890,276,233/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** کتابخانه مجلس شورای اسلامی
+
+---
+
+## ResourceCanvas: f.641 — Page 6 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0006.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting, HasHeadedPaper, HasLogo
+
+### mdhn:Lithography: Drawing2 cropped Sharaf no:1
+#### **Drawing2 cropped Sharaf no:1** ![ Drawing2 cropped Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0006.jp2/540,2371,1867,2048/200,/0/default.jpg)
+- **Styles:** aat:300053271
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Mozaffar_ad_Din_Shah_Qajar
+
+
+### mdhn:Seal_or_Toghra: Owner Seal in Sharaf no:1
+#### **Owner Seal in Sharaf no:1** ![ Owner Seal in Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0006.jp2/1764,2428,336,369/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** کتابخانه مجلس سنا
+
+---
+
+## ResourceCanvas: f.7 — Page 7 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0007.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting, HasHeadedPaper, HasLogo
+
+### mdhn:Lithography: Drawing1 cropped Sharaf no:2
+#### **Drawing1 cropped Sharaf no:2** ![ Drawing1 cropped Sharaf no:2 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0007.jp2/548,2129,1873,2060/200,/0/default.jpg)
+- **Styles:** aat:300053271
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Masoud_Mirza_Zel_Ol_Soltan
+
+
+### mdhn:Headed_Paper: Headed Paper in Sharaf no:2
+#### **Headed Paper in Sharaf no:2** ![ Headed Paper in Sharaf no:2 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0007.jp2/412,1520,2019,532/200,/0/default.jpg)
+- **Styles:** aat:300028715
+- **Persian Text:** شرف نمره 2 صفر 1300
+
+### mdhn:Seal_or_Toghra: Owner Seal in Sharaf no:1
+#### **Owner Seal in Sharaf no:1** ![ Owner Seal in Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0005.jp2/377,1890,276,233/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** کتابخانه مجلس شورای اسلامی
+
+---
+
+## ResourceCanvas: f.12 — Page 12 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0012.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting
+
+### mdhn:Lithography: Drawing1 cropped Sharaf no:3
+#### **Drawing1 cropped Sharaf no:3** ![ Drawing1 cropped Sharaf no:3 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0012.jp2/661,2522,1772,1746/200,/0/default.jpg)
+- **Styles:** aat:300053271
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Kamran_Mirza_Nayeb_Ol_Saltaneh
+
+
+---
+
+## ResourceCanvas: f.13 — Page 13 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0013.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting, HasHeadedPaper, HasLogo
+
+### mdhn:Lithography: Drawing1 cropped Sharaf no:5
+#### **Drawing1 cropped Sharaf no:5** ![ Drawing1 cropped Sharaf no:5 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0013.jp2/661,2345,1806,1789/200,/0/default.jpg)
+- **Styles:** aat:300053271
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Morad_Mirza_Hesam_o_Saltaneh
+
+
+### mdhn:Headed_Paper: Headed Paper in Sharaf no:5
+#### **Headed Paper in Sharaf no:5** ![ Headed Paper in Sharaf no:5 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0013.jp2/431,1769,2061,669/200,/0/default.jpg)
+- **Styles:** aat:300028715
+- **Persian Text:** شرف نمره 5 جمادی الاول 1300
+
+---
+
+## ResourceCanvas: f.14 — Page 14 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0014.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting, HasHeadedPaper, HasLogo
+
+### mdhn:Lithography: Drawing2 cropped Sharaf no:5
+#### **Drawing2 cropped Sharaf no:5** ![ Drawing2 cropped Sharaf no:5 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0014.jp2/652,2414,1798,1815/200,/0/default.jpg)
+- **Styles:** aat:300053271
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Mirza_Ali_Khan_Amin_al_Dawla
+
+
+### mdhn:Headed_Paper: Headed Paper in Sharaf no:5
+#### **Headed Paper in Sharaf no:5** ![ Headed Paper in Sharaf no:5 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0013.jp2/431,1769,2061,669/200,/0/default.jpg)
+- **Styles:** aat:300028715
+- **Persian Text:** شرف نمره 5 جمادی الاول 1300
+
+### mdhn:Seal_or_Toghra: Owner Seal in Sharaf no:1
+#### **Owner Seal in Sharaf no:1** ![ Owner Seal in Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0005.jp2/377,1890,276,233/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** کتابخانه مجلس شورای اسلامی
+
+---
+
+## ResourceCanvas: f.41 — Page 41 ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0041.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting, HasHeadedPaper, HasLogo
+
+### mdhn:Lithography: Drawing1 cropped Sharaf no:19
+#### **Drawing1 cropped Sharaf no:19** ![ Drawing1 cropped Sharaf no:19 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0041.jp2/549,2312,1876,2536/200,/0/default.jpg)
+- **Styles:** aat:300053271
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Mostowfi_ol_Mamalek
+
+
+### mdhn:Headed_Paper: Headed Paper in Sharaf no:19
+#### **Headed Paper in Sharaf no:19** ![ Headed Paper in Sharaf no:19 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0041.jp2/519,1680,1901,686/200,/0/default.jpg)
+- **Styles:** aat:300028715
+- **Persian Text:** شرف نمره 19
+
+---
+
+
+
+
+# Vincent Sheean
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: The new Persia
+
+## ResourceCanvas: f.8 — Reza Shah Pahlavi ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/newpersia00shee%2Fnewpersia00shee_jp2.zip%2Fnewpersia00shee_jp2%2Fnewpersia00shee_0008.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300046300
+
+### Depicts
+
+#### mdhn:Portrait_Photograph
+- Q182956
+
+#### mdhn:Pahlavi_hat
+- Q21117214
+
+#### mdhn:Medal
+- Q131647
+- skos:exactMatch: biblissima:Q321022, mdhn:aat300046025, mdhn:sh85082807_Medals
+
+#### mdhn:Decoration
+- Q11796413
+- skos:exactMatch: mdhn:aat300256050, mdhn:sh85036303_Decorations_of_honor
+
+
+### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped photo from page 8 of The new Persia
+#### **Reza Shah Pahlavi cropped photo from page 8 of The new Persia** ![ Reza Shah Pahlavi cropped photo from page 8 of The new Persia ](https://iiif.archive.org/image/iiif/3/newpersia00shee%2Fnewpersia00shee_jp2.zip%2Fnewpersia00shee_jp2%2Fnewpersia00shee_0008.jp2/189,287,1828,2827/200,/0/default.jpg)
+- **Styles:** aat:500011081
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Reza_Shah_Pahlavi
+
+
+---
+
+## ResourceCanvas: f.55 — His Highness The Farman Farma Father of Prince Firuz ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/newpersia00shee%2Fnewpersia00shee_jp2.zip%2Fnewpersia00shee_jp2%2Fnewpersia00shee_0055.jp2/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300046300
+
+### Depicts
+
+#### mdhn:Portrait_Photograph
+- Q182956
+
+#### mdhn:Stick
+- Q10971443
+
+#### mdhn:Headgear
+- Q14952
+
+#### mdhn:Carpet
+- Q163446
+
+#### mdhn:Curtain
+- Q49005
+
+
+### mdhn:Fragment_Cropped_Photo: AbdolHossein Mirza cropped photo from page 55 of The new Persia
+#### **AbdolHossein Mirza cropped photo from page 55 of The new Persia** ![ AbdolHossein Mirza cropped photo from page 55 of The new Persia ](https://iiif.archive.org/image/iiif/3/newpersia00shee%2Fnewpersia00shee_jp2.zip%2Fnewpersia00shee_jp2%2Fnewpersia00shee_0055.jp2/79,306,1863,2849/200,/0/default.jpg)
+- **Styles:** aat:500011081
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:AbdolHossein_Mirza_Farmanfarma
+
+
+---
+
+
+
+
+# Myron Bement Smith Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Portrait of Reza Shah Pahlavi with Boris Shumyatsky, the Soviet Ambassador
+
+## ResourceCanvas: f.1 — Portrait of Reza Shah Pahlavi with Boris Shumyatsky, the Soviet Ambassador ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.26.01/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300046300
+
+### Depicts
+
+#### mdhn:Reza_Shah_Pahlavi
+
+#### mdhn:Boris_Zakharovic_Shumyatsky
+
+#### mdhn:Tree
+- Q10884
+
+#### mdhn:Carpet
+- Q163446
+
+#### mdhn:Stair
+
+
+### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.26.01
+#### **Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.26.01** ![ Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.26.01 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.26.01/621,1000,446,1032/200,/0/default.jpg)
+- **Styles:** mdhn:Fragment_Cropped_Photo
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Reza_Shah_Pahlavi
+
+
+### mdhn:Fragment_Cropped_Photo: Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.26.01
+#### **Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.26.01** ![ Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.26.01 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.26.01/1043,1043,446,1032/200,/0/default.jpg)
+- **Styles:** mdhn:Fragment_Cropped_Photo
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Boris_Zakharovic_Shumyatsky
+
+
+---
+
+## Manifest: Group Portrait of Soviet Ambassador Boris Shumiatsky with Riza Shah and Persian Cabinet Ministers
+
+## ResourceCanvas: f.1 — Group Portrait of Soviet Ambassador ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.07/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300046300
+
+### Depicts
+
+#### mdhn:Reza_Shah_Pahlavi
+
+#### mdhn:Boris_Zakharovic_Shumyatsky
+
+#### mdhn:Tree
+- Q10884
+
+#### mdhn:Carpet
+- Q163446
+
+#### mdhn:Stair
+
+
+### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.07
+#### **Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.07** ![ Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.07 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.07/1101,839,310,686/200,/0/default.jpg)
+- **Styles:** mdhn:Fragment_Cropped_Photo
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Reza_Shah_Pahlavi
+
+
+### mdhn:Fragment_Cropped_Photo: Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.27.07
+#### **Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.27.07** ![ Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.27.07 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.07/1346,845,218,674/200,/0/default.jpg)
+- **Styles:** mdhn:Fragment_Cropped_Photo
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Boris_Zakharovic_Shumyatsky
+
+
+---
+
+## Manifest: Portrait of Reza Shah Pahlavi on a Horse while Minister of War
+
+## ResourceCanvas: f.1 — Portrait of Reza Shah Pahlavi on a Horse while Minister of War ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.08/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300046300
+
+### Depicts
+
+#### mdhn:Reza_Shah_Pahlavi
+
+#### mdhn:Horse
+- Q726
+
+#### mdhn:Tree
+- Q10884
+
+#### mdhn:Horse_Spur
+- Q740732
+
+#### mdhn:Horse_Tack
+- Q950799
+
+#### mdhn:Horse_Saddle
+- Q192249
+- skos:related: mdhn:Horse
+
+#### mdhn:Horse_Riding
+- Q179226
+
+#### mdhn:HorseStirrup
+- Q191657
+- skos:related: mdhn:Horse_Saddle
+
+#### mdhn:Fence
+- Q148571
+
+
+### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.08
+#### **Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.08** ![ Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.08 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.08/1188,483,554,1260/200,/0/default.jpg)
+- **Styles:** mdhn:Fragment_Cropped_Photo
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Reza_Shah_Pahlavi
+
 
 ---
 

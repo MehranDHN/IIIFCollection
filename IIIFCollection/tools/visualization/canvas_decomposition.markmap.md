@@ -2234,7 +2234,7 @@
 ## Manifest: Hushang kills the Black Div (recto) and Hushang discovers fire while killing a dragon with a stone (verso) f.1
 
 ## ResourceCanvas: f.1r — Hushang kills the Black Div
-- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300266660
+- **Canvas Types:** aat:300189604, aat:500181050, aat:300079783, aat:300404208, aat:300266660
 - **Contains:** HasPainting, HasOnvan, HasText
 - **Depicts:** mdhn:Kingdom_of_Keyumars, mdhn:Hushang_Fight_Black_Div, mdhn:Mace, mdhn:LeopardSkinDress, mdhn:Wolf, mdhn:Divs, mdhn:Rocks, mdhn:Cat, mdhn:Corvus, mdhn:Bird, mdhn:Leopard, mdhn:Lion
 
@@ -2295,7 +2295,7 @@
 ## Manifest: The tyrant Zahhak is imprisoned under Mount Damavand f.3
 
 ## ResourceCanvas: f.3v — Zahhak is imprisoned under Mount Damavand
-- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:500011012, aat:500011002
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300404208, aat:500011012, aat:500011002
 - **Contains:** HasText, HasOnvan, HasPainting
 - **Depicts:** mdhn:Kingdom_of_Fereydun, mdhn:ZahhakStory, mdhn:Horse, mdhn:Horse_Spur, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:Bow_and_Arrow, mdhn:mdhn:OxHeadMace, mdhn:Turban, mdhn:Hammer, mdhn:Sun, mdhn:Nail, mdhn:Rocks, mdhn:Cloud, mdhn:Plants, mdhn:Flower, mdhn:Snake
 
@@ -4495,6 +4495,308 @@
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 211b
 - ![ Pattern cropped from 211b ](https://stacks.stanford.edu/image/iiif/sm498by0298%2FW624_000046_300/641,1295,1269,1269/200,/0/default.jpg)
 - **Styles:** aat:300009972
+
+---
+
+
+
+
+# Willim Morgan Shuster Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: The strangling of Persia
+
+## ResourceCanvas: f.8 — Mr W. Morgan Shuster Late Treasurer General Of Persia
+- **Canvas Types:** aat:300046300
+- **Depicts:** mdhn:Portrait_Photograph
+
+### mdhn:Fragment_Cropped_Photo: Morgan Shuster cropped photo from page 8 of The strangling of Persia
+- ![ Morgan Shuster cropped photo from page 8 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0008.jp2/189,287,1584,2194/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:William_Morgan_Shuster
+- **Styles:** aat:500011081
+
+---
+
+## ResourceCanvas: f.25 — Nasiruddin Shah(with overcoat) and group of his Ministers and attendants.
+- **Canvas Types:** aat:300046300
+- **Depicts:** mdhn:Photography
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 25 of The strangling of Persia
+- ![ cropped photo from Page 25 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0025.jp2/26,158,1600,2436/200,/270/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Naser_al_Din_Shah_Qajar, mdhn:Mehdi_Gholi_Khan_Majd_Ol_Dawleh
+- **Styles:** aat:500011081
+
+---
+
+## ResourceCanvas: f.32 — Mirza Ali Asghar Khan Amin Ol Soltan and Mohammad Ali Shah Qajar
+- **Canvas Types:** aat:300046300
+- **Depicts:** mdhn:Photography, mdhn:Horse, mdhn:Horse_Spur, mdhn:Horse_Tack, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:HorseStirrup
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 32 of The strangling of Persia
+- ![ cropped photo from Page 32 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0032.jp2/239,298,1615,1060/200,/90/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mirza_Ali_Asghar_Khan_Amin_Ol_Soltan
+- **Styles:** aat:500011081
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 32 of The strangling of Persia
+- ![ cropped photo from Page 32 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0032.jp2/225,1577,1521,1240/200,/90/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mohammad_Ali_Shah_Qajar
+- **Styles:** aat:500011081
+
+---
+
+## ResourceCanvas: f.36 — Mushirud Dawla and Aynud Dawla
+- **Canvas Types:** aat:300046300
+- **Depicts:** mdhn:Portrait_Photograph
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
+- ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0037.jp2/54,275,1619,1194/200,/270/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Hassan_Pirnia
+- **Styles:** aat:500011081
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
+- ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0037.jp2/20,1644,1658,1200/200,/270/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Abdol_Majid_Mirza
+- **Styles:** aat:500011081
+
+---
+
+## ResourceCanvas: f.44 — Russian and Persian Officers of The Notorious Cossack Brigard. This has been one of the chief instruments of sussian influence and oppression in Persia
+- **Canvas Types:** aat:300046300
+- **Depicts:** mdhn:Photography, mdhn:Cossack_Brigard, mdhn:tgn7002004, mdhn:Firearms_Weopen, mdhn:Sword, mdhn:Dagger
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
+- ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0044.jp2/307,192,1584,2402/200,/90/default.jpg)
+- **Styles:** aat:500011081
+
+---
+
+## ResourceCanvas: f.50 — Muhammad Ali Shah (now ex-Shah) and his Suite. At the Bagh-i Shah near Tehran.
+- **Canvas Types:** aat:300046300
+- **Depicts:** mdhn:Photography, mdhn:tgn7002004, mdhn:Sword, mdhn:Dagger
+
+### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
+- ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0050.jp2/256,349,1601,1892/200,/90/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mohammad_Ali_Shah_Qajar, mdhn:Ahmad_Shah_Qajar, mdhn:Mehdi_Gholi_Khan_Majd_Ol_Dawleh
+- **Styles:** aat:500011081
+
+---
+
+
+
+
+# Sharaf Magazine Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Sharaf from 1300AH to 1309AH
+
+## ResourceCanvas: f.5 — Page 5
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting, HasHeadedPaper, HasLogo
+
+### mdhn:Lithography: Drawing1 cropped Sharaf no:1
+- ![ Drawing1 cropped Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0041.jp2/549,2312,1876,2536/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Naser_al_Din_Shah_Qajar
+- **Styles:** aat:300053271
+
+### mdhn:Headed_Paper: Headed Paper in Sharaf no:1
+- ![ Headed Paper in Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0005.jp2/377,1569,2079,754/200,/0/default.jpg)
+- **Styles:** aat:300028715
+- **Persian Text:** شرف نمره 1 محرم 1300
+
+### mdhn:Seal_or_Toghra: Owner Seal in Sharaf no:1
+- ![ Owner Seal in Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0005.jp2/377,1890,276,233/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** کتابخانه مجلس شورای اسلامی
+
+---
+
+## ResourceCanvas: f.641 — Page 6
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting, HasHeadedPaper, HasLogo
+
+### mdhn:Lithography: Drawing2 cropped Sharaf no:1
+- ![ Drawing2 cropped Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0006.jp2/540,2371,1867,2048/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mozaffar_ad_Din_Shah_Qajar
+- **Styles:** aat:300053271
+
+### mdhn:Seal_or_Toghra: Owner Seal in Sharaf no:1
+- ![ Owner Seal in Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0006.jp2/1764,2428,336,369/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** کتابخانه مجلس سنا
+
+---
+
+## ResourceCanvas: f.7 — Page 7
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting, HasHeadedPaper, HasLogo
+
+### mdhn:Lithography: Drawing1 cropped Sharaf no:2
+- ![ Drawing1 cropped Sharaf no:2 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0007.jp2/548,2129,1873,2060/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Masoud_Mirza_Zel_Ol_Soltan
+- **Styles:** aat:300053271
+
+### mdhn:Headed_Paper: Headed Paper in Sharaf no:2
+- ![ Headed Paper in Sharaf no:2 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0007.jp2/412,1520,2019,532/200,/0/default.jpg)
+- **Styles:** aat:300028715
+- **Persian Text:** شرف نمره 2 صفر 1300
+
+### mdhn:Seal_or_Toghra: Owner Seal in Sharaf no:1
+- ![ Owner Seal in Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0005.jp2/377,1890,276,233/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** کتابخانه مجلس شورای اسلامی
+
+---
+
+## ResourceCanvas: f.12 — Page 12
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting
+
+### mdhn:Lithography: Drawing1 cropped Sharaf no:3
+- ![ Drawing1 cropped Sharaf no:3 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0012.jp2/661,2522,1772,1746/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Kamran_Mirza_Nayeb_Ol_Saltaneh
+- **Styles:** aat:300053271
+
+---
+
+## ResourceCanvas: f.13 — Page 13
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting, HasHeadedPaper, HasLogo
+
+### mdhn:Lithography: Drawing1 cropped Sharaf no:5
+- ![ Drawing1 cropped Sharaf no:5 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0013.jp2/661,2345,1806,1789/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Morad_Mirza_Hesam_o_Saltaneh
+- **Styles:** aat:300053271
+
+### mdhn:Headed_Paper: Headed Paper in Sharaf no:5
+- ![ Headed Paper in Sharaf no:5 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0013.jp2/431,1769,2061,669/200,/0/default.jpg)
+- **Styles:** aat:300028715
+- **Persian Text:** شرف نمره 5 جمادی الاول 1300
+
+---
+
+## ResourceCanvas: f.14 — Page 14
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting, HasHeadedPaper, HasLogo
+
+### mdhn:Lithography: Drawing2 cropped Sharaf no:5
+- ![ Drawing2 cropped Sharaf no:5 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0014.jp2/652,2414,1798,1815/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mirza_Ali_Khan_Amin_al_Dawla
+- **Styles:** aat:300053271
+
+### mdhn:Headed_Paper: Headed Paper in Sharaf no:5
+- ![ Headed Paper in Sharaf no:5 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0013.jp2/431,1769,2061,669/200,/0/default.jpg)
+- **Styles:** aat:300028715
+- **Persian Text:** شرف نمره 5 جمادی الاول 1300
+
+### mdhn:Seal_or_Toghra: Owner Seal in Sharaf no:1
+- ![ Owner Seal in Sharaf no:1 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0005.jp2/377,1890,276,233/200,/0/default.jpg)
+- **Styles:** aat:500011052, aat:300265532
+- **Persian Text:** کتابخانه مجلس شورای اسلامی
+
+---
+
+## ResourceCanvas: f.41 — Page 41
+- **Canvas Types:** aat:300115833, aat:300079783
+- **Contains:** HasText, HasPainting, HasHeadedPaper, HasLogo
+
+### mdhn:Lithography: Drawing1 cropped Sharaf no:19
+- ![ Drawing1 cropped Sharaf no:19 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0041.jp2/549,2312,1876,2536/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Mostowfi_ol_Mamalek
+- **Styles:** aat:300053271
+
+### mdhn:Headed_Paper: Headed Paper in Sharaf no:19
+- ![ Headed Paper in Sharaf no:19 ](https://iiif.archive.org/image/iiif/3/sharaf_1_to_87%2FShahraf_1To87_jp2.zip%2FShahraf_1To87_jp2%2FShahraf_1To87_0041.jp2/519,1680,1901,686/200,/0/default.jpg)
+- **Styles:** aat:300028715
+- **Persian Text:** شرف نمره 19
+
+---
+
+
+
+
+# Vincent Sheean
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: The new Persia
+
+## ResourceCanvas: f.8 — Reza Shah Pahlavi
+- **Canvas Types:** aat:300046300
+- **Depicts:** mdhn:Portrait_Photograph, mdhn:Pahlavi_hat, mdhn:Medal, mdhn:Decoration
+
+### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped photo from page 8 of The new Persia
+- ![ Reza Shah Pahlavi cropped photo from page 8 of The new Persia ](https://iiif.archive.org/image/iiif/3/newpersia00shee%2Fnewpersia00shee_jp2.zip%2Fnewpersia00shee_jp2%2Fnewpersia00shee_0008.jp2/189,287,1828,2827/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Reza_Shah_Pahlavi
+- **Styles:** aat:500011081
+
+---
+
+## ResourceCanvas: f.55 — His Highness The Farman Farma Father of Prince Firuz
+- **Canvas Types:** aat:300046300
+- **Depicts:** mdhn:Portrait_Photograph, mdhn:Stick, mdhn:Headgear, mdhn:Carpet, mdhn:Curtain
+
+### mdhn:Fragment_Cropped_Photo: AbdolHossein Mirza cropped photo from page 55 of The new Persia
+- ![ AbdolHossein Mirza cropped photo from page 55 of The new Persia ](https://iiif.archive.org/image/iiif/3/newpersia00shee%2Fnewpersia00shee_jp2.zip%2Fnewpersia00shee_jp2%2Fnewpersia00shee_0055.jp2/79,306,1863,2849/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:AbdolHossein_Mirza_Farmanfarma
+- **Styles:** aat:500011081
+
+---
+
+
+
+
+# Myron Bement Smith Collection
+
+**Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
+
+## Manifest: Portrait of Reza Shah Pahlavi with Boris Shumyatsky, the Soviet Ambassador
+
+## ResourceCanvas: f.1 — Portrait of Reza Shah Pahlavi with Boris Shumyatsky, the Soviet Ambassador
+- **Canvas Types:** aat:300046300
+- **Depicts:** mdhn:Reza_Shah_Pahlavi, mdhn:Boris_Zakharovic_Shumyatsky, mdhn:Tree, mdhn:Carpet, mdhn:Stair
+
+### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.26.01
+- ![ Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.26.01 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.26.01/621,1000,446,1032/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Reza_Shah_Pahlavi
+- **Styles:** mdhn:Fragment_Cropped_Photo
+
+### mdhn:Fragment_Cropped_Photo: Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.26.01
+- ![ Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.26.01 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.26.01/1043,1043,446,1032/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Boris_Zakharovic_Shumyatsky
+- **Styles:** mdhn:Fragment_Cropped_Photo
+
+---
+
+## Manifest: Group Portrait of Soviet Ambassador Boris Shumiatsky with Riza Shah and Persian Cabinet Ministers
+
+## ResourceCanvas: f.1 — Group Portrait of Soviet Ambassador
+- **Canvas Types:** aat:300046300
+- **Depicts:** mdhn:Reza_Shah_Pahlavi, mdhn:Boris_Zakharovic_Shumyatsky, mdhn:Tree, mdhn:Carpet, mdhn:Stair
+
+### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.07
+- ![ Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.07 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.07/1101,839,310,686/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Reza_Shah_Pahlavi
+- **Styles:** mdhn:Fragment_Cropped_Photo
+
+### mdhn:Fragment_Cropped_Photo: Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.27.07
+- ![ Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.27.07 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.07/1346,845,218,674/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Boris_Zakharovic_Shumyatsky
+- **Styles:** mdhn:Fragment_Cropped_Photo
+
+---
+
+## Manifest: Portrait of Reza Shah Pahlavi on a Horse while Minister of War
+
+## ResourceCanvas: f.1 — Portrait of Reza Shah Pahlavi on a Horse while Minister of War
+- **Canvas Types:** aat:300046300
+- **Depicts:** mdhn:Reza_Shah_Pahlavi, mdhn:Horse, mdhn:Tree, mdhn:Horse_Spur, mdhn:Horse_Tack, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:HorseStirrup, mdhn:Fence
+
+### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.08
+- ![ Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.08 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.08/1188,483,554,1260/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Reza_Shah_Pahlavi
+- **Styles:** mdhn:Fragment_Cropped_Photo
 
 ---
 
