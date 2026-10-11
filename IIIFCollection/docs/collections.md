@@ -277,5 +277,7 @@
 
 ## [Thomas Herbert Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/ThomasHerbertCollection.json)
 
+## [Vincent Sheean](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/VincentSheeanCollection.json)
+
 ## [William Morgan Shuster](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MorganShusterCollection.json)
             
