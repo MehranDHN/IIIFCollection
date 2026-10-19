@@ -235,7 +235,8 @@
 
 ## [Muhammad Hasan Khan, Iʻtimad al-Saltanah](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/EtemadOlSaltaneCollection.json)
 
-## News Magazines
+## Periodical (News,Magazines)
+   - [France Illustration](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/FranceIllustrationCollection.json)
    - [Le Monde Illustre](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LEMondeIllustreCollection.json)
    - [Le Journal illustre](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LeJournalillustreCollection.json)
    - [L'Assiette au Beurre](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LAssietteauBeurreCollection.json)
