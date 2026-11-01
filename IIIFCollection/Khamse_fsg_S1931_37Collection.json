@@ -1,0 +1,449 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/Khamse_fsg_S1931_37Collection.json",
+    "@type": "sc:Collection",
+    "label": "Khamsa (Quintet) by Nizami fsg_F1931.37",
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 90 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "summary": {
+        "en": [
+            "Detached folio from the Khusraw u Shirin from a Khamsa (Quintet) by Nizami; text: Persian in black nasta'liq script ; recto: roundel (shamsa); verso: text with one main illuminated heading (sarlawh) inscribed with white ornamental \"eastern kufic\"; 4 columns; one of a group of 7 detached folios (F1931-37) from the manuscript (F1931.29) and the book binding (F 1931.30); accessioned separately."
+        ]
+    },
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://ids.si.edu/ids/iiif/FS-8256_16/1842,3468,1744,2014/full/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 2014,
+            "width": 1744,
+            "service": [
+                {
+                    "id": "https://ids.si.edu/ids/iiif/FS-8256_16",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 2014,
+                    "width": 1744,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/DepartedFolioCollection.json",
+    "manifests": [
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-6777_09",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Illuminated heading (sarlawh)"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Illuminated heading (sarlawh)"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "9"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "Calligrapher": [
+                            "mdhn:Ali_ibn_Hasan_al_Sultani"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Hagop_Kevorkian"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Khamsa_of_Nizami",
+                            "mdhn:Khosrow_and_Shirin"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:300026451",
+                            "aat:300189604",
+                            "aat:500011067"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Border: The recto is set in gold, green and blue rulings on gold-sprinkled paper; the verso is set in gold rulings with a blue outer frame of floral and tendril motifs on gold-sprinkled paper"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532",
+                            "aat:300194434",
+                            "aat:300195198"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-6777_09"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000251"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1300"
+                            ],
+                            "gregorian_82b": [
+                                "1400"
+                            ],
+                            "hijri_82a": [
+                                "700"
+                            ],
+                            "hijri_82b": [
+                                "800"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "~1300 AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-6777_08",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Illuminated Rosette (shamse)"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": [
+                            "Title"
+                        ]
+                    },
+                    "value": {
+                        "en": "Illuminated Rosette (shamse)"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Folio"
+                    },
+                    "value": {
+                        "en": "8"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nizami Ganjavi",
+                            "wd:Q234908"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nizami_Ganjavi"
+                        ],
+                        "Calligrapher": [
+                            "mdhn:Ali_ibn_Hasan_al_Sultani"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Hagop_Kevorkian"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Khamsa_of_Nizami",
+                            "mdhn:Khosrow_and_Shirin",
+                            "mdhn:Rosette"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:300026451",
+                            "aat:300189604",
+                            "aat:300009972"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Description"
+                    },
+                    "value": {
+                        "en": "Border: The recto is set in gold, green and blue rulings on gold-sprinkled paper; the verso is set in gold rulings with a blue outer frame of floral and tendril motifs on gold-sprinkled paper"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Smithsonian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-6777_08"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000251"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1300"
+                            ],
+                            "gregorian_82b": [
+                                "1400"
+                            ],
+                            "hijri_82a": [
+                                "700"
+                            ],
+                            "hijri_82b": [
+                                "800"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "~1300 AD"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
