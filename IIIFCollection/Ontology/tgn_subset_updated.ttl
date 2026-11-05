@@ -3,7 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix tgn: <http://vocab.getty.edu/tgn/> .
-@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 
 mdhn:tgn1000070 a mdhn:GettyTGN ;
     rdfs:label "France"@en ;
@@ -398,9 +398,14 @@ mdhn:tgn7000228 a mdhn:GettyTGN ;
     mdhn:hasTGNBroader mdhn:tgn7000231 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/7000228" .
 mdhn:tgn9203752 a mdhn:GettyTGN ;
-    rdfs:label "Hormozgan"@en, "بندر عباس"@fa ;
+    rdfs:label "Bandar Abbas"@en, "بندر عباس"@fa ;
     mdhn:hasTGNBroader mdhn:tgn7000228 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/9203752" .    
+
+mdhn:tgn1079119 a mdhn:GettyTGN ;
+    rdfs:label "Jāsk "@en, "جاسک"@fa ;
+    mdhn:hasTGNBroader mdhn:tgn7000228 ;
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1079119" .     
 
 mdhn:tgn7001445 a mdhn:GettyTGN ;
     rdfs:label "Giza"@en, "غزه"@fa ;
@@ -542,7 +547,6 @@ mdhn:tgn7029806 a mdhn:GettyTGN ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/7029806" .
 
 
-
 mdhn:tgn7594628 a mdhn:GettyTGN ;
     rdfs:label "Khorasan-e Jonubi"@en ;
     mdhn:hasTGNBroader mdhn:tgn7000231 ;
@@ -647,7 +651,6 @@ mdhn:tgn8977958 a mdhn:GettyTGN ;
     rdfs:label "Cheshmeh Ali"@en ;
     mdhn:hasTGNBroader mdhn:tgn7002004 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/8977958" .
-
 
 
 mdhn:tgn01230001 a mdhn:FeaturedSitesOrBuilding ;
@@ -944,6 +947,16 @@ mdhn:tgn7001282 a mdhn:GettyTGN ;
     mdhn:hasTGNBroader mdhn:tgn7000231 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/7001282" .
 
+mdhn:tgn7002176 a mdhn:GettyTGN ;
+    rdfs:label "Sīstān va Balūchestān"@en ;
+    mdhn:hasTGNBroader mdhn:tgn7000231 ;
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/7002176" . 
+
+mdhn:tgn9203626 a mdhn:GettyTGN ;
+    rdfs:label "Shahrestān-e Chābahār"@en ;
+    mdhn:hasTGNBroader mdhn:tgn7002176 ;
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/9203626" .         
+
 mdhn:tgn1000004 a mdhn:GettyTGN ;
     rdfs:label "Asia"@en ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/1000004" .
@@ -996,43 +1009,42 @@ mdhn:tgn1079239 a mdhn:GettyTGN ;
 mdhn:tgn0000500 a mdhn:FeaturedSitesOrBuilding ;
     rdfs:label "Alborz High School"@en, "مدرسه عالی البرز"@fa ;
     mdhn:hasTGNBroader mdhn:tgn7002004 ;
-    skos:exactMatch wd:Q3100918 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000500" .   
 
 mdhn:tgn0000510 a mdhn:FeaturedSitesOrBuilding ;
     rdfs:label "Islamic Consultative Assembly Building"@en, "ساختمان مجلس شورا بهارستان"@fa ;
     mdhn:hasTGNBroader mdhn:tgn7002004 ;
-    skos:exactMatch wd:Q56357070 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000510" .               
 
 mdhn:tgn0000511 a mdhn:FeaturedSitesOrBuilding ;
     rdfs:label "Tower of Silence"@en, "برج خاموشان"@fa ;
     mdhn:hasTGNBroader mdhn:tgn1001604 ;
-    skos:exactMatch wd:Q1157739 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000511" .     
 
 mdhn:tgn0000512 a mdhn:FeaturedSitesOrBuilding ;
     rdfs:label "Imamzadeh Yahya"@en, "امامزاده يحيی ورامين"@fa ;
     mdhn:hasTGNBroader mdhn:tgn9203565 ;
-    skos:exactMatch wd:Q5939601 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000512" . 
 
 mdhn:tgn0000514 a mdhn:FeaturedSitesOrBuilding ;
     rdfs:label "Imamzadeh Yahya"@en, "مسجد جامع ورامين"@fa ;
     mdhn:hasTGNBroader mdhn:tgn9203565 ;
-    skos:exactMatch wd:Q3445267 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000514" .     
 
 mdhn:tgn0000513 a mdhn:FeaturedSitesOrBuilding ;
     rdfs:label "Ferdowsi Street"@en, "خيابان فردوسی علاء الدوله و بلوار سفرای پيشين"@fa ;
     mdhn:hasTGNBroader mdhn:tgn7002004 ;
-    skos:exactMatch wd:Q5928572 ;
     mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000513" .   
 
 
 mdhn:tgn0000515 a mdhn:FeaturedSitesOrBuilding ;
     rdfs:label "Saadi Mausoleum"@en, "مقبره سعدی"@fa ;
     mdhn:hasTGNBroader mdhn:tgn7002148 ;
-    skos:exactMatch wd:Q326263 ;
-    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000515" .         
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000515" .    
+
+mdhn:tgn0000516 a mdhn:FeaturedSitesOrBuilding ;
+    rdfs:label "Vakil Caravanserai"@en, "کاروانسرای وکيل"@fa ;
+    mdhn:hasTGNBroader mdhn:tgn1001352 ;
+    skos:exactMatch wd:Q6448583;
+    mdhn:gettyTGNURI "http://vocab.getty.edu/tgn/0000516" .          
   

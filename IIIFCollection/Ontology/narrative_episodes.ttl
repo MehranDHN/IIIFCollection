@@ -9,12 +9,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix tgm: <http://id.loc.gov/vocabulary/graphicMaterials/> .
 @prefix tgn: <http://vocab.getty.edu/tgn/> .
-@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix iconclass: <https://iconclass.org/> .
 
 mdhn:Narrative_Episodes a mdhn:NarrativeEpisode ;
-    skos:relatedMatch mdhn:aat300404209 ;
+    mdhn:wikiDataEntity wd:Q3328821 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3328821" ;
     rdfs:comment "Root entry for Narrative/Literary Works"@en ;
     rdfs:label "Narrative Episodes"@en , "روايت‌های اساطيری/نظم و نثر"@fa .
@@ -27,7 +27,8 @@ mdhn:Folklore_Epic_or_Mythology a mdhn:NarrativeEpisode;
 mdhn:Jewish_Mythology a mdhn:NarrativeEpisode;
    rdfs:label "Jewish Mythology"@en, "ميتولوژی يهود"@fa;
    mdhn:ispartOf mdhn:Narrative_Episodes;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1716022" .   
+   mdhn:wikiDataEntity wd:Q1716022 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1716022" .
 
 mdhn:Islamic_Mythology a mdhn:NarrativeEpisode;
    rdfs:label "Islamic Mythology"@en, "ميتولوژی اسلامی"@fa;
@@ -37,7 +38,8 @@ mdhn:Islamic_Mythology a mdhn:NarrativeEpisode;
 mdhn:Christian_Mythology a mdhn:NarrativeEpisode;
    rdfs:label "Christian Mythology"@en, "ميتولوژی مسيحيت"@fa;
    mdhn:ispartOf mdhn:Narrative_Episodes;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1084084" . 
+   mdhn:wikiDataEntity wd:Q1084084 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1084084" .
 
 mdhn:Zoroastrian_Mythology a mdhn:NarrativeEpisode;
    rdfs:label "Zoroastrian Mythology"@en, "ميتولوژی زرتشتی"@fa;
@@ -62,7 +64,8 @@ mdhn:Indian_Epic_and_Mythology a mdhn:NarrativeEpisode;
 mdhn:Anvar_Soheily a mdhn:NarrativeEpisode;
    rdfs:label "Anvar Soheily"@en, "انوار سهيلی"@fa;
    mdhn:ispartOf mdhn:Persian_Epic_and_Mythology;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q24639968" .    
+   mdhn:wikiDataEntity wd:Q24639968 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q24639968" .
 
 mdhn:Anvar_Soheily_Chapter01 a mdhn:NarrativeEpisode;
    rdfs:label "Anvar Soheily CH01"@en, "باب اول انوار سهيلی"@fa;
@@ -78,12 +81,14 @@ mdhn:Story_of_Ramayana a mdhn:NarrativeEpisode;
    rdfs:label "Story of Ramayana"@en, "افسانه رامايانا"@fa;
    mdhn:ispartOf mdhn:Indian_Epic_and_Mythology;
    mdhn:charactersInvolved mdhn:Krishna, mdhn:Shiva, mdhn:Rama, mdhn:Lakshmana, mdhn:Ravana , mdhn:Vanaras, mdhn:Hanuman, mdhn:Dasaratha, mdhn:Kausalya, mdhn:Sita ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q37293" .    
+   mdhn:wikiDataEntity wd:Q37293 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q37293" .
 
 mdhn:Story_of_Mahabharata a mdhn:NarrativeEpisode;
    rdfs:label "Story of Mahabharata"@en, "افسانه مهاباراتا"@fa;
    mdhn:ispartOf mdhn:Indian_Epic_and_Mythology;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q8276" .             
+   mdhn:wikiDataEntity wd:Q8276 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q8276" .
 
 mdhn:Siege_of_Al_Muqanna_Fortress a mdhn:NarrativeEpisode;
    rdfs:label "Siege_of_Al_Muqanna_Fortress"@en, "محاصره و جنگ قلعه المقنع"@fa;
@@ -101,16 +106,16 @@ mdhn:Seljuk_Empire a mdhn:NarrativeEpisode ;
     rdfs:label "Seljuk_Empire"@en ,
                "امپرااتوری و سلسله سلجوقی"@fa ;    
     rdfs:comment "Turco-Persian Sunni Muslim empire (1037–1194)"@en ;    
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3708094" ;  
-    skos:exactMatch mdhn:sh77000001_Iran_History_Seljuk_Dynasty;   
+    mdhn:wikiDataEntity wd:Q3708094 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3708094" ;
     mdhn:isPartOf mdhn:Political_or_Regional_Era_as_Narrative . 
 
 mdhn:Safavid_Empire a mdhn:NarrativeEpisode ;
     rdfs:label "Safavid_Empire"@en ,
                "امپرااتوری و سلسله صفوی"@fa ;    
     rdfs:comment "historical empire that existed between 1501 and 1736"@en ;    
-    skos:exactMatch mdhn:sh96007363_Iran_History_Safavid_Dynasty ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q18234383" ;     
+    mdhn:wikiDataEntity wd:Q18234383 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q18234383" ;
     mdhn:isPartOf mdhn:Political_or_Regional_Era_as_Narrative .                          
 
 mdhn:Shiroye_Namdar a mdhn:NarrativeEpisode ;    
@@ -119,7 +124,7 @@ mdhn:Shiroye_Namdar a mdhn:NarrativeEpisode ;
     rdfs:label "Shiroye Namdar"@en , "شيرويه نامدار"@fa .  
     
 mdhn:Garshaspnameh a mdhn:NarrativeEpisode ;
-    skos:closeMatch mdhn:aat300404209 ;
+    mdhn:wikiDataEntity wd:Q6391136 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q6391136" ;
     mdhn:charactersInvolved mdhn:Garshasp;
     mdhn:isPartOf  mdhn:Persian_Epic_and_Mythology ;
@@ -133,10 +138,27 @@ mdhn:Ajayeb_Name_And_Cosmography a mdhn:NarrativeEpisode ;
     rdfs:label "Ajayeb Name And Cosmography Literature"@en , "عجايب نامه ها، دنيای مردگان و سحر و جادو"@fa . 
 
 mdhn:Ajayeb_al_Makhluqat_Gharayeb_al_Mawhudat a mdhn:NarrativeEpisode ;    
+    mdhn:wikiDataEntity wd:Q8083964 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q8083964" ;
     mdhn:charactersInvolved mdhn:Solomon, mdhn:Iskandar_Dhul_Qarnayn;
     mdhn:isPartOf  mdhn:Ajayeb_Name_And_Cosmography ;
     rdfs:label "Ajayeb al-makhluqat wa gharayeb al-mawjudat"@en , "عجايب المخلوقات و غرايب الموجودات"@fa .  
+
+mdhn:Albolhan a mdhn:NarrativeEpisode ;    
+    mdhn:wikiDataEntity wd:Q4943103 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4943103" ;
+    mdhn:isPartOf  mdhn:Ajayeb_Name_And_Cosmography ;
+    rdfs:label "Albolhan (Book of Wonders)"@en , "البلهان"@fa .   
+
+mdhn:Almavalid a mdhn:NarrativeEpisode ;    
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Ajayeb_Name_And_Cosmography ;
+    rdfs:label "Almavalid "@en , "المواليد"@fa .  
+
+mdhn:Ajayeb_Name a mdhn:NarrativeEpisode ;    
+    mdhn:icWikiDataURL "" ;
+    mdhn:isPartOf  mdhn:Ajayeb_Name_And_Cosmography ;
+    rdfs:label "Ajayeb_Name"@en , "عجايب نامه"@fa .           
 
 mdhn:Bab1_Dar_Alviat a mdhn:NarrativeEpisode ;    
     mdhn:icWikiDataURL "" ;
@@ -193,7 +215,8 @@ mdhn:Almavalid a mdhn:NarrativeEpisode ;
 
 mdhn:Kalila_and_Demna a mdhn:NarrativeEpisode ;
     mdhn:charactersInvolved mdhn:Kalila, mdhn:Demna ;
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q12064127" ;    
+    mdhn:wikiDataEntity wd:Q12064127 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q12064127" ;
     mdhn:isPartOf  mdhn:Persian_Epic_and_Mythology , mdhn:Islamic_Mythology ;
     rdfs:label "Kalila and Demna"@en , "کليله و دمنه"@fa . 
 ### Narrative Episode: Noah and his family on the ark
@@ -214,9 +237,6 @@ mdhn:Noah_and_Family_on_the_Ark a mdhn:NarrativeEpisode ;
     mdhn:charactersInvolved mdhn:Noah ,
                             mdhn:Kanan ;   
     mdhn:isPartOf mdhn:Story_of_Noah ;    
-    skos:exactMatch mdhn:iconclass71B331 ; 
-    skos:relatedMatch <http://www.wikidata.org/entity/Q126553> ;  # Noah's Ark
-    skos:relatedMatch <http://www.wikidata.org/entity/Q81422> ; # Noah    
     mdhn:icWikiDataURL "" .
 
 
@@ -226,14 +246,10 @@ mdhn:Story_of_Shuaib a mdhn:NarrativeEpisode ;
     Known in Islamic tradition as the 'Orator of the Prophets'. 
     Widely identified with the Biblical Jethro (father-in-law of Moses), though some traditions distinguish them. 
     His message focused on monotheism and fair dealing in weights and measures."""@en ;    
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q982867" ;    
+    mdhn:wikiDataEntity wd:Q982867 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q982867" ;
     mdhn:charactersInvolved mdhn:Shuayb, mdhn:Moses , mdhn:Zipporah ;
-    mdhn:isPartOf  mdhn:Jewish_Mythology, mdhn:Islamic_Mythology ;    
-    skos:relatedMatch mdhn:iconclass71E1 ;          # story of Moses
-    skos:broadMatch   mdhn:iconclass71E1 ;
-    skos:relatedMatch mdhn:iconclass71E_Midian ;    # limited-scope extension (see below)    
-    skos:relatedMatch wd:Q982867 ;
-    skos:relatedMatch wd:Q47680 .                   # Jethro (Biblical figure) – if you want the cross-tradition link
+    mdhn:isPartOf  mdhn:Jewish_Mythology, mdhn:Islamic_Mythology .    
 
 mdhn:Story_of_Cain_and_Abel a mdhn:NarrativeEpisode ;
     rdfs:label "Story of Cain and Abel"@en ,
@@ -243,15 +259,10 @@ mdhn:Story_of_Cain_and_Abel a mdhn:NarrativeEpisode ;
     Cain (farmer) and Abel (shepherd) offer sacrifices; God accepts Abel’s offering. 
     Cain kills Abel out of jealousy — the first murder in Biblical and Quranic tradition. 
     Widely illustrated in Persian Qisas al-Anbiya manuscripts and related prophetic cycles."""@en ;    
+    mdhn:wikiDataEntity wd:Q717996 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q717996" ;
     mdhn:charactersInvolved mdhn:Cain , mdhn:Abel , mdhn:Adam , mdhn:Eve ;
-    mdhn:isPartOf mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Qisas_al_Anbiya, mdhn:Jewish_Mythology, mdhn:Story_of_Adam_and_Eve  ;               
-    skos:exactMatch   mdhn:iconclass71A8 ;        # the story of Cain and Abel
-    skos:closeMatch   mdhn:iconclass71A8 ;
-    skos:relatedMatch mdhn:iconclass71A81 ;       # the sacrifice
-    skos:relatedMatch mdhn:iconclass71A82 ;       # the killing of Abel
-    skos:relatedMatch mdhn:iconclass71A83 ;       # the curse and flight of Cain
-    skos:relatedMatch wd:Q717996 .   
+    mdhn:isPartOf mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Qisas_al_Anbiya, mdhn:Jewish_Mythology, mdhn:Story_of_Adam_and_Eve  .               
 
 ### Cain and Abel – Killing of Abel and related scenes
 
@@ -263,12 +274,11 @@ mdhn:Killing_of_Abel a mdhn:NarrativeEpisode ;
     In traditional iconography Cain uses a stone, a club, a jaw-bone, 
     a spade or another tool as the weapon (Genesis 4:8). 
     This is the central act of the Cain and Abel narrative."""@en ;    
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q717996" ;    
+    mdhn:wikiDataEntity wd:Q717996 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q717996" ;
     mdhn:charactersInvolved mdhn:Cain ,
                             mdhn:Abel ;    
-    mdhn:isPartOf mdhn:Story_of_Cain_and_Abel ;    
-    skos:exactMatch   mdhn:iconclass71A82 ;
-    skos:relatedMatch wd:Q717996 .
+    mdhn:isPartOf mdhn:Story_of_Cain_and_Abel .    
 
 
 mdhn:Abels_Death a mdhn:NarrativeEpisode ;
@@ -277,8 +287,7 @@ mdhn:Abels_Death a mdhn:NarrativeEpisode ;
     rdfs:comment "The death of Abel after being slain by Cain."@en ;    
     mdhn:icWikiDataURL "" ;    
     mdhn:charactersInvolved mdhn:Abel ;    
-    mdhn:isPartOf mdhn:Story_of_Cain_and_Abel ;    
-    skos:exactMatch mdhn:iconclass71A821 .
+    mdhn:isPartOf mdhn:Story_of_Cain_and_Abel .    
 
 
 mdhn:Cain_buries_Abel a mdhn:NarrativeEpisode ;
@@ -288,8 +297,7 @@ mdhn:Cain_buries_Abel a mdhn:NarrativeEpisode ;
     mdhn:icWikiDataURL "" ;    
     mdhn:charactersInvolved mdhn:Cain ,
                             mdhn:Abel ;    
-    mdhn:isPartOf mdhn:Story_of_Cain_and_Abel ;    
-    skos:exactMatch mdhn:iconclass71A822 .
+    mdhn:isPartOf mdhn:Story_of_Cain_and_Abel .    
 
 
 mdhn:Adam_and_Eve_discover_Abels_body a mdhn:NarrativeEpisode ;
@@ -300,8 +308,7 @@ mdhn:Adam_and_Eve_discover_Abels_body a mdhn:NarrativeEpisode ;
     mdhn:charactersInvolved mdhn:Adam ,
                             mdhn:Eve ,
                             mdhn:Abel ;    
-    mdhn:isPartOf mdhn:Story_of_Cain_and_Abel ;    
-    skos:exactMatch mdhn:iconclass71A823 .
+    mdhn:isPartOf mdhn:Story_of_Cain_and_Abel .    
 
 
 mdhn:Adam_and_Eve_bury_Abel a mdhn:NarrativeEpisode ;
@@ -312,10 +319,7 @@ mdhn:Adam_and_Eve_bury_Abel a mdhn:NarrativeEpisode ;
     mdhn:charactersInvolved mdhn:Adam ,
                             mdhn:Eve ,
                             mdhn:Abel ;    
-    mdhn:isPartOf mdhn:Story_of_Cain_and_Abel ;    
-    skos:exactMatch mdhn:iconclass71A824 .
-
-
+    mdhn:isPartOf mdhn:Story_of_Cain_and_Abel .    
 
 
 mdhn:Story_of_Salih_and_the_She_Camel a mdhn:NarrativeEpisode ;
@@ -328,14 +332,13 @@ mdhn:Story_of_Salih_and_the_She_Camel a mdhn:NarrativeEpisode ;
     to emerge from the rock as a test and a blessing. 
     The scene is a standard subject in Qiṣaṣ al-Anbiyāʾ and appears in the 
     Jāmiʿ al-Tawārīkh of Rashīd al-Dīn."""@en ;    
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q326189" ;      
+    mdhn:wikiDataEntity wd:Q326189 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q326189" ;
     mdhn:charactersInvolved mdhn:Salih, mdhn:Camel_of_Salih;    
-    mdhn:isPartOf mdhn:Islamic_Mythology, mdhn:Qisas_al_Anbiya ;    
-    skos:exactMatch   mdhn:iconclass_Salih_SheCamel ;
-    skos:relatedMatch wd:Q326189 .    
+    mdhn:isPartOf mdhn:Islamic_Mythology, mdhn:Qisas_al_Anbiya .    
 
 mdhn:Qisas_al_Anbiya a mdhn:NarrativeEpisode ;
-    skos:relatedMatch mdhn:aat300404209 ;
+    mdhn:wikiDataEntity wd:Q1087563 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q1087563" ;
     mdhn:isPartOf  mdhn:Islamic_Mythology ;
     rdfs:comment """The Qiṣaṣ al-anbiyā (Arabic: قِصَص الْأَنـۢبِيَاء, lit. 'Stories of the Prophets') is any of various collections of stories about figures recognised as prophets and messengers in Islam, closely related to tafsīr (exegesis of the Qur'an)."""@en ;
@@ -368,7 +371,6 @@ mdhn:Adam_and_Eve_Eat_Forbidden_Fruit a mdhn:NarrativeEpisode ;
    mdhn:icWikiDataURL "" .            
 
 mdhn:Khamsa_of_Amir_Khosro_Dehlavi a mdhn:NarrativeEpisode ;
-    skos:relatedMatch mdhn:aat300404746 ;
     mdhn:icWikiDataURL "" ;
     mdhn:isPartOf  mdhn:Folklore_Epic_or_Mythology ;
     rdfs:label "Khamsa of Amir Khosro Dehlavi"@en , "خمسه امير خسرو دهلوی"@fa .  
@@ -397,7 +399,7 @@ mdhn:Ayeneye_Iskandari a mdhn:NarrativeEpisode ;
    mdhn:icWikiDataURL "" .         
 
 mdhn:Khamsa_of_Nizami a mdhn:NarrativeEpisode ;
-    skos:relatedMatch mdhn:aat300404746 ;
+    mdhn:wikiDataEntity wd:Q3196058 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3196058" ;
     dcterms:created "c. 1010" ;
     mdhn:isPartOf  mdhn:Folklore_Epic_or_Mythology ;
@@ -412,13 +414,15 @@ mdhn:Shah_and_Darvish a mdhn:NarrativeEpisode ;
 mdhn:Makhzan_al_Asrar a mdhn:NarrativeEpisode ;
    rdfs:label "Makhzan al-Asrar"@en, "مخزن الاسرار"@fa;
    mdhn:isPartOf mdhn:Khamsa_of_Nizami ;
+   mdhn:wikiDataEntity wd:Q70427756 ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q70427756" .
 
 mdhn:The_Seven_Beauties a mdhn:NarrativeEpisode ;
    rdfs:label "The Seven Beauties"@en, "هفت پيکر"@fa;
    mdhn:isPartOf mdhn:Khamsa_of_Nizami ;
    mdhn:charactersInvolved mdhn:Bahram_V;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4679100" . 
+   mdhn:wikiDataEntity wd:Q4679100 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4679100" .
 
 mdhn:Saturday_Black_The_Unfulfilled_Love a mdhn:NarrativeEpisode ;
    rdfs:label "Saturday, The Unfulfilled Love"@en, "روز شنبه: شاهدخت (فورک): اقلیم هند:  با نشان سیاره کیوان یا زحل، دانشمند فلک: رنگ گنبد مشکی: داستان شهر سیاه پوشان"@fa;
@@ -472,7 +476,8 @@ mdhn:Iskandarnama  a mdhn:NarrativeEpisode ;
    rdfs:label "Iskandarnama "@en, "اسکندرنامه"@fa;
    mdhn:isPartOf mdhn:Khamsa_of_Nizami ;
    mdhn:charactersInvolved mdhn:Iskandar_Dhul_Qarnayn;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4679088" . 
+   mdhn:wikiDataEntity wd:Q4679088 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4679088" .
 
 mdhn:Sharaf_Nama  a mdhn:NarrativeEpisode ;
    rdfs:label "Sharaf nama"@en, "شرفنامه"@fa;
@@ -501,8 +506,9 @@ mdhn:Eghbal_Nama  a mdhn:NarrativeEpisode ;
 mdhn:Khosrow_and_Shirin a mdhn:NarrativeEpisode ;
    rdfs:label "Khosrow and Shirin"@en, "خسرو و شيرين"@fa;
    mdhn:isPartOf mdhn:Khamsa_of_Nizami ;
-   mdhn:charactersInvolved mdhn:Khosrow_II, mdhn:Shirin , mdhn:Farhad;     
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q61076" . 
+   mdhn:charactersInvolved mdhn:Khosrow_II, mdhn:Shirin , mdhn:Farhad, mdhn:Shapur_Painter;     
+   mdhn:wikiDataEntity wd:Q61076 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q61076" .
 
 mdhn:Sight_of_Shirin_Bathing a mdhn:NarrativeEpisode ;
    rdfs:label "Sight of Shirin Bathing"@en, "شيرين در چشمه سار"@fa;
@@ -516,6 +522,11 @@ mdhn:Marriage_of_Khusrau_and_Shirin  a mdhn:NarrativeEpisode ;
    mdhn:charactersInvolved mdhn:Khosrow_II, mdhn:Shirin; 
    mdhn:icWikiDataURL "" .     
 
+mdhn:Khusrau_and_Shirin_in_Hunting  a mdhn:NarrativeEpisode ;
+   rdfs:label "Khusrau and Shirin in Hunting "@en, "ازدواج خسرو و شيرين"@fa;
+   mdhn:isPartOf mdhn:Khosrow_and_Shirin ;
+   mdhn:charactersInvolved mdhn:Khosrow_II, mdhn:Shirin; 
+   mdhn:icWikiDataURL "" . 
   
 
 mdhn:Layla_and_Majnun a mdhn:NarrativeEpisode ;
@@ -523,7 +534,8 @@ mdhn:Layla_and_Majnun a mdhn:NarrativeEpisode ;
    rdfs:comment "Persian tragic romance by Nizami Ganjavi" ;
    mdhn:isPartOf mdhn:Khamsa_of_Nizami ;   
    mdhn:charactersInvolved mdhn:Majnun, mdhn:Layli;     
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q673156" . 
+   mdhn:wikiDataEntity wd:Q673156 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q673156" .
 
 mdhn:Love_in_School a mdhn:NarrativeEpisode ;
    rdfs:label "Love in school"@en, "عاشق شدن مجنون/ مدرسه"@fa;
@@ -550,8 +562,8 @@ mdhn:Marriage_of_Layli a mdhn:NarrativeEpisode ;
    mdhn:icWikiDataURL "" .                              
 
 mdhn:Haft_Awrang a mdhn:NarrativeEpisode ;
-    skos:relatedMatch mdhn:aat300404746 ;
     mdhn:isPartOf  mdhn:Folklore_Epic_or_Mythology ;
+    mdhn:wikiDataEntity wd:Q5638440 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5638440" ;
     dcterms:created "c. 1010" ;
     rdfs:comment """The Haft Awrang, or Seven Thrones, is a collection of seven masnavi (long narrative poems) written by the Persian poet Nizami Ganjavi around 1010 CE. It is one of the most important works of Persian literature and tells various romantic and heroic stories."""@en ;
@@ -563,9 +575,8 @@ mdhn:Yusuf_and_Zulaikha a mdhn:NarrativeEpisode ;
    rdfs:comment "romantic story" ;
    mdhn:charactersInvolved mdhn:Yusuf, mdhn:Zulaikha;
    mdhn:isPartOf mdhn:Haft_Awrang ;
-   skos:closeMatch mdhn:iconclass71D ;          # story of Joseph
-   skos:relatedMatch mdhn:iconclass71D2 ;   
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3350827" . 
+   mdhn:wikiDataEntity wd:Q3350827 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q3350827" .
 
 mdhn:Zulaikha_invites_the_egyptian_women a mdhn:NarrativeEpisode ;
    rdfs:label "Zulaikha invites the egyptian women to see the Yusuf"@en, "دعوت زليخا از زنان مصری"@fa;
@@ -579,7 +590,8 @@ mdhn:Leyli_and_Majnun_Jami a mdhn:NarrativeEpisode ;
    rdfs:comment "romantic story" ;
    mdhn:charactersInvolved mdhn:Majnun, mdhn:Layli;   
    mdhn:isPartOf mdhn:Haft_Awrang ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140301003" .  
+   mdhn:wikiDataEntity wd:Q140301003 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140301003" .
 
 mdhn:Silsilat_al_Dhahab a mdhn:NarrativeEpisode ;
    rdfs:label "Silsilat al Dhahab"@en, "سلسلة الذهب"@fa;
@@ -605,12 +617,12 @@ mdhn:Salaman_and_Absal a mdhn:NarrativeEpisode ;
    rdfs:label "Salaman and Absal"@en, "سلامان و آبسال"@fa;
    rdfs:comment "romantic story" ;
    mdhn:isPartOf mdhn:Haft_Awrang ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q31068219" .    
+   mdhn:wikiDataEntity wd:Q31068219 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q31068219" .
 
 mdhn:Solomon_and_Queen_of_Sheba a mdhn:NarrativeEpisode ;
    rdfs:label "Solomon and Queen of Sheba"@en, "بارگاه سليمان و ملکه سبا"@fa;
    rdfs:comment "Mythical story" ;
-   skos:closeMatch iconclass:71I;
    mdhn:isPartOf  mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology ;
    mdhn:charactersInvolved mdhn:Solomon, mdhn:Queen_of_Sheba;
    mdhn:icWikiDataURL "" .    
@@ -619,7 +631,8 @@ mdhn:Safavid_Iran a mdhn:NarrativeEpisode ;
    rdfs:label "Safavid Iran"@en, "سلسله صفوی"@fa;
    mdhn:isPartOf  mdhn:Folklore_Epic_or_Mythology ;
    mdhn:charactersInvolved mdhn:Safiad_din_Ardabili, mdhn:Ismail_Safavid_I, mdhn:Tahmasp_Safavid_I, mdhn:Ismail_Safavid_II , mdhn:Abbas_the_Great;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q18234383" .           
+   mdhn:wikiDataEntity wd:Q18234383 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q18234383" .
 
 mdhn:Tahmasb_I_Safavid_Enthroned a mdhn:NarrativeEpisode ;
     rdfs:label "Tahmasp I Enthroned"@en , "بر تخت نشستن شاه طهماسپ اول"@fa ;
@@ -654,37 +667,38 @@ mdhn:Iskandar_Slays_a_Dragon a mdhn:NarrativeEpisode ;
    mdhn:icWikiDataURL "" .   
 
 
-
 mdhn:Siamak_Was_Slayin_By_Div a mdhn:NarrativeEpisode ;
     rdfs:label "Siamak Was Slayin By Div"@en , "کشته شدن سيامک به دست ديو"@fa ;
-    skos:exactMatch mdhn:aat300185692 ;
     mdhn:isPartOf mdhn:Kingdom_of_Keyumars ;
     mdhn:charactersInvolved mdhn:Siamak , mdhn:Black_Div_Slayer_Of_Siamak;
     mdhn:startVerse 29;
     mdhn:endVerse 36;     
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923384" .   
+    mdhn:wikiDataEntity wd:Q139923384 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923384" .
 
 mdhn:Hushang_Fight_Black_Div a mdhn:NarrativeEpisode ;
     rdfs:label "Hushang and Keyumars went to Fight the Black Div"@en , "انتقام خون سيامک به دست هوشنگ"@fa ;
-    skos:exactMatch mdhn:aat300185692 ;
     mdhn:isPartOf mdhn:Kingdom_of_Keyumars ;
     mdhn:charactersInvolved mdhn:Hushang, mdhn:Keyumars, mdhn:Siamak, mdhn:Black_Div_Slayer_Of_Siamak;;
     mdhn:startVerse 51;
     mdhn:endVerse 68;      
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138757163" .       
+    mdhn:wikiDataEntity wd:Q138757163 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138757163" .
 
 mdhn:Kingdom_of_Hushang a mdhn:NarrativeEpisode ;
    rdfs:label "Kingdom of Hushang"@en, "پادشاهی هوشنگ"@fa;
    rdfs:comment "a mythical kingdom ruled by Hushang in Persian mythology" ;
    mdhn:isPartOf mdhn:Shahnameh ;
    mdhn:charactersInvolved  mdhn:Hushang;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138720021" .   
+   mdhn:wikiDataEntity wd:Q138720021 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138720021" .
 
 mdhn:Hushang_Enthroned a mdhn:NarrativeEpisode;
    rdfs:label "Hushang enthroned"@en, "بر تخت نشستن هوشنگ"@fa;
    mdhn:isPartOf mdhn:Kingdom_of_Hushang ;
    mdhn:characterInvolved mdhn:Hushang;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923413" . 
+   mdhn:wikiDataEntity wd:Q139923413 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923413" .
 
 mdhn:Feast_of_Sada a mdhn:NarrativeEpisode;
    rdfs:label "Feast of Sada"@en, "جشن سده"@fa;
@@ -696,8 +710,8 @@ mdhn:Esfandiyar_Slays_Nowzar a mdhn:NarrativeEpisode;
    rdfs:label "Esfandiyar Slays Nowzar"@en, "کشته شدن نوذر به دست اسفنديار"@fa;
    mdhn:isPartOf  mdhn:KingdomOfNauzar ;
    mdhn:characterInvolved mdhn:Esfandiyar, mdhn:Nowzar;
+   mdhn:wikiDataEntity wd:Q140030291 ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140030291" .
-
 
 
 mdhn:Kingdom_of_Kay_Qubad a mdhn:NarrativeEpisode ;
@@ -723,7 +737,8 @@ mdhn:Kingdom_of_Kay_Kavus a mdhn:NarrativeEpisode ;
    rdfs:comment "a mythical kingdom ruled by Kay Kāvus in Persian mythology" ;
    mdhn:isPartOf mdhn:Shahnameh ;
    mdhn:charactersInvolved  mdhn:Kay_Kavus, mdhn:Rostam, mdhn:Siyavash, mdhn:Arzhang_Div ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466974" . 
+   mdhn:wikiDataEntity wd:Q40466974 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466974" .
 
 mdhn:Kay_Kavus_And_KayKhosrow a mdhn:NarrativeEpisode ;
    rdfs:label "Kay Kavus And KayKhosrow"@en, "کيکاووس و کيخسرو"@fa;
@@ -755,12 +770,12 @@ mdhn:Rustam_Slays_White_Elephant a mdhn:NarrativeEpisode ;
    mdhn:icWikiDataURL "" . 
 
 
-
 mdhn:Rostams_First_Labour a mdhn:NarrativeEpisode ;
    rdfs:label "Rostam's 1st Labour"@en, "خوان اول رستم نبرد رخش با شیر"@fa;
    mdhn:isPartOf mdhn:Rostams_Seven_Labours ;
    mdhn:charactersInvolved  mdhn:Rakhsh, mdhn:Rostam ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .   
+   mdhn:wikiDataEntity wd:Q138585485 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .
 
 mdhn:Rostams_Second_Labour a mdhn:NarrativeEpisode ;
    rdfs:label "Rostam's Second Labour"@en, ""@fa;
@@ -772,7 +787,8 @@ mdhn:Rostams_Third_Labour a mdhn:NarrativeEpisode ;
    rdfs:label "Rostam's Third Labour"@en, ""@fa;
    mdhn:isPartOf mdhn:Rostams_Seven_Labours ;
    mdhn:charactersInvolved  mdhn:Rakhsh, mdhn:Rostam , mdhn:Dragon;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .  
+   mdhn:wikiDataEntity wd:Q138585485 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .
 
 mdhn:Rostams_Fourth_Labour a mdhn:NarrativeEpisode ;
    rdfs:label "Rostam's Fourth Labour"@en, ""@fa;
@@ -784,7 +800,8 @@ mdhn:Rostams_Fiveth_Labour a mdhn:NarrativeEpisode ;
    rdfs:label "Rostam's Fiveth Labour"@en, ""@fa;
    mdhn:isPartOf mdhn:Rostams_Seven_Labours ;
    mdhn:charactersInvolved  mdhn:Rakhsh, mdhn:Rostam ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .  
+   mdhn:wikiDataEntity wd:Q138585485 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .
 
    mdhn:Rostams_Sixth_Labour a mdhn:NarrativeEpisode ;
    rdfs:label "Rostam's Sixth Labour"@en, ""@fa;
@@ -796,14 +813,15 @@ mdhn:Rostams_Seventh_Labour a mdhn:NarrativeEpisode ;
    rdfs:label "Rostam's Seventh Labour"@en, ""@fa;
    mdhn:isPartOf mdhn:Rostams_Seven_Labours ;
    mdhn:charactersInvolved  mdhn:Rakhsh, mdhn:Rostam ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .                      
+   mdhn:wikiDataEntity wd:Q138585485 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138585485" .
 
 mdhn:Accusation_Against_Siyavush a mdhn:NarrativeEpisode;
    rdfs:label "Accusation Against Siyavush"@en, "تهمت خيانت به سياوش"@fa;
    mdhn:isPartOf  mdhn:Kingdom_of_Kay_Kavus, mdhn:Siyavash_Story ;
    mdhn:characterInvolved mdhn:Siyavash , mdhn:Sudabeh;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140366903" . 
-
+   mdhn:wikiDataEntity wd:Q140366903 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140366903" .
 
 
    
@@ -812,14 +830,16 @@ mdhn:Siyavush_and_Rustem_Capture_Balkh a mdhn:NarrativeEpisode;
    rdfs:label "Siyavush and Rustem Capture Balkh"@en, "تصرف بلخ توسط سياوش و رستم"@fa;
    mdhn:isPartOf  mdhn:Siyavash_Story ;
    mdhn:characterInvolved mdhn:Siyavash , mdhn:Rostam;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140367004" .        
+   mdhn:wikiDataEntity wd:Q140367004 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140367004" .
 
 
 mdhn:Siyavush_in_Hunting a mdhn:NarrativeEpisode;
    rdfs:label "Siyavush in Hunting"@en, "سياوش در شکار "@fa;
    mdhn:isPartOf  mdhn:Kingdom_of_Kay_Kavus, mdhn:Siyavash_Story;
    mdhn:characterInvolved mdhn:Siyavash, mdhn:Afrasiab;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140366887" .  
+   mdhn:wikiDataEntity wd:Q140366887 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140366887" .
 
 mdhn:The_Fire_Trial_of_Siyavush a mdhn:NarrativeEpisode;
    rdfs:label "The Fire Trial of Siyavush"@en, "سياوش در آتش"@fa;
@@ -831,7 +851,8 @@ mdhn:Mourning_of_Siyavash a mdhn:NarrativeEpisode;
    rdfs:label "Mourning of Siyavash"@en, "سوگ سياوش"@fa;
    mdhn:isPartOf  mdhn:Siyavash_Story ;
    mdhn:characterInvolved mdhn:Siyavash;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5963952" .    
+   mdhn:wikiDataEntity wd:Q5963952 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5963952" .
 
 mdhn:Rostam_and_Pilsam a mdhn:NarrativeEpisode;
    rdfs:label "Rostam_and_Pilsam"@en, "داستان رستم و پيلسم"@fa;
@@ -846,7 +867,8 @@ mdhn:Hushang_In_Feast_Of_Sada a mdhn:NarrativeEpisode;
    rdfs:label "The Feast of Sada"@en, "جشن سده"@fa;
    mdhn:isPartOf mdhn:Kingdom_of_Hushang ;
    mdhn:characterInvolved mdhn:Hushang;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138757360" . 
+   mdhn:wikiDataEntity wd:Q138757360 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138757360" .
 
 
 mdhn:Story_of_Moses a mdhn:NarrativeEpisode ;
@@ -869,10 +891,7 @@ mdhn:Staff_becomes_Serpent a mdhn:NarrativeEpisode ;
     mdhn:charactersInvolved mdhn:Moses ,
                             mdhn:Harun ,
                             mdhn:Pharaoh ;    
-    mdhn:isPartOf mdhn:Christian_Mythology, mdhn:Jewish_Mythology, mdhn:Story_of_Moses, mdhn:Qisas_al_Anbiya;
-    skos:exactMatch   mdhn:iconclass71E1164 ;
-    skos:relatedMatch mdhn:iconclass71E11641 ;
-    skos:relatedMatch wd:Q9077 .                  # Moses    
+    mdhn:isPartOf mdhn:Christian_Mythology, mdhn:Jewish_Mythology, mdhn:Story_of_Moses, mdhn:Qisas_al_Anbiya.
 
 mdhn:Moses_and_the_Seventy_Elders a mdhn:NarrativeEpisode ;
     rdfs:label "Moses and the Seventy Elders hearing the voice of God"@en ,
@@ -886,10 +905,7 @@ mdhn:Moses_and_the_Seventy_Elders a mdhn:NarrativeEpisode ;
     narrative sources, and is notably illustrated in the Jāmiʿ al-Tawārīkh of Rashīd al-Dīn."""@en ;    
     mdhn:icWikiDataURL "" ;   # no direct Wikidata item for this specific episode    
     mdhn:charactersInvolved mdhn:Moses ;
-    mdhn:isPartOf mdhn:Story_of_Moses, mdhn:Qisas_al_Anbiya ;          # or a more specific Moses cycle if you create one    
-    skos:exactMatch   mdhn:iconclass71E1_MosesSeventyElders ;
-    skos:relatedMatch mdhn:iconclass71E1 ;
-    skos:relatedMatch wd:Q9077 .  
+    mdhn:isPartOf mdhn:Story_of_Moses, mdhn:Qisas_al_Anbiya .          # or a more specific Moses cycle if you create one    
 
 mdhn:Finding_of_Moses a mdhn:NarrativeEpisode ;
     rdfs:label "Finding of Moses"@en ,
@@ -905,10 +921,7 @@ mdhn:Finding_of_Moses a mdhn:NarrativeEpisode ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q19897958" ;  # or leave empty if preferred    
     mdhn:charactersInvolved mdhn:Moses ,
                             mdhn:Pharaohs_Daughter ;   # create later if needed    
-    mdhn:isPartOf mdhn:Story_of_Moses, mdhn:Qisas_al_Anbiya;
-    skos:exactMatch   mdhn:iconclass71E1124 ;
-    skos:relatedMatch mdhn:iconclass71E1 ;
-    skos:relatedMatch wd:Q9077 .   
+    mdhn:isPartOf mdhn:Story_of_Moses, mdhn:Qisas_al_Anbiya.
 
 mdhn:Jonah_under_the_Gourd a mdhn:NarrativeEpisode ;
     rdfs:label "Jonah under the Gourd Plant"@en ,
@@ -923,10 +936,7 @@ mdhn:Jonah_under_the_Gourd a mdhn:NarrativeEpisode ;
     The scene is part of both Biblical and Islamic prophetic cycles."""@en ;    
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q2468262" ;   # no single stable Wikidata item for this specific episode    
     mdhn:charactersInvolved mdhn:Jonah ;    
-    mdhn:isPartOf mdhn:Christian_Mythology, mdhn:Qisas_al_Anbiya;
-    skos:exactMatch   mdhn:iconclass71V42 ;
-    skos:relatedMatch mdhn:iconclass71V ;
-    skos:relatedMatch wd:Q2468262 .                  # Jonah        
+    mdhn:isPartOf mdhn:Christian_Mythology, mdhn:Qisas_al_Anbiya.
 
 mdhn:Story_of_Ibrahim a mdhn:NarrativeEpisode ;
    rdfs:label "Story of Ibrahim"@en, "داستان ابراهيم"@fa;
@@ -955,11 +965,9 @@ mdhn:Story_of_Seven_sleepers_of_Ephesus a mdhn:NarrativeEpisode ;
     Muslim tradition sometimes locates the cave in Toyug (Central Asia) rather than Ephesus. 
     The scene is frequently illustrated in both Christian and Islamic manuscript painting."""@en ;
     mdhn:saidToBeTheSameAs wd:Q4071833;    
-    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q466973" ;      
-    mdhn:isPartOf mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology ;
-    skos:exactMatch   mdhn:iconclass11H_SevenSleepers ;
-    skos:relatedMatch mdhn:iconclass_Ashab_al_Kahf ;
-    skos:relatedMatch wd:Q466973 .
+    mdhn:wikiDataEntity wd:Q466973 ;
+    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q466973" ;
+    mdhn:isPartOf mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology .
 
 mdhn:Jurjis_led_to_the_King_of_Mosul a mdhn:NarrativeEpisode ;
     rdfs:label "Jurjis led to the King of Mosul"@en ,
@@ -973,10 +981,7 @@ mdhn:Jurjis_led_to_the_King_of_Mosul a mdhn:NarrativeEpisode ;
     Jāmiʿ al-Tawārīkh of Rashīd al-Dīn."""@en ;    
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q48438" ;  # Saint George (closest stable identity)    
     mdhn:charactersInvolved mdhn:Saint_George ;    
-    mdhn:isPartOf mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology ;
-    skos:exactMatch   mdhn:iconclass_Jurjis_led_to_King ;
-    skos:relatedMatch mdhn:iconclass11H_George ;
-    skos:relatedMatch wd:Q48438 .    
+    mdhn:isPartOf mdhn:Christian_Mythology, mdhn:Islamic_Mythology, mdhn:Jewish_Mythology .
 
 
 mdhn:Birth_of_the_Prophet_Muhammad a mdhn:NarrativeEpisode ;
@@ -992,14 +997,11 @@ mdhn:Birth_of_the_Prophet_Muhammad a mdhn:NarrativeEpisode ;
     iconography while remaining within the Islamic narrative tradition."""@en ;    
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q9458" ;  # Muhammad (person)    
     mdhn:charactersInvolved mdhn:Muhammad ,mdhn:Aminah ;    
-    mdhn:isPartOf mdhn:Islamic_Stories ;    
-    skos:exactMatch   mdhn:iconclass_Birth_of_Muhammad ;
-    skos:relatedMatch wd:Q9458 .    
+    mdhn:isPartOf mdhn:Islamic_Stories .    
 
 mdhn:Story_of_David a mdhn:NarrativeEpisode ;
    rdfs:label "Story of David"@en, "داستان داوود نبی"@fa;
    mdhn:charactersInvolved mdhn:David;
-   skos:closeMatch iconclass:71H;
    mdhn:isPartOf  mdhn:Christian_Mythology, mdhn:Jewish_Mythology, mdhn:Islamic_Mythology ;
    mdhn:icWikiDataURL "" .     
 
@@ -1008,7 +1010,6 @@ mdhn:Story_of_Joshua a mdhn:NarrativeEpisode ;
    mdhn:charactersInvolved mdhn:Joshua;
    mdhn:isPartOf  mdhn:Christian_Mythology, mdhn:Jewish_Mythology, mdhn:Islamic_Mythology ;
    mdhn:icWikiDataURL "" .    
-
 
 
 mdhn:A_man_who_questioned_how_God_bring_a_ruined_city_back a mdhn:NarrativeEpisode ;
@@ -1044,12 +1045,8 @@ mdhn:Story_of_Samson a mdhn:NarrativeEpisode ;
         
 
 
-
-
-
-
 mdhn:Kolliat_of_Saadi a mdhn:NarrativeEpisode ;
-    skos:relatedMatch mdhn:aat300404746 ;
+    mdhn:wikiDataEntity wd:Q16052478 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q16052478" ;
     dcterms:created "656 AH / 1258 CE" ;
     mdhn:isPartOf mdhn:Folklore_Epic_or_Mythology ;
@@ -1057,18 +1054,14 @@ mdhn:Kolliat_of_Saadi a mdhn:NarrativeEpisode ;
     rdfs:label "Kolliyat-e Saadi"@en , "کليات سعدی"@fa .
 
 
-
-
-
 mdhn:Bustan_of_Saadi a mdhn:NarrativeEpisode ;
-    skos:relatedMatch mdhn:aat300404746 ;
+    mdhn:wikiDataEntity wd:Q446972 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q446972" ;
     dcterms:created "655 AH / 1257 CE" ;
     mdhn:isPartOf mdhn:Folklore_Epic_or_Mythology, mdhn:Kolliat_of_Saadi ;
     mdhn:charactersInvolved mdhn:Saadi_Shirazi ;
     rdfs:comment """The Bustan (Bostan, 'Orchard'), also called Saadi-nama in early sources, is the moral mathnawi of Saadi of Shiraz, completed in 655/1257 and dedicated to the Salghurid Atabeg Abu Bakr b. Sa'd of Fars. About 4,100 couplets in mutaqarib metre. After a long preamble the poem is arranged in ten chapters (bab) named by Saadi himself in the preface. Each bab mixes counsel with independent hikayat. Composed one year before the Golestan."""@en ;
     rdfs:label "Bustan of Saadi"@en , "بوستان سعدی"@fa .
-
 
 
 ### Preface (دیباچه)
@@ -1325,9 +1318,8 @@ mdhn:Bustan_Closing_Munajat a mdhn:NarrativeEpisode ;
     mdhn:icWikiDataURL "" .
 
 
-
 mdhn:Golestan_of_Saadi a mdhn:NarrativeEpisode ;
-    skos:relatedMatch mdhn:aat300404746 ;
+    mdhn:wikiDataEntity wd:Q404191 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q404191" ;
     dcterms:created "656 AH / 1258 CE" ;
     mdhn:isPartOf mdhn:Folklore_Epic_or_Mythology,mdhn:Kolliat_of_Saadi ;
@@ -1599,7 +1591,7 @@ mdhn:Golestan_Debate_with_the_Claimant a mdhn:NarrativeEpisode ;
 
 
 mdhn:Shahnameh a mdhn:NarrativeEpisode ;
-    skos:closeMatch mdhn:aat300404209 ;
+    mdhn:wikiDataEntity wd:Q8279 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q8279" ;
     mdhn:isPartOf  mdhn:Persian_Epic_and_Mythology, mdhn:Islamic_Mythology  ;
     dcterms:created "c. 1010" ;
@@ -1615,6 +1607,7 @@ mdhn:Kingdom_of_Jamshid a mdhn:NarrativeEpisode ;
     rdfs:label "Kingdom of Jamshid"@en , "پادشاهی جمشید"@fa ;
     mdhn:isPartOf mdhn:Shahnameh ;
     mdhn:charactersInvolved mdhn:Jamshid ;
+    mdhn:wikiDataEntity wd:Q40466996 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466996" .
 
 mdhn:Jamshid_Enthroned a mdhn:NarrativeEpisode ;
@@ -1640,6 +1633,7 @@ mdhn:Pride_and_Fall_of_Jamshid a mdhn:NarrativeEpisode ;
 mdhn:KingdomOfTahmuras a mdhn:NarrativeEpisode;
    rdfs:label "The Kingdom of Tahmuras"@en, "پادشاهی طهمورث"@fa;
    mdhn:isPartOf mdhn:Shahnameh ;
+   mdhn:wikiDataEntity wd:Q138676359 ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138676359" .
 
 mdhn:Tahmuras_Enthroned a mdhn:NarrativeEpisode ;
@@ -1653,7 +1647,8 @@ mdhn:Tahmuras_Defeating_the_Divs a mdhn:NarrativeEpisode ;
    rdfs:comment "a scene depicting Tahmuras defeating the divs" ;
    mdhn:isPartOf mdhn:KingdomOfTahmuras ;
    mdhn:charactersInvolved mdhn:Tahmuras;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138676508" .        
+   mdhn:wikiDataEntity wd:Q138676508 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138676508" .
 
 # Existing live-file scenes: they are ZahhakStory, but they happen BEFORE
 # Zahhak sits on the Iranian throne, so their reign parent is Jamshid.
@@ -1673,7 +1668,8 @@ mdhn:ZahhakKillsHisOwnFather a mdhn:NarrativeEpisode;
    mdhn:isPartOf mdhn:ZahhakStory, mdhn:Kingdom_of_Jamshid ;
    mdhn:charactersInvolved mdhn:Zahhak, mdhn:Mirdas, mdhn:Iblis;
     rdfs:comment "Mardas is killed in Arabia while Jamshid is still shah of Iran."@en ;     
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138841520" . 
+   mdhn:wikiDataEntity wd:Q138841520 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138841520" .
 
  
 
@@ -1681,31 +1677,36 @@ mdhn:Ahriman_kiss_Zahhak_on_his_shoulders a mdhn:NarrativeEpisode;
    rdfs:label "Ahriman asks to kiss Zahhak on his two shoulders"@en, "بوسه اهريمن بر شانه‌های ضحاک"@fa;
    mdhn:isPartOf mdhn:ZahhakStory ;
    mdhn:charactersInvolved mdhn:Zahhak, mdhn:Iblis;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925586" .    
+   mdhn:wikiDataEntity wd:Q139925586 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925586" .
 
 mdhn:Zahhak_Enthroned a mdhn:NarrativeEpisode;
    rdfs:label "Zahhak Enthroned"@en, "بر تخت نشستن ضحاک"@fa;
    mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory ;
    mdhn:charactersInvolved mdhn:Zahhak;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925814" .     
+   mdhn:wikiDataEntity wd:Q139925814 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925814" .
  
 
 mdhn:Zahhak_and_Daughters_of_Jamshid a mdhn:NarrativeEpisode;
    rdfs:label "Zahhak Receives the Daughters of Jamshid"@en, "دختران جمشيد در بارگاه ضحاک"@fa;
    mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory ;
    mdhn:charactersInvolved mdhn:Jamshid, mdhn:Zahhak, mdhn:Shahrnaz, mdhn:Arnavaz;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138841381" . 
+   mdhn:wikiDataEntity wd:Q138841381 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138841381" .
   
  
 mdhn:ZahhakStory a mdhn:NarrativeEpisode;
    rdfs:label "The Story of Zahhak"@en, "داستان ضحاک"@fa;
    mdhn:isPartOf mdhn:Kingdom_of_Jamshid, mdhn:KingdomOfZahhak ;
+   mdhn:wikiDataEntity wd:Q139923562 ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923562" .
 
 mdhn:KingdomOfZahhak a mdhn:NarrativeEpisode;
    rdfs:label "The Kingdom of Zahhak"@en, "پادشاهی ضحاک"@fa;
    mdhn:isPartOf mdhn:ZahhakStory ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466998" .   
+   mdhn:wikiDataEntity wd:Q40466998 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466998" .
 
 
 mdhn:Kingdom_Of_Garshasp a mdhn:NarrativeEpisode ;
@@ -1713,6 +1714,7 @@ mdhn:Kingdom_Of_Garshasp a mdhn:NarrativeEpisode ;
    mdhn:isPartOf mdhn:Shahnameh ;
    rdfs:comment "a mythical kingdom ruled by Garshasp in Persian mythology" ;
    mdhn:charactersInvolved  mdhn:Garshasp ;
+   mdhn:wikiDataEntity wd:Q140479595 ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q140479595" .
 
 
@@ -1739,6 +1741,7 @@ mdhn:Kingdom_of_Manuchehr a mdhn:NarrativeEpisode ;
    mdhn:isPartOf mdhn:Shahnameh ;
    rdfs:comment "a mythical kingdom ruled by Manuchehr in Persian mythology" ;
    mdhn:charactersInvolved  mdhn:Manuchehr;
+   mdhn:wikiDataEntity wd:Q40466994 ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .
 
  
@@ -1764,6 +1767,7 @@ mdhn:Kingdom_of_Fereydun a mdhn:NarrativeEpisode ;
    mdhn:isPartOf mdhn:Shahnameh ;
    rdfs:comment "a mythical kingdom ruled by Fereydun in Persian mythology" ;
    mdhn:charactersInvolved  mdhn:Fereydun, mdhn:Salm, mdhn:Tur, mdhn:Zahhak, mdhn:Iraj, mdhn:Manuchehr, mdhn:Farangis, mdhn:Arnavaz, mdhn:Shahrnaz;
+   mdhn:wikiDataEntity wd:Q40466994 ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466994" .
 
 
@@ -1771,13 +1775,15 @@ mdhn:KingdomOfNauzar a mdhn:NarrativeEpisode;
    rdfs:label "The Kingdom of Nauzar"@en, "پادشاهی نوذر"@fa;
    mdhn:isPartOf mdhn:Shahnameh ;
    mdhn:charactersInvolved mdhn:Nauzar, mdhn:Qaran, mdhn:Qubad, mdhn:Barman;
+   mdhn:wikiDataEntity wd:Q40466986 ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q40466986" .
 
 mdhn:Qaran_Slays_Barman a mdhn:NarrativeEpisode;
    rdfs:label "Qaran Slays Barman"@en, "کشته شدن بارمان به دست قاران"@fa;
    mdhn:isPartOf mdhn:KingdomOfNauzar ;
    mdhn:charactersInvolved mdhn:Qaran, mdhn:Barman;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138847591" .  
+   mdhn:wikiDataEntity wd:Q138847591 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138847591" .
 
 mdhn:Barman_Slays_Qubad a mdhn:NarrativeEpisode;
    rdfs:label "Barman Slays Qubad"@en, "کشته شدن قباد به دست بارمان"@fa;
@@ -1797,7 +1803,6 @@ mdhn:Sawing_of_Jamshid a mdhn:NarrativeEpisode ;
     mdhn:icWikiDataURL "" .
 
 
-
 # --- 6. Keyumars -----------------------------------------------------------
 
 mdhn:Kingdom_of_Keyumars a mdhn:NarrativeEpisode ;
@@ -1807,15 +1812,16 @@ mdhn:Kingdom_of_Keyumars a mdhn:NarrativeEpisode ;
    mdhn:startVerse 1;
    mdhn:endVerse 71;   
    mdhn:charactersInvolved mdhn:Keyumars, mdhn:Siamak, mdhn:Hushang;
+   mdhn:wikiDataEntity wd:Q138719971 ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138719971" .
 
 mdhn:KeyumarsEnthroned a mdhn:NarrativeEpisode ;
     rdfs:label "Keyumars Enthroned"@en , "بر تخت نشستن کيومرث"@fa ;
-    skos:exactMatch mdhn:aat300185692 ;
     mdhn:charactersInvolved mdhn:Keyumars, mdhn:Siamak;
     mdhn:isPartOf mdhn:Kingdom_of_Keyumars ;
     mdhn:startVerse 6;
     mdhn:endVerse 13;      
+    mdhn:wikiDataEntity wd:Q139923350 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139923350" .
 # --- 6. Fereydun -----------------------------------------------------------
 
@@ -1842,6 +1848,7 @@ mdhn:The_Nightmare_of_Zahhak a mdhn:NarrativeEpisode;
    rdfs:label "The Nightmare of Zahhak"@en, "کابوس شبانه ضحاک"@fa;
    mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory;
    mdhn:charactersInvolved mdhn:Zahhak;
+   mdhn:wikiDataEntity wd:Q139925865 ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925865" .
 
 
@@ -1849,13 +1856,15 @@ mdhn:Zahhak_slays_the_sacred_cow_Barmayah a mdhn:NarrativeEpisode;
    rdfs:label "Zahhak slays the sacred cow Barmayah"@en, "کشته شدن برمايه به دست ضحاک"@fa;
    mdhn:isPartOf mdhn:ZahhakStory, mdhn:Story_of_the_Rise_of_Fereydun;
    mdhn:charactersInvolved mdhn:Zahhak, mdhn:Barmayeh;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925920" . 
+   mdhn:wikiDataEntity wd:Q139925920 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139925920" .
 
 mdhn:The_Mobad_interprets_Zahhak_Nightmare a mdhn:NarrativeEpisode;
    rdfs:label "The Mobad interprets Zahhak's Nightmare"@en, "مباد کابوس ضحاک را تعبير می کند"@fa;
    mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory ;
    mdhn:charactersInvolved mdhn:Zahhak, mdhn:Fereydun;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139926288" .  
+   mdhn:wikiDataEntity wd:Q139926288 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139926288" .
 
 mdhn:Story_Of_The_Kaveh_the_Blacksmith a mdhn:NarrativeEpisode ;
     rdfs:label "Kaveh the Blacksmith before Zahhak"@en , "کاوه آهنگر در برابر ضحاک"@fa ;
@@ -1876,21 +1885,24 @@ mdhn:Fereydun_Crosses_the_River_Dijla a mdhn:NarrativeEpisode ;
    rdfs:comment "a scene depicting Fereydun crossing the River Dijla" ;
    mdhn:isPartOf mdhn:Kingdom_of_Fereydun, mdhn:Story_of_the_Rise_of_Fereydun  ;
    mdhn:charactersInvolved mdhn:Fereydun;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138713073" . 
+   mdhn:wikiDataEntity wd:Q138713073 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138713073" .
 
 
 mdhn:Fereydun_Strikes_Down_Zahhak a mdhn:NarrativeEpisode;
    rdfs:label "Fereydun Strikes Down Zahhak"@en, "براندازی ضحاک توسط فريدون"@fa;
    mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory , mdhn:Kingdom_of_Fereydun, mdhn:Story_of_the_Rise_of_Fereydun  ;
    mdhn:charactersInvolved mdhn:Zahhak, mdhn:Fereydun;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138713256" .  
+   mdhn:wikiDataEntity wd:Q138713256 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138713256" .
 
 
 mdhn:Chaining_Zahhak_on_Mount_Damavand a mdhn:NarrativeEpisode;
    rdfs:label "Chaining Zahhak on Mount Damavand"@en, "به بند کشيدن ضحاک در دماوند"@fa;
    mdhn:isPartOf mdhn:KingdomOfZahhak , mdhn:ZahhakStory , mdhn:Kingdom_of_Fereydun, mdhn:Story_of_the_Rise_of_Fereydun  ;
    mdhn:charactersInvolved mdhn:Zahhak, mdhn:Fereydun;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138715711" .  
+   mdhn:wikiDataEntity wd:Q138715711 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138715711" .
 
 mdhn:Fereydun_and_the_Cow_Headed_Mace a mdhn:NarrativeEpisode ;
     rdfs:label "Fereydun Orders the Cow-Headed Mace"@en , "گرز گاوسر فریدون"@fa ;
@@ -1929,7 +1941,8 @@ mdhn:The_Court_of_Faridun a mdhn:NarrativeEpisode;
    rdfs:label "The Court of Faridun"@en, "بارگاه فريدون"@fa;
    mdhn:isPartOf mdhn:Kingdom_of_Fereydun, mdhn:Kingdom_of_Fereydun  ;
    mdhn:charactersInvolved mdhn:Fereydun, mdhn:Faranak;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138821815".  
+   mdhn:wikiDataEntity wd:Q138821815 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138821815" .
 
 # --- Movement II. Story of Iraj (already declared). Add the missing scenes.
 
@@ -1939,7 +1952,6 @@ mdhn:Birth_of_Salm_Tur_and_Iraj a mdhn:NarrativeEpisode ;
     mdhn:isPartOf mdhn:Kingdom_of_Fereydun ;
     mdhn:charactersInvolved mdhn:Fereydun , mdhn:Salm , mdhn:Tur , mdhn:Iraj , mdhn:Shahrnaz , mdhn:Arnavaz ;
     mdhn:icWikiDataURL "" .
-
 
 
 mdhn:Sons_of_Fereydun_Go_to_Yemen a mdhn:NarrativeEpisode ;
@@ -2074,6 +2086,7 @@ mdhn:ZalAndRudaba a mdhn:NarrativeEpisode;
    rdfs:label "Zal and Rudaba"@en, "زال و رودابه"@fa;
    mdhn:isPartOf mdhn:Story_of_Zal ;
    mdhn:charactersInvolved mdhn:Zal, mdhn:Rudaba, mdhn:Sam, mdhn:Sindukht, mdhn:Mihrab, mdhn:Manuchihr;
+   mdhn:wikiDataEntity wd:Q5960418 ;
    mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5960418" .
 
 mdhn:Zal_Exposed_on_Mount_Alborz a mdhn:NarrativeEpisode ;
@@ -2111,7 +2124,8 @@ mdhn:RudabaConfesses a mdhn:NarrativeEpisode;
    rdfs:label "Rudaba Coشnfesses to Sindukht"@en, "رودابه در مورد زال در نزد مادر خود اعتراف می کند"@fa;
    mdhn:isPartOf mdhn:ZalAndRudaba ;
    mdhn:charactersInvolved mdhn:Rudaba, mdhn:Sindukht;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138800292" .     
+   mdhn:wikiDataEntity wd:Q138800292 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138800292" .
 
 mdhn:Marriage_of_Zal_and_Rudaba a mdhn:NarrativeEpisode ;
     rdfs:label "Marriage of Zal and Rudaba"@en , "ازدواج زال و رودابه"@fa ;
@@ -2170,7 +2184,8 @@ mdhn:Rostams_Seven_Labours a mdhn:NarrativeEpisode ;
    rdfs:comment "a series of acts carried out by the greatest of the Iranian heroes, Rostam" ;
    mdhn:isPartOf mdhn:RostamStory , mdhn:Kingdom_of_Kay_Kavus ;
    mdhn:charactersInvolved  mdhn:Kay_Kavus, mdhn:Rostam ;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4119480" .       
+   mdhn:wikiDataEntity wd:Q4119480 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4119480" .
 
 mdhn:KayKavus_in_Hamavaran a mdhn:NarrativeEpisode ;
     rdfs:label "Kay Kavus Imprisoned in Hamavaran"@en , "اسارت کاووس در هاماوران"@fa ;
@@ -2194,6 +2209,7 @@ mdhn:Story_of_Sohrab a mdhn:NarrativeEpisode ;
     rdfs:label "Story of Sohrab"@en , "داستان سهراب"@fa ;
     mdhn:isPartOf mdhn:Kingdom_of_Kay_Kavus ;
     mdhn:charactersInvolved mdhn:Rostam ;
+    mdhn:wikiDataEntity wd:Q4348644 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q4348644" .
 
 mdhn:Rostam_and_Tahmineh a mdhn:NarrativeEpisode ;
@@ -2298,6 +2314,7 @@ mdhn:Story_of_Bizhan_and_Manizheh a mdhn:NarrativeEpisode ;
     rdfs:label "Story of Bizhan and Manizheh"@en , "داستان بیژن و منیژه"@fa ;
     mdhn:isPartOf mdhn:Kingdom_of_KayKhosrow ;
     mdhn:charactersInvolved mdhn:Bizhan , mdhn:Giv , mdhn:Rostam , mdhn:KayKhosrow ;
+    mdhn:wikiDataEntity wd:Q5959876 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5959876" .
 
 
@@ -2305,7 +2322,8 @@ mdhn:Bizhan_Slaughters_the_Wild_Boars_of_Irman a mdhn:NarrativeEpisode;
    rdfs:label "Bizhan Slaughters the Wild Boars of Irman"@en, "کشته شدن گرازهای وحشی ایرمن به دست بیژان"@fa;
    mdhn:isPartOf mdhn:Story_of_Bizhan_and_Manizheh, mdhn:Kingdom_of_KayKhosrow  ;
    mdhn:charactersInvolved mdhn:Bizhan, mdhn:Giv, mdhn:Boar;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138863131" . 
+   mdhn:wikiDataEntity wd:Q138863131 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138863131" .
 
 
 mdhn:Bizhan_Meets_Manizheh a mdhn:NarrativeEpisode ;
@@ -2330,44 +2348,51 @@ mdhn:DavazdahRokh a mdhn:NarrativeEpisode;
    rdfs:label "Davazdah Rokh"@en, "دوازده رخ"@fa;
    mdhn:isPartOf mdhn:Kingdom_of_KayKhosrow ;
    mdhn:charactersInvolved mdhn:KayKhosrow, mdhn:Goudarz, mdhn:Afrasiab, mdhn:Fariburz, mdhn:Colbad_Viseh, mdhn:Giv, mdhn:Goruye_Zereh, mdhn:Garazeh, mdhn:Siamak_Turani, mdhn:Ferehoul, mdhn:Zangaleh, mdhn:Roham, mdhn:BarmanTuranied;   
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5935469".
+   mdhn:wikiDataEntity wd:Q5935469 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q5935469" .
 
 
 mdhn:FirsthRokh a mdhn:NarrativeEpisode;
    rdfs:label "First Rokh"@en, "رخ اول. رويارويی فريبرز و کلباد ويسه"@fa;
    mdhn:isPartOf mdhn:DavazdahRokh, mdhn:Kingdom_of_KayKhosrow ;
    mdhn:charactersInvolved mdhn:Fariburz, mdhn:Colbad_Viseh;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138949719".
+   mdhn:wikiDataEntity wd:Q138949719 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138949719" .
 
 mdhn:SecondRokh a mdhn:NarrativeEpisode;
    rdfs:label "Second Rokh"@en, "رخ دوم. رويارويی گيو و گروی زره"@fa;
    mdhn:isPartOf mdhn:DavazdahRokh, mdhn:Kingdom_of_KayKhosrow ;
    mdhn:charactersInvolved mdhn:Giv, mdhn:Goruye_Zereh;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138949919".    
+   mdhn:wikiDataEntity wd:Q138949919 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138949919" .
 
 mdhn:ThirdRokh a mdhn:NarrativeEpisode;
    rdfs:label "Third Rokh"@en, "رخ سوم. رويارويی گرازه و سيامک تورانی"@fa;
    mdhn:isPartOf mdhn:DavazdahRokh, mdhn:Kingdom_of_KayKhosrow ;
    mdhn:charactersInvolved mdhn:Garazeh, mdhn:Siamak_Turani;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138963595".   
+   mdhn:wikiDataEntity wd:Q138963595 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138963595" .
 
 mdhn:FourthRokh a mdhn:NarrativeEpisode;
    rdfs:label "Fourth Rokh"@en, "رخ چهارم. رويارويی فرهول و زنگله"@fa;
    mdhn:isPartOf mdhn:DavazdahRokh, mdhn:Kingdom_of_KayKhosrow ;
    mdhn:charactersInvolved mdhn:Ferehoul, mdhn:Zangaleh;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138964109".  
+   mdhn:wikiDataEntity wd:Q138964109 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138964109" .
 
 mdhn:FifthRokh a mdhn:NarrativeEpisode;
    rdfs:label "Fifth Rokh"@en, "رخ پنجم. رويارويی رهام و بارمان"@fa;
    mdhn:isPartOf mdhn:DavazdahRokh, mdhn:Kingdom_of_KayKhosrow ;
    mdhn:charactersInvolved mdhn:Roham, mdhn:BarmanTuranied;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138964110".  
+   mdhn:wikiDataEntity wd:Q138964110 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q138964110" .
 
 mdhn:SeventhRokh a mdhn:NarrativeEpisode;
    rdfs:label "Seventh Rokh"@en, "رخ هفتم. رويارويی هجير و سپهرام"@fa;
    mdhn:isPartOf mdhn:DavazdahRokh, mdhn:Kingdom_of_KayKhosrow ;
    mdhn:charactersInvolved mdhn:Hojir, mdhn:Sepahram;
-   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139072642".     
+   mdhn:wikiDataEntity wd:Q139072642 ;
+   mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q139072642" .
 
 mdhn:SixthRokh a mdhn:NarrativeEpisode ;
     rdfs:label "Sixth Rokh"@en , "رخ ششم"@fa ;
@@ -2413,8 +2438,6 @@ mdhn:Kay_Khosrow_Disappears a mdhn:NarrativeEpisode ;
     mdhn:icWikiDataURL "" .
 
 
-
-
 # --- 15. Goshtasp ----------------------------------------------------------
 
 mdhn:Kingdom_of_Goshtasp a mdhn:NarrativeEpisode ;
@@ -2433,6 +2456,7 @@ mdhn:Haft_Khan_of_Esfandiyar a mdhn:NarrativeEpisode ;
     rdfs:comment "Nested under Goshtasp. Do not merge with Rostams_Seven_Labours (Kavus)."@en ;
     mdhn:isPartOf mdhn:Story_of_Esfandiyar , mdhn:Kingdom_of_Goshtasp ;
     mdhn:charactersInvolved mdhn:Esfandiyar ;
+    mdhn:wikiDataEntity wd:Q28712571 ;
     mdhn:icWikiDataURL "https://www.wikidata.org/wiki/Q28712571" .
 
 mdhn:Esfandiyar_1st_Labor a mdhn:NarrativeEpisode ;
@@ -2537,9 +2561,6 @@ mdhn:Kingdom_of_Iskandar_Shahnameh a mdhn:NarrativeEpisode ;
     mdhn:isPartOf mdhn:Shahnameh ;
     mdhn:charactersInvolved mdhn:Iskandar_Dhul_Qarnayn ;
     mdhn:icWikiDataURL "" .
-
-
-
 
 
 # ===========================================================================

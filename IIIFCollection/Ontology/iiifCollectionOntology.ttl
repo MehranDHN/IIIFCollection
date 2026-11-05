@@ -1,31 +1,26 @@
 @prefix : <http://example.com/mdhn/> .
-@prefix aat: <https://vocab.getty.edu/aat/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix fhkb: <http://www.example.com/genealogy.owl#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix lcsh: <http://id.loc.gov/authorities/subjects/> .
 @prefix mdhn: <http://example.com/mdhn/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix so: <https://schema.org/> .
 @prefix stardog: <tag:stardog:api:> .
-@prefix tgm: <http://id.loc.gov/vovabulary/graphicMaterials/> .
+@prefix tgm: <http://id.loc.gov/vocabulary/graphicMaterials/> .
 @prefix tgn: <http://vocab.getty.edu/tgn/> .
-@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix iconclass: <https://iconclass.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix fihrist: <https://www.fihrist.org.uk/catalog/> .
 @prefix biblissima: <https://data.biblissima.fr/entity/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dct: <http://purl.org/dc/terms/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix frbr: <http://purl.org/vocab/frbr/core#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 mdhn:IIIFDexirOntology a owl:Ontology ;
     rdfs:label "IIIFDexir Project Ontology"@en ;
@@ -152,8 +147,33 @@ mdhn:DepartedCollection a owl:Class ;
 
 
 mdhn:Iconography a owl:Class ;
-    rdfs:comment "Root class of Iconography" ;
-    rdfs:label "Iconography" .  
+    rdfs:comment "Root class of local iconographic concepts. Dual typed as skos:Concept so SKOS mapping and broader reasoning apply."@en ;
+    rdfs:label "Iconography" ;
+    rdfs:subClassOf skos:Concept .
+
+mdhn:IconographyScheme a skos:ConceptScheme ;
+    rdfs:label "IIIFDexir local iconography"@en ;
+    skos:notation "mdhn-iconography" .
+
+mdhn:AATSubsetScheme a skos:ConceptScheme ;
+    rdfs:label "IIIFDexir AAT subset"@en ;
+    skos:notation "mdhn-aat" .
+
+mdhn:TGMSubsetScheme a skos:ConceptScheme ;
+    rdfs:label "IIIFDexir TGM subset"@en ;
+    skos:notation "mdhn-tgm" .
+
+mdhn:LCSHSubsetScheme a skos:ConceptScheme ;
+    rdfs:label "IIIFDexir LCSH subset"@en ;
+    skos:notation "mdhn-lcsh" .
+
+mdhn:NarrativeScheme a skos:ConceptScheme ;
+    rdfs:label "IIIFDexir narrative episodes"@en ;
+    skos:notation "mdhn-narrative" .
+
+mdhn:AgentScheme a skos:ConceptScheme ;
+    rdfs:label "IIIFDexir agents"@en ;
+    skos:notation "mdhn-agents" .  
 
 #################################################################
 # Iconclass integration
@@ -182,11 +202,12 @@ mdhn:hasIIFDexirRecord a owl:ObjectProperty ;
     owl:inverseOf mdhn:hasFihristCatalog .     
 
 
-mdhn:hasIconclassBroader a owl:ObjectProperty ;
+mdhn:hasIconclassBroader a owl:ObjectProperty, owl:TransitiveProperty ;
     rdfs:label "has Iconclass broader"@en ;
     rdfs:comment "Local hierarchical link parallel to mdhn:hasAATBroader. Used inside iconclass_hierarchy.ttl."@en ;
     rdfs:domain mdhn:IconclassTerm ;
-    rdfs:range mdhn:IconclassTerm .
+    rdfs:range mdhn:IconclassTerm ;
+    rdfs:subPropertyOf skos:broader .
 
 mdhn:iconclassNotation a owl:DatatypeProperty ;
     rdfs:label "Iconclass notation"@en ;
@@ -390,9 +411,9 @@ mdhn:FeaturedSitesOrBuilding a owl:Class ;
     rdfs:subClassOf mdhn:GettyTGN .    
 
 mdhn:AgentialInfo a owl:Class ;
-    rdfs:comment "Agential info based on FHKB and references to wikidata when possible" ;
+    rdfs:comment "Agential info based on FHKB. Align to Wikidata with mdhn:wikiDataEntity (skos:exactMatch), not the display URL mdhn:agentialWikiData."@en ;
     rdfs:label "AgentialInfo" ;
-    rdfs:subClassOf fhkb:Person .
+    rdfs:subClassOf fhkb:Person, skos:Concept .
 
 mdhn:AgentialInfo owl:disjointWith mdhn:GLAMSource ,
                                    mdhn:Creator ,
@@ -405,8 +426,32 @@ mdhn:GLAMSource a owl:Class;
 
 
 mdhn:TemporalInfo a owl:Class ;
-    rdfs:comment "First try to support temporal entity type" ;
-    rdfs:label "TemporalInfo" .
+    rdfs:comment "Temporal description of a DigitalResource. Aligns with CIDOC-CRM E52 Time-Span. Year-only Date metadata still maps here via mdhn:hasTemporal; structured collection JSON E52TimeSpan objects map to mdhn:E52TimeSpan."@en ;
+    rdfs:label "TemporalInfo"@en , "اطلاعات زمانی"@fa ;
+    rdfs:subClassOf crm:E52_Time-Span .
+
+mdhn:E52TimeSpan a owl:Class ;
+    rdfs:comment "CIDOC-CRM E52 Time-Span as stored on collection manifests (metadata label E52TimeSpan). Outer bounds use P82a begin-of-the-begin and P82b end-of-the-end, recorded in Gregorian and Hijri calendars in parallel. JSON values are arrays: year only ([\"1893\"]) or year-month-day ([\"1889\", \"07\", \"13\"])."@en ;
+    rdfs:label "E52 Time-Span"@en , "بازه زمانی E52"@fa ;
+    rdfs:subClassOf mdhn:TemporalInfo .
+
+mdhn:Calendar a owl:Class ;
+    rdfs:comment "A calendar system used to encode one bound of an E52 Time-Span. IIIFDexir records Gregorian and Hijri (Islamic lunar) in parallel."@en ;
+    rdfs:label "Calendar"@en , "گاه‌شماری"@fa .
+
+mdhn:GregorianCalendar a mdhn:Calendar ;
+    rdfs:label "Gregorian calendar"@en , "گاه‌شماری میلادی"@fa ;
+    skos:exactMatch wd:Q12138 .
+
+mdhn:HijriCalendar a mdhn:Calendar ;
+    rdfs:comment "Islamic lunar calendar (AH). Collection JSON conversion uses tabular Kuwaiti JD-1 so 13 July 1889 is 14 Dhu al-Qi'dah 1306."@en ;
+    rdfs:label "Hijri calendar"@en , "گاه‌شماری هجری قمری"@fa ;
+    skos:exactMatch wd:Q28892 .
+
+mdhn:CalendarDate a owl:Class ;
+    rdfs:comment "One bound of an E52 Time-Span in a single calendar. Encodes one E52TimeSpan JSON array. Year is required; month and day are optional. Corresponds to CIDOC-CRM E61 Time Primitive."@en ;
+    rdfs:label "Calendar date"@en , "تاریخ تقویمی"@fa ;
+    rdfs:subClassOf crm:E61_Time_Primitive .
 
 mdhn:ParticipantRole a owl:Class ;
     rdfs:comment "Roles Participated by Involver in Digital Resource" ;
@@ -476,7 +521,8 @@ mdhn:elementHasSubject a owl:ObjectProperty ;
 mdhn:elementDepicts a owl:ObjectProperty ; 
     rdfs:domain mdhn:CanvasContentElemet;
     rdfs:range  mdhn:Iconography ;
-    rdfs:label  "element Depicts"@en .                      
+    rdfs:label  "element Depicts"@en ;
+    owl:propertyChainAxiom ( mdhn:elementDepicts mdhn:hasIconographyBroader ) .                      
 
 mdhn:isPartOf a owl:ObjectProperty, owl:TransitiveProperty ;
     rdfs:comment "Associated narrative episode to which the iconographic entity belongs."@en ;
@@ -485,13 +531,14 @@ mdhn:isPartOf a owl:ObjectProperty, owl:TransitiveProperty ;
     rdfs:range mdhn:NarrativeEpisode . 
 
 mdhn:depicts a owl:ObjectProperty ;
-    rdfs:comment "Links a DigitalResource to the entities it depicts." ;
+    rdfs:comment "Links a DigitalResource or canvas to the iconographic concept it depicts. OWL property chain: depicts o hasIconographyBroader → depicts, so a spear scene also depicts Weapon."@en ;
     rdfs:domain [
         a owl:Class ;
         owl:unionOf ( mdhn:ResourceCanvas mdhn:DigitalResource )
     ] ;    
     rdfs:label "depicts" ;
-    rdfs:range mdhn:Iconography .
+    rdfs:range mdhn:Iconography ;
+    owl:propertyChainAxiom ( mdhn:depicts mdhn:hasIconographyBroader ) .
 
 mdhn:iconographyUsedIn a owl:ObjectProperty ;
     rdfs:comment "Indicates Resources that used this specified Iconography Subject" ;
@@ -937,17 +984,84 @@ mdhn:genreUsedIn a owl:ObjectProperty ;
     owl:inverseOf mdhn:hasDocumentGenre .
 
 mdhn:hasTemporal a owl:ObjectProperty ;
-    rdfs:comment "Links a DigitalResource to Date that is just a year in YYYY formt" ;
+    rdfs:comment "Links a DigitalResource to its temporal description. Prefer mdhn:hasTimeSpan when a structured E52TimeSpan (Gregorian and Hijri P82a/P82b) is present. The collection JSON Date field remains a human-readable year label."@en ;
     rdfs:domain mdhn:DigitalResource ;
-    rdfs:label "hasTemporal" ;
-    rdfs:range mdhn:TemporalInfo .
+    rdfs:label "hasTemporal"@en ;
+    rdfs:range mdhn:TemporalInfo ;
+    rdfs:seeAlso crm:P4_has_time-span .
 
 mdhn:yearOfResourse a owl:ObjectProperty ;
-    rdfs:comment "Associates a year to all resources that relates to it." ;
+    rdfs:comment "Associates a temporal description with the DigitalResources that fall in it. Inverse of mdhn:hasTemporal."@en ;
     rdfs:domain mdhn:TemporalInfo ;
-    rdfs:label "yearOfResourse" ;
+    rdfs:label "yearOfResourse"@en ;
     rdfs:range mdhn:DigitalResource ;
     owl:inverseOf mdhn:hasTemporal .
+
+mdhn:hasTimeSpan a owl:ObjectProperty, owl:FunctionalProperty ;
+    rdfs:comment "Links a DigitalResource to its CIDOC E52 Time-Span. Maps the collection JSON metadata field E52TimeSpan. Local shortcut analogous to crm:P4_has_time-span on the resource's creation or publication."@en ;
+    rdfs:subPropertyOf mdhn:hasTemporal ;
+    rdfs:domain mdhn:DigitalResource ;
+    rdfs:range mdhn:TemporalInfo ;
+    rdfs:label "has time-span"@en , "دارای بازه زمانی"@fa ;
+    rdfs:seeAlso crm:P4_has_time-span .
+
+mdhn:timeSpanOf a owl:ObjectProperty ;
+    rdfs:comment "Inverse of mdhn:hasTimeSpan."@en ;
+    rdfs:subPropertyOf mdhn:yearOfResourse ;
+    rdfs:domain mdhn:TemporalInfo ;
+    rdfs:range mdhn:DigitalResource ;
+    rdfs:label "time-span of"@en ;
+    owl:inverseOf mdhn:hasTimeSpan .
+
+mdhn:inCalendar a owl:ObjectProperty, owl:FunctionalProperty ;
+    rdfs:comment "Calendar system of a CalendarDate. Use mdhn:GregorianCalendar with gregorian_82a/82b and mdhn:HijriCalendar with hijri_82a/82b."@en ;
+    rdfs:domain mdhn:CalendarDate ;
+    rdfs:range mdhn:Calendar ;
+    rdfs:label "in calendar"@en , "در گاه‌شماری"@fa .
+
+mdhn:dateYear a owl:DatatypeProperty, owl:FunctionalProperty ;
+    rdfs:comment "Year part of a CalendarDate. JSON array index 0, zero-padded string such as \"1889\" or \"1306\"."@en ;
+    rdfs:domain mdhn:CalendarDate ;
+    rdfs:range xsd:string ;
+    rdfs:label "year"@en , "سال"@fa .
+
+mdhn:dateMonth a owl:DatatypeProperty, owl:FunctionalProperty ;
+    rdfs:comment "Optional month part of a CalendarDate, 01-12. JSON array index 1."@en ;
+    rdfs:domain mdhn:CalendarDate ;
+    rdfs:range xsd:string ;
+    rdfs:label "month"@en , "ماه"@fa .
+
+mdhn:dateDay a owl:DatatypeProperty, owl:FunctionalProperty ;
+    rdfs:comment "Optional day part of a CalendarDate, 01-31 (Gregorian) or 01-30 (Hijri). JSON array index 2."@en ;
+    rdfs:domain mdhn:CalendarDate ;
+    rdfs:range xsd:string ;
+    rdfs:label "day"@en , "روز"@fa .
+
+mdhn:gregorian_82a a owl:ObjectProperty, owl:FunctionalProperty ;
+    rdfs:comment "Gregorian CIDOC P82a begin of the begin. Maps JSON E52TimeSpan.gregorian_82a. See also crm:P82a_begin_of_the_begin."@en ;
+    rdfs:domain mdhn:TemporalInfo  ;
+    rdfs:range mdhn:CalendarDate ;
+    rdfs:label "gregorian_82a"@en ;
+    rdfs:seeAlso crm:P82a_begin_of_the_begin .
+
+mdhn:gregorian_82b a owl:ObjectProperty, owl:FunctionalProperty ;
+    rdfs:comment "Gregorian CIDOC P82b end of the end. Maps JSON E52TimeSpan.gregorian_82b. See also crm:P82b_end_of_the_end."@en ;
+    rdfs:domain mdhn:TemporalInfo  ;
+    rdfs:range mdhn:CalendarDate ;
+    rdfs:label "gregorian_82b"@en ;
+    rdfs:seeAlso crm:P82b_end_of_the_end .
+
+mdhn:hijri_82a a owl:ObjectProperty, owl:FunctionalProperty ;
+    rdfs:comment "Hijri encoding of the same P82a bound as gregorian_82a. Maps JSON E52TimeSpan.hijri_82a. Kept distinct from crm:P82a so SPARQL on Gregorian bounds does not mix calendars."@en ;
+    rdfs:domain mdhn:TemporalInfo  ;
+    rdfs:range mdhn:CalendarDate ;
+    rdfs:label "hijri_82a"@en .
+
+mdhn:hijri_82b a owl:ObjectProperty, owl:FunctionalProperty ;
+    rdfs:comment "Hijri encoding of the same P82b bound as gregorian_82b. Maps JSON E52TimeSpan.hijri_82b."@en ;
+    rdfs:domain mdhn:TemporalInfo  ;
+    rdfs:range mdhn:CalendarDate ;
+    rdfs:label "hijri_82b"@en .
 
 mdhn:hasScriptStyle a owl:ObjectProperty, owl:FunctionalProperty ;
     rdfs:comment "Links a DigitalResource to its canvas type." ;
@@ -1050,16 +1164,65 @@ mdhn:hasUrl a owl:DatatypeProperty ;
     rdfs:range xsd:anyURI .
 
 mdhn:icWikiDataURL a owl:DatatypeProperty ;
-    rdfs:comment "URL Of Iconograpgy source in WikiData" ;
+    rdfs:comment "Deprecated display URL for a Wikidata wiki page. Reasoning uses mdhn:wikiDataEntity (a skos:exactMatch to wd:Q…). Keep only as a human-clickable annotation."@en ;
     rdfs:domain mdhn:Iconography ;
     rdfs:label "icWikiDataURL" ;
     rdfs:range xsd:anyURI  .
 
 mdhn:agentialWikiData a owl:DatatypeProperty ;
-    rdfs:comment "URL Of Agential source in WikiData" ;
+    rdfs:comment "Deprecated display URL for a Wikidata wiki page. Reasoning uses mdhn:wikiDataEntity. Do not use this literal in SPARQL joins."@en ;
     rdfs:domain mdhn:AgentialInfo;
     rdfs:label "agentialWikiData" ;
-    rdfs:range xsd:anyURI  .    
+    rdfs:range xsd:anyURI  .
+
+mdhn:wikiDataEntity a owl:ObjectProperty ;
+    rdfs:label "Wikidata entity"@en ;
+    rdfs:comment "Canonical identity link to a Wikidata item (http://www.wikidata.org/entity/Q…). Subproperty of skos:exactMatch so SKOS and OWL reasoners treat it as an exact alignment."@en ;
+    rdfs:subPropertyOf skos:exactMatch ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( mdhn:Iconography mdhn:AgentialInfo mdhn:NarrativeEpisode mdhn:GettyTGN )
+    ] .
+
+mdhn:saidToBeTheSameAs a owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:label "said to be the same as"@en ;
+    rdfs:comment "Uncertain or cross-tradition identity (Aaron/Harun, Iskandar/Alexander). Weaker than wikiDataEntity. Subproperty of skos:closeMatch."@en ;
+    rdfs:subPropertyOf skos:closeMatch .
+
+mdhn:hasIconographyBroader a owl:ObjectProperty, owl:TransitiveProperty ;
+    rdfs:label "has iconography broader"@en ;
+    rdfs:comment "Instance-level BT inside IconographyScheme (Lion → Animal, Spear → SharpEdgedWeopen). Use this or skos:broader for local hierarchy. Use skos:broadMatch only across schemes (AAT, TGM, LCSH, Iconclass, Wikidata, Biblissima)."@en ;
+    rdfs:domain mdhn:Iconography ;
+    rdfs:range mdhn:Iconography ;
+    rdfs:subPropertyOf skos:broader .
+
+mdhn:hasIconographyNarrower a owl:ObjectProperty ;
+    rdfs:label "has iconography narrower"@en ;
+    owl:inverseOf mdhn:hasIconographyBroader ;
+    rdfs:domain mdhn:Iconography ;
+    rdfs:range mdhn:Iconography ;
+    rdfs:subPropertyOf skos:narrower .
+
+mdhn:depictsBroaderConcept a owl:ObjectProperty ;
+    rdfs:label "depicts broader concept"@en ;
+    rdfs:comment "Inferred: a resource/canvas that depicts X also depicts every hasIconographyBroader ancestor of X (Spear → Weapon)."@en ;
+    rdfs:range mdhn:Iconography ;
+    owl:propertyChainAxiom ( mdhn:depicts mdhn:hasIconographyBroader ) .
+
+mdhn:elementDepictsBroaderConcept a owl:ObjectProperty ;
+    rdfs:label "element depicts broader concept"@en ;
+    rdfs:range mdhn:Iconography ;
+    owl:propertyChainAxiom ( mdhn:elementDepicts mdhn:hasIconographyBroader ) .
+
+mdhn:depictsAlignedConcept a owl:ObjectProperty ;
+    rdfs:label "depicts aligned concept"@en ;
+    rdfs:comment "Inferred: depicts o skos:exactMatch. A canvas depicting Halo is aligned to AAT nimbus, Wikidata Q, etc."@en ;
+    owl:propertyChainAxiom ( mdhn:depicts skos:exactMatch ) .
+
+mdhn:hasAgentialAligned a owl:ObjectProperty ;
+    rdfs:label "has agential aligned"@en ;
+    rdfs:comment "Inferred: hasAgential o skos:exactMatch. A resource linked to Moses is aligned to wd:Q9077 and biblissima:Q17080."@en ;
+    owl:propertyChainAxiom ( mdhn:hasAgential skos:exactMatch ) .    
     
 
 mdhn:caption a owl:DatatypeProperty ;
@@ -1333,7 +1496,8 @@ mdhn:hasTGMBroader a owl:ObjectProperty, owl:TransitiveProperty;
     rdfs:comment "Associate a LCTGM concept to its broader concept" ;
     rdfs:label "hasTGMBroader" ;
     rdfs:domain mdhn:LCTGMSubject ;
-    rdfs:range mdhn:LCTGMSubject .
+    rdfs:range mdhn:LCTGMSubject ;
+    rdfs:subPropertyOf skos:broader .
 
 mdhn:hasTGMNarrower a owl:ObjectProperty ;
     rdfs:comment "Associate a LCTGM concept to its narrower concept" ;
@@ -1397,7 +1561,8 @@ mdhn:hasAATBroader a owl:ObjectProperty, owl:TransitiveProperty ;
     rdfs:comment "Associate an AAT concept to its broader concept" ;
     rdfs:label "hasAATBroader" ;
     rdfs:domain mdhn:AATTerm ;
-    rdfs:range mdhn:AATTerm .
+    rdfs:range mdhn:AATTerm ;
+    rdfs:subPropertyOf skos:broader .
 
 mdhn:isGuideTerm a owl:DatatypeProperty ;
     rdfs:comment "Flag to indicate if the AAT term is a guide term" ;
@@ -1432,8 +1597,9 @@ mdhn:hasRoleInResource a owl:ObjectProperty ;
 
 
 mdhn:SubjectSource a owl:Class ;
-    rdfs:comment "Root class of all Subject Sources" ;
-    rdfs:label "SubjectSource" .
+    rdfs:comment "Root class of all Subject Sources (AAT, TGM, LCSH, Iconclass). Dual typed as skos:Concept for mapping and SKOS reasoning."@en ;
+    rdfs:label "SubjectSource" ;
+    rdfs:subClassOf skos:Concept .
 
 
 mdhn:ManuscriptItem a owl:Class ;
@@ -1564,7 +1730,11 @@ fhkb:FictionalMan a owl:Class;
 
 fhkb:MaleCreature a owl:Class;
     rdfs:subClassOf fhkb:Man, mdhn:MythicalCharacters;
-    rdfs:label "Mythical Male cratures" .                           
+    rdfs:label "Mythical Male cratures" . 
+
+fhkb:Angels_In_Islam a owl:Class;
+    rdfs:subClassOf fhkb:Man, mdhn:MythicalCharacters;
+    rdfs:label "Mythical Male cratures" .                                
 
 fhkb:Woman a owl:Class ;
     rdfs:label "Woman";
