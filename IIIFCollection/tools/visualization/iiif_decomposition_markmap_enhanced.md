@@ -8800,6 +8800,10 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:beggar
 - Q273283
 
+#### mdhn:Anthropomorphism
+- Q132987
+- skos:related: mdhn:aat300055956
+
 #### mdhn:Shield
 - Q131559
 
@@ -8867,6 +8871,29 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ##### mdhn:Club
 - Q392326
+
+
+### mdhn:Fragment_Cropped_Image: Hidden faces in rock cropped figure from 1v
+#### **Hidden faces in rock cropped figure from 1v** ![ Hidden faces in rock cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2739,2549,800,1153/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Anthropomorphism
+- Q132987
+- skos:related: mdhn:aat300055956
+
+##### mdhn:Rock
+
+
+### mdhn:Fragment_Cropped_Image: Clouds cropped figure from 1v
+#### **Clouds cropped figure from 1v** ![ Clouds cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2475,441,954,602/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Cloud
+- Q8074
 
 
 ### mdhn:Fragment_Cropped_Image: Horse rider cropped figure from 1v
@@ -8989,7 +9016,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ### mdhn:Calligraphy_Inscription: Inscription1 in Silsilat al Dhahab folio
 #### **Inscription1 in Silsilat al Dhahab folio** ![ Inscription1 in Silsilat al Dhahab folio ](https://ids.si.edu/ids/iiif/FS-8473_04/341,520,2205,654/200,/0/default.jpg)
 - **Styles:** aat:300195198, aat:300265532
-- **Persian Text:** اللهم ثبت دولة السلطان العادل ابو المظفر طهماسب الحسينی خلد الله انام سلطنظ علی مقارقظ العالمين
+- **Persian Text:** اللهم ثبت دولة السلطان العادل ابو المظفر طهماسب الحسينی خلد الله انام سلطنت علی ؟ العالمين
 - **English Text:** oh God, strengthen the rule of the just Sultan Abu'l-Muzaffar Shah Tahmasp al-Husayni. May God perpetuate his reign beyond the separation of the two worlds [death].
 
 #### Iconography Tags (elementLOUD)

@@ -3187,7 +3187,7 @@
 ## ResourceCanvas: f.182v — Folio of Silsilat al Dhahab
 - **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:500011053, aat:300033936
 - **Contains:** HasOnvan, HasText, HasPainting, HasIllumination
-- **Depicts:** mdhn:Haft_Awrang, mdhn:Silsilat_al_Dhahab, mdhn:Calligraphy_Inscription, mdhn:Donkey, mdhn:Tree, mdhn:Sheep, mdhn:Dog, mdhn:Rocks, mdhn:Turban, mdhn:Headgear, mdhn:Robe, mdhn:Goat, mdhn:Calligraphy_Inscription, mdhn:Plant, mdhn:Tree, mdhn:Bird, mdhn:Bird_Nest, mdhn:Dog, mdhn:Wind, mdhn:Horse, mdhn:Horse_Saddle, mdhn:Horse_Spur, mdhn:Horse_Tack, mdhn:HorseStirrup, mdhn:Horse_Riding, mdhn:Persian_Architecture, mdhn:beggar, mdhn:Shield, mdhn:Decoration, mdhn:Bow_and_Arrow, mdhn:Building_Ornament, mdhn:Plantanus_Orientalis, mdhn:Weighing_Scale, mdhn:Architectural_Structure
+- **Depicts:** mdhn:Haft_Awrang, mdhn:Silsilat_al_Dhahab, mdhn:Calligraphy_Inscription, mdhn:Donkey, mdhn:Tree, mdhn:Sheep, mdhn:Dog, mdhn:Rocks, mdhn:Turban, mdhn:Headgear, mdhn:Robe, mdhn:Goat, mdhn:Calligraphy_Inscription, mdhn:Plant, mdhn:Tree, mdhn:Bird, mdhn:Bird_Nest, mdhn:Dog, mdhn:Wind, mdhn:Horse, mdhn:Horse_Saddle, mdhn:Horse_Spur, mdhn:Horse_Tack, mdhn:HorseStirrup, mdhn:Horse_Riding, mdhn:Persian_Architecture, mdhn:beggar, mdhn:Anthropomorphism, mdhn:Shield, mdhn:Decoration, mdhn:Bow_and_Arrow, mdhn:Building_Ornament, mdhn:Plantanus_Orientalis, mdhn:Weighing_Scale, mdhn:Architectural_Structure
 
 ### mdhn:Fragment_Cropped_Image: Two men arguing cropped figure from 1v
 - ![ Two men arguing cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1139,2311,889,920/200,/0/default.jpg)
@@ -3210,6 +3210,16 @@
 ### mdhn:Fragment_Cropped_Image: A man and his donkey cropped figure from 1v
 - ![ A man and his donkey cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2328,2816,646,906/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Donkey, mdhn:Club
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Hidden faces in rock cropped figure from 1v
+- ![ Hidden faces in rock cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2739,2549,800,1153/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Anthropomorphism, mdhn:Rock
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Clouds cropped figure from 1v
+- ![ Clouds cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2475,441,954,602/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Cloud
 - **Styles:** aat:500011001
 
 ### mdhn:Fragment_Cropped_Image: Horse rider cropped figure from 1v
@@ -3274,7 +3284,7 @@
 - ![ Inscription1 in Silsilat al Dhahab folio ](https://ids.si.edu/ids/iiif/FS-8473_04/341,520,2205,654/200,/0/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Ibrahim_Sultan
 - **Styles:** aat:300195198, aat:300265532
-- **Persian Text:** اللهم ثبت دولة السلطان العادل ابو المظفر طهماسب الحسينی خلد الله انام سلطنظ علی مقارقظ العالمين
+- **Persian Text:** اللهم ثبت دولة السلطان العادل ابو المظفر طهماسب الحسينی خلد الله انام سلطنت علی ؟ العالمين
 - **English Text:** oh God, strengthen the rule of the just Sultan Abu'l-Muzaffar Shah Tahmasp al-Husayni. May God perpetuate his reign beyond the separation of the two worlds [death].
 
 ### mdhn:Calligraphy_Inscription: Inscription1 in Silsilat al Dhahab folio
