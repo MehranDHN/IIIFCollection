@@ -47,7 +47,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - Q811979
 
 #### mdhn:Clothing
-- Q26690120
+- Q11460
+- skos:exactMatch: mdhn:aat300266639, mdhn:sh85027160_Clothing_and_dress
+- skos:relatedMatch: mdhn:sh85033266_Islamic_clothing_and_dress, mdhn:tgm002198_Clothing__dress
 
 #### mdhn:headscarf
 - Q2002752
@@ -168,7 +170,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - Q811979
 
 #### mdhn:Clothing
-- Q26690120
+- Q11460
+- skos:exactMatch: mdhn:aat300266639, mdhn:sh85027160_Clothing_and_dress
+- skos:relatedMatch: mdhn:sh85033266_Islamic_clothing_and_dress, mdhn:tgm002198_Clothing__dress
 
 #### mdhn:headscarf
 - Q2002752
@@ -520,6 +524,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
+- skos:broadMatch: mdhn:Halo
+- skos:exactMatch: mdhn:aat300375684
 
 #### mdhn:Simurgh
 - Q548119
@@ -1068,6 +1074,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Torches
 - Q327954
+- skos:exactMatch: mdhn:aat300037652
 
 #### mdhn:Rifle
 - Q124072
@@ -2531,6 +2538,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Rosette
 - Q1277215
+- skos:exactMatch: mdhn:aat300009972
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 2r
@@ -3379,6 +3387,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
+- skos:broadMatch: mdhn:Halo
+- skos:exactMatch: mdhn:aat300375684
 
 #### mdhn:Simurgh
 - Q548119
@@ -3458,6 +3468,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Jibril
+- skos:exactMatch: mdhn:n2025512492_Jibril
 
 
 ### mdhn:Fragment_Cropped_Image: Angel cropped figure from 2v
@@ -3655,6 +3666,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
+- skos:broadMatch: mdhn:Halo
+- skos:exactMatch: mdhn:aat300375684
 
 #### mdhn:Simurgh
 - Q548119
@@ -4025,7 +4038,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - Q204933
 
 #### mdhn:Clothing
-- Q26690120
+- Q11460
+- skos:exactMatch: mdhn:aat300266639, mdhn:sh85027160_Clothing_and_dress
+- skos:relatedMatch: mdhn:sh85033266_Islamic_clothing_and_dress, mdhn:tgm002198_Clothing__dress
 
 #### mdhn:headscarf
 - Q2002752
@@ -4163,7 +4178,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:OxHeadMace
 
 #### mdhn:Clothing
-- Q26690120
+- Q11460
+- skos:exactMatch: mdhn:aat300266639, mdhn:sh85027160_Clothing_and_dress
+- skos:relatedMatch: mdhn:sh85033266_Islamic_clothing_and_dress, mdhn:tgm002198_Clothing__dress
 
 #### mdhn:headscarf
 - Q2002752
@@ -5196,6 +5213,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - mdhn:isPartOf: mdhn:Kingdom_of_Jamshid, mdhn:ZahhakStory
 
 #### mdhn:Iblis
+- skos:exactMatch: mdhn:aat300379730
+- skos:relatedMatch: biblissima:Q291399, mdhn:Ahriman, mdhn:Devil, mdhn:sh85037376_Devil
 
 #### mdhn:Sword
 - Q12791
@@ -5250,6 +5269,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Iblis
+- skos:exactMatch: mdhn:aat300379730
+- skos:relatedMatch: biblissima:Q291399, mdhn:Ahriman, mdhn:Devil, mdhn:sh85037376_Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Zahhak cropped figure from f25v
@@ -6041,7 +6062,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - Q204933
 
 #### mdhn:Clothing
-- Q26690120
+- Q11460
+- skos:exactMatch: mdhn:aat300266639, mdhn:sh85027160_Clothing_and_dress
+- skos:relatedMatch: mdhn:sh85033266_Islamic_clothing_and_dress, mdhn:tgm002198_Clothing__dress
 
 #### mdhn:Horse
 - Q726
@@ -6967,7 +6990,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Brass_Metal_Jingle
 
 #### mdhn:Clothing
-- Q26690120
+- Q11460
+- skos:exactMatch: mdhn:aat300266639, mdhn:sh85027160_Clothing_and_dress
+- skos:relatedMatch: mdhn:sh85033266_Islamic_clothing_and_dress, mdhn:tgm002198_Clothing__dress
 
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1065
@@ -7030,7 +7055,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - Q264922
 
 #### mdhn:Clothing
-- Q26690120
+- Q11460
+- skos:exactMatch: mdhn:aat300266639, mdhn:sh85027160_Clothing_and_dress
+- skos:relatedMatch: mdhn:sh85033266_Islamic_clothing_and_dress, mdhn:tgm002198_Clothing__dress
 
 
 ### mdhn:Fragment_Cropped_Image: Div cropped figure from MSS_1075
@@ -8211,6 +8238,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
+- skos:broadMatch: mdhn:Halo
+- skos:exactMatch: mdhn:aat300375684
 
 #### mdhn:Tent
 - Q170544
@@ -8452,6 +8481,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
+- skos:broadMatch: mdhn:Halo
+- skos:exactMatch: mdhn:aat300375684
 
 #### mdhn:God
 - Q190
@@ -8597,6 +8628,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Jibril
+- skos:exactMatch: mdhn:n2025512492_Jibril
 
 
 ### mdhn:Fragment_Cropped_Image: Worker Div cropped figure from FS-8474_19
@@ -8676,6 +8708,307 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
+## Manifest: The simple peasant entreats the salesman not to sell his wonderful donkey
+
+## ResourceCanvas: f.182v — Folio of Silsilat al Dhahab ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-8473_04/full/200,/0/default.jpg)
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:500011053, aat:300033936
+- **Contains:** HasOnvan, HasText, HasPainting, HasIllumination
+
+### Depicts
+
+#### mdhn:Haft_Awrang
+- Q5638440
+- mdhn:isPartOf: mdhn:Folklore_Epic_or_Mythology
+
+##### mdhn:Silsilat_al_Dhahab
+- mdhn:isPartOf: mdhn:Haft_Awrang
+
+#### mdhn:Calligraphy_Inscription
+- Q1640824
+
+#### mdhn:Donkey
+- Q3537778
+
+#### mdhn:Tree
+- Q10884
+
+#### mdhn:Sheep
+- Q7368
+
+#### mdhn:Dog
+- Q144
+
+#### mdhn:Rocks
+- Q8063
+
+#### mdhn:Turban
+- Q2460567
+
+#### mdhn:Headgear
+- Q14952
+
+#### mdhn:Robe
+- Q345127
+
+#### mdhn:Goat
+- Q2934
+
+#### mdhn:Calligraphy_Inscription
+- Q1640824
+
+#### mdhn:Plant
+- Q756
+
+#### mdhn:Tree
+- Q10884
+
+#### mdhn:Bird
+- Q5113
+
+#### mdhn:Bird_Nest
+- Q1137226
+
+#### mdhn:Dog
+- Q144
+
+#### mdhn:Wind
+- Q8094
+
+#### mdhn:Horse
+- Q726
+
+#### mdhn:Horse_Saddle
+- Q192249
+- skos:related: mdhn:Horse
+
+#### mdhn:Horse_Spur
+- Q740732
+
+#### mdhn:Horse_Tack
+- Q950799
+
+#### mdhn:HorseStirrup
+- Q191657
+- skos:related: mdhn:Horse_Saddle
+
+#### mdhn:Horse_Riding
+- Q179226
+
+#### mdhn:Persian_Architecture
+- Q137133192
+
+#### mdhn:beggar
+- Q273283
+
+#### mdhn:Shield
+- Q131559
+
+#### mdhn:Decoration
+- Q11796413
+- skos:exactMatch: mdhn:aat300256050, mdhn:sh85036303_Decorations_of_honor
+
+#### mdhn:Bow_and_Arrow
+- Q19827042
+
+#### mdhn:Building_Ornament
+- Q12043387
+
+#### mdhn:Plantanus_Orientalis
+- Q161105
+
+#### mdhn:Weighing_Scale
+- Q134566
+- skos:exactMatch: biblissima:Q294909, mdhn:aat300196293, mdhn:iconclass46B3311, mdhn:sh85117914_Scales_Instrument
+
+#### mdhn:Architectural_Structure
+- Q811979
+
+
+### mdhn:Fragment_Cropped_Image: Two men arguing cropped figure from 1v
+#### **Two men arguing cropped figure from 1v** ![ Two men arguing cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1139,2311,889,920/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: A women with her childcropped figure from 1v
+#### **A women with her childcropped figure from 1v** ![ A women with her childcropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1967,2317,739,894/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Local sales man cropped figure from 1v
+#### **Local sales man cropped figure from 1v** ![ Local sales man cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2460,2003,683,708/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Weighing_Scale
+- Q134566
+- skos:exactMatch: biblissima:Q294909, mdhn:aat300196293, mdhn:iconclass46B3311, mdhn:sh85117914_Scales_Instrument
+
+
+### mdhn:Fragment_Cropped_Image: Birds and Birdnest cropped figure from 1v
+#### **Birds and Birdnest cropped figure from 1v** ![ Birds and Birdnest cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2767,1445,705,508/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Bird
+- Q5113
+
+##### mdhn:Bird_Nest
+- Q1137226
+
+
+### mdhn:Fragment_Cropped_Image: A man and his donkey cropped figure from 1v
+#### **A man and his donkey cropped figure from 1v** ![ A man and his donkey cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2328,2816,646,906/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Donkey
+- Q3537778
+
+##### mdhn:Club
+- Q392326
+
+
+### mdhn:Fragment_Cropped_Image: Horse rider cropped figure from 1v
+#### **Horse rider cropped figure from 1v** ![ Horse rider cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2415,3637,1202,1148/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Horse
+- Q726
+
+##### mdhn:Horse_Saddle
+- Q192249
+- skos:related: mdhn:Horse
+
+##### mdhn:Horse_Spur
+- Q740732
+
+##### mdhn:Horse_Tack
+- Q950799
+
+##### mdhn:HorseStirrup
+- Q191657
+- skos:related: mdhn:Horse_Saddle
+
+##### mdhn:Horse_Riding
+- Q179226
+
+
+### mdhn:Fragment_Cropped_Image: Three men cropped figure from 1v
+#### **Three men cropped figure from 1v** ![ Three men cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1227,4325,1179,1000/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Sheeps cropped figure from 1v
+#### **Sheeps cropped figure from 1v** ![ Sheeps cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2324,4661,665,632/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Sheep
+- Q7368
+
+
+### mdhn:Fragment_Cropped_Image: Two men looking at sky cropped figure from 1v
+#### **Two men looking at sky cropped figure from 1v** ![ Two men looking at sky cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/424,4480,733,515/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: A donkey cropped figure from 1v
+#### **A donkey cropped figure from 1v** ![ A donkey cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/944,3899,907,605/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Donkey
+- Q3537778
+
+
+### mdhn:Fragment_Cropped_Image: Two men standing cropped figure from 1v
+#### **Two men standing cropped figure from 1v** ![ Two men standing cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/413,3545,624,945/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: A Nobleman horse ridding cropped figure from 1v
+#### **A Nobleman horse ridding cropped figure from 1v** ![ A Nobleman horse ridding cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/603,2685,1317,1334/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Horse
+- Q726
+
+##### mdhn:Horse_Saddle
+- Q192249
+- skos:related: mdhn:Horse
+
+##### mdhn:Horse_Spur
+- Q740732
+
+##### mdhn:Horse_Tack
+- Q950799
+
+##### mdhn:HorseStirrup
+- Q191657
+- skos:related: mdhn:Horse_Saddle
+
+##### mdhn:Horse_Riding
+- Q179226
+
+
+### mdhn:Fragment_Cropped_Image: A man with his donkey cropped figure from 1v
+#### **A man with his donkey cropped figure from 1v** ![ A man with his donkey cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1051,2273,962,959/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Donkey
+- Q3537778
+
+
+### mdhn:Fragment_Cropped_Image: Two men with two different style cropped figure from 1v
+#### **Two men with two different style cropped figure from 1v** ![ Two men with two different style cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1873,3334,787,1050/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: A man observing cropped figure from 1v
+#### **A man observing cropped figure from 1v** ![ A man observing cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/397,2455,390,974/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Two men arguing cropped figure from 1v
+#### **Two men arguing cropped figure from 1v** ![ Two men arguing cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/551,504,444,396/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Two men with flower cropped figure from 1v
+#### **Two men with flower cropped figure from 1v** ![ Two men with flower cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1871,498,381,377/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Text Block 1
+#### **Text Block 1** ![ Text Block 1 ](https://ids.si.edu/ids/iiif/FS-8473_04/991,656,901,188/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** خلق از اين گفت و گوی ميخنديد
+
+### mdhn:Calligraphy_Inscription: Inscription1 in Silsilat al Dhahab folio
+#### **Inscription1 in Silsilat al Dhahab folio** ![ Inscription1 in Silsilat al Dhahab folio ](https://ids.si.edu/ids/iiif/FS-8473_04/341,520,2205,654/200,/0/default.jpg)
+- **Styles:** aat:300195198, aat:300265532
+- **Persian Text:** اللهم ثبت دولة السلطان العادل ابو المظفر طهماسب الحسينی خلد الله انام سلطنظ علی مقارقظ العالمين
+- **English Text:** oh God, strengthen the rule of the just Sultan Abu'l-Muzaffar Shah Tahmasp al-Husayni. May God perpetuate his reign beyond the separation of the two worlds [death].
+
+#### Iconography Tags (elementLOUD)
+
+##### mdhn:Ibrahim_Sultan
+
+
+### mdhn:Calligraphy_Inscription: Inscription1 in Silsilat al Dhahab folio
+#### **Inscription1 in Silsilat al Dhahab folio** ![ Inscription1 in Silsilat al Dhahab folio ](https://ids.si.edu/ids/iiif/FS-8473_04/1179,1786,518,164/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** به رسم کتابخانه سلطان ابوالفتح ابن ابراهيم ميرزا
+
+### mdhn:Text_or_Verses: Text Block 1
+#### **Text Block 1** ![ Text Block 1 ](https://ids.si.edu/ids/iiif/FS-8473_04/530,4998,519,310/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** سر فراگوش خر فروش آورد
+
+---
+
 
 
 
@@ -8725,6 +9058,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
+- skos:broadMatch: mdhn:Halo
+- skos:exactMatch: mdhn:aat300375684
 
 #### mdhn:Veiled_Face
 
@@ -8818,6 +9153,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
+- skos:broadMatch: mdhn:Halo
+- skos:exactMatch: mdhn:aat300375684
 
 #### mdhn:Veiled_Face
 
@@ -8909,6 +9246,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
+- skos:broadMatch: mdhn:Halo
+- skos:exactMatch: mdhn:aat300375684
 
 #### mdhn:Plant
 - Q756
@@ -8926,6 +9265,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 ##### mdhn:Jonah
 
 ##### mdhn:Fish
+- Q152
+- skos:exactMatch: mdhn:aat300266085, mdhn:sh85048726_Fishes, mdhn:tgm004045_Fish
 
 
 ### mdhn:Fragment_Cropped_Image: Fish cropped figure from 156r
@@ -8935,6 +9276,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Fish
+- Q152
+- skos:exactMatch: mdhn:aat300266085, mdhn:sh85048726_Fishes, mdhn:tgm004045_Fish
 
 
 ### mdhn:Text_or_Verses: Textblock1 in 156r
@@ -8999,8 +9342,11 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### mdhn:Eve
 
 #### mdhn:Jibril
+- skos:exactMatch: mdhn:n2025512492_Jibril
 
 #### mdhn:Iblis
+- skos:exactMatch: mdhn:aat300379730
+- skos:relatedMatch: biblissima:Q291399, mdhn:Ahriman, mdhn:Devil, mdhn:sh85037376_Devil
 
 #### mdhn:Angles_From_Heaven
 - Q235113
@@ -9036,6 +9382,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
+- skos:broadMatch: mdhn:Halo
+- skos:exactMatch: mdhn:aat300375684
 
 #### mdhn:Robe
 - Q345127
@@ -9066,6 +9414,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Jibril
+- skos:exactMatch: mdhn:n2025512492_Jibril
 
 
 ### mdhn:Fragment_Cropped_Image: Angles 1 cropped figure from 9r
@@ -9094,6 +9443,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Jibril
+- skos:exactMatch: mdhn:n2025512492_Jibril
 
 
 ---
@@ -9450,6 +9800,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - mdhn:isPartOf: mdhn:Qisas_al_Anbiya, mdhn:Story_of_Adam_and_Eve
 
 #### mdhn:Iblis
+- skos:exactMatch: mdhn:aat300379730
+- skos:relatedMatch: biblissima:Q291399, mdhn:Ahriman, mdhn:Devil, mdhn:sh85037376_Devil
 
 #### mdhn:Angles_From_Heaven
 - Q235113
@@ -9478,6 +9830,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Flaming_Nimbus
 - Q3341893
+- skos:broadMatch: mdhn:Halo
+- skos:exactMatch: mdhn:aat300375684
 
 #### mdhn:Cloud
 - Q8074
@@ -9520,6 +9874,8 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Iblis
+- skos:exactMatch: mdhn:aat300379730
+- skos:relatedMatch: biblissima:Q291399, mdhn:Ahriman, mdhn:Devil, mdhn:sh85037376_Devil
 
 
 ### mdhn:Fragment_Cropped_Image: Angles cropped figure from 8v
@@ -9926,7 +10282,9 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 - Q184418
 
 #### mdhn:Clothing
-- Q26690120
+- Q11460
+- skos:exactMatch: mdhn:aat300266639, mdhn:sh85027160_Clothing_and_dress
+- skos:relatedMatch: mdhn:sh85033266_Islamic_clothing_and_dress, mdhn:tgm002198_Clothing__dress
 
 
 ### mdhn:Fragment_Cropped_Image: Coffin cropped figure from 139
@@ -11261,6 +11619,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Rosette
 - Q1277215
+- skos:exactMatch: mdhn:aat300009972
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 1a
@@ -11303,6 +11662,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Rosette
 - Q1277215
+- skos:exactMatch: mdhn:aat300009972
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 42a
@@ -11355,6 +11715,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Rosette
 - Q1277215
+- skos:exactMatch: mdhn:aat300009972
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 173b
@@ -11382,6 +11743,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 #### mdhn:Rosette
 - Q1277215
+- skos:exactMatch: mdhn:aat300009972
 
 
 ### mdhn:Fragment_Cropped_Pattern: Pattern cropped from 211b
@@ -11441,7 +11803,7 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 ---
 
-## ResourceCanvas: f.32 — Mirza Ali Asghar Khan Amin Ol Soltan and Mohammad Ali Shah Qajar ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0032.jp2/full/200,/90/default.jpg)
+## ResourceCanvas: f.32 — Nasiruddin Shah(with overcoat) and group of his Ministers and attendants. ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0032.jp2/full/200,/90/default.jpg)
 - **Canvas Types:** aat:300046300
 
 ### Depicts
@@ -11486,96 +11848,6 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 #### Iconography Tags (elementLOUD)
 
 ##### mdhn:Mohammad_Ali_Shah_Qajar
-
-
----
-
-## ResourceCanvas: f.36 — Mushirud Dawla and Aynud Dawla ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0037.jp2/full/200,/270/default.jpg)
-- **Canvas Types:** aat:300046300
-
-### Depicts
-
-#### mdhn:Portrait_Photograph
-- Q182956
-
-
-### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
-#### **cropped photo from Page 36 of The strangling of Persia** ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0037.jp2/54,275,1619,1194/200,/270/default.jpg)
-- **Styles:** aat:500011081
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Hassan_Pirnia
-
-
-### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
-#### **cropped photo from Page 36 of The strangling of Persia** ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0037.jp2/20,1644,1658,1200/200,/270/default.jpg)
-- **Styles:** aat:500011081
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Abdol_Majid_Mirza
-
-
----
-
-## ResourceCanvas: f.44 — Russian and Persian Officers of The Notorious Cossack Brigard. This has been one of the chief instruments of sussian influence and oppression in Persia ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0044.jp2/full/200,/90/default.jpg)
-- **Canvas Types:** aat:300046300
-
-### Depicts
-
-#### mdhn:Photography
-- Q11633
-
-#### mdhn:Cossack_Brigard
-- Q47805
-
-#### mdhn:tgn7002004
-
-#### mdhn:Firearms_Weopen
-- Q12796
-
-#### mdhn:Sword
-- Q12791
-
-#### mdhn:Dagger
-- Q182780
-
-
-### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
-#### **cropped photo from Page 36 of The strangling of Persia** ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0044.jp2/307,192,1584,2402/200,/90/default.jpg)
-- **Styles:** aat:500011081
-
----
-
-## ResourceCanvas: f.50 — Muhammad Ali Shah (now ex-Shah) and his Suite. At the Bagh-i Shah near Tehran. ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0050.jp2/full/200,/90/default.jpg)
-- **Canvas Types:** aat:300046300
-
-### Depicts
-
-#### mdhn:Photography
-- Q11633
-
-#### mdhn:tgn7002004
-
-#### mdhn:Sword
-- Q12791
-
-#### mdhn:Dagger
-- Q182780
-
-
-### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
-#### **cropped photo from Page 36 of The strangling of Persia** ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0050.jp2/256,349,1601,1892/200,/90/default.jpg)
-- **Styles:** aat:500011081
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Mohammad_Ali_Shah_Qajar
-
-##### mdhn:Ahmad_Shah_Qajar
-
-##### mdhn:Mehdi_Gholi_Khan_Majd_Ol_Dawleh
 
 
 ---
@@ -11746,204 +12018,12 @@ Testing Canvas decomposition to Multiple type of ContentElement **Machine genera
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
 
-## Manifest: The new Persia
-
-## ResourceCanvas: f.8 — Reza Shah Pahlavi ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/newpersia00shee%2Fnewpersia00shee_jp2.zip%2Fnewpersia00shee_jp2%2Fnewpersia00shee_0008.jp2/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300046300
-
-### Depicts
-
-#### mdhn:Portrait_Photograph
-- Q182956
-
-#### mdhn:Pahlavi_hat
-- Q21117214
-
-#### mdhn:Medal
-- Q131647
-- skos:exactMatch: biblissima:Q321022, mdhn:aat300046025, mdhn:sh85082807_Medals
-
-#### mdhn:Decoration
-- Q11796413
-- skos:exactMatch: mdhn:aat300256050, mdhn:sh85036303_Decorations_of_honor
-
-
-### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped photo from page 8 of The new Persia
-#### **Reza Shah Pahlavi cropped photo from page 8 of The new Persia** ![ Reza Shah Pahlavi cropped photo from page 8 of The new Persia ](https://iiif.archive.org/image/iiif/3/newpersia00shee%2Fnewpersia00shee_jp2.zip%2Fnewpersia00shee_jp2%2Fnewpersia00shee_0008.jp2/189,287,1828,2827/200,/0/default.jpg)
-- **Styles:** aat:500011081
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Reza_Shah_Pahlavi
-
-
----
-
-## ResourceCanvas: f.55 — His Highness The Farman Farma Father of Prince Firuz ![Canvas thumbnail](https://iiif.archive.org/image/iiif/3/newpersia00shee%2Fnewpersia00shee_jp2.zip%2Fnewpersia00shee_jp2%2Fnewpersia00shee_0055.jp2/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300046300
-
-### Depicts
-
-#### mdhn:Portrait_Photograph
-- Q182956
-
-#### mdhn:Stick
-- Q10971443
-
-#### mdhn:Headgear
-- Q14952
-
-#### mdhn:Carpet
-- Q163446
-
-#### mdhn:Curtain
-- Q49005
-
-
-### mdhn:Fragment_Cropped_Photo: AbdolHossein Mirza cropped photo from page 55 of The new Persia
-#### **AbdolHossein Mirza cropped photo from page 55 of The new Persia** ![ AbdolHossein Mirza cropped photo from page 55 of The new Persia ](https://iiif.archive.org/image/iiif/3/newpersia00shee%2Fnewpersia00shee_jp2.zip%2Fnewpersia00shee_jp2%2Fnewpersia00shee_0055.jp2/79,306,1863,2849/200,/0/default.jpg)
-- **Styles:** aat:500011081
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:AbdolHossein_Mirza_Farmanfarma
-
-
----
-
 
 
 
 # Myron Bement Smith Collection
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
-
-## Manifest: Portrait of Reza Shah Pahlavi with Boris Shumyatsky, the Soviet Ambassador
-
-## ResourceCanvas: f.1 — Portrait of Reza Shah Pahlavi with Boris Shumyatsky, the Soviet Ambassador ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.26.01/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300046300
-
-### Depicts
-
-#### mdhn:Reza_Shah_Pahlavi
-
-#### mdhn:Boris_Zakharovic_Shumyatsky
-
-#### mdhn:Tree
-- Q10884
-
-#### mdhn:Carpet
-- Q163446
-
-#### mdhn:Stair
-
-
-### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.26.01
-#### **Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.26.01** ![ Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.26.01 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.26.01/621,1000,446,1032/200,/0/default.jpg)
-- **Styles:** mdhn:Fragment_Cropped_Photo
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Reza_Shah_Pahlavi
-
-
-### mdhn:Fragment_Cropped_Photo: Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.26.01
-#### **Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.26.01** ![ Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.26.01 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.26.01/1043,1043,446,1032/200,/0/default.jpg)
-- **Styles:** mdhn:Fragment_Cropped_Photo
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Boris_Zakharovic_Shumyatsky
-
-
----
-
-## Manifest: Group Portrait of Soviet Ambassador Boris Shumiatsky with Riza Shah and Persian Cabinet Ministers
-
-## ResourceCanvas: f.1 — Group Portrait of Soviet Ambassador ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.07/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300046300
-
-### Depicts
-
-#### mdhn:Reza_Shah_Pahlavi
-
-#### mdhn:Boris_Zakharovic_Shumyatsky
-
-#### mdhn:Tree
-- Q10884
-
-#### mdhn:Carpet
-- Q163446
-
-#### mdhn:Stair
-
-
-### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.07
-#### **Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.07** ![ Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.07 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.07/1101,839,310,686/200,/0/default.jpg)
-- **Styles:** mdhn:Fragment_Cropped_Photo
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Reza_Shah_Pahlavi
-
-
-### mdhn:Fragment_Cropped_Photo: Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.27.07
-#### **Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.27.07** ![ Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.27.07 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.07/1346,845,218,674/200,/0/default.jpg)
-- **Styles:** mdhn:Fragment_Cropped_Photo
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Boris_Zakharovic_Shumyatsky
-
-
----
-
-## Manifest: Portrait of Reza Shah Pahlavi on a Horse while Minister of War
-
-## ResourceCanvas: f.1 — Portrait of Reza Shah Pahlavi on a Horse while Minister of War ![Canvas thumbnail](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.08/full/200,/0/default.jpg)
-- **Canvas Types:** aat:300046300
-
-### Depicts
-
-#### mdhn:Reza_Shah_Pahlavi
-
-#### mdhn:Horse
-- Q726
-
-#### mdhn:Tree
-- Q10884
-
-#### mdhn:Horse_Spur
-- Q740732
-
-#### mdhn:Horse_Tack
-- Q950799
-
-#### mdhn:Horse_Saddle
-- Q192249
-- skos:related: mdhn:Horse
-
-#### mdhn:Horse_Riding
-- Q179226
-
-#### mdhn:HorseStirrup
-- Q191657
-- skos:related: mdhn:Horse_Saddle
-
-#### mdhn:Fence
-- Q148571
-
-
-### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.08
-#### **Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.08** ![ Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.08 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.08/1188,483,554,1260/200,/0/default.jpg)
-- **Styles:** mdhn:Fragment_Cropped_Photo
-
-#### Iconography Tags (elementLOUD)
-
-##### mdhn:Reza_Shah_Pahlavi
-
-
----
 
 
 

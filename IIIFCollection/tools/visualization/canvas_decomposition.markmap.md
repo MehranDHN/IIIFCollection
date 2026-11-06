@@ -3182,6 +3182,113 @@
 
 ---
 
+## Manifest: The simple peasant entreats the salesman not to sell his wonderful donkey
+
+## ResourceCanvas: f.182v — Folio of Silsilat al Dhahab
+- **Canvas Types:** aat:300189604, aat:500181051, aat:300079783, aat:300266660, aat:500011053, aat:300033936
+- **Contains:** HasOnvan, HasText, HasPainting, HasIllumination
+- **Depicts:** mdhn:Haft_Awrang, mdhn:Silsilat_al_Dhahab, mdhn:Calligraphy_Inscription, mdhn:Donkey, mdhn:Tree, mdhn:Sheep, mdhn:Dog, mdhn:Rocks, mdhn:Turban, mdhn:Headgear, mdhn:Robe, mdhn:Goat, mdhn:Calligraphy_Inscription, mdhn:Plant, mdhn:Tree, mdhn:Bird, mdhn:Bird_Nest, mdhn:Dog, mdhn:Wind, mdhn:Horse, mdhn:Horse_Saddle, mdhn:Horse_Spur, mdhn:Horse_Tack, mdhn:HorseStirrup, mdhn:Horse_Riding, mdhn:Persian_Architecture, mdhn:beggar, mdhn:Shield, mdhn:Decoration, mdhn:Bow_and_Arrow, mdhn:Building_Ornament, mdhn:Plantanus_Orientalis, mdhn:Weighing_Scale, mdhn:Architectural_Structure
+
+### mdhn:Fragment_Cropped_Image: Two men arguing cropped figure from 1v
+- ![ Two men arguing cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1139,2311,889,920/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: A women with her childcropped figure from 1v
+- ![ A women with her childcropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1967,2317,739,894/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Local sales man cropped figure from 1v
+- ![ Local sales man cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2460,2003,683,708/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Weighing_Scale
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Birds and Birdnest cropped figure from 1v
+- ![ Birds and Birdnest cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2767,1445,705,508/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Bird, mdhn:Bird_Nest
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: A man and his donkey cropped figure from 1v
+- ![ A man and his donkey cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2328,2816,646,906/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Donkey, mdhn:Club
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Horse rider cropped figure from 1v
+- ![ Horse rider cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2415,3637,1202,1148/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Horse, mdhn:Horse_Saddle, mdhn:Horse_Spur, mdhn:Horse_Tack, mdhn:HorseStirrup, mdhn:Horse_Riding
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Three men cropped figure from 1v
+- ![ Three men cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1227,4325,1179,1000/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Sheeps cropped figure from 1v
+- ![ Sheeps cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/2324,4661,665,632/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Sheep
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Two men looking at sky cropped figure from 1v
+- ![ Two men looking at sky cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/424,4480,733,515/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: A donkey cropped figure from 1v
+- ![ A donkey cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/944,3899,907,605/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Donkey
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Two men standing cropped figure from 1v
+- ![ Two men standing cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/413,3545,624,945/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: A Nobleman horse ridding cropped figure from 1v
+- ![ A Nobleman horse ridding cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/603,2685,1317,1334/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Horse, mdhn:Horse_Saddle, mdhn:Horse_Spur, mdhn:Horse_Tack, mdhn:HorseStirrup, mdhn:Horse_Riding
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: A man with his donkey cropped figure from 1v
+- ![ A man with his donkey cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1051,2273,962,959/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Donkey
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Two men with two different style cropped figure from 1v
+- ![ Two men with two different style cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1873,3334,787,1050/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: A man observing cropped figure from 1v
+- ![ A man observing cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/397,2455,390,974/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Two men arguing cropped figure from 1v
+- ![ Two men arguing cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/551,504,444,396/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Fragment_Cropped_Image: Two men with flower cropped figure from 1v
+- ![ Two men with flower cropped figure from 1v ](https://ids.si.edu/ids/iiif/FS-8473_04/1871,498,381,377/200,/0/default.jpg)
+- **Styles:** aat:500011001
+
+### mdhn:Text_or_Verses: Text Block 1
+- ![ Text Block 1 ](https://ids.si.edu/ids/iiif/FS-8473_04/991,656,901,188/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** خلق از اين گفت و گوی ميخنديد
+
+### mdhn:Calligraphy_Inscription: Inscription1 in Silsilat al Dhahab folio
+- ![ Inscription1 in Silsilat al Dhahab folio ](https://ids.si.edu/ids/iiif/FS-8473_04/341,520,2205,654/200,/0/default.jpg)
+- **Iconography Tags (elementLOUD):** mdhn:Ibrahim_Sultan
+- **Styles:** aat:300195198, aat:300265532
+- **Persian Text:** اللهم ثبت دولة السلطان العادل ابو المظفر طهماسب الحسينی خلد الله انام سلطنظ علی مقارقظ العالمين
+- **English Text:** oh God, strengthen the rule of the just Sultan Abu'l-Muzaffar Shah Tahmasp al-Husayni. May God perpetuate his reign beyond the separation of the two worlds [death].
+
+### mdhn:Calligraphy_Inscription: Inscription1 in Silsilat al Dhahab folio
+- ![ Inscription1 in Silsilat al Dhahab folio ](https://ids.si.edu/ids/iiif/FS-8473_04/1179,1786,518,164/200,/0/default.jpg)
+- **Styles:** aat:300195198
+- **Persian Text:** به رسم کتابخانه سلطان ابوالفتح ابن ابراهيم ميرزا
+
+### mdhn:Text_or_Verses: Text Block 1
+- ![ Text Block 1 ](https://ids.si.edu/ids/iiif/FS-8473_04/530,4998,519,310/200,/0/default.jpg)
+- **Styles:** aat:300265532
+- **Persian Text:** سر فراگوش خر فروش آورد
+
+---
+
 
 
 
@@ -4529,7 +4636,7 @@
 
 ---
 
-## ResourceCanvas: f.32 — Mirza Ali Asghar Khan Amin Ol Soltan and Mohammad Ali Shah Qajar
+## ResourceCanvas: f.32 — Nasiruddin Shah(with overcoat) and group of his Ministers and attendants.
 - **Canvas Types:** aat:300046300
 - **Depicts:** mdhn:Photography, mdhn:Horse, mdhn:Horse_Spur, mdhn:Horse_Tack, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:HorseStirrup
 
@@ -4541,43 +4648,6 @@
 ### mdhn:Fragment_Cropped_Photo: cropped photo from Page 32 of The strangling of Persia
 - ![ cropped photo from Page 32 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0032.jp2/225,1577,1521,1240/200,/90/default.jpg)
 - **Iconography Tags (elementLOUD):** mdhn:Mohammad_Ali_Shah_Qajar
-- **Styles:** aat:500011081
-
----
-
-## ResourceCanvas: f.36 — Mushirud Dawla and Aynud Dawla
-- **Canvas Types:** aat:300046300
-- **Depicts:** mdhn:Portrait_Photograph
-
-### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
-- ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0037.jp2/54,275,1619,1194/200,/270/default.jpg)
-- **Iconography Tags (elementLOUD):** mdhn:Hassan_Pirnia
-- **Styles:** aat:500011081
-
-### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
-- ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0037.jp2/20,1644,1658,1200/200,/270/default.jpg)
-- **Iconography Tags (elementLOUD):** mdhn:Abdol_Majid_Mirza
-- **Styles:** aat:500011081
-
----
-
-## ResourceCanvas: f.44 — Russian and Persian Officers of The Notorious Cossack Brigard. This has been one of the chief instruments of sussian influence and oppression in Persia
-- **Canvas Types:** aat:300046300
-- **Depicts:** mdhn:Photography, mdhn:Cossack_Brigard, mdhn:tgn7002004, mdhn:Firearms_Weopen, mdhn:Sword, mdhn:Dagger
-
-### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
-- ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0044.jp2/307,192,1584,2402/200,/90/default.jpg)
-- **Styles:** aat:500011081
-
----
-
-## ResourceCanvas: f.50 — Muhammad Ali Shah (now ex-Shah) and his Suite. At the Bagh-i Shah near Tehran.
-- **Canvas Types:** aat:300046300
-- **Depicts:** mdhn:Photography, mdhn:tgn7002004, mdhn:Sword, mdhn:Dagger
-
-### mdhn:Fragment_Cropped_Photo: cropped photo from Page 36 of The strangling of Persia
-- ![ cropped photo from Page 36 of The strangling of Persia ](https://iiif.archive.org/image/iiif/3/stranglingofpers00shus%2Fstranglingofpers00shus_jp2.zip%2Fstranglingofpers00shus_jp2%2Fstranglingofpers00shus_0050.jp2/256,349,1601,1892/200,/90/default.jpg)
-- **Iconography Tags (elementLOUD):** mdhn:Mohammad_Ali_Shah_Qajar, mdhn:Ahmad_Shah_Qajar, mdhn:Mehdi_Gholi_Khan_Majd_Ol_Dawleh
 - **Styles:** aat:500011081
 
 ---
@@ -4720,85 +4790,12 @@
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
 
-## Manifest: The new Persia
-
-## ResourceCanvas: f.8 — Reza Shah Pahlavi
-- **Canvas Types:** aat:300046300
-- **Depicts:** mdhn:Portrait_Photograph, mdhn:Pahlavi_hat, mdhn:Medal, mdhn:Decoration
-
-### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped photo from page 8 of The new Persia
-- ![ Reza Shah Pahlavi cropped photo from page 8 of The new Persia ](https://iiif.archive.org/image/iiif/3/newpersia00shee%2Fnewpersia00shee_jp2.zip%2Fnewpersia00shee_jp2%2Fnewpersia00shee_0008.jp2/189,287,1828,2827/200,/0/default.jpg)
-- **Iconography Tags (elementLOUD):** mdhn:Reza_Shah_Pahlavi
-- **Styles:** aat:500011081
-
----
-
-## ResourceCanvas: f.55 — His Highness The Farman Farma Father of Prince Firuz
-- **Canvas Types:** aat:300046300
-- **Depicts:** mdhn:Portrait_Photograph, mdhn:Stick, mdhn:Headgear, mdhn:Carpet, mdhn:Curtain
-
-### mdhn:Fragment_Cropped_Photo: AbdolHossein Mirza cropped photo from page 55 of The new Persia
-- ![ AbdolHossein Mirza cropped photo from page 55 of The new Persia ](https://iiif.archive.org/image/iiif/3/newpersia00shee%2Fnewpersia00shee_jp2.zip%2Fnewpersia00shee_jp2%2Fnewpersia00shee_0055.jp2/79,306,1863,2849/200,/0/default.jpg)
-- **Iconography Tags (elementLOUD):** mdhn:AbdolHossein_Mirza_Farmanfarma
-- **Styles:** aat:500011081
-
----
-
 
 
 
 # Myron Bement Smith Collection
 
 **Hierarchical Canvas Decomposition (ResourceCanvas → Content Elements)**
-
-## Manifest: Portrait of Reza Shah Pahlavi with Boris Shumyatsky, the Soviet Ambassador
-
-## ResourceCanvas: f.1 — Portrait of Reza Shah Pahlavi with Boris Shumyatsky, the Soviet Ambassador
-- **Canvas Types:** aat:300046300
-- **Depicts:** mdhn:Reza_Shah_Pahlavi, mdhn:Boris_Zakharovic_Shumyatsky, mdhn:Tree, mdhn:Carpet, mdhn:Stair
-
-### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.26.01
-- ![ Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.26.01 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.26.01/621,1000,446,1032/200,/0/default.jpg)
-- **Iconography Tags (elementLOUD):** mdhn:Reza_Shah_Pahlavi
-- **Styles:** mdhn:Fragment_Cropped_Photo
-
-### mdhn:Fragment_Cropped_Photo: Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.26.01
-- ![ Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.26.01 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.26.01/1043,1043,446,1032/200,/0/default.jpg)
-- **Iconography Tags (elementLOUD):** mdhn:Boris_Zakharovic_Shumyatsky
-- **Styles:** mdhn:Fragment_Cropped_Photo
-
----
-
-## Manifest: Group Portrait of Soviet Ambassador Boris Shumiatsky with Riza Shah and Persian Cabinet Ministers
-
-## ResourceCanvas: f.1 — Group Portrait of Soviet Ambassador
-- **Canvas Types:** aat:300046300
-- **Depicts:** mdhn:Reza_Shah_Pahlavi, mdhn:Boris_Zakharovic_Shumyatsky, mdhn:Tree, mdhn:Carpet, mdhn:Stair
-
-### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.07
-- ![ Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.07 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.07/1101,839,310,686/200,/0/default.jpg)
-- **Iconography Tags (elementLOUD):** mdhn:Reza_Shah_Pahlavi
-- **Styles:** mdhn:Fragment_Cropped_Photo
-
-### mdhn:Fragment_Cropped_Photo: Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.27.07
-- ![ Boris Zakharovic Shumyatsky cropped figure from FS-FSA_A.4_2.12.GN.27.07 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.07/1346,845,218,674/200,/0/default.jpg)
-- **Iconography Tags (elementLOUD):** mdhn:Boris_Zakharovic_Shumyatsky
-- **Styles:** mdhn:Fragment_Cropped_Photo
-
----
-
-## Manifest: Portrait of Reza Shah Pahlavi on a Horse while Minister of War
-
-## ResourceCanvas: f.1 — Portrait of Reza Shah Pahlavi on a Horse while Minister of War
-- **Canvas Types:** aat:300046300
-- **Depicts:** mdhn:Reza_Shah_Pahlavi, mdhn:Horse, mdhn:Tree, mdhn:Horse_Spur, mdhn:Horse_Tack, mdhn:Horse_Saddle, mdhn:Horse_Riding, mdhn:HorseStirrup, mdhn:Fence
-
-### mdhn:Fragment_Cropped_Photo: Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.08
-- ![ Reza Shah Pahlavi cropped figure from FS-FSA_A.4_2.12.GN.27.08 ](https://ids.si.edu/ids/iiif/FS-FSA_A.4_2.12.GN.27.08/1188,483,554,1260/200,/0/default.jpg)
-- **Iconography Tags (elementLOUD):** mdhn:Reza_Shah_Pahlavi
-- **Styles:** mdhn:Fragment_Cropped_Photo
-
----
 
 
 
