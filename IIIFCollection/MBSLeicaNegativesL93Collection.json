@@ -1,0 +1,5869 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL93Collection.json",
+    "@type": "sc:Collection",
+    "label": "MBS Leica Negatives # L93",
+    "viewingHint": "multi-part",
+    "navDate": "1930-09-15T12:00:00.0000000Z",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithPhotographsCollection.json",
+    "summary": {
+        "en": [
+            "Myron Bement Smith Leica 35 mm negative roll L93. FSA.A.04 FSA.A.04_ref10707, 39 frame(s). Smithsonian National Museum of Asian Art Archives. Gift of Katherine Dennis Smith."
+        ]
+    },
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 90 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://ids.si.edu/ids/iiif/FS-FSA-2026-015166/full/700,/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 1047,
+            "width": 700,
+            "service": [
+                {
+                    "id": "https://ids.si.edu/ids/iiif/FS-FSA-2026-015166",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 1047,
+                    "width": 700,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "manifests": [
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015166",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.1"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015166"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015167",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.2"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.2"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015167"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015168",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.3"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.3"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015168"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015169",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.4"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.4"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015169"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015170",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.5"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.5"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015170"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015171",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.6"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.6"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015171"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015172",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.7"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.7"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015172"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015173",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.8"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.8"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015173"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015174",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.9"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.9"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015174"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015175",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.10"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.10"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015175"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015176",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.11"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.11"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015176"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015177",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.12"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.12"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015177"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015178",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.13"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.13"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015178"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015179",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.14"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.14"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015179"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015180",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.15"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.15"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015180"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015181",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.16"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.16"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015181"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015182",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.17"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.17"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015182"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015183",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.18"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.18"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015183"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015184",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.19"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.19"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015184"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015185",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.20"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.20"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015185"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015186",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.21"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.21"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015186"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015187",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.22"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.22"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015187"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015188",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.23"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.23"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015188"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015189",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.24"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.24"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015189"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015190",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.25"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.25"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015190"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015191",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.26"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.26"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015191"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015192",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.27"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.27"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015192"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015193",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.28"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.28"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015193"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015194",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.29"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.29"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015194"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015195",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.30"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.30"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015195"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015196",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.31"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.31"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015196"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015197",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.32"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.32"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015197"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015198",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.33"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.33"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015198"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015199",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.34"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.34"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015199"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015200",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.35"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.35"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015200"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015201",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.36"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.36"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015201"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015202",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.37"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.37"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015202"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015203",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.38"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.38"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015203"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://ids.si.edu/ids/manifest/FS-FSA-2026-015204",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "L93.39"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "L93.39"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Myron Bement Smith",
+                            "wd:Q98396885"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Photographer": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "FormerOwner": [
+                            "mdhn:Myron_Bement_Smith"
+                        ],
+                        "GiftFrom": [
+                            "mdhn:Katherine_Dennis_Smith"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "1"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300046300",
+                            "aat:300127173",
+                            "schema:Photograph"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "PartOf"
+                    },
+                    "value": {
+                        "en": [
+                            "vcol:1000115"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Header"
+                    },
+                    "value": {
+                        "en": [
+                            "tgm:tgm000469_Architecture",
+                            "aat:300127173"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Subject Place"
+                    },
+                    "value": {
+                        "en": [
+                            "tgn:tgn7002004"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "SOVA"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "FS-FSA-2026-015204"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1930"
+                            ],
+                            "gregorian_82b": [
+                                "1939"
+                            ],
+                            "hijri_82a": [
+                                "1348"
+                            ],
+                            "hijri_82b": [
+                                "1358"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1930s AD"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
