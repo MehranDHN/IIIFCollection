@@ -144,6 +144,20 @@
 
 ## [John Malcolm](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/JohnMalcolmCollection.json)
 
+## [Laurence Lockhart Photographs](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsCollection.json) 
+   - [105 C, Iran, Isfahan](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsRef8269Collection.json)
+   - [105 C, Iran, Kashan part 1](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsRef8270Collection.json) 
+   - [105 C, Iran, Kashan part 2](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsRef8271Collection.json)  
+   - [105 C, Iran, Khorasan part 1](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsRef8272Collection.json)  
+   - [105 C, Iran, Khorasan part 2](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsRef8273Collection.json)  
+   - [105 C, Iran, Khuzestan](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsRef8274Collection.json)  
+   - [105 C, Iran, Kirman Qum](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsRef8275Collection.json)  
+   - [105 C, Iran, Mazandaran](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsRef8276Collection.json)  
+   - [105 C, Iran, Qazvin part 1](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsRef8277Collection.json)  
+   - [105 C, Iran, Qazvin part 2](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsRef8278Collection.json)  
+   - [105 C, Iran, Tehran](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsRef8279Collection.json)  
+   - [105 C, Iran, Tehran city](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/LaurenceLockhartPhotographsRef8280Collection.json)                       
+
 ## [Malcolm Napier](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MalcolmNapierCollection.json)
 
 ## Manuscript
@@ -222,6 +236,7 @@
      - [Abdollah Mirza Qajar Photo Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/AbdollahMirzaQajarCollection.json)
      - [Annemarie Schwarzenbach Photographs Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/AnnemarieSchwarzenbachCollection.json)
      - [Bement Smith Photographs](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithPhotographsCollection.json)
+       - MBS Leica negative rolls (`MBSLeicaNegativesL{n}Collection.json`, nested under the parent collection)
      - [Denis Bally Slide Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/DenisBallySlideCollection.json) 
      - [Garth Fowden Photograph Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/GarthFowdenCollection.json) 
      - [Harvard Masjid-i-Shah Collection](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/HarvardMasjidShahPhotoCollection.json)      
