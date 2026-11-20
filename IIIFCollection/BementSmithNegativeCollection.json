@@ -1,0 +1,2635 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        {
+            "aat": "http://vocab.getty.edu/aat/",
+            "schema": "https://schema.org/",
+            "wd": "https://www.wikidata.org/wiki/",
+            "tgm": "http://id.loc.gov/vovabulary/graphicMaterials/"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json",
+    "@type": "sc:Collection",
+    "label": "MBS Leica Negatives Collection",
+    "metadata": [
+        {
+            "label": "Physical description",
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
+        },
+        {
+            "label": "Contributors",
+            "value": "MehranDHN"
+        },
+        {
+            "label": "Notes",
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 62 international GLAM institutions.<br/> Key technical aspects:"
+        },
+        {
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Interoperability",
+            "value": "Supports seeAlso for external data sources; designed for knowledge graph extraction, SPARQL queries, and automated processing"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
+        }
+    ],
+    "summary": {
+        "en": [
+            "SOVA fsa.a.04 Bement Smith Leica Negatives Collection",
+            "Created by : MehranDHN"
+        ]
+    },
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "logo": "https://pbs.twimg.com/profile_images/1618734410865459200/NyWpyMqQ_400x400.jpg",
+    "thumbnail": [
+        {
+            "id": "https://iiif.archive.org/image/iiif/3/dr_isfahan-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423341%2F13423341.jp2/full/687,/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 427,
+            "width": 687,
+            "service": [
+                {
+                    "id": "https://iiif.archive.org/image/iiif/3/dr_isfahan-to-accompany-adam-olearius-ausfuhrliche-beschreibung-der-kundba-13423341%2F13423341.jp2",
+                    "type": "ImageService3",
+                    "profile": "level1",
+                    "height": 427,
+                    "width": 687,
+                    "extraFormats": [
+                        "png"
+                    ],
+                    "extraQualities": [
+                        "default",
+                        "color",
+                        "gray"
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                        {
+                            "height": 512,
+                            "scaleFactors": [
+                                1,
+                                2,
+                                4,
+                                8
+                            ],
+                            "width": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "viewingHint": "multi-part",
+    "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/IIIF2Collection.json",
+    "collections": [
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL1Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L1",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL2Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L2",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL3Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L3",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL4Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L4",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL5Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L5",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL6Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L6",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL7Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L7",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL8Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L8",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL9Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L9",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL10Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L10",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL11Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L11",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL12Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L12",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL13Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L13",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL14Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L14",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL15Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L15",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL16Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L16",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL17Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L17",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL18Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L18",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL19Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L19",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL20Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L20",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL21Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L21",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL22Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L22",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL23Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L23",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL24Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L24",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL25Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L25",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL26Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L26",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL27Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L27",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL28Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L28",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL29Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L29",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL30Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L30",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL31Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L31",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL32Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L32",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL33Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L33",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL34Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L34",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL35Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L35",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL36Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L36",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL37Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L37",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL38Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L38",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL39Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L39",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL40Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L40",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL41Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L41",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL42Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L42",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL43Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L43",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL44Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L44",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL45Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L45",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL46Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L46",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL47Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L47",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL48Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L48",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL49Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L49",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL50Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L50",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL51Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L51",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL52Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L52",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL53Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L53",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL54Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L54",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL55Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L55",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL56Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L56",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL57Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L57",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL58Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L58",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL59Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L59",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL60Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L60",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL61Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L61",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL62Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L62",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL63Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L63",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL64Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L64",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL65Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L65",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL66Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L66",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL67Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L67",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL68Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L68",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL69Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L69",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL70Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L70",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL71Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L71",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL72Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L72",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL73Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L73",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL74Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L74",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL75Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L75",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL76Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L76",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL77Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L77",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL78Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L78",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL79Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L79",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL80Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L80",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL81Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L81",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL82Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L82",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL83Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L83",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL84Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L84",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL85Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L85",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL86Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L86",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL87Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L87",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL88Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L88",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL89Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L89",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL90Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L90",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL91Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L91",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL92Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L92",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL93Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L93",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL94Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L94",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL95Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L95",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL96Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L96",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL97Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L97",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL98Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L98",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL99Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L99",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL100Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L100",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL101Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L101",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL102Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L102",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL103Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L103",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL104Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L104",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL105Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L105",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL106Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L106",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL107Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L107",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL108Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L108",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL109Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L109",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL110Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L110",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL111Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L111",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL112Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L112",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL113Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L113",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL114Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L114",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL115Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L115",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL116Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L116",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL117Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L117",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL118Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L118",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL119Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L119",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL120Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L120",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL121Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L121",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL122Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L122",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL123Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L123",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL124aCollection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L124a",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL125Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L125",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL126Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L126",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL127Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L127",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL128Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L128",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL129Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L129",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL130Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L130",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL131Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L131",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL132Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L132",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL133Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L133",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL134Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L134",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL134aCollection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L134a",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL135Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L135",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL136Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L136",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL137Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L137",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL138Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L138",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL139Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L139",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL140Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L140",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL141Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L141",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL142Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L142",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL143Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L143",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL144Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L144",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL145Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L145",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL146Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L146",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL147Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L147",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL148Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L148",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL149Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L149",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL150Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L150",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL151Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L151",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL152Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L152",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL153Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L153",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL154Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L154",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL155Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L155",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL156Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L156",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL157Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L157",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL158Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L158",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL159Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L159",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL160Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L160",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL161Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L161",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL162Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L162",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL163Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L163",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL164Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L164",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL165Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L165",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL166Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L166",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL167Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L167",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL168Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L168",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL169Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L169",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL170Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L170",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL171Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L171",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL172Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L172",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL173Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L173",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL174Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L174",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL175Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L175",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL176Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L176",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL177Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L177",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL178Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L178",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL179Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L179",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL180Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L180",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL181Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L181",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL182Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L182",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL183Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L183",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL184Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L184",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL185Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L185",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL186Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L186",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL187Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L187",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL188Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L188",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL189Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L189",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL190Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L190",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL191Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L191",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL192Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L192",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL193Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L193",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL194Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L194",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL195Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L195",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL196Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L196",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL197Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L197",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL198Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L198",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL199Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L199",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL200Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L200",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL201Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L201",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL202Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L202",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL203Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L203",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL204Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L204",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL205Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L205",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL206Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L206",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL207Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L207",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL208Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L208",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL209Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L209",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL210Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L210",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL211Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L211",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL212Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L212",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL213Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L213",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL214Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L214",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL215Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L215",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL216Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L216",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL217Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L217",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL218Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L218",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL219Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L219",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL220Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L220",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL221Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L221",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL222Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L222",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL223Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L223",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL224Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L224",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL225Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L225",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL226Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L226",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL227Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L227",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL228Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L228",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL229Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L229",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL230Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L230",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL231Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L231",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL232Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L232",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL233Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L233",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL234Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L234",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL235Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L235",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL236Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L236",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL237Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L237",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL238Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L238",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL239Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L239",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL240Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L240",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL241Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L241",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL242Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L242",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL243Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L243",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL244Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L244",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL245Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L245",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL246Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L246",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL247Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L247",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL248Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L248",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL249Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L249",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL250Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L250",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL251Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L251",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL252Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L252",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL253Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L253",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL255Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L255",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL256Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L256",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL257Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L257",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL258Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L258",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL259Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L259",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL260Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L260",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL261Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L261",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL262Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L262",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL263Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L263",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL264Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L264",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL265Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L265",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL266Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L266",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL267Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L267",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL268Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L268",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL269Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L269",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL269ACollection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L269A",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL270Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L270",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL271Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L271",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL272Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L272",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL273Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L273",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL274Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L274",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL275Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L275",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL276Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L276",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL277Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L277",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL278Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L278",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL279Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L279",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL280Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L280",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL281Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L281",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL282Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L282",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL283Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L283",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL284Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L284",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL285Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L285",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL286Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L286",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL287Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L287",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL288Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L288",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL288aCollection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L288a 1959",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL289Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L289",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL290Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L290",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL291Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L291",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL292Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L292",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL293Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L293",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL294Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L294",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL295Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L295",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL296Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L296",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL298Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L298",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL299Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L299",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL300Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L300",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL301Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L301",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL302Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L302",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL303Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L303",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL304Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L304",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL305Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L305",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL306Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L306",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL307Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L307",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL308Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L308",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL309Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L309",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL310Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L310",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesL311Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # L311",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegatives20Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives # 20",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegatives1939Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives 1939",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegatives1940Collection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives 1940",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/MBSLeicaNegativesUntitledCollection.json",
+            "@type": "sc:Collection",
+            "label": "MBS Leica Negatives [untitled]",
+            "viewingHint": "multi-part",
+            "navDate": "1930-09-15T12:00:00.0000000Z",
+            "within": "https://raw.githubusercontent.com/MehranDHN/IIIFCollection/refs/heads/master/IIIFCollection/BementSmithNegativeCollection.json.json"
+        }
+    ]
+}
