@@ -12,12 +12,8 @@
     "label": "Abdar Rahman Jami Collection",
     "metadata": [
         {
-            "label": "Publication/creation",
-            "value": "Tehran: MehranDHN"
-        },
-        {
             "label": "Physical description",
-            "value": "Machine readable catalogue compatible with IIIF 2.0 Presentation API"
+            "value": "A machine readable hierarchical Digital Cultural Heritage Catalogue compatible with IIIF 2.0 Presentation API."
         },
         {
             "label": "Contributors",
@@ -25,11 +21,35 @@
         },
         {
             "label": "Notes",
-            "value": "All items have coresponding IIIF 3.0 manifests with internal references to more details. The field seeAlso should be parsed carefully."
+            "value": "IIIFDexir is a large-scale, nested IIIF Collection ecosystem built on the International Image Interoperability Framework (IIIF) Presentation API. It features a root collection with deeply hierarchical sub-collections, integrating IIIF resources (Manifests and Collections) from approximately 90 international GLAM institutions.<br/> Key technical aspects:"
         },
         {
-            "label": "Subjects",
-            "value": "Travel, Life Styles, Politic, Culture, Art, Architecture, History, Geography, Archeology."
+            "label": "Structure",
+            "value": "Tree-like nesting of Collections and Manifests in JSON-LD format, enabling recursive browsing in compliant viewers."
+        },
+        {
+            "label": "Semantic Enrichment",
+            "value": "Augmented with custom RDF ontology (Turtle format) defining classes (e.g., ResourceCollection, DigitalResource, Creator) and properties (e.g., hasCreator, hasTGNPlace), aligned with standards like Schema.org, Wikidata, AAT, and TGN."
+        },
+        {
+            "label": "Folio and Content Decomposition",
+            "value": "A core innovation in IIIFDexir is the granular decomposition of manuscript folios leveraging the IIIF Canvas concept (IIIF Presentation API). Each folio is modeled as a Canvas, which serves as a spatial container for its visual and textual content. This is further broken down into multiple content elements—discrete, semantically rich units that enable precise annotation, querying, and interoperability"
+        },
+        {
+            "label": "Focus",
+            "value": "Thematic aggregation of Persian/Iranian cultural materials, including \"Departed Collections\" that logically reunify physically dispersed assets."
+        },
+        {
+            "label": "Queryable",
+            "value": "The data is fully RDF compliant, enabling advanced queries using SPARQL across collections based on semantic annotations."
+        },
+        {
+            "label": "Data Visualization",
+            "value": "The observation of the whole collection structure and relationships is facilitated through any graph visualization can understand RDF."
+        },
+        {
+            "label": "Source",
+            "value": "Hosted at https://github.com/MehranDHN/IIIFCollection (root collection typically at paths like IIIFCollection/IIIF2Collection.json)."
         }
     ],
     "summary": {
@@ -2324,6 +2344,169 @@
                         "en": [
                             "1484 AD",
                             "889 AH"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://content.staatsbibliothek-berlin.de/dc/741102102/manifest",
+            "type": "Manifest",
+            "label": {
+                "en": [
+                    "Yūsuf wa-Zulaiḫā"
+                ],
+                "fa": [
+                    "يوسف و زليخا"
+                ]
+            },
+            "metadata": [
+                {
+                    "label": {
+                        "en": "Title"
+                    },
+                    "value": {
+                        "en": "Yūsuf wa-Zulaiḫā",
+                        "fa": "يوسف و زليخا"
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Author"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "Nur ad-Dīn Abd ar-Rahmān Jāmī",
+                            "WD:Q312458"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Agents"
+                    },
+                    "value": {
+                        "Poet": [
+                            "mdhn:Nur_ad_Dīn_Abd_ar_Rahman_Jami"
+                        ],
+                        "Calligrapher": [
+                            "mdhn:Ali_Reza_Kateb"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Language"
+                    },
+                    "value": {
+                        "en": "Persian"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "CanvasCount"
+                    },
+                    "value": {
+                        "en": "323"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Styles"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265532"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Depicts"
+                    },
+                    "value": {
+                        "en": [
+                            "mdhn:Haft_Awrang",
+                            "mdhn:Yusuf_and_Zulaikha"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "biblissima"
+                    },
+                    "value": {
+                        "en": "https://data.biblissima.fr/entity/Q00000"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Shelfmark"
+                    },
+                    "value": {
+                        "en": "Sprenger 1420"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Content Type"
+                    },
+                    "value": {
+                        "en": [
+                            "aat:300265483",
+                            "aat:300026451"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Hosted By"
+                    },
+                    "value": {
+                        "en": "Berlin"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "Unique ID"
+                    },
+                    "value": {
+                        "en": "741102102"
+                    }
+                },
+                {
+                    "label": {
+                        "en": "E52TimeSpan"
+                    },
+                    "value": {
+                        "en": {
+                            "gregorian_82a": [
+                                "1599"
+                            ],
+                            "gregorian_82b": [
+                                "1599"
+                            ],
+                            "hijri_82a": [
+                                "993"
+                            ],
+                            "hijri_82b": [
+                                "993"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "en": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "en": [
+                            "1599 AD",
+                            "993 AH"
                         ]
                     }
                 }
